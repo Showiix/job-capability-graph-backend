@@ -12,4 +12,7 @@
 - OpenAI-compatible LLM API
 - Docker Compose 单机部署
 
-完整设计见[后端技术架构详细设计](./outputs/岗位能力图谱系统_后端技术架构详细设计.md)。
+设计文档：
+
+- [后端技术架构详细设计](./outputs/岗位能力图谱系统_后端技术架构详细设计.md)
+- [数据库与 API 详细设计](./outputs/岗位能力图谱系统_数据库与API详细设计.md)
