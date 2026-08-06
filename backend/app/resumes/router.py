@@ -4,13 +4,18 @@ from uuid import UUID
 from fastapi import APIRouter, File, Form, Header, Query, Request, UploadFile
 
 from app.api.dependencies import CSRF, DB, Identity
+from app.resumes.schemas import ManualProfileReplaceRequest
 from app.resumes.service import (
+    archive_resume,
+    confirm_profile,
+    create_manual_revision,
     create_resume,
     extracted_text,
     get_visible_resume,
     list_profiles,
     list_resumes,
     profile_detail,
+    replace_manual_draft,
     resume_detail,
 )
 
@@ -87,6 +92,74 @@ async def profile(
     return {"data": await profile_detail(db, resume, version_no)}
 
 
+@router.post("/{resume_id}/profiles/{version_no}/revisions", status_code=201)
+async def create_revision(
+    resume_id: UUID,
+    version_no: int,
+    request: Request,
+    db: DB,
+    identity: Identity,
+    _csrf: CSRF,
+) -> dict:
+    actor, _ = identity
+    revision = await create_manual_revision(
+        db,
+        resume_id=resume_id,
+        source_version_no=version_no,
+        actor=actor,
+        request_id=request.state.request_id,
+        ip_address=request.client.host if request.client else None,
+    )
+    resume = await get_visible_resume(db, resume_id, actor)
+    return {"data": await profile_detail(db, resume, revision.version_no)}
+
+
+@router.put("/{resume_id}/profiles/{version_no}")
+async def replace_draft(
+    resume_id: UUID,
+    version_no: int,
+    payload: ManualProfileReplaceRequest,
+    request: Request,
+    db: DB,
+    identity: Identity,
+    _csrf: CSRF,
+) -> dict:
+    actor, _ = identity
+    draft = await replace_manual_draft(
+        db,
+        resume_id=resume_id,
+        version_no=version_no,
+        request=payload,
+        actor=actor,
+        request_id=request.state.request_id,
+        ip_address=request.client.host if request.client else None,
+    )
+    resume = await get_visible_resume(db, resume_id, actor)
+    return {"data": await profile_detail(db, resume, draft.version_no)}
+
+
+@router.post("/{resume_id}/profiles/{version_no}/confirm")
+async def confirm(
+    resume_id: UUID,
+    version_no: int,
+    request: Request,
+    db: DB,
+    identity: Identity,
+    _csrf: CSRF,
+) -> dict:
+    actor, _ = identity
+    profile = await confirm_profile(
+        db,
+        resume_id=resume_id,
+        version_no=version_no,
+        actor=actor,
+        request_id=request.state.request_id,
+        ip_address=request.client.host if request.client else None,
+    )
+    resume = await get_visible_resume(db, resume_id, actor)
+    return {"data": await profile_detail(db, resume, profile.version_no)}
+
+
 @router.get("/{resume_id}/extracted-text")
 async def get_extracted_text(
     resume_id: UUID,
@@ -105,6 +178,25 @@ async def get_extracted_text(
             ip_address=request.client.host if request.client else None,
         )
     }
+
+
+@router.post("/{resume_id}/archive")
+async def archive(
+    resume_id: UUID,
+    request: Request,
+    db: DB,
+    identity: Identity,
+    _csrf: CSRF,
+) -> dict:
+    actor, _ = identity
+    resume = await archive_resume(
+        db,
+        resume_id=resume_id,
+        actor=actor,
+        request_id=request.state.request_id,
+        ip_address=request.client.host if request.client else None,
+    )
+    return {"data": await resume_detail(db, resume, actor)}
 
 
 @router.get("/{resume_id}")

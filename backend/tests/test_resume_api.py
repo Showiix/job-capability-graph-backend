@@ -1,3 +1,5 @@
+import asyncio
+import copy
 from datetime import UTC, datetime, timedelta
 from decimal import Decimal
 from io import BytesIO
@@ -7,12 +9,16 @@ from uuid import UUID, uuid4
 from zipfile import ZIP_DEFLATED, ZipFile
 
 import pytest
-from sqlalchemy import func, select
+import pytest_asyncio
+from sqlalchemy import delete, func, select
 
 import app.resumes.service as resume_service
 from app.audit.models import AuditLog
+from app.auth.models import User
 from app.catalog.models import Capability, Domain
+from app.core.security import hash_password
 from app.files.models import StoredFile
+from app.infrastructure.database import SessionFactory
 from app.infrastructure.file_storage import FileStorage
 from app.processing.models import IdempotencyRecord, ProcessingRun
 from app.resumes.models import Resume, ResumeProfile, ResumeSkill
@@ -20,6 +26,52 @@ from app.resumes.models import Resume, ResumeProfile, ResumeSkill
 RESUME_PDF_BYTES = (
     Path(__file__).parent / "fixtures" / "resume_text.pdf"
 ).read_bytes()
+MANUAL_SOURCE_TEXT = (
+    "2021-09 至 2025-06 示例大学 计算机科学 本科\n"
+    "2024-01 至 2024-03 示例公司 使用 Python 开发服务\n"
+    "FastAPI 作品项目"
+)
+MANUAL_REPLACEMENT = {
+    "document_language": "zh-CN",
+    "summary": "用户确认后的画像",
+    "educations": [
+        {
+            "school_name": "示例大学",
+            "major": "计算机科学",
+            "education_level": "bachelor",
+            "start_month": "2021-09",
+            "end_month": "2025-06",
+            "is_current": False,
+            "evidence_quote": (
+                "2021-09 至 2025-06 示例大学 计算机科学 本科"
+            ),
+        }
+    ],
+    "experiences": [
+        {
+            "company_name": "示例公司",
+            "job_title": "开发工程师",
+            "start_month": "2024-01",
+            "end_month": "2024-03",
+            "is_current": False,
+            "responsibilities": ["使用 Python 开发服务"],
+            "evidence_quote": (
+                "2024-01 至 2024-03 示例公司 使用 Python 开发服务"
+            ),
+        }
+    ],
+    "projects": [],
+    "skills": [
+        {
+            "raw_name": "Python",
+            "capability_id": None,
+            "proficiency": "advanced",
+            "explicit_experience_months": 24,
+            "evidence_strength": "work",
+            "evidence_quote": "使用 Python 开发服务",
+        }
+    ],
+}
 
 
 @pytest.fixture
@@ -178,6 +230,108 @@ async def seed_skill(
     db.add(value)
     await db.flush()
     return value
+
+
+async def seed_manual_profile(
+    db,
+    resume: Resume,
+    owner,
+    source: ResumeProfile,
+    *,
+    version_no: int,
+    status: str = "draft",
+) -> ResumeProfile:
+    profile = ResumeProfile(
+        id=uuid4(),
+        resume_id=resume.id,
+        base_profile_id=source.id,
+        version_no=version_no,
+        extraction_version=source.extraction_version,
+        profile_source="manual_revision",
+        extracted_text=source.extracted_text,
+        text_extraction_method=source.text_extraction_method,
+        highest_education_level=source.highest_education_level,
+        total_experience_months=source.total_experience_months,
+        structured_payload=copy.deepcopy(source.structured_payload),
+        status=status,
+        created_by_run_id=None,
+        created_by_user_id=owner.id,
+        confirmed_at=datetime.now(UTC)
+        if status in {"confirmed", "superseded"}
+        else None,
+    )
+    db.add(profile)
+    await db.flush()
+    return profile
+
+
+async def seed_capability(db, *, status: str = "active") -> Capability:
+    domain = Domain(
+        id=uuid4(),
+        code=f"resume-lifecycle-{uuid4().hex}",
+        name="简历生命周期测试",
+        status="active",
+        sort_order=0,
+    )
+    db.add(domain)
+    await db.flush()
+    capability = Capability(
+        id=uuid4(),
+        domain_id=domain.id,
+        canonical_name=f"Python-{uuid4().hex[:8]}",
+        skill_type="technical",
+        status=status,
+        source_type="manual",
+    )
+    db.add(capability)
+    await db.flush()
+    return capability
+
+
+@pytest_asyncio.fixture
+async def seeded_resume_profile(db_session, make_user):
+    owner, password = await make_user(role="applicant")
+    resume = await seed_resume(db_session, owner)
+    candidate = await seed_profile(
+        db_session,
+        resume,
+        owner,
+        version_no=1,
+        extracted_text=MANUAL_SOURCE_TEXT,
+        payload={
+            "schema_version": "resume_parse_v1",
+            "document_language": "zh-CN",
+            "summary": "模型抽取画像",
+            "educations": [],
+            "experiences": [],
+            "projects": [],
+            "validation_warnings": [],
+            "llm_metadata": {"response_id": "resp_test", "total_tokens": 30},
+        },
+    )
+    await seed_skill(
+        db_session,
+        candidate,
+        raw_name="Python",
+        normalized_name="python",
+    )
+    await seed_skill(
+        db_session,
+        candidate,
+        raw_name="SQL",
+        normalized_name="sql",
+    )
+    return resume, candidate, owner, password
+
+
+async def create_draft(client, login, resume, source, owner, password):
+    csrf = await login(owner.username, password)
+    response = await client.post(
+        f"/api/v1/resumes/{resume.id}/profiles/{source.version_no}/revisions",
+        headers={"X-CSRF-Token": csrf},
+    )
+    assert response.status_code == 201
+    return csrf, response.json()["data"]["version_no"]
 
 
 async def test_applicant_uploads_pdf_and_receives_poll_url(
@@ -811,3 +965,907 @@ async def test_extracted_text_read_records_audit_without_text_metadata(
         "version_no": 1,
     }
     assert "绝不能" not in str(audit.metadata_)
+
+
+async def test_candidate_creates_manual_revision_draft(
+    client,
+    seeded_resume_profile,
+    login,
+):
+    resume, candidate, owner, password = seeded_resume_profile
+    csrf = await login(owner.username, password)
+
+    response = await client.post(
+        f"/api/v1/resumes/{resume.id}/profiles/{candidate.version_no}/revisions",
+        headers={"X-CSRF-Token": csrf},
+    )
+
+    assert response.status_code == 201
+    data = response.json()["data"]
+    assert data["version_no"] == candidate.version_no + 1
+    assert data["profile_source"] == "manual_revision"
+    assert data["status"] == "draft"
+    assert data["base_profile_version"] == candidate.version_no
+
+
+async def test_confirmed_profile_can_create_revision(
+    client,
+    db_session,
+    make_user,
+    login,
+):
+    owner, password = await make_user(role="applicant")
+    resume = await seed_resume(db_session, owner)
+    confirmed = await seed_profile(
+        db_session,
+        resume,
+        owner,
+        version_no=1,
+        status="confirmed",
+    )
+    csrf = await login(owner.username, password)
+
+    response = await client.post(
+        f"/api/v1/resumes/{resume.id}/profiles/{confirmed.version_no}/revisions",
+        headers={"X-CSRF-Token": csrf},
+    )
+
+    assert response.status_code == 201
+    assert response.json()["data"]["status"] == "draft"
+
+
+@pytest.mark.parametrize("source_status", ["draft", "superseded"])
+async def test_draft_and_superseded_cannot_create_revision(
+    client,
+    db_session,
+    make_user,
+    login,
+    source_status,
+):
+    owner, password = await make_user(role="applicant")
+    resume = await seed_resume(db_session, owner)
+    candidate = await seed_profile(db_session, resume, owner, version_no=1)
+    if source_status == "draft":
+        source = await seed_manual_profile(
+            db_session,
+            resume,
+            owner,
+            candidate,
+            version_no=2,
+        )
+    else:
+        source = await seed_profile(
+            db_session,
+            resume,
+            owner,
+            version_no=2,
+            status="superseded",
+        )
+    csrf = await login(owner.username, password)
+
+    response = await client.post(
+        f"/api/v1/resumes/{resume.id}/profiles/{source.version_no}/revisions",
+        headers={"X-CSRF-Token": csrf},
+    )
+
+    assert response.status_code == 409
+    assert response.json()["error"]["code"] == (
+        "RESUME_PROFILE_NOT_REVISION_SOURCE"
+    )
+
+
+async def test_revision_is_owner_or_admin_only(
+    client,
+    seeded_resume_profile,
+    make_user,
+    login,
+):
+    resume, candidate, _owner, _password = seeded_resume_profile
+    other, other_password = await make_user(role="applicant")
+    admin, admin_password = await make_user(role="admin")
+    other_csrf = await login(other.username, other_password)
+
+    denied = await client.post(
+        f"/api/v1/resumes/{resume.id}/profiles/{candidate.version_no}/revisions",
+        headers={"X-CSRF-Token": other_csrf},
+    )
+    admin_csrf = await login(admin.username, admin_password)
+    allowed = await client.post(
+        f"/api/v1/resumes/{resume.id}/profiles/{candidate.version_no}/revisions",
+        headers={"X-CSRF-Token": admin_csrf},
+    )
+
+    assert denied.status_code == 404
+    assert denied.json()["error"]["code"] == "RESOURCE_NOT_OWNED"
+    assert allowed.status_code == 201
+
+
+async def test_revision_copies_payload_text_and_skills_without_mutating_source(
+    client,
+    db_session,
+    seeded_resume_profile,
+    login,
+):
+    resume, candidate, owner, password = seeded_resume_profile
+    payload_before = copy.deepcopy(candidate.structured_payload)
+    source_skills_before = [
+        (
+            skill.raw_name,
+            skill.source,
+            skill.user_confirmed,
+            skill.evidence_quote,
+        )
+        for skill in (
+            await db_session.scalars(
+                select(ResumeSkill)
+                .where(ResumeSkill.profile_id == candidate.id)
+                .order_by(ResumeSkill.normalized_name)
+            )
+        ).all()
+    ]
+    csrf = await login(owner.username, password)
+
+    response = await client.post(
+        f"/api/v1/resumes/{resume.id}/profiles/{candidate.version_no}/revisions",
+        headers={"X-CSRF-Token": csrf},
+    )
+
+    assert response.status_code == 201
+    draft_id = UUID(response.json()["data"]["id"])
+    draft = await db_session.get(ResumeProfile, draft_id)
+    draft_skills = [
+        (
+            skill.raw_name,
+            skill.source,
+            skill.user_confirmed,
+            skill.evidence_quote,
+        )
+        for skill in (
+            await db_session.scalars(
+                select(ResumeSkill)
+                .where(ResumeSkill.profile_id == draft.id)
+                .order_by(ResumeSkill.normalized_name)
+            )
+        ).all()
+    ]
+    await db_session.refresh(candidate)
+    assert draft.extracted_text == candidate.extracted_text
+    assert draft.structured_payload == payload_before
+    assert draft_skills == source_skills_before
+    assert candidate.structured_payload == payload_before
+    assert (
+        await db_session.scalar(
+            select(func.count()).select_from(ResumeSkill).where(
+                ResumeSkill.profile_id == candidate.id
+            )
+        )
+        == 2
+    )
+
+
+async def test_concurrent_revisions_receive_distinct_monotonic_versions():
+    assert hasattr(resume_service, "create_manual_revision")
+    user_id = uuid4()
+    file_id = uuid4()
+    resume_id = uuid4()
+    run_id = uuid4()
+    profile_id = uuid4()
+    username = f"revision_{uuid4().hex[:12]}"
+    actor = User(
+        id=user_id,
+        username=username,
+        username_normalized=username,
+        password_hash=hash_password("concurrent-revision-password"),
+        display_name="Concurrent Revision",
+        role="applicant",
+        password_changed_at=datetime.now(UTC),
+    )
+    try:
+        async with SessionFactory() as setup:
+            setup.add(actor)
+            await setup.flush()
+            stored_file = StoredFile(
+                id=file_id,
+                uploaded_by_user_id=user_id,
+                original_name="concurrent.pdf",
+                storage_key=f"resume/{file_id}.pdf",
+                media_type="application/pdf",
+                extension="pdf",
+                size_bytes=10,
+                sha256="c" * 64,
+                category="resume",
+                scan_status="not_required",
+                status="attached",
+            )
+            run = ProcessingRun(
+                id=run_id,
+                run_type="parse_resume",
+                subject_type="resume",
+                subject_id=resume_id,
+                created_by_user_id=user_id,
+                owner_scope_type="user",
+                owner_scope_id=user_id,
+                status="completed",
+                pipeline_version="resume_parse_v1",
+                total_count=1,
+                processed_count=1,
+                success_count=1,
+                max_attempts=1,
+                input_snapshot={},
+                result_summary={},
+            )
+            setup.add_all([stored_file, run])
+            await setup.flush()
+            resume = Resume(
+                id=resume_id,
+                owner_user_id=user_id,
+                file_id=file_id,
+                display_name="并发简历",
+                source_language="zh-CN",
+                parse_status="ready",
+                latest_run_id=run_id,
+                created_by_user_id=user_id,
+            )
+            setup.add(resume)
+            await setup.flush()
+            setup.add(
+                ResumeProfile(
+                    id=profile_id,
+                    resume_id=resume_id,
+                    version_no=1,
+                    extraction_version="resume_parse_v1",
+                    profile_source="extracted",
+                    extracted_text="Python",
+                    text_extraction_method="pdf_text",
+                    structured_payload={},
+                    status="candidate",
+                    created_by_run_id=run_id,
+                    created_by_user_id=user_id,
+                )
+            )
+            await setup.commit()
+
+        async with SessionFactory() as first, SessionFactory() as second:
+            revisions = await asyncio.gather(
+                resume_service.create_manual_revision(
+                    first,
+                    resume_id=resume_id,
+                    source_version_no=1,
+                    actor=actor,
+                    request_id="concurrent-a",
+                    ip_address=None,
+                ),
+                resume_service.create_manual_revision(
+                    second,
+                    resume_id=resume_id,
+                    source_version_no=1,
+                    actor=actor,
+                    request_id="concurrent-b",
+                    ip_address=None,
+                ),
+            )
+        assert {profile.version_no for profile in revisions} == {2, 3}
+    finally:
+        async with SessionFactory() as cleanup:
+            await cleanup.execute(
+                delete(AuditLog).where(AuditLog.actor_user_id == user_id)
+            )
+            await cleanup.execute(
+                delete(ResumeSkill).where(
+                    ResumeSkill.profile_id.in_(
+                        select(ResumeProfile.id).where(
+                            ResumeProfile.resume_id == resume_id
+                        )
+                    )
+                )
+            )
+            await cleanup.execute(
+                delete(ResumeProfile).where(ResumeProfile.resume_id == resume_id)
+            )
+            await cleanup.execute(delete(Resume).where(Resume.id == resume_id))
+            await cleanup.execute(
+                delete(ProcessingRun).where(ProcessingRun.id == run_id)
+            )
+            await cleanup.execute(delete(StoredFile).where(StoredFile.id == file_id))
+            await cleanup.execute(delete(User).where(User.id == user_id))
+            await cleanup.commit()
+
+
+@pytest.mark.parametrize("status", ["candidate", "confirmed"])
+async def test_only_manual_draft_can_be_replaced(
+    client,
+    db_session,
+    make_user,
+    login,
+    status,
+):
+    owner, password = await make_user(role="applicant")
+    resume = await seed_resume(db_session, owner)
+    profile = await seed_profile(
+        db_session,
+        resume,
+        owner,
+        version_no=1,
+        status=status,
+        extracted_text=MANUAL_SOURCE_TEXT,
+    )
+    csrf = await login(owner.username, password)
+
+    response = await client.put(
+        f"/api/v1/resumes/{resume.id}/profiles/{profile.version_no}",
+        json=MANUAL_REPLACEMENT,
+        headers={"X-CSRF-Token": csrf},
+    )
+
+    assert response.status_code == 409
+    assert response.json()["error"]["code"] == "RESUME_PROFILE_NOT_EDITABLE"
+
+
+async def test_put_replaces_all_payload_sections_and_skills(
+    client,
+    db_session,
+    seeded_resume_profile,
+    login,
+):
+    resume, candidate, owner, password = seeded_resume_profile
+    csrf, draft_version = await create_draft(
+        client, login, resume, candidate, owner, password
+    )
+
+    response = await client.put(
+        f"/api/v1/resumes/{resume.id}/profiles/{draft_version}",
+        json=MANUAL_REPLACEMENT,
+        headers={"X-CSRF-Token": csrf},
+    )
+
+    assert response.status_code == 200
+    data = response.json()["data"]
+    assert data["profile"]["summary"] == "用户确认后的画像"
+    assert len(data["profile"]["educations"]) == 1
+    assert len(data["profile"]["experiences"]) == 1
+    assert data["profile"]["projects"] == []
+    assert [skill["raw_name"] for skill in data["skills"]] == ["Python"]
+    draft = await db_session.scalar(
+        select(ResumeProfile).where(
+            ResumeProfile.resume_id == resume.id,
+            ResumeProfile.version_no == draft_version,
+        )
+    )
+    assert (
+        await db_session.scalar(
+            select(func.count()).select_from(ResumeSkill).where(
+                ResumeSkill.profile_id == draft.id
+            )
+        )
+        == 1
+    )
+    assert draft.structured_payload["llm_metadata"] == {
+        "response_id": "resp_test",
+        "total_tokens": 30,
+    }
+
+
+async def test_manual_skills_become_confirmed_source_with_confidence_one(
+    client,
+    db_session,
+    seeded_resume_profile,
+    login,
+):
+    resume, candidate, owner, password = seeded_resume_profile
+    csrf, draft_version = await create_draft(
+        client, login, resume, candidate, owner, password
+    )
+
+    response = await client.put(
+        f"/api/v1/resumes/{resume.id}/profiles/{draft_version}",
+        json=MANUAL_REPLACEMENT,
+        headers={"X-CSRF-Token": csrf},
+    )
+
+    assert response.status_code == 200
+    skill = response.json()["data"]["skills"][0]
+    assert skill["source"] == "manual"
+    assert skill["user_confirmed"] is True
+    assert skill["confidence"] == 1.0
+    assert skill["mapping_status"] == "unmapped"
+    persisted = await db_session.get(ResumeSkill, UUID(skill["id"]))
+    assert persisted.source == "manual"
+    assert persisted.user_confirmed is True
+    assert persisted.confidence == Decimal("1.0000")
+
+
+async def test_manual_evidence_exact_match_gets_offsets(
+    client,
+    seeded_resume_profile,
+    login,
+):
+    resume, candidate, owner, password = seeded_resume_profile
+    csrf, draft_version = await create_draft(
+        client, login, resume, candidate, owner, password
+    )
+
+    response = await client.put(
+        f"/api/v1/resumes/{resume.id}/profiles/{draft_version}",
+        json=MANUAL_REPLACEMENT,
+        headers={"X-CSRF-Token": csrf},
+    )
+
+    assert response.status_code == 200
+    data = response.json()["data"]
+    evidence_items = [
+        data["profile"]["educations"][0],
+        data["profile"]["experiences"][0],
+        data["skills"][0],
+    ]
+    for item in evidence_items:
+        assert MANUAL_SOURCE_TEXT[
+            item["evidence_start"] : item["evidence_end"]
+        ] == item["evidence_quote"]
+
+
+async def test_manual_evidence_missing_or_not_found_becomes_null_and_warning(
+    client,
+    seeded_resume_profile,
+    login,
+):
+    resume, candidate, owner, password = seeded_resume_profile
+    csrf, draft_version = await create_draft(
+        client, login, resume, candidate, owner, password
+    )
+    payload = copy.deepcopy(MANUAL_REPLACEMENT)
+    payload["educations"][0]["evidence_quote"] = "不存在的学历证据"
+    payload["experiences"][0]["evidence_quote"] = None
+    payload["projects"] = [
+        {
+            "project_name": "不存在项目",
+            "role": None,
+            "description": None,
+            "start_month": None,
+            "end_month": None,
+            "is_current": False,
+            "evidence_quote": "不存在的项目证据",
+        }
+    ]
+
+    response = await client.put(
+        f"/api/v1/resumes/{resume.id}/profiles/{draft_version}",
+        json=payload,
+        headers={"X-CSRF-Token": csrf},
+    )
+
+    assert response.status_code == 200
+    profile = response.json()["data"]["profile"]
+    for section in ("educations", "experiences", "projects"):
+        item = profile[section][0]
+        assert item["evidence_quote"] is None
+        assert item["evidence_start"] is None
+        assert item["evidence_end"] is None
+    warnings = profile["validation_warnings"]
+    assert any(value.startswith("EDUCATION_EVIDENCE_NOT_FOUND:") for value in warnings)
+    assert any(value.startswith("EXPERIENCE_EVIDENCE_NOT_FOUND:") for value in warnings)
+    assert any(value.startswith("PROJECT_EVIDENCE_NOT_FOUND:") for value in warnings)
+
+
+async def test_manual_skill_without_valid_quote_has_mention_strength(
+    client,
+    seeded_resume_profile,
+    login,
+):
+    resume, candidate, owner, password = seeded_resume_profile
+    csrf, draft_version = await create_draft(
+        client, login, resume, candidate, owner, password
+    )
+    payload = copy.deepcopy(MANUAL_REPLACEMENT)
+    payload["skills"][0]["evidence_quote"] = "不存在的技能证据"
+
+    response = await client.put(
+        f"/api/v1/resumes/{resume.id}/profiles/{draft_version}",
+        json=payload,
+        headers={"X-CSRF-Token": csrf},
+    )
+
+    assert response.status_code == 200
+    skill = response.json()["data"]["skills"][0]
+    assert skill["evidence_strength"] == "mention"
+    assert skill["evidence_quote"] is None
+    assert skill["evidence_start"] is None
+    assert skill["evidence_end"] is None
+
+
+async def test_manual_skill_capability_must_be_active(
+    client,
+    db_session,
+    seeded_resume_profile,
+    login,
+):
+    resume, candidate, owner, password = seeded_resume_profile
+    capability = await seed_capability(db_session, status="deprecated")
+    csrf, draft_version = await create_draft(
+        client, login, resume, candidate, owner, password
+    )
+    payload = copy.deepcopy(MANUAL_REPLACEMENT)
+    payload["skills"][0]["capability_id"] = str(capability.id)
+
+    response = await client.put(
+        f"/api/v1/resumes/{resume.id}/profiles/{draft_version}",
+        json=payload,
+        headers={"X-CSRF-Token": csrf},
+    )
+
+    assert response.status_code == 409
+    assert response.json()["error"]["code"] == "RESUME_CAPABILITY_NOT_ACTIVE"
+
+
+async def test_duplicate_normalized_manual_skill_names_are_rejected(
+    client,
+    seeded_resume_profile,
+    login,
+):
+    resume, candidate, owner, password = seeded_resume_profile
+    csrf, draft_version = await create_draft(
+        client, login, resume, candidate, owner, password
+    )
+    payload = copy.deepcopy(MANUAL_REPLACEMENT)
+    duplicate = copy.deepcopy(payload["skills"][0])
+    duplicate["raw_name"] = " python "
+    payload["skills"].append(duplicate)
+
+    response = await client.put(
+        f"/api/v1/resumes/{resume.id}/profiles/{draft_version}",
+        json=payload,
+        headers={"X-CSRF-Token": csrf},
+    )
+
+    assert response.status_code == 422
+    assert response.json()["error"]["code"] == "VALIDATION_FAILED"
+
+
+async def test_different_manual_names_cannot_map_same_capability(
+    client,
+    db_session,
+    seeded_resume_profile,
+    login,
+):
+    resume, candidate, owner, password = seeded_resume_profile
+    capability = await seed_capability(db_session)
+    csrf, draft_version = await create_draft(
+        client, login, resume, candidate, owner, password
+    )
+    payload = copy.deepcopy(MANUAL_REPLACEMENT)
+    payload["skills"][0]["capability_id"] = str(capability.id)
+    second = copy.deepcopy(payload["skills"][0])
+    second["raw_name"] = "Py"
+    payload["skills"].append(second)
+
+    response = await client.put(
+        f"/api/v1/resumes/{resume.id}/profiles/{draft_version}",
+        json=payload,
+        headers={"X-CSRF-Token": csrf},
+    )
+
+    assert response.status_code == 422
+    assert response.json()["error"]["code"] == "VALIDATION_FAILED"
+
+
+async def test_candidate_can_be_confirmed(
+    client,
+    db_session,
+    seeded_resume_profile,
+    login,
+):
+    resume, candidate, owner, password = seeded_resume_profile
+    csrf = await login(owner.username, password)
+
+    response = await client.post(
+        f"/api/v1/resumes/{resume.id}/profiles/{candidate.version_no}/confirm",
+        headers={"X-CSRF-Token": csrf},
+    )
+
+    assert response.status_code == 200
+    assert response.json()["data"]["status"] == "confirmed"
+    await db_session.refresh(candidate)
+    assert candidate.status == "confirmed"
+    assert candidate.confirmed_at is not None
+
+
+async def test_draft_can_be_confirmed(
+    client,
+    db_session,
+    seeded_resume_profile,
+    login,
+):
+    resume, candidate, owner, password = seeded_resume_profile
+    csrf, draft_version = await create_draft(
+        client, login, resume, candidate, owner, password
+    )
+
+    response = await client.post(
+        f"/api/v1/resumes/{resume.id}/profiles/{draft_version}/confirm",
+        headers={"X-CSRF-Token": csrf},
+    )
+
+    assert response.status_code == 200
+    assert response.json()["data"]["status"] == "confirmed"
+    draft = await db_session.scalar(
+        select(ResumeProfile).where(
+            ResumeProfile.resume_id == resume.id,
+            ResumeProfile.version_no == draft_version,
+        )
+    )
+    assert draft.confirmed_at is not None
+
+
+async def test_confirming_new_profile_supersedes_old_confirmed(
+    client,
+    db_session,
+    make_user,
+    login,
+):
+    owner, password = await make_user(role="applicant")
+    resume = await seed_resume(db_session, owner)
+    old = await seed_profile(
+        db_session,
+        resume,
+        owner,
+        version_no=1,
+        status="confirmed",
+    )
+    target = await seed_profile(db_session, resume, owner, version_no=2)
+    csrf = await login(owner.username, password)
+
+    response = await client.post(
+        f"/api/v1/resumes/{resume.id}/profiles/{target.version_no}/confirm",
+        headers={"X-CSRF-Token": csrf},
+    )
+
+    assert response.status_code == 200
+    await db_session.refresh(old)
+    await db_session.refresh(target)
+    assert old.status == "superseded"
+    assert old.confirmed_at is not None
+    assert target.status == "confirmed"
+    assert target.confirmed_at is not None
+
+
+async def test_only_one_confirmed_profile_remains_after_two_confirms(
+    client,
+    db_session,
+    make_user,
+    login,
+):
+    owner, password = await make_user(role="applicant")
+    resume = await seed_resume(db_session, owner)
+    first = await seed_profile(db_session, resume, owner, version_no=1)
+    second = await seed_profile(db_session, resume, owner, version_no=2)
+    csrf = await login(owner.username, password)
+
+    first_response = await client.post(
+        f"/api/v1/resumes/{resume.id}/profiles/{first.version_no}/confirm",
+        headers={"X-CSRF-Token": csrf},
+    )
+    second_response = await client.post(
+        f"/api/v1/resumes/{resume.id}/profiles/{second.version_no}/confirm",
+        headers={"X-CSRF-Token": csrf},
+    )
+
+    assert first_response.status_code == second_response.status_code == 200
+    assert (
+        await db_session.scalar(
+            select(func.count(ResumeProfile.id)).where(
+                ResumeProfile.resume_id == resume.id,
+                ResumeProfile.status == "confirmed",
+            )
+        )
+        == 1
+    )
+    await db_session.refresh(first)
+    await db_session.refresh(second)
+    assert first.status == "superseded"
+    assert second.status == "confirmed"
+
+
+async def test_superseded_profile_cannot_be_confirmed(
+    client,
+    db_session,
+    make_user,
+    login,
+):
+    owner, password = await make_user(role="applicant")
+    resume = await seed_resume(db_session, owner)
+    profile = await seed_profile(
+        db_session,
+        resume,
+        owner,
+        version_no=1,
+        status="superseded",
+    )
+    csrf = await login(owner.username, password)
+
+    response = await client.post(
+        f"/api/v1/resumes/{resume.id}/profiles/{profile.version_no}/confirm",
+        headers={"X-CSRF-Token": csrf},
+    )
+
+    assert response.status_code == 409
+    assert response.json()["error"]["code"] == "RESUME_PROFILE_NOT_CONFIRMABLE"
+
+
+async def test_profile_on_archived_resume_cannot_be_confirmed(
+    client,
+    db_session,
+    make_user,
+    login,
+):
+    owner, password = await make_user(role="applicant")
+    resume = await seed_resume(db_session, owner, parse_status="archived")
+    profile = await seed_profile(db_session, resume, owner, version_no=1)
+    csrf = await login(owner.username, password)
+
+    response = await client.post(
+        f"/api/v1/resumes/{resume.id}/profiles/{profile.version_no}/confirm",
+        headers={"X-CSRF-Token": csrf},
+    )
+
+    assert response.status_code == 409
+    assert response.json()["error"]["code"] == "RESUME_ARCHIVED"
+
+
+async def test_archive_rejects_processing_resume(
+    client,
+    db_session,
+    make_user,
+    login,
+):
+    owner, password = await make_user(role="applicant")
+    resume = await seed_resume(db_session, owner, parse_status="processing")
+    csrf = await login(owner.username, password)
+
+    response = await client.post(
+        f"/api/v1/resumes/{resume.id}/archive",
+        headers={"X-CSRF-Token": csrf},
+    )
+
+    assert response.status_code == 409
+    assert response.json()["error"]["code"] == "RESUME_PROCESSING"
+
+
+async def test_archive_marks_file_without_deleting_history(
+    client,
+    db_session,
+    seeded_resume_profile,
+    login,
+):
+    resume, candidate, owner, password = seeded_resume_profile
+    profile_count = await db_session.scalar(
+        select(func.count()).select_from(ResumeProfile).where(
+            ResumeProfile.resume_id == resume.id
+        )
+    )
+    skill_count = await db_session.scalar(
+        select(func.count()).select_from(ResumeSkill).where(
+            ResumeSkill.profile_id == candidate.id
+        )
+    )
+    run_count = await db_session.scalar(
+        select(func.count()).select_from(ProcessingRun).where(
+            ProcessingRun.subject_type == "resume",
+            ProcessingRun.subject_id == resume.id,
+        )
+    )
+    csrf = await login(owner.username, password)
+
+    response = await client.post(
+        f"/api/v1/resumes/{resume.id}/archive",
+        headers={"X-CSRF-Token": csrf},
+    )
+
+    assert response.status_code == 200
+    await db_session.refresh(resume)
+    stored_file = await db_session.get(StoredFile, resume.file_id)
+    assert resume.parse_status == "archived"
+    assert resume.archived_at is not None
+    assert stored_file.status == "archived"
+    assert (
+        await db_session.scalar(
+            select(func.count()).select_from(ResumeProfile).where(
+                ResumeProfile.resume_id == resume.id
+            )
+        )
+        == profile_count
+    )
+    assert (
+        await db_session.scalar(
+            select(func.count()).select_from(ResumeSkill).where(
+                ResumeSkill.profile_id == candidate.id
+            )
+        )
+        == skill_count
+    )
+    assert (
+        await db_session.scalar(
+            select(func.count()).select_from(ProcessingRun).where(
+                ProcessingRun.subject_type == "resume",
+                ProcessingRun.subject_id == resume.id,
+            )
+        )
+        == run_count
+    )
+
+
+async def test_archive_is_owner_or_admin_only(
+    client,
+    db_session,
+    make_user,
+    login,
+):
+    owner, _ = await make_user(role="applicant")
+    other, other_password = await make_user(role="applicant")
+    admin, admin_password = await make_user(role="admin")
+    resume = await seed_resume(db_session, owner)
+    other_csrf = await login(other.username, other_password)
+
+    denied = await client.post(
+        f"/api/v1/resumes/{resume.id}/archive",
+        headers={"X-CSRF-Token": other_csrf},
+    )
+    admin_csrf = await login(admin.username, admin_password)
+    allowed = await client.post(
+        f"/api/v1/resumes/{resume.id}/archive",
+        headers={"X-CSRF-Token": admin_csrf},
+    )
+
+    assert denied.status_code == 404
+    assert denied.json()["error"]["code"] == "RESOURCE_NOT_OWNED"
+    assert allowed.status_code == 200
+
+
+@pytest.mark.parametrize(
+    ("method", "path_kind", "payload"),
+    [
+        ("POST", "revision", None),
+        ("PUT", "replace", MANUAL_REPLACEMENT),
+        ("POST", "confirm", None),
+        ("POST", "archive", None),
+    ],
+)
+async def test_all_lifecycle_writes_require_csrf(
+    client,
+    db_session,
+    make_user,
+    login,
+    method,
+    path_kind,
+    payload,
+):
+    owner, password = await make_user(role="applicant")
+    resume = await seed_resume(db_session, owner)
+    candidate = await seed_profile(
+        db_session,
+        resume,
+        owner,
+        version_no=1,
+        extracted_text=MANUAL_SOURCE_TEXT,
+    )
+    draft = await seed_manual_profile(
+        db_session,
+        resume,
+        owner,
+        candidate,
+        version_no=2,
+    )
+    await login(owner.username, password)
+    paths = {
+        "revision": (
+            f"/api/v1/resumes/{resume.id}/profiles/{candidate.version_no}/revisions"
+        ),
+        "replace": f"/api/v1/resumes/{resume.id}/profiles/{draft.version_no}",
+        "confirm": (
+            f"/api/v1/resumes/{resume.id}/profiles/{candidate.version_no}/confirm"
+        ),
+        "archive": f"/api/v1/resumes/{resume.id}/archive",
+    }
+
+    response = await client.request(method, paths[path_kind], json=payload)
+
+    assert response.status_code == 403
+    assert response.json()["error"]["code"] == "CSRF_VALIDATION_FAILED"

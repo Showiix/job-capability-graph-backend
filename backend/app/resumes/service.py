@@ -1,3 +1,4 @@
+import copy
 import hashlib
 import json
 from collections import defaultdict
@@ -8,7 +9,7 @@ from pathlib import Path
 from uuid import UUID, uuid4
 
 from fastapi import UploadFile
-from sqlalchemy import func, select
+from sqlalchemy import delete, func, select
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -30,10 +31,12 @@ from app.resumes.parsing import (
     derive_highest_education,
     derive_total_experience_months,
     detect_resume_document,
+    locate_evidence,
     skill_rank,
 )
 from app.resumes.schemas import (
     ExtractedTextResponse,
+    ManualProfileReplaceRequest,
     ResumeCreatedResponse,
     ResumeFileLinks,
     ResumeProfileResponse,
@@ -672,7 +675,7 @@ async def profile_detail(
     resume: Resume,
     version_no: int,
 ) -> dict:
-    profile = await _get_profile_for_resume(db, resume.id, version_no)
+    profile = await get_profile_for_resume(db, resume.id, version_no)
     base_profile_version = None
     if profile.base_profile_id is not None:
         base_profile_version = await db.scalar(
@@ -760,17 +763,406 @@ async def extracted_text(
     ).model_dump(mode="json")
 
 
-async def _get_profile_for_resume(
+async def create_manual_revision(
+    db: AsyncSession,
+    *,
+    resume_id: UUID,
+    source_version_no: int,
+    actor: User,
+    request_id: str,
+    ip_address: str | None,
+) -> ResumeProfile:
+    resume = await get_visible_resume(db, resume_id, actor, for_update=True)
+    if resume.parse_status == "archived":
+        raise APIError(409, "RESUME_ARCHIVED", "简历已归档")
+    source = await get_profile_for_resume(
+        db,
+        resume.id,
+        source_version_no,
+        for_update=True,
+    )
+    if source.status not in {"candidate", "confirmed"}:
+        raise APIError(
+            409,
+            "RESUME_PROFILE_NOT_REVISION_SOURCE",
+            "当前画像不能作为人工修订来源",
+        )
+    version_no = (
+        await db.scalar(
+            select(func.max(ResumeProfile.version_no)).where(
+                ResumeProfile.resume_id == resume.id
+            )
+        )
+        or 0
+    ) + 1
+    source_skills = (
+        await db.scalars(
+            select(ResumeSkill)
+            .where(ResumeSkill.profile_id == source.id)
+            .order_by(ResumeSkill.normalized_name, ResumeSkill.id)
+        )
+    ).all()
+    revision = ResumeProfile(
+        resume_id=resume.id,
+        base_profile_id=source.id,
+        version_no=version_no,
+        extraction_version=source.extraction_version,
+        profile_source="manual_revision",
+        extracted_text=source.extracted_text,
+        text_extraction_method=source.text_extraction_method,
+        highest_education_level=source.highest_education_level,
+        total_experience_months=source.total_experience_months,
+        structured_payload=copy.deepcopy(source.structured_payload),
+        status="draft",
+        created_by_run_id=None,
+        created_by_user_id=actor.id,
+    )
+    db.add(revision)
+    await db.flush()
+    db.add_all(
+        [
+            ResumeSkill(
+                profile_id=revision.id,
+                capability_id=skill.capability_id,
+                raw_name=skill.raw_name,
+                normalized_name=skill.normalized_name,
+                proficiency=skill.proficiency,
+                explicit_experience_months=skill.explicit_experience_months,
+                evidence_strength=skill.evidence_strength,
+                evidence_quote=skill.evidence_quote,
+                evidence_start=skill.evidence_start,
+                evidence_end=skill.evidence_end,
+                mapping_method=skill.mapping_method,
+                mapping_status=skill.mapping_status,
+                source=skill.source,
+                confidence=skill.confidence,
+                user_confirmed=skill.user_confirmed,
+            )
+            for skill in source_skills
+        ]
+    )
+    record_audit(
+        db,
+        action="resume_profile.revision_create",
+        resource_type="resume_profile",
+        resource_id=revision.id,
+        actor_user_id=actor.id,
+        outcome="success",
+        request_id=request_id,
+        ip_address=ip_address,
+        metadata={
+            "resume_id": str(resume.id),
+            "profile_id": str(revision.id),
+            "version_no": revision.version_no,
+            "base_profile_id": str(source.id),
+        },
+    )
+    await db.commit()
+    return revision
+
+
+async def replace_manual_draft(
+    db: AsyncSession,
+    *,
+    resume_id: UUID,
+    version_no: int,
+    request: ManualProfileReplaceRequest,
+    actor: User,
+    request_id: str,
+    ip_address: str | None,
+) -> ResumeProfile:
+    resume = await get_visible_resume(db, resume_id, actor, for_update=True)
+    if resume.parse_status == "archived":
+        raise APIError(409, "RESUME_ARCHIVED", "简历已归档")
+    profile = await get_profile_for_resume(
+        db,
+        resume.id,
+        version_no,
+        for_update=True,
+    )
+    if profile.profile_source != "manual_revision" or profile.status != "draft":
+        raise APIError(
+            409,
+            "RESUME_PROFILE_NOT_EDITABLE",
+            "只有人工修订草稿可以修改",
+        )
+
+    warnings: list[str] = []
+    educations = [
+        _manual_evidence_item(
+            item.model_dump(mode="python"),
+            profile.extracted_text,
+            warning_type="EDUCATION",
+            label=item.school_name,
+            warnings=warnings,
+        )
+        for item in request.educations
+    ]
+    experiences = [
+        _manual_evidence_item(
+            item.model_dump(mode="python"),
+            profile.extracted_text,
+            warning_type="EXPERIENCE",
+            label=item.company_name,
+            warnings=warnings,
+        )
+        for item in request.experiences
+    ]
+    projects = [
+        _manual_evidence_item(
+            item.model_dump(mode="python"),
+            profile.extracted_text,
+            warning_type="PROJECT",
+            label=item.project_name,
+            warnings=warnings,
+        )
+        for item in request.projects
+    ]
+
+    prepared_skills: list[dict] = []
+    normalized_names: set[str] = set()
+    capability_ids: list[UUID] = []
+    for item in request.skills:
+        normalized_name = normalize_skill_label(item.raw_name)
+        if not normalized_name or normalized_name in normalized_names:
+            raise APIError(422, "VALIDATION_FAILED", "技能名称重复或无效")
+        normalized_names.add(normalized_name)
+        evidence_quote = item.evidence_quote
+        offsets = (
+            locate_evidence(profile.extracted_text, evidence_quote)
+            if evidence_quote
+            else None
+        )
+        evidence_strength = item.evidence_strength
+        if offsets is None:
+            warnings.append(f"SKILL_EVIDENCE_NOT_FOUND:{item.raw_name}")
+            evidence_quote = None
+            evidence_strength = "mention"
+        capability_id = item.capability_id
+        if capability_id is not None:
+            capability_ids.append(capability_id)
+        prepared_skills.append(
+            {
+                "raw_name": item.raw_name,
+                "normalized_name": normalized_name,
+                "capability_id": capability_id,
+                "proficiency": item.proficiency,
+                "explicit_experience_months": item.explicit_experience_months,
+                "evidence_strength": evidence_strength,
+                "evidence_quote": evidence_quote,
+                "evidence_start": offsets[0] if offsets else None,
+                "evidence_end": offsets[1] if offsets else None,
+            }
+        )
+
+    if len(capability_ids) != len(set(capability_ids)):
+        raise APIError(422, "VALIDATION_FAILED", "多个技能不能映射到同一标准技能")
+    if capability_ids:
+        active_ids = set(
+            await db.scalars(
+                select(Capability.id).where(
+                    Capability.id.in_(capability_ids),
+                    Capability.status == "active",
+                )
+            )
+        )
+        if active_ids != set(capability_ids):
+            raise APIError(
+                409,
+                "RESUME_CAPABILITY_NOT_ACTIVE",
+                "所选标准技能不存在或未启用",
+            )
+
+    highest_education = derive_highest_education(educations)
+    total_experience_months, date_warnings = derive_total_experience_months(
+        experiences,
+        current_month=datetime.now(UTC).date().replace(day=1),
+    )
+    warnings.extend(date_warnings)
+    llm_metadata = copy.deepcopy(profile.structured_payload.get("llm_metadata"))
+    structured_payload = {
+        "schema_version": "resume_parse_v1",
+        "document_language": request.document_language,
+        "summary": request.summary,
+        "educations": educations,
+        "experiences": experiences,
+        "projects": projects,
+        "validation_warnings": warnings,
+    }
+    if llm_metadata is not None:
+        structured_payload["llm_metadata"] = llm_metadata
+
+    await db.execute(delete(ResumeSkill).where(ResumeSkill.profile_id == profile.id))
+    await db.flush()
+    db.add_all(
+        [
+            ResumeSkill(
+                profile_id=profile.id,
+                capability_id=skill["capability_id"],
+                raw_name=skill["raw_name"],
+                normalized_name=skill["normalized_name"],
+                proficiency=skill["proficiency"],
+                explicit_experience_months=skill["explicit_experience_months"],
+                evidence_strength=skill["evidence_strength"],
+                evidence_quote=skill["evidence_quote"],
+                evidence_start=skill["evidence_start"],
+                evidence_end=skill["evidence_end"],
+                mapping_method="manual"
+                if skill["capability_id"] is not None
+                else "unmapped",
+                mapping_status="mapped"
+                if skill["capability_id"] is not None
+                else "unmapped",
+                source="manual",
+                confidence=Decimal("1.0000"),
+                user_confirmed=True,
+            )
+            for skill in prepared_skills
+        ]
+    )
+    profile.structured_payload = structured_payload
+    profile.highest_education_level = highest_education
+    profile.total_experience_months = total_experience_months
+    profile.updated_at = datetime.now(UTC)
+    record_audit(
+        db,
+        action="resume_profile.draft_replace",
+        resource_type="resume_profile",
+        resource_id=profile.id,
+        actor_user_id=actor.id,
+        outcome="success",
+        request_id=request_id,
+        ip_address=ip_address,
+        metadata={"resume_id": str(resume.id), "version_no": profile.version_no},
+    )
+    await db.commit()
+    return profile
+
+
+async def confirm_profile(
+    db: AsyncSession,
+    *,
+    resume_id: UUID,
+    version_no: int,
+    actor: User,
+    request_id: str,
+    ip_address: str | None,
+) -> ResumeProfile:
+    resume = await get_visible_resume(db, resume_id, actor, for_update=True)
+    if resume.parse_status == "archived":
+        raise APIError(409, "RESUME_ARCHIVED", "简历已归档")
+    target = await get_profile_for_resume(
+        db,
+        resume.id,
+        version_no,
+        for_update=True,
+    )
+    if target.status not in {"candidate", "draft"}:
+        raise APIError(
+            409,
+            "RESUME_PROFILE_NOT_CONFIRMABLE",
+            "画像当前不可确认",
+        )
+    now = datetime.now(UTC)
+    current = await db.scalar(
+        select(ResumeProfile)
+        .where(
+            ResumeProfile.resume_id == resume.id,
+            ResumeProfile.status == "confirmed",
+        )
+        .with_for_update()
+    )
+    if current is not None:
+        current.status = "superseded"
+        current.confirmed_at = now
+        await db.flush()
+    target.status = "confirmed"
+    target.confirmed_at = now
+    record_audit(
+        db,
+        action="resume_profile.confirm",
+        resource_type="resume_profile",
+        resource_id=target.id,
+        actor_user_id=actor.id,
+        outcome="success",
+        request_id=request_id,
+        ip_address=ip_address,
+        metadata={"resume_id": str(resume.id), "version_no": target.version_no},
+    )
+    await db.commit()
+    return target
+
+
+async def archive_resume(
+    db: AsyncSession,
+    *,
+    resume_id: UUID,
+    actor: User,
+    request_id: str,
+    ip_address: str | None,
+) -> Resume:
+    resume = await get_visible_resume(db, resume_id, actor, for_update=True)
+    if resume.parse_status == "archived":
+        return resume
+    if resume.parse_status == "processing":
+        raise APIError(409, "RESUME_PROCESSING", "处理中的简历不能归档")
+    stored_file = await db.get(StoredFile, resume.file_id)
+    now = datetime.now(UTC)
+    resume.parse_status = "archived"
+    resume.archived_at = now
+    stored_file.status = "archived"
+    record_audit(
+        db,
+        action="resume.archive",
+        resource_type="resume",
+        resource_id=resume.id,
+        actor_user_id=actor.id,
+        outcome="success",
+        request_id=request_id,
+        ip_address=ip_address,
+        metadata={"file_id": str(resume.file_id)},
+    )
+    await db.commit()
+    await db.refresh(resume)
+    return resume
+
+
+def _manual_evidence_item(
+    item: dict,
+    extracted_text: str,
+    *,
+    warning_type: str,
+    label: str,
+    warnings: list[str],
+) -> dict:
+    evidence_quote = item.get("evidence_quote")
+    offsets = (
+        locate_evidence(extracted_text, evidence_quote) if evidence_quote else None
+    )
+    if offsets is None:
+        warnings.append(f"{warning_type}_EVIDENCE_NOT_FOUND:{label}")
+        item["evidence_quote"] = None
+        item["evidence_start"] = None
+        item["evidence_end"] = None
+    else:
+        item["evidence_start"], item["evidence_end"] = offsets
+    return item
+
+
+async def get_profile_for_resume(
     db: AsyncSession,
     resume_id: UUID,
     version_no: int,
+    *,
+    for_update: bool = False,
 ) -> ResumeProfile:
-    profile = await db.scalar(
-        select(ResumeProfile).where(
-            ResumeProfile.resume_id == resume_id,
-            ResumeProfile.version_no == version_no,
-        )
+    statement = select(ResumeProfile).where(
+        ResumeProfile.resume_id == resume_id,
+        ResumeProfile.version_no == version_no,
     )
+    if for_update:
+        statement = statement.with_for_update()
+    profile = await db.scalar(statement)
     if profile is None:
         raise APIError(404, "RESUME_PROFILE_NOT_FOUND", "简历画像不存在")
     return profile
