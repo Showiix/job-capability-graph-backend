@@ -16,6 +16,9 @@ os.environ.setdefault("FILE_STORAGE_ROOT", "/tmp/job-graph-tests")
 os.environ.setdefault("SESSION_SECRET", "test-secret-at-least-32-characters")
 os.environ.setdefault("CORS_ORIGINS", '["http://localhost:3000"]')
 os.environ.setdefault("ALGORITHM_SERVICE_URL", "http://algorithm:8001")
+os.environ.pop("LLM_RESPONSES_URL", None)
+os.environ.pop("LLM_API_KEY", None)
+os.environ.pop("LLM_MODEL", None)
 
 import pytest_asyncio
 from httpx import ASGITransport, AsyncClient

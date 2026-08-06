@@ -7,7 +7,11 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    model_config = SettingsConfigDict(env_file=".env", extra="ignore")
+    model_config = SettingsConfigDict(
+        env_file=".env",
+        extra="ignore",
+        env_ignore_empty=True,
+    )
 
     app_env: Literal["local", "test", "internal"]
     app_base_url: AnyHttpUrl
@@ -23,6 +27,9 @@ class Settings(BaseSettings):
     max_import_rows: int = Field(default=100_000, ge=1)
     cors_origins: list[str]
     algorithm_service_url: AnyHttpUrl
+    llm_responses_url: AnyHttpUrl | None = None
+    llm_api_key: SecretStr | None = None
+    llm_model: str | None = Field(default=None, min_length=1, max_length=200)
 
     @property
     def secure_cookie(self) -> bool:

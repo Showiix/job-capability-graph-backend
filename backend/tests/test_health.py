@@ -4,11 +4,13 @@ from uuid import uuid4
 import pytest
 import pytest_asyncio
 from httpx import ASGITransport, AsyncClient
+from pydantic import SecretStr
 
 from app.auth.models import User
+from app.core.config import get_settings
 from app.core.security import hash_password
 from app.main import app
-from app.system.service import DependencyStatus
+from app.system.service import DependencyStatus, llm_configuration_status
 
 
 async def login_as(client, username: str, password: str) -> None:
@@ -27,6 +29,7 @@ def dependency_statuses() -> dict[str, DependencyStatus]:
         "neo4j": DependencyStatus("ok", 3.0),
         "file_volume": DependencyStatus("ok", 1.0),
         "algorithm_service": DependencyStatus("degraded", None),
+        "llm_service": DependencyStatus("degraded", None),
     }
 
 
@@ -90,6 +93,61 @@ async def test_ready_succeeds_when_required_dependencies_are_ok(
     assert response.json()["status"] == "ready"
     assert response.json()["dependencies"]["postgresql"] == "ok"
     assert response.json()["dependencies"]["algorithm_service"] == "degraded"
+
+
+def test_llm_configuration_status_is_ok_only_when_all_fields_exist(monkeypatch):
+    settings = get_settings()
+    monkeypatch.setattr(
+        settings,
+        "llm_responses_url",
+        "https://provider.test/v1/responses",
+    )
+    monkeypatch.setattr(settings, "llm_api_key", SecretStr("test-key"))
+    monkeypatch.setattr(settings, "llm_model", "test-model")
+
+    assert llm_configuration_status() == DependencyStatus("ok", None)
+
+
+@pytest.mark.parametrize("missing", ["url", "key", "model"])
+def test_llm_configuration_status_is_degraded_when_one_field_is_missing(
+    monkeypatch,
+    missing,
+):
+    settings = get_settings()
+    monkeypatch.setattr(
+        settings,
+        "llm_responses_url",
+        None if missing == "url" else "https://provider.test/v1/responses",
+    )
+    monkeypatch.setattr(
+        settings,
+        "llm_api_key",
+        None if missing == "key" else SecretStr("test-key"),
+    )
+    monkeypatch.setattr(
+        settings,
+        "llm_model",
+        None if missing == "model" else "test-model",
+    )
+
+    assert llm_configuration_status() == DependencyStatus("degraded", None)
+
+
+async def test_ready_includes_degraded_llm_without_returning_503(
+    client,
+    monkeypatch,
+    dependency_statuses,
+):
+    dependency_statuses["llm_service"] = DependencyStatus("degraded", None)
+
+    async def statuses():
+        return dependency_statuses
+
+    monkeypatch.setattr("app.system.service.probe_dependencies", statuses)
+    response = await client.get("/health/ready")
+
+    assert response.status_code == 200
+    assert response.json()["dependencies"]["llm_service"] == "degraded"
 
 
 async def test_ready_fails_when_postgres_is_down(

@@ -32,6 +32,18 @@ def elapsed_ms(started: float) -> float:
     return round((monotonic() - started) * 1000, 2)
 
 
+def llm_configuration_status() -> DependencyStatus:
+    settings = get_settings()
+    configured = all(
+        (
+            settings.llm_responses_url,
+            settings.llm_api_key,
+            settings.llm_model,
+        )
+    )
+    return DependencyStatus("ok" if configured else "degraded", None)
+
+
 async def probe_postgres() -> DependencyStatus:
     started = monotonic()
     async with engine.connect() as connection:
@@ -71,6 +83,7 @@ async def probe_dependencies() -> dict[str, DependencyStatus]:
         "neo4j",
         "file_volume",
         "algorithm_service",
+        "llm_service",
     )
     results = await asyncio.gather(
         _safe_probe(probe_postgres),
@@ -79,7 +92,10 @@ async def probe_dependencies() -> dict[str, DependencyStatus]:
         _safe_probe(probe_file_volume),
         _safe_probe(probe_algorithm_service, failure_status="degraded"),
     )
-    return dict(zip(names, results, strict=True))
+    return {
+        **dict(zip(names[:-1], results, strict=True)),
+        "llm_service": llm_configuration_status(),
+    }
 
 
 async def dependency_diagnostics(db: AsyncSession) -> dict:
