@@ -9,6 +9,7 @@ from app.auth.models import User
 from app.core.security import hash_password
 from app.files.models import FileAccessLog, StoredFile
 from app.infrastructure.file_storage import FileStorage
+from app.resumes.models import Resume
 
 
 async def login_as(client, username: str, password: str) -> None:
@@ -86,7 +87,16 @@ async def stored_unattached_file(
 
 
 @pytest_asyncio.fixture
-async def attached_file(db_session, file_owner) -> StoredFile:
+async def attached_file(
+    db_session,
+    file_owner,
+    file_storage,
+    monkeypatch,
+) -> StoredFile:
+    monkeypatch.setattr("app.files.router.storage", file_storage)
+    path = file_storage.resolve("resume/attached.docx")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_bytes(b"resume doc")
     value = StoredFile(
         id=uuid4(),
         uploaded_by_user_id=file_owner.id,
@@ -101,6 +111,22 @@ async def attached_file(db_session, file_owner) -> StoredFile:
         category="resume",
         scan_status="clean",
         status="attached",
+    )
+    db_session.add(value)
+    await db_session.flush()
+    return value
+
+
+@pytest_asyncio.fixture
+async def attached_resume(db_session, file_owner, attached_file) -> Resume:
+    value = Resume(
+        id=uuid4(),
+        owner_user_id=file_owner.id,
+        file_id=attached_file.id,
+        display_name="attached.docx",
+        source_language="zh-CN",
+        parse_status="uploaded",
+        created_by_user_id=file_owner.id,
     )
     db_session.add(value)
     await db_session.flush()
@@ -162,6 +188,61 @@ async def test_attached_file_is_not_owned_by_original_uploader(
 
     assert response.status_code == 404
     assert response.json()["error"]["code"] == "RESOURCE_NOT_OWNED"
+
+
+async def test_resume_owner_can_read_attached_resume_file(
+    client,
+    file_owner,
+    attached_file,
+    attached_resume,
+) -> None:
+    await login_as(client, "file_owner", "owner-password")
+
+    response = await client.get(f"/api/v1/files/{attached_file.id}")
+
+    assert response.status_code == 200
+
+
+async def test_hr_cannot_read_attached_applicant_resume_file(
+    client,
+    other_user,
+    attached_file,
+    attached_resume,
+) -> None:
+    await login_as(client, "other_user", "other-password")
+
+    response = await client.get(f"/api/v1/files/{attached_file.id}")
+
+    assert response.status_code == 404
+    assert response.json()["error"]["code"] == "RESOURCE_NOT_OWNED"
+
+
+async def test_admin_can_read_attached_resume_file_and_access_is_audited(
+    client,
+    db_session,
+    make_user,
+    attached_file,
+    attached_resume,
+) -> None:
+    admin, password = await make_user(role="admin")
+    await login_as(client, admin.username, password)
+
+    metadata = await client.get(f"/api/v1/files/{attached_file.id}")
+    content = await client.get(f"/api/v1/files/{attached_file.id}/content")
+    download = await client.get(f"/api/v1/files/{attached_file.id}/download")
+    logs = (
+        await db_session.scalars(
+            select(FileAccessLog).where(FileAccessLog.file_id == attached_file.id)
+        )
+    ).all()
+
+    assert metadata.status_code == 200
+    assert content.status_code == 200
+    assert content.content == b"resume doc"
+    assert download.status_code == 200
+    assert download.content == b"resume doc"
+    assert {log.action for log in logs} == {"preview", "download"}
+    assert {log.user_id for log in logs} == {admin.id}
 
 
 def test_storage_key_cannot_escape_root(file_storage, tmp_path) -> None:
