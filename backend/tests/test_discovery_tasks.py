@@ -1,4 +1,5 @@
 from datetime import UTC, datetime
+from pathlib import Path
 from types import SimpleNamespace
 from uuid import uuid4
 
@@ -10,6 +11,7 @@ from app.catalog.models import Capability, CapabilityAlias, Domain
 from app.core.security import hash_password
 from app.discovery.models import (
     CombinationEvidence,
+    CombinationSkill,
     DiscoveryRun,
     JobAnalysisProfile,
     JobSkillCandidate,
@@ -23,6 +25,8 @@ from app.imports.models import (
     NormalizedJobPosting,
     RawJobPosting,
 )
+from app.imports.tasks import process_market_import
+from app.infrastructure.file_storage import FileStorage
 from app.processing.models import ProcessingError, ProcessingRun
 
 
@@ -396,3 +400,165 @@ async def test_worker_fails_without_active_capabilities(
     )
     assert error is not None
     assert error.stage == "loading"
+
+
+async def test_real_zhilian_sample_produces_traceable_candidates(
+    db_session,
+    discovery_admin,
+    tmp_path,
+    monkeypatch,
+) -> None:
+    content = (
+        Path(__file__).parent / "fixtures" / "zhilian_sample.tsv"
+    ).read_bytes()
+    storage = FileStorage(tmp_path / "files")
+    file_id = uuid4()
+    storage_key = f"market-jd/{file_id}.tsv"
+    path = storage.resolve(storage_key)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_bytes(content)
+    source = await db_session.scalar(
+        select(DataSource).where(DataSource.code == "zhilian")
+    )
+    stored_file = StoredFile(
+        id=file_id,
+        uploaded_by_user_id=discovery_admin.id,
+        original_name="zhilian_sample.tsv",
+        storage_key=storage_key,
+        media_type="text/tab-separated-values",
+        extension="tsv",
+        size_bytes=len(content),
+        sha256="f" * 64,
+        category="market_jd",
+        scan_status="not_required",
+        status="attached",
+    )
+    batch = ImportBatch(
+        id=uuid4(),
+        source_id=source.id,
+        file_id=file_id,
+        uploaded_by_user_id=discovery_admin.id,
+        collected_at=datetime(2026, 8, 6, tzinfo=UTC),
+        status="uploaded",
+        batch_summary={},
+    )
+    import_run = ProcessingRun(
+        id=uuid4(),
+        run_type="import_market_jd",
+        subject_type="import_batch",
+        subject_id=batch.id,
+        created_by_user_id=discovery_admin.id,
+        owner_scope_type="admin_global",
+        status="pending",
+        pipeline_version="zhilian_v1",
+        input_snapshot={},
+        result_summary={},
+    )
+    db_session.add_all([stored_file, batch, import_run])
+    await db_session.flush()
+    monkeypatch.setattr("app.imports.tasks.storage", storage)
+
+    import_result = await process_market_import(db_session, import_run.id)
+
+    assert import_result["total_rows"] == 307
+    assert batch.status in {"processed", "partial"}
+
+    domain = Domain(
+        id=uuid4(),
+        code="real-zhilian-discovery",
+        name="Real Zhilian Discovery",
+        status="active",
+        sort_order=0,
+    )
+    db_session.add(domain)
+    await db_session.flush()
+    capability_names = (
+        "Python",
+        "Java",
+        "自动化测试",
+        "功能测试",
+        "性能测试",
+        "软件测试",
+        "测试开发",
+    )
+    capabilities = [
+        Capability(
+            id=uuid4(),
+            domain_id=domain.id,
+            canonical_name=name,
+            status="active",
+            skill_type="method",
+            source_type="manual",
+        )
+        for name in capability_names
+    ]
+    db_session.add_all(capabilities)
+    await db_session.flush()
+    capability_count = await db_session.scalar(
+        select(func.count()).select_from(Capability)
+    )
+    discovery_processing, discovery_run = await _new_run(
+        db_session,
+        discovery_admin,
+        [batch.id],
+        minimum_support_jobs=2,
+        minimum_source_count=1,
+        minimum_quality_score=60,
+    )
+
+    result = await process_discovery_run(db_session, discovery_processing.id)
+    candidates = (
+        await db_session.scalars(
+            select(SkillCombinationCandidate).where(
+                SkillCombinationCandidate.discovery_run_id == discovery_run.id
+            )
+        )
+    ).all()
+
+    assert result["analyzed_job_count"] <= 307
+    assert result["candidate_count"] >= 1
+    assert candidates
+    assert all(candidate.novelty_score == 0 for candidate in candidates)
+    assert all(
+        candidate.definition_payload["novelty_status"] == "not_evaluated"
+        for candidate in candidates
+    )
+    for candidate in candidates:
+        skill_count = await db_session.scalar(
+            select(func.count()).select_from(CombinationSkill).where(
+                CombinationSkill.candidate_id == candidate.id
+            )
+        )
+        evidence_count = await db_session.scalar(
+            select(func.count()).select_from(CombinationEvidence).where(
+                CombinationEvidence.candidate_id == candidate.id
+            )
+        )
+        assert skill_count == 2
+        assert evidence_count >= 2
+
+    evidence_rows = (
+        await db_session.execute(
+            select(CombinationEvidence, RawJobPosting)
+            .join(
+                NormalizedJobPosting,
+                NormalizedJobPosting.id == CombinationEvidence.normalized_job_id,
+            )
+            .join(RawJobPosting, RawJobPosting.id == NormalizedJobPosting.raw_job_id)
+        )
+    ).all()
+    assert evidence_rows
+    assert all(raw.batch_id == batch.id for _, raw in evidence_rows)
+    assert all(
+        raw.source_code in {"zhilian", "zhilian_direct"}
+        for _, raw in evidence_rows
+    )
+    assert all(raw.source_url for _, raw in evidence_rows)
+    assert await db_session.scalar(
+        select(func.count()).select_from(JobSkillCandidate).where(
+            JobSkillCandidate.mapping_status == "unmapped"
+        )
+    ) > 0
+    assert await db_session.scalar(
+        select(func.count()).select_from(Capability)
+    ) == capability_count

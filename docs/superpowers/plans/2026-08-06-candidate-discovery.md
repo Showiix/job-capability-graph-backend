@@ -158,7 +158,7 @@ README.md                                         # Batch C 使用与边界
 - Create: `backend/alembic/versions/0007_create_discovery_tables.py`
 - Modify: `backend/alembic/env.py`
 
-- [ ] **Step 1: 写数据库 RED 测试**
+- [x] **Step 1: 写数据库 RED 测试**
 
 创建 `backend/tests/test_discovery_database_constraints.py`，先导入尚不存在的模型：
 
@@ -186,7 +186,7 @@ from app.discovery.models import (
 
 第一轮应在测试收集时得到 `ModuleNotFoundError: app.discovery`。
 
-- [ ] **Step 2: 运行 RED**
+- [x] **Step 2: 运行 RED**
 
 ```bash
 cd backend
@@ -195,7 +195,7 @@ uv run pytest tests/test_discovery_database_constraints.py -q
 
 预期：Discovery 模块不存在，测试失败。
 
-- [ ] **Step 3: 实现最小模型**
+- [x] **Step 3: 实现最小模型**
 
 `backend/app/discovery/models.py` 必须定义以下表：
 
@@ -280,7 +280,7 @@ PRIMARY KEY combination_skills(candidate_id, capability_id)
 PRIMARY KEY combination_evidence(candidate_id, normalized_job_id)
 ```
 
-- [ ] **Step 4: 生成并验证 Migration 0007**
+- [x] **Step 4: 生成并验证 Migration 0007**
 
 在 `backend/alembic/env.py` 导入 `app.discovery.models`，生成 Migration：
 
@@ -304,7 +304,7 @@ uv run alembic check
 
 预期：数据库 revision 为 `0007`，约束测试通过，Alembic 无新增操作。
 
-- [ ] **Step 5: 独立提交并推送**
+- [x] **Step 5: 独立提交并推送**
 
 ```bash
 git add backend/app/discovery backend/alembic/env.py \
@@ -323,7 +323,7 @@ git push -u origin codex/candidate-discovery
 - Create: `backend/tests/test_discovery_mining.py`
 - Create: `backend/app/discovery/mining.py`
 
-- [ ] **Step 1: 写纯函数 RED 测试**
+- [x] **Step 1: 写纯函数 RED 测试**
 
 测试以下公开接口：
 
@@ -351,7 +351,7 @@ from app.discovery.mining import (
 
 使用最小样例：3 个 JD 同时包含 Python/自动化测试，2 个包含 SQL；断言 Python + 自动化测试成为候选，低支持组合被过滤。
 
-- [ ] **Step 2: 运行 RED**
+- [x] **Step 2: 运行 RED**
 
 ```bash
 cd backend
@@ -360,7 +360,7 @@ uv run pytest tests/test_discovery_mining.py -q
 
 预期：`app.discovery.mining` 不存在，测试失败。
 
-- [ ] **Step 3: 实现标准库纯函数**
+- [x] **Step 3: 实现标准库纯函数**
 
 数据结构固定为不可变 dataclass：
 
@@ -390,7 +390,7 @@ class JobSkillSet:
 
 `mine_skill_pairs()` 返回包含技能 ID、支持 JD ID、计数和全部分数的 `PairCandidate`，不访问数据库、不读取环境变量、不调用网络。
 
-- [ ] **Step 4: 运行 GREEN 和属性边界**
+- [x] **Step 4: 运行 GREEN 和属性边界**
 
 ```bash
 cd backend
@@ -400,7 +400,7 @@ uv run ruff check app/discovery/mining.py tests/test_discovery_mining.py
 
 预期：全部通过；输入顺序改变不影响候选顺序和分数。
 
-- [ ] **Step 5: 独立提交并推送**
+- [x] **Step 5: 独立提交并推送**
 
 ```bash
 git add backend/app/discovery/mining.py backend/tests/test_discovery_mining.py
@@ -418,7 +418,7 @@ git push origin codex/candidate-discovery
 - Create: `backend/app/discovery/tasks.py`
 - Modify: `backend/app/worker.py`
 
-- [ ] **Step 1: 写 Worker RED 测试**
+- [x] **Step 1: 写 Worker RED 测试**
 
 测试用数据库 fixture 创建：
 
@@ -451,7 +451,7 @@ async def test_worker_materializes_mapping_and_candidates(
 - `test_worker_honors_cancel_request`：预先设置 cancel_requested 后状态变为 cancelled 且不写 Candidate。
 - `test_worker_is_idempotent_after_completion`：重复调用同一已完成 ProcessingRun 返回原 summary，行数不变化。
 
-- [ ] **Step 2: 运行 RED**
+- [x] **Step 2: 运行 RED**
 
 ```bash
 cd backend
@@ -460,7 +460,7 @@ uv run pytest tests/test_discovery_tasks.py -q
 
 预期：`app.discovery.tasks` 不存在，测试失败。
 
-- [ ] **Step 3: 实现任务阶段**
+- [x] **Step 3: 实现任务阶段**
 
 `process_discovery_run()` 固定阶段：
 
@@ -491,7 +491,7 @@ def discover_skill_combinations(run_id: str) -> dict:
 
 并把 `app.discovery` 加入 `celery_app.autodiscover_tasks()`。
 
-- [ ] **Step 4: 运行 GREEN 和全量回归**
+- [x] **Step 4: 运行 GREEN 和全量回归**
 
 ```bash
 cd backend
@@ -500,7 +500,7 @@ uv run pytest -q
 uv run ruff check .
 ```
 
-- [ ] **Step 5: 独立提交并推送**
+- [x] **Step 5: 独立提交并推送**
 
 ```bash
 git add backend/app/discovery/tasks.py backend/app/worker.py \
@@ -522,7 +522,7 @@ git push origin codex/candidate-discovery
 - Modify: `backend/app/api/dependencies.py`
 - Modify: `backend/app/api/router.py`
 
-- [ ] **Step 1: 写 API RED 测试**
+- [x] **Step 1: 写 API RED 测试**
 
 覆盖：
 
@@ -535,7 +535,7 @@ git push origin codex/candidate-discovery
 - `test_candidate_detail_includes_disclaimer_and_skills`：详情有两个技能、全部分数、`not_evaluated` 和固定 disclaimer。
 - `test_evidence_hides_raw_payload_and_returns_traceable_fields`：Evidence 有岗位、公司、来源、日期、质量分、URL，但没有 `raw_payload`、`raw_text`、`normalized_text`。
 
-- [ ] **Step 2: 运行 RED**
+- [x] **Step 2: 运行 RED**
 
 ```bash
 cd backend
@@ -544,7 +544,7 @@ uv run pytest tests/test_discovery_api.py -q
 
 预期：路由不存在，POST/GET 返回 404。
 
-- [ ] **Step 3: 实现最小 Schema 和 Service**
+- [x] **Step 3: 实现最小 Schema 和 Service**
 
 `DiscoveryRunCreate`：
 
@@ -605,7 +605,7 @@ DISCOVERY_CANDIDATE_NOT_FOUND
 
 Evidence 只返回 normalized/raw 的必要摘要：岗位名、公司、来源、发布日期、采集时间、质量分、来源 URL；不返回 `raw_payload` 和完整正文。
 
-- [ ] **Step 4: 运行 GREEN 和权限回归**
+- [x] **Step 4: 运行 GREEN 和权限回归**
 
 ```bash
 cd backend
@@ -615,7 +615,7 @@ uv run pytest -q
 uv run ruff check .
 ```
 
-- [ ] **Step 5: 独立提交并推送**
+- [x] **Step 5: 独立提交并推送**
 
 ```bash
 git add backend/app/api backend/app/discovery backend/tests/test_discovery_api.py
@@ -633,7 +633,7 @@ git push origin codex/candidate-discovery
 - Modify: `README.md`
 - Modify: `docs/superpowers/plans/2026-08-06-candidate-discovery.md`
 
-- [ ] **Step 1: 增加真实智联样例验收**
+- [x] **Step 1: 增加真实智联样例验收**
 
 复用 `backend/tests/fixtures/zhilian_sample.tsv` 完成导入，在测试内创建一组与真实 `tech_tags` 对应的 active Capability，例如：
 
@@ -656,7 +656,7 @@ Java
 - 候选 `novelty_score == 0` 且 `novelty_status=not_evaluated`。
 - 未映射标签只进入 `JobSkillCandidate(mapping_status=unmapped)`，不会创建 Capability。
 
-- [ ] **Step 2: 更新 README**
+- [x] **Step 2: 更新 README**
 
 增加：
 
@@ -667,7 +667,7 @@ Java
 - 确定性 pair baseline 的局限。
 - 不含语义聚类、LLM 定义、HR feedback 和 Neo4j 发布的边界。
 
-- [ ] **Step 3: 执行完整门禁**
+- [x] **Step 3: 执行完整门禁**
 
 ```bash
 docker compose config -q
@@ -689,7 +689,7 @@ git diff --check
 
 预期：全量测试和 Ruff 通过，Alembic 无待生成操作，数据库 revision 为 `0007`。
 
-- [ ] **Step 4: 独立提交并推送**
+- [x] **Step 4: 独立提交并推送**
 
 ```bash
 git add README.md backend/tests/test_discovery_tasks.py \

@@ -1,9 +1,10 @@
 # 岗位能力图谱系统后端
 
-面向比赛展示与团队内部真实使用的岗位能力图谱后端。当前已形成两段可运行闭环：
+面向比赛展示与团队内部真实使用的岗位能力图谱后端。当前已形成三段可运行闭环：
 
 - Batch A：三角色内部账号、Session/CSRF、安全文件读取、Processing Run 生命周期和依赖健康诊断。
 - Batch B：市场 JD 批量上传、来源 Adapter、Raw/Normalized 双层数据、质量警告、重新处理，以及技能/岗位 Catalog 骨架导入。
+- Batch C：标准技能库精确映射、候选技能组合发现、可追溯 Evidence、Discovery Run 和 admin/hr 查询 API。
 
 本仓库只包含后端。当前没有公开注册接口，也没有脱离业务资源的通用文件上传接口。
 
@@ -122,6 +123,44 @@ GET /api/v1/imports/{batch_id}/rows?include=raw_payload,full_text
 
 Catalog 文件支持 JSON/CSV/TSV，导入类型为 `capability` 或 `job_role`。`validate_only` 只记录逐行校验结果；`apply` 会创建 draft 版本。来源为 `model`、`llm` 或 `algorithm` 的条目始终写成 `candidate`，不能直接成为 active/published 正式知识。普通登录用户只看到当前 published 版本中的 active 条目；管理员可显式查询 draft/candidate。
 
+### 候选技能组合发现
+
+- `POST /api/v1/discovery-runs`
+- `GET /api/v1/discovery-runs`
+- `GET /api/v1/discovery-runs/{run_id}`
+- `GET /api/v1/discovery-candidates`
+- `GET /api/v1/discovery-candidates/{candidate_id}`
+- `GET /api/v1/discovery-candidates/{candidate_id}/evidence`
+
+创建 Discovery Run 仅限 `admin`；`admin` 和 `hr` 可以查询运行记录、候选和证据；`applicant` 不可访问。运行会复用已导入的市场 JD，先将 `tech_tags` 精确映射到 Catalog 中的 active Capability，再生成可解释的两技能共现候选。
+
+前置条件：先通过 Catalog 导入并维护 active Capability。只有 active Capability 和 active Alias 会参与映射；未映射标签只写入 `JobSkillCandidate`，不会自动创建正式技能，也不会写入 Neo4j。
+
+创建运行：
+
+```bash
+curl -sS -b /tmp/job-graph-cookies.txt \
+  -H "X-CSRF-Token: ${CSRF_TOKEN}" \
+  -H 'Content-Type: application/json' \
+  -d "{
+    \"batch_ids\": [\"${BATCH_ID}\"],
+    \"minimum_support_jobs\": 2,
+    \"minimum_source_count\": 1,
+    \"minimum_quality_score\": 60,
+    \"maximum_candidates\": 50
+  }" \
+  http://127.0.0.1:8000/api/v1/discovery-runs
+```
+
+返回的 `run_id` 是对应 Processing Run 的 ID，可通过 `/api/v1/processing-runs/{run_id}` 轮询任务状态；返回的 `resource_id` 是 Discovery Run 资源 ID，可通过 `/api/v1/discovery-runs/{resource_id}` 查询摘要。运行完成后查询候选：
+
+```bash
+curl -sS -b /tmp/job-graph-cookies.txt \
+  "http://127.0.0.1:8000/api/v1/discovery-candidates?discovery_run_id=${DISCOVERY_RUN_ID}"
+```
+
+当前结果统一称为“候选技能组合”，不代表已经确认的长期市场趋势。第一版使用确定性的 pair co-occurrence baseline，暂不包括 Embedding/pgvector 聚类、Algorithm Service 语义聚类、LLM 岗位定义、时间趋势证明、HR Feedback、Neo4j 正式图谱发布和三技能及以上频繁项集。
+
 ## 市场 JD 导入验收示例
 
 先登录管理员账号并从 Cookie Jar 取出 CSRF Token：
@@ -212,7 +251,7 @@ docker compose down -v
 
 ## 开发与验收
 
-本地测试依赖应迁移到 `0006`。创建测试库并应用 Migration：
+本地测试依赖应迁移到 `0007`。创建测试库并应用 Migration：
 
 ```bash
 docker compose up -d postgres
@@ -264,5 +303,6 @@ uv run pytest -q
 - [数据库与 API 详细设计](./outputs/岗位能力图谱系统_数据库与API详细设计.md)
 - [Batch A：后端基础闭环实施计划](./docs/superpowers/plans/2026-08-06-backend-foundation.md)
 - [Batch B：市场 JD 数据中心实施计划](./docs/superpowers/plans/2026-08-06-market-jd-center.md)
+- [Batch C：候选技能组合发现实施计划](./docs/superpowers/plans/2026-08-06-candidate-discovery.md)
 
-当前 Batch B 明确不包含爬虫管理、定时调度、算法/LLM 抽取和 Neo4j 发布。这些能力后续只能通过候选记录、人工审核和正式版本发布接入，不能绕过 PostgreSQL 事实库直接写图。
+当前 Batch B/C 明确不包含爬虫管理、定时调度、算法/LLM 抽取、语义聚类和 Neo4j 发布。这些能力后续只能通过候选记录、人工审核和正式版本发布接入，不能绕过 PostgreSQL 事实库直接写图。
