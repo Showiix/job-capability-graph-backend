@@ -261,7 +261,7 @@ docs/superpowers/plans/2026-08-06-candidate-review.md
 
 - [x] **Step 1: 创建 `codex/candidate-review` worktree**
 - [x] **Step 2: 运行基线测试和 Ruff**
-- [ ] **Step 3: 提交并推送本计划**
+- [x] **Step 3: 提交并推送本计划**
 
 ```bash
 git add docs/superpowers/plans/2026-08-06-candidate-review.md
@@ -273,7 +273,7 @@ git push -u origin codex/candidate-review
 
 ## Task 2: 审核模型与 Migration 0008
 
-- [ ] **Step 1: 写数据库 RED 测试**
+- [x] **Step 1: 写数据库 RED 测试**
 
 覆盖：
 
@@ -284,11 +284,11 @@ git push -u origin codex/candidate-review
 - 删除源候选后提案保留且 `source_candidate_id=NULL`。
 - 删除提案后决定级联删除。
 
-- [ ] **Step 2: 运行 RED，确认 `app.reviews` 不存在**
-- [ ] **Step 3: 实现最小模型和 metadata 注册**
-- [ ] **Step 4: 生成、检查并应用 Migration 0008**
-- [ ] **Step 5: 运行 GREEN、Alembic check 和 Ruff**
-- [ ] **Step 6: 独立提交并推送**
+- [x] **Step 2: 运行 RED，确认 `app.reviews` 不存在**
+- [x] **Step 3: 实现最小模型和 metadata 注册**
+- [x] **Step 4: 生成、检查并应用 Migration 0008**
+- [x] **Step 5: 运行 GREEN、Alembic check 和 Ruff**
+- [x] **Step 6: 独立提交并推送**
 
 ```bash
 git commit -m "feat: add candidate review schema"

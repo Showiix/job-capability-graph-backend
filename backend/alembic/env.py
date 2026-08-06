@@ -11,6 +11,7 @@ import app.discovery.models  # noqa: F401
 import app.files.models  # noqa: F401
 import app.imports.models  # noqa: F401
 import app.processing.models  # noqa: F401
+import app.reviews.models  # noqa: F401
 from alembic import context
 from app.core.config import get_settings
 from app.infrastructure.database import Base
