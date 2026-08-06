@@ -16,3 +16,7 @@
 
 - [后端技术架构详细设计](./outputs/岗位能力图谱系统_后端技术架构详细设计.md)
 - [数据库与 API 详细设计](./outputs/岗位能力图谱系统_数据库与API详细设计.md)
+
+实施计划：
+
+- [Batch A：后端基础闭环实施计划](./docs/superpowers/plans/2026-08-06-backend-foundation.md)
