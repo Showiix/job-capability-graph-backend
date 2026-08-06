@@ -28,4 +28,6 @@ celery_app.conf.update(
         },
     },
 )
-celery_app.autodiscover_tasks(["app.processing", "app.imports", "app.discovery"])
+celery_app.autodiscover_tasks(
+    ["app.processing", "app.imports", "app.discovery", "app.resumes"]
+)
