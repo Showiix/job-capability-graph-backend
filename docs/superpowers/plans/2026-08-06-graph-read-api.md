@@ -1968,7 +1968,7 @@ worktree 缺少被 Git 忽略的 `.env` 时，只创建了指向主仓库 `.env`
 - Preserve: PostgreSQL、Neo4j、Redis 和文件 Docker Volumes。
 - Preserve remote branch: `origin/codex/graph-read-api`。
 
-- [ ] **Step 1: 在 feature worktree 做合并前最终确认**
+- [x] **Step 1: 在 feature worktree 做合并前最终确认**
 
 Run:
 
@@ -1980,7 +1980,7 @@ git diff --check main...HEAD
 
 Expected: worktree clean；提交序列只包含 Batch F 设计/计划、契约、全局查询、局部查询、API 和 README。
 
-- [ ] **Step 2: 在主仓库 fast-forward 合并**
+- [x] **Step 2: 在主仓库 fast-forward 合并**
 
 回到主仓库：
 
@@ -1993,7 +1993,7 @@ git merge --ff-only codex/graph-read-api
 
 Expected: main 从 `8b409e7` fast-forward 到 Batch F 最终提交，没有 merge commit。
 
-- [ ] **Step 3: 在 main 重跑完整门禁**
+- [x] **Step 3: 在 main 重跑完整门禁**
 
 Run:
 
@@ -2018,7 +2018,7 @@ git diff --check
 
 Expected: 与 feature branch 相同的全量测试数，Ruff、Compose、Alembic 和 diff check 全部通过。
 
-- [ ] **Step 4: 推送 main**
+- [x] **Step 4: 推送 main**
 
 Run:
 
@@ -2029,7 +2029,7 @@ git status --short --branch
 
 Expected: `origin/main` 指向 Batch F 最终提交，main 工作树干净且 ahead/behind 为 0。
 
-- [ ] **Step 5: 清理本地 feature worktree 和分支**
+- [x] **Step 5: 清理本地 feature worktree 和分支**
 
 Run:
 
@@ -2047,6 +2047,22 @@ Expected: 本地 feature worktree 和本地 feature branch 已删除；`origin/c
 ```text
 docker compose down -v
 ```
+
+Task 7 实际验收记录（2026-08-06）：
+
+```text
+fast-forward: main 8b409e7 -> fb05562
+main full regression: 193 passed
+main Ruff: All checks passed!
+main Docker Compose config: passed
+main Alembic check: No new upgrade operations detected.
+runtime restore: api/worker/scheduler running
+GET /health/ready: ready
+required dependencies: postgresql/redis/neo4j/file_volume = ok
+optional algorithm_service: degraded
+```
+
+第一次 main 最终测试因既有运行服务长期连接占满 PostgreSQL 而返回 `TooManyConnectionsError`；临时停止 API/worker/scheduler 后连接释放，193 个测试全部通过。三个服务随后恢复，PostgreSQL 只剩 2 个应用 idle 连接，Ready 检查通过。该运行环境问题未修改 Batch F 代码，也未删除任何既有 Volume。
 
 ## 完成定义
 
