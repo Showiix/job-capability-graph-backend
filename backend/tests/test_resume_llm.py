@@ -1,7 +1,9 @@
+import asyncio
 import copy
 import json
 from uuid import uuid4
 
+import httpx
 import pytest
 from pydantic import ValidationError
 
@@ -179,3 +181,277 @@ def test_generated_schema_uses_strict_objects() -> None:
                 assert_strict_objects(value)
 
     assert_strict_objects(schema)
+
+
+def completed_response(text: str, *, output_prefix=None) -> dict:
+    return {
+        "id": "resp_test",
+        "model": "returned-model",
+        "status": "completed",
+        "error": None,
+        "incomplete_details": None,
+        "output": [
+            *(output_prefix or []),
+            {
+                "type": "message",
+                "status": "completed",
+                "content": [{"type": "output_text", "text": text}],
+            },
+        ],
+        "usage": {"input_tokens": 10, "output_tokens": 20, "total_tokens": 30},
+    }
+
+
+async def test_posts_exact_responses_structured_output_contract() -> None:
+    captured = {}
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        captured["request"] = request
+        return httpx.Response(200, json=completed_response(json.dumps(VALID_PARSE)))
+
+    async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as http:
+        from app.resumes.llm import ResponsesClient
+
+        result = await ResponsesClient(http=http).parse_resume(
+            url="https://provider.test/v1/responses",
+            api_key="secret-test-key",
+            model="test-model",
+            redacted_text="Python 项目",
+            processing_run_id=uuid4(),
+        )
+
+    request = captured["request"]
+    body = json.loads(request.content)
+    assert request.method == "POST"
+    assert str(request.url) == "https://provider.test/v1/responses"
+    assert request.headers["authorization"] == "Bearer secret-test-key"
+    assert body["input"][0]["content"][0] == {
+        "type": "input_text",
+        "text": "Python 项目",
+    }
+    assert body["text"]["format"]["type"] == "json_schema"
+    assert body["text"]["format"]["name"] == "resume_parse_v1"
+    assert body["text"]["format"]["strict"] is True
+    assert body["store"] is False
+    assert body["stream"] is False
+    assert body["max_output_tokens"] == 5000
+    assert "tools" not in body
+    assert "previous_response_id" not in body
+    assert "messages" not in body
+    assert result.payload.schema_version == "resume_parse_v1"
+
+
+async def test_collects_multiple_output_text_parts_outside_first_output() -> None:
+    serialized = json.dumps(VALID_PARSE)
+    split = len(serialized) // 2
+    envelope = completed_response(
+        serialized[split:],
+        output_prefix=[
+            {"type": "reasoning", "summary": []},
+            {
+                "type": "message",
+                "status": "completed",
+                "content": [
+                    {"type": "annotation", "text": "ignored"},
+                    {"type": "output_text", "text": serialized[:split]},
+                ],
+            },
+        ],
+    )
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        return httpx.Response(200, json=envelope)
+
+    async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as http:
+        from app.resumes.llm import ResponsesClient
+
+        result = await ResponsesClient(http=http).parse_resume(
+            url="https://provider.test/v1/responses",
+            api_key="secret-test-key",
+            model="test-model",
+            redacted_text="Python 项目",
+            processing_run_id=uuid4(),
+        )
+
+    assert result.payload.skills[0].name == "Python"
+
+
+async def test_refusal_wins_over_output_text() -> None:
+    envelope = completed_response(json.dumps(VALID_PARSE))
+    envelope["output"][0]["content"].insert(
+        0,
+        {"type": "refusal", "refusal": "cannot process"},
+    )
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        return httpx.Response(200, json=envelope)
+
+    async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as http:
+        from app.resumes.llm import ResponsesClient, ResumeLLMError
+
+        with pytest.raises(ResumeLLMError) as error:
+            await ResponsesClient(http=http).parse_resume(
+                url="https://provider.test/v1/responses",
+                api_key="secret-test-key",
+                model="test-model",
+                redacted_text="Python 项目",
+                processing_run_id=uuid4(),
+            )
+
+    assert error.value.code == "LLM_RESPONSE_REFUSED"
+    assert error.value.stage == "validate_response"
+
+
+@pytest.mark.parametrize(
+    "variant",
+    ["incomplete", "missing_output_text", "non_json", "schema_invalid"],
+)
+async def test_invalid_response_variants_are_retried_once(variant) -> None:
+    calls = 0
+
+    if variant == "incomplete":
+        envelope = completed_response(json.dumps(VALID_PARSE))
+        envelope["status"] = "incomplete"
+    elif variant == "missing_output_text":
+        envelope = completed_response(json.dumps(VALID_PARSE))
+        envelope["output"][0]["content"] = [{"type": "annotation", "text": "no"}]
+    elif variant == "non_json":
+        envelope = completed_response("not-json")
+    else:
+        invalid = copy.deepcopy(VALID_PARSE)
+        del invalid["skills"]
+        envelope = completed_response(json.dumps(invalid))
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        nonlocal calls
+        calls += 1
+        return httpx.Response(200, json=envelope)
+
+    async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as http:
+        from app.resumes.llm import ResponsesClient, ResumeLLMError
+
+        with pytest.raises(ResumeLLMError) as error:
+            await ResponsesClient(
+                http=http,
+                sleep=lambda _seconds: asyncio.sleep(0),
+            ).parse_resume(
+                url="https://provider.test/v1/responses",
+                api_key="secret-test-key",
+                model="test-model",
+                redacted_text="Python 项目",
+                processing_run_id=uuid4(),
+            )
+
+    assert error.value.code in {"LLM_RESPONSE_INCOMPLETE", "LLM_RESPONSE_INVALID"}
+    assert error.value.stage == "validate_response"
+    assert calls == 2
+
+
+@pytest.mark.parametrize(
+    ("status", "expected_code", "expected_calls"),
+    [
+        (401, "LLM_REQUEST_REJECTED", 1),
+        (403, "LLM_REQUEST_REJECTED", 1),
+        (429, "LLM_RATE_LIMITED", 2),
+        (500, "LLM_UPSTREAM_ERROR", 2),
+        (503, "LLM_UPSTREAM_ERROR", 2),
+    ],
+)
+async def test_http_error_classification_and_bounded_retry(
+    status,
+    expected_code,
+    expected_calls,
+    caplog,
+) -> None:
+    calls = 0
+    sleeps = []
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        nonlocal calls
+        calls += 1
+        return httpx.Response(status, text="provider-secret-body")
+
+    async def fake_sleep(seconds: float) -> None:
+        sleeps.append(seconds)
+
+    async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as http:
+        from app.resumes.llm import ResponsesClient, ResumeLLMError
+
+        with pytest.raises(ResumeLLMError) as error:
+            await ResponsesClient(http=http, sleep=fake_sleep).parse_resume(
+                url="https://provider.test/v1/responses",
+                api_key="secret-test-key",
+                model="test-model",
+                redacted_text="Python 项目",
+                processing_run_id=uuid4(),
+            )
+
+    assert error.value.code == expected_code
+    assert calls == expected_calls
+    assert "secret-test-key" not in caplog.text
+    assert "provider-secret-body" not in caplog.text
+    assert "Python 项目" not in caplog.text
+    if status == 429:
+        assert sleeps == [1.0]
+
+
+async def test_rate_limit_retry_after_is_capped() -> None:
+    calls = 0
+    sleeps = []
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        nonlocal calls
+        calls += 1
+        return httpx.Response(
+            429,
+            headers={"Retry-After": "20"},
+            text="provider-secret-body",
+        )
+
+    async def fake_sleep(seconds: float) -> None:
+        sleeps.append(seconds)
+
+    async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as http:
+        from app.resumes.llm import ResponsesClient, ResumeLLMError
+
+        with pytest.raises(ResumeLLMError):
+            await ResponsesClient(http=http, sleep=fake_sleep).parse_resume(
+                url="https://provider.test/v1/responses",
+                api_key="secret-test-key",
+                model="test-model",
+                redacted_text="Python 项目",
+                processing_run_id=uuid4(),
+            )
+
+    assert calls == 2
+    assert sleeps == [5.0]
+
+
+async def test_timeout_retries_once_then_succeeds() -> None:
+    calls = 0
+    sleeps = []
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        nonlocal calls
+        calls += 1
+        if calls == 1:
+            raise httpx.ReadTimeout("timed out", request=request)
+        return httpx.Response(200, json=completed_response(json.dumps(VALID_PARSE)))
+
+    async def fake_sleep(seconds: float) -> None:
+        sleeps.append(seconds)
+
+    async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as http:
+        from app.resumes.llm import ResponsesClient
+
+        result = await ResponsesClient(http=http, sleep=fake_sleep).parse_resume(
+            url="https://provider.test/v1/responses",
+            api_key="secret-test-key",
+            model="test-model",
+            redacted_text="Python 项目",
+            processing_run_id=uuid4(),
+        )
+
+    assert result.provider_attempts == 2
+    assert calls == 2
+    assert sleeps == [1.0]
