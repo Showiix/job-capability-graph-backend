@@ -325,7 +325,7 @@ git commit -m "feat: review candidate role proposals"
 
 ## Task 4: Review API
 
-- [ ] **Step 1: 写 API RED 测试**
+- [x] **Step 1: 写 API RED 测试**
 
 覆盖：
 
@@ -337,10 +337,10 @@ git commit -m "feat: review candidate role proposals"
 - 详情不暴露原始 JD Payload/正文。
 - 错误码和 HTTP 状态稳定。
 
-- [ ] **Step 2: 运行 RED，确认路由 404**
-- [ ] **Step 3: 实现 Router 并挂载 `/api/v1`**
-- [ ] **Step 4: 运行 API GREEN 和全量回归**
-- [ ] **Step 5: 独立提交并推送**
+- [x] **Step 2: 运行 RED，确认路由 404**
+- [x] **Step 3: 实现 Router 并挂载 `/api/v1`**
+- [x] **Step 4: 运行 API GREEN 和全量回归**
+- [x] **Step 5: 独立提交并推送**
 
 ```bash
 git commit -m "feat: add candidate review APIs"

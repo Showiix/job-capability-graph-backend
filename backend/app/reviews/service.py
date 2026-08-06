@@ -185,6 +185,7 @@ async def decide_review_proposal(
             before_payload=before_payload,
             after_payload=after_payload,
             comment=payload.comment,
+            created_at=reviewed_at,
         )
     )
     if proposal.source_candidate_id is not None:
