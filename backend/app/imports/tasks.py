@@ -5,12 +5,17 @@ from datetime import UTC, datetime
 from decimal import ROUND_HALF_UP, Decimal
 from uuid import UUID, uuid4
 
-from sqlalchemy import select
+from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.core.config import get_settings
 from app.files.models import StoredFile
-from app.imports.adapters import AdapterError, detect_adapter, detect_encoding
+from app.imports.adapters import (
+    AdapterError,
+    StandardJobRow,
+    detect_adapter,
+    detect_encoding,
+)
 from app.imports.models import (
     DataSource,
     ImportBatch,
@@ -44,6 +49,8 @@ async def process_market_import(db: AsyncSession, run_id: UUID) -> dict:
     if run.status in {"completed", "failed", "cancelled"}:
         return dict(run.result_summary)
     if batch.status in {"processed", "partial"}:
+        if run.input_snapshot.get("reprocess"):
+            return await _reprocess_existing(db, run, batch)
         return await _finish_existing(db, run, batch)
 
     stored_file = await db.get(StoredFile, batch.file_id)
@@ -256,6 +263,117 @@ async def _finish_existing(
     run.status = "completed"
     run.result_summary = result
     run.completed_at = datetime.now(UTC)
+    await db.commit()
+    return result
+
+
+async def _reprocess_existing(
+    db: AsyncSession,
+    run: ProcessingRun,
+    batch: ImportBatch,
+) -> dict:
+    raws = (
+        await db.scalars(
+            select(RawJobPosting)
+            .where(RawJobPosting.batch_id == batch.id)
+            .order_by(RawJobPosting.row_number)
+        )
+    ).all()
+    if not raws:
+        return await _finish_existing(db, run, batch)
+    run.status = "running"
+    run.current_stage = "renormalizing"
+    run.started_at = datetime.now(UTC)
+    run.heartbeat_at = run.started_at
+    run.attempt_count += 1
+    run.total_count = len(raws)
+    await db.commit()
+    warning_rows = 0
+    for index, raw in enumerate(raws, start=1):
+        if await _cancel_requested(db, run.id):
+            run.status = "cancelled"
+            run.current_stage = "cancelled"
+            run.completed_at = datetime.now(UTC)
+            await db.commit()
+            return _result(len(raws), 0, 0, warning_rows)
+        row = StandardJobRow(
+            row_number=raw.row_number,
+            source_code=raw.source_code,
+            external_id=raw.external_id,
+            source_url=raw.source_url,
+            job_name=raw.job_name,
+            company_name=raw.company_name,
+            salary_text=raw.salary_text,
+            work_area_text=raw.work_area_text,
+            city_text=raw.city_text,
+            education_text=raw.education_text,
+            work_year_text=raw.work_year_text,
+            issue_date_text=raw.issue_date_text,
+            raw_text=raw.raw_text,
+            source_tags=list(raw.source_tags),
+            raw_payload=dict(raw.raw_payload),
+            parse_warnings=list(raw.parse_warnings),
+        )
+        normalized = normalize_row(row, batch.collected_at)
+        current = await db.scalar(
+            select(NormalizedJobPosting).where(
+                NormalizedJobPosting.raw_job_id == raw.id,
+                NormalizedJobPosting.is_current.is_(True),
+            )
+        )
+        if current is not None:
+            current.is_current = False
+        await db.flush()
+        latest_version = await db.scalar(
+            select(func.max(NormalizedJobPosting.version_no)).where(
+                NormalizedJobPosting.raw_job_id == raw.id
+            )
+        )
+        db.add(
+            NormalizedJobPosting(
+                id=uuid4(),
+                raw_job_id=raw.id,
+                version_no=(latest_version or 0) + 1,
+                normalization_version=run.pipeline_version,
+                normalized_title=normalized.normalized_title,
+                company_name=normalized.company_name,
+                city_code=normalized.city_code,
+                city_name=normalized.city_name,
+                work_area=normalized.work_area,
+                salary_min_monthly=normalized.salary_min_monthly,
+                salary_max_monthly=normalized.salary_max_monthly,
+                salary_months=normalized.salary_months,
+                education_level=normalized.education_level,
+                experience_min_months=normalized.experience_min_months,
+                experience_max_months=normalized.experience_max_months,
+                published_at=normalized.published_at,
+                normalized_text=normalized.normalized_text,
+                quality_score=normalized.quality_score,
+                quality_flags=normalized.quality_flags,
+                is_current=True,
+                created_by_run_id=run.id,
+            )
+        )
+        warning_rows += bool(normalized.quality_flags)
+        run.processed_count = index
+        run.success_count = index
+        run.progress_percent = _progress(index, len(raws))
+        run.heartbeat_at = datetime.now(UTC)
+        if index % CHUNK_SIZE == 0:
+            await db.commit()
+    run.status = "completed"
+    run.current_stage = "completed"
+    run.progress_percent = Decimal("100")
+    run.completed_at = datetime.now(UTC)
+    result = _result(len(raws), len(raws) - warning_rows, 0, warning_rows)
+    run.result_summary = result
+    batch.warning_rows = warning_rows
+    batch.accepted_rows = len(raws) - warning_rows
+    batch.batch_summary = {
+        **batch.batch_summary,
+        "reprocessed_with": run.pipeline_version,
+        "counts": result,
+    }
     await db.commit()
     return result
 
