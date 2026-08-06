@@ -5,6 +5,7 @@ from sqlalchemy.dialects.postgresql import INET, JSONB
 from sqlalchemy.orm import Mapped, mapped_column
 
 from app.infrastructure.database import Base, CreatedAtMixin
+from app.processing.models import ProcessingRun as _ProcessingRun
 
 
 class AuditLog(CreatedAtMixin, Base):
@@ -37,7 +38,7 @@ class AuditLog(CreatedAtMixin, Base):
     outcome: Mapped[str] = mapped_column(String(20), nullable=False)
     request_id: Mapped[str | None] = mapped_column(String(64))
     processing_run_id: Mapped[UUID | None] = mapped_column(
-        ForeignKey("processing_runs.id")
+        ForeignKey(_ProcessingRun.id)
     )
     ip_address: Mapped[str | None] = mapped_column(INET)
     metadata_: Mapped[dict] = mapped_column(

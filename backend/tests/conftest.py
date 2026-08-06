@@ -2,9 +2,6 @@ import os
 from datetime import UTC, datetime
 from uuid import uuid4
 
-import pytest_asyncio
-from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
-
 os.environ.setdefault("APP_ENV", "test")
 os.environ.setdefault("APP_BASE_URL", "http://test")
 os.environ.setdefault(
@@ -19,6 +16,13 @@ os.environ.setdefault("FILE_STORAGE_ROOT", "/tmp/job-graph-tests")
 os.environ.setdefault("SESSION_SECRET", "test-secret-at-least-32-characters")
 os.environ.setdefault("CORS_ORIGINS", '["http://localhost:3000"]')
 os.environ.setdefault("ALGORITHM_SERVICE_URL", "http://algorithm:8001")
+
+import pytest_asyncio
+from httpx import ASGITransport, AsyncClient
+from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
+
+from app.infrastructure.database import get_db
+from app.main import app
 
 
 @pytest_asyncio.fixture
@@ -53,3 +57,17 @@ async def user(db_session):
     db_session.add(value)
     await db_session.flush()
     return value
+
+
+@pytest_asyncio.fixture
+async def client(db_session):
+    async def override_db():
+        yield db_session
+
+    app.dependency_overrides[get_db] = override_db
+    async with AsyncClient(
+        transport=ASGITransport(app=app),
+        base_url="http://test",
+    ) as http:
+        yield http
+    app.dependency_overrides.clear()
