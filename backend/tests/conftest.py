@@ -63,6 +63,32 @@ async def user(db_session):
 
 
 @pytest_asyncio.fixture
+async def make_user(db_session):
+    from app.auth.models import User
+    from app.core.security import hash_password
+
+    async def factory(
+        *, role: str, username: str | None = None
+    ) -> tuple[User, str]:
+        username = username or f"{role}_{uuid4().hex[:10]}"
+        password = f"{username}-password"
+        value = User(
+            id=uuid4(),
+            username=username,
+            username_normalized=username,
+            password_hash=hash_password(password),
+            display_name=f"{role} fixture",
+            role=role,
+            password_changed_at=datetime.now(UTC),
+        )
+        db_session.add(value)
+        await db_session.flush()
+        return value, password
+
+    return factory
+
+
+@pytest_asyncio.fixture
 async def client(db_session):
     async def override_db():
         yield db_session
@@ -74,3 +100,16 @@ async def client(db_session):
     ) as http:
         yield http
     app.dependency_overrides.clear()
+
+
+@pytest_asyncio.fixture
+async def login(client):
+    async def authenticate(username: str, password: str) -> str:
+        response = await client.post(
+            "/api/v1/auth/login",
+            json={"username": username, "password": password},
+        )
+        assert response.status_code == 200
+        return response.json()["data"]["csrf_token"]
+
+    return authenticate
