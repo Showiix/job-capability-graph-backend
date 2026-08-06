@@ -702,7 +702,7 @@ git push origin codex/candidate-discovery
 
 ## Task 6: Batch C 收尾
 
-- [ ] **Step 1: 检查提交和工作区**
+- [x] **Step 1: 检查提交和工作区**
 
 ```bash
 git status --short --branch
@@ -712,7 +712,7 @@ git diff main...HEAD --stat
 
 确认只有 Batch C 计划、0007 Migration、Discovery 模块、路由、测试和 README。
 
-- [ ] **Step 2: 使用 finishing-a-development-branch**
+- [x] **Step 2: 使用 finishing-a-development-branch**
 
 执行 `superpowers:finishing-a-development-branch`：
 
