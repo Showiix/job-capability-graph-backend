@@ -1,11 +1,12 @@
 # 岗位能力图谱系统后端
 
-面向比赛展示与团队内部真实使用的岗位能力图谱后端。当前已形成四段可运行闭环：
+面向比赛展示与团队内部真实使用的岗位能力图谱后端。当前已形成五段可运行闭环：
 
 - Batch A：三角色内部账号、Session/CSRF、安全文件读取、Processing Run 生命周期和依赖健康诊断。
 - Batch B：市场 JD 批量上传、来源 Adapter、Raw/Normalized 双层数据、质量警告、重新处理，以及技能/岗位 Catalog 骨架导入。
 - Batch C：标准技能库精确映射、候选技能组合发现、可追溯 Evidence、Discovery Run 和 admin/hr 查询 API。
 - Batch D：候选岗位定义提案、HR/admin 人工修改与确认、不采纳、不可变审核历史和审计记录。
+- Batch E：管理员把审核通过的岗位提案发布为 PostgreSQL 正式岗位、完整 Catalog Version 和 Neo4j 岗位能力子图。
 
 本仓库只包含后端。当前没有公开注册接口，也没有脱离业务资源的通用文件上传接口。
 
@@ -13,7 +14,7 @@
 
 - Python 3.12、FastAPI、SQLAlchemy 2、Alembic
 - PostgreSQL 16 + pgvector：业务事实与任务状态唯一真相源
-- Neo4j 5 Community：后续只接收审核通过的正式图谱
+- Neo4j 5 Community：只接收审核通过并由管理员发布的正式图谱投影
 - Redis 7 + Celery：异步任务投递和周期维护
 - 本地 Docker Volume：内部演示文件存储
 - Docker Compose：单机内部部署
@@ -219,7 +220,59 @@ curl -sS -b /tmp/job-graph-cookies.txt \
   "http://127.0.0.1:8000/api/v1/review-proposals/${PROPOSAL_ID}/decisions"
 ```
 
-`approve` 只表示审核通过并获得后续发布资格，不会创建 active JobRole，不会创建正式 Catalog Version，也不会写入 Neo4j。每次决定都保存 before/after Payload、审核人、时间和意见；`approved/rejected` 是只读终态。
+`approve` 只表示审核通过并获得后续发布资格，不会自动创建 active JobRole，也不会自动写入 Neo4j；管理员还需要执行下方的正式发布接口。每次决定都保存 before/after Payload、审核人、时间和意见；发布完成后提案进入 `published` 只读终态。
+
+### 正式图谱发布
+
+- `POST /api/v1/graph-versions`
+- `GET /api/v1/graph-versions`
+- `GET /api/v1/graph-versions/{version_id}`
+- `POST /api/v1/graph-versions/{version_id}/publish`
+
+四个接口全部仅管理员可用，两个写接口需要 CSRF Token。管理员先从一个 `approved` 且类型为 `create_job_role` 的审核提案创建 Draft Graph Version：
+
+```bash
+PROPOSAL_ID='替换为 approved review proposal id'
+
+curl -sS -b /tmp/job-graph-cookies.txt \
+  -H "X-CSRF-Token: ${CSRF_TOKEN}" \
+  -H 'Content-Type: application/json' \
+  -d "{\"proposal_id\": \"${PROPOSAL_ID}\"}" \
+  http://127.0.0.1:8000/api/v1/graph-versions
+```
+
+创建接口会校验：提案已经审核通过、至少包含两个 active 必备技能、必备技能属于同一技术域、加分技能全部 active，并且同一技术域中不存在同名岗位。系统同时创建 Draft Catalog Version、预分配稳定 JobRole UUID，并固化 Domain、岗位定义、技能、证据摘要和 SHA256 relation key 快照。对同一 Proposal 重复调用会返回原 Graph Version，不会重复创建。
+
+将返回的 `id` 赋给 `GRAPH_VERSION_ID` 后执行同步发布：
+
+```bash
+GRAPH_VERSION_ID='替换为 graph version id'
+
+curl -sS -b /tmp/job-graph-cookies.txt \
+  -H "X-CSRF-Token: ${CSRF_TOKEN}" \
+  -X POST \
+  "http://127.0.0.1:8000/api/v1/graph-versions/${GRAPH_VERSION_ID}/publish"
+```
+
+发布流程先使用 PostgreSQL UUID 和 relation key 向 Neo4j 幂等 `MERGE` Domain、JobRole、Capability、`BELONGS_TO`、`REQUIRES` 和 `BONUS`，再读回目标岗位的技能与关系数量。验证成功后，PostgreSQL 在一个事务内完成以下操作：
+
+1. 创建 active JobRole 和 JobRoleCapability。
+2. 将全部 active Capability、既有 active JobRole 和新岗位写入新的完整 Catalog Version。
+3. 将新的 Catalog Version 和 Graph Version 标记为 `published/current`。
+4. 将审核提案标记为 `published` 并保存审计记录。
+
+查询发布结果：
+
+```bash
+curl -sS -b /tmp/job-graph-cookies.txt \
+  "http://127.0.0.1:8000/api/v1/graph-versions/${GRAPH_VERSION_ID}"
+curl -sS -b /tmp/job-graph-cookies.txt \
+  http://127.0.0.1:8000/api/v1/catalog/versions/current
+curl -sS -b /tmp/job-graph-cookies.txt \
+  http://127.0.0.1:8000/api/v1/catalog/job-roles
+```
+
+Neo4j 写入或读回验证失败时，Graph Version 进入 `failed`，`last_error` 只保存安全的错误类型；PostgreSQL 不会创建 active JobRole，也不会激活 Catalog Version。管理员可对同一 Graph Version 再次调用 publish，系统会复用原 UUID、快照和 relation key 重试。第一版是适合比赛展示与团队内部使用的同步单岗位发布，不包含 Celery 发布 Worker、批量发布拓扑或企业级回滚编排。
 
 ## 市场 JD 导入验收示例
 
@@ -311,7 +364,7 @@ docker compose down -v
 
 ## 开发与验收
 
-本地测试依赖应迁移到 `0008`。创建测试库并应用 Migration：
+本地测试依赖应迁移到 `0009`。创建测试库并应用 Migration：
 
 ```bash
 docker compose up -d postgres
@@ -355,7 +408,7 @@ uv run pytest -q
 - `APP_ENV=internal` 时 Session 与 CSRF Cookie 自动启用 `Secure`。
 - Session、CSRF Token 和密码只保存 Hash；API 不返回密码或 Token Hash。
 - 文件路径始终限制在 `FILE_STORAGE_ROOT` 内，数据库中的路径键不能逃逸根目录。
-- Neo4j 当前只做连接检查，不接收导入数据，也不写入未经审核的算法或大模型候选知识。
+- Neo4j 只接收管理员正式发布的审核通过图谱，不接收导入原文，也不写入未经审核的算法或大模型候选知识。
 
 ## 设计文档
 
@@ -365,5 +418,6 @@ uv run pytest -q
 - [Batch B：市场 JD 数据中心实施计划](./docs/superpowers/plans/2026-08-06-market-jd-center.md)
 - [Batch C：候选技能组合发现实施计划](./docs/superpowers/plans/2026-08-06-candidate-discovery.md)
 - [Batch D：候选岗位审核实施计划](./docs/superpowers/plans/2026-08-06-candidate-review.md)
+- [Batch E：正式图谱发布实施计划](./docs/superpowers/plans/2026-08-06-graph-publication.md)
 
-当前 Batch B/C/D 明确不包含爬虫管理、定时调度、算法/LLM 抽取、语义聚类和 Neo4j 发布。审核批准的提案仍然是 PostgreSQL 中的候选事实，后续只能通过正式 Catalog/Graph Version 发布接入，不能直接写图。
+当前实现仍不包含爬虫管理、定时调度、算法/LLM 抽取和语义聚类。算法或大模型只能生成候选；候选必须经过人工审核，并由管理员通过正式 Catalog/Graph Version 发布后才能进入 active 主数据和 Neo4j 投影。

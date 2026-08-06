@@ -31,6 +31,51 @@ from app.reviews.schemas import RoleDefinitionPayload
 GraphPublisher = Callable[[dict, int], Awaitable[GraphPublishResult]]
 
 
+async def list_graph_versions(
+    db: AsyncSession,
+    *,
+    page: int,
+    page_size: int,
+) -> list[dict]:
+    values = (
+        await db.scalars(
+            select(GraphVersion)
+            .order_by(GraphVersion.version_no.desc(), GraphVersion.id)
+            .offset((page - 1) * page_size)
+            .limit(page_size)
+        )
+    ).all()
+    return [graph_version_data(value, include_snapshot=False) for value in values]
+
+
+async def get_graph_version(db: AsyncSession, version_id: UUID) -> GraphVersion:
+    value = await db.get(GraphVersion, version_id)
+    if value is None:
+        raise APIError(404, "GRAPH_VERSION_NOT_FOUND", "图谱版本不存在")
+    return value
+
+
+def graph_version_data(value: GraphVersion, *, include_snapshot: bool) -> dict:
+    data = {
+        "id": value.id,
+        "version_no": value.version_no,
+        "source_proposal_id": value.source_proposal_id,
+        "catalog_version_id": value.catalog_version_id,
+        "job_role_id": value.job_role_id,
+        "status": value.status,
+        "is_current": value.is_current,
+        "attempt_count": value.attempt_count,
+        "last_error": value.last_error,
+        "created_by_user_id": value.created_by_user_id,
+        "published_at": value.published_at,
+        "created_at": value.created_at,
+        "updated_at": value.updated_at,
+    }
+    if include_snapshot:
+        data["snapshot"] = value.snapshot
+    return data
+
+
 async def create_graph_version(
     db: AsyncSession,
     actor: User,
@@ -219,6 +264,7 @@ async def publish_graph_version(
     published = await db.get(GraphVersion, version_id)
     if published is None:
         raise APIError(404, "GRAPH_VERSION_NOT_FOUND", "图谱版本不存在")
+    await db.refresh(published)
     return published
 
 
@@ -352,11 +398,7 @@ async def _finalize_graph_version(
                     capability_id=UUID(capability["id"]),
                     requirement_type=capability["requirement_type"],
                     importance=Decimal(str(capability["importance"])),
-                    source_candidate_id=(
-                        UUID(snapshot["source_candidate_id"])
-                        if snapshot["source_candidate_id"]
-                        else None
-                    ),
+                    source_candidate_id=version.source_proposal_id,
                 )
             )
         else:

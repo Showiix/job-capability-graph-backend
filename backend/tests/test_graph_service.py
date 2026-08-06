@@ -336,6 +336,9 @@ async def test_publish_success_finalizes_postgres_catalog_and_review(
         ("required", 1.0),
         ("bonus", 0.5),
     }
+    assert all(
+        value.source_candidate_id == context["proposal"].id for value in relations
+    )
     active_capability_ids = set(
         await db_session.scalars(
             select(Capability.id).where(Capability.status == "active")

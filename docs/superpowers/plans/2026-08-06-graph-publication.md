@@ -298,11 +298,11 @@ Commit：`feat: publish approved graph versions`
 
 ## Task 5: API、README 与最终门禁
 
-- [ ] **Step 1: 写 admin、HR/applicant 禁止、CSRF、幂等和失败错误码 API 测试**
-- [ ] **Step 2: 实现 Router 并挂载**
-- [ ] **Step 3: 补 README curl、状态和边界**
-- [ ] **Step 4: 执行完整门禁**
-- [ ] **Step 5: 提交并推送**
+- [x] **Step 1: 写 admin、HR/applicant 禁止、CSRF、幂等和失败错误码 API 测试**
+- [x] **Step 2: 实现 Router 并挂载**
+- [x] **Step 3: 补 README curl、状态和边界**
+- [x] **Step 4: 执行完整门禁**
+- [x] **Step 5: 提交并推送**
 
 完整门禁：
 
@@ -330,7 +330,7 @@ Commit：`docs: document reviewed graph publication`
 
 ## Task 6: 分支收尾
 
-- [ ] **Step 1: 功能分支完整门禁**
+- [x] **Step 1: 功能分支完整门禁**
 - [ ] **Step 2: Fast-forward 合并 main**
 - [ ] **Step 3: main 完整门禁**
 - [ ] **Step 4: 推送 origin/main**
