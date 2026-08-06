@@ -10,6 +10,7 @@ from docx import Document
 from pypdf import PdfReader
 
 from app.core.errors import APIError
+from app.resumes.schemas import ResumeParseResponse
 
 PDF_MEDIA_TYPES = {"application/pdf", "application/octet-stream"}
 DOCX_MEDIA_TYPE = (
@@ -45,12 +46,24 @@ EDUCATION_RANK = {
     "master": 5,
     "doctor": 6,
 }
+EVIDENCE_RANK = {"mention": 0, "project": 1, "work": 2}
 
 
 @dataclass(frozen=True, slots=True)
 class ExtractedDocument:
     text: str
     method: str
+
+
+@dataclass(frozen=True, slots=True)
+class ValidatedParse:
+    document_language: str
+    summary: str | None
+    educations: list[dict]
+    experiences: list[dict]
+    projects: list[dict]
+    skills: list[dict]
+    warnings: list[str]
 
 
 def detect_resume_document(filename: str, media_type: str, content: bytes) -> str:
@@ -139,6 +152,61 @@ def locate_evidence(text: str, quote: str) -> tuple[int, int] | None:
     return start, start + len(quote)
 
 
+def validate_parse_evidence(
+    payload: ResumeParseResponse,
+    *,
+    redacted_text: str,
+) -> ValidatedParse:
+    warnings: list[str] = []
+    educations = _ground_items(
+        payload.educations,
+        category="EDUCATION",
+        label_field="school_name",
+        redacted_text=redacted_text,
+        warnings=warnings,
+    )
+    experiences = _ground_items(
+        payload.experiences,
+        category="EXPERIENCE",
+        label_field="company_name",
+        redacted_text=redacted_text,
+        warnings=warnings,
+    )
+    projects = _ground_items(
+        payload.projects,
+        category="PROJECT",
+        label_field="project_name",
+        redacted_text=redacted_text,
+        warnings=warnings,
+    )
+    skills = _ground_items(
+        payload.skills,
+        category="SKILL",
+        label_field="name",
+        redacted_text=redacted_text,
+        warnings=warnings,
+    )
+    if not any((educations, experiences, projects, skills)):
+        raise APIError(422, "RESUME_EVIDENCE_EMPTY", "简历解析结果缺少可追溯证据")
+    return ValidatedParse(
+        document_language=payload.document_language,
+        summary=payload.summary,
+        educations=educations,
+        experiences=experiences,
+        projects=projects,
+        skills=skills,
+        warnings=warnings,
+    )
+
+
+def skill_rank(skill: dict) -> tuple[int, float, int]:
+    return (
+        EVIDENCE_RANK[skill["evidence_strength"]],
+        float(skill["confidence"]),
+        -int(skill["evidence_start"]),
+    )
+
+
 def derive_highest_education(educations: list[dict]) -> str | None:
     if not educations:
         return None
@@ -214,6 +282,26 @@ def _month_index(value: str) -> int:
     if len(year_text) != 4 or len(month_text) != 2 or not 1 <= month <= 12:
         raise ValueError("invalid month")
     return year * 12 + month - 1
+
+
+def _ground_items(
+    items: list,
+    *,
+    category: str,
+    label_field: str,
+    redacted_text: str,
+    warnings: list[str],
+) -> list[dict]:
+    grounded = []
+    for item in items:
+        value = item.model_dump(mode="python")
+        offsets = locate_evidence(redacted_text, value["evidence_quote"])
+        if offsets is None:
+            warnings.append(f"{category}_EVIDENCE_NOT_FOUND:{value[label_field]}")
+            continue
+        value["evidence_start"], value["evidence_end"] = offsets
+        grounded.append(value)
+    return grounded
 
 
 def _stars(match: re.Match[str]) -> str:

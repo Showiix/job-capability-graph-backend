@@ -18,7 +18,9 @@ from app.resumes.parsing import (
     normalize_extracted_text,
     redact_resume_text,
     validate_docx_archive,
+    validate_parse_evidence,
 )
+from app.resumes.schemas import ResumeParseResponse
 
 
 def make_docx_bytes() -> bytes:
@@ -265,3 +267,112 @@ def test_incomplete_experience_is_kept_but_not_counted() -> None:
 
     assert total is None
     assert warnings == ["EXPERIENCE_DATE_INCOMPLETE"]
+
+
+def test_invalid_evidence_items_are_dropped_with_warnings() -> None:
+    payload = ResumeParseResponse.model_validate(
+        {
+            "schema_version": "resume_parse_v1",
+            "document_language": "zh-CN",
+            "summary": "示例",
+            "educations": [],
+            "experiences": [],
+            "projects": [],
+            "skills": [
+                {
+                    "name": "Python",
+                    "proficiency": None,
+                    "explicit_experience_months": None,
+                    "evidence_strength": "project",
+                    "evidence_quote": "使用 Python 开发项目",
+                    "confidence": 0.9,
+                },
+                {
+                    "name": "Java",
+                    "proficiency": None,
+                    "explicit_experience_months": None,
+                    "evidence_strength": "mention",
+                    "evidence_quote": "不存在的 Java 证据",
+                    "confidence": 0.8,
+                },
+            ],
+        }
+    )
+
+    validated = validate_parse_evidence(
+        payload,
+        redacted_text="使用 Python 开发项目",
+    )
+
+    assert [item["name"] for item in validated.skills] == ["Python"]
+    assert validated.skills[0]["evidence_start"] == 0
+    assert validated.skills[0]["evidence_end"] == 14
+    assert validated.warnings == ["SKILL_EVIDENCE_NOT_FOUND:Java"]
+
+
+@pytest.mark.parametrize("with_candidates", [False, True])
+def test_evidence_gate_rejects_when_no_category_has_grounded_item(
+    with_candidates,
+) -> None:
+    values = {
+        "schema_version": "resume_parse_v1",
+        "document_language": "zh-CN",
+        "summary": "只有摘要不能通过",
+        "educations": [],
+        "experiences": [],
+        "projects": [],
+        "skills": [],
+    }
+    if with_candidates:
+        values["educations"] = [
+            {
+                "school_name": "示例大学",
+                "major": None,
+                "education_level": "bachelor",
+                "start_month": None,
+                "end_month": None,
+                "is_current": False,
+                "evidence_quote": "不存在的学历",
+                "confidence": 0.8,
+            }
+        ]
+        values["experiences"] = [
+            {
+                "company_name": "示例公司",
+                "job_title": None,
+                "start_month": None,
+                "end_month": None,
+                "is_current": False,
+                "responsibilities": [],
+                "evidence_quote": "不存在的经历",
+                "confidence": 0.8,
+            }
+        ]
+        values["projects"] = [
+            {
+                "project_name": "示例项目",
+                "role": None,
+                "start_month": None,
+                "end_month": None,
+                "is_current": False,
+                "description": None,
+                "evidence_quote": "不存在的项目",
+                "confidence": 0.8,
+            }
+        ]
+        values["skills"] = [
+            {
+                "name": "Python",
+                "proficiency": None,
+                "explicit_experience_months": None,
+                "evidence_strength": "mention",
+                "evidence_quote": "不存在的技能",
+                "confidence": 0.8,
+            }
+        ]
+    payload = ResumeParseResponse.model_validate(values)
+
+    with pytest.raises(APIError) as error:
+        validate_parse_evidence(payload, redacted_text="无相关正文")
+
+    assert error.value.code == "RESUME_EVIDENCE_EMPTY"
