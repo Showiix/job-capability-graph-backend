@@ -273,11 +273,11 @@ Commit：`feat: add graph publication schema`
 
 ## Task 3: Neo4j 幂等投影
 
-- [ ] **Step 1: 使用 Fake Async Driver 写 RED 测试**
-- [ ] **Step 2: 实现最小 MERGE 和读回验证**
-- [ ] **Step 3: 验证相同快照重复执行结果不变**
-- [ ] **Step 4: 运行 GREEN 和 Ruff**
-- [ ] **Step 5: 提交并推送**
+- [x] **Step 1: 使用 Fake Async Driver 写 RED 测试**
+- [x] **Step 2: 实现最小 MERGE 和读回验证**
+- [x] **Step 3: 验证相同快照重复执行结果不变**
+- [x] **Step 4: 运行 GREEN 和 Ruff**
+- [x] **Step 5: 提交并推送**
 
 Commit：`feat: publish reviewed role to neo4j`
 
