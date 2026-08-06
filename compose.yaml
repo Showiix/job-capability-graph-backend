@@ -41,12 +41,20 @@ services:
     volumes:
       - neo4j_data:/data
 
+  migrate:
+    build: ./backend
+    env_file: .env
+    command: ["uv", "run", "alembic", "upgrade", "head"]
+    depends_on:
+      postgres:
+        condition: service_healthy
+
   api:
     build: ./backend
     env_file: .env
     depends_on:
-      postgres:
-        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
       redis:
         condition: service_healthy
       neo4j:

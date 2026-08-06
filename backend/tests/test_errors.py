@@ -82,9 +82,7 @@ async def test_unhandled_errors_do_not_expose_exception_text() -> None:
         transport=ASGITransport(app=test_app, raise_app_exceptions=False),
         base_url="http://test",
     ) as client:
-        response = await client.get(
-            "/boom", headers={"X-Request-ID": "req_boom"}
-        )
+        response = await client.get("/boom", headers={"X-Request-ID": "req_boom"})
 
     assert response.status_code == 500
     assert response.json()["error"] == {
