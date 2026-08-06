@@ -1,6 +1,6 @@
 # 岗位能力图谱系统后端
 
-面向比赛展示与团队内部真实使用的岗位能力图谱后端。当前已形成六段可运行闭环：
+面向比赛展示与团队内部真实使用的岗位能力图谱后端。当前已形成 Batch A-F 六段岗位图谱闭环，并完成应聘者简历画像闭环：
 
 - Batch A：三角色内部账号、Session/CSRF、安全文件读取、Processing Run 生命周期和依赖健康诊断。
 - Batch B：市场 JD 批量上传、来源 Adapter、Raw/Normalized 双层数据、质量警告、重新处理，以及技能/岗位 Catalog 骨架导入。
@@ -8,6 +8,7 @@
 - Batch D：候选岗位定义提案、HR/admin 人工修改与确认、不采纳、不可变审核历史和审计记录。
 - Batch E：管理员把审核通过的岗位提案发布为 PostgreSQL 正式岗位、完整 Catalog Version 和 Neo4j 岗位能力子图。
 - Batch F：三种登录角色读取 Neo4j 正式全局有限子图和单岗位能力子图，PostgreSQL 校验当前发布水位与正式主数据状态。
+- Applicant Resume Profile：应聘者上传单份 PDF/DOCX，异步抽取可追溯画像，人工修订并确认唯一当前版本。
 
 本仓库只包含后端。当前没有公开注册接口，也没有脱离业务资源的通用文件上传接口。
 
@@ -43,7 +44,7 @@ curl http://127.0.0.1:8000/health/ready
 - 就绪检查：<http://127.0.0.1:8000/health/ready>
 - API 根前缀：`/api/v1`
 
-在尚未单独启动 Algorithm Service 时，Ready 响应中的 `algorithm_service` 会是 `degraded`；这是允许的降级状态。PostgreSQL、Redis、Neo4j 和文件卷四个必需依赖必须全部为 `ok`。
+在尚未单独启动 Algorithm Service 时，Ready 响应中的 `algorithm_service` 会是 `degraded`；LLM 三项配置任一缺失时，`llm_service` 也会是 `degraded`。这两项都是允许的降级状态，PostgreSQL、Redis、Neo4j 和文件卷四个必需依赖必须全部为 `ok`。
 
 示例：
 
@@ -55,7 +56,8 @@ curl http://127.0.0.1:8000/health/ready
     "redis": "ok",
     "neo4j": "ok",
     "file_volume": "ok",
-    "algorithm_service": "degraded"
+    "algorithm_service": "degraded",
+    "llm_service": "degraded"
   }
 }
 ```
@@ -82,7 +84,7 @@ curl http://127.0.0.1:8000/health/ready
 - `GET /api/v1/files/{file_id}/content`
 - `GET /api/v1/files/{file_id}/download`
 
-Batch A 只提供可见性校验后的读取、Range 预览、附件下载和访问审计。业务上传入口将在对应的 Import、Resume 或 Recruitment 模块中实现，不提供无业务归属的普通上传 API。
+文件 API 只提供可见性校验后的读取、Range 预览、附件下载和访问审计。业务文件分别由 Import、Catalog 和 Resume 模块创建，不提供无业务归属的普通上传 API。已绑定 Resume 的原始文件仅 applicant owner 和 admin 可读，HR 或其他 applicant 获得脱敏的 404。
 
 ### Processing Run
 
@@ -94,6 +96,110 @@ Batch A 只提供可见性校验后的读取、Range 预览、附件下载和访
 - `POST /api/v1/processing-runs/{run_id}/cancel`
 
 普通用户只能看到 `owner_scope_type=user` 且属于自己的任务；管理员可以查看全局任务。失败重试会创建新 Run，不会把旧 Run 改回 pending。
+
+### Applicant Resume Profile
+
+- `POST /api/v1/resumes`
+- `GET /api/v1/resumes`
+- `GET /api/v1/resumes/{resume_id}`
+- `GET /api/v1/resumes/{resume_id}/profiles`
+- `GET /api/v1/resumes/{resume_id}/profiles/{version_no}`
+- `GET /api/v1/resumes/{resume_id}/extracted-text`
+- `POST /api/v1/resumes/{resume_id}/profiles/{version_no}/revisions`
+- `PUT /api/v1/resumes/{resume_id}/profiles/{version_no}`
+- `POST /api/v1/resumes/{resume_id}/profiles/{version_no}/confirm`
+- `POST /api/v1/resumes/{resume_id}/archive`
+
+当前能力：
+
+- applicant 单份上传 20 MB 以内的文字型 PDF/DOCX，获得异步 `ProcessingRun` 和轮询地址；
+- 后端在本地提取正文，对手机号、Email、身份证号和微信号进行等长脱敏后才调用 Provider；
+- 使用 Responses API Structured Outputs，校验原文 exact evidence，并只与 active Capability/active Alias 精确匹配；
+- extracted Profile 不原地修改；applicant 从 candidate/confirmed 创建人工 Revision，整体替换 Draft，并为每份 Resume 保持最多一个 confirmed Profile；
+- PostgreSQL 是 Resume、Profile、Skill、Run 和审核事实唯一真相源；简历流程不写 Neo4j，也不自动创建 Capability。
+
+Resume LLM 配置是可选的，三项必须同时提供才会启用解析：
+
+```dotenv
+LLM_RESPONSES_URL=https://api.openai.com/v1/responses
+LLM_API_KEY=<provider-api-key>
+LLM_MODEL=<responses-model>
+```
+
+任一项缺失（包括三项全部为空）时，API、其他模块和 `/health/ready` 仍可启动；Ready 返回 200 且 `llm_service=degraded`。新 Resume Worker 会以稳定错误码 `LLM_NOT_CONFIGURED` 失败，配置恢复后可通过现有 Processing Run retry 接口创建新的不可变 Run。
+
+Provider 兼容边界：
+
+- `LLM_RESPONSES_URL` 必须是可直接 `POST` 的完整 Responses endpoint；
+- 请求固定使用 `input`/`input_text`、`text.format.type=json_schema`、`strict=true`、`stream=false` 和 `store=false`；
+- 不提供 Chat Completions fallback，不接通用 Provider 抽象，也不使用 LangChain/LangGraph。
+
+当前非目标：OCR、简历批量导入、人岗匹配/推荐、差距分析、成长路径、Resume 图谱写入、自动创建 Capability、调用 Algorithm Service。扫描版 PDF 应先在外部完成 OCR，再上传文字型 PDF/DOCX。
+
+以下命令只使用 placeholder 和仓库内的虚构测试 PDF，不要把真实 Session、API Key、简历正文或 Provider raw response 写入 README、Shell 历史或 Git。
+
+上传简历；响应中的 `resource_id` 是 `RESUME_ID`，`run_id` 是 `RUN_ID`：
+
+```bash
+curl -X POST http://localhost:8000/api/v1/resumes \
+  -b "session=<session-cookie>" \
+  -H "X-CSRF-Token: <csrf-token>" \
+  -H "Idempotency-Key: demo-resume-001" \
+  -F "file=@./backend/tests/fixtures/resume_text.pdf;type=application/pdf" \
+  -F "display_name=比赛演示简历"
+```
+
+轮询 Processing Run；完成后从 `/result` 读取 `result_url`：
+
+```bash
+curl -b "session=<session-cookie>" \
+  http://localhost:8000/api/v1/processing-runs/<run-id>
+
+curl -b "session=<session-cookie>" \
+  http://localhost:8000/api/v1/processing-runs/<run-id>/result
+```
+
+读取 candidate Profile。普通 Resume 详情不会返回 `extracted_text`；原始正文只能通过专用 `/api/v1/resumes/{resume_id}/extracted-text` endpoint 读取，并且仅 owner/admin 有权访问：
+
+```bash
+curl -b "session=<session-cookie>" \
+  http://localhost:8000/api/v1/resumes/<resume-id>/profiles/<profile-version>
+```
+
+从 candidate/confirmed 创建 Revision，整体保存 Draft，再确认该版本：
+
+```bash
+curl -X POST \
+  -b "session=<session-cookie>" \
+  -H "X-CSRF-Token: <csrf-token>" \
+  http://localhost:8000/api/v1/resumes/<resume-id>/profiles/<source-version>/revisions
+
+curl -X PUT \
+  -b "session=<session-cookie>" \
+  -H "X-CSRF-Token: <csrf-token>" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "document_language": "zh-CN",
+    "summary": "人工确认后的画像",
+    "educations": [],
+    "experiences": [],
+    "projects": [],
+    "skills": [{
+      "raw_name": "Python",
+      "capability_id": null,
+      "proficiency": "intermediate",
+      "explicit_experience_months": 24,
+      "evidence_strength": "mention",
+      "evidence_quote": null
+    }]
+  }' \
+  http://localhost:8000/api/v1/resumes/<resume-id>/profiles/<draft-version>
+
+curl -X POST \
+  -b "session=<session-cookie>" \
+  -H "X-CSRF-Token: <csrf-token>" \
+  http://localhost:8000/api/v1/resumes/<resume-id>/profiles/<draft-version>/confirm
+```
 
 ### 市场 JD 数据中心
 
@@ -403,7 +509,7 @@ docker compose down -v
 
 ## 开发与验收
 
-本地测试依赖应迁移到 `0009`。创建测试库并应用 Migration：
+本地测试依赖应迁移到 `0010`。创建测试库并应用 Migration：
 
 ```bash
 docker compose up -d postgres
@@ -459,5 +565,7 @@ uv run pytest -q
 - [Batch D：候选岗位审核实施计划](./docs/superpowers/plans/2026-08-06-candidate-review.md)
 - [Batch E：正式图谱发布实施计划](./docs/superpowers/plans/2026-08-06-graph-publication.md)
 - [Batch F：正式图谱读取实施计划](./docs/superpowers/plans/2026-08-06-graph-read-api.md)
+- [Applicant Resume Profile 设计](./docs/superpowers/specs/2026-08-06-resume-profile-design.md)
+- [Applicant Resume Profile 实施计划](./docs/superpowers/plans/2026-08-06-resume-profile.md)
 
-当前实现仍不包含爬虫管理、定时调度、算法/LLM 抽取和语义聚类。算法或大模型只能生成候选；候选必须经过人工审核，并由管理员通过正式 Catalog/Graph Version 发布后才能进入 active 主数据和 Neo4j 投影。
+当前实现仍不包含爬虫管理、定时调度、JD 语义聚类或外部 Algorithm Service。Resume 模块只用 LLM 生成可人工确认的候选画像；它不能创建正式 Capability/JobRole，也不能写 Neo4j。岗位侧算法或大模型候选仍必须经过人工审核，并由管理员通过正式 Catalog/Graph Version 发布后才能进入 active 主数据和 Neo4j 投影。
