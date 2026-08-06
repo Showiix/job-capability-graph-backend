@@ -350,7 +350,7 @@ git commit -m "feat: add candidate review APIs"
 
 ## Task 5: README 与最终验收
 
-- [ ] **Step 1: 补充 README**
+- [x] **Step 1: 补充 README**
 
 说明：
 
@@ -358,7 +358,7 @@ git commit -m "feat: add candidate review APIs"
 - approve 只代表审核通过，不代表正式发布。
 - 当前不调用 LLM、不创建 active JobRole、不写 Neo4j。
 
-- [ ] **Step 2: 执行完整门禁**
+- [x] **Step 2: 执行完整门禁**
 
 ```bash
 docker compose config -q
@@ -378,7 +378,7 @@ env \
 git diff --check
 ```
 
-- [ ] **Step 3: 提交并推送**
+- [x] **Step 3: 提交并推送**
 
 ```bash
 git commit -m "docs: document candidate review workflow"

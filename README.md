@@ -1,10 +1,11 @@
 # 岗位能力图谱系统后端
 
-面向比赛展示与团队内部真实使用的岗位能力图谱后端。当前已形成三段可运行闭环：
+面向比赛展示与团队内部真实使用的岗位能力图谱后端。当前已形成四段可运行闭环：
 
 - Batch A：三角色内部账号、Session/CSRF、安全文件读取、Processing Run 生命周期和依赖健康诊断。
 - Batch B：市场 JD 批量上传、来源 Adapter、Raw/Normalized 双层数据、质量警告、重新处理，以及技能/岗位 Catalog 骨架导入。
 - Batch C：标准技能库精确映射、候选技能组合发现、可追溯 Evidence、Discovery Run 和 admin/hr 查询 API。
+- Batch D：候选岗位定义提案、HR/admin 人工修改与确认、不采纳、不可变审核历史和审计记录。
 
 本仓库只包含后端。当前没有公开注册接口，也没有脱离业务资源的通用文件上传接口。
 
@@ -161,6 +162,65 @@ curl -sS -b /tmp/job-graph-cookies.txt \
 
 当前结果统一称为“候选技能组合”，不代表已经确认的长期市场趋势。第一版使用确定性的 pair co-occurrence baseline，暂不包括 Embedding/pgvector 聚类、Algorithm Service 语义聚类、LLM 岗位定义、时间趋势证明、HR Feedback、Neo4j 正式图谱发布和三技能及以上频繁项集。
 
+### 候选岗位审核
+
+- `POST /api/v1/review-proposals`
+- `GET /api/v1/review-proposals`
+- `GET /api/v1/review-proposals/{proposal_id}`
+- `POST /api/v1/review-proposals/{proposal_id}/decisions`
+
+`admin` 和 `hr` 可以把候选技能组合转换为结构化岗位定义提案，并执行 `approve`、`revise` 或 `reject`；`applicant` 不可访问。写接口需要 CSRF Token。
+
+创建提案：
+
+```bash
+CANDIDATE_ID='替换为 discovery candidate id'
+
+curl -sS -b /tmp/job-graph-cookies.txt \
+  -H "X-CSRF-Token: ${CSRF_TOKEN}" \
+  -H 'Content-Type: application/json' \
+  -d "{\"candidate_id\": \"${CANDIDATE_ID}\"}" \
+  http://127.0.0.1:8000/api/v1/review-proposals
+```
+
+提案会自动锚定原 Candidate 的技能和 Evidence Summary，并生成可人工编辑的岗位定义骨架。第一版不会凭空编写岗位职责和行业场景，这两个字段初始为空。
+
+修改岗位定义后保留待审状态：
+
+```bash
+PROPOSAL_ID='替换为 review proposal id'
+
+curl -sS -b /tmp/job-graph-cookies.txt \
+  -H "X-CSRF-Token: ${CSRF_TOKEN}" \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "decision": "revise",
+    "after_payload": {
+      "role_name": "AI 自动化测试工程师",
+      "core_responsibilities": ["建设 AI 产品自动化测试体系"],
+      "required_capability_ids": ["替换为技能 UUID", "替换为技能 UUID"],
+      "bonus_capability_ids": [],
+      "industry_scenarios": ["AI 产品质量保障"],
+      "generation_source": "human_revision",
+      "definition_status": "reviewed"
+    },
+    "comment": "补充岗位名称和职责"
+  }' \
+  "http://127.0.0.1:8000/api/v1/review-proposals/${PROPOSAL_ID}/decisions"
+```
+
+直接确认当前定义：
+
+```bash
+curl -sS -b /tmp/job-graph-cookies.txt \
+  -H "X-CSRF-Token: ${CSRF_TOKEN}" \
+  -H 'Content-Type: application/json' \
+  -d '{"decision":"approve","comment":"确认采纳"}' \
+  "http://127.0.0.1:8000/api/v1/review-proposals/${PROPOSAL_ID}/decisions"
+```
+
+`approve` 只表示审核通过并获得后续发布资格，不会创建 active JobRole，不会创建正式 Catalog Version，也不会写入 Neo4j。每次决定都保存 before/after Payload、审核人、时间和意见；`approved/rejected` 是只读终态。
+
 ## 市场 JD 导入验收示例
 
 先登录管理员账号并从 Cookie Jar 取出 CSRF Token：
@@ -251,7 +311,7 @@ docker compose down -v
 
 ## 开发与验收
 
-本地测试依赖应迁移到 `0007`。创建测试库并应用 Migration：
+本地测试依赖应迁移到 `0008`。创建测试库并应用 Migration：
 
 ```bash
 docker compose up -d postgres
@@ -304,5 +364,6 @@ uv run pytest -q
 - [Batch A：后端基础闭环实施计划](./docs/superpowers/plans/2026-08-06-backend-foundation.md)
 - [Batch B：市场 JD 数据中心实施计划](./docs/superpowers/plans/2026-08-06-market-jd-center.md)
 - [Batch C：候选技能组合发现实施计划](./docs/superpowers/plans/2026-08-06-candidate-discovery.md)
+- [Batch D：候选岗位审核实施计划](./docs/superpowers/plans/2026-08-06-candidate-review.md)
 
-当前 Batch B/C 明确不包含爬虫管理、定时调度、算法/LLM 抽取、语义聚类和 Neo4j 发布。这些能力后续只能通过候选记录、人工审核和正式版本发布接入，不能绕过 PostgreSQL 事实库直接写图。
+当前 Batch B/C/D 明确不包含爬虫管理、定时调度、算法/LLM 抽取、语义聚类和 Neo4j 发布。审核批准的提案仍然是 PostgreSQL 中的候选事实，后续只能通过正式 Catalog/Graph Version 发布接入，不能直接写图。
