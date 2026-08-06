@@ -32,7 +32,9 @@ class FakeAsyncDriver:
             self.nodes.add(("Capability", capability["id"]))
             self.nodes.add(("Domain", capability["domain"]["id"]))
             self.relationships.add(("BELONGS_TO", capability["domain_relation_key"]))
-            relation_type = capability["requirement_type"].upper()
+            relation_type = (
+                "REQUIRES" if capability["requirement_type"] == "required" else "BONUS"
+            )
             self.relationships.add((relation_type, capability["role_relation_key"]))
 
         record = {
@@ -138,6 +140,12 @@ async def test_publish_snapshot_merges_and_verifies_counts(snapshot) -> None:
     assert ":REQUIRES" in query
     assert ":BONUS" in query
     assert parameters["graph_version"] == 3
+    required = parameters["capabilities"][0]
+    assert required["role_relation_key"] == relation_key(
+        "REQUIRES",
+        parameters["job_role"]["id"],
+        required["id"],
+    )
 
 
 async def test_publish_snapshot_is_idempotent(snapshot) -> None:

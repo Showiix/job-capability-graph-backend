@@ -285,12 +285,12 @@ Commit：`feat: publish reviewed role to neo4j`
 
 ## Task 4: GraphVersion Service
 
-- [ ] **Step 1: 写 Draft 创建和发布 RED 测试**
-- [ ] **Step 2: 实现快照、状态流转、Catalog finalize 和失败重试**
-- [ ] **Step 3: 验证 Neo4j 失败不创建 active JobRole**
-- [ ] **Step 4: 验证成功后 PostgreSQL/Catalog/Proposal 一致**
-- [ ] **Step 5: 运行 GREEN、全量回归和 Ruff**
-- [ ] **Step 6: 提交并推送**
+- [x] **Step 1: 写 Draft 创建和发布 RED 测试**
+- [x] **Step 2: 实现快照、状态流转、Catalog finalize 和失败重试**
+- [x] **Step 3: 验证 Neo4j 失败不创建 active JobRole**
+- [x] **Step 4: 验证成功后 PostgreSQL/Catalog/Proposal 一致**
+- [x] **Step 5: 运行 GREEN、全量回归和 Ruff**
+- [x] **Step 6: 提交并推送**
 
 Commit：`feat: publish approved graph versions`
 

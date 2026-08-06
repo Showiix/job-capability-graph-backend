@@ -125,7 +125,7 @@ def _publish_parameters(snapshot: dict, version_no: int) -> dict:
             capability["domain"]["id"],
         )
         capability["role_relation_key"] = relation_key(
-            requirement_type.upper(),
+            "REQUIRES" if requirement_type == "required" else "BONUS",
             job_role["id"],
             capability["id"],
         )
