@@ -1,6 +1,6 @@
 # Graph Read API Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** 为已正式发布到 Neo4j 的岗位能力图谱提供 authenticated 全局有限子图和单岗位局部子图读取 API，并用 PostgreSQL 校验当前发布水位和正式主数据状态。
 
@@ -56,7 +56,7 @@ README.md
 - Modify: `docs/superpowers/specs/2026-08-06-graph-read-api-design.md`
 - Create: `docs/superpowers/plans/2026-08-06-graph-read-api.md`
 
-- [ ] **Step 1: 确认设计分支和唯一未提交修正**
+- [x] **Step 1: 确认设计分支和唯一未提交修正**
 
 Run:
 
@@ -79,7 +79,7 @@ Expected:
 backend/app/api/router.py
 ```
 
-- [ ] **Step 2: 运行现有基线**
+- [x] **Step 2: 运行现有基线**
 
 Run:
 
@@ -96,7 +96,7 @@ Expected:
 All checks passed!
 ```
 
-- [ ] **Step 3: 提交并推送设计修正和本实施计划**
+- [x] **Step 3: 提交并推送设计修正和本实施计划**
 
 Run:
 
@@ -109,7 +109,7 @@ git push origin codex/graph-read-api
 
 Expected: 新提交只包含上述两个文档，远端 `origin/codex/graph-read-api` 指向该提交。
 
-- [ ] **Step 4: 在独立 worktree 开始生产代码**
+- [x] **Step 4: 在独立 worktree 开始生产代码**
 
 在当前仓库目录执行：
 
@@ -130,7 +130,7 @@ Expected: 主目录回到 `main`，新 worktree 位于 `codex/graph-read-api` �
 - Create: `backend/app/graph/query.py`
 - Create: `backend/tests/test_graph_query.py`
 
-- [ ] **Step 1: 写响应模型与无 current version 的 RED 测试**
+- [x] **Step 1: 写响应模型与无 current version 的 RED 测试**
 
 创建 `backend/tests/test_graph_query.py`：
 
@@ -271,7 +271,7 @@ async def test_global_graph_requires_current_published_version(
     assert error.value.code == "GRAPH_VERSION_NOT_PUBLISHED"
 ```
 
-- [ ] **Step 2: 运行 RED，确认缺少契约与查询模块**
+- [x] **Step 2: 运行 RED，确认缺少契约与查询模块**
 
 Run:
 
@@ -282,7 +282,7 @@ uv run pytest tests/test_graph_query.py -q
 
 Expected: collection FAIL，错误包含 `ModuleNotFoundError: No module named 'app.graph.query'` 或缺少 `GraphReadData`。
 
-- [ ] **Step 3: 实现最小 Pydantic 响应契约**
+- [x] **Step 3: 实现最小 Pydantic 响应契约**
 
 将 `backend/app/graph/schemas.py` 改为：
 
@@ -326,7 +326,7 @@ class GraphReadData(BaseModel):
     truncated: bool
 ```
 
-- [ ] **Step 4: 实现 current GraphVersion 校验和临时空图返回**
+- [x] **Step 4: 实现 current GraphVersion 校验和临时空图返回**
 
 创建 `backend/app/graph/query.py`：
 
@@ -391,7 +391,7 @@ async def get_global_graph(
 
 这里的临时空图只用于让第一组契约测试转绿；Task 3 立即用全局查询测试替换这段函数主体。
 
-- [ ] **Step 5: 运行 GREEN 和 Ruff**
+- [x] **Step 5: 运行 GREEN 和 Ruff**
 
 Run:
 
@@ -408,7 +408,7 @@ Expected:
 All checks passed!
 ```
 
-- [ ] **Step 6: 提交并推送契约与版本校验**
+- [x] **Step 6: 提交并推送契约与版本校验**
 
 Run:
 
@@ -428,7 +428,7 @@ Expected: commit 仅包含响应模型、current version 校验和对应测试�
 - Modify: `backend/app/graph/query.py`
 - Modify: `backend/tests/test_graph_query.py`
 
-- [ ] **Step 1: 在 Query 测试模块增加 Fake Driver 和记录工厂**
+- [x] **Step 1: 在 Query 测试模块增加 Fake Driver 和记录工厂**
 
 在 `backend/tests/test_graph_query.py` 的 imports 增加：
 
@@ -516,7 +516,7 @@ def _capability_record(
     }
 ```
 
-- [ ] **Step 2: 写全局映射、过滤、去重和排序 RED 测试**
+- [x] **Step 2: 写全局映射、过滤、去重和排序 RED 测试**
 
 在同一测试文件增加：
 
@@ -584,7 +584,7 @@ async def test_global_graph_maps_filters_deduplicates_and_sorts(
     assert driver.calls[1][1]["relation_limit"] == 1201
 ```
 
-- [ ] **Step 3: 写岗位、Capability 和内部行上限 RED 测试**
+- [x] **Step 3: 写岗位、Capability 和内部行上限 RED 测试**
 
 增加：
 
@@ -649,7 +649,7 @@ async def test_global_graph_sets_truncated_for_each_limit(
 
 这一个用例同时触发岗位多读一项、唯一 Capability 超限和关系行多读一项；返回边必须只保留两端节点均已返回的边。
 
-- [ ] **Step 4: 写 Domain、空图库、relation key 与异常脱敏 RED 测试**
+- [x] **Step 4: 写 Domain、空图库、relation key 与异常脱敏 RED 测试**
 
 增加：
 
@@ -735,7 +735,7 @@ async def test_global_graph_rejects_missing_relation_key_and_sanitizes_driver_er
     assert failed.value.details == {}
 ```
 
-- [ ] **Step 5: 运行 RED，确认临时空图实现不能满足行为**
+- [x] **Step 5: 运行 RED，确认临时空图实现不能满足行为**
 
 Run:
 
@@ -746,7 +746,7 @@ uv run pytest tests/test_graph_query.py -q
 
 Expected: 新增全局图用例 FAIL；首个主要差异是 `result.nodes == []`，且 Fake Driver 没有两次查询记录。
 
-- [ ] **Step 6: 增加两个全局只读 Cypher 和安全执行器**
+- [x] **Step 6: 增加两个全局只读 Cypher 和安全执行器**
 
 在 `backend/app/graph/query.py` imports 调整为：
 
@@ -839,7 +839,7 @@ async def _execute_read(driver, query: str, parameters: dict) -> list[Any]:
     return list(records)
 ```
 
-- [ ] **Step 7: 增加 Domain 校验和统一 nodes/edges 标准化**
+- [x] **Step 7: 增加 Domain 校验和统一 nodes/edges 标准化**
 
 在 `_version_data` 后增加：
 
@@ -1039,7 +1039,7 @@ def _normalize_graph(
     )
 ```
 
-- [ ] **Step 8: 用完整全局查询替换临时 `get_global_graph` 函数主体**
+- [x] **Step 8: 用完整全局查询替换临时 `get_global_graph` 函数主体**
 
 将函数改为：
 
@@ -1106,7 +1106,7 @@ async def get_global_graph(
     )
 ```
 
-- [ ] **Step 9: 运行全局 Query GREEN、回归和 Ruff**
+- [x] **Step 9: 运行全局 Query GREEN、回归和 Ruff**
 
 Run:
 
@@ -1119,7 +1119,7 @@ uv run ruff check app/graph/query.py tests/test_graph_query.py
 
 Expected: 所有命令 PASS；Query 测试覆盖两次查询参数、空 Domain 结果、三类截断、dangling edge 清除、relation key 缺失和驱动错误脱敏。
 
-- [ ] **Step 10: 提交并推送全局图读取**
+- [x] **Step 10: 提交并推送全局图读取**
 
 Run:
 
@@ -1138,7 +1138,7 @@ Expected: commit 不修改发布 service，不新增依赖或 Migration。
 - Modify: `backend/app/graph/query.py`
 - Modify: `backend/tests/test_graph_query.py`
 
-- [ ] **Step 1: 导入局部查询函数并写 required/bonus RED 测试**
+- [x] **Step 1: 导入局部查询函数并写 required/bonus RED 测试**
 
 把 `backend/tests/test_graph_query.py` 中的 query import 改为：
 
@@ -1204,7 +1204,7 @@ async def test_job_role_graph_returns_complete_local_subgraph(
     assert driver.calls[0][1] == {"job_role_id": str(context.role.id)}
 ```
 
-- [ ] **Step 2: 写零技能、PostgreSQL 校验和缺失投影 RED 测试**
+- [x] **Step 2: 写零技能、PostgreSQL 校验和缺失投影 RED 测试**
 
 增加：
 
@@ -1290,7 +1290,7 @@ async def test_job_role_graph_rejects_missing_neo4j_projection(
     assert error.value.code == "GRAPH_PROJECTION_INCONSISTENT"
 ```
 
-- [ ] **Step 3: 运行 RED，确认函数尚不存在**
+- [x] **Step 3: 运行 RED，确认函数尚不存在**
 
 Run:
 
@@ -1301,7 +1301,7 @@ uv run pytest tests/test_graph_query.py -q
 
 Expected: collection 或执行 FAIL，错误指向缺少 `get_job_role_graph`。
 
-- [ ] **Step 4: 增加单岗位只读 Cypher**
+- [x] **Step 4: 增加单岗位只读 Cypher**
 
 在 `GLOBAL_CAPABILITY_QUERY` 后增加：
 
@@ -1345,7 +1345,7 @@ ORDER BY toLower(capability.canonical_name), capability.id
 """
 ```
 
-- [ ] **Step 5: 增加 active JobRole 校验和局部查询函数**
+- [x] **Step 5: 增加 active JobRole 校验和局部查询函数**
 
 先把 `backend/app/graph/query.py` 的 catalog import 改为：
 
@@ -1413,7 +1413,7 @@ async def get_job_role_graph(
     )
 ```
 
-- [ ] **Step 6: 运行局部 Query GREEN、全部 Query 回归和 Ruff**
+- [x] **Step 6: 运行局部 Query GREEN、全部 Query 回归和 Ruff**
 
 Run:
 
@@ -1425,7 +1425,7 @@ uv run ruff check app/graph/query.py tests/test_graph_query.py
 
 Expected: 全部 PASS；零技能岗位返回 Domain、JobRole 和一条 `belongs_to`，Neo4j 缺失正式岗位返回 503。
 
-- [ ] **Step 7: 提交并推送单岗位子图**
+- [x] **Step 7: 提交并推送单岗位子图**
 
 Run:
 
@@ -1445,7 +1445,7 @@ Expected: commit 只扩展 query 模块和 focused tests，`graph/service.py` �
 - Modify: `backend/app/api/router.py`
 - Create: `backend/tests/test_graph_read_api.py`
 
-- [ ] **Step 1: 写 applicant/hr/admin 均可读且 GET 无 CSRF 的 RED 测试**
+- [x] **Step 1: 写 applicant/hr/admin 均可读且 GET 无 CSRF 的 RED 测试**
 
 创建 `backend/tests/test_graph_read_api.py`：
 
@@ -1527,7 +1527,7 @@ async def test_all_authenticated_roles_read_graph_without_csrf(
     assert local_calls == [(job_role_id, {})] * 3
 ```
 
-- [ ] **Step 2: 写未登录、范围校验、稳定 404/503 和脱敏 RED 测试**
+- [x] **Step 2: 写未登录、范围校验、稳定 404/503 和脱敏 RED 测试**
 
 在同一文件增加：
 
@@ -1604,7 +1604,7 @@ async def test_graph_read_returns_stable_service_errors(
     assert "query" not in local_response.text.lower()
 ```
 
-- [ ] **Step 3: 运行 RED，确认 `/api/v1/graph` 尚未挂载**
+- [x] **Step 3: 运行 RED，确认 `/api/v1/graph` 尚未挂载**
 
 Run:
 
@@ -1615,7 +1615,7 @@ uv run pytest tests/test_graph_read_api.py -q
 
 Expected: 路由测试 FAIL，未登录请求首先返回 404 `NOT_FOUND`，登录后的请求也无法得到 200。
 
-- [ ] **Step 4: 在现有 graph router 中增加独立 read router**
+- [x] **Step 4: 在现有 graph router 中增加独立 read router**
 
 修改 `backend/app/graph/router.py` imports：
 
@@ -1666,7 +1666,7 @@ async def job_role_graph(
 
 `identity: Identity` 只负责触发现有 Session 认证；不检查具体角色，因此 applicant、hr、admin 均可读。两个 GET 均不声明 `CSRF`。
 
-- [ ] **Step 5: 挂载 read router，同时保留 graph version router**
+- [x] **Step 5: 挂载 read router，同时保留 graph version router**
 
 在 `backend/app/api/router.py` 将 graph import 改为：
 
@@ -1687,7 +1687,7 @@ api_router.include_router(graph_router)
 api_router.include_router(graph_read_router)
 ```
 
-- [ ] **Step 6: 运行 API GREEN、旧 GraphVersion API 回归和 Ruff**
+- [x] **Step 6: 运行 API GREEN、旧 GraphVersion API 回归和 Ruff**
 
 Run:
 
@@ -1700,7 +1700,7 @@ uv run ruff check app/graph/router.py app/api/router.py \
 
 Expected: 所有测试 PASS；旧 `/graph-versions` 仍为 admin-only，新的两个 GET 对三种登录角色开放且不需要 CSRF。
 
-- [ ] **Step 7: 提交并推送读取 API**
+- [x] **Step 7: 提交并推送读取 API**
 
 Run:
 
@@ -1720,7 +1720,7 @@ Expected: commit 只包含路由、挂载和 API 测试。
 - Modify: `README.md`
 - Modify: `docs/superpowers/plans/2026-08-06-graph-read-api.md`
 
-- [ ] **Step 1: 更新 README 顶部闭环说明**
+- [x] **Step 1: 更新 README 顶部闭环说明**
 
 把：
 
@@ -1740,7 +1740,7 @@ Expected: commit 只包含路由、挂载和 API 测试。
 - Batch F：三种登录角色读取 Neo4j 正式全局有限子图和单岗位能力子图，PostgreSQL 校验当前发布水位与正式主数据状态。
 ```
 
-- [ ] **Step 2: 增加可执行读取示例和边界说明**
+- [x] **Step 2: 增加可执行读取示例和边界说明**
 
 在 README“正式图谱发布”段落后增加：
 
@@ -1784,7 +1784,7 @@ curl -sS -b /tmp/job-graph-cookies.txt \
 没有 current published GraphVersion、Domain/JobRole 不存在、PostgreSQL 与 Neo4j 投影不一致、Neo4j 读取失败时，分别返回稳定的 `GRAPH_VERSION_NOT_PUBLISHED`、`GRAPH_DOMAIN_NOT_FOUND`、`GRAPH_JOB_ROLE_NOT_FOUND`、`GRAPH_PROJECTION_INCONSISTENT` 或 `GRAPH_READ_FAILED`。
 ````
 
-- [ ] **Step 3: 在设计文档索引增加 Batch F**
+- [x] **Step 3: 在设计文档索引增加 Batch F**
 
 在 README 的 Batch E 计划链接后增加：
 
@@ -1792,7 +1792,7 @@ curl -sS -b /tmp/job-graph-cookies.txt \
 - [Batch F：正式图谱读取实施计划](./docs/superpowers/plans/2026-08-06-graph-read-api.md)
 ```
 
-- [ ] **Step 4: 运行 focused、全量测试和 Ruff**
+- [x] **Step 4: 运行 focused、全量测试和 Ruff**
 
 Run:
 
@@ -1813,7 +1813,7 @@ All checks passed!
 
 若实际总数大于 193，只要新增测试均被收集、没有 skip/xfail 且全量 PASS，即满足门禁。
 
-- [ ] **Step 5: 验证 Compose、Migration 无漂移和文件范围**
+- [x] **Step 5: 验证 Compose、Migration 无漂移和文件范围**
 
 从仓库根目录运行：
 
@@ -1846,13 +1846,13 @@ git diff --check: exit 0
 
 最后一个 `rg` 的 exit 1 表示没有 Migration、依赖清单或 lockfile 变化，是预期结果。
 
-- [ ] **Step 6: 对三条生产 Cypher 执行真实 Neo4j 5 `EXPLAIN`**
+- [x] **Step 6: 对三条生产 Cypher 执行真实 Neo4j 5 `EXPLAIN`**
 
-启动现有 Neo4j 容器，不删除 Volume：
+使用既有 `backend-foundation` Compose project 启动 Neo4j，不删除 Volume：
 
 ```bash
-docker compose up -d neo4j
-docker compose ps neo4j
+docker compose -p backend-foundation up -d neo4j
+docker compose -p backend-foundation ps neo4j
 ```
 
 Expected: `neo4j` 为 `running` 或 `healthy`。
@@ -1860,9 +1860,9 @@ Expected: `neo4j` 为 `running` 或 `healthy`。
 全局岗位查询：
 
 ```bash
-docker compose exec -T neo4j cypher-shell \
-  -u neo4j -p job_graph_dev --format plain \
-  -P 'domain_id => null' -P 'role_limit => 31' \
+docker compose -p backend-foundation exec -T neo4j cypher-shell \
+  -u neo4j -p job_graph_dev --access-mode read --format verbose \
+  -P '{domain_id: null, role_limit: 31}' \
   "EXPLAIN
   MATCH (role:JobRole {status: 'active'})
         -[belongs:BELONGS_TO]->(domain:Domain)
@@ -1879,10 +1879,9 @@ docker compose exec -T neo4j cypher-shell \
 全局 Capability 查询：
 
 ```bash
-docker compose exec -T neo4j cypher-shell \
-  -u neo4j -p job_graph_dev --format plain \
-  -P "job_role_ids => ['00000000-0000-0000-0000-000000000001']" \
-  -P 'relation_limit => 1201' \
+docker compose -p backend-foundation exec -T neo4j cypher-shell \
+  -u neo4j -p job_graph_dev --access-mode read --format verbose \
+  -P "{job_role_ids: ['00000000-0000-0000-0000-000000000001'], relation_limit: 1201}" \
   "EXPLAIN
   UNWIND \$job_role_ids AS role_id
   MATCH (role:JobRole {id: role_id, status: 'active'})
@@ -1903,9 +1902,9 @@ docker compose exec -T neo4j cypher-shell \
 单岗位局部查询：
 
 ```bash
-docker compose exec -T neo4j cypher-shell \
-  -u neo4j -p job_graph_dev --format plain \
-  -P "job_role_id => '00000000-0000-0000-0000-000000000001'" \
+docker compose -p backend-foundation exec -T neo4j cypher-shell \
+  -u neo4j -p job_graph_dev --access-mode read --format verbose \
+  -P "{job_role_id: '00000000-0000-0000-0000-000000000001'}" \
   "EXPLAIN
   MATCH (role:JobRole {id: \$job_role_id, status: 'active'})
         -[roleBelongs:BELONGS_TO]->(domain:Domain)
@@ -1927,9 +1926,9 @@ docker compose exec -T neo4j cypher-shell \
   ORDER BY toLower(capability.canonical_name), capability.id"
 ```
 
-Expected: 三条命令都返回只读执行计划，Access Mode 为 `READ`，没有 `Create`、`Merge`、`Set` 或 `Delete` operator。`EXPLAIN` 不创建测试节点。
+Expected: 三条命令都返回 `Plan=EXPLAIN`、`Statement=READ_ONLY`，没有 `Create`、`Merge`、`Set` 或 `Delete` operator。`EXPLAIN` 不创建测试节点。
 
-- [ ] **Step 7: 更新计划执行状态，提交并推送文档**
+- [x] **Step 7: 更新计划执行状态，提交并推送文档**
 
 在本计划中把 Task 1-6 已完成步骤的 checkbox 改为 `[x]`，记录最终测试数和真实 EXPLAIN 结果；不改设计范围。
 
@@ -1942,6 +1941,24 @@ git push origin codex/graph-read-api
 ```
 
 Expected: 文档提交后 feature branch 工作树干净，远端已包含 Batch F 全部提交。
+
+Task 1-6 实际验收记录（2026-08-06）：
+
+```text
+baseline: 179 passed
+focused graph read tests: 14 passed
+full regression: 193 passed
+Ruff: All checks passed!
+Docker Compose config: passed
+Alembic check: No new upgrade operations detected.
+Migration/dependency diff: none
+Neo4j 5.26.29 global role EXPLAIN: READ_ONLY
+Neo4j 5.26.29 global capability EXPLAIN: READ_ONLY
+Neo4j 5.26.29 job role EXPLAIN: READ_ONLY
+Neo4j active JobRole at verification time: 0
+```
+
+worktree 缺少被 Git 忽略的 `.env` 时，只创建了指向主仓库 `.env` 的本地忽略 symlink。一次使用错误 Compose project name 的启动尝试创建了从未启动的容器和空 Volume；两者已按精确名称删除，既有 `backend-foundation` PostgreSQL、Neo4j、Redis 和文件 Volume 未删除。
 
 ## Task 7: Fast-forward 合并 main、主线复验、推送与清理
 

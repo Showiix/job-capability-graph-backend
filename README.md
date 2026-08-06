@@ -1,12 +1,13 @@
 # 岗位能力图谱系统后端
 
-面向比赛展示与团队内部真实使用的岗位能力图谱后端。当前已形成五段可运行闭环：
+面向比赛展示与团队内部真实使用的岗位能力图谱后端。当前已形成六段可运行闭环：
 
 - Batch A：三角色内部账号、Session/CSRF、安全文件读取、Processing Run 生命周期和依赖健康诊断。
 - Batch B：市场 JD 批量上传、来源 Adapter、Raw/Normalized 双层数据、质量警告、重新处理，以及技能/岗位 Catalog 骨架导入。
 - Batch C：标准技能库精确映射、候选技能组合发现、可追溯 Evidence、Discovery Run 和 admin/hr 查询 API。
 - Batch D：候选岗位定义提案、HR/admin 人工修改与确认、不采纳、不可变审核历史和审计记录。
 - Batch E：管理员把审核通过的岗位提案发布为 PostgreSQL 正式岗位、完整 Catalog Version 和 Neo4j 岗位能力子图。
+- Batch F：三种登录角色读取 Neo4j 正式全局有限子图和单岗位能力子图，PostgreSQL 校验当前发布水位与正式主数据状态。
 
 本仓库只包含后端。当前没有公开注册接口，也没有脱离业务资源的通用文件上传接口。
 
@@ -274,6 +275,44 @@ curl -sS -b /tmp/job-graph-cookies.txt \
 
 Neo4j 写入或读回验证失败时，Graph Version 进入 `failed`，`last_error` 只保存安全的错误类型；PostgreSQL 不会创建 active JobRole，也不会激活 Catalog Version。管理员可对同一 Graph Version 再次调用 publish，系统会复用原 UUID、快照和 relation key 重试。第一版是适合比赛展示与团队内部使用的同步单岗位发布，不包含 Celery 发布 Worker、批量发布拓扑或企业级回滚编排。
 
+### 正式图谱读取
+
+- `GET /api/v1/graph`
+- `GET /api/v1/graph/job-roles/{job_role_id}`
+
+两个接口允许 applicant、hr、admin 读取，只要求有效 Session Cookie；GET 不需要 CSRF Token。读取 current published GraphVersion 作为响应水位，但不会按 current version 过滤 Neo4j 节点，因为正式图投影会累积保留更早发布且仍然 active 的岗位。
+
+读取全局有限子图：
+
+```bash
+curl -sS -b /tmp/job-graph-cookies.txt \
+  'http://127.0.0.1:8000/api/v1/graph?max_job_roles=30&max_capabilities=120'
+```
+
+按 active Domain 限制岗位：
+
+```bash
+DOMAIN_ID='替换为 active domain id'
+
+curl -sS -b /tmp/job-graph-cookies.txt \
+  "http://127.0.0.1:8000/api/v1/graph?domain_id=${DOMAIN_ID}&max_job_roles=30&max_capabilities=120"
+```
+
+读取单个 active JobRole 的完整岗位能力子图：
+
+```bash
+JOB_ROLE_ID='替换为 active job role id'
+
+curl -sS -b /tmp/job-graph-cookies.txt \
+  "http://127.0.0.1:8000/api/v1/graph/job-roles/${JOB_ROLE_ID}"
+```
+
+全局接口最多返回 50 个岗位和 200 个唯一 Capability，默认分别为 30 和 120。岗位、技能或内部关系行超出限制时，响应中的 `truncated` 为 `true`；调用方可以缩小 Domain 范围或调整允许的 limit。单岗位当前最多包含 20 个必备技能和 20 个加分技能，因此不分页。
+
+响应只包含 `domain`、`job_role`、`capability` 节点和 `belongs_to`、`requires`、`bonus` 关系。节点 ID 使用 PostgreSQL UUID，关系 ID 使用发布阶段生成的 SHA256 `relation_key`。接口不返回原始 JD、Evidence、审核提案、发布快照、数据库连接信息或 Neo4j 查询文本。
+
+没有 current published GraphVersion、Domain/JobRole 不存在、PostgreSQL 与 Neo4j 投影不一致、Neo4j 读取失败时，分别返回稳定的 `GRAPH_VERSION_NOT_PUBLISHED`、`GRAPH_DOMAIN_NOT_FOUND`、`GRAPH_JOB_ROLE_NOT_FOUND`、`GRAPH_PROJECTION_INCONSISTENT` 或 `GRAPH_READ_FAILED`。
+
 ## 市场 JD 导入验收示例
 
 先登录管理员账号并从 Cookie Jar 取出 CSRF Token：
@@ -419,5 +458,6 @@ uv run pytest -q
 - [Batch C：候选技能组合发现实施计划](./docs/superpowers/plans/2026-08-06-candidate-discovery.md)
 - [Batch D：候选岗位审核实施计划](./docs/superpowers/plans/2026-08-06-candidate-review.md)
 - [Batch E：正式图谱发布实施计划](./docs/superpowers/plans/2026-08-06-graph-publication.md)
+- [Batch F：正式图谱读取实施计划](./docs/superpowers/plans/2026-08-06-graph-read-api.md)
 
 当前实现仍不包含爬虫管理、定时调度、算法/LLM 抽取和语义聚类。算法或大模型只能生成候选；候选必须经过人工审核，并由管理员通过正式 Catalog/Graph Version 发布后才能进入 active 主数据和 Neo4j 投影。
