@@ -64,6 +64,28 @@ services:
     volumes:
       - app_files:/data/files
 
+  worker:
+    build: ./backend
+    env_file: .env
+    command: ["uv", "run", "celery", "-A", "app.worker:celery_app", "worker", "-l", "INFO"]
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+      redis:
+        condition: service_healthy
+    volumes:
+      - app_files:/data/files
+
+  scheduler:
+    build: ./backend
+    env_file: .env
+    command: ["uv", "run", "celery", "-A", "app.worker:celery_app", "beat", "-l", "INFO"]
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+      redis:
+        condition: service_healthy
+
 volumes:
   postgres_data:
   neo4j_data:
