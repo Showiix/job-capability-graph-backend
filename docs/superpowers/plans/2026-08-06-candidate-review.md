@@ -388,11 +388,11 @@ git commit -m "docs: document candidate review workflow"
 
 ## Task 6: 分支收尾
 
-- [ ] **Step 1: 功能分支全量门禁**
-- [ ] **Step 2: Fast-forward 合并 `main`**
-- [ ] **Step 3: 合并后再次运行全量门禁**
-- [ ] **Step 4: 推送 `origin/main`**
-- [ ] **Step 5: 删除本地 worktree 和功能分支，保留远端功能分支和 Docker Volume**
+- [x] **Step 1: 功能分支全量门禁**
+- [x] **Step 2: Fast-forward 合并 `main`**
+- [x] **Step 3: 合并后再次运行全量门禁**
+- [x] **Step 4: 推送 `origin/main`**
+- [x] **Step 5: 删除本地 worktree 和功能分支，保留远端功能分支和 Docker Volume**
 
 ---
 
