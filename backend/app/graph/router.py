@@ -1,8 +1,10 @@
+from typing import Annotated
 from uuid import UUID
 
 from fastapi import APIRouter, Query, Request
 
-from app.api.dependencies import CSRF, DB, Admin
+from app.api.dependencies import CSRF, DB, Admin, Identity
+from app.graph.query import get_global_graph, get_job_role_graph
 from app.graph.schemas import GraphVersionCreate
 from app.graph.service import (
     create_graph_version,
@@ -13,6 +15,34 @@ from app.graph.service import (
 )
 
 router = APIRouter(prefix="/graph-versions", tags=["graph"])
+read_router = APIRouter(prefix="/graph", tags=["graph"])
+
+
+@read_router.get("")
+async def global_graph(
+    db: DB,
+    identity: Identity,
+    domain_id: Annotated[UUID | None, Query()] = None,
+    max_job_roles: int = Query(default=30, ge=1, le=50),
+    max_capabilities: int = Query(default=120, ge=1, le=200),
+) -> dict:
+    value = await get_global_graph(
+        db,
+        domain_id=domain_id,
+        max_job_roles=max_job_roles,
+        max_capabilities=max_capabilities,
+    )
+    return {"data": value.model_dump(mode="json")}
+
+
+@read_router.get("/job-roles/{job_role_id}")
+async def job_role_graph(
+    job_role_id: UUID,
+    db: DB,
+    identity: Identity,
+) -> dict:
+    value = await get_job_role_graph(db, job_role_id)
+    return {"data": value.model_dump(mode="json")}
 
 
 @router.post("", status_code=201)
