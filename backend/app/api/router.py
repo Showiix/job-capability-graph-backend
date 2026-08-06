@@ -3,6 +3,7 @@ from fastapi import APIRouter
 from app.auth.admin_router import router as admin_users_router
 from app.auth.router import router as auth_router
 from app.catalog.router import router as catalog_router
+from app.discovery.router import router as discovery_router
 from app.files.router import router as files_router
 from app.imports.router import router as imports_router
 from app.processing.router import router as processing_router
@@ -12,6 +13,7 @@ api_router = APIRouter(prefix="/api/v1")
 api_router.include_router(auth_router)
 api_router.include_router(admin_users_router)
 api_router.include_router(catalog_router)
+api_router.include_router(discovery_router)
 api_router.include_router(files_router)
 api_router.include_router(imports_router)
 api_router.include_router(processing_router)

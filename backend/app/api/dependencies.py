@@ -33,6 +33,16 @@ async def require_admin(identity: Identity) -> User:
 Admin = Annotated[User, Depends(require_admin)]
 
 
+async def require_staff(identity: Identity) -> User:
+    user, _ = identity
+    if user.role not in {"admin", "hr"}:
+        raise APIError(403, "ROLE_NOT_ALLOWED", "当前角色不能执行此操作")
+    return user
+
+
+Staff = Annotated[User, Depends(require_staff)]
+
+
 async def require_csrf(
     identity: Identity,
     csrf_header: Annotated[str | None, Header(alias="X-CSRF-Token")] = None,
