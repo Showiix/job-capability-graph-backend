@@ -19,6 +19,8 @@ class Settings(BaseSettings):
     file_storage_root: Path
     session_secret: SecretStr = Field(min_length=32)
     session_ttl_seconds: int = Field(default=28_800, ge=300)
+    max_import_file_bytes: int = Field(default=50 * 1024 * 1024, ge=1)
+    max_import_rows: int = Field(default=100_000, ge=1)
     cors_origins: list[str]
     algorithm_service_url: AnyHttpUrl
 
