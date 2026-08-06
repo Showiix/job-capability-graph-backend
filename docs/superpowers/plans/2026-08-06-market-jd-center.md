@@ -26,7 +26,7 @@
 ## 2. 文件变更地图
 
 ```text
-backend/app/imports/models.py              # data_sources/import_batches/raw/normalized/warnings
+backend/app/imports/models.py              # data_sources/import_batches/raw/normalized
 backend/app/imports/schemas.py             # import 请求与响应模型
 backend/app/imports/adapters.py            # 三个来源 Adapter 和标准行 DTO
 backend/app/imports/normalization.py       # 日期、薪资、经验、城市、编码和质量分
@@ -39,7 +39,7 @@ backend/app/catalog/schemas.py             # Catalog 请求与响应
 backend/app/catalog/service.py             # validate-only/apply 与查询
 backend/app/catalog/router.py               # /api/v1/catalog API
 backend/app/api/router.py                  # 挂载 imports/catalog routers
-backend/alembic/versions/0005_market_imports.py
+backend/alembic/versions/0005_create_market_import_tables.py
 backend/alembic/versions/0006_catalog_skeleton.py
 backend/tests/test_import_database_constraints.py
 backend/tests/test_import_upload.py
@@ -109,11 +109,13 @@ class StandardJobRow:
 - Create: `backend/tests/test_import_database_constraints.py`
 - Create: `backend/app/imports/__init__.py`
 - Create: `backend/app/imports/models.py`
-- Create: `backend/alembic/versions/0005_market_imports.py`
+- Create: `backend/alembic/versions/0005_create_market_import_tables.py`
+- Modify: `backend/alembic/env.py`
+- Modify: `backend/tests/test_health.py`
 
 - [ ] **Step 1: 写 RED 测试**
 
-测试导入模块可导入五个模型，验证 `raw_job_postings(batch_id,row_number)` 唯一约束、`normalized_job_postings(raw_job_id,version_no)` 唯一约束、质量分范围和批次计数约束。测试导入 `app.imports.models` 后先应得到 `ModuleNotFoundError`。
+测试导入模块可导入四个模型，验证 `raw_job_postings(batch_id,row_number)` 唯一约束、`normalized_job_postings(raw_job_id,version_no)` 唯一约束、质量分范围和批次计数约束。测试导入 `app.imports.models` 后先应得到 `ModuleNotFoundError`。
 
 - [ ] **Step 2: 运行 RED**
 
@@ -125,7 +127,7 @@ cd backend && uv run pytest tests/test_import_database_constraints.py -q
 
 - [ ] **Step 3: 实现最小模型和迁移**
 
-沿用 `app.auth.models`、`app.files.models` 的 Declarative Base、UUID、时间戳和命名约束风格。创建 `data_sources`、`import_batches`、`raw_job_postings`、`normalized_job_postings`、`import_warnings` 五表及设计文档中列出的 FK、CHECK、索引和 partial unique index；`0005` 的 `down_revision` 固定为 `0004`。为 `data_sources` 提供 `standard/liepin/zhilian/zhilian_direct` seed，保证重复 upgrade 不重复插入。
+沿用 `app.auth.models`、`app.files.models` 的 Declarative Base、UUID、时间戳和命名约束风格。创建 `data_sources`、`import_batches`、`raw_job_postings`、`normalized_job_postings` 四表及设计文档中列出的 FK、CHECK、索引和 partial unique index；警告直接保存在 Raw 的 `parse_warnings` 与 Normalized 的 `quality_flags`，不重复建表。`0005` 的 `down_revision` 固定为 `0004`。为 `data_sources` 提供 `standard/liepin/zhilian/zhilian_direct` seed；在 `alembic/env.py` 导入新模型，并把系统版本测试期望更新为 `0005`。
 
 - [ ] **Step 4: 运行 GREEN 和迁移检查**
 
@@ -142,7 +144,7 @@ uv run alembic check
 - [ ] **Step 5: 独立提交**
 
 ```bash
-git add backend/app/imports backend/alembic/versions/0005_market_imports.py backend/tests/test_import_database_constraints.py
+git add backend/app/imports backend/alembic backend/tests/test_import_database_constraints.py backend/tests/test_health.py docs/superpowers/plans/2026-08-06-market-jd-center.md
 git commit -m "feat: add market JD import schema"
 ```
 
@@ -284,7 +286,7 @@ cd backend && uv run pytest tests/test_import_tasks.py -q
 
 - [ ] **Step 3: 实现最小任务闭环**
 
-定义 `process_market_import(run_id)`：从 Run 找到 Batch 和 StoredFile，流式逐行读取；每行先写 `RawJobPosting`，再调用标准化纯函数写 `NormalizedJobPosting` 和 `ImportWarning`。用单事务 chunk（默认 100 行）提交，提交前检查 `cancel_requested` 和 `MAX_IMPORT_ROWS`。成功/部分失败时原子更新批次计数、summary 和 Run result；文件解码、Adapter、空数据或行数超限错误写入 Processing Error 并把 Run/Batch 标记为 failed。注册 `@celery_app.task(name="app.import_market_jd")`，任务异常不丢失 Run。
+定义 `process_market_import(run_id)`：从 Run 找到 Batch 和 StoredFile，流式逐行读取；每行先写 `RawJobPosting.parse_warnings`，再调用标准化纯函数写 `NormalizedJobPosting.quality_flags`。用单事务 chunk（默认 100 行）提交，提交前检查 `cancel_requested` 和 `MAX_IMPORT_ROWS`。成功/部分失败时原子更新批次计数、summary 和 Run result；文件解码、Adapter、空数据或行数超限错误写入 Processing Error 并把 Run/Batch 标记为 failed。注册 `@celery_app.task(name="app.import_market_jd")`，任务异常不丢失 Run。
 
 实现 `reprocess_batch` 时增加 `normalization_version`，同一 Raw 行 `version_no + 1`，旧版本 `is_current=false`；不更新 Raw 字段。
 
