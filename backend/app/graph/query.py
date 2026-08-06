@@ -5,7 +5,7 @@ from uuid import UUID
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.catalog.models import Domain
+from app.catalog.models import Domain, JobRole
 from app.core.errors import APIError
 from app.graph.models import GraphVersion
 from app.graph.schemas import GraphEdge, GraphNode, GraphReadData, GraphVersionRead
@@ -59,6 +59,44 @@ ORDER BY toLower(capability.canonical_name),
          capability.id,
          role.id
 LIMIT $relation_limit
+"""
+
+JOB_ROLE_GRAPH_QUERY = """
+MATCH (role:JobRole {id: $job_role_id, status: 'active'})
+      -[roleBelongs:BELONGS_TO]->(domain:Domain)
+OPTIONAL MATCH (role)-[requirement]->(capability:Capability {status: 'active'})
+WHERE requirement IS NULL OR type(requirement) IN ['REQUIRES', 'BONUS']
+OPTIONAL MATCH (capability)-[capabilityBelongs:BELONGS_TO]
+      ->(capabilityDomain:Domain)
+RETURN role {
+         .id,
+         .canonical_name,
+         .description,
+         .status
+       } AS role,
+       domain {
+         .id,
+         .code,
+         .name
+       } AS domain,
+       roleBelongs.relation_key AS relation_key,
+       role.id AS role_id,
+       requirement.relation_key AS requirement_relation_key,
+       type(requirement) AS requirement_type,
+       requirement.importance AS importance,
+       capability {
+         .id,
+         .canonical_name,
+         .skill_type,
+         .status
+       } AS capability,
+       capabilityDomain {
+         .id,
+         .code,
+         .name
+       } AS capability_domain,
+       capabilityBelongs.relation_key AS domain_relation_key
+ORDER BY toLower(capability.canonical_name), capability.id
 """
 
 
@@ -121,6 +159,25 @@ async def _require_active_domain(db: AsyncSession, domain_id: UUID) -> None:
             "GRAPH_DOMAIN_NOT_FOUND",
             "技术域不存在或未启用",
         )
+
+
+async def _require_active_job_role(
+    db: AsyncSession,
+    job_role_id: UUID,
+) -> JobRole:
+    role = await db.scalar(
+        select(JobRole).where(
+            JobRole.id == job_role_id,
+            JobRole.status == "active",
+        )
+    )
+    if role is None:
+        raise APIError(
+            404,
+            "GRAPH_JOB_ROLE_NOT_FOUND",
+            "岗位不存在或未启用",
+        )
+    return role
 
 
 def _uuid(value: Any) -> UUID:
@@ -365,4 +422,39 @@ async def get_global_graph(
         capability_records,
         max_capabilities=max_capabilities,
         truncated=role_overflow or relation_overflow,
+    )
+
+
+async def get_job_role_graph(
+    db: AsyncSession,
+    job_role_id: UUID,
+    *,
+    driver=neo4j_driver,
+) -> GraphReadData:
+    role = await _require_active_job_role(db, job_role_id)
+    version = await _current_graph_version(db)
+    records = await _execute_read(
+        driver,
+        JOB_ROLE_GRAPH_QUERY,
+        {"job_role_id": str(role.id)},
+    )
+    if not records:
+        raise _projection_inconsistent()
+
+    capability_records = []
+    for record in records:
+        if record["capability"] is None:
+            continue
+        capability_records.append(
+            {
+                **dict(record),
+                "domain": record["capability_domain"],
+            }
+        )
+    return _normalize_graph(
+        version,
+        [records[0]],
+        capability_records,
+        max_capabilities=None,
+        truncated=False,
     )

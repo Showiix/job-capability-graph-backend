@@ -11,7 +11,7 @@ from app.catalog.models import CatalogVersion, Domain, JobRole
 from app.core.errors import APIError
 from app.graph.models import GraphVersion
 from app.graph.neo4j import relation_key
-from app.graph.query import get_global_graph
+from app.graph.query import get_global_graph, get_job_role_graph
 from app.graph.schemas import GraphEdge, GraphNode, GraphReadData, GraphVersionRead
 from app.reviews.models import GraphChangeCandidate
 
@@ -411,3 +411,139 @@ async def test_global_graph_rejects_missing_relation_key_and_sanitizes_driver_er
     assert "bolt" not in failed.value.message
     assert "secret" not in failed.value.message
     assert failed.value.details == {}
+
+
+async def test_job_role_graph_returns_complete_local_subgraph(
+    db_session,
+    user,
+) -> None:
+    context = await _published_context(db_session, user)
+    python_id = uuid4()
+    cicd_id = uuid4()
+    required = _capability_record(
+        context,
+        python_id,
+        "Python",
+        requirement_type="REQUIRES",
+    )
+    bonus = _capability_record(
+        context,
+        cicd_id,
+        "CI/CD",
+        requirement_type="BONUS",
+    )
+    role_record = _role_record(context)
+    records = []
+    for capability in (required, bonus):
+        records.append(
+            {
+                **capability,
+                "role": role_record["role"],
+                "domain": role_record["domain"],
+                "relation_key": role_record["relation_key"],
+                "capability_domain": capability["domain"],
+            }
+        )
+    driver = FakeAsyncDriver(records)
+
+    result = await get_job_role_graph(
+        db_session,
+        context.role.id,
+        driver=driver,
+    )
+
+    assert result.graph_version.id == context.version.id
+    assert {node.id for node in result.nodes} == {
+        context.domain.id,
+        context.role.id,
+        python_id,
+        cicd_id,
+    }
+    assert {edge.type for edge in result.edges} == {
+        "belongs_to",
+        "requires",
+        "bonus",
+    }
+    assert result.truncated is False
+    assert driver.calls[0][1] == {"job_role_id": str(context.role.id)}
+
+
+async def test_job_role_graph_allows_role_without_capabilities(
+    db_session,
+    user,
+) -> None:
+    context = await _published_context(db_session, user)
+    empty_record = {
+        **_role_record(context),
+        "role_id": str(context.role.id),
+        "requirement_relation_key": None,
+        "requirement_type": None,
+        "importance": None,
+        "capability": None,
+        "capability_domain": None,
+        "domain_relation_key": None,
+    }
+
+    result = await get_job_role_graph(
+        db_session,
+        context.role.id,
+        driver=FakeAsyncDriver([empty_record]),
+    )
+
+    assert [(node.type, node.id) for node in result.nodes] == [
+        ("domain", context.domain.id),
+        ("job_role", context.role.id),
+    ]
+    assert len(result.edges) == 1
+    assert result.edges[0].type == "belongs_to"
+    assert result.truncated is False
+
+
+async def test_job_role_graph_validates_formal_role_and_current_version(
+    db_session,
+    user,
+) -> None:
+    domain = Domain(
+        id=uuid4(),
+        code=f"job-role-validation-{uuid4().hex}",
+        name="岗位校验域",
+        status="active",
+        sort_order=0,
+    )
+    role = JobRole(
+        id=uuid4(),
+        domain_id=domain.id,
+        canonical_name=f"待发布岗位-{uuid4().hex}",
+        definition_payload={},
+        status="active",
+        source_type="manual",
+    )
+    db_session.add_all([domain, role])
+    await db_session.flush()
+    driver = FakeAsyncDriver(error=AssertionError("driver must not run"))
+
+    with pytest.raises(APIError) as unpublished:
+        await get_job_role_graph(db_session, role.id, driver=driver)
+    assert unpublished.value.code == "GRAPH_VERSION_NOT_PUBLISHED"
+
+    with pytest.raises(APIError) as missing:
+        await get_job_role_graph(db_session, uuid4(), driver=driver)
+    assert missing.value.code == "GRAPH_JOB_ROLE_NOT_FOUND"
+    assert driver.calls == []
+
+
+async def test_job_role_graph_rejects_missing_neo4j_projection(
+    db_session,
+    user,
+) -> None:
+    context = await _published_context(db_session, user)
+
+    with pytest.raises(APIError) as error:
+        await get_job_role_graph(
+            db_session,
+            context.role.id,
+            driver=FakeAsyncDriver([]),
+        )
+
+    assert error.value.status_code == 503
+    assert error.value.code == "GRAPH_PROJECTION_INCONSISTENT"
