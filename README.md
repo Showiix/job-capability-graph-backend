@@ -1,6 +1,9 @@
 # 岗位能力图谱系统后端
 
-面向比赛展示与团队内部真实使用的岗位能力图谱后端。当前 Batch A 已形成可运行的基础闭环：三角色内部账号、Session/CSRF、管理员账号维护、安全文件读取、Processing Run 生命周期、Celery Worker/Beat，以及依赖健康诊断。
+面向比赛展示与团队内部真实使用的岗位能力图谱后端。当前已形成两段可运行闭环：
+
+- Batch A：三角色内部账号、Session/CSRF、安全文件读取、Processing Run 生命周期和依赖健康诊断。
+- Batch B：市场 JD 批量上传、来源 Adapter、Raw/Normalized 双层数据、质量警告、重新处理，以及技能/岗位 Catalog 骨架导入。
 
 本仓库只包含后端。当前没有公开注册接口，也没有脱离业务资源的通用文件上传接口。
 
@@ -88,6 +91,91 @@ Batch A 只提供可见性校验后的读取、Range 预览、附件下载和访
 
 普通用户只能看到 `owner_scope_type=user` 且属于自己的任务；管理员可以查看全局任务。失败重试会创建新 Run，不会把旧 Run 改回 pending。
 
+### 市场 JD 数据中心
+
+- `POST /api/v1/imports`
+- `GET /api/v1/imports`
+- `GET /api/v1/imports/{batch_id}`
+- `GET /api/v1/imports/{batch_id}/rows`
+- `GET /api/v1/imports/{batch_id}/warnings`
+- `POST /api/v1/imports/{batch_id}/reprocess`
+- `POST /api/v1/imports/{batch_id}/archive`
+
+导入接口仅管理员可用，支持 `.csv`、`.tsv`、`.txt` 和 `.json`，单文件默认不超过 50 MB、10 万行。当前内置 `standard_v1`、`liepin_v1`、`zhilian_v1` 三个 Adapter。原始 JD 行只追加，重新处理只新增 Normalized 版本；归档不会删除文件或数据库记录。
+
+默认行查询不会返回完整原始载荷和正文。需要排查单行时显式使用：
+
+```text
+GET /api/v1/imports/{batch_id}/rows?include=raw_payload,full_text
+```
+
+### Catalog 骨架
+
+- `POST /api/v1/catalog/imports`
+- `GET /api/v1/catalog/imports`
+- `GET /api/v1/catalog/imports/{import_id}`
+- `GET /api/v1/catalog/versions`
+- `GET /api/v1/catalog/versions/current`
+- `GET /api/v1/catalog/domains`
+- `GET /api/v1/catalog/capabilities`
+- `GET /api/v1/catalog/job-roles`
+
+Catalog 文件支持 JSON/CSV/TSV，导入类型为 `capability` 或 `job_role`。`validate_only` 只记录逐行校验结果；`apply` 会创建 draft 版本。来源为 `model`、`llm` 或 `algorithm` 的条目始终写成 `candidate`，不能直接成为 active/published 正式知识。普通登录用户只看到当前 published 版本中的 active 条目；管理员可显式查询 draft/candidate。
+
+## 市场 JD 导入验收示例
+
+先登录管理员账号并从 Cookie Jar 取出 CSRF Token：
+
+```bash
+curl -sS -c /tmp/job-graph-cookies.txt \
+  -H 'Content-Type: application/json' \
+  -d '{"username":"admin","password":"替换为管理员密码"}' \
+  http://127.0.0.1:8000/api/v1/auth/login
+
+CSRF_TOKEN="$(awk '$6 == "csrf" {print $7}' /tmp/job-graph-cookies.txt)"
+```
+
+上传仓库中的猎聘真实样例。接口返回 `resource_id`（批次 ID）、`run_id` 和任务查询地址，Worker 会异步完成解析和标准化：
+
+```bash
+curl -sS -b /tmp/job-graph-cookies.txt \
+  -H "X-CSRF-Token: ${CSRF_TOKEN}" \
+  -H 'Idempotency-Key: demo-liepin-20260806' \
+  -F source_code=liepin \
+  -F collected_at=2026-08-06T00:00:00Z \
+  -F source_format=tsv \
+  -F schema_version=liepin_v1 \
+  -F file=@backend/tests/fixtures/liepin_sample.tsv \
+  http://127.0.0.1:8000/api/v1/imports
+```
+
+将返回的 `resource_id` 赋给 `BATCH_ID` 后查询处理结果：
+
+```bash
+BATCH_ID='替换为 resource_id'
+
+curl -sS -b /tmp/job-graph-cookies.txt \
+  "http://127.0.0.1:8000/api/v1/imports/${BATCH_ID}"
+curl -sS -b /tmp/job-graph-cookies.txt \
+  "http://127.0.0.1:8000/api/v1/imports/${BATCH_ID}/warnings"
+curl -sS -b /tmp/job-graph-cookies.txt \
+  "http://127.0.0.1:8000/api/v1/imports/${BATCH_ID}/rows?page_size=20"
+```
+
+智联样例使用相同命令，把 `source_code`、`schema_version` 和文件分别替换为 `zhilian`、`zhilian_v1`、`backend/tests/fixtures/zhilian_sample.tsv`。
+
+Catalog 建议先校验、确认逐行错误后再应用：
+
+```bash
+curl -sS -b /tmp/job-graph-cookies.txt \
+  -H "X-CSRF-Token: ${CSRF_TOKEN}" \
+  -F import_type=capability \
+  -F schema_version=catalog_v1 \
+  -F mode=validate_only \
+  -F file=@catalog.json \
+  http://127.0.0.1:8000/api/v1/catalog/imports
+```
+
 ### 系统诊断
 
 - `GET /health/live`：只证明 API 进程存活，不探测依赖
@@ -124,7 +212,7 @@ docker compose down -v
 
 ## 开发与验收
 
-本地测试依赖已运行并迁移到 `0004` 的 PostgreSQL 测试库。创建测试库并应用 Migration：
+本地测试依赖应迁移到 `0006`。创建测试库并应用 Migration：
 
 ```bash
 docker compose up -d postgres
@@ -145,6 +233,14 @@ docker compose run --rm \
 git diff --check
 ```
 
+真实样例专项验收：
+
+```bash
+docker compose run --rm \
+  -e DATABASE_URL=postgresql+asyncpg://job_graph:job_graph_dev@postgres:5432/job_graph_test \
+  api uv run pytest tests/test_import_api.py -q -k real_market_sample
+```
+
 也可以在 `backend/` 目录使用本地 `uv` 环境运行：
 
 ```bash
@@ -160,12 +256,13 @@ uv run pytest -q
 - `APP_ENV=internal` 时 Session 与 CSRF Cookie 自动启用 `Secure`。
 - Session、CSRF Token 和密码只保存 Hash；API 不返回密码或 Token Hash。
 - 文件路径始终限制在 `FILE_STORAGE_ROOT` 内，数据库中的路径键不能逃逸根目录。
-- Neo4j 在 Batch A 只做连接检查，不写入算法或大模型未经审核的候选知识。
+- Neo4j 当前只做连接检查，不接收导入数据，也不写入未经审核的算法或大模型候选知识。
 
 ## 设计文档
 
 - [后端技术架构详细设计](./outputs/岗位能力图谱系统_后端技术架构详细设计.md)
 - [数据库与 API 详细设计](./outputs/岗位能力图谱系统_数据库与API详细设计.md)
 - [Batch A：后端基础闭环实施计划](./docs/superpowers/plans/2026-08-06-backend-foundation.md)
+- [Batch B：市场 JD 数据中心实施计划](./docs/superpowers/plans/2026-08-06-market-jd-center.md)
 
-下一阶段从市场 JD 数据中心开始：批量导入、数据源 Adapter、Raw JD、标准化 JD、清洗警告与 Catalog 初始骨架。爬虫管理、算法抽取和 Neo4j 发布不进入这一基础批次。
+当前 Batch B 明确不包含爬虫管理、定时调度、算法/LLM 抽取和 Neo4j 发布。这些能力后续只能通过候选记录、人工审核和正式版本发布接入，不能绕过 PostgreSQL 事实库直接写图。

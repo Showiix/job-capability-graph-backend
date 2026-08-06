@@ -1,9 +1,11 @@
 from datetime import UTC, datetime
+from pathlib import Path
 from types import SimpleNamespace
-from uuid import uuid4
+from uuid import UUID, uuid4
 
+import pytest
 import pytest_asyncio
-from sqlalchemy import select
+from sqlalchemy import func, select
 
 from app.auth.models import User
 from app.core.security import hash_password
@@ -14,6 +16,8 @@ from app.imports.models import (
     NormalizedJobPosting,
     RawJobPosting,
 )
+from app.imports.tasks import process_market_import
+from app.infrastructure.file_storage import FileStorage
 from app.processing.models import ProcessingRun
 
 
@@ -47,6 +51,18 @@ async def api_hr(db_session) -> User:
     db_session.add(value)
     await db_session.flush()
     return value
+
+
+@pytest_asyncio.fixture
+async def sample_import_context(tmp_path, monkeypatch) -> FileStorage:
+    storage = FileStorage(tmp_path / "files")
+    monkeypatch.setattr("app.imports.service.storage", storage)
+    monkeypatch.setattr("app.imports.tasks.storage", storage)
+    monkeypatch.setattr(
+        "app.imports.service.celery_app.send_task",
+        lambda *args, **kwargs: SimpleNamespace(id="sample-import-task"),
+    )
+    return storage
 
 
 @pytest_asyncio.fixture
@@ -249,3 +265,72 @@ async def test_archive_is_idempotent(client, api_admin, processed_import) -> Non
 
     assert first.status_code == second.status_code == 200
     assert second.json()["data"]["status"] == "archived"
+
+
+@pytest.mark.parametrize(
+    ("fixture_name", "source_code", "expected_rows", "expected_sources"),
+    [
+        ("liepin_sample.tsv", "liepin", 147, {"liepin"}),
+        (
+            "zhilian_sample.tsv",
+            "zhilian",
+            307,
+            {"zhilian", "zhilian_direct"},
+        ),
+    ],
+)
+async def test_real_market_sample_completes_without_dropping_rows(
+    client,
+    db_session,
+    api_admin,
+    sample_import_context,
+    fixture_name: str,
+    source_code: str,
+    expected_rows: int,
+    expected_sources: set[str],
+) -> None:
+    content = (Path(__file__).parent / "fixtures" / fixture_name).read_bytes()
+    csrf = await _login(client, "api_import_admin", "api-import-admin-password")
+    upload = await client.post(
+        "/api/v1/imports",
+        data={
+            "source_code": source_code,
+            "collected_at": "2026-08-06T00:00:00Z",
+            "source_format": "tsv",
+            "schema_version": f"{source_code}_v1",
+        },
+        files={"file": (fixture_name, content, "text/tab-separated-values")},
+        headers={
+            "X-CSRF-Token": csrf,
+            "Idempotency-Key": f"sample-{source_code}",
+        },
+    )
+    assert upload.status_code == 202
+    data = upload.json()["data"]
+
+    result = await process_market_import(db_session, UUID(data["run_id"]))
+    batch = await db_session.get(ImportBatch, UUID(data["resource_id"]))
+    run = await db_session.get(ProcessingRun, UUID(data["run_id"]))
+
+    assert result["total_rows"] == expected_rows
+    assert batch is not None and batch.status in {"processed", "partial"}
+    assert run is not None and run.status == "completed"
+    assert batch.total_rows == expected_rows
+    assert (
+        batch.accepted_rows + batch.warning_rows + batch.rejected_rows
+        == expected_rows
+    )
+    raw_count = await db_session.scalar(
+        select(func.count()).select_from(RawJobPosting).where(
+            RawJobPosting.batch_id == batch.id
+        )
+    )
+    assert raw_count + batch.rejected_rows == expected_rows
+    sources = set(
+        await db_session.scalars(
+            select(RawJobPosting.source_code).where(
+                RawJobPosting.batch_id == batch.id
+            )
+        )
+    )
+    assert sources == expected_sources

@@ -411,11 +411,11 @@ git commit -m "feat: add catalog skeleton schema"
 - Create: `backend/app/catalog/router.py`
 - Modify: `backend/app/api/router.py`
 
-- [ ] **Step 1: 写 RED 测试**
+- [x] **Step 1: 写 RED 测试**
 
 上传最小 JSON/TSV 技能骨架，断言 `mode=validate_only` 只创建 `catalog_imports` 和错误行、不写 capability；`mode=apply` 先验证后写入 domain/capability/job_role 和一个 draft version；重复 canonical name、未知 domain、歧义 alias 行进入错误表且不影响其他有效行；非 admin 返回 403；普通 authenticated 用户只能查询 published version。
 
-- [ ] **Step 2: 运行 RED**
+- [x] **Step 2: 运行 RED**
 
 ```bash
 cd backend && uv run pytest tests/test_catalog_import.py -q
@@ -423,11 +423,11 @@ cd backend && uv run pytest tests/test_catalog_import.py -q
 
 预期：Catalog API 未实现，测试失败。
 
-- [ ] **Step 3: 实现最小导入服务和 API**
+- [x] **Step 3: 实现最小导入服务和 API**
 
 接受字段 `file`、`import_type`（`capability` 或 `job_role`）、`schema_version`、`mode`。使用标准库 JSON/CSV 解析；以 chunk 事务写入有效行。`validate_only` 不改变正式目录；`apply` 创建 `CatalogVersion(status="draft")`，所有模型/LLM 来源一律 `candidate`，不直接激活。提供 `GET /api/v1/catalog/versions`、`/current`、`/domains`、`/capabilities`、`/job-roles`，默认只查 published/active，admin 可用 `include_drafts=true`。
 
-- [ ] **Step 4: 运行 GREEN**
+- [x] **Step 4: 运行 GREEN**
 
 ```bash
 cd backend
@@ -436,7 +436,7 @@ uv run pytest -q
 uv run ruff check .
 ```
 
-- [ ] **Step 5: 独立提交**
+- [x] **Step 5: 独立提交**
 
 ```bash
 git add backend/app/catalog backend/app/api/router.py backend/tests/test_catalog_import.py
@@ -450,11 +450,11 @@ git commit -m "feat: add catalog skeleton import APIs"
 - Modify: `README.md`
 - Modify: `docs/superpowers/plans/2026-08-06-market-jd-center.md`
 
-- [ ] **Step 1: 固化样例和验收断言**
+- [x] **Step 1: 固化样例和验收断言**
 
 使用 Task 3 已固化的两份真实 TSV 测试完整导入：猎聘 147 行、智联 307 行；断言两批 accepted/rejected/warning 总数之和等于 147/307，`source` 分别保留 `liepin`、`zhilian`、`zhilian_direct`，空 city/tech_tags/issue_date/skill_requirements 只产生预期 warning，不丢行。
 
-- [ ] **Step 2: 运行真实数据验收**
+- [x] **Step 2: 运行真实数据验收**
 
 ```bash
 cd backend && uv run pytest tests/test_import_api.py -q -k sample
@@ -462,11 +462,11 @@ cd backend && uv run pytest tests/test_import_api.py -q -k sample
 
 预期：两份样例均完成，批次状态为 `processed` 或 `partial`，没有未捕获异常。
 
-- [ ] **Step 3: 更新 README**
+- [x] **Step 3: 更新 README**
 
 补充 `docker compose run --rm migrate` 升级到 `0006`、创建 admin、上传样例的 curl 示例、查询 warnings/rows 的命令，以及本批明确不包含爬虫和算法服务的说明。
 
-- [ ] **Step 4: 运行全量门禁**
+- [x] **Step 4: 运行全量门禁**
 
 ```bash
 docker compose config -q
@@ -479,7 +479,7 @@ git diff --check
 
 预期：Ruff、全量测试通过，数据库 revision 为 `0006`，diff 无空白错误。
 
-- [ ] **Step 5: 独立提交**
+- [x] **Step 5: 独立提交**
 
 ```bash
 git add backend/tests README.md docs/superpowers/plans/2026-08-06-market-jd-center.md
