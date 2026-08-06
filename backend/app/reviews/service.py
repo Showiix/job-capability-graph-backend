@@ -18,7 +18,7 @@ from app.reviews import REVIEW_DISCLAIMER
 from app.reviews.models import GraphChangeCandidate, ReviewDecision
 from app.reviews.schemas import ReviewDecisionCreate, RoleDefinitionPayload
 
-FINAL_STATUSES = {"approved", "rejected"}
+FINAL_STATUSES = {"approved", "rejected", "published"}
 
 
 async def create_review_proposal(

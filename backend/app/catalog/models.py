@@ -1,4 +1,5 @@
 from datetime import datetime
+from decimal import Decimal
 from uuid import UUID, uuid4
 
 from sqlalchemy import (
@@ -7,6 +8,7 @@ from sqlalchemy import (
     ForeignKey,
     Index,
     Integer,
+    Numeric,
     String,
     Text,
     UniqueConstraint,
@@ -96,12 +98,22 @@ class JobRole(CreatedAtMixin, Base):
             name="status",
         ),
         CheckConstraint("length(btrim(canonical_name)) > 0", name="nonempty_name"),
+        CheckConstraint(
+            "jsonb_typeof(definition_payload) = 'object'",
+            name="definition_payload_object",
+        ),
     )
 
     id: Mapped[UUID] = mapped_column(Uuid, primary_key=True, default=uuid4)
     domain_id: Mapped[UUID] = mapped_column(ForeignKey("domains.id"), nullable=False)
     canonical_name: Mapped[str] = mapped_column(String(200), nullable=False)
     description: Mapped[str | None] = mapped_column(Text)
+    definition_payload: Mapped[dict] = mapped_column(
+        JSONB,
+        default=dict,
+        server_default=text("'{}'::jsonb"),
+        nullable=False,
+    )
     status: Mapped[str] = mapped_column(
         String(20), default="candidate", server_default="candidate", nullable=False
     )
@@ -124,6 +136,36 @@ class JobRoleAlias(CreatedAtMixin, Base):
     )
     alias: Mapped[str] = mapped_column(String(200), nullable=False)
     status: Mapped[str] = mapped_column(String(20), nullable=False)
+
+
+class JobRoleCapability(CreatedAtMixin, Base):
+    __tablename__ = "job_role_capabilities"
+    __table_args__ = (
+        CheckConstraint(
+            "requirement_type IN ('required','bonus')",
+            name="requirement_type",
+        ),
+        CheckConstraint("importance BETWEEN 0 AND 1", name="importance"),
+        Index(
+            "ix_job_role_capabilities_capability_type",
+            "capability_id",
+            "requirement_type",
+        ),
+    )
+
+    job_role_id: Mapped[UUID] = mapped_column(
+        ForeignKey("job_roles.id", ondelete="CASCADE"),
+        primary_key=True,
+    )
+    capability_id: Mapped[UUID] = mapped_column(
+        ForeignKey("capabilities.id"),
+        primary_key=True,
+    )
+    requirement_type: Mapped[str] = mapped_column(String(20), nullable=False)
+    importance: Mapped[Decimal] = mapped_column(Numeric(5, 4), nullable=False)
+    source_candidate_id: Mapped[UUID | None] = mapped_column(
+        ForeignKey("graph_change_candidates.id", ondelete="SET NULL")
+    )
 
 
 class CatalogVersion(CreatedAtMixin, Base):

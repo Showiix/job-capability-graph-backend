@@ -9,6 +9,7 @@ import app.auth.models  # noqa: F401
 import app.catalog.models  # noqa: F401
 import app.discovery.models  # noqa: F401
 import app.files.models  # noqa: F401
+import app.graph.models  # noqa: F401
 import app.imports.models  # noqa: F401
 import app.processing.models  # noqa: F401
 import app.reviews.models  # noqa: F401

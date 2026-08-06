@@ -109,7 +109,7 @@ async def test_proposal_enums_scores_and_json_are_constrained(
     candidate = await _context(db_session, user)
     invalid_values = (
         ("change_type", "update_everything"),
-        ("review_status", "published"),
+        ("review_status", "archived"),
         ("confidence", 1.1),
         ("proposed_payload", []),
         ("source_snapshot", []),

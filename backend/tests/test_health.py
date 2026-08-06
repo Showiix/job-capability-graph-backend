@@ -154,6 +154,6 @@ async def test_versions_require_admin_and_do_not_invent_versions(
     assert response.status_code == 200
     data = response.json()["data"]
     assert data["api_version"] == "0.1.0"
-    assert data["alembic_revision"] == "0008"
+    assert data["alembic_revision"] == "0009"
     assert data["prompt_version"] is None
     assert data["graph_version"] is None

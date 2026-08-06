@@ -35,7 +35,8 @@ class GraphChangeCandidate(CreatedAtMixin, Base):
             name="change_type",
         ),
         CheckConstraint(
-            "review_status IN ('pending','needs_revision','approved','rejected')",
+            "review_status IN "
+            "('pending','needs_revision','approved','rejected','published')",
             name="review_status",
         ),
         CheckConstraint("confidence BETWEEN 0 AND 1", name="confidence"),
@@ -132,4 +133,3 @@ class ReviewDecision(CreatedAtMixin, Base):
     before_payload: Mapped[dict] = mapped_column(JSONB, nullable=False)
     after_payload: Mapped[dict] = mapped_column(JSONB, nullable=False)
     comment: Mapped[str | None] = mapped_column(Text)
-

@@ -250,7 +250,7 @@ docs/superpowers/plans/2026-08-06-graph-publication.md
 
 - [x] **Step 1: 创建 `codex/graph-publication` worktree**
 - [x] **Step 2: 运行 153 个基线测试和 Ruff**
-- [ ] **Step 3: 提交并推送计划**
+- [x] **Step 3: 提交并推送计划**
 
 Commit：`docs: plan reviewed graph publication`
 
@@ -258,12 +258,12 @@ Commit：`docs: plan reviewed graph publication`
 
 ## Task 2: 模型与 Migration 0009
 
-- [ ] **Step 1: 写数据库 RED 测试**
-- [ ] **Step 2: 运行 RED**
-- [ ] **Step 3: 实现 JobRole definition、JobRoleCapability、GraphVersion 和 published Review 状态**
-- [ ] **Step 4: 生成、应用并检查 Migration 0009**
-- [ ] **Step 5: 运行 GREEN、全量回归、Ruff、Alembic check**
-- [ ] **Step 6: 提交并推送**
+- [x] **Step 1: 写数据库 RED 测试**
+- [x] **Step 2: 运行 RED**
+- [x] **Step 3: 实现 JobRole definition、JobRoleCapability、GraphVersion 和 published Review 状态**
+- [x] **Step 4: 生成、应用并检查 Migration 0009**
+- [x] **Step 5: 运行 GREEN、全量回归、Ruff、Alembic check**
+- [x] **Step 6: 提交并推送**
 
 约束测试覆盖：复合主键、relation type、importance、Version 唯一性、状态、published_at 一致性、JSON object 和 current partial unique。
 

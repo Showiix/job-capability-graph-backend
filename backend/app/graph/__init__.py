@@ -1,0 +1,2 @@
+"""Reviewed knowledge graph publication."""
+
