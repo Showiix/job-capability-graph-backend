@@ -331,10 +331,10 @@ Commit：`docs: document reviewed graph publication`
 ## Task 6: 分支收尾
 
 - [x] **Step 1: 功能分支完整门禁**
-- [ ] **Step 2: Fast-forward 合并 main**
-- [ ] **Step 3: main 完整门禁**
-- [ ] **Step 4: 推送 origin/main**
-- [ ] **Step 5: 清理本地 worktree 和分支；保留远端功能分支和 Docker Volume**
+- [x] **Step 2: Fast-forward 合并 main**
+- [x] **Step 3: main 完整门禁**
+- [x] **Step 4: 推送 origin/main**
+- [x] **Step 5: 清理本地 worktree 和分支；保留远端功能分支和 Docker Volume**
 
 ---
 
