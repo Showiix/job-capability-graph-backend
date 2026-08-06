@@ -298,7 +298,7 @@ git commit -m "feat: add candidate review schema"
 
 ## Task 3: Review Service
 
-- [ ] **Step 1: 写 Service RED 测试**
+- [x] **Step 1: 写 Service RED 测试**
 
 覆盖：
 
@@ -312,10 +312,10 @@ git commit -m "feat: add candidate review schema"
 - 技能不存在、非 active 或必备/加分重叠时拒绝。
 - 所有写操作产生 Audit Log。
 
-- [ ] **Step 2: 运行 RED**
-- [ ] **Step 3: 实现 Pydantic Schema 和 Service**
-- [ ] **Step 4: 运行 GREEN 和 Ruff**
-- [ ] **Step 5: 独立提交并推送**
+- [x] **Step 2: 运行 RED**
+- [x] **Step 3: 实现 Pydantic Schema 和 Service**
+- [x] **Step 4: 运行 GREEN 和 Ruff**
+- [x] **Step 5: 独立提交并推送**
 
 ```bash
 git commit -m "feat: review candidate role proposals"
