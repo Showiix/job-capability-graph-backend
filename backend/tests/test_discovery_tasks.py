@@ -339,6 +339,41 @@ async def test_worker_is_idempotent_after_completion(
     }
 
 
+async def test_worker_clones_discovery_snapshot_for_processing_retry(
+    db_session,
+    discovery_context,
+) -> None:
+    discovery_context.processing_run.status = "failed"
+    discovery_context.discovery_run.status = "failed"
+    retry = ProcessingRun(
+        id=uuid4(),
+        run_type="discover_skill_combinations",
+        subject_type="discovery_run",
+        subject_id=discovery_context.discovery_run.id,
+        retry_of_run_id=discovery_context.processing_run.id,
+        created_by_user_id=discovery_context.admin.id,
+        owner_scope_type="admin_global",
+        status="pending",
+        pipeline_version="cooccurrence_pairs_v1",
+        input_snapshot=dict(discovery_context.processing_run.input_snapshot),
+        result_summary={},
+    )
+    db_session.add(retry)
+    await db_session.flush()
+
+    result = await process_discovery_run(db_session, retry.id)
+    cloned = await db_session.scalar(
+        select(DiscoveryRun).where(DiscoveryRun.processing_run_id == retry.id)
+    )
+
+    assert result["candidate_count"] == 1
+    assert cloned is not None
+    assert cloned.id != discovery_context.discovery_run.id
+    assert cloned.input_batch_ids == discovery_context.discovery_run.input_batch_ids
+    assert retry.subject_id == cloned.id
+    assert retry.status == "completed"
+
+
 async def test_worker_fails_without_active_capabilities(
     db_session,
     discovery_context,

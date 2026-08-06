@@ -8,6 +8,7 @@ from sqlalchemy import delete, func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.catalog.models import Capability, CapabilityAlias
+from app.discovery import DISCOVERY_DISCLAIMER
 from app.discovery.mining import (
     CatalogEntry,
     JobSkillSet,
@@ -30,18 +31,13 @@ from app.processing.models import ProcessingError, ProcessingRun
 from app.worker import celery_app
 
 CHUNK_SIZE = 100
-DISCLAIMER = "该结果是候选技能组合，不代表已经确认的长期市场趋势"
 
 
 async def process_discovery_run(db: AsyncSession, processing_run_id: UUID) -> dict:
     processing_run = await db.get(ProcessingRun, processing_run_id)
     if processing_run is None:
         return _empty_result()
-    discovery_run = await db.scalar(
-        select(DiscoveryRun).where(
-            DiscoveryRun.processing_run_id == processing_run.id
-        )
-    )
+    discovery_run = await _get_or_clone_discovery_run(db, processing_run)
     if discovery_run is None:
         return await _fail_run(
             db,
@@ -217,7 +213,7 @@ async def process_discovery_run(db: AsyncSession, processing_run_id: UUID) -> di
                     str(value) for value in candidate_data.capability_ids
                 ],
                 "novelty_status": candidate_data.novelty_status,
-                "disclaimer": DISCLAIMER,
+                "disclaimer": DISCOVERY_DISCLAIMER,
             },
             support_job_count=candidate_data.support_job_count,
             source_count=candidate_data.source_count,
@@ -285,6 +281,42 @@ async def process_discovery_run(db: AsyncSession, processing_run_id: UUID) -> di
     discovery_run.completed_at = completed_at
     await db.commit()
     return result
+
+
+async def _get_or_clone_discovery_run(
+    db: AsyncSession,
+    processing_run: ProcessingRun,
+) -> DiscoveryRun | None:
+    discovery_run = await db.scalar(
+        select(DiscoveryRun).where(
+            DiscoveryRun.processing_run_id == processing_run.id
+        )
+    )
+    if discovery_run is not None or processing_run.retry_of_run_id is None:
+        return discovery_run
+    previous = await db.scalar(
+        select(DiscoveryRun).where(
+            DiscoveryRun.processing_run_id == processing_run.retry_of_run_id
+        )
+    )
+    if previous is None:
+        return None
+    discovery_run = DiscoveryRun(
+        id=uuid4(),
+        processing_run_id=processing_run.id,
+        input_batch_ids=list(previous.input_batch_ids),
+        current_catalog_version_id=previous.current_catalog_version_id,
+        algorithm_version=previous.algorithm_version,
+        extraction_version=previous.extraction_version,
+        parameters=dict(previous.parameters),
+        status="pending",
+        summary={},
+        created_by_user_id=processing_run.created_by_user_id,
+    )
+    processing_run.subject_id = discovery_run.id
+    db.add(discovery_run)
+    await db.flush()
+    return discovery_run
 
 
 async def _load_catalog(
