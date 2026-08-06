@@ -22,6 +22,43 @@ from app.resumes.schemas import ResumeParseResponse
 from app.resumes.service import map_resume_skills
 from app.resumes.tasks import run_parse_resume
 
+EXPECTED_FAILURES = {
+    "FILE_CONTENT_MISSING": ("extract_text", False, "简历文件内容不存在"),
+    "RESUME_DOCUMENT_INVALID": ("extract_text", False, "简历文档无法解析"),
+    "RESUME_TEXT_EMPTY": ("extract_text", False, "简历中没有可提取文字"),
+    "RESUME_TEXT_TOO_LONG": ("extract_text", False, "简历正文超过处理上限"),
+    "LLM_NOT_CONFIGURED": ("call_llm", True, "简历解析服务尚未配置"),
+    "LLM_TIMEOUT": ("call_llm", True, "简历解析服务请求超时"),
+    "LLM_RATE_LIMITED": ("call_llm", True, "简历解析服务暂时繁忙"),
+    "LLM_UPSTREAM_ERROR": ("call_llm", True, "简历解析服务暂时不可用"),
+    "LLM_REQUEST_REJECTED": ("call_llm", True, "简历解析请求被上游拒绝"),
+    "LLM_RESPONSE_REFUSED": (
+        "validate_response",
+        True,
+        "简历解析服务拒绝处理该内容",
+    ),
+    "LLM_RESPONSE_INCOMPLETE": (
+        "validate_response",
+        True,
+        "简历解析结果不完整",
+    ),
+    "LLM_RESPONSE_INVALID": (
+        "validate_response",
+        True,
+        "简历解析结果格式无效",
+    ),
+    "RESUME_EVIDENCE_EMPTY": (
+        "validate_evidence",
+        True,
+        "解析结果无法定位到简历原文",
+    ),
+    "RESUME_PERSISTENCE_FAILED": (
+        "persist_profile",
+        True,
+        "简历画像保存失败",
+    ),
+}
+
 
 async def add_capability(
     db_session,
@@ -341,9 +378,8 @@ async def assert_failed(
     resume,
     *,
     code: str,
-    stage: str,
-    retryable: bool,
 ) -> None:
+    stage, retryable, message = EXPECTED_FAILURES[code]
     await db_session.refresh(run)
     await db_session.refresh(resume)
     error = await db_session.scalar(
@@ -353,9 +389,22 @@ async def assert_failed(
     assert resume.parse_status == "failed"
     assert resume.latest_run_id == run.id
     assert run.error_code == code
+    assert run.error_message == message
+    assert error.error_code == code
     assert error.stage == stage
     assert error.retryable is retryable
-    assert "secret" not in (run.error_message or "").lower()
+    assert error.message == message
+    assert error.details == {}
+    serialized = f"{run.error_message} {error.message} {error.details}"
+    for secret in (
+        "Authorization",
+        "Bearer",
+        "secret database detail",
+        "provider-secret-body",
+        "使用 Python 开发项目",
+        "job_graph_dev",
+    ):
+        assert secret not in serialized
 
 
 async def test_parse_resume_creates_candidate_profile_and_completes_run(
@@ -520,15 +569,33 @@ async def test_cancel_requested_after_provider_discards_result(
     assert await db_session.scalar(select(func.count()).select_from(ResumeProfile)) == 0
 
 
-async def test_document_error_marks_run_and_resume_failed(
+@pytest.mark.parametrize(
+    "code",
+    [
+        "FILE_CONTENT_MISSING",
+        "RESUME_DOCUMENT_INVALID",
+        "RESUME_TEXT_EMPTY",
+        "RESUME_TEXT_TOO_LONG",
+    ],
+)
+async def test_document_failures_have_stable_safe_errors(
     db_session,
     resume_run,
     fake_resume_file,
     configured_llm,
     monkeypatch,
+    code,
 ) -> None:
-    document = Document()
-    document.save(fake_resume_file.storage.resolve(fake_resume_file.stored_file.storage_key))
+    path = fake_resume_file.storage.resolve(fake_resume_file.stored_file.storage_key)
+    if code == "FILE_CONTENT_MISSING":
+        path.unlink()
+    elif code == "RESUME_DOCUMENT_INVALID":
+        path.write_bytes(b"not-a-docx")
+    else:
+        document = Document()
+        if code == "RESUME_TEXT_TOO_LONG":
+            document.add_paragraph("x" * 100_001)
+        document.save(path)
     client = FakeResponsesClient(valid_payload_with_python_evidence())
     monkeypatch.setattr("app.resumes.tasks.storage", fake_resume_file.storage)
 
@@ -538,23 +605,43 @@ async def test_document_error_marks_run_and_resume_failed(
         db_session,
         resume_run,
         fake_resume_file.resume,
-        code="RESUME_TEXT_EMPTY",
-        stage="extract_text",
-        retryable=False,
+        code=code,
     )
     assert client.calls == 0
 
 
-async def test_llm_error_marks_safe_processing_error(
+@pytest.mark.parametrize(
+    ("code", "error_stage", "automatic_retryable", "http_status"),
+    [
+        ("LLM_TIMEOUT", "request", True, None),
+        ("LLM_RATE_LIMITED", "request", True, 429),
+        ("LLM_UPSTREAM_ERROR", "request", True, 500),
+        ("LLM_REQUEST_REJECTED", "request", False, 401),
+        ("LLM_RESPONSE_REFUSED", "validate_response", False, None),
+        ("LLM_RESPONSE_INCOMPLETE", "validate_response", True, None),
+        ("LLM_RESPONSE_INVALID", "validate_response", True, None),
+    ],
+)
+async def test_llm_failure_codes_persist_safe_processing_errors(
     db_session,
     resume_run,
     fake_resume_file,
     configured_llm,
     monkeypatch,
+    caplog,
+    code,
+    error_stage,
+    automatic_retryable,
+    http_status,
 ) -> None:
     class FailingClient:
         async def parse_resume(self, **kwargs):
-            raise ResumeLLMError("LLM_RATE_LIMITED", "request", True, 429)
+            raise ResumeLLMError(
+                code,
+                error_stage,
+                automatic_retryable,
+                http_status,
+            ) from RuntimeError("provider-secret-body")
 
     monkeypatch.setattr("app.resumes.tasks.storage", fake_resume_file.storage)
 
@@ -568,10 +655,10 @@ async def test_llm_error_marks_safe_processing_error(
         db_session,
         resume_run,
         fake_resume_file.resume,
-        code="LLM_RATE_LIMITED",
-        stage="call_llm",
-        retryable=True,
+        code=code,
     )
+    assert "provider-secret-body" not in caplog.text
+    assert "使用 Python 开发项目" not in caplog.text
 
 
 async def test_unconfigured_llm_marks_safe_processing_error(
@@ -601,8 +688,6 @@ async def test_unconfigured_llm_marks_safe_processing_error(
         resume_run,
         fake_resume_file.resume,
         code="LLM_NOT_CONFIGURED",
-        stage="call_llm",
-        retryable=False,
     )
 
 
@@ -625,8 +710,6 @@ async def test_all_invalid_evidence_marks_failed(
         resume_run,
         fake_resume_file.resume,
         code="RESUME_EVIDENCE_EMPTY",
-        stage="validate_evidence",
-        retryable=False,
     )
 
 
@@ -657,8 +740,6 @@ async def test_persistence_failure_rolls_back_profile_and_marks_failed(
         resume_run,
         fake_resume_file.resume,
         code="RESUME_PERSISTENCE_FAILED",
-        stage="persist_profile",
-        retryable=True,
     )
     assert await db_session.scalar(select(func.count()).select_from(ResumeProfile)) == 0
     assert await db_session.scalar(select(func.count()).select_from(ResumeSkill)) == 0

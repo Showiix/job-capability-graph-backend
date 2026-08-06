@@ -95,6 +95,33 @@ async def test_ready_succeeds_when_required_dependencies_are_ok(
     assert response.json()["dependencies"]["algorithm_service"] == "degraded"
 
 
+async def test_ready_does_not_contact_responses_provider(
+    monkeypatch,
+    client,
+) -> None:
+    contacted = False
+
+    def fail_if_constructed(*args, **kwargs):
+        nonlocal contacted
+        contacted = True
+        raise AssertionError("ready must not create an LLM request")
+
+    async def ok():
+        return DependencyStatus("ok", None)
+
+    monkeypatch.setattr("app.system.service.probe_postgres", ok)
+    monkeypatch.setattr("app.system.service.probe_redis", ok)
+    monkeypatch.setattr("app.system.service.probe_neo4j", ok)
+    monkeypatch.setattr("app.system.service.probe_file_volume", ok)
+    monkeypatch.setattr("app.system.service.probe_algorithm_service", ok)
+    monkeypatch.setattr("app.resumes.llm.httpx.AsyncClient", fail_if_constructed)
+
+    response = await client.get("/health/ready")
+
+    assert response.status_code == 200
+    assert contacted is False
+
+
 def test_llm_configuration_status_is_ok_only_when_all_fields_exist(monkeypatch):
     settings = get_settings()
     monkeypatch.setattr(

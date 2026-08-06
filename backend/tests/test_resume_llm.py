@@ -276,7 +276,7 @@ async def test_collects_multiple_output_text_parts_outside_first_output() -> Non
     assert result.payload.skills[0].name == "Python"
 
 
-async def test_refusal_wins_over_output_text() -> None:
+async def test_refusal_wins_over_output_text(caplog) -> None:
     envelope = completed_response(json.dumps(VALID_PARSE))
     envelope["output"][0]["content"].insert(
         0,
@@ -300,13 +300,25 @@ async def test_refusal_wins_over_output_text() -> None:
 
     assert error.value.code == "LLM_RESPONSE_REFUSED"
     assert error.value.stage == "validate_response"
+    assert "secret-test-key" not in caplog.text
+    assert "cannot process" not in caplog.text
+    assert "Python 项目" not in caplog.text
 
 
 @pytest.mark.parametrize(
-    "variant",
-    ["incomplete", "missing_output_text", "non_json", "schema_invalid"],
+    ("variant", "expected_code"),
+    [
+        ("incomplete", "LLM_RESPONSE_INCOMPLETE"),
+        ("missing_output_text", "LLM_RESPONSE_INVALID"),
+        ("non_json", "LLM_RESPONSE_INVALID"),
+        ("schema_invalid", "LLM_RESPONSE_INVALID"),
+    ],
 )
-async def test_invalid_response_variants_are_retried_once(variant) -> None:
+async def test_invalid_response_variants_are_retried_once(
+    variant,
+    expected_code,
+    caplog,
+) -> None:
     calls = 0
 
     if variant == "incomplete":
@@ -342,9 +354,11 @@ async def test_invalid_response_variants_are_retried_once(variant) -> None:
                 processing_run_id=uuid4(),
             )
 
-    assert error.value.code in {"LLM_RESPONSE_INCOMPLETE", "LLM_RESPONSE_INVALID"}
+    assert error.value.code == expected_code
     assert error.value.stage == "validate_response"
     assert calls == 2
+    assert "secret-test-key" not in caplog.text
+    assert "Python 项目" not in caplog.text
 
 
 @pytest.mark.parametrize(
@@ -391,6 +405,8 @@ async def test_http_error_classification_and_bounded_retry(
     assert "secret-test-key" not in caplog.text
     assert "provider-secret-body" not in caplog.text
     assert "Python 项目" not in caplog.text
+    assert "Authorization" not in caplog.text
+    assert "Bearer" not in caplog.text
     if status == 429:
         assert sleeps == [1.0]
 
@@ -455,3 +471,39 @@ async def test_timeout_retries_once_then_succeeds() -> None:
     assert result.provider_attempts == 2
     assert calls == 2
     assert sleeps == [1.0]
+
+
+async def test_timeout_exhaustion_has_stable_code_without_leaks(caplog) -> None:
+    calls = 0
+    sleeps = []
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        nonlocal calls
+        calls += 1
+        raise httpx.ReadTimeout("provider-secret-body", request=request)
+
+    async def fake_sleep(seconds: float) -> None:
+        sleeps.append(seconds)
+
+    async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as http:
+        from app.resumes.llm import ResponsesClient, ResumeLLMError
+
+        with pytest.raises(ResumeLLMError) as error:
+            await ResponsesClient(http=http, sleep=fake_sleep).parse_resume(
+                url="https://provider.test/v1/responses",
+                api_key="secret-test-key",
+                model="test-model",
+                redacted_text="Python 项目",
+                processing_run_id=uuid4(),
+            )
+
+    assert error.value.code == "LLM_TIMEOUT"
+    assert error.value.stage == "request"
+    assert error.value.retryable is True
+    assert calls == 2
+    assert sleeps == [1.0]
+    assert "secret-test-key" not in caplog.text
+    assert "provider-secret-body" not in caplog.text
+    assert "Python 项目" not in caplog.text
+    assert "Authorization" not in caplog.text
+    assert "Bearer" not in caplog.text

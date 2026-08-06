@@ -1,5 +1,6 @@
 import asyncio
 import copy
+import json
 from datetime import UTC, datetime, timedelta
 from decimal import Decimal
 from io import BytesIO
@@ -8,20 +9,26 @@ from types import SimpleNamespace
 from uuid import UUID, uuid4
 from zipfile import ZIP_DEFLATED, ZipFile
 
+import httpx
 import pytest
 import pytest_asyncio
+from pydantic import SecretStr
 from sqlalchemy import delete, func, select
 
 import app.resumes.service as resume_service
 from app.audit.models import AuditLog
 from app.auth.models import User
-from app.catalog.models import Capability, Domain
+from app.catalog.models import Capability, Domain, JobRole
 from app.core.security import hash_password
 from app.files.models import StoredFile
+from app.graph.models import GraphVersion
 from app.infrastructure.database import SessionFactory
 from app.infrastructure.file_storage import FileStorage
 from app.processing.models import IdempotencyRecord, ProcessingRun
+from app.resumes.llm import LLMParseResult, ResponsesClient
 from app.resumes.models import Resume, ResumeProfile, ResumeSkill
+from app.resumes.schemas import ResumeParseResponse
+from app.resumes.tasks import run_parse_resume
 
 RESUME_PDF_BYTES = (
     Path(__file__).parent / "fixtures" / "resume_text.pdf"
@@ -1869,3 +1876,228 @@ async def test_all_lifecycle_writes_require_csrf(
 
     assert response.status_code == 403
     assert response.json()["error"]["code"] == "CSRF_VALIDATION_FAILED"
+
+
+async def test_fake_provider_end_to_end_profile_confirmation(
+    client,
+    db_session,
+    make_user,
+    login,
+    monkeypatch,
+    resume_api_context,
+) -> None:
+    applicant, password = await make_user(role="applicant")
+    csrf = await login(applicant.username, password)
+    knowledge_models = (Capability, JobRole, GraphVersion)
+    counts_before = {
+        model.__tablename__: int(
+            await db_session.scalar(select(func.count()).select_from(model)) or 0
+        )
+        for model in knowledge_models
+    }
+    monkeypatch.setattr("app.resumes.tasks.storage", resume_api_context.storage)
+    monkeypatch.setattr(
+        "app.resumes.tasks.get_settings",
+        lambda: SimpleNamespace(
+            llm_responses_url="https://provider.test/v1/responses",
+            llm_api_key=SecretStr("integration-secret-key"),
+            llm_model="integration-model",
+        ),
+    )
+
+    upload = await client.post(
+        "/api/v1/resumes",
+        files={"file": ("resume.pdf", RESUME_PDF_BYTES, "application/pdf")},
+        data={"display_name": "端到端简历"},
+        headers={"X-CSRF-Token": csrf},
+    )
+    assert upload.status_code == 202
+    created = upload.json()["data"]
+    resume_id = UUID(created["resource_id"])
+    run_id = UUID(created["run_id"])
+
+    payload = ResumeParseResponse.model_validate(
+        {
+            "schema_version": "resume_parse_v1",
+            "document_language": "zh-CN",
+            "summary": "Python 后端候选人",
+            "educations": [],
+            "experiences": [],
+            "projects": [],
+            "skills": [
+                {
+                    "name": "Python",
+                    "proficiency": "intermediate",
+                    "explicit_experience_months": 24,
+                    "evidence_strength": "project",
+                    "evidence_quote": "Python FastAPI",
+                    "confidence": 0.95,
+                }
+            ],
+        }
+    )
+
+    class FakeProvider:
+        async def parse_resume(self, **request):
+            assert request["api_key"] == "integration-secret-key"
+            assert "Python FastAPI" in request["redacted_text"]
+            return LLMParseResult(
+                payload=payload,
+                response_id="resp_integration",
+                returned_model="integration-model",
+                status="completed",
+                usage={
+                    "input_tokens": 10,
+                    "output_tokens": 20,
+                    "total_tokens": 30,
+                },
+                provider_attempts=1,
+                response_sha256="c" * 64,
+            )
+
+    await run_parse_resume(db_session, run_id, responses_client=FakeProvider())
+    run = await db_session.get(ProcessingRun, run_id)
+    await db_session.refresh(run)
+    assert run.status == "completed"
+    assert run.result_summary["result_url"].endswith("/profiles/1")
+    result_summary = json.dumps(run.result_summary, ensure_ascii=False)
+    assert "Python FastAPI resume project experience" not in result_summary
+    assert "resp_integration" not in result_summary
+    assert "integration-secret-key" not in result_summary
+
+    profile_response = await client.get(run.result_summary["result_url"])
+    assert profile_response.status_code == 200
+    candidate = profile_response.json()["data"]
+    assert candidate["status"] == "candidate"
+    assert candidate["skills"][0]["source"] == "llm"
+    assert candidate["skills"][0]["evidence_start"] == 0
+    assert candidate["skills"][0]["evidence_end"] == len("Python FastAPI")
+    source = await db_session.scalar(
+        select(ResumeProfile).where(
+            ResumeProfile.resume_id == resume_id,
+            ResumeProfile.version_no == 1,
+        )
+    )
+    source_payload = copy.deepcopy(source.structured_payload)
+
+    revision = await client.post(
+        f"/api/v1/resumes/{resume_id}/profiles/1/revisions",
+        headers={"X-CSRF-Token": csrf},
+    )
+    assert revision.status_code == 201
+    draft_version = revision.json()["data"]["version_no"]
+    replacement = await client.put(
+        f"/api/v1/resumes/{resume_id}/profiles/{draft_version}",
+        json=MANUAL_REPLACEMENT,
+        headers={"X-CSRF-Token": csrf},
+    )
+    assert replacement.status_code == 200
+    confirmed = await client.post(
+        f"/api/v1/resumes/{resume_id}/profiles/{draft_version}/confirm",
+        headers={"X-CSRF-Token": csrf},
+    )
+    assert confirmed.status_code == 200
+    assert confirmed.json()["data"]["status"] == "confirmed"
+
+    profiles = (
+        await db_session.scalars(
+            select(ResumeProfile).where(ResumeProfile.resume_id == resume_id)
+        )
+    ).all()
+    source = next(value for value in profiles if value.version_no == 1)
+    manual = next(value for value in profiles if value.version_no == draft_version)
+    assert sum(value.status == "confirmed" for value in profiles) == 1
+    assert source.status == "candidate"
+    assert source.structured_payload == source_payload
+    source_skills = (
+        await db_session.scalars(
+            select(ResumeSkill).where(ResumeSkill.profile_id == source.id)
+        )
+    ).all()
+    manual_skills = (
+        await db_session.scalars(
+            select(ResumeSkill).where(ResumeSkill.profile_id == manual.id)
+        )
+    ).all()
+    assert {value.source for value in source_skills} == {"llm"}
+    assert {value.source for value in manual_skills} == {"manual"}
+    counts_after = {
+        model.__tablename__: int(
+            await db_session.scalar(select(func.count()).select_from(model)) or 0
+        )
+        for model in knowledge_models
+    }
+    assert counts_after == counts_before
+
+
+async def test_failed_provider_response_is_safe_in_api_and_logs(
+    client,
+    db_session,
+    make_user,
+    login,
+    monkeypatch,
+    caplog,
+    resume_api_context,
+) -> None:
+    applicant, password = await make_user(role="applicant")
+    csrf = await login(applicant.username, password)
+    monkeypatch.setattr("app.resumes.tasks.storage", resume_api_context.storage)
+    monkeypatch.setattr(
+        "app.resumes.tasks.get_settings",
+        lambda: SimpleNamespace(
+            llm_responses_url="https://provider.test/v1/responses",
+            llm_api_key=SecretStr("integration-secret-key"),
+            llm_model="integration-model",
+        ),
+    )
+    upload = await client.post(
+        "/api/v1/resumes",
+        files={"file": ("resume.pdf", RESUME_PDF_BYTES, "application/pdf")},
+        headers={"X-CSRF-Token": csrf},
+    )
+    assert upload.status_code == 202
+    run_id = UUID(upload.json()["data"]["run_id"])
+
+    def provider_error(_request: httpx.Request) -> httpx.Response:
+        return httpx.Response(500, text="provider-secret-body")
+
+    async with httpx.AsyncClient(
+        transport=httpx.MockTransport(provider_error)
+    ) as provider_http:
+        responses_client = ResponsesClient(
+            http=provider_http,
+            sleep=lambda _seconds: asyncio.sleep(0),
+        )
+        await run_parse_resume(
+            db_session,
+            run_id,
+            responses_client=responses_client,
+        )
+
+    run_response = await client.get(f"/api/v1/processing-runs/{run_id}")
+    errors_response = await client.get(f"/api/v1/processing-runs/{run_id}/errors")
+    assert run_response.status_code == 200
+    assert errors_response.status_code == 200
+    assert run_response.json()["data"]["error_code"] == "LLM_UPSTREAM_ERROR"
+    assert run_response.json()["data"]["error_message"] == (
+        "简历解析服务暂时不可用"
+    )
+    error = errors_response.json()["data"][0]
+    assert error["error_code"] == "LLM_UPSTREAM_ERROR"
+    assert error["stage"] == "call_llm"
+    assert error["retryable"] is True
+    assert error["details"] == {}
+    public_text = json.dumps(
+        [run_response.json(), errors_response.json()],
+        ensure_ascii=False,
+    )
+    observed = public_text + caplog.text
+    for secret in (
+        "Authorization",
+        "Bearer",
+        "integration-secret-key",
+        "provider-secret-body",
+        "Python FastAPI resume project experience",
+        "job_graph_dev",
+    ):
+        assert secret not in observed

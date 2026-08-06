@@ -156,7 +156,7 @@ async def run_parse_resume(
                 settings.llm_model,
             )
         ):
-            raise RunFailure("LLM_NOT_CONFIGURED", stage, False)
+            raise RunFailure("LLM_NOT_CONFIGURED", stage, True)
         if db.in_transaction():
             await db.commit()
 
@@ -208,10 +208,18 @@ async def run_parse_resume(
         )
         return dict(refreshed.result_summary) | {"profile_id": str(profile.id)}
     except APIError as error:
-        failure = RunFailure(error.code, stage, False)
+        failure = RunFailure(
+            error.code,
+            stage,
+            error.code == "RESUME_EVIDENCE_EMPTY",
+        )
         cause = error
     except ResumeLLMError as error:
-        failure = RunFailure(error.code, stage, error.retryable)
+        failure = RunFailure(
+            error.code,
+            "validate_response" if error.stage == "validate_response" else stage,
+            True,
+        )
         cause = error
     except RunFailure as error:
         failure = error
