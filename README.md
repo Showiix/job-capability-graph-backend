@@ -1,6 +1,6 @@
 # 岗位能力图谱系统后端
 
-面向比赛展示与团队内部真实使用的岗位能力图谱后端。当前已形成 Batch A-F 六段岗位图谱闭环，并完成应聘者简历画像闭环：
+面向比赛展示与团队内部真实使用的岗位能力图谱后端。当前已形成 Batch A-G 七段岗位图谱闭环，并完成应聘者简历画像与岗位推荐闭环：
 
 - Batch A：三角色内部账号、Session/CSRF、安全文件读取、Processing Run 生命周期和依赖健康诊断。
 - Batch B：市场 JD 批量上传、来源 Adapter、Raw/Normalized 双层数据、质量警告、重新处理，以及技能/岗位 Catalog 骨架导入。
@@ -9,6 +9,7 @@
 - Batch E：管理员把审核通过的岗位提案发布为 PostgreSQL 正式岗位、完整 Catalog Version 和 Neo4j 岗位能力子图。
 - Batch F：三种登录角色读取 Neo4j 正式全局有限子图和单岗位能力子图，PostgreSQL 校验当前发布水位与正式主数据状态。
 - Applicant Resume Profile：应聘者上传单份 PDF/DOCX，异步抽取可追溯画像，人工修订并确认唯一当前版本。
+- Batch G：Applicant 基于当前 confirmed Profile 和正式岗位目录同步生成确定性推荐，保存完整 Match Run/Result 快照，支持历史分页、岗位差距明细和自然幂等复用。
 
 本仓库只包含后端。当前没有公开注册接口，也没有脱离业务资源的通用文件上传接口。
 
@@ -134,7 +135,7 @@ Provider 兼容边界：
 - 请求固定使用 `input`/`input_text`、`text.format.type=json_schema`、`strict=true`、`stream=false` 和 `store=false`；
 - 不提供 Chat Completions fallback，不接通用 Provider 抽象，也不使用 LangChain/LangGraph。
 
-当前非目标：OCR、简历批量导入、人岗匹配/推荐、差距分析、成长路径、Resume 图谱写入、自动创建 Capability、调用 Algorithm Service。扫描版 PDF 应先在外部完成 OCR，再上传文字型 PDF/DOCX。
+当前非目标：OCR、简历批量导入、成长路径、Resume 图谱写入、自动创建 Capability、调用 Algorithm Service。扫描版 PDF 应先在外部完成 OCR，再上传文字型 PDF/DOCX。
 
 以下命令只使用 placeholder 和仓库内的虚构测试 PDF，不要把真实 Session、API Key、简历正文或 Provider raw response 写入 README、Shell 历史或 Git。
 
@@ -200,6 +201,19 @@ curl -X POST \
   -H "X-CSRF-Token: <csrf-token>" \
   http://localhost:8000/api/v1/resumes/<resume-id>/profiles/<draft-version>/confirm
 ```
+
+### Applicant 岗位推荐
+
+- `POST /api/v1/job-recommendations`
+- `GET /api/v1/job-recommendations`
+- `GET /api/v1/job-recommendations/{match_run_id}`
+- `GET /api/v1/job-recommendations/{match_run_id}/job-roles/{job_role_id}`
+
+POST 请求体只接受 `resume_id`，需要 CSRF；GET 不需要 CSRF。Applicant 只能访问自己的 Resume 和 Match Run，Admin 可以为任意 applicant Resume 运营排查，HR 不可访问本模块。
+
+匹配只读取 PostgreSQL 中当前唯一 confirmed Profile、current published Graph/Catalog 水位和目录内 active 岗位/技能，不调用 LLM、Algorithm Service、Celery、Redis 或 Neo4j。`match_weights_v1` 使用 required、bonus、evidence、experience、education 五维 Decimal 评分，结果按自然键 `resume_profile_id + graph_version_id + weight_version` 幂等复用。
+
+每次成功计算会保存全部岗位的不可变 Match Run/Match Result 快照，POST 只返回 Top 20；历史列表和结果页支持 `page=1..`、`page_size=1..100`，单岗位详情返回完整 matched/missing 技能数组。历史岗位名称、定义和 Domain 均来自结果快照，不会被当前 Catalog 修改覆盖。
 
 ### 市场 JD 数据中心
 
