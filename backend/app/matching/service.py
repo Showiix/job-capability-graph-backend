@@ -4,8 +4,10 @@ from uuid import UUID
 
 from pydantic import ValidationError
 from sqlalchemy import select
+from sqlalchemy.exc import IntegrityError
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from app.audit.service import record_audit
 from app.auth.models import User
 from app.catalog.models import (
     Capability,
@@ -17,15 +19,21 @@ from app.catalog.models import (
 )
 from app.core.errors import APIError
 from app.graph.models import GraphVersion
+from app.matching.models import MatchResult, MatchRun
 from app.resumes.models import Resume, ResumeProfile, ResumeSkill
 from app.resumes.service import get_visible_resume
 from app.reviews.schemas import MatchPolicy
 
 from .scoring import (
+    WEIGHT_VERSION,
     CapabilityRequirementInput,
     JobRoleMatchInput,
+    MatchCatalogInconsistent,
     ProfileMatchInput,
     ProfileSkillInput,
+    rank_scored_job_roles,
+    score_job_role,
+    weight_snapshot,
 )
 
 
@@ -41,6 +49,13 @@ class MatchWatermark:
 class ScoringInputs:
     profile: ProfileMatchInput
     job_roles: tuple[JobRoleMatchInput, ...]
+
+
+@dataclass(frozen=True)
+class RecommendationRunResult:
+    reused: bool
+    run: MatchRun
+    results: tuple[MatchResult, ...]
 
 
 def require_matching_reader(actor: User) -> None:
@@ -218,6 +233,204 @@ async def load_scoring_inputs(
             skills=skills,
         ),
         job_roles=tuple(job_roles),
+    )
+
+
+async def create_or_reuse_recommendations(
+    db: AsyncSession,
+    actor: User,
+    resume_id: UUID,
+    *,
+    request_id: str | None,
+    ip_address: str | None,
+) -> RecommendationRunResult:
+    try:
+        watermark = await load_match_watermark(db, actor, resume_id)
+        existing = await _find_match_run(db, watermark)
+        if existing is not None:
+            results = await _load_match_results(db, existing.id)
+            _record_recommendation_audit(
+                db,
+                action="job_recommendation.run.reuse",
+                actor=actor,
+                run=existing,
+                watermark=watermark,
+                request_id=request_id,
+                ip_address=ip_address,
+            )
+            await db.commit()
+            return RecommendationRunResult(
+                reused=True,
+                run=existing,
+                results=tuple(results[:20]),
+            )
+
+        inputs = await load_scoring_inputs(db, watermark)
+        scored = rank_scored_job_roles(
+            [score_job_role(inputs.profile, role) for role in inputs.job_roles]
+        )
+        run = MatchRun(
+            owner_user_id=watermark.resume.owner_user_id,
+            resume_id=watermark.resume.id,
+            resume_profile_id=watermark.profile.id,
+            graph_version_id=watermark.graph.id,
+            catalog_version_id=watermark.catalog.id,
+            weight_version=WEIGHT_VERSION,
+            weight_snapshot=weight_snapshot(),
+            result_count=len(scored),
+            high_count=sum(value.match_level == "high" for value in scored),
+            medium_count=sum(value.match_level == "medium" for value in scored),
+            low_count=sum(value.match_level == "low" for value in scored),
+        )
+        db.add(run)
+        try:
+            await db.flush()
+        except IntegrityError as error:
+            if not _is_match_run_natural_key_conflict(error):
+                raise
+            await db.rollback()
+            return await _reuse_after_conflict(
+                db,
+                actor,
+                resume_id,
+                request_id=request_id,
+                ip_address=ip_address,
+            )
+
+        result_rows = [
+            MatchResult(
+                match_run_id=run.id,
+                job_role_id=value.job_role_id,
+                rank=value.rank,
+                total_score=value.total_score,
+                match_level=value.match_level,
+                dimension_scores=value.dimension_scores,
+                matched_capabilities=value.matched_capabilities,
+                missing_capabilities=value.missing_capabilities,
+                gap_summary=value.gap_summary,
+                job_role_snapshot=value.job_role_snapshot,
+            )
+            for value in scored
+        ]
+        db.add_all(result_rows)
+        _record_recommendation_audit(
+            db,
+            action="job_recommendation.run.create",
+            actor=actor,
+            run=run,
+            watermark=watermark,
+            request_id=request_id,
+            ip_address=ip_address,
+        )
+        await db.commit()
+        return RecommendationRunResult(
+            reused=False,
+            run=run,
+            results=tuple(result_rows[:20]),
+        )
+    except APIError as error:
+        await db.rollback()
+        raise error
+    except MatchCatalogInconsistent as error:
+        await db.rollback()
+        raise _catalog_inconsistent() from error
+    except Exception:
+        await db.rollback()
+        raise
+
+
+async def _find_match_run(
+    db: AsyncSession,
+    watermark: MatchWatermark,
+) -> MatchRun | None:
+    return await db.scalar(
+        select(MatchRun).where(
+            MatchRun.resume_profile_id == watermark.profile.id,
+            MatchRun.graph_version_id == watermark.graph.id,
+            MatchRun.weight_version == WEIGHT_VERSION,
+        )
+    )
+
+
+async def _load_match_results(
+    db: AsyncSession,
+    match_run_id: UUID,
+) -> list[MatchResult]:
+    return (
+        await db.scalars(
+            select(MatchResult)
+            .where(MatchResult.match_run_id == match_run_id)
+            .order_by(MatchResult.rank)
+        )
+    ).all()
+
+
+def _record_recommendation_audit(
+    db: AsyncSession,
+    *,
+    action: str,
+    actor: User,
+    run: MatchRun,
+    watermark: MatchWatermark,
+    request_id: str | None,
+    ip_address: str | None,
+) -> None:
+    record_audit(
+        db,
+        action=action,
+        resource_type="match_run",
+        resource_id=run.id,
+        actor_user_id=actor.id,
+        outcome="success",
+        request_id=request_id,
+        ip_address=ip_address,
+        metadata={
+            "resume_id": str(watermark.resume.id),
+            "resume_profile_id": str(watermark.profile.id),
+            "graph_version_id": str(watermark.graph.id),
+            "catalog_version_id": str(watermark.catalog.id),
+            "weight_version": run.weight_version,
+            "result_count": run.result_count,
+        },
+    )
+
+
+def _is_match_run_natural_key_conflict(error: IntegrityError) -> bool:
+    original = error.orig
+    constraint_name = getattr(original, "constraint_name", None)
+    if constraint_name is None:
+        diagnostic = getattr(original, "diag", None)
+        constraint_name = getattr(diagnostic, "constraint_name", None)
+    return constraint_name == "uq_match_runs_profile_graph_weight"
+
+
+async def _reuse_after_conflict(
+    db: AsyncSession,
+    actor: User,
+    resume_id: UUID,
+    *,
+    request_id: str | None,
+    ip_address: str | None,
+) -> RecommendationRunResult:
+    watermark = await load_match_watermark(db, actor, resume_id)
+    run = await _find_match_run(db, watermark)
+    if run is None:
+        raise RuntimeError("match run conflict winner is unavailable")
+    results = await _load_match_results(db, run.id)
+    _record_recommendation_audit(
+        db,
+        action="job_recommendation.run.reuse",
+        actor=actor,
+        run=run,
+        watermark=watermark,
+        request_id=request_id,
+        ip_address=ip_address,
+    )
+    await db.commit()
+    return RecommendationRunResult(
+        reused=True,
+        run=run,
+        results=tuple(results[:20]),
     )
 
 

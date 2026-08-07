@@ -554,3 +554,116 @@ def _resume_skill(
         confidence=Decimal("1"),
         user_confirmed=True,
     )
+
+
+async def add_catalog_job_role(
+    db_session,
+    context: ServiceMatchContext,
+    name: str,
+) -> JobRole:
+    role = JobRole(
+        id=uuid4(),
+        domain_id=context.domain.id,
+        canonical_name=name,
+        description=f"{name} description",
+        definition_payload={
+            "role_name": name,
+            "required_capability_ids": [
+                str(context.capabilities["Python"].id),
+            ],
+            "bonus_capability_ids": [],
+        },
+        status="active",
+        source_type="manual",
+    )
+    db_session.add(role)
+    await db_session.flush()
+    db_session.add_all(
+        [
+            CatalogVersionItem(
+                id=uuid4(),
+                catalog_version_id=context.catalog.id,
+                item_type="job_role",
+                job_role_id=role.id,
+                change_type="added",
+            ),
+            JobRoleCapability(
+                job_role_id=role.id,
+                capability_id=context.capabilities["Python"].id,
+                requirement_type="required",
+                importance=Decimal("1"),
+                source_candidate_id=context.proposal.id,
+            ),
+        ]
+    )
+    await db_session.flush()
+    return role
+
+
+async def publish_next_graph_version(
+    db_session,
+    context: ServiceMatchContext,
+) -> tuple[GraphVersion, CatalogVersion]:
+    context.graph.is_current = False
+    context.catalog.is_current = False
+    now = datetime.now(UTC)
+    proposal = GraphChangeCandidate(
+        id=uuid4(),
+        change_type="create_job_role",
+        proposed_payload=context.job_roles[0].definition_payload,
+        source_snapshot={},
+        evidence_summary={},
+        confidence=Decimal("0.9"),
+        review_status="published",
+        created_by_user_id=context.admin.id,
+        reviewed_by_user_id=context.admin.id,
+        reviewed_at=now,
+    )
+    catalog = CatalogVersion(
+        id=uuid4(),
+        version_no=context.catalog.version_no + 1,
+        status="published",
+        is_current=True,
+        created_by_user_id=context.admin.id,
+        summary={"source": "matching-test-next"},
+        published_at=now.replace(tzinfo=None),
+    )
+    graph = GraphVersion(
+        id=uuid4(),
+        version_no=context.graph.version_no + 1,
+        source_proposal_id=proposal.id,
+        catalog_version_id=catalog.id,
+        job_role_id=uuid4(),
+        status="published",
+        is_current=True,
+        snapshot={"job_role": {"id": str(context.job_roles[1].id)}},
+        attempt_count=1,
+        created_by_user_id=context.admin.id,
+        published_at=now,
+    )
+    db_session.add_all([proposal, catalog])
+    await db_session.flush()
+    db_session.add(graph)
+    await db_session.flush()
+    existing_items = (
+        await db_session.scalars(
+            select(CatalogVersionItem).where(
+                CatalogVersionItem.catalog_version_id == context.catalog.id
+            )
+        )
+    ).all()
+    db_session.add_all(
+        [
+            CatalogVersionItem(
+                id=uuid4(),
+                catalog_version_id=catalog.id,
+                item_type=item.item_type,
+                capability_id=item.capability_id,
+                job_role_id=item.job_role_id,
+                change_type="unchanged",
+            )
+            for item in existing_items
+        ]
+    )
+    await db_session.flush()
+    return graph, catalog
