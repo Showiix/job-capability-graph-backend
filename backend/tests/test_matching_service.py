@@ -978,6 +978,58 @@ async def test_get_match_result_detail_uses_immutable_snapshot(db_session) -> No
     assert isinstance(detail.result.missing_capabilities, list)
 
 
+async def test_visible_match_result_returns_owner_and_admin_records(
+    db_session,
+) -> None:
+    context = await build_matching_context(db_session)
+    created = await matching_service.create_or_reuse_recommendations(
+        db_session,
+        context.applicant,
+        context.resume.id,
+        request_id="matching-visible-result",
+        ip_address=None,
+    )
+    expected = created.results[0]
+
+    owner_run, owner_result = await matching_service.get_visible_match_result_record(
+        db_session,
+        context.applicant,
+        created.run.id,
+        expected.job_role_id,
+    )
+    admin_run, admin_result = await matching_service.get_visible_match_result_record(
+        db_session,
+        context.admin,
+        created.run.id,
+        expected.job_role_id,
+    )
+
+    assert owner_run.id == admin_run.id == created.run.id
+    assert owner_result.job_role_id == admin_result.job_role_id == expected.job_role_id
+
+
+async def test_visible_match_result_hides_other_applicant(db_session) -> None:
+    context = await build_matching_context(db_session)
+    created = await matching_service.create_or_reuse_recommendations(
+        db_session,
+        context.applicant,
+        context.resume.id,
+        request_id="matching-hidden-result",
+        ip_address=None,
+    )
+
+    with pytest.raises(APIError) as error:
+        await matching_service.get_visible_match_result_record(
+            db_session,
+            context.other_applicant,
+            created.run.id,
+            created.results[0].job_role_id,
+        )
+
+    assert error.value.status_code == 404
+    assert error.value.code == "MATCH_RUN_NOT_FOUND"
+
+
 async def test_match_history_rejects_invalid_page_and_missing_result(
     db_session,
 ) -> None:

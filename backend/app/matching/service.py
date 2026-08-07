@@ -432,15 +432,15 @@ async def get_match_result_detail(
     match_run_id: UUID,
     job_role_id: UUID,
 ) -> RecommendationDetailData:
-    run_row = await _get_visible_match_run_row(db, actor, match_run_id)
-    result = await db.scalar(
-        select(MatchResult).where(
-            MatchResult.match_run_id == match_run_id,
-            MatchResult.job_role_id == job_role_id,
-        )
+    run, result = await get_visible_match_result_record(
+        db,
+        actor,
+        match_run_id,
+        job_role_id,
     )
-    if result is None:
-        raise APIError(404, "MATCH_RESULT_NOT_FOUND", "岗位匹配结果不存在")
+    run_row = (
+        await db.execute(_match_run_read_statement().where(MatchRun.id == run.id))
+    ).one()
     list_item = _match_result_list_item(result)
     detail_data = list_item.model_dump()
     detail_data["job_role"] = JobRoleSnapshotRead.model_validate(
@@ -454,6 +454,24 @@ async def get_match_result_detail(
             missing_capabilities=result.missing_capabilities,
         ),
     )
+
+
+async def get_visible_match_result_record(
+    db: AsyncSession,
+    actor: User,
+    match_run_id: UUID,
+    job_role_id: UUID,
+) -> tuple[MatchRun, MatchResult]:
+    run_row = await _get_visible_match_run_row(db, actor, match_run_id)
+    result = await db.scalar(
+        select(MatchResult).where(
+            MatchResult.match_run_id == match_run_id,
+            MatchResult.job_role_id == job_role_id,
+        )
+    )
+    if result is None:
+        raise APIError(404, "MATCH_RESULT_NOT_FOUND", "岗位匹配结果不存在")
+    return run_row[0], result
 
 
 def _match_run_read_statement():
