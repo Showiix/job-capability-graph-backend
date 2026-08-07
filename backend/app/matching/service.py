@@ -3,7 +3,7 @@ from decimal import Decimal
 from uuid import UUID
 
 from pydantic import ValidationError
-from sqlalchemy import select
+from sqlalchemy import func, select
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -20,6 +20,20 @@ from app.catalog.models import (
 from app.core.errors import APIError
 from app.graph.models import GraphVersion
 from app.matching.models import MatchResult, MatchRun
+from app.matching.schemas import (
+    DomainSnapshotRead,
+    JobRoleSnapshotRead,
+    JobRoleSummaryRead,
+    MatchResultDetail,
+    MatchResultListItem,
+    MatchResultPage,
+    MatchRunPage,
+    MatchRunRead,
+    PublishedVersionRef,
+    RecommendationDetailData,
+    RecommendationRunData,
+    ResumeProfileVersionRef,
+)
 from app.resumes.models import Resume, ResumeProfile, ResumeSkill
 from app.resumes.service import get_visible_resume
 from app.reviews.schemas import MatchPolicy
@@ -337,6 +351,190 @@ async def create_or_reuse_recommendations(
     except Exception:
         await db.rollback()
         raise
+
+
+async def list_match_runs(
+    db: AsyncSession,
+    actor: User,
+    *,
+    page: int,
+    page_size: int,
+    resume_id: UUID | None = None,
+) -> MatchRunPage:
+    require_matching_reader(actor)
+    _validate_pagination(page, page_size)
+    filters = []
+    if actor.role != "admin":
+        filters.append(MatchRun.owner_user_id == actor.id)
+    if resume_id is not None:
+        filters.append(MatchRun.resume_id == resume_id)
+    total = await db.scalar(select(func.count()).select_from(MatchRun).where(*filters))
+    rows = (
+        await db.execute(
+            _match_run_read_statement()
+            .where(*filters)
+            .order_by(MatchRun.created_at.desc(), MatchRun.id.desc())
+            .offset((page - 1) * page_size)
+            .limit(page_size)
+        )
+    ).all()
+    return MatchRunPage(
+        items=[_match_run_read(row) for row in rows],
+        page=page,
+        page_size=page_size,
+        total=total or 0,
+    )
+
+
+async def get_visible_match_run(
+    db: AsyncSession,
+    actor: User,
+    match_run_id: UUID,
+) -> MatchRunRead:
+    row = await _get_visible_match_run_row(db, actor, match_run_id)
+    return _match_run_read(row)
+
+
+async def get_match_run_results(
+    db: AsyncSession,
+    actor: User,
+    match_run_id: UUID,
+    *,
+    page: int,
+    page_size: int,
+) -> RecommendationRunData:
+    _validate_pagination(page, page_size)
+    run_row = await _get_visible_match_run_row(db, actor, match_run_id)
+    run = run_row[0]
+    results = (
+        await db.scalars(
+            select(MatchResult)
+            .where(MatchResult.match_run_id == run.id)
+            .order_by(MatchResult.rank)
+            .offset((page - 1) * page_size)
+            .limit(page_size)
+        )
+    ).all()
+    return RecommendationRunData(
+        run=_match_run_read(run_row),
+        results=MatchResultPage(
+            items=[_match_result_list_item(value) for value in results],
+            page=page,
+            page_size=page_size,
+            total=run.result_count,
+        ),
+    )
+
+
+async def get_match_result_detail(
+    db: AsyncSession,
+    actor: User,
+    match_run_id: UUID,
+    job_role_id: UUID,
+) -> RecommendationDetailData:
+    run_row = await _get_visible_match_run_row(db, actor, match_run_id)
+    result = await db.scalar(
+        select(MatchResult).where(
+            MatchResult.match_run_id == match_run_id,
+            MatchResult.job_role_id == job_role_id,
+        )
+    )
+    if result is None:
+        raise APIError(404, "MATCH_RESULT_NOT_FOUND", "岗位匹配结果不存在")
+    list_item = _match_result_list_item(result)
+    detail_data = list_item.model_dump()
+    detail_data["job_role"] = JobRoleSnapshotRead.model_validate(
+        result.job_role_snapshot
+    )
+    return RecommendationDetailData(
+        run=_match_run_read(run_row),
+        result=MatchResultDetail(
+            **detail_data,
+            matched_capabilities=result.matched_capabilities,
+            missing_capabilities=result.missing_capabilities,
+        ),
+    )
+
+
+def _match_run_read_statement():
+    return (
+        select(
+            MatchRun,
+            ResumeProfile.version_no,
+            GraphVersion.version_no,
+            CatalogVersion.version_no,
+        )
+        .join(ResumeProfile, ResumeProfile.id == MatchRun.resume_profile_id)
+        .join(GraphVersion, GraphVersion.id == MatchRun.graph_version_id)
+        .join(CatalogVersion, CatalogVersion.id == MatchRun.catalog_version_id)
+    )
+
+
+async def _get_visible_match_run_row(
+    db: AsyncSession,
+    actor: User,
+    match_run_id: UUID,
+):
+    require_matching_reader(actor)
+    statement = _match_run_read_statement().where(MatchRun.id == match_run_id)
+    if actor.role != "admin":
+        statement = statement.where(MatchRun.owner_user_id == actor.id)
+    row = (await db.execute(statement)).one_or_none()
+    if row is None:
+        raise APIError(404, "MATCH_RUN_NOT_FOUND", "岗位推荐记录不存在")
+    return row
+
+
+def _match_run_read(row) -> MatchRunRead:
+    run, profile_version, graph_version, catalog_version = row
+    return MatchRunRead(
+        id=run.id,
+        owner_user_id=run.owner_user_id,
+        resume_id=run.resume_id,
+        resume_profile=ResumeProfileVersionRef(
+            id=run.resume_profile_id,
+            version_no=profile_version,
+        ),
+        graph_version=PublishedVersionRef(
+            id=run.graph_version_id,
+            version_no=graph_version,
+        ),
+        catalog_version=PublishedVersionRef(
+            id=run.catalog_version_id,
+            version_no=catalog_version,
+        ),
+        weight_version=run.weight_version,
+        result_count=run.result_count,
+        high_count=run.high_count,
+        medium_count=run.medium_count,
+        low_count=run.low_count,
+        created_at=run.created_at,
+    )
+
+
+def _match_result_list_item(result: MatchResult) -> MatchResultListItem:
+    snapshot = result.job_role_snapshot
+    domain = DomainSnapshotRead.model_validate(snapshot["domain"])
+    return MatchResultListItem(
+        job_role_id=result.job_role_id,
+        rank=result.rank,
+        total_score=result.total_score,
+        match_level=result.match_level,
+        job_role=JobRoleSummaryRead(
+            id=snapshot["id"],
+            canonical_name=snapshot["canonical_name"],
+            description=snapshot.get("description"),
+            domain=domain,
+        ),
+        dimension_scores=result.dimension_scores,
+        gap_summary=result.gap_summary,
+        created_at=result.created_at,
+    )
+
+
+def _validate_pagination(page: int, page_size: int) -> None:
+    if page < 1 or page_size < 1 or page_size > 100:
+        raise APIError(422, "VALIDATION_FAILED", "分页参数无效")
 
 
 async def _find_match_run(

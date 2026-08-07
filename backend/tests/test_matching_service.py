@@ -2,6 +2,7 @@ import asyncio
 import os
 from datetime import UTC, datetime
 from decimal import Decimal
+from uuid import uuid4
 
 import pytest
 from sqlalchemy import delete, func, select
@@ -22,6 +23,7 @@ from app.files.models import StoredFile
 from app.graph.models import GraphVersion
 from app.matching import service as matching_service
 from app.matching.models import MatchResult, MatchRun
+from app.matching.schemas import JobRecommendationCreate
 from app.matching.scoring import MatchCatalogInconsistent
 from app.processing.models import ProcessingRun
 from app.resumes.models import Resume, ResumeProfile, ResumeSkill
@@ -832,3 +834,206 @@ async def test_create_recommendations_concurrent_requests_reuse_one_complete_run
         finally:
             await cleanup.close()
             await engine.dispose()
+
+
+def test_job_recommendation_create_rejects_unknown_fields() -> None:
+    with pytest.raises(Exception) as error:
+        JobRecommendationCreate.model_validate(
+            {"resume_id": "00000000-0000-4000-8000-000000000001", "page": 1}
+        )
+    assert "extra_forbidden" in str(error.value)
+
+
+async def test_list_match_runs_enforces_visibility_and_returns_version_refs(
+    db_session,
+) -> None:
+    context = await build_matching_context(db_session)
+    created = await matching_service.create_or_reuse_recommendations(
+        db_session,
+        context.applicant,
+        context.resume.id,
+        request_id="matching-history-create",
+        ip_address=None,
+    )
+    db_session.add(
+        MatchRun(
+            owner_user_id=context.other_applicant.id,
+            resume_id=context.resume.id,
+            resume_profile_id=context.profile.id,
+            graph_version_id=context.graph.id,
+            catalog_version_id=context.catalog.id,
+            weight_version="legacy_history_version",
+            weight_snapshot={},
+            result_count=0,
+            high_count=0,
+            medium_count=0,
+            low_count=0,
+        )
+    )
+    await db_session.flush()
+
+    applicant_page = await matching_service.list_match_runs(
+        db_session,
+        context.applicant,
+        page=1,
+        page_size=20,
+    )
+    admin_page = await matching_service.list_match_runs(
+        db_session,
+        context.admin,
+        page=1,
+        page_size=20,
+    )
+
+    assert applicant_page.total == 1
+    assert [item.id for item in applicant_page.items] == [created.run.id]
+    assert admin_page.total == 2
+    summary = applicant_page.items[0]
+    assert summary.resume_profile.version_no == 1
+    assert summary.graph_version.version_no == context.graph.version_no
+    assert summary.catalog_version.version_no == context.catalog.version_no
+
+    with pytest.raises(APIError) as error:
+        await matching_service.list_match_runs(
+            db_session,
+            context.hr,
+            page=1,
+            page_size=20,
+        )
+    assert error.value.code == "ROLE_NOT_ALLOWED"
+
+
+async def test_list_match_runs_filters_resume_and_orders_stably(db_session) -> None:
+    context = await build_matching_context(db_session)
+    created = await matching_service.create_or_reuse_recommendations(
+        db_session,
+        context.applicant,
+        context.resume.id,
+        request_id="matching-history-filter",
+        ip_address=None,
+    )
+
+    page = await matching_service.list_match_runs(
+        db_session,
+        context.applicant,
+        page=1,
+        page_size=1,
+        resume_id=context.resume.id,
+    )
+    assert page.total == 1
+    assert page.items[0].id == created.run.id
+
+
+async def test_get_match_run_results_paginates_without_full_capability_arrays(
+    db_session,
+) -> None:
+    context = await build_matching_context(db_session)
+    created = await matching_service.create_or_reuse_recommendations(
+        db_session,
+        context.applicant,
+        context.resume.id,
+        request_id="matching-results-page",
+        ip_address=None,
+    )
+    data = await matching_service.get_match_run_results(
+        db_session,
+        context.applicant,
+        created.run.id,
+        page=1,
+        page_size=1,
+    )
+    page = data.results
+    assert page.total == created.run.result_count
+    assert len(page.items) == 1
+    assert page.items[0].rank == 1
+    assert "matched_capabilities" not in page.items[0].model_dump()
+    assert "missing_capabilities" not in page.items[0].model_dump()
+    assert page.items[0].gap_summary
+
+
+async def test_get_match_result_detail_uses_immutable_snapshot(db_session) -> None:
+    context = await build_matching_context(db_session)
+    created = await matching_service.create_or_reuse_recommendations(
+        db_session,
+        context.applicant,
+        context.resume.id,
+        request_id="matching-result-detail",
+        ip_address=None,
+    )
+    result = created.results[0]
+    original_name = result.job_role_snapshot["canonical_name"]
+    context.job_roles[0].canonical_name = "Changed current role"
+    context.job_roles[0].description = "Changed current description"
+    await db_session.flush()
+
+    detail = await matching_service.get_match_result_detail(
+        db_session,
+        context.applicant,
+        created.run.id,
+        result.job_role_id,
+    )
+    assert detail.result.job_role.canonical_name == original_name
+    assert detail.result.job_role.description != "Changed current description"
+    assert detail.result.matched_capabilities
+    assert isinstance(detail.result.missing_capabilities, list)
+
+
+async def test_match_history_rejects_invalid_page_and_missing_result(
+    db_session,
+) -> None:
+    context = await build_matching_context(db_session)
+    created = await matching_service.create_or_reuse_recommendations(
+        db_session,
+        context.applicant,
+        context.resume.id,
+        request_id="matching-history-errors",
+        ip_address=None,
+    )
+
+    with pytest.raises(APIError) as page_error:
+        await matching_service.get_match_run_results(
+            db_session,
+            context.applicant,
+            created.run.id,
+            page=0,
+            page_size=20,
+        )
+    assert page_error.value.status_code == 422
+
+    with pytest.raises(APIError) as result_error:
+        await matching_service.get_match_result_detail(
+            db_session,
+            context.applicant,
+            created.run.id,
+            uuid4(),
+        )
+    assert result_error.value.status_code == 404
+    assert result_error.value.code == "MATCH_RESULT_NOT_FOUND"
+
+
+async def test_match_history_hides_other_owner_run(db_session) -> None:
+    context = await build_matching_context(db_session)
+    run = MatchRun(
+        owner_user_id=context.other_applicant.id,
+        resume_id=context.resume.id,
+        resume_profile_id=context.profile.id,
+        graph_version_id=context.graph.id,
+        catalog_version_id=context.catalog.id,
+        weight_version="hidden_history_version",
+        weight_snapshot={},
+        result_count=0,
+        high_count=0,
+        medium_count=0,
+        low_count=0,
+    )
+    db_session.add(run)
+    await db_session.flush()
+
+    with pytest.raises(APIError) as error:
+        await matching_service.get_visible_match_run(
+            db_session,
+            context.applicant,
+            run.id,
+        )
+    assert error.value.status_code == 404
+    assert error.value.code == "MATCH_RUN_NOT_FOUND"
