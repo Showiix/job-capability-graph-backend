@@ -8,6 +8,7 @@ from app.files.router import router as files_router
 from app.graph.router import read_router as graph_read_router
 from app.graph.router import router as graph_router
 from app.imports.router import router as imports_router
+from app.matching.router import router as matching_router
 from app.processing.router import router as processing_router
 from app.resumes.router import router as resumes_router
 from app.reviews.router import router as reviews_router
@@ -22,6 +23,7 @@ api_router.include_router(files_router)
 api_router.include_router(graph_router)
 api_router.include_router(graph_read_router)
 api_router.include_router(imports_router)
+api_router.include_router(matching_router)
 api_router.include_router(processing_router)
 api_router.include_router(resumes_router)
 api_router.include_router(reviews_router)
