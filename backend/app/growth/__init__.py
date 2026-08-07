@@ -1,0 +1,1 @@
+"""Applicant growth path generation."""
