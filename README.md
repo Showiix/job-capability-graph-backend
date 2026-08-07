@@ -227,6 +227,31 @@ POST 无请求体，需要 CSRF；第一次生成返回 `reused=false`，相同 
 
 后端要求每个缺失必备 Capability 在模型结果中必须且只能出现一次，并用 PostgreSQL 标准技能快照补全名称、类型和 Domain；总周数由后端求和。结果按 `match_run_id + job_role_id + growth_path_v1` 幂等保存，不写 Neo4j，不使用 LangChain、LangGraph、Celery、Redis、web search 或外部课程检索，也不会生成课程 URL。
 
+### HR 私有 JD 招聘匹配
+
+HR 招聘项目是内部演示版的完整闭环，使用单独的项目和候选人数据边界：
+
+- `POST /api/v1/recruitment-projects`、`GET /api/v1/recruitment-projects`、`GET /api/v1/recruitment-projects/{project_id}`
+- `POST /api/v1/recruitment-projects/{project_id}/jd`
+- `PUT /api/v1/recruitment-projects/{project_id}/requirements`
+- `POST /api/v1/recruitment-projects/{project_id}/requirements/confirm`
+- `POST /api/v1/recruitment-projects/{project_id}/candidates`、`GET /api/v1/recruitment-projects/{project_id}/candidates`、`GET /api/v1/recruitment-projects/{project_id}/candidates/{candidate_id}`
+- `POST /api/v1/recruitment-projects/{project_id}/match-runs`
+- `GET /api/v1/recruitment-projects/{project_id}/match-runs`
+- `GET /api/v1/recruitment-projects/{project_id}/match-runs/{run_id}/results`
+- `GET /api/v1/recruitment-projects/{project_id}/match-runs/{run_id}/results/{candidate_id}`
+
+最小演示顺序如下。所有写请求都需要当前登录 Session 的 CSRF Header；带文件的请求同时使用 `multipart/form-data` 和 `Idempotency-Key`。
+
+1. 以 `hr` 登录，创建招聘项目，保存返回的 `PROJECT_ID`。
+2. 提交文本 JD 或 PDF/DOCX/TXT 文件。接口立即返回 `run_id`，通过 `/api/v1/processing-runs/{run_id}` 轮询，不在 HTTP 请求中等待 LLM。
+3. 任务完成后，从项目详情的 `jd_draft_payload` 读取抽取草稿；HR 可以通过 `PUT .../requirements` 整体替换岗位标题、学历/经验门槛、标准 Capability 要求和未映射技能，再调用 `POST .../requirements/confirm` 固化不可变 revision。相同内容重复确认会复用原 revision。
+4. 批量上传 1 到 20 份 PDF/DOCX 候选简历，继续轮询候选解析 Processing Run。每个候选独立处理；部分失败不会回滚已成功候选，失败候选在后续 Match Run 中进入 `skipped_candidates` 快照。
+5. 调用 `POST .../match-runs` 同步生成全量确定性排名，再读取结果列表和单候选差距明细。相同已确认要求、候选状态/Profile 版本和 `match_weights_v1` 会直接返回 `reused=true` 的历史 Run。
+6. 通过候选详情中的 file URL 读取原始简历元数据、预览或下载内容。项目 owner 和 admin 可见，其他 HR 与 applicant 得到脱敏 404；跨项目的 candidate/run ID 也不会被解析。
+
+这条链路的职责边界是固定的：市场爬虫暂未接入，当前数据入口是管理员批量导入；LLM 只负责 JD/简历的结构化候选抽取和 Evidence 校验，标准 Capability Catalog 是唯一真相源，后端负责映射、五维评分、排序、快照和幂等；企业私有 JD 匹配不调用 Neo4j，也不依赖 LangChain/LangGraph。Neo4j 只服务于已经审核发布的公共岗位能力图谱读取。
+
 ### 市场 JD 数据中心
 
 - `POST /api/v1/imports`

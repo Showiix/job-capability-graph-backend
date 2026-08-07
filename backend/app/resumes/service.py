@@ -15,7 +15,8 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.audit.service import record_audit
 from app.auth.models import User
-from app.catalog.models import Capability, CapabilityAlias
+from app.catalog.mapping import resolve_capability_labels
+from app.catalog.models import Capability
 from app.core.config import get_settings
 from app.core.errors import APIError
 from app.discovery.mining import normalize_skill_label
@@ -95,65 +96,34 @@ async def map_resume_skills(
         for _name, values in sorted(by_name.items())
     ]
 
-    # ponytail: full active-catalog scan is acceptable at ~30k rows;
-    # add persisted normalized columns and indexes only after profiling shows
-    # a bottleneck.
-    capabilities = (
-        await db.scalars(select(Capability).where(Capability.status == "active"))
-    ).all()
-    canonical: dict[str, list[Capability]] = defaultdict(list)
-    for capability in capabilities:
-        normalized = normalize_skill_label(capability.canonical_name)
-        if normalized:
-            canonical[normalized].append(capability)
-
-    alias_rows = (
-        await db.execute(
-            select(CapabilityAlias, Capability)
-            .join(Capability, Capability.id == CapabilityAlias.capability_id)
-            .where(
-                CapabilityAlias.status == "active",
-                Capability.status == "active",
-            )
-        )
-    ).all()
-    aliases: dict[str, dict[UUID, Capability]] = defaultdict(dict)
-    for alias, capability in alias_rows:
-        normalized = normalize_skill_label(alias.alias)
-        if normalized:
-            aliases[normalized][capability.id] = capability
+    resolution_result = await resolve_capability_labels(
+        db,
+        [candidate["name"] for candidate in candidates],
+    )
+    warnings.extend(resolution_result.warnings)
+    resolutions = {
+        item.normalized_label: item for item in resolution_result.resolutions
+    }
 
     mapped_with_sources: list[tuple[MappedResumeSkill, dict]] = []
     for candidate in candidates:
         normalized_name = candidate["normalized_name"]
-        capability = None
-        mapping_method = "unmapped"
-        canonical_matches = canonical.get(normalized_name, [])
-        if len(canonical_matches) == 1:
-            capability = canonical_matches[0]
-            mapping_method = "canonical_exact"
-        elif len(canonical_matches) > 1:
-            warnings.append(f"AMBIGUOUS_CAPABILITY_NAME:{normalized_name}")
-        else:
-            alias_matches = list(aliases.get(normalized_name, {}).values())
-            if len(alias_matches) == 1:
-                capability = alias_matches[0]
-                mapping_method = "alias_exact"
-            elif len(alias_matches) > 1:
-                warnings.append(f"AMBIGUOUS_CAPABILITY_ALIAS:{normalized_name}")
+        resolution = resolutions[normalized_name]
 
         mapped = MappedResumeSkill(
             raw_name=candidate["name"],
             normalized_name=normalized_name,
-            capability_id=capability.id if capability is not None else None,
+            capability_id=resolution.capability_id,
             proficiency=candidate["proficiency"],
             explicit_experience_months=candidate["explicit_experience_months"],
             evidence_strength=candidate["evidence_strength"],
             evidence_quote=candidate["evidence_quote"],
             evidence_start=candidate["evidence_start"],
             evidence_end=candidate["evidence_end"],
-            mapping_method=mapping_method,
-            mapping_status="mapped" if capability is not None else "unmapped",
+            mapping_method=resolution.mapping_method,
+            mapping_status=(
+                "mapped" if resolution.capability_id is not None else "unmapped"
+            ),
             confidence=float(candidate["confidence"]),
         )
         mapped_with_sources.append((mapped, candidate))

@@ -11,6 +11,7 @@ from app.growth.router import router as growth_router
 from app.imports.router import router as imports_router
 from app.matching.router import router as matching_router
 from app.processing.router import router as processing_router
+from app.recruitment.router import router as recruitment_router
 from app.resumes.router import router as resumes_router
 from app.reviews.router import router as reviews_router
 from app.system.router import admin_router as admin_system_router
@@ -27,6 +28,7 @@ api_router.include_router(growth_router)
 api_router.include_router(imports_router)
 api_router.include_router(matching_router)
 api_router.include_router(processing_router)
+api_router.include_router(recruitment_router)
 api_router.include_router(resumes_router)
 api_router.include_router(reviews_router)
 api_router.include_router(admin_system_router)

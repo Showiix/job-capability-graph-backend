@@ -7,6 +7,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.auth.models import User
 from app.core.errors import APIError
 from app.files.models import FileAccessLog, StoredFile
+from app.recruitment.models import RecruitmentCandidate, RecruitmentProject
 from app.resumes.models import Resume
 
 
@@ -29,6 +30,27 @@ async def get_visible_file(
             )
         )
         visible = owner_resume_id is not None
+    if not visible and stored_file.category == "jd" and actor.role == "hr":
+        owner_project_id = await db.scalar(
+            select(RecruitmentProject.id).where(
+                RecruitmentProject.jd_file_id == stored_file.id,
+                RecruitmentProject.owner_user_id == actor.id,
+            )
+        )
+        visible = owner_project_id is not None
+    if not visible and stored_file.category == "resume" and actor.role == "hr":
+        owner_candidate_id = await db.scalar(
+            select(RecruitmentCandidate.id)
+            .join(
+                RecruitmentProject,
+                RecruitmentProject.id == RecruitmentCandidate.project_id,
+            )
+            .where(
+                RecruitmentCandidate.file_id == stored_file.id,
+                RecruitmentProject.owner_user_id == actor.id,
+            )
+        )
+        visible = owner_candidate_id is not None
     if not visible:
         raise APIError(404, "RESOURCE_NOT_OWNED", "文件不存在")
     return stored_file

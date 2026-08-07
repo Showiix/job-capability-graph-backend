@@ -81,6 +81,21 @@ class JobRoleMatchInput:
 
 
 @dataclass(frozen=True)
+class ScoredRequirements:
+    total_score: Decimal
+    match_level: MatchLevel
+    required_skill_coverage: Decimal
+    bonus_skill_coverage: Decimal
+    skill_evidence_quality: Decimal
+    experience_score: Decimal
+    education_score: Decimal
+    dimension_scores: dict
+    matched_capabilities: list[dict]
+    missing_capabilities: list[dict]
+    gap_summary: dict
+
+
+@dataclass(frozen=True)
 class ScoredJobRole:
     job_role_id: UUID
     canonical_name: str
@@ -127,31 +142,31 @@ def match_level(total_score: Decimal) -> MatchLevel:
     return "low"
 
 
-def score_job_role(
+def score_profile_against_requirements(
     profile: ProfileMatchInput,
-    job_role: JobRoleMatchInput,
-) -> ScoredJobRole:
+    requirements: tuple[CapabilityRequirementInput, ...],
+    *,
+    minimum_education_level: str | None,
+    recommended_experience_months: int | None,
+    skill_snapshot_key: str,
+) -> ScoredRequirements:
     required = tuple(
-        value for value in job_role.capabilities if value.requirement_type == "required"
+        value for value in requirements if value.requirement_type == "required"
     )
-    bonus = tuple(
-        value for value in job_role.capabilities if value.requirement_type == "bonus"
-    )
+    bonus = tuple(value for value in requirements if value.requirement_type == "bonus")
     required_raw, required_data = _coverage(required, profile, required=True)
     bonus_raw, bonus_data = _coverage(bonus, profile, required=False)
     matched = tuple(
-        value
-        for value in job_role.capabilities
-        if value.capability_id in profile.skills
+        value for value in requirements if value.capability_id in profile.skills
     )
     evidence_raw, evidence_data = _evidence_quality(matched, profile)
     experience_raw, experience_data = _experience_score(
         profile.total_experience_months,
-        job_role.recommended_experience_months,
+        recommended_experience_months,
     )
     education_raw, education_data = _education_score(
         profile.highest_education_level,
-        job_role.minimum_education_level,
+        minimum_education_level,
     )
     total_raw = (
         required_raw * WEIGHTS["required_skill_coverage"]
@@ -162,12 +177,11 @@ def score_job_role(
     )
     total = quantize_score(total_raw)
     matched_capabilities, missing_capabilities = _capability_snapshots(
-        job_role.capabilities,
+        requirements,
         profile,
+        skill_snapshot_key=skill_snapshot_key,
     )
-    return ScoredJobRole(
-        job_role_id=job_role.job_role_id,
-        canonical_name=job_role.canonical_name,
+    return ScoredRequirements(
         total_score=total,
         match_level=match_level(total),
         required_skill_coverage=quantize_score(required_raw),
@@ -184,7 +198,35 @@ def score_job_role(
         },
         matched_capabilities=matched_capabilities,
         missing_capabilities=missing_capabilities,
-        gap_summary=_gap_summary(job_role.capabilities, profile),
+        gap_summary=_gap_summary(requirements, profile),
+    )
+
+
+def score_job_role(
+    profile: ProfileMatchInput,
+    job_role: JobRoleMatchInput,
+) -> ScoredJobRole:
+    scored = score_profile_against_requirements(
+        profile,
+        job_role.capabilities,
+        minimum_education_level=job_role.minimum_education_level,
+        recommended_experience_months=job_role.recommended_experience_months,
+        skill_snapshot_key="resume_skill",
+    )
+    return ScoredJobRole(
+        job_role_id=job_role.job_role_id,
+        canonical_name=job_role.canonical_name,
+        total_score=scored.total_score,
+        match_level=scored.match_level,
+        required_skill_coverage=scored.required_skill_coverage,
+        bonus_skill_coverage=scored.bonus_skill_coverage,
+        skill_evidence_quality=scored.skill_evidence_quality,
+        experience_score=scored.experience_score,
+        education_score=scored.education_score,
+        dimension_scores=scored.dimension_scores,
+        matched_capabilities=scored.matched_capabilities,
+        missing_capabilities=scored.missing_capabilities,
+        gap_summary=scored.gap_summary,
         job_role_snapshot={
             "id": str(job_role.job_role_id),
             "canonical_name": job_role.canonical_name,
@@ -349,6 +391,8 @@ def _education_score(
 def _capability_snapshots(
     requirements: tuple[CapabilityRequirementInput, ...],
     profile: ProfileMatchInput,
+    *,
+    skill_snapshot_key: str,
 ) -> tuple[list[dict], list[dict]]:
     matched = []
     missing = []
@@ -376,7 +420,7 @@ def _capability_snapshots(
                 "canonical_name": capability.canonical_name,
                 "requirement_type": capability.requirement_type,
                 "importance": float(capability.importance),
-                "resume_skill": {
+                skill_snapshot_key: {
                     "id": str(skill.id),
                     "raw_name": skill.raw_name,
                     "mapping_method": skill.mapping_method,

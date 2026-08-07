@@ -13,17 +13,9 @@ from app.files.models import StoredFile
 from app.infrastructure.database import SessionFactory
 from app.infrastructure.file_storage import FileStorage
 from app.processing.models import ProcessingError, ProcessingRun
-from app.resumes.llm import (
-    ResponsesClient,
-    ResumeLLMError,
-    create_responses_http_client,
-)
+from app.resumes.analysis import analyze_resume_document
+from app.resumes.llm import ResponsesClient, ResumeLLMError
 from app.resumes.models import Resume, ResumeProfile
-from app.resumes.parsing import (
-    extract_resume_text,
-    redact_resume_text,
-    validate_parse_evidence,
-)
 from app.resumes.service import (
     complete_run_for_profile,
     get_existing_extracted_profile,
@@ -87,9 +79,7 @@ async def run_parse_resume(
         if run is None:
             return {}
         resume = await db.scalar(
-            select(Resume)
-            .where(Resume.id == run.subject_id)
-            .with_for_update()
+            select(Resume).where(Resume.id == run.subject_id).with_for_update()
         )
         if resume is None:
             return {}
@@ -136,60 +126,31 @@ async def run_parse_resume(
             raise RunFailure("FILE_CONTENT_MISSING", stage, False) from error
         if not path.is_file():
             raise RunFailure("FILE_CONTENT_MISSING", stage, False)
-        extracted = await extract_resume_text(path, stored_file.extension.lower())
-
-        stage = "redact_text"
-        await _set_stage(db, run, stage)
-        redacted_text = redact_resume_text(extracted.text)
-
-        refreshed = await _refresh_run(db, run.id)
-        if refreshed.cancel_requested or refreshed.status == "cancel_requested":
-            return await _cancel_run(db, refreshed, resume)
-
-        stage = "call_llm"
-        await _set_stage(db, refreshed, stage)
         settings = get_settings()
-        if not all(
-            (
-                settings.llm_responses_url,
-                settings.llm_api_key,
-                settings.llm_model,
-            )
-        ):
-            raise RunFailure("LLM_NOT_CONFIGURED", stage, True)
-        if db.in_transaction():
-            await db.commit()
 
-        request = {
-            "url": str(settings.llm_responses_url),
-            "api_key": settings.llm_api_key.get_secret_value(),
-            "model": settings.llm_model,
-            "redacted_text": redacted_text,
-            "processing_run_id": run.id,
-        }
-        if responses_client is None:
-            async with create_responses_http_client() as http:
-                llm_result = await ResponsesClient(http=http).parse_resume(**request)
-        else:
-            llm_result = await responses_client.parse_resume(**request)
+        async def update_stage(value: str) -> None:
+            nonlocal stage
+            stage = value
+            current = await db.get(ProcessingRun, run.id)
+            await _set_stage(db, current, value)
+
+        analysis = await analyze_resume_document(
+            path,
+            filename=stored_file.original_name,
+            media_type=stored_file.media_type,
+            processing_run_id=run.id,
+            responses_client=responses_client,
+            settings=settings,
+            on_stage=update_stage,
+        )
 
         refreshed = await _refresh_run(db, run.id)
         if refreshed.cancel_requested or refreshed.status == "cancel_requested":
             return await _cancel_run(db, refreshed, resume)
-
-        stage = "validate_response"
-        await _set_stage(db, refreshed, stage)
-
-        stage = "validate_evidence"
-        await _set_stage(db, refreshed, stage)
-        validated = validate_parse_evidence(
-            llm_result.payload,
-            redacted_text=redacted_text,
-        )
 
         stage = "map_capabilities"
         await _set_stage(db, refreshed, stage)
-        mapping = await map_resume_skills(db, validated.skills)
+        mapping = await map_resume_skills(db, analysis.validated.skills)
         await db.commit()
 
         stage = "persist_profile"
@@ -198,12 +159,12 @@ async def run_parse_resume(
             db,
             resume=resume,
             run=refreshed,
-            extracted_text=extracted.text,
-            extraction_method=extracted.method,
-            validated=validated,
+            extracted_text=analysis.extracted_text,
+            extraction_method=analysis.extraction_method,
+            validated=analysis.validated,
             mapping=mapping,
-            llm_result=llm_result,
-            requested_model=settings.llm_model,
+            llm_result=analysis.llm_result,
+            requested_model=analysis.requested_model,
             current_month=datetime.now(UTC).date().replace(day=1),
         )
         return dict(refreshed.result_summary) | {"profile_id": str(profile.id)}
@@ -211,7 +172,7 @@ async def run_parse_resume(
         failure = RunFailure(
             error.code,
             stage,
-            error.code == "RESUME_EVIDENCE_EMPTY",
+            error.code in {"LLM_NOT_CONFIGURED", "RESUME_EVIDENCE_EMPTY"},
         )
         cause = error
     except ResumeLLMError as error:

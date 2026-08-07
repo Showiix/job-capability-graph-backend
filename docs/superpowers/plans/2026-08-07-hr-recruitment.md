@@ -104,7 +104,7 @@ weight_version         = match_weights_v1
 - Verify only: `backend/alembic/versions/0012_*.py`
 - No production code changes
 
-- [ ] **Step 1: 确认分支、远端和工作树**
+- [x] **Step 1: 确认分支、远端和工作树**
 
 Run:
 
@@ -118,7 +118,7 @@ git diff --check
 
 Expected: 当前分支为 `codex/hr-recruitment`，HEAD 与远端一致，除本计划外无业务改动。若出现用户已有改动，保留并从本任务提交中排除。
 
-- [ ] **Step 2: 启动已有 Compose 依赖**
+- [x] **Step 2: 启动已有 Compose 依赖**
 
 Run:
 
@@ -132,7 +132,7 @@ docker compose ps
 
 Expected: PostgreSQL、Redis、Neo4j healthy。不得执行 `docker compose down -v`，不得删除已有数据库或 volume。
 
-- [ ] **Step 3: 在 primary/test 数据库确认 Alembic 0012**
+- [x] **Step 3: 在 primary/test 数据库确认 Alembic 0012**
 
 Run：
 
@@ -147,7 +147,7 @@ docker compose run --rm \
 
 若测试库不存在，只创建缺失的 `job_graph_test`，然后再执行测试库 migration；不重建已有库。
 
-- [ ] **Step 4: 重新跑真实回归基线**
+- [x] **Step 4: 重新跑真实回归基线**
 
 Run:
 
@@ -161,7 +161,7 @@ git diff --check
 
 Expected: `479 passed`、`All checks passed!`。记录 formatter 基线但不修复无关文件。
 
-- [ ] **Step 5: 检查环境产物**
+- [x] **Step 5: 检查环境产物**
 
 Run `git status --short`，确认没有 `.env`、API key、真实简历、数据库 dump、容器产物或缓存文件进入版本控制。Task 0 不创建 commit。
 
@@ -176,7 +176,7 @@ Run `git status --short`，确认没有 `.env`、API key、真实简历、数据
 
 **Purpose:** 让 JD 和 Candidate Resume 共享同一个 active `Capability`/`CapabilityAlias` 精确解析器，保证标准技能库是唯一真相源；保留现有 `map_resume_skills()` 对外接口和行为。
 
-- [ ] **Step 1: 写 RED 测试**
+- [x] **Step 1: 写 RED 测试**
 
 覆盖：canonical label 命中、alias 命中、大小写/空白规范化、inactive capability 不命中、inactive alias 不命中、重复输入去重、未知标签进入 unmapped、同名歧义不静默选择错误记录。测试使用现有 SQLAlchemy fixture，不创建第二套 Capability seed。
 
@@ -188,15 +188,15 @@ assert result.mapped[0].capability_id == python_id
 assert result.unmapped == ["新技能"]
 ```
 
-- [ ] **Step 2: 实现最小纯边界**
+- [x] **Step 2: 实现最小纯边界**
 
 在 `mapping.py` 定义 `CapabilityResolution`（输入标签、normalized label、matched capability、match kind、confidence/source）和 `CapabilityResolutionResult`（mapped、unmapped、warnings）。查询 active capability/alias，统一用现有 normalized 字段规则；不引入模糊匹配、embedding 或 LLM。
 
-- [ ] **Step 3: 迁移 Resume 调用方**
+- [x] **Step 3: 迁移 Resume 调用方**
 
 让 `backend/app/resumes/service.py::map_resume_skills()` 调用共享解析器，再转换回现有返回结构。保留现有排序、错误行为和数据库写入事务。更新 `test_resume_tasks.py`，证明 Applicant Resume 解析回归不变。
 
-- [ ] **Step 4: 验证**
+- [x] **Step 4: 验证**
 
 ```bash
 cd backend
@@ -214,19 +214,19 @@ uv run ruff format --check app/catalog/mapping.py app/resumes/service.py tests/t
 
 **Purpose:** Applicant 正式岗位推荐和 HR 私有 JD 匹配必须使用同一套确定性、可解释、可复现的评分规则；只抽取输入适配，不改变现有 Applicant 输出。
 
-- [ ] **Step 1: 写 RED 测试**
+- [x] **Step 1: 写 RED 测试**
 
 新增 `ScoredRequirements` 输入测试，覆盖 required/bonus 能力、mention/project/work evidence、experience、education、缺失 required、空技能但有项目/经历、Decimal 边界和稳定排序。保留现有 `score_job_role()` 全部回归断言。
 
-- [ ] **Step 2: 实现 `score_profile_against_requirements()`**
+- [x] **Step 2: 实现 `score_profile_against_requirements()`**
 
 该函数只接收已解析的 profile evidence 和已确认的 requirements，不导入 FastAPI、SQLAlchemy、Celery、Neo4j 或 LLM。输出总分、五维分数、matched/missing capability 以及每项 Evidence 摘要。使用现有 `Decimal` 权重、阈值和 evidence quality 规则；所有舍入沿用当前实现。
 
-- [ ] **Step 3: 让 `score_job_role()` 包装共享核心**
+- [x] **Step 3: 让 `score_job_role()` 包装共享核心**
 
 把 Applicant 现有岗位输入转换为 `ScoredRequirements` 后调用共享函数；保持字段名、match level、排序和快照结构不变。禁止在 Recruitment 模块复制一份评分公式。
 
-- [ ] **Step 4: 验证**
+- [x] **Step 4: 验证**
 
 ```bash
 cd backend
@@ -248,7 +248,7 @@ uv run ruff format --check app/matching/scoring.py tests/test_matching_scoring.p
 
 **Purpose:** 把 HR 私有 JD、候选人、解析画像和匹配快照落到明确的 Recruitment ownership boundary；PostgreSQL 约束优先于应用层约定。
 
-- [ ] **Step 1: 先写 schema/constraint RED 测试**
+- [x] **Step 1: 先写 schema/constraint RED 测试**
 
 覆盖以下约束和删除行为：
 
@@ -270,7 +270,7 @@ JSONB snapshot 类型必须正确
 
 测试不能用 SQLite 替代 PostgreSQL；使用现有 transactional PostgreSQL fixture，并验证提交时约束生效。
 
-- [ ] **Step 2: 实现 ORM**
+- [x] **Step 2: 实现 ORM**
 
 在 `models.py` 只定义本批需要的六个模型和关系：
 
@@ -311,15 +311,15 @@ RecruitmentMatchResult
 
 沿用现有 `Base`、时间戳 mixin、UUID 类型、JSONB 和 Numeric 精度。不要把原始简历正文复制进 Match Result；候选快照仅保存展示和评分所需摘要。
 
-- [ ] **Step 3: 编写 migration 0013**
+- [x] **Step 3: 编写 migration 0013**
 
 `revision = "0013"`、`down_revision = "0012"`。按外键依赖顺序创建表和索引，至少包括：project owner/status、candidate project/status、profile candidate unique、candidate skill profile/capability、run project/自然唯一键、result run/rank 索引。`downgrade()` 按反向依赖删除六表和索引。
 
-- [ ] **Step 4: 注册模型与 migration metadata**
+- [x] **Step 4: 注册模型与 migration metadata**
 
 让 Alembic `env.py` 导入 Recruitment models，使 autogenerate 和 runtime metadata 都能看到六表；不改既有模型表名或 Applicant ownership。
 
-- [ ] **Step 5: 验证**
+- [x] **Step 5: 验证**
 
 ```bash
 docker compose run --rm migrate
@@ -347,7 +347,7 @@ Expected Alembic head 为 `0013`，所有 PostgreSQL 约束测试通过。
 
 **Purpose:** 把 JD 输入、解析候选结果和确认请求固定成可验证的边界。外部 LLM 只通过 OpenAI Responses endpoint 的既有客户端/配置调用，不能直接写数据库。
 
-- [ ] **Step 1: 定义 Pydantic 契约**
+- [x] **Step 1: 定义 Pydantic 契约**
 
 至少定义：
 
@@ -362,7 +362,7 @@ MatchRunResponse/MatchResultResponse
 
 JD parse payload 包含岗位标题、摘要、职责顺序、学历/经验、required/bonus requirements、unmapped skills、warnings、source metadata；`requirement_type` 只能为 `required` 或 `bonus`，技能引用必须携带原始 label 和 evidence。
 
-- [ ] **Step 2: 复用现有 PDF/DOCX 文本提取**
+- [x] **Step 2: 复用现有 PDF/DOCX 文本提取**
 
 实现固定函数：
 
@@ -373,15 +373,15 @@ extract_jd_text(filename: str, content: bytes) -> str
 
 支持 TXT/PDF/DOCX，复用 Resume parser 的底层逻辑；拒绝未知扩展名、空文件和超过既有上传上限的文件，错误映射到明确的 API error code。保留 source hash 和原始文本用于确认哈希/审计。
 
-- [ ] **Step 3: 实现 Evidence exact-match 校验**
+- [x] **Step 3: 实现 Evidence exact-match 校验**
 
 `validate_jd_evidence()` 只接受 LLM 输出中的 source span/quote，检查其确实出现在脱敏前的 JD 文本中；不存在的 evidence 进入 warnings 并不允许直接成为 confirmed requirement。随后调用 Task 1 的 `resolve_capability_labels()`。未知技能保留在 `unmapped_skills`，等待 HR 编辑，不伪造 Capability ID。
 
-- [ ] **Step 4: 实现 `RecruitmentJDResponsesClient`**
+- [x] **Step 4: 实现 `RecruitmentJDResponsesClient`**
 
 客户端负责：构造结构化 response schema 请求、传入经过截断/安全处理的 JD 文本、解析 JSON schema 结果、记录 model/prompt/parser metadata 和 request id。客户端异常统一转换为可重试的 `RECRUITMENT_JD_LLM_FAILED`；不在 client 内做业务提交、重试循环或 Celery 调度。测试使用 fake client，断言没有真实网络请求。
 
-- [ ] **Step 5: 验证**
+- [x] **Step 5: 验证**
 
 ```bash
 cd backend
@@ -413,27 +413,27 @@ PUT  /api/v1/recruitment-projects/{project_id}/requirements
 POST /api/v1/recruitment-projects/{project_id}/requirements/confirm
 ```
 
-- [ ] **Step 1: 写 Project/JD API RED 测试**
+- [x] **Step 1: 写 Project/JD API RED 测试**
 
 覆盖 HR 创建、列表分页、详情、跨 HR 隔离、Admin 可见、Applicant 拒绝/脱敏 404、文本 JD、文件 JD、空 JD、超限文件、重复 idempotency key 和不存在 project。测试只通过 HTTP API 进入 service，不直接调用 router 内部函数。
 
-- [ ] **Step 2: 实现 Project service/router**
+- [x] **Step 2: 实现 Project service/router**
 
 创建项目时锁定 `owner_user_id = actor.id`，状态初始为 `draft`；列表和详情统一使用 project ownership loader。router 只负责 request parsing、actor/CSRF/idempotency 传递和 response envelope，不直接 commit。
 
-- [ ] **Step 3: 实现 JD 提交和异步 ProcessingRun**
+- [x] **Step 3: 实现 JD 提交和异步 ProcessingRun**
 
 文本直接保存 source hash/text；文件复用现有 File service 后保存 `jd_file_id`。数据库提交 Project/Run 后再投递 `app.parse_recruitment_jd`，投递失败将 Run 标为 `enqueue_failed`。`run_parse_recruitment_jd()` 在事务内读取 project、解析文本、调用 fake/real client、Evidence 校验、写入 draft payload；不直接修改 confirmed snapshot。
 
-- [ ] **Step 4: 实现整体替换和确认**
+- [x] **Step 4: 实现整体替换和确认**
 
 `PUT .../requirements` 只替换 draft，要求 Pydantic 校验和 Capability 映射结果一致。确认时在 project row lock 下计算 canonical `confirmed_requirement_sha256`：排除 `revision_no`、`confirmed_at`、`confirmed_by_user_id` 和 LLM metadata；requirements 按 `requirement_type + capability_id` 排序，unmapped/warnings 按规范化顺序排序，responsibilities 保留展示顺序。相同 hash 返回 `reused=true` 且 revision 不变；不同 hash 才递增 revision 并写 confirmed snapshot/audit。
 
-- [ ] **Step 5: 注册 task/router**
+- [x] **Step 5: 注册 task/router**
 
 在 `backend/app/api/router.py` include recruitment router；在 `backend/app/worker.py` 注册 Celery task 名称 `app.parse_recruitment_jd`，task wrapper 只接收 `run_id`，真正业务逻辑进入 `run_parse_recruitment_jd()`，以便单测和 retry 复用。
 
-- [ ] **Step 6: 验证**
+- [x] **Step 6: 验证**
 
 ```bash
 cd backend
@@ -455,15 +455,15 @@ uv run ruff format --check app/recruitment/service.py app/recruitment/tasks.py a
 
 **Purpose:** Recruitment Run 和文件必须遵循同一 ownership 规则，避免通过 run/file ID 跨 HR 泄露 JD 或简历。
 
-- [ ] **Step 1: 写权限 RED 测试**
+- [x] **Step 1: 写权限 RED 测试**
 
 覆盖 owner HR、另一个 HR、Applicant、Admin 对 Project/JD Run/Candidate Run/JD file/Candidate Resume file 的访问矩阵；跨项目 run_id、candidate_id、file_id 必须得到拒绝或脱敏 404，不能通过猜 ID 读取正文。
 
-- [ ] **Step 2: 扩展 `visible_run_predicate()`**
+- [x] **Step 2: 扩展 `visible_run_predicate()`**
 
 当 `scope_type == "recruitment_project"` 时使用 `EXISTS` 子查询连接 `recruitment_projects.owner_user_id == actor.id`。不要在 API 层先查 project 再用不带 scope 的通用 run 查询，以免形成 TOCTOU 或遗漏路径。
 
-- [ ] **Step 3: 扩展文件 ownership**
+- [x] **Step 3: 扩展文件 ownership**
 
 ```text
 JD file -> RecruitmentProject.owner_user_id
@@ -472,11 +472,11 @@ Candidate Resume file -> RecruitmentCandidate -> Project.owner_user_id
 
 沿用现有 file download/metadata service；只添加 Recruitment 关系判断，不改变 Applicant Resume file 规则。错误统一为既有 not-found/forbidden 行为，避免暴露资源存在性。
 
-- [ ] **Step 4: 更新 CORS**
+- [x] **Step 4: 更新 CORS**
 
 在 `allow_headers` 中增加 `Idempotency-Key`，保留现有明确 header 白名单；不要改成 `allow_headers=["*"]`，不要增加任意新 origin。
 
-- [ ] **Step 5: 验证**
+- [x] **Step 5: 验证**
 
 ```bash
 cd backend
@@ -508,23 +508,23 @@ GET  /api/v1/recruitment-projects/{project_id}/candidates/{candidate_id}
 
 **Purpose:** Candidate Resume 与 Applicant Resume 共享“文档转画像”的纯分析核心，但持久化所有权和结果表完全分离。
 
-- [ ] **Step 1: 写共享分析 RED 测试**
+- [x] **Step 1: 写共享分析 RED 测试**
 
 固定 `ResumeAnalysisResult`，覆盖姓名/摘要、学历证据、工作经历证据、项目证据、技能原始标签、source span、空技能但存在其他 evidence、空文档、解析失败、PII 脱敏后外部调用。验证 Candidate 和 Applicant 都能调用同一个纯函数，而不共享 Resume ORM 行。
 
-- [ ] **Step 2: 实现 `analyze_resume_document()`**
+- [x] **Step 2: 实现 `analyze_resume_document()`**
 
 函数负责文件类型检测、PDF/DOCX/TXT 文本提取、复用现有 PII 脱敏和已有算法/LLM 分析入口，返回结构化 `ResumeAnalysisResult`；不执行 SQL、不写 profile、不创建 task。旧 `backend/app/resumes/tasks.py` 适配该函数，保持 Applicant 任务状态和输出不变。
 
-- [ ] **Step 3: 写候选批量 API RED 测试**
+- [x] **Step 3: 写候选批量 API RED 测试**
 
 覆盖单批 1-20 份、超出 20 拒绝、空 batch 拒绝、同一 project 追加、文件类型/大小校验、候选 display name、202 response、每个 candidate id 返回、owner/Admin/other HR 权限、同一 `Idempotency-Key` 重放不重复创建。
 
-- [ ] **Step 4: 实现 Candidate upload/list/detail**
+- [x] **Step 4: 实现 Candidate upload/list/detail**
 
 上传在一个事务中创建候选行和一个 project-scoped ProcessingRun；候选初始状态为 `uploaded`，`latest_run_id` 指向本次 Run。提交后投递 Celery；投递失败保留已创建资源并标记 Run `enqueue_failed`，禁止静默丢失候选。
 
-- [ ] **Step 5: 实现逐候选异步任务**
+- [x] **Step 5: 实现逐候选异步任务**
 
 固定函数：
 
@@ -535,11 +535,11 @@ parse_recruitment_candidates_task(run_id: str) -> None
 
 任务按 candidate UUID 稳定顺序逐个处理，每个 Candidate 单独事务：读取文件、调用 `analyze_resume_document()`、Evidence exact-match 校验、调用 `resolve_capability_labels()`、写入/替换 CandidateProfile 和 CandidateSkill、更新 candidate 为 `ready`。Profile 可以有 0 个 Skill，只要有有效学历、经历或项目证据。
 
-- [ ] **Step 6: 处理失败、重试和取消**
+- [x] **Step 6: 处理失败、重试和取消**
 
 单项失败只回滚该 Candidate，写 `ProcessingError(item_type="recruitment_candidate", item_id=...)`，错误正文不包含简历原文；继续处理其他 Candidate。任一 item 失败时 Run 最终为 `failed`，错误码固定为 `CANDIDATE_BATCH_PARTIAL_FAILURE`。通用 retry 创建新 Run，复用原 candidate ids，跳过已经 `ready` 且有 profile 的 Candidate，只接管非 ready 或失败项；在 Candidate 之间检查现有 cancel 标志。
 
-- [ ] **Step 7: 验证**
+- [x] **Step 7: 验证**
 
 ```bash
 cd backend
@@ -570,15 +570,15 @@ GET  /api/v1/recruitment-projects/{project_id}/match-runs/{run_id}/results/{cand
 
 **Purpose:** 匹配是同步、确定性、可复现的数据库事务；每次运行保存 requirements/candidate 输入水位和展示所需快照。
 
-- [ ] **Step 1: 写纯匹配 RED 测试**
+- [x] **Step 1: 写纯匹配 RED 测试**
 
 固定输入转换和输出契约，覆盖 required/bonus 计算、五维分数、缺失技能、Evidence 摘要、high/medium/low 分级、failed candidate skipped snapshot、ready candidate 缺 Profile 拒绝、uploaded/processing candidate 阻止匹配、稳定排序 tie-break。测试中不得 mock 出第二套评分公式。
 
-- [ ] **Step 2: 实现 `matching.py` 输入转换**
+- [x] **Step 2: 实现 `matching.py` 输入转换**
 
 定义 `requirement_inputs`、`profile_input` 和 `canonical_candidate_selection` 的最小结构。`canonical_candidate_selection` 对项目全部 Candidate 按 UUID 排序，保存每项 `candidate_id/status/profile_id/profile_version`；`sha256_json()` 使用 UTF-8、排序 key、紧凑 separators 计算 SHA-256。
 
-- [ ] **Step 3: 实现 `create_match_run()` 事务**
+- [x] **Step 3: 实现 `create_match_run()` 事务**
 
 事务流程固定：
 
@@ -598,15 +598,15 @@ unique conflict 后 rollback，再读取胜出 Run
 
 自然唯一键：`project_id + requirements_sha256 + candidate_selection_sha256 + weight_version`。不接受请求体中的 candidate_ids、权重、阈值；匹配始终使用项目当前确认要求和项目全部候选。
 
-- [ ] **Step 4: 实现结果查询 API**
+- [x] **Step 4: 实现结果查询 API**
 
 列表按 `rank` 分页，返回 score、level、candidate snapshot、dimension scores、gap summary；详情返回 Run requirements snapshot、candidate snapshot、matched capabilities、missing capabilities 和五维解释。所有查询先经过 project/run ownership loader，不能只按 run_id/candidate_id 直查。
 
-- [ ] **Step 5: 审计和错误语义**
+- [x] **Step 5: 审计和错误语义**
 
 记录 `recruitment_match.run`，包含 project id、run id、requirements revision/hash、candidate count、weight version、skipped count，不写简历正文。固定错误至少包括：`REQUIREMENTS_NOT_CONFIRMED`、`CANDIDATES_NOT_READY`、`CANDIDATE_PROFILE_MISSING`、`MATCH_INPUT_CONFLICT`。
 
-- [ ] **Step 6: 验证**
+- [x] **Step 6: 验证**
 
 ```bash
 cd backend
@@ -625,7 +625,7 @@ uv run ruff format --check app/recruitment/matching.py app/recruitment/service.p
 - Modify: `backend/app/recruitment/router.py`
 - Modify: `README.md`
 
-- [ ] **Step 1: 写完整链路测试**
+- [x] **Step 1: 写完整链路测试**
 
 使用 fake JD client、fake resume analyzer 和 Celery task 函数，执行：
 
@@ -648,15 +648,15 @@ HR login
 
 再验证：相同确认内容不增加 revision；相同匹配输入复用 Run；失败候选进入 skipped snapshot；跨项目 IDs 不泄露数据；Applicant Resume 原有推荐接口仍通过。
 
-- [ ] **Step 2: 补项目详情最小聚合字段**
+- [x] **Step 2: 补项目详情最小聚合字段**
 
 项目详情返回当前 JD parse 状态、requirements revision/confirmed summary、candidate counts、latest processing run、latest match run 摘要；不把所有候选和全文嵌套在 Project detail 中。候选和结果继续使用分页 endpoint。
 
-- [ ] **Step 3: 更新 README**
+- [x] **Step 3: 更新 README**
 
 补充内部演示运行方式：Compose 依赖、migration、worker、HR login、JD 上传、候选批量上传、poll ProcessingRun、确认 requirements、创建 match run 和读取结果。明确说明：爬虫暂未接入，当前入口是批量导入；Neo4j 不参与私有 JD 匹配；LLM 只提供候选抽取，最终分数由后端确定性规则产生。
 
-- [ ] **Step 4: 验证**
+- [x] **Step 4: 验证**
 
 ```bash
 cd backend
@@ -674,7 +674,7 @@ git diff --check
 - Create: `docs/superpowers/reports/2026-08-07-hr-recruitment-completion-report.md`
 - No unrelated source or formatting changes
 
-- [ ] **Step 1: 执行全量检查**
+- [x] **Step 1: 执行全量检查**
 
 Run from repository root:
 
@@ -696,7 +696,7 @@ git status --short
 
 全仓 formatter 仍允许报告已有 28 个文件漂移，但本任务新增/修改路径必须通过 scoped formatter check；不得把全仓格式化噪音加入提交。
 
-- [ ] **Step 2: 完成报告必须包含**
+- [x] **Step 2: 完成报告必须包含**
 
 ```text
 实现范围和明确未实现范围
@@ -709,7 +709,7 @@ Capability 唯一真相源和 Evidence/RAG/LLM 边界
 已知简化和下一阶段升级触发条件
 ```
 
-- [ ] **Step 3: 只提交本批文件**
+- [x] **Step 3: 只提交本批文件**
 
 ```bash
 git status --short

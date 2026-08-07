@@ -3,7 +3,7 @@ import logging
 from datetime import UTC, datetime, timedelta
 from uuid import UUID
 
-from sqlalchemy import and_, delete, or_, select, true
+from sqlalchemy import and_, delete, exists, or_, select, true
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.audit.service import record_audit
@@ -13,6 +13,7 @@ from app.core.errors import APIError
 from app.files.models import StoredFile
 from app.infrastructure.file_storage import FileStorage
 from app.processing.models import ProcessingError, ProcessingRun
+from app.recruitment.models import RecruitmentProject
 from app.worker import celery_app
 
 logger = logging.getLogger(__name__)
@@ -21,9 +22,23 @@ logger = logging.getLogger(__name__)
 def visible_run_predicate(actor: User):
     if actor.role == "admin":
         return true()
-    return and_(
+    user_scope = and_(
         ProcessingRun.owner_scope_type == "user",
         ProcessingRun.owner_scope_id == actor.id,
+    )
+    if actor.role != "hr":
+        return user_scope
+    return or_(
+        user_scope,
+        and_(
+            ProcessingRun.owner_scope_type == "recruitment_project",
+            exists(
+                select(RecruitmentProject.id).where(
+                    RecruitmentProject.id == ProcessingRun.owner_scope_id,
+                    RecruitmentProject.owner_user_id == actor.id,
+                )
+            ),
+        ),
     )
 
 

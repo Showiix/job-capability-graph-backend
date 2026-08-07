@@ -14,6 +14,7 @@ import app.growth.models  # noqa: F401
 import app.imports.models  # noqa: F401
 import app.matching.models  # noqa: F401
 import app.processing.models  # noqa: F401
+import app.recruitment.models  # noqa: F401
 import app.resumes.models  # noqa: F401
 import app.reviews.models  # noqa: F401
 from alembic import context

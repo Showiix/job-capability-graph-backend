@@ -14,10 +14,12 @@ from app.matching.scoring import (
     ProfileMatchInput,
     ProfileSkillInput,
     ScoredJobRole,
+    ScoredRequirements,
     match_level,
     quantize_score,
     rank_scored_job_roles,
     score_job_role,
+    score_profile_against_requirements,
     weight_snapshot,
 )
 
@@ -218,6 +220,30 @@ def test_complete_five_dimension_score_uses_unrounded_decimal_values() -> None:
     }
     assert result.job_role_snapshot["id"] == str(role.job_role_id)
     assert result.job_role_snapshot["definition_payload"] == role.definition_payload
+
+
+def test_shared_requirement_scoring_supports_candidate_skill_snapshots() -> None:
+    python = _capability("Python", "required", "1.0")
+    docker = _capability("Docker", "bonus", "0.5")
+    role = _role((python, docker))
+    profile = _profile([_skill(python, "work")])
+
+    shared = score_profile_against_requirements(
+        profile,
+        role.capabilities,
+        minimum_education_level=role.minimum_education_level,
+        recommended_experience_months=role.recommended_experience_months,
+        skill_snapshot_key="candidate_skill",
+    )
+    applicant = score_job_role(profile, role)
+
+    assert isinstance(shared, ScoredRequirements)
+    assert shared.total_score == applicant.total_score
+    assert shared.dimension_scores == applicant.dimension_scores
+    assert "candidate_skill" in shared.matched_capabilities[0]
+    assert "resume_skill" not in shared.matched_capabilities[0]
+    assert shared.missing_capabilities == applicant.missing_capabilities
+    assert shared.gap_summary == applicant.gap_summary
 
 
 def test_no_bonus_is_neutral_and_no_matched_skill_has_zero_evidence() -> None:
