@@ -87,6 +87,10 @@ async def _context(db_session, user) -> dict:
             ],
             "bonus_capability_ids": [str(capabilities[2].id)],
             "industry_scenarios": ["AI 产品质量保障"],
+            "match_policy": {
+                "minimum_education_level": "bachelor",
+                "recommended_experience_months": 24,
+            },
             "generation_source": "human_revision",
             "definition_status": "reviewed",
             "disclaimer": "人工审核后发布",
@@ -198,6 +202,10 @@ async def test_create_graph_version_freezes_an_idempotent_draft(
     assert catalog.status == "draft"
     assert version.snapshot["domain"]["id"] == str(context["domain"].id)
     assert version.snapshot["job_role"]["id"] == str(version.job_role_id)
+    assert version.snapshot["definition"]["match_policy"] == {
+        "minimum_education_level": "bachelor",
+        "recommended_experience_months": 24,
+    }
     first_capability = version.snapshot["capabilities"][0]
     assert first_capability["role_relation_key"] == relation_key(
         "REQUIRES",
@@ -330,6 +338,10 @@ async def test_publish_success_finalizes_postgres_catalog_and_review(
     assert published_snapshots == [version.snapshot]
     assert role.status == "active"
     assert role.definition_payload == context["proposal"].proposed_payload
+    assert role.definition_payload["match_policy"] == {
+        "minimum_education_level": "bachelor",
+        "recommended_experience_months": 24,
+    }
     assert {
         (value.requirement_type, float(value.importance)) for value in relations
     } == {

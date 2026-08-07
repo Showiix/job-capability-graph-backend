@@ -4,6 +4,7 @@ from uuid import uuid4
 
 import pytest
 import pytest_asyncio
+from pydantic import ValidationError
 from sqlalchemy import func, select
 
 from app.audit.models import AuditLog
@@ -249,6 +250,49 @@ def _revised_payload(context, **overrides) -> RoleDefinitionPayload:
     }
     values.update(overrides)
     return RoleDefinitionPayload(**values)
+
+
+async def test_role_definition_payload_accepts_optional_match_policy(
+    review_context,
+) -> None:
+    payload = _revised_payload(
+        review_context,
+        match_policy={
+            "minimum_education_level": "bachelor",
+            "recommended_experience_months": 24,
+        },
+    )
+
+    assert payload.model_dump(mode="json")["match_policy"] == {
+        "minimum_education_level": "bachelor",
+        "recommended_experience_months": 24,
+    }
+    assert _revised_payload(review_context).model_dump(mode="json")[
+        "match_policy"
+    ] is None
+    partial = _revised_payload(
+        review_context,
+        match_policy={"minimum_education_level": "master"},
+    )
+    assert partial.match_policy.minimum_education_level == "master"
+    assert partial.match_policy.recommended_experience_months is None
+
+
+@pytest.mark.parametrize(
+    "match_policy",
+    [
+        {"minimum_education_level": "unknown"},
+        {"minimum_education_level": "other"},
+        {"recommended_experience_months": -1},
+        {"recommended_experience_months": 601},
+    ],
+)
+async def test_role_definition_payload_rejects_invalid_match_policy(
+    review_context,
+    match_policy,
+) -> None:
+    with pytest.raises(ValidationError):
+        _revised_payload(review_context, match_policy=match_policy)
 
 
 async def test_create_proposal_builds_baseline_and_is_idempotent(

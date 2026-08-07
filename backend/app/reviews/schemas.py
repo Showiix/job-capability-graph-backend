@@ -19,6 +19,21 @@ IndustryScenario = Annotated[
 ]
 
 
+class MatchPolicy(BaseModel):
+    minimum_education_level: Literal[
+        "high_school",
+        "associate",
+        "bachelor",
+        "master",
+        "doctor",
+    ] | None = None
+    recommended_experience_months: int | None = Field(
+        default=None,
+        ge=0,
+        le=600,
+    )
+
+
 class RoleDefinitionPayload(BaseModel):
     role_name: RoleName
     core_responsibilities: list[Responsibility] = Field(
@@ -31,6 +46,7 @@ class RoleDefinitionPayload(BaseModel):
         default_factory=list,
         max_length=20,
     )
+    match_policy: MatchPolicy | None = None
     generation_source: Literal[
         "deterministic_baseline",
         "human_revision",
@@ -62,4 +78,3 @@ class ReviewDecisionCreate(BaseModel):
         if value is None:
             return None
         return value.strip() or None
-
