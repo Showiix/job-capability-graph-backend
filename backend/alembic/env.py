@@ -10,6 +10,7 @@ import app.catalog.models  # noqa: F401
 import app.discovery.models  # noqa: F401
 import app.files.models  # noqa: F401
 import app.graph.models  # noqa: F401
+import app.growth.models  # noqa: F401
 import app.imports.models  # noqa: F401
 import app.matching.models  # noqa: F401
 import app.processing.models  # noqa: F401
