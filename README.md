@@ -10,6 +10,7 @@
 - Batch F：三种登录角色读取 Neo4j 正式全局有限子图和单岗位能力子图，PostgreSQL 校验当前发布水位与正式主数据状态。
 - Applicant Resume Profile：应聘者上传单份 PDF/DOCX，异步抽取可追溯画像，人工修订并确认唯一当前版本。
 - Batch G：Applicant 基于当前 confirmed Profile 和正式岗位目录同步生成确定性推荐，保存完整 Match Run/Result 快照，支持历史分页、岗位差距明细和自然幂等复用。
+- Applicant Growth Path：基于历史岗位匹配快照和全部缺失必备技能，同步生成受标准技能库约束、可解释且可复用的结构化成长路径。
 
 本仓库只包含后端。当前没有公开注册接口，也没有脱离业务资源的通用文件上传接口。
 
@@ -135,7 +136,7 @@ Provider 兼容边界：
 - 请求固定使用 `input`/`input_text`、`text.format.type=json_schema`、`strict=true`、`stream=false` 和 `store=false`；
 - 不提供 Chat Completions fallback，不接通用 Provider 抽象，也不使用 LangChain/LangGraph。
 
-当前非目标：OCR、简历批量导入、成长路径、Resume 图谱写入、自动创建 Capability、调用 Algorithm Service。扫描版 PDF 应先在外部完成 OCR，再上传文字型 PDF/DOCX。
+当前非目标：OCR、简历批量导入、Resume 图谱写入、自动创建 Capability、调用 Algorithm Service。扫描版 PDF 应先在外部完成 OCR，再上传文字型 PDF/DOCX。
 
 以下命令只使用 placeholder 和仓库内的虚构测试 PDF，不要把真实 Session、API Key、简历正文或 Provider raw response 写入 README、Shell 历史或 Git。
 
@@ -214,6 +215,17 @@ POST 请求体只接受 `resume_id`，需要 CSRF；GET 不需要 CSRF。Applica
 匹配只读取 PostgreSQL 中当前唯一 confirmed Profile、current published Graph/Catalog 水位和目录内 active 岗位/技能，不调用 LLM、Algorithm Service、Celery、Redis 或 Neo4j。`match_weights_v1` 使用 required、bonus、evidence、experience、education 五维 Decimal 评分，结果按自然键 `resume_profile_id + graph_version_id + weight_version` 幂等复用。
 
 每次成功计算会保存全部岗位的不可变 Match Run/Match Result 快照，POST 只返回 Top 20；历史列表和结果页支持 `page=1..`、`page_size=1..100`，单岗位详情返回完整 matched/missing 技能数组。历史岗位名称、定义和 Domain 均来自结果快照，不会被当前 Catalog 修改覆盖。
+
+### Applicant 成长路径
+
+- `POST /api/v1/job-recommendations/{match_run_id}/job-roles/{job_role_id}/growth-path`
+- `GET /api/v1/job-recommendations/{match_run_id}/job-roles/{job_role_id}/growth-path`
+
+POST 无请求体，需要 CSRF；第一次生成返回 `reused=false`，相同 Match Result 和 `growth_path_v1` 再次请求直接返回已保存结果并标记 `reused=true`。GET 只读取已有结果，不需要 CSRF；尚未生成时返回 `GROWTH_PATH_NOT_FOUND`。Applicant 只能操作自己的 Match Result，Admin 可以代为生成或读取，HR 返回 `ROLE_NOT_ALLOWED`。
+
+成长路径一次覆盖该岗位全部缺失的 `required` Capability。没有缺失必备技能时，POST 返回 `409 GROWTH_PATH_NOT_REQUIRED`，不会调用 LLM。生成沿用 `LLM_RESPONSES_URL`、`LLM_API_KEY` 和 `LLM_MODEL`，固定使用 Responses API `text.format` strict Structured Outputs；只发送不可变岗位快照、标准 Capability 事实和脱敏匹配摘要，不发送简历正文、姓名、联系方式、学校/公司、`raw_name` 或 `evidence_quote`。
+
+后端要求每个缺失必备 Capability 在模型结果中必须且只能出现一次，并用 PostgreSQL 标准技能快照补全名称、类型和 Domain；总周数由后端求和。结果按 `match_run_id + job_role_id + growth_path_v1` 幂等保存，不写 Neo4j，不使用 LangChain、LangGraph、Celery、Redis、web search 或外部课程检索，也不会生成课程 URL。
 
 ### 市场 JD 数据中心
 
@@ -523,7 +535,7 @@ docker compose down -v
 
 ## 开发与验收
 
-本地测试依赖应迁移到 `0010`。创建测试库并应用 Migration：
+本地测试依赖应迁移到当前 Alembic head（现为 `0012`）。创建测试库并应用 Migration：
 
 ```bash
 docker compose up -d postgres
@@ -581,5 +593,6 @@ uv run pytest -q
 - [Batch F：正式图谱读取实施计划](./docs/superpowers/plans/2026-08-06-graph-read-api.md)
 - [Applicant Resume Profile 设计](./docs/superpowers/specs/2026-08-06-resume-profile-design.md)
 - [Applicant Resume Profile 实施计划](./docs/superpowers/plans/2026-08-06-resume-profile.md)
+- [Applicant 成长路径生成设计](./docs/superpowers/specs/2026-08-07-growth-paths-design.md)
 
 当前实现仍不包含爬虫管理、定时调度、JD 语义聚类或外部 Algorithm Service。Resume 模块只用 LLM 生成可人工确认的候选画像；它不能创建正式 Capability/JobRole，也不能写 Neo4j。岗位侧算法或大模型候选仍必须经过人工审核，并由管理员通过正式 Catalog/Graph Version 发布后才能进入 active 主数据和 Neo4j 投影。
