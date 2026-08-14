@@ -321,6 +321,17 @@ curl -sS -b /tmp/job-graph-cookies.txt \
 
 当前结果统一称为“候选技能组合”，不代表已经确认的长期市场趋势。第一版使用确定性的 pair co-occurrence baseline，暂不包括 Embedding/pgvector 聚类、Algorithm Service 语义聚类、LLM 岗位定义、时间趋势证明、HR Feedback、Neo4j 正式图谱发布和三技能及以上频繁项集。
 
+算法同学离线生成的岗位定义可以由管理员直接导入待审核队列：
+
+```bash
+curl -sS -b /tmp/job-graph-cookies.txt \
+  -H "X-CSRF-Token: ${CSRF_TOKEN}" \
+  -F 'file=@new_job_definitions.json;type=application/json' \
+  http://127.0.0.1:8000/api/v1/algorithm-results/job-definitions
+```
+
+导入只精确映射现有 active Capability/active Alias，未知技能保留在来源快照中，不会自动入库。结果以 `pending` 提案进入现有审核与图谱发布流程；相同文件重复上传会复用已有提案。
+
 ### 候选岗位审核
 
 - `POST /api/v1/review-proposals`

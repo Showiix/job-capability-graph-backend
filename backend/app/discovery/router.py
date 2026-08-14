@@ -1,6 +1,7 @@
+from typing import Annotated
 from uuid import UUID
 
-from fastapi import APIRouter, Query, Request
+from fastapi import APIRouter, File, Query, Request, UploadFile
 
 from app.api.dependencies import CSRF, DB, Admin, Staff
 from app.discovery.schemas import DiscoveryRunCreate
@@ -12,8 +13,28 @@ from app.discovery.service import (
     list_candidates,
     list_discovery_runs,
 )
+from app.reviews.algorithm_import import import_algorithm_job_definitions
 
 router = APIRouter(tags=["discovery"])
+
+
+@router.post("/algorithm-results/job-definitions", status_code=201)
+async def import_job_definitions(
+    request: Request,
+    db: DB,
+    actor: Admin,
+    _csrf: CSRF,
+    file: Annotated[UploadFile, File()],
+) -> dict:
+    return {
+        "data": await import_algorithm_job_definitions(
+            db,
+            actor,
+            file,
+            request_id=request.state.request_id,
+            ip_address=request.client.host if request.client else None,
+        )
+    }
 
 
 @router.post("/discovery-runs", status_code=202)
