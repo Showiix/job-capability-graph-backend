@@ -1,0 +1,30 @@
+{
+  "code": 200,
+  "data": {
+    "job_title": "数据分析师",
+    "job_id": "job_001",
+    "required_skills": [
+      {
+        "name": "SQL",
+        "level": "基础",
+        "weight": 0.95
+      },
+      {
+        "name": "Python",
+        "level": "核心",
+        "weight": 0.90
+      },
+      {
+        "name": "Tableau",
+        "level": "基础",
+        "weight": 0.70
+      },
+      {
+        "name": "机器学习",
+        "level": "核心",
+        "weight": 0.60
+      }
+    ]
+  },
+  "message": "success"
+}

@@ -1,0 +1,12 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": {
+    "logs": [
+      { "id": "log_001", "operator": "HR-admin", "time": "2026-08-06 12:01", "action": "采纳新岗位", "target": "LLM 推理优化工程师" },
+      { "id": "log_002", "operator": "HR-admin", "time": "2026-08-06 11:20", "action": "拒绝新岗位", "target": "元宇宙架构师" },
+      { "id": "log_003", "operator": "HR-admin", "time": "2026-08-05 18:33", "action": "通过自定义技能", "target": "Diffusion Model" },
+      { "id": "log_004", "operator": "HR-admin", "time": "2026-08-05 16:10", "action": "修改岗位定义", "target": "多模态算法工程师" }
+    ]
+  }
+}

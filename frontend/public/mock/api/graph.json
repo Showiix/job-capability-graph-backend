@@ -1,0 +1,911 @@
+{
+  "code": 200,
+  "data": {
+    "nodes": [
+      {
+        "id": "skill_001",
+        "type": "skill",
+        "label": "Python",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 5746.95,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": null
+      },
+      {
+        "id": "skill_002",
+        "type": "skill",
+        "label": "C++",
+        "level": "核心",
+        "is_new": true,
+        "effective_count": 3625.61,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_emerging"
+      },
+      {
+        "id": "skill_003",
+        "type": "skill",
+        "label": "Linux",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 3108.0,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_declining"
+      },
+      {
+        "id": "skill_004",
+        "type": "skill",
+        "label": "Java",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 3033.5,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": null
+      },
+      {
+        "id": "skill_005",
+        "type": "skill",
+        "label": "SQL",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 2382.88,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_declining"
+      },
+      {
+        "id": "skill_006",
+        "type": "skill",
+        "label": "技术文档",
+        "level": "核心",
+        "is_new": true,
+        "effective_count": 2332.0,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_emerging"
+      },
+      {
+        "id": "skill_007",
+        "type": "skill",
+        "label": "需求分析",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 2268.0,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_declining"
+      },
+      {
+        "id": "skill_008",
+        "type": "skill",
+        "label": "数据分析",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 2194.0,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": null
+      },
+      {
+        "id": "skill_009",
+        "type": "skill",
+        "label": "深度学习",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 1981.39,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": null
+      },
+      {
+        "id": "skill_010",
+        "type": "skill",
+        "label": "大模型",
+        "level": "前沿",
+        "is_new": true,
+        "effective_count": 1950.42,
+        "category": "AI新兴技能",
+        "status": "stable",
+        "dynamic_status": "skill_declining"
+      },
+      {
+        "id": "skill_011",
+        "type": "skill",
+        "label": "嵌入式",
+        "level": "核心",
+        "is_new": true,
+        "effective_count": 1896.33,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_emerging"
+      },
+      {
+        "id": "skill_012",
+        "type": "skill",
+        "label": "机器学习",
+        "level": "核心",
+        "is_new": true,
+        "effective_count": 1808.39,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_emerging"
+      },
+      {
+        "id": "skill_013",
+        "type": "skill",
+        "label": "性能优化",
+        "level": "核心",
+        "is_new": true,
+        "effective_count": 1807.5,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_emerging"
+      },
+      {
+        "id": "skill_014",
+        "type": "skill",
+        "label": "MySQL",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 1713.17,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": null
+      },
+      {
+        "id": "skill_015",
+        "type": "skill",
+        "label": "PyTorch",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 1569.0,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": null
+      },
+      {
+        "id": "skill_016",
+        "type": "skill",
+        "label": "项目管理",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 1350.67,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_declining"
+      },
+      {
+        "id": "skill_017",
+        "type": "skill",
+        "label": "分布式",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 1294.63,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_declining"
+      },
+      {
+        "id": "skill_018",
+        "type": "skill",
+        "label": "数据结构",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 1260.0,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_declining"
+      },
+      {
+        "id": "skill_019",
+        "type": "skill",
+        "label": "TensorFlow",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 1231.33,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": null
+      },
+      {
+        "id": "skill_020",
+        "type": "skill",
+        "label": "API",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 1117.0,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_declining"
+      },
+      {
+        "id": "skill_021",
+        "type": "skill",
+        "label": "Git",
+        "level": "核心",
+        "is_new": true,
+        "effective_count": 983.0,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_emerging"
+      },
+      {
+        "id": "skill_022",
+        "type": "skill",
+        "label": "Go",
+        "level": "核心",
+        "is_new": true,
+        "effective_count": 971.67,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_emerging"
+      },
+      {
+        "id": "skill_023",
+        "type": "skill",
+        "label": "模型训练",
+        "level": "前沿",
+        "is_new": true,
+        "effective_count": 930.0,
+        "category": "AI新兴技能",
+        "status": "stable",
+        "dynamic_status": "skill_declining"
+      },
+      {
+        "id": "skill_024",
+        "type": "skill",
+        "label": "JavaScript",
+        "level": "核心",
+        "is_new": true,
+        "effective_count": 905.5,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_emerging"
+      },
+      {
+        "id": "skill_025",
+        "type": "skill",
+        "label": "Agent",
+        "level": "前沿",
+        "is_new": true,
+        "effective_count": 892.0,
+        "category": "AI新兴技能",
+        "status": "stable",
+        "dynamic_status": "skill_declining"
+      },
+      {
+        "id": "skill_026",
+        "type": "skill",
+        "label": "系统设计",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 877.95,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_declining"
+      },
+      {
+        "id": "skill_027",
+        "type": "skill",
+        "label": "C语言",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 865.08,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_declining"
+      },
+      {
+        "id": "skill_028",
+        "type": "skill",
+        "label": "产品设计",
+        "level": "核心",
+        "is_new": false,
+        "effective_count": 857.5,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_upgraded"
+      },
+      {
+        "id": "skill_029",
+        "type": "skill",
+        "label": "RAG",
+        "level": "前沿",
+        "is_new": true,
+        "effective_count": 855.33,
+        "category": "AI新兴技能",
+        "status": "stable",
+        "dynamic_status": "skill_declining"
+      },
+      {
+        "id": "skill_030",
+        "type": "skill",
+        "label": "Redis",
+        "level": "核心",
+        "is_new": true,
+        "effective_count": 853.0,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_emerging"
+      },
+      {
+        "id": "skill_031",
+        "type": "skill",
+        "label": "Docker",
+        "level": "核心",
+        "is_new": true,
+        "effective_count": 833.0,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_emerging"
+      },
+      {
+        "id": "skill_032",
+        "type": "skill",
+        "label": "ARM",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 832.0,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_declining"
+      },
+      {
+        "id": "skill_033",
+        "type": "skill",
+        "label": "多模态",
+        "level": "前沿",
+        "is_new": true,
+        "effective_count": 826.83,
+        "category": "AI新兴技能",
+        "status": "stable",
+        "dynamic_status": "skill_declining"
+      },
+      {
+        "id": "skill_034",
+        "type": "skill",
+        "label": "Shell",
+        "level": "核心",
+        "is_new": true,
+        "effective_count": 826.0,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_emerging"
+      },
+      {
+        "id": "skill_035",
+        "type": "skill",
+        "label": "网络安全",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 826.0,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_declining"
+      },
+      {
+        "id": "skill_036",
+        "type": "skill",
+        "label": "TCP/IP",
+        "level": "核心",
+        "is_new": true,
+        "effective_count": 758.5,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_emerging"
+      },
+      {
+        "id": "skill_037",
+        "type": "skill",
+        "label": "数据治理",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 751.25,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": null
+      },
+      {
+        "id": "skill_038",
+        "type": "skill",
+        "label": "Oracle",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 750.0,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_declining"
+      },
+      {
+        "id": "skill_039",
+        "type": "skill",
+        "label": "Vue",
+        "level": "核心",
+        "is_new": true,
+        "effective_count": 747.1,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_emerging"
+      },
+      {
+        "id": "skill_040",
+        "type": "skill",
+        "label": "自动化测试",
+        "level": "核心",
+        "is_new": true,
+        "effective_count": 743.0,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_emerging"
+      },
+      {
+        "id": "skill_041",
+        "type": "skill",
+        "label": "LLM",
+        "level": "前沿",
+        "is_new": true,
+        "effective_count": 708.83,
+        "category": "AI新兴技能",
+        "status": "stable",
+        "dynamic_status": "skill_emerging"
+      },
+      {
+        "id": "skill_042",
+        "type": "skill",
+        "label": "Spark",
+        "level": "核心",
+        "is_new": true,
+        "effective_count": 647.0,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_emerging"
+      },
+      {
+        "id": "skill_043",
+        "type": "skill",
+        "label": "微调",
+        "level": "前沿",
+        "is_new": true,
+        "effective_count": 644.83,
+        "category": "AI新兴技能",
+        "status": "stable",
+        "dynamic_status": "skill_emerging"
+      },
+      {
+        "id": "skill_044",
+        "type": "skill",
+        "label": "数据仓库",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 640.08,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": null
+      },
+      {
+        "id": "skill_045",
+        "type": "skill",
+        "label": "智能体",
+        "level": "前沿",
+        "is_new": true,
+        "effective_count": 623.0,
+        "category": "AI新兴技能",
+        "status": "stable",
+        "dynamic_status": "skill_declining"
+      },
+      {
+        "id": "skill_046",
+        "type": "skill",
+        "label": "ETL",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 588.67,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": null
+      },
+      {
+        "id": "skill_047",
+        "type": "skill",
+        "label": "NLP",
+        "level": "核心",
+        "is_new": true,
+        "effective_count": 584.0,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_emerging"
+      },
+      {
+        "id": "skill_048",
+        "type": "skill",
+        "label": "数据挖掘",
+        "level": "核心",
+        "is_new": true,
+        "effective_count": 566.25,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_emerging"
+      },
+      {
+        "id": "skill_049",
+        "type": "skill",
+        "label": "Hadoop",
+        "level": "基础",
+        "is_new": false,
+        "effective_count": 538.0,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": null
+      },
+      {
+        "id": "skill_050",
+        "type": "skill",
+        "label": "数据建模",
+        "level": "核心",
+        "is_new": true,
+        "effective_count": 490.3,
+        "category": "传统技术",
+        "status": "stable",
+        "dynamic_status": "skill_emerging"
+      },
+      {
+        "id": "job_001",
+        "type": "job",
+        "label": "数据分析师",
+        "effective_count": 2600,
+        "category": "传统技术",
+        "status": "stable"
+      },
+      {
+        "id": "job_002",
+        "type": "job",
+        "label": "机器学习工程师",
+        "effective_count": 2100,
+        "category": "AI新兴技能",
+        "status": "stable"
+      },
+      {
+        "id": "job_003",
+        "type": "job",
+        "label": "大模型应用工程师",
+        "is_new": true,
+        "effective_count": 1600,
+        "category": "AI新兴技能",
+        "status": "growing"
+      },
+      {
+        "id": "job_004",
+        "type": "job",
+        "label": "后端开发工程师",
+        "effective_count": 2400,
+        "category": "传统技术",
+        "status": "stable"
+      },
+      {
+        "id": "job_005",
+        "type": "job",
+        "label": "大数据工程师",
+        "effective_count": 1500,
+        "category": "传统技术",
+        "status": "stable"
+      },
+      {
+        "id": "job_006",
+        "type": "job",
+        "label": "嵌入式开发工程师",
+        "effective_count": 1200,
+        "category": "传统技术",
+        "status": "stable"
+      },
+      {
+        "id": "job_007",
+        "type": "job",
+        "label": "NLP算法工程师",
+        "is_new": true,
+        "effective_count": 1000,
+        "category": "AI新兴技能",
+        "status": "growing"
+      },
+      {
+        "id": "job_008",
+        "type": "job",
+        "label": "前端开发工程师",
+        "effective_count": 1300,
+        "category": "传统技术",
+        "status": "stable"
+      }
+    ],
+    "edges": [
+      {
+        "source": "skill_002",
+        "target": "skill_003",
+        "weight": 0.8
+      },
+      {
+        "source": "skill_002",
+        "target": "skill_001",
+        "weight": 0.77
+      },
+      {
+        "source": "skill_015",
+        "target": "skill_009",
+        "weight": 0.76
+      },
+      {
+        "source": "skill_001",
+        "target": "skill_009",
+        "weight": 0.62
+      },
+      {
+        "source": "skill_001",
+        "target": "skill_033",
+        "weight": 0.53
+      },
+      {
+        "source": "skill_015",
+        "target": "skill_019",
+        "weight": 0.53
+      },
+      {
+        "source": "skill_015",
+        "target": "skill_001",
+        "weight": 0.49
+      },
+      {
+        "source": "skill_002",
+        "target": "skill_018",
+        "weight": 0.49
+      },
+      {
+        "source": "skill_001",
+        "target": "skill_010",
+        "weight": 0.48
+      },
+      {
+        "source": "skill_019",
+        "target": "skill_009",
+        "weight": 0.48
+      },
+      {
+        "source": "skill_033",
+        "target": "skill_009",
+        "weight": 0.47
+      },
+      {
+        "source": "skill_002",
+        "target": "skill_009",
+        "weight": 0.46
+      },
+      {
+        "source": "skill_010",
+        "target": "skill_009",
+        "weight": 0.45
+      },
+      {
+        "source": "skill_033",
+        "target": "skill_010",
+        "weight": 0.45
+      },
+      {
+        "source": "skill_003",
+        "target": "skill_001",
+        "weight": 0.45
+      },
+      {
+        "source": "skill_015",
+        "target": "skill_033",
+        "weight": 0.44
+      },
+      {
+        "source": "skill_025",
+        "target": "skill_010",
+        "weight": 0.43
+      },
+      {
+        "source": "skill_001",
+        "target": "skill_019",
+        "weight": 0.42
+      },
+      {
+        "source": "skill_012",
+        "target": "skill_009",
+        "weight": 0.4
+      },
+      {
+        "source": "skill_015",
+        "target": "skill_010",
+        "weight": 0.37
+      },
+      {
+        "source": "skill_043",
+        "target": "skill_009",
+        "weight": 0.37
+      },
+      {
+        "source": "skill_029",
+        "target": "skill_010",
+        "weight": 0.36
+      },
+      {
+        "source": "skill_041",
+        "target": "skill_010",
+        "weight": 0.35
+      },
+      {
+        "source": "skill_015",
+        "target": "skill_043",
+        "weight": 0.35
+      },
+      {
+        "source": "skill_019",
+        "target": "skill_033",
+        "weight": 0.34
+      },
+      {
+        "source": "skill_002",
+        "target": "skill_033",
+        "weight": 0.33
+      },
+      {
+        "source": "skill_002",
+        "target": "skill_004",
+        "weight": 0.33
+      },
+      {
+        "source": "skill_025",
+        "target": "skill_029",
+        "weight": 0.32
+      },
+      {
+        "source": "skill_001",
+        "target": "skill_012",
+        "weight": 0.31
+      },
+      {
+        "source": "skill_002",
+        "target": "skill_015",
+        "weight": 0.31
+      },
+      {
+        "source": "skill_023",
+        "target": "skill_009",
+        "weight": 0.31
+      },
+      {
+        "source": "skill_019",
+        "target": "skill_010",
+        "weight": 0.3
+      },
+      {
+        "source": "skill_010",
+        "target": "skill_012",
+        "weight": 0.29
+      },
+      {
+        "source": "skill_025",
+        "target": "skill_041",
+        "weight": 0.29
+      },
+      {
+        "source": "skill_002",
+        "target": "skill_006",
+        "weight": 0.29
+      },
+      {
+        "source": "skill_015",
+        "target": "skill_023",
+        "weight": 0.28
+      },
+      {
+        "source": "skill_019",
+        "target": "skill_012",
+        "weight": 0.28
+      },
+      {
+        "source": "skill_010",
+        "target": "skill_023",
+        "weight": 0.28
+      },
+      {
+        "source": "skill_002",
+        "target": "skill_013",
+        "weight": 0.28
+      },
+      {
+        "source": "skill_021",
+        "target": "skill_004",
+        "weight": 0.28
+      },
+      {
+        "source": "skill_002",
+        "target": "skill_010",
+        "weight": 0.27
+      },
+      {
+        "source": "skill_001",
+        "target": "skill_023",
+        "weight": 0.27
+      },
+      {
+        "source": "skill_002",
+        "target": "skill_019",
+        "weight": 0.27
+      },
+      {
+        "source": "skill_015",
+        "target": "skill_012",
+        "weight": 0.27
+      },
+      {
+        "source": "skill_003",
+        "target": "skill_009",
+        "weight": 0.27
+      },
+      {
+        "source": "skill_041",
+        "target": "skill_029",
+        "weight": 0.26
+      },
+      {
+        "source": "skill_033",
+        "target": "skill_012",
+        "weight": 0.25
+      },
+      {
+        "source": "skill_010",
+        "target": "skill_045",
+        "weight": 0.25
+      },
+      {
+        "source": "skill_002",
+        "target": "skill_011",
+        "weight": 0.25
+      },
+      {
+        "source": "skill_047",
+        "target": "skill_009",
+        "weight": 0.24
+      },
+      { "source": "job_001", "target": "skill_001", "weight": 0.9, "relation": "requires" },
+      { "source": "job_001", "target": "skill_005", "weight": 0.95, "relation": "requires" },
+      { "source": "job_001", "target": "skill_008", "weight": 0.85, "relation": "requires" },
+      { "source": "job_001", "target": "skill_048", "weight": 0.6, "relation": "bonus" },
+      { "source": "job_001", "target": "skill_012", "weight": 0.55, "relation": "bonus" },
+      { "source": "job_002", "target": "skill_001", "weight": 0.92, "relation": "requires" },
+      { "source": "job_002", "target": "skill_015", "weight": 0.88, "relation": "requires" },
+      { "source": "job_002", "target": "skill_009", "weight": 0.9, "relation": "requires" },
+      { "source": "job_002", "target": "skill_012", "weight": 0.8, "relation": "requires" },
+      { "source": "job_002", "target": "skill_023", "weight": 0.6, "relation": "bonus" },
+      { "source": "job_003", "target": "skill_010", "weight": 0.95, "relation": "requires" },
+      { "source": "job_003", "target": "skill_041", "weight": 0.9, "relation": "requires" },
+      { "source": "job_003", "target": "skill_029", "weight": 0.85, "relation": "requires" },
+      { "source": "job_003", "target": "skill_043", "weight": 0.65, "relation": "bonus" },
+      { "source": "job_003", "target": "skill_045", "weight": 0.6, "relation": "bonus" },
+      { "source": "job_004", "target": "skill_004", "weight": 0.9, "relation": "requires" },
+      { "source": "job_004", "target": "skill_014", "weight": 0.8, "relation": "requires" },
+      { "source": "job_004", "target": "skill_030", "weight": 0.7, "relation": "requires" },
+      { "source": "job_004", "target": "skill_031", "weight": 0.65, "relation": "bonus" },
+      { "source": "job_004", "target": "skill_017", "weight": 0.6, "relation": "bonus" },
+      { "source": "job_005", "target": "skill_042", "weight": 0.9, "relation": "requires" },
+      { "source": "job_005", "target": "skill_049", "weight": 0.8, "relation": "requires" },
+      { "source": "job_005", "target": "skill_046", "weight": 0.75, "relation": "requires" },
+      { "source": "job_005", "target": "skill_044", "weight": 0.7, "relation": "bonus" },
+      { "source": "job_006", "target": "skill_027", "weight": 0.9, "relation": "requires" },
+      { "source": "job_006", "target": "skill_011", "weight": 0.88, "relation": "requires" },
+      { "source": "job_006", "target": "skill_032", "weight": 0.8, "relation": "requires" },
+      { "source": "job_006", "target": "skill_003", "weight": 0.6, "relation": "bonus" },
+      { "source": "job_007", "target": "skill_047", "weight": 0.92, "relation": "requires" },
+      { "source": "job_007", "target": "skill_010", "weight": 0.85, "relation": "requires" },
+      { "source": "job_007", "target": "skill_015", "weight": 0.8, "relation": "requires" },
+      { "source": "job_007", "target": "skill_043", "weight": 0.65, "relation": "bonus" },
+      { "source": "job_008", "target": "skill_024", "weight": 0.9, "relation": "requires" },
+      { "source": "job_008", "target": "skill_039", "weight": 0.85, "relation": "requires" },
+      { "source": "job_008", "target": "skill_020", "weight": 0.7, "relation": "requires" }
+    ]
+  },
+  "message": "success"
+}

@@ -1,0 +1,3711 @@
+﻿job_name,company_name,salary,work_area,city,education,work_year,issue_date,source,skill_requirements,tech_tags,job_url
+Sr. lead DevOps Engineer高级运维开发工程师,通力电梯有限公司,25-35k,苏州-昆山,苏州,统招本科,5-10年,90天前更新,liepin,"岗位职责：
+1.	负责云原生可观测平台的建设、开发、运维
+2.	负责Kubernetes集群稳定性保障，以及周边组件的运维和开发
+3.	负责云原生网关的维护与定制化插件的开发
+4.	负责DevOps平台和数据库审核平台的维护与开发
+5.	参与安全审计，并基于审计要求进行安全层面的整改
+6.	对安全领域有所了解，能够独立完成安全漏洞修复、安全检测、安全防护等
+7.	其他日常运维事宜，包括不限于：消息中间件、缓存、数据库、日常工单处理、值班保障等
+
+资格要求：
+1.	扎实的编程基础，掌握基本的数据结构和算法
+2.	熟练掌握java编程语言，有5年左右的java编程经验
+3.	熟悉其他编程语言，如golang、python，并有实际的项目经验者优先
+4.	掌握Vue或者React，并独立完成过平台级别的项目
+5.	具备Kubernetes 4年及以上生产运维经验
+6.	具备可观测建设经验与开发经验
+7.	具备平台代码设计能力，良好的文档编写能力
+8.	熟悉主流网关的原理以及配置，具备生产级插件开发经验者优先
+9.	具备管理各公有云经验者优先
+ ",云原生 Kubernetes DevOps Java Golang Python Vue React 审计 文档编写,https://www.liepin.com/job/1977924429.shtml
+devops工程师/二线运维开发工程师,某知名公司,15-25k·13薪,上海,上海,大专,8年以上,7月23日更新,liepin,"工作内容
+1.负责突发事件响应，快速诊断、分类并解决系统故障，最大限度减少对业务的影响。
+2.对重复发生或重大的生产事件进行根本原因分析，提出并推动实施长远的解决方案，防止问题再次发生。
+3.遵循严格的ITIL变更管理流程，执行、验证和回滚在生产环境中的应用变更、配置更新和代码发布。
+4.与开发、测试和运维团队协作，确保发布的平滑进行。
+5.利用ITRS, Grafana等监控工具，主动监控系统性能、资源利用率和应用健康状况，并采取预防性措施。
+6.为内部团队（如业务部门、开发团队）提供技术支持和指导。与开发团队紧密合作，将运维中发现的问题反馈给开发阶段，推动系统可维护性和稳定性的提升。
+7.编写和维护系统运维手册、知识库文档和标准操作程序，熟练使用ServiceNow等ITSM工具进行事件、问题和变更的记录与管理。
+岗位要求
+1.至少3年以上的金融或相关行业生产/应用支持岗位工作经验。
+2.熟悉ITIL框架，并具备事件、问题和变更管理的实际操作经验。
+3.精通 Java/J2EE 技术栈，熟悉 Spring Boot, Hibernate, WebSphere/JBoss/Tomcat 等应用服务器。
+4.熟练使用 Oracle 和/或 PostgreSQL，能够进行复杂的SQL查询和故障排查。
+5.精通 Linux 操作系统，能熟练使用Shell命令进行日志分析、性能监控和脚本编写。
+6.掌握 Python 核心技能，用于编写自动化脚本和工具。
+7.具备 AWS 云服务的实际使用经验。
+8.熟悉 Control-M 等作业调度工具和 消息队列 技术。
+9.熟练使用 ServiceNow 进行IT服务管理。
+10.有使用 ITRS, Grafana 等监控工具的经验。
+11.英语能够流利沟通",Grafana Java Spring Boot Hibernate Tomcat Oracle PostgreSQL SQL Linux Shell Python AWS,https://www.liepin.com/a/69705761.shtml
+高级运维开发工程师(DevOps Engineer),乐天创研(北京)科技有限公司,15-27k·14薪,大连,大连,本科,5-10年,90天前更新,liepin,"我们来自日本本土电商集团-日本乐天集团.
+我们拥有上百个服务类别横跨市场，旅游，金融，支付，广告等服务.
+我们来自Rakuten Point Platform Section.
+我们负责的系统承担着整个公司所有交易流程上积分的赋予和消费.
+我们正在构建我们新一代的积分平台.
+这个平台有如下的特征:
+- 微服务
+- 容器化部署
+- 大型分布式系统
+- 混合云基础架构
+- 大流量挑战
+- 面向全球提供服务
+- 高并发
+- 7x24小时在线
+- 乐天核心业务
+
+在这里，你可以在技术上快速成长和积累.
+在这里，你可以了解一线互联网大厂的工作内容和面临的技术难题.
+在这里，你可以和来自世界各地的工程师交流学习.
+在这里，你可以有可观的收入.
+在这里，你可以延展你的职业生涯到东京.
+在这里，你可以接触繁多的先进工具和环境
+
+技术关键字：
+Kubernetes, Istio, Service Mesh Hub
+Ansible, Terraform
+Cassandra,Spark,ETCD
+Kafka,ELK
+Azure, Private Cloud
+Jenkins, Helm, Harbar, ArgoCD
+Prometheus, Grafana, PagerDuty
+Distributed System 
+
+紧急诚寻：
+热爱DevOps，喜欢英语沟通，乐于分享，勇于挑战，自动化运维工程师。
+
+以上内容，部分即可，无需全部精通",微服务 容器化 分布式 高并发 Kubernetes Istio Ansible Terraform Cassandra Spark Kafka Azure,https://www.liepin.com/job/1948467897.shtml
+运维开发工程师(DevOps Engineer),乐天创研(北京)科技有限公司,12-18k·14薪,大连,大连,本科,3-5年,90天前更新,liepin,"我们来自日本本土的电商集团-日本乐天集团.
+我们拥有上百个服务类别横跨市场，旅游，金融，支付，广告等服务.
+我们来自Rakuten Point Platform Section.
+我们负责的系统承担着整个公司所有交易流程上积分的赋予和消费.
+我们正在构建我们新一代的积分平台.
+这个平台有如下的特征:
+- 微服务
+- 容器化部署
+- 大型分布式系统
+- 混合云基础架构
+- 大流量挑战
+- 面向全球提供服务
+- 高并发
+- 7x24小时在线
+- 乐天核心业务
+
+在这里，你可以在技术上快速成长和积累.
+在这里，你可以了解一线互联网大厂的工作内容和面临的技术难题.
+在这里，你可以和来自世界各地的工程师交流学习.
+在这里，你可以有可观的收入.
+在这里，你可以延展你的职业生涯到东京.
+在这里，你可以接触繁多的先进工具和环境
+
+技术关键字：
+Kubernetes, Istio, Service Mesh Hub
+Ansible, Terraform
+Cassandra,Spark,ETCD
+Kafka,ELK
+Azure, Private Cloud
+Jenkins, Helm, Harbar, ArgoCD
+Prometheus, Grafana, PagerDuty
+Distributed System 
+
+紧急诚寻：
+热爱DevOps，喜欢英语沟通，乐于分享，勇于挑战，自动化运维工程师。
+
+以上内容，部分即可，无需全部精通",微服务 容器化 分布式 高并发 Kubernetes Istio Ansible Terraform Cassandra Spark Kafka Azure,https://www.liepin.com/job/1948467853.shtml
+devops工程师/二线运维开发工程师,某知名公司,15-25k·13薪,北京,北京,大专,8年以上,7月23日更新,liepin,"工作内容
+1.负责突发事件响应，快速诊断、分类并解决系统故障，最大限度减少对业务的影响。
+2.对重复发生或重大的生产事件进行根本原因分析，提出并推动实施长远的解决方案，防止问题再次发生。
+3.遵循严格的ITIL变更管理流程，执行、验证和回滚在生产环境中的应用变更、配置更新和代码发布。
+4.与开发、测试和运维团队协作，确保发布的平滑进行。
+5.利用ITRS, Grafana等监控工具，主动监控系统性能、资源利用率和应用健康状况，并采取预防性措施。
+6.为内部团队（如业务部门、开发团队）提供技术支持和指导。与开发团队紧密合作，将运维中发现的问题反馈给开发阶段，推动系统可维护性和稳定性的提升。
+7.编写和维护系统运维手册、知识库文档和标准操作程序，熟练使用ServiceNow等ITSM工具进行事件、问题和变更的记录与管理。
+岗位要求
+1.至少3年以上的金融或相关行业生产/应用支持岗位工作经验。
+2.熟悉ITIL框架，并具备事件、问题和变更管理的实际操作经验。
+3.精通 Java/J2EE 技术栈，熟悉 Spring Boot, Hibernate, WebSphere/JBoss/Tomcat 等应用服务器。
+4.熟练使用 Oracle 和/或 PostgreSQL，能够进行复杂的SQL查询和故障排查。
+5.精通 Linux 操作系统，能熟练使用Shell命令进行日志分析、性能监控和脚本编写。
+6.掌握 Python 核心技能，用于编写自动化脚本和工具。
+7.具备 AWS 云服务的实际使用经验。
+8.熟悉 Control-M 等作业调度工具和 消息队列 技术。
+9.熟练使用 ServiceNow 进行IT服务管理。
+10.有使用 ITRS, Grafana 等监控工具的经验。
+11.英语能够流利沟通",Grafana Java Spring Boot Hibernate Tomcat Oracle PostgreSQL SQL Linux Shell Python AWS,https://www.liepin.com/a/69705843.shtml
+Devops工程师/运维开发工程师,华钦科技,13-19k,西安-高新区,西安,统招本科,3年以上,7月30日更新,liepin,"高级Devops任职要求：
+1.有信息技术、计算机科学或相关专业的学士学位或以上，且至少有 7 年相关技术工作经验。
+2.在汇丰银行或金融行业有工作经验者优先。
+3.熟悉核心的 GCP 服务（Compute Engine、Cloud Storage、VPC、IAM、Cloud SQL 等）。
+4.熟练掌握 Linux/Unix 命令行、shell 脚本编写和调试。
+5.熟练掌握 Bash、Python 或类似脚本语言以用于自动化操作任务。
+6.具备 GKE 集群管理、kubectl 操作和 Helm 部署的经验。
+7.了解 Cloud Build、Jenkins 或其他 CI/CD 工具。
+8.能够使用 Stackdriver（云监控）、Logging、Prometheus 等监控工具。
+9.了解 VPC、子网、防火墙和 IAM 权限管理。
+10.强大的日志分析、性能调优和问题诊断能力。
+11.了解基本云架构设计中的高可用性、自动扩展和灾难恢复原则。
+12.熟练使用 gcloud 命令行工具及相关 API。
+13.良好的文档撰写和团队沟通能力。
+14.适应外企英文工作环境，具备良好的英语阅读和写作能力，能够用英语进行基本交流。
+
+中级Devops任职要求：
+有信息技术、计算机科学或相关专业的学士学位或以上，在汇丰银行或金融行业有工作经验者优先。
+经验要求：具备 5年以上IT运维或站点可靠性工程（SRE）经验，专注基础设施管理与系统优化。
+技术能力：精通运维管控工具：Ansible, Puppet, Chef, Terraform, Prometheus, Grafana, ELK技术栈； Python/Shell脚本开发能力扎实。
+云平台能力：熟悉主流云平台（AWS/Azure/GCP），包括 EC2, Lambda, Kubernetes 及容器化服务。
+问题解决力：具备分布式系统、网络及应用的复杂问题排查能力（需提供案例证明）。
+沟通协作：出色的书面与口头表达能力，能在快节奏动态环境中高效协作。
+适应外企英文工作环境，具备良好的英语阅读和写作能力。",DevOps Gin RAG SQL Linux Unix Shell Python Helm Jenkins CI/CD Prometheus,https://www.liepin.com/job/1981233799.shtml
+devops工程师/运维开发工程师,华钦科技,15-20k,广州-天河区,广州,统招本科,5年以上,7月30日更新,liepin,"任职要求：
+1.有信息技术、计算机科学或相关专业的学士学位或以上，在汇丰银行或金融行业有工作经验者优先。
+2.具备 5年以上IT运维或站点可靠性工程（SRE）经验，专注基础设施管理与系统优化。
+3.精通运维管控工具：Ansible, Puppet, Chef, Terraform, Prometheus, Grafana, ELK技术栈； Python/Shell脚本开发能力扎实。
+4.熟悉主流云平台（AWS/Azure/GCP），包括 EC2, Lambda, Kubernetes 及容器化服务。
+5.具备分布式系统、网络及应用的复杂问题排查能力（需提供案例证明）。
+6.出色的书面与口头表达能力，能在快节奏动态环境中高效协作。
+7.适应外企英文工作环境，具备良好的英语阅读和写作能力。",Ansible Terraform Prometheus Grafana Python Shell AWS Azure Kubernetes 容器化 分布式,https://www.liepin.com/job/1981233655.shtml
+Devops运维开发工程师,华钦科技,19-21k,广州-天河区,广州,本科,5年以上,7月30日更新,liepin,"职位：Devops Engineer
+岗位职责：
+负责CI/CD（持续集成/持续部署）流程的构建与优化。
+实现基础设施自动化（infra automation），如使用IaC（基础设施即代码）工具。
+管理部署流水线（deployment pipelines）和环境（environment management），确保应用能够快速、可靠地部署到生产环境。
+
+任职要求：
+1.有信息技术、计算机科学或相关专业的学士学位或以上，在汇丰银行或金融行业有工作经验者优先
+2. 熟悉以下技术栈：
+DevOps工具: SHP, IKP
+云平台: AWS
+API网关: Kong
+基础设施即代码: IaC
+可观测性: 监控与日志 (observability)
+发布工程: 保障软件发布的流程和稳定性 (release engineering)
+3. 英语读写可作为日常工作语言，能参与英文会议并听懂大部分内容并参与简单交流
+
+职位：Devops(大数据方向）
+任职要求：
+1.有信息技术、计算机科学或相关专业的学士学位或以上，在汇丰银行或金融行业有工作经验者优先
+2.具备5年以上大数据平台运维经验，具有大数据平台搭建经验的Devops
+3. 熟悉使用技术栈Trino，Minio，iceberg，Apache Ranger技术
+4. 精通运维管控工具：Ansible, Puppet, Chef, Terraform, Prometheus, Grafana, ELK技术栈
+5.Python/Shell脚本开发能力扎实
+6.具备分布式系统、网络及应用的复杂问题排查能力
+7.英语书面读写良好，能阅读英文技术文档
+8. 粤语听说熟练是加分项",DevOps Gin CI/CD AWS Trino Ansible Terraform Prometheus Grafana Python Shell 分布式,https://www.liepin.com/job/1983160815.shtml
+DevOps运维开发工程师(外资银行),莱科德信息科技(天津)有限公司,15-22k·13薪,天津,天津,本科,5-10年,90天前更新,liepin,"Project Description:
+The team is responsible for building in-house platform between trade process systems, You will be working with highly skilled engineers on WebServices (APIs), Trade processing system, FM FX, Derivatives etc. domain. Micro service and Devops and get to work in modern software development environments and practices. As part of the FMTPT team, you will have an opportunity to contribute to the evolving technical direction of the team as we adapt to this rapidly changing space.
+
+As a senior DevOps Engineer you will focus on automated deployments and Server Environment and participate into multiple agile software delivery teams to deliver the business value to the Business. You will understand the different technology silos within the Bank and how to interface with them. You will be part of the team that constantly analyse and improve the Murex Trade processing platform from a technical point of view as well as from user experience view. You'll keep yourself updated with the latest software technologies and sharing the knowledge to team.
+
+Responsibilities:
+• Design resilient, flexible and scalable solutions following the bank standards
+• Get Infra, database installed
+• Deploy services in Kubernetes
+• Monitor systems: dashboarding, alerting
+• Configure and respond to alerts: resolution / escalation
+• Automate resolutions
+• Maintain a knowledge base of resolution
+• Writing application in Java, Golang, Python
+• Work in AWS to build solutions
+• Coordinate with other teams in Technology
+• Open minded, and able to take inputs and feedbacks
+• Proactive and helpful not only to your squad, but other squads as well
+• Speak your mind, communicate well and concise
+• Have a strong sense of customer empathy and desire to influence product/platform direction
+
+Mandatory Skills Description:
+• 7+ years of experience
+• Experienced in CI/CD tool chains
+• Development experience: GIT, java spring, Golang
+• Automation experience: Ansible, Puppet, Chef
+• Monitoring Experience with Kibana, Grafana, Elasticsearch
+• Experience with microservice based architectures
+• Experience of Unix / Linux environments and bash scripting
+• Experience with setting up and running databases
+• Experience on Kubernetes is a plus
+• Experience of Agile / Scrum development methodologies is a plus
+• Cloud knowledge a big plus (AWS / GCP) - (Kubernetes / Docker)
+• Be nice, respectful, able to work in a team",Gin DevOps Scala Kubernetes Java Golang Python AWS CI/CD Git Spring Ansible,https://www.liepin.com/job/1977328013.shtml
+中/高级devops开发工程师/devops engineer,某大型世界500强咨询服务公司,15-30k·13薪,广州,广州,学历不限,5-10年,今日更新,liepin,"核心职责：
+DevOps 平台研发：通过 API 深度集成 Azure DevOps（ADO），实现流水线自动化、多租户 RBAC 权限管理及自助式资源供给。
+可观测性工程：主导监控与日志系统的二次开发及集成；利用 Prometheus 采集核心业务指标，在 Grafana 中搭建可视化仪表盘，并基于 ELK 栈构建高性能日志分析流水线。
+基础设施即代码（IaC）：编写并维护 Ansible 脚本，为混合云环境中的服务器、网络及数据库实现程序化配置与版本控制。
+自动化流水线工程：在 ADO 中设计并优化基于 YAML 的多阶段流水线；开发自定义任务（Custom Tasks），集成代码质量分析与合规性检查功能。
+调优与可靠性保障：负责生产环境虚拟机（VM）调优、Kubernetes 集群性能监控及故障排查，确保交易时段零停机。
+
+岗位要求 ：
+·计算机科学、工程或相关领域的学士学位。
+·5+年DevOps、站点可靠性工程或基础架构工程经验，有管理经验加分。
+·在复杂、受监管的行业（最好是银行或金融服务业）管理CI/CD管道的良好业绩记录。
+·实际操作的专业知识，包括:
+· CI/CD工具（Jenkins、GitLab CI、Azure DevOps、ArgoCD、Tekton）
+·容器和编排（Docker、Kubernetes、OpenShift）
+· 基础设施作为代码（Terraform, Ansible, Puppet, or Chef）
+·云平台（AWS、Azure、GCP或私有云）
+· 监控/可观察性（Prometheus、Grafana、ELK、Splunk、Datadog、AppDynamics）
+·对金融系统中的网络、安全性、加密和合规性有较强的了解。
+·英语可作为工作语言，全英文面试
+
+福利待遇：
+1、13薪+年终奖+带薪培训+免费体检+节假日福利+带薪年假+带薪病假；
+2、入职即缴纳五险一金；
+3、生日福利：会有意想不到的生日惊喜；
+4、团建活动：每年都会组织出去旅游2-3次；
+5、培训：新进人员有免费全面、系统的岗前培训;
+6、工作环境：优秀的工作环境，空间开放敞亮，个人独立坐席，企业氛围朝气有活力；
+7、员工活动：丰富多彩的各类员工活动和运动俱乐部；E-Learning学习平台；家庭日活动；外出旅游；项目聚餐；各类培训课程等。",DevOps Azure Prometheus Grafana Ansible Kubernetes CI/CD Jenkins GitLab CI Go Docker Terraform,https://www.liepin.com/a/77718657.shtml
+SRE/英语DevOps运维开发工程师,某世界500强咨询服务公司,25-40k·13薪,上海,上海,学历不限,3-5年,7月29日更新,liepin,"职位描述
+我们正在寻找一位经验丰富的站点可靠性工程师（SRE），负责保障核心应用与基础设施的可靠性、可扩展性、安全性与性能。你将深度参与云原生环境下的运维体系建设，推动自动化与可观测性落地。
+岗位职责
+在阿里云上设计、部署并管理高可用、可扩展的云基础设施；
+基于Jenkins构建和维护CI/CD流水线，提升交付效率；
+负责Kubernetes（ACK）集群的容器化应用部署、管理与排障；
+使用IaC工具实现基础设施与配置的自动化管理；
+建立监控、日志、链路追踪与告警体系，保障系统可观测性；
+制定并跟踪SLI/SLO/SLA指标，持续提升系统稳定性；
+参与故障响应、根因分析与复盘改进；
+与开发、安全、运维团队协作，优化系统架构与发布流程；
+推动灾备、备份与业务连续性机制的落地；
+撰写并维护运维手册、SOP和技术文档。
+云与基础设施
+精通阿里云核心服务（ECS、ACK、SLB、OSS、RDS、VPC、CloudMonitor），具备生产环境下的云基础设施管理经验。
+容器与编排
+熟悉 Kubernetes 管理与排障，有阿里云 ACK 实践经验；掌握 Docker 及 Helm，了解 K8s 网络模型。
+
+CI/CD 与自动化
+熟练使用 Jenkins 进行流水线开发与管理，熟悉 Git 工作流，了解 GitOps 理念。
+基础设施即代码
+有 Terraform、Ansible 等自动化工具的实际使用经验。
+监控与可观测性
+熟悉 Prometheus、Grafana、ELK/OpenSearch、Splunk 或 Datadog 等工具，具备日志、监控、告警系统的建设与维护能力。
+
+英语口语流利沟通。
+
+有生产环境高并发、高可用架构运维经验；
+持有阿里云认证（如ACA/ACP/ACE）；
+熟悉服务网格（Istio）、可观测性（OpenTelemetry）或混沌工程优先",云原生 阿里云 高可用 Jenkins CI/CD Kubernetes 容器化 Docker Helm K8s Git Terraform,https://www.liepin.com/a/76648959.shtml
+英语DevOps运维开发工程师/SRE,某上海大型IT服务公司,15-20k·13薪,广州,广州,学历不限,2年以上,今日更新,liepin,"岗位职责： 
+理解业务、功能及技术需求与规格，识别需求缺口并反馈，跟踪直至需求缺口闭环。 
+按用户需求开展开发工作，完成单元测试。 
+支持项目层面的系统集成测试、用户验收测试、灾难恢复及上线工作。 
+对接项目相关方，编写并提交项目状态报告。 
+负责缺陷分级研判，关联问题现象与潜在原因。 
+基本要求： 
+具备全英文工作环境所需的书面与口头英语沟通能力。 
+具备优秀的问题解决能力、建设性思维，学习能力强。 
+面对复杂与不确定场景时具备逻辑分析能力。 
+具备团队协作精神，主动思考并提升团队整体效率与协作水平。 
+任职资格： 
+Groovy 
+CloudBees CI、Jenkins 
+Java
+Python
+AWS 
+Git 
+Kubernetes（K8s）
+Maven 
+ 
+ ",Jenkins Java Python AWS Git Kubernetes K8s Maven,https://www.liepin.com/a/77694533.shtml
+英语devops运维开发工程师,某天津IT服务公司,13-22k·13薪,上海,上海,学历不限,4年以上,今日更新,liepin,"岗位职责： 
+理解业务、功能及技术需求与规格，识别需求缺口并反馈，跟踪直至需求缺口闭环。 
+按用户需求开展开发工作，完成单元测试。 
+支持项目层面的系统集成测试、用户验收测试、灾难恢复及上线工作。 
+对接项目相关方，编写并提交项目状态报告。 
+负责缺陷分级研判，关联问题现象与潜在原因。 
+基本要求： 
+具备全英文工作环境所需的书面与口头英语沟通能力。 
+具备优秀的问题解决能力、建设性思维，学习能力强。 
+面对复杂与不确定场景时具备逻辑分析能力。 
+具备团队协作精神，主动思考并提升团队整体效率与协作水平。
+【福利待遇】  
+1、13薪+带薪年假+带薪病假+六险一金+年度体检+礼品（生日、结婚、生育、端午、中秋等每个节日都有意外惊喜） ；  
+2、多元化的员工培训（技能培训、拓展培训、储备干部培训等）；  
+3、健全的员工关怀机制，公司设有健身俱乐部，提倡员工健康生活，快乐工作；  
+4、公司内部培训和晋升体系完善，每年度薪资涨幅美丽；  
+5、签订正规劳动合同并按照薪资全额缴纳社保公积金，并提供相关技能培训及良好的发展空间；  
+6、公司氛围超级nice，欲寻求踏实靠谱有责任心的员工；",培训,https://www.liepin.com/a/78255679.shtml
+Devops运维开发工程师-外企-医疗行业,华钦科技,12-15k·13薪,沈阳-浑南区,沈阳,本科,5-10年,90天前更新,liepin,"飞利浦GRCIT-创新与工程领域
+
+岗位要求：
+--IT和软件开发或软件工程的学士/硕士学位
+--且有足够的软件DevOps经验，例如构建/发布管理
+--熟悉GitHub、MSADS、Artifactory等应用
+--在软件开发运维方面关于M和流程自动化的技能
+--熟悉IT基础设施知识，例如网络、云、操作系统、虚拟化.
+--熟悉软件历量标准和软件安全元素考优先
+--语言技能:中文和英文，口语和写作
+
+主要职责领域:
+1.飞利浦研发产品软件 DevOps 责任包括配置管理、基线/分支策略管理、构建与发布管理
+2.飞利浦研发软件开发应用及工具部署与运营支持，包括一线故障/问题以及二线服务请求和变更请求。
+3.为研发产品开发和生命周期管理提供研发IT基础设施部署和运营支持
+4.对研发和/或其他最终用户进行IT/R&D应用及其环境的培训
+5.根据业务需求和技术趋势进行研发/信息技术技术升级
+6.与其他IT领域(如IT服务和IT安全)密切合作，以确保向用户社区提供全面且稳健的端到端IT服务解决方案。",DevOps Git 培训 MSADS,https://www.liepin.com/job/1976282377.shtml
+DevOps运维开发工程师,华钦科技,15-22k,西安-高新区,西安,本科,5年以上,90天前更新,liepin,"1.7年以上devops运维开发经验，深入了解devops系统，对CI/CD有比较丰富的设计和试试经验；
+
+2.熟悉devops工具：Git，Jenkins，Nexus等；
+
+3.熟悉公有云(阿里云，AWS)，对灰度发布，微服务治理等有深刻的理解和实践经历；
+
+4.熟悉python/Java，具有一定的微服务应用开发经验；
+
+5.英语四级以上；",DevOps CI/CD Git Jenkins 阿里云 AWS 微服务 Python Java,https://www.liepin.com/job/1967303611.shtml
+DevOps运维开发工程师-西安,华钦科技,15-22k,西安-高新区,西安,本科,5年以上,90天前更新,liepin,"1.7年以上devops运维开发经验，深入了解devops系统，对CI/CD有比较丰富的设计和试试经验；
+
+2.熟悉devops工具：Git，Jenkins，Nexus等；
+
+3.熟悉公有云(阿里云，AWS)，对灰度发布，微服务治理等有深刻的理解和实践经历；
+
+4.熟悉python/Java，具有一定的微服务应用开发经验；
+
+5.英语四级以上；",DevOps CI/CD Git Jenkins 阿里云 AWS 微服务 Python Java,https://www.liepin.com/job/1967292121.shtml
+云计算运维研发Devops工程师,互联网美股上市10000人以上,30-60k,北京-海淀区,北京,本科,经验不限,90天前更新,liepin,"工作职责
+-Site Reliability Engineer，负责百度公司大规模分布式系统及各类云服务可靠、稳定、高效运行
+-参与百度智能云系统和各类产品架构设计，主导服务可用性相关平台/自动化系统的实现
+-设计研发智能云规模化运维的技术解决方案，包括服务器生命周期管理、高效交付、故障预测、成本管理等
+-关注业界前沿技术动态，熟悉openstack、kvm、分布式存储、虚拟化网络等相关技术，贡献业界技术趋势
+任职资格
+-专业倾向于计算机、通信、数学等理工学科，2-5年工作经验者优先
+-深入理解Linux操作系统；具备较好的计算机网络和体系结构基础
+-熟练掌握Python/Go/Shell等至少一种主流编程语言
+-对云计算、虚拟机等技术有浓厚的兴趣优先，了解OpenStack、虚拟化网络、KVM、分布式存储等相关技术
+-具有良好的逻辑思维和分析能力，热衷解决问题、追求极致；具有强烈的责任心、进取心、Ownership",Gin 分布式 Linux Python Go Shell,https://www.liepin.com/job/1973536435.shtml
+DevOps运维开发工程师,通标标准技术服务有限公司深圳分公司,20-30k,深圳-龙岗区,深圳,本科,5-10年,90天前更新,liepin,"Specific Responsibilities	
+1.	负责运维系统、平台的构建与开发工作；负责运维自动化、规范化解决方案的开发工作；
+2.	开发、维护、定制公司部署工具、CI/CD系统、运维自动化平台，并结合DevOps不断优化，提升运维效率；
+3.	负责公司相应应用系统服务器环境部署，搭建系统运行环境和应用系统自动化部署；
+4.	设计和规划业务的高可用性、故障解决、容灾部署和节假日保障等；保障系统7*24小时稳定运行；
+5.	负责相关产品开发过程中的配置管理工作，研究并制定配置管理策略，识别配置管理过程中的改进点，并进行流程和制度的优化；
+6.	负责公司应用系统的日常运行维护、备份恢复、故障处理、监控告警、问题诊断、安全管理、性能优化及补丁升级等工作；
+7.	建立和完善应用运维相关技术governance规范和操作标准，并负责监督执行和持续改进；
+8.	负责突发事件处理，问题跟踪与管理，并提供事件报告和问题闭环。
+
+Profile and Required Skills
+1．	精通DevOps理念，具有DevOps体系设计能力，对运维体系有全局视野；
+2．	3年以上软件开发经验，5年以上DevOps相关平台的架构设计和落地经验；能够熟练使用Java/Python/Shell语言进行DevOps工具的定制开发；
+3．	对CI/CD有深入理解，熟悉Jenkins、Ansible等效能工具，能够熟练编写Jenkins file、Playbook脚本等；
+4．	掌握Jenkins、Gitlab、JIRA、Confluence、Nacos、Disconf、Pinpoint、Kafka、Nexus、Archery、Nginx、Tomcat、Supervisor等常用基础组件的部署、管理及维护；
+5．	掌握开源监控软件的监控原理、部署使用，具备实战经验。如Zabbix、Prometheus、EFK、Grafana等；
+6．	熟悉 Docker / Kubernetes 等容器镜像管理工具，能进行容器打包、监控、编排、排错；
+7．	掌握Linux操作系统运维和Windows操作系统运维，熟悉主流云平台；
+8．	具备较强的学习能力，能快速学习和掌握新知识；有自我驱动的意愿，良好的沟通能力，较强的分析和解决问题的能力；
+9．	具备良好的职业素养和责任心，具有高度的团队合作精神，积极主动，工作严谨；
+10．	英语读写熟练，能够作为工作语言，能用口语交流优先。",CI/CD DevOps 高可用 Go Java Python Shell Jenkins Ansible Git Kafka Nginx,https://www.liepin.com/job/1949492249.shtml
+DevOps运维开发工程师,重庆欧比特科技有限公司,5-8k·13薪,重庆,重庆,本科,经验不限,90天前更新,liepin,"任职要求
+----------------------------------------------------------
+01. 计算机科学或相关学科的本科及以上学历；
+02. 熟悉Linux；
+03. 熟悉mysql、redis、mongodb等主流数据库；
+04. 熟悉jenkins、docker、k8s等用于CI、CD；
+05. 具有良好的团队精神，沟通能力，喜欢独立游戏和主机游戏者优先；
+06. 具有良好的英语阅读能力者优先；
+
+岗位职责
+----------------------------------------------------------
+01. 负责服务器的日常基本维护；
+02. 负责数据库日常维护，数据查询、数据备份、数据恢复；
+03. 配合开发人员搭建生产环境, 部署相关服务；
+04. 服务的日志实时分析和反馈处理；",Linux MySQL Redis MongoDB Jenkins Docker K8s,https://www.liepin.com/job/1952527369.shtml
+DevOps 运维开发工程师,北京虹宇科技有限公司,20-40k·13薪,北京,北京,统招本科,经验不限,90天前更新,liepin,"岗位职责
+1. 负责 DevOps 持续集成与持续发布的落地，如 Jenkins/Gitlab+Docker 集成建设；
+2. 负责各部门开发的日常支撑、自动化、工具化建设;
+3. 负责服务的上线，线上故障处理，疑难问题定位、排除、处理;
+4. 建立运维开发、版本管理、代码安全和框架管理等相关标准化文档。
+
+任职要求
+1. 本科及以上学历，2年以上工作经验;
+2. 精通 Gitlab/Jenkins 等 CI/CD 工具和平台的操作使用;
+3. 熟悉 Linux 操作系统的管理维护（部署、配置和调优），逻辑思维能力强;
+4. 熟练掌握 Make/Ninja/CMake/Gradle 等编译工具。熟悉 Android.mk 文件编写的优先;
+5. 熟练掌握 Docker 及相关的开源技术;
+6. 熟练掌握 Git 的使用。熟悉 Google git-repo 使用的优先;
+7. 熟练使用 Shell 和 Python 等脚本语言;
+8. 有责任心，抗压能力和开发技术能力，良好的沟通能力，推动和解决问题的能力。
+",DevOps Jenkins Git Docker CI/CD Linux CMake Gradle Go Shell Python 版本管理,https://www.liepin.com/job/1921097275.shtml
+devops运维开发工程师,上海图森迫科技有限公司,15-30k,上海-普陀区,上海,本科,3-5年,90天前更新,liepin,"【工作职责】
+1. 负责测试环境搭建、运营、维护和监控；
+2. 建立App应用部署架构和自动化部署；
+3. 负责测试环境运维体系的维护、运营，建立高效的测试体系；
+4. 负责App安全体系的维护、运营；
+
+任职要求
+1. 两年以上DevOps相关的工作经验；
+2. 掌握持续集成工具：Jenkins等
+3. 掌握自动化构建和测试工具:Ant、Maven、Jmeter、Flutter等
+4. 掌握配置管理工具：Saltstack、Ansible等
+5. 熟练掌握Python, Power Shell, Bat, Linux Shell等；
+6. 熟练掌握Windows、Linux的配置和管理；
+7. 熟练掌握SQL Server的配置、管理和维护；
+8. 精通自动化运维，能够独立建立自动化运维 (CI) 和监控体系；
+9. 了解代码安全、白盒测试。
+备注：
+1.具有快速学习能力优先；
+2.另了解db2、oracle、mysql的配置、管理和维护优先；
+3.沟通能力强者优先；",DevOps Jenkins Maven Flutter Ansible Python Shell Linux SQL Server Oracle MySQL,https://www.liepin.com/job/1950809575.shtml
+DevOps运维开发工程师0436,亚联集团,18-27k,北京-大兴区,北京,大专,10年以上,90天前更新,liepin,"岗位职责:
+1、负责交付稳定可复用的自动化模块并集成到产品中；
+2、负责掌握与各种产品、工具或系统的自动化交互技术与方案；
+3、深入掌握产品功能，能提出改进建议并付诸实现，改进使用体验；
+4、根据客户现状，快速高效的制定实施方案并能交付给客户。
+任职资格:
+1、本科及以上学历，5年以上工作经验，不限于计算机相关专业；
+2、深入了解Linux系统原理，熟练操作Linux系统，有大/中型分布式系统维护经验
+3、熟练掌握Shell脚本编程，熟悉Python语言，能独立完成自动化代码开发；
+4、熟悉常见系统配置及优化,如Weblogic/WebSpere/Oracle/MySQL等；
+5、掌握Docker、Kubernetes、ServiceMesh等容器技术及概念，有实际维护经验；
+6、对Jenkins、Gitlab、Nexus、Ansible、Saltstack等工具有实际使用经验。",Linux 分布式 Shell Python Oracle MySQL Docker Kubernetes Jenkins Git Ansible,https://www.liepin.com/job/1946167709.shtml
+英语DevOps运维开发工程师/SRE,某知名公司,21-28k·13薪,深圳,深圳,大专,5-10年,7月29日更新,liepin,"岗位职责： 
+理解业务、功能及技术需求与规格，识别需求缺口并反馈，跟踪直至需求缺口闭环。 
+按用户需求开展开发工作，完成单元测试。 
+支持项目层面的系统集成测试、用户验收测试、灾难恢复及上线工作。 
+对接项目相关方，编写并提交项目状态报告。 
+负责缺陷分级研判，关联问题现象与潜在原因。 
+基本要求： 
+具备全英文工作环境所需的书面与口头英语沟通能力。 
+具备优秀的问题解决能力、建设性思维，学习能力强。 
+面对复杂与不确定场景时具备逻辑分析能力。 
+具备团队协作精神，主动思考并提升团队整体效率与协作水平。 
+任职资格： 
+3 年及以上DevOps 相关工作经验。
+ 熟悉 Oracle 等主流数据库，熟练编写 SQL 语句。 
+具备项目实操经验，如 Ansible、网络、Linux、存储、数据库、流水线等。 
+具备复杂问题根因定位与排查能力。 
+具备相关方及周边系统对接经验。 
+具备 Java、Oracle、Linux、Spring Cloud、微服务开发经验优先。 
+ 
+ 【福利待遇】  
+1、13薪+带薪年假+带薪病假+六险一金+年度体检+礼品（生日、结婚、生育、端午、中秋等每个节日都有意外惊喜） ；  
+2、多元化的员工培训（技能培训、拓展培训、储备干部培训等）；  
+3、健全的员工关怀机制，公司设有健身俱乐部，提倡员工健康生活，快乐工作；  
+4、公司内部培训和晋升体系完善，每年度薪资涨幅美丽；  
+5、签订正规劳动合同并按照薪资全额缴纳社保公积金，并提供相关技能培训及良好的发展空间；  
+6、公司氛围超级nice，欲寻求踏实靠谱有责任心的员工；",DevOps Oracle SQL Ansible Linux Java Spring Cloud 微服务 培训,https://www.liepin.com/a/78353467.shtml
+英语DevOps运维开发工程师/SRE,某知名公司,20-28k·13薪,广州,广州,大专,5-10年,7月29日更新,liepin,"岗位职责： 
+理解业务、功能及技术需求与规格，识别需求缺口并反馈，跟踪直至需求缺口闭环。 
+按用户需求开展开发工作，完成单元测试。 
+支持项目层面的系统集成测试、用户验收测试、灾难恢复及上线工作。 
+对接项目相关方，编写并提交项目状态报告。 
+负责缺陷分级研判，关联问题现象与潜在原因。 
+基本要求： 
+具备全英文工作环境所需的书面与口头英语沟通能力。 
+具备优秀的问题解决能力、建设性思维，学习能力强。 
+面对复杂与不确定场景时具备逻辑分析能力。 
+具备团队协作精神，主动思考并提升团队整体效率与协作水平。 
+任职资格： 
+3 年及以上DevOps 相关工作经验。
+ 熟悉 Oracle 等主流数据库，熟练编写 SQL 语句。 
+具备项目实操经验，如 Ansible、网络、Linux、存储、数据库、流水线等。 
+具备复杂问题根因定位与排查能力。 
+具备相关方及周边系统对接经验。 
+具备 Java、Oracle、Linux、Spring Cloud、微服务开发经验优先。 
+ 
+ 【福利待遇】  
+1、13薪+带薪年假+带薪病假+六险一金+年度体检+礼品（生日、结婚、生育、端午、中秋等每个节日都有意外惊喜） ；  
+2、多元化的员工培训（技能培训、拓展培训、储备干部培训等）；  
+3、健全的员工关怀机制，公司设有健身俱乐部，提倡员工健康生活，快乐工作；  
+4、公司内部培训和晋升体系完善，每年度薪资涨幅美丽；  
+5、签订正规劳动合同并按照薪资全额缴纳社保公积金，并提供相关技能培训及良好的发展空间；  
+6、公司氛围超级nice，欲寻求踏实靠谱有责任心的员工；",DevOps Oracle SQL Ansible Linux Java Spring Cloud 微服务 培训,https://www.liepin.com/a/78353405.shtml
+初级DevOps/运维开发工程师,专业技术服务1-49人,6-7k,文昌,,本科,1年以上,90天前更新,liepin,"岗位职责
+（1）搭建并维护单位内部 Git 代码仓库与自动化部署流水线（CI/CD）；
+（2）配置简易自动化部署流程，对代码和软件配置进行版本控制，负责代码仓库管理、分支管理，实现代码推送后自动更新服务；
+（3）负责 Linux 服务器基础环境配置（用户、权限、防火墙等），保障系统稳定运行；
+（4）协助开发完成系统部署、日志查看、简单故障排查；
+（5）编写部署文档与操作手册，支撑软件系统的搭建和日常运维，提升团队协作效率。
+任职要求
+（1）本科及以上学历，计算机科学与技术、软件工程、通信工程等相关专业，有项目实习经验或1年以上经验者优先；
+（2）有基本的脚本编写能力，掌握shell/python/go编写能力更佳
+了解 Git 版本控制，有 GitLab/Gitea/Jenkins 使用经验者优先；
+（3）了解 Docker基本概念，能运行容器，能编写 Dockerfile者优先；接触过 Nginx、Gunicorn 等Web服务部署、或有小型项目自动化部署经验者优先；
+（4）熟悉Linux系统，能够快速定位硬件故障，有较强的分析、解决问题能力，具备基本的网络配置、调试经验；了解 Kubernetes（k3s/minikube）优先；
+（5）责任心强，做事细致，愿意从基础工作做起。",Git CI/CD Linux 防火墙 Shell Python Go Jenkins Docker Nginx Kubernetes 故障排查,https://www.liepin.com/job/1979937363.shtml
+K8S DevOps｜运维开发工程师,成都回声涌现智能科技有限公司,11-22k,成都,成都,本科,经验不限,90天前更新,liepin,"加分项：
+1.对AI具有强烈的兴趣和好奇心
+2.深度理解容器调度算法（Bin Packing、Gang Scheduling）
+3.熟悉 eBPF 在容器监控和网络中的应用
+4.有自建 Homelab 集群的丰富实践经验
+5.对 Serverless（Knative、OpenFaaS）有深入研究",Serverless Bin Packing Gang Scheduling Homelab Knative OpenFaaS,https://www.liepin.com/job/1975161427.shtml
+运维研发/devops工程师,上海名师天团数字科技有限公司,25-45k·14薪,北京-海淀区,北京,本科,5-10年,90天前更新,liepin,"关于我们：
+我们是一个充满活力的团队，成员们来自各大知名企业，我们不拘泥于传统，更注重解决实际问题。在这里，“职级”不是我们的目标，实现价值才是。我们鼓励创新，期待与你一同成长！
+
+我们期待这样的你：
+1. 敏锐的问题洞察力： 善于发现并定义“真”问题，这是解决一切挑战的第一步。
+2. 卓越的学习能力： 身处AI时代，技术飞速发展。我们期待你拥有强大的学习能力，能够快速适应并掌握新的技术和方法。
+3. Geek精神： 敢于打破固有思维和技术的束缚，拥抱未知，探索无限可能。
+4. 乐观开朗的性格： 积极向上，善于沟通协作，能快速融入团队，与我们共同创造愉快的氛围。
+
+你的职责：
+1. 可观测性方向： 你将深入研究并持续优化日志、指标、追踪系统，确保系统的可观测性。
+2. CI/CD方向： 提升部署平台的效率，优化容器环境的资源调度，让我们的开发流程更加顺畅高效。
+3. AIOps方向： 将AI技术与运维流程深度融合，通过智能化手段显著提升运维工作效率。
+
+期待你的加入，和我们一起创造更多可能！",CI/CD CI,https://www.liepin.com/job/1975052565.shtml
+DevOps云运维开发工程师,西安知合信息技术有限公司,16-22k,西安-高新区,西安,本科,3-5年,90天前更新,liepin,"职责描述：
+1、负责公司信息化软件系统阿里云DevOps平台架构研发与维护
+2、负责参与公司信息化软件系统持续集成/持续发布系统的开发优化和维护
+3、负责参与系统的开发，设计，接入，优化，部署
+4、负责与开发团队协同定位线上问题，解决并及时形成闭环
+5、负责参与新技术的调研和推广
+
+任职要求：
+1、本科以上学位，3年以上工作经验
+2、掌握的开发语言不限，但是需要具备熟练的编程语言使用能力和解决问题的能力
+3、具有Docker/Kubernetes落地实践经验，熟悉Docker/Kubernetes相关生态
+4、熟悉DevOps理念及平台工具，有持续集成、持续部署经验
+5、熟悉阿里云相关产品运维技术，或通过阿里云ACP认证者优先
+",阿里云 DevOps Docker Kubernetes,https://www.liepin.com/job/1940862197.shtml
+SRE运维开发工程师,某上海IT服务上市公司,30-35k,上海-浦东新区,上海,统招本科,3年以上,7月24日更新,liepin,"职位名称：SRE工程师/DevOps工程师
+
+关于职位
+我们正在招聘一名经验丰富的DevOps工程师，负责维护CI/CD流水线，并构建工具/产品以支持不同系统和自动化需求。理想的候选人将与开发、测试（QA）和安全团队紧密协作，在敏捷（Agile）、DevSecOps和BDD（行为驱动开发）实践中，实现快速、可靠的软件交付。
+
+岗位期望
+
+具备扎实的开发背景，能够编写整洁、可维护且可用于生产环境的代码（例如Java、Go、Python或类似语言）。
+
+具备自我管理和主人翁意识，能够在较少监督下独立推动任务从设计到交付的全过程。
+
+具有自我驱动和积极主动的态度，持续改进系统、流程和自动化水平。
+
+对交付可靠、高质量的解决方案具有强烈的责任感和担当。
+
+工作地点：上海
+
+服务范围/交付物
+
+构建/管理平台与框架
+
+编码/测试/知识分享
+
+研究与系统架构设计
+
+任职资格/要求
+
+计算机科学、软件工程或相关专业本科学历。
+
+3~8年以上DevOps/平台/软件工程相关岗位经验。
+
+具备以下技术栈的扎实实操经验：
+
+CI/CD工具：GitLab/GitLab CI、Jenkins、Ansible、Terraform等。
+
+容器技术：Docker / Podman
+
+Kubernetes（Helm、网络、存储）
+
+Linux系统
+
+具备以下脚本/编程语言经验：
+
+Java/Bash、NodeJS、Python 或 Go
+
+数据库（DB）、ORM、Spring/Boot/Cloud、Vert.x 等。
+
+良好的英文读写能力。
+
+优先资格
+
+了解DevSecOps及合规框架。
+
+具备以下经验：
+
+Nexus / Harbor 制品库管理
+
+代理与网络（Squid、TLS、CA证书）
+
+性能测试工具（JMeter、Locust）
+
+接触过BDD框架（Cucumber Java/Ruby）。
+
+具有离线环境或企业级环境工作经验。
+
+核心能力
+
+问题解决与故障排查能力
+
+对分布式系统有深入理解
+
+具备自动化思维
+
+沟通与团队协作能力
+
+加分项
+
+具备以下经验：
+
+Redis、Kafka类系统
+
+可观测性技术栈，如Prometheus、Grafana、Loki、OpenSearch、ELK等
+
+本地AI/LLM部署（可选，属于前沿边缘技术）
+
+持有相关认证：
+
+CKA/CKAD（Kubernetes认证）
+
+AWS/Azure/GCP DevOps相关认证",DevOps CI/CD Java Go Python Git GitLab CI Jenkins Ansible Terraform Docker Kubernetes,https://www.liepin.com/a/77401097.shtml
+DevOps工程师,中数通信息有限公司,15-24k·13薪,上海-浦东新区,上海,本科,5-10年,5月6日更新,liepin,"Duties and Responsibilities:
+职责与要求：
+- Deploy and manage Kubernetes clusters and cloud-native applications
+部署和管理 Kubernetes 集群及云原生应用；
+- Maintain infrastructure as code, ensuring scalability, reliability, and security.
+维护基础设施即代码(Infrastructure as Code)，确保系统的可扩展性、可靠性与安全性；
+- Collaborate closely with development and operation teams to ensure seamless integration between infrastructure and application code.
+与开发和运维团队紧密协作，确保基础设施与应用代码的无缝集成；
+- Maintain observability and monitoring solutions for log aggregation, metrics, and tracing.
+维护可观察性及监控方案(日志聚合、指标采集、链路追踪)；
+- Contribute to the continuous improvement of automation and infrastructure practices.
+参与并推动自动化与基础设施实践的持续优化；
+- On-call duty: you will be responsible for maintaining the infrastructure. This includes being available for on-call rotations to troubleshoot and resolve production issues as needed.
+轮班值守：需参与基础架构的维护工作，包括按轮班安排随时响应并解决生产环境问题；
+- Stay up-to-date with the latest cloud technologies and industry trends.
+持续跟进最新的云技术与行业趋势。
+
+ Required Skills & Experience(E2 - DevOps Engineer):
+岗位要求(E2 - DevOps工程师)
+·         Bachelor's degree or above in a relevant field.
+计算机或相关专业本科及以上学历。
+·         Excellent communication and collaboration abilities in English language.
+具备优秀的英语沟通与协作能力。
+·         3+ years of related professional experience.
+3年以上相关领域工作经验。
+· Skilled in Linux/Unix system management and developing operational scripts (Python/Shell/etc.).
+熟练掌握Linux/Unix系统管理及运维脚本开发Python/Shell等。
+·         Familiarity in containerization technologies and cloud platforms (Azure/Alibaba Cloud/etc.).
+熟练掌握Kubernetes集群的部署、扩缩容及故障排查。
+·         Good experience with Kubernetes, including deployment, scaling, and troubleshooting.
+熟悉容器化技术及主流云平台(Azure/阿里云等)。
+·         Expertise for Infrastructure as Code (IaC) and managing cloud resources with terraform.
+熟练使用Terraform实现基础设施即代码(IaC)，管理云资源。
+·         First hands on experience with observability tools such as Grafana and Loki.
+熟练使用Grafana、Loki等可观测性工具。
+·         Familiarity with SAP BTP (Business Technology Platform) is a plus.
+熟悉SAP Business Technology Platform优先。
+·         Good troubleshooting and problem-solving skills.
+优秀的故障排查与问题解决能力。
+·         Willingness to engage in on-call duty.
+愿意参与轮班值守(On-call Duty)。",Kubernetes 云原生 Scala DevOps Gin Linux Unix Python Shell Azure Go 容器化,https://www.liepin.com/job/1982260469.shtml
+Murex CEM 顾问（DevOps 工程师）,探恪(上海)软件科技有限公司,25-35k·13薪,北京-东城区,北京,本科,1-3年,5月19日更新,liepin,"Job Description:
+We are seeking a highly motivated Murex CEM Consultant to work on an Deploy and manage Murex Software using Murex tools and scripts.
+•	Perform basic smoke tests. Act as a first level support, re-directing and following the issues with the corresponding support teams.
+•	Utilize Murex configuration management tools & methodologies to import/export configuration items and analyze related issues.
+•	Perform database sanitization and purging procedures. Migration sequence execution and stabilization. Reconciliation mismatch production. Follow up on migration defects.
+•	Contribute in creating the CEM methodologies, conversion processes, communication workflows and needed templates and documentations.
+•	Customize and document the installation and the conversion/upgrade procedures.
+•	Deliver needed trainings and best practices for clients.
+•	Manage internal streams by contributing in creating tools, measure related KPIs and analyze potential issues. 
+ 我们正在寻找一位积极主动的 Murex CEM 顾问，负责使用 Murex 工具和脚本部署和管理 Murex 软件。
+•	执行基本的烟测。作为一线支持人员，将问题转交给相应的支持团队并跟进问题处理。
+•	运用 Murex 配置管理工具与方法，导入/导出配置项，并分析相关问题。
+•	执行数据库清理和清除流程。执行迁移序列并确保其稳定运行。生成对账不匹配报告。跟进迁移缺陷。
+•	参与制定 CEM 方法论、转换流程、沟通工作流以及所需的模板和文档。
+•	定制并编写安装及转换/升级流程的文档。
+•	为客户提供必要的培训和实践指导。
+•	通过参与工具开发、衡量相关 KPI 和分析潜在问题，管理内部工作流。
+
+Requirements:
+•	Master's or Bachelor's Degree, preferably from Computer Network, Computer Science or related discipline.
+•	At least 2-3 years working as Murex Configuration Environment Management Consultant, or DevOps Engineer. 
+•	Strong knowledge and experience of Unix or JavaScript.
+•	Motivation to work in the financial software/ investment banking industry.
+•	Experienced with Shell Script, SQL.
+•	Hands-on experience in Windows, Linux server administration.
+•	Experienced in Control-M setup and familiarity with batch architecture.
+•	Experienced in middleware tools ( Kafka, MQ etc).
+•	Familiar with Cloud Computing, such as DevOps (Git, Jenkins)/ Cloud (AWS, Azure) and other tools CI/CD, Oracle.
+•	Knowledge of Murex GOM is a great plus.
+•	A strong proven track record of client servicing. Understand customer needs and build effective relationships.
+•	Strong time management skills and demonstrable problem solving/analytical skills. 
+•	Fluent in English and Chinese
+岗位要求：
+•	硕士或学士学位，计算机网络、计算机科学或相关专业优先。
+•	至少 2-3 年 Murex 配置环境管理顾问或 DevOps 工程师工作经验。
+•	扎实掌握 Unix 或 JavaScript 的知识与经验。
+•	有志于从事金融软件/投资银行业务。
+•	具备 Shell 脚本和 SQL 经验。
+•	拥有 Windows、Linux 服务器管理实践经验。
+•	熟悉 Control-M 配置，了解批处理架构。
+•	具备中间件工具（如 Kafka、MQ 等）经验。
+•	熟悉云计算及 DevOps（Git、Jenkins）/云平台（AWS、Azure）等工具，以及 CI/CD、Oracle。
+•	了解 Murex GOM 者优先考虑。
+•	有良好的客户服务记录，能够理解客户需求并建立有效的合作关系。
+•	具备较强的时间管理能力以及可证明的问题解决/分析能力。
+•	中文和英语听说读写流利
+ ",Gin DevOps Unix JavaScript Shell SQL Linux Kafka Git Jenkins AWS Azure,https://www.liepin.com/job/1982629399.shtml
+Senior DevOps Engineer(Contractor),罗技(中国)科技有限公司,15-30k·13薪,上海-静安区,上海,本科,3-5年,7月29日更新,liepin,"【The Role】
+Logitech is the excellent provider of personal peripherals that connect people in a natural, intuitive way to the digital experiences they care about. Our product design group strives at developing products with a powerful blend of artistic design, surprising science, and innovation driven by consumer insight. Focused on innovation and quality, we want to change the way people use our peripherals by offering a more comfortable, fun, productive, convenient, delightful and seamless experience with the digital world!
+
+A fundamental part of our strategy is building scalable, reliable, and secure cloud-native platforms that power these experiences. Our engineering organization is actively looking for a talented Senior DevOps Engineer to design, implement, and evolve our infrastructure and CI/CD ecosystems across global environments.
+
+You will be responsible for building highly automated, scalable, and resilient platforms across multi-cloud environments including AWS and Alibaba Cloud. You will be a critical member of a team that includes software engineering, QA, security, and platform architecture.
+________________________________________
+【Who you are】
+You have practical knowledge and demonstrable success in building and managing cloud infrastructure and DevOps platforms at scale.
+You enjoy working with distributed systems and solving complex infrastructure and deployment challenges.
+
+-You are able, with limited supervision, to design, implement, and maintain CI/CD pipelines and infrastructure automation.
+-You possess strong troubleshooting skills and can quickly identify and resolve issues across infrastructure, application, and network layers.
+-You are able to design and maintain scalable, secure, and cost-effective cloud environments.
+-You are passionate about improving developer productivity through automation and platform engineering.
+-You actively mentor peers and drive adoption of DevOps best practices across teams.
+-You are a team-first type of colleague.
+-You do not shy away from writing code or scripts using Python, Bash, or other automation tools to improve efficiency.
+________________________________________
+【Your Contribution】
+-Lead the design and implementation of scalable, secure, and highly available infrastructure across AWS and Alibaba Cloud.
+-Build, optimize, and maintain CI/CD pipelines using tools like GitLab CI/CD and Jenkins to support rapid and reliable software delivery.
+-Design and implement Infrastructure as Code (IaC) solutions using tools such as Ansible, Terraform, or similar frameworks.
+-Drive automation across build, deployment, monitoring, and incident response workflows.
+-Collaborate with development, QA, and security teams to ensure seamless integration and delivery of applications.
+-Implement monitoring, logging, and alerting systems to ensure high availability and performance of services.
+-Ensure system reliability through proactive performance tuning, capacity planning, and incident management.
+-Drive DevOps best practices including continuous integration, continuous delivery, and continuous improvement.
+-Establish standards for environment consistency, security compliance, and operational excellence.
+-Continuously evaluate and adopt new tools and technologies to improve platform efficiency and developer experience.
+-Periodically report platform performance, reliability metrics, and DevOps maturity improvements to stakeholders.
+________________________________________
+【Key Qualifications】
+For consideration, you must bring the following minimum skills and behaviors to our team:
+-A minimum of 3+ years of experience in a DevOps / SRE / Platform Engineering role.
+-Strong hands-on experience with cloud platforms such as Amazon Web Services and Alibaba Cloud.
+-Extensive experience with CI/CD tools such as GitLab CI/CD and Jenkins.
+-Proficiency in configuration management and automation tools such as Ansible.
+-Strong experience with Infrastructure as Code (Terraform or similar tools preferred).
+-Experience with containerization and orchestration technologies such as Docker and Kubernetes.
+-Solid scripting/programming skills in Python, Bash, or similar languages.
+-Strong understanding of networking concepts, security best practices, and cloud architecture.
+-Experience with monitoring and observability tools (Prometheus, Grafana, ELK stack, etc.).
+-Hands-on experience with version control systems like Git.
+-Strong debugging and problem-solving skills across distributed systems.
+________________________________________
+【Preferable skills】
+-Experience working in multi-cloud or hybrid cloud environments.
+-Experience with cost optimization and cloud governance practices.
+-Exposure to security and compliance frameworks in cloud environments.
+-Experience with blue-green deployments, canary releases, and progressive delivery techniques.
+-Familiarity with service mesh and microservices architecture.
+-Experience supporting globally distributed systems.
+________________________________________
+【Education】
+B.E/M.E in Computer Science, Electronics, Electrical Engineering, or a related field.
+________________________________________
+Logitech is the sweet spot for people who are passionate about products, making a mark, and having fun doing it. As a company, we’re small and flexible enough for every person to take initiative and make things happen. But we’re big enough in our portfolio, and reach for those actions to have a global impact. That’s a pretty sweet spot to be in and we’re always striving to keep it that way.
+
+“All qualified applicants will receive consideration for employment without regard to race, sex, color, religion, sexual orientation, gender identity, national origin, protected veteran status, or on the basis of disability.”
+
+Logitech 是全球优秀的个人外设产品供应商，致力于通过自然、直观的方式连接用户与他们关心的数字体验。我们的产品设计团队专注于以艺术性设计、创新科技和以用户洞察为驱动的创新，开发出强大且具有美感的产品。我们关注创新与质量，希望通过舒适、有趣、高效、便捷、令人愉悦并且无缝的数字体验改变用户的外设使用方式！
+
+公司战略的核心之一是打造可扩展、可靠且安全的云原生平台，以支持上述产品体验。
+
+我们的工程团队正在积极招募一位才华横溢的高级 DevOps 工程师，负责在全球环境下设计、实现和优化基础设施及 CI/CD 平台。
+
+【岗位职责】：
+您将负责在包括 AWS 和阿里云在内的多云环境中搭建高度自动化、可扩展且高可靠的平台。您将成为涵盖软件开发、QA、信息安全和平台架构的团队中的重要一员。
+
+【职位要求】：
+- 具备实际经验与证明业绩，能够搭建和管理大规模云基础设施和 DevOps 平台
+- 热衷于与分布式系统协同工作，善于解决复杂的基础设施和部署难题
+- 能独立设计、实现和维护 CI/CD 流水线及基础设施自动化
+- 拥有出色的排错能力，能快速定位并解决基础设施、应用和网络等各层面问题
+- 能设计并维护可扩展、安全且成本可控的云环境
+- 对自动化和平台工程提升开发生产效率充满激情
+- 主动指导团队成员推广 DevOps 实践
+- 优秀的团队协作意识
+
+【工作内容】：
+- 负责 AWS 和阿里云环境下可扩展、安全和高可用基础设施的设计与实施
+- 利用 GitLab CI/CD、Jenkins 等工具搭建并维护持续集成/持续交付流水线
+- 使用 Ansible、Terraform 等框架设计和实现基础设施即代码（IaC）方案
+- 推动自动化部署、监控和事件响应流程
+- 与开发、QA、安全团队密切协作，确保应用的无缝集成与交付
+- 实现监控、日志、告警系统，保证服务高可用性与性能
+- 通过性能调优、容量规划和事件管理确保系统高可靠性
+- 推动持续集成、持续交付及持续改进等 DevOps 实践
+- 建立环境一致性、安全合规和运维标准
+- 持续评估、采用新工具和新技术，提升平台效率和开发体验
+- 定期向相关利益方报告平台性能、可靠性指标和 DevOps 进展
+
+【任职资格】：
+- 3 年及以上 DevOps/SRE/平台工程相关经验
+- 熟练掌握 AWS 和阿里云等云平台
+- 熟悉 CI/CD 工具（如 GitLab CI/CD、Jenkins）
+- 精通配置管理和自动化工具（如 Ansible）
+- 强大的 IaC（基础设施即代码）实践经验（尤以 Terraform 为佳）
+- 熟悉容器和编排技术（如 Docker、Kubernetes）
+- 扎实的脚本编程能力（Python、Bash 等）
+- 熟悉云平台网络和安全实践
+- 熟悉监控与可观测性工具（如 Prometheus、Grafana、ELK 等）
+- 精通 Git 等版本管理工具
+- 出色的分布式系统调试和故障定位能力
+
+【优先考虑条件】：
+- 有多云或混合云环境经验
+- 有云成本优化和治理实践经验
+- 熟悉云环境下安全和合规框架
+- 了解蓝绿部署、金丝雀发布及渐进式发布策略
+- 熟悉服务网格和微服务架构
+- 有支持全球分布式系统经验
+
+【学历要求】：
+- 计算机、电子或电气工程等相关本科/硕士学历
+
+Logitech 适合那些充满激情、渴望产生影响并享受工作的人。我们公司足够小，可以让每个人积极主动，大展拳脚；也足够大，能够让你的贡献产生全球影响。",Git Scala Gin DevOps CI/CD ROS AWS CAN Python GitLab CI Jenkins Ansible,https://www.liepin.com/job/1984485133.shtml
+DevOps工程师,某公司,20-28k·13薪,天津,天津,本科,5-10年,7月28日更新,liepin,"The DevOps Engineer requires strong Linux administration skills, Kubernetes expertise, and hands-on experience supporting microservices architectures.
+Key Responsibilities
+1.Build and maintain CI/CD pipelines for microservices delivery.
+2.Deploy, manage, and troubleshoot Kubernetes clusters and workloads.
+3.Administer Linux servers, including performance tuning, security hardening, and automation.
+4.Work with development teams to containerize applications and optimize deployment strategies.
+5.Implement observability solutions (metrics, logs, tracing, alerting).
+6.Ensure platform reliability, scalability, and disaster recovery readiness.
+7.Manage infrastructure as code and configuration management.
+8.Enforce DevSecOps best practices across build and runtime environments.
+Required Qualifications
+1.3+ years of DevOps/SRE/platform engineering experience.
+2.Solid Linux skills (processes, networking, storage, permissions, system troubleshooting).
+3.Strong Kubernetes knowledge (pods, deployments, services, ingress, RBAC, Helm).
+4.Practical experience with microservices in production environments.
+5.Experience with container technologies (Docker/containerd).
+6.Proficiency with CI/CD tools (e.g., Jenkins, GitHub Actions, GitLab CI).
+7.Scripting ability in at least one language (Bash, Python, or Go).
+8.Familiarity with cloud platforms (AWS/Azure/GCP) and IaC tools (Terraform/Ansible).
+Experience with Prometheus, Grafana, ELK/EFK are a plus.",DevOps Gin Linux Kubernetes ROS CI/CD Scala RAG Helm Docker Jenkins Git,https://www.liepin.com/a/77666313.shtml
+DevOps工程师,某上海人力资源服务公司,20-25k·13薪,苏州-太仓,苏州,硕士,3-5年,7月6日更新,liepin,"Digital Devops Engineer
+Role & Responsibility:
+o	Define and develop Secure DevOps, CI/CD to manage and execute releases and cloud deployments.
+o	Engage with teams to conduct security risk assessments and conform to organizational remediation/mitigation timelines in different phases of the secure product development lifecycle
+o	Provide product security support to development teams, including reviewing and explaining security tools and processes, providing vulnerability explanations and remediation guidance
+o	Optimize product/system security by creating and reviewing architecture and detailed design solutions that reflect best practices
+o	Define and develop centralized Security Data Management - Security Lake/Hub and active Security
+Monitoring and notification services
+o	Coordinate product security program metrics and reporting
+o	Support ongoing vulnerability and patch management through tracking, triaging and prioritizing across all digital offerings to minimize the potential security risk
+o	Help drive all digital platform requirements to meet the regulatory and compliance requirements (like
+GDPR, ISO, ISA/IEC, SOC2, TRAMP, and FedRAMP)
+o	Partner with third-party vendors to deliver software security tools and services
+o	Partner closely on security operations tasks with cross-functional teammates in IT, DevOps, Security, Engineering, Compliance, and Test
+o	Identify the design implications within a digital platform and loT edge system and work with teams to minimize security attack surface
+o	Influence program decisions to reduce the risk exposure of the company
+o	Participate in Zero-day remediation, Hotfixes, and Incident Response efforts
+o	Identify and review test coverage for the security aspects of the system
+o	Assist in responses to external audits, customer questionnaires, penetration tests and vulnerability assessments
+Qualification:
+o	Bachelor's or Master's degree in Computer Science, Electrical Engineering or similar engineering discipline with an emphasis on cyber security
+o	5+ years of cumulative experience in software development and engineering expertise in Application, Network, Cloud, Mobile, and loT Edge Systems.
+o	5+ years of expertise in cloud-based service, data centers, cloud-native architecture, operations, and engineering best practices
+o	5+ years of expertise in Product Security, Security Architecture and Security Assessment: Threat Modeling, Secure Development, Risk Assessment, Threat Analysis, DFMEA, Penetration Testing, Secure software development lifecycle (SSDLC, SDL, SSDF).
+o	Strong knowledge of security containers, hands-on experience with DevSecOps principles, and end-to-end DevSecOps processes
+o	Strong knowledge of current security threats, techniques, and landscape, as well as a self-motivated desire to research current in the cybersecurity landscape
+o	Strong knowledge of OpenSSL, loT Core/Edge, TLS mutual authentication, PKI, digital signatures, and certificate management
+o	Experience in implementing and integrating security tools into CI/CD - with various application security tools, including SAST, SCA, IAST, DAST, API Security, WAF, Shield, and RASP
+o	Experience with Agile methodologies such as Scrum and Kanban NPD
+o	Ability to research, develop, and keep abreast of tools, techniques, and process improvements in support of security detection and analysis following current and emerging threats • Knowledge of penetration testing techniques, application security vulnerabilities,
+o	Knowledge of Security Industry Standards and Frameworks:
+o	Ability to plan the work of others to achieve mid-term to long-term goals and monitor outcomes
+",Git DevOps Gin CI/CD Go ROS RAG PKI,https://www.liepin.com/a/77568529.shtml
+DevOps工程师,计算机软件其他100-499人,15-30k·13薪,上海-长宁区,上海,统招本科,3年以上,7月15日更新,liepin,"A Day in The Life of Our DevOps Engineer:
+1. Have clear and solid relationships with software development departments.
+2. Plan and document work and projects.
+3. Build and continuously optimize CI/CD process and streamline automation effort for server provisioning and applications deployment.
+4. Build a resilient and scalable service infrastructure to accommodate regions.
+5. Deploy, monitor and scale application services.
+6. Mentor team members and drive knowledge sharing.
+7. Participate in project management and on-going strategic planning.
+8. Participate in an on-call rotating schedule.
+
+Who you are and what you’ll need for this position:
+1. 6+ years of experience in DevOps / SRE environment.
+2. 6+ years of experience working with Linux, Windows systems.
+3. Strong understanding and knowledge of Kubernetes. 
+4. Strong understanding and knowledge of cloud infrastructure components such as Alibaba Cloud (.EC2, ACK, RDS, ElasticSearch, OSS, NAS, DNS and network appliances )
+5. Working knowledge of Jenkins, GitLab or alternative Continuous Integration systems.
+6. Strong understanding of Infrastructure as a Code approach (Terraform preferred).
+7. Good understanding of Software Development Lifecycle.
+8. Good understanding of microservice architecture.
+9. Good experience in Monitoring k8s clusters, APM, services and infrastructure located in Alibaba Cloud  (ARMS,Prometheus，Grafana).
+10. Ability to create automation tools in Go, Python, NodeJs, Bash, Powershell.
+11. Familiarity with Continuous Delivery tools used with microservices（Ansible, Packer etc.).
+12. Working knowledge of Jenkins, GitLab or alternative Continuous Integration systems.
+13. Coding Experience.
+
+Nice to have:
+1. Mysql Database Administration
+2. AMQ
+3. AWS (EC2,EKS, RDS, Opensearch, S3, Storage, Route53 and network appliances) as a plus
+4. Hands-on experience architecting and securing cloud networking such as VPC peering, Transit Gateways, subnet, and security groups
+5. Understanding of Active Directory, DNS and Domain
+ ",DevOps Gin IPS CI/CD Scala Go Linux Kubernetes Elasticsearch Jenkins Git LTE,https://www.liepin.com/job/1974523337.shtml
+DevOps工程师,某知名公司,30-60k·15薪,香港,,本科,3-5年,5月6日更新,liepin,"DevOps Engineer
+About Us
+
+Hi! We are a high-energy, fast-growing tech team based in Singapore. We believe that great infrastructure is the heartbeat of a great product. More importantly, we believe that the best work happens when passionate people sit together, share ideas, and solve challenges as one team. We truly cherish our people and are looking for a teammate who values stability, automation, and continuous growth.
+
+
+The Journey You’ll Embark On
+
+In this role, you aren’t just ""maintaining servers""—you are the architect of our digital reliability. You will:
+Guardian of Stability: Take the lead in keeping our production environments healthy. You’ll be the hero who responds to alerts, resolves incidents, and helps us learn through thoughtful post-mortems.
+Global Cloud Architect: Design and manage our multi-region AWS world. You'll ensure our resources are organized, secure, and ready to scale across the globe.
+Kubernetes Master: Take care of our EKS clusters. You’ll handle upgrades and daily operations, making sure our services evolve smoothly without our users even noticing.
+GitOps & CI/CD Pioneer: Orchestrate our deployment magic using Tekton and ArgoCD. You’ll help us maintain a high-standard GitOps workflow and Helm Chart specs so our developers can ship code with confidence.
+Edge & Network Specialist: Manage our ""front door"" using CloudFront and Cloudflare, ensuring our global connectivity is fast and secure.
+Data & Middleware Support: Keep our databases (RDS, DynamoDB, Redis, etc.) running at peak performance through smart capacity planning and version upgrades.
+Observability Expert: Build and fine-tune our ""eyes and ears""—Prometheus, Grafana, and PagerDuty—so we always stay one step ahead of potential issues.
+
+
+We’d Love to Chat if You Have...
+
+Around 3+ years of experience in a Cloud-Native or SRE environment (we value your hands-on journey).
+A friendly familiarity with AWS core services (EC2, EKS, RDS, VPC, IAM, etc.) and their real-world applications.
+Confidence in Kubernetes—you know your way around Pods, Nodes, and Ingress, and you enjoy writing clean Helm templates.
+Experience with ArgoCD and GitOps—you love the idea of ""everything as code.""
+A solid understanding of Linux and Networking (TCP, DNS, HTTPS, TLS).
+The ability to script in Python, Go, or Shell to make life easier through automation.
+A ""Calm under Pressure"" Mindset: When things get tricky, you focus on ""stopping the bleed"" first, then finding the root cause.
+The Heart of a Teacher: You enjoy documenting your findings (SOPs) and sharing knowledge with the team.
+
+Bonus Points (We'd be extra excited!)
+
+Experience with Service Mesh (Istio) or API Gateways (APISIX).
+A passion for fine-tuning Prometheus metrics and Grafana dashboards.
+Familiarity with logging stacks (ELK, Loki) or OpenTelemetry.
+Experience with Multi-cloud (GCP/Azure) or large-scale clusters.
+AI Enthusiast: You use AI tools to boost your daily workflow.
+
+What We Offer
+
+A Place Where You Belong: A warm, collaborative office culture where your voice is heard.
+Professional Growth: We support your certifications (AWS/CKA) and provide a budget for your learning.
+The ""SG"" Perks: Competitive base salary, 13th-month bonus (AWS), performance rewards, and comprehensive medical insurance.
+Great Office Vibes: A fully onsite environment that fosters mentorship, spontaneous brainstorming, and team bonding.",DevOps Gin Git AWS ROS Kubernetes CI/CD Go Helm CAN Redis Prometheus,https://www.liepin.com/a/75280301.shtml
+DevOps工程师,某世界500强IT服务公司,18-25k,深圳,深圳,统招本科,2-4年,6月10日更新,liepin,"岗位职责（Responsibilities）
+
+与跨职能团队协作（包括软件开发、测试工程师、产品经理等），共同完成系统和应用的设计、开发、测试与部署
+使用现代工具为移动端（React Native）设计、构建并维护 CI/CD 流水线
+自动化移动端特有流程，包括：
+
+代码签名（Code Signing）
+Provisioning（证书/配置管理）
+App Store 提交流程（如 AppCenter 等）
+
+建立并优化 DevOps 流程、方法和工具，提升软件交付的效率、质量和稳定性
+通过实践确保系统在安全性、可扩展性及性能方面达标
+与业务及相关方沟通，明确需求并设计解决方案，交付符合业务需求的系统
+监控系统性能，分析问题并持续优化
+确保符合行业标准、实践以及合规要求
+持续关注新技术趋势，为系统优化提供建议
+具备 DevOps 与认证授权相关知识（如 OAuth）
+熟悉 MySQL，具备 SQL 编写能力，理解数据库结构（表结构、主键、索引等）
+熟悉云开发（优先 AWS / Azure / GCP）
+
+
+✅ 岗位要求（Requirements）
+
+计算机、工程或相关专业本科及以上学历
+至少2年以上 DevOps 工程经验，有团队管理经验优先
+扎实的软件开发、云计算及 DevOps 实践背景
+熟练掌握以下技术：
+
+OpenShift / Kubernetes
+GitOps
+Helm
+AWS / Azure
+Bash / Python
+
+熟悉敏捷开发方法（Scrum 或 Kanban）
+有云平台（AWS / Azure）实践经验
+熟悉容器化与编排技术（Docker / Kubernetes）
+熟悉基础设施即代码（IaC）工具，如 Terraform 或 Ansible
+熟悉版本控制工具（Git）
+精通粤语、普通话及英语
+
+
+✅ 优先条件（Preferred Qualifications）
+
+持有 AWS / Azure 或其他云认证
+持有 DevOps 相关认证（如 DevOps Foundation、DevOps Engineer）
+
+✅ 技术专项要求（补充）
+📱 移动端开发
+
+具备 React Native 实战经验（iOS + Android）
+
+
+⚙️ DevOps 工具
+
+精通 GitHub Actions、Azure DevOps、Backstage
+
+🧾 脚本与自动化
+
+熟练掌握 TypeScript 和 Bash 自动化脚本
+
+🔁 CI/CD
+
+有移动端CI/CD流水线（mobile pipeline）搭建与管理经验
+
+🚀 发布管理
+
+熟悉：
+
+App Store Connect（苹果发布）
+Google Play Console（安卓发布）
+
+🔐 安全
+
+掌握 DevSecOps（尤其是 SAST、SCA）
+
+✅ 核心能力（Core Qualifications）
+
+英语流利（必须）
+深入理解：
+
+移动端代码签名（Code Signing）
+Provisioning（证书管理）
+构建环境（Build Environment）",React Native CI/CD DevOps MySQL SQL AWS Azure Kubernetes Git Helm Python 容器化,https://www.liepin.com/a/76638631.shtml
+AI DevOps Engineer,上海弼博信息技术有限公司,30-60k,上海-浦东新区,上海,本科,3-5年,7月16日更新,liepin,"职位描述：AI DevOps Engineer
+岗位概述
+我们正在寻找一位对技术充满热情、熟悉 AI 基础设施的 AI DevOps / MLOps 工程师。你将负责公司核心 GPU 算力集群、AI 训练与推理平台的架构设计、日常运维及性能优化。你的工作将直接赋能算法研发团队，通过构建自动化、高可用、可扩展的 MLOps 流水线，确保大模型训练、微调与推理服务的稳定运行，化算力为生产力。
+岗位职责
+1. 异构算力与 GPU 集群管理
+•	硬件与驱动维护： 负责 NVIDIA GPU 服务器（如 H100、A100、B200 等集群）的日常运维、故障排查。
+•	软硬件生态兼容： 负责 CUDA、cuDNN、NCCL、NVLink、InfiniBand 等底层驱动与网络环境的安装配置、版本管理与性能调优。
+•	算力调度： 基于 Kubernetes 开展 GPU 虚拟化、共享与硬隔离技术（如 MIG、vGPU），最大化提升算力利用率。
+2. Containerization 与 K8s 调度优化
+•	容器化管理： 深度参与算法开发环境（Docker）的标准制定，管理高并发、高弹性的容器集群。
+•	AI 专属调度： 负责 Kubernetes（及 KubeFlow、Volcano、Ray 等 AI 调度框架）的日常维护与定制，优化分布式训练任务的启动、容错与排队机制。
+3. MLOps 平台与流水线建设
+•	CI/CD 流程构建： 负责构建从代码提交、算法测试、模型训练、模型评估到一键部署（CI/CD）的完整自动化流水线。
+•	服务部署（Serving）： 协助算法团队部署和优化高性能推理服务，维护如 Triton Inference Server、vLLM、TGI、Ollama 等主流推理框架的稳定运行。
+4. 高性能存储与网络保障
+•	数据吞吐优化： 负责管理和优化适配 AI 训练的大容量、高性能文件存储系统（如 Ceph、Lustre、MinIO 等），确保百万级小文件/TB级数据集的高速读取。
+•	网络带宽监控： 监控和优化 GPU 间分布式训练的 RDMA/InfiniBand 高速网络，解决节点间通信延迟瓶颈。
+5. 监控告警与成本控制
+•	全栈监控： 构建针对物理机、GPU 温度/显存、RDMA 网络、容器及应用的多维度监控与告警系统（如 Prometheus、Grafana、DCGM Exporter）。
+•	成本优化： 统计算力使用效率，通过 Spot 实例（竞价实例）调度、闲置资源回收等手段，合理优化云端及物理服务器的使用成本。
+任职要求
+1. 专业背景与工作经验
+•	计算机、软件工程、信息技术等相关专业本科及以上学历，3年以上 DevOps 或 SRE 经验。
+•	至少 1-2 年专门服务于 AI/大模型/深度学习团队的运维经验，对 AI 研发全生命周期（数据-训练-部署-监控）有深入理解。
+2. 专业技术栈
+•	系统与脚本： 精通 Linux 系统管理，熟练掌握 Python、Shell、Go 等至少一种语言。
+•	容器与编排： 精通 Docker 和 Kubernetes (K8s)，有大规模 K8s 集群维护经验者优先。
+•	AI 基础设施： 熟悉 NVIDIA 显卡生态及驱动链，有 PyTorch、TensorFlow、Deepspeed、Megatron-LM 等大模型训练框架部署经验者优先。
+•	工具链： 熟练使用 Ansible、Terraform 等基础设施即代码（IaC）工具；熟练掌握 GitLab CI、GitHub Actions 或 Jenkins。
+3. 软实力与加分项
+•	具有优秀的排错与应急响应能力，对“训练任务中断”、“显存溢出 (OOM)”、“网络分裂”等常见 AI 训练故障有敏锐的直觉和解决经验。
+•	具备AWS、Azure、GCP 等海外公有云运维经验，了解云网络、存储、权限、成本和安全等方面的特点
+•	加分项：熟练使用至少一种AI Coding工具，在AI协作下完成需求。
+•	具备良好的沟通能力与服务意识，能听懂算法工程师的痛点，并将其转化为工程解决方案。
+•	具备良好的英语读写能力，包括阅读技术文档、撰写运维文档、参与邮件沟通。
+ ",DevOps Gin 高可用 大模型 Kubernetes K8s 容器化 Docker 高并发 CAN 分布式 CI/CD,https://www.liepin.com/job/1984181691.shtml
+DevOps Engineer,某上海大型整车制造公司,18-30k,上海-浦东新区,上海,统招本科,5-10年,6月24日更新,liepin,"We are seeking a skilled DevOps Engineer to maintain our CI/CD pipelines and build tools/products to support different Systems and Automation. The ideal candidate will work closely with development, QA, and security teams to enable rapid and reliable software delivery aligned with Agile, DevSecOps, and BDD practices
+
+The candidate should possess a strong development background, capable of writing clean, maintainable, and production-ready code (e.g. Java, Go, Python or similar).
+Demonstrates self-management and ownership, with the ability to independently drive tasks from design to delivery with minimal supervision.
+Exhibits a self-motivated and proactive attitude, continuously improving systems, processes, and automation.
+Strong sense of accountability and responsibility in delivering reliable and high-quality solutions.
+
+Location: Shanghai
+
+Service Scope / Deliverables:
+
+• Build/Manage Platform & Framework
+
+• Coding/Testing/Knowledge share
+
+• Research & System Architecture
+
+Qualifications / Requirements:
+
+• Bachelor’s degree in computer science, Software Engineering, or related field
+
+• 3–8+ years of experience in DevOps / Platform/Software Engineering roles
+
+• Strong hands-on experience with:
+
+◦ CI/CD tools: GitLab/Gitlab CI, Jenkins, Ansible, Terraform, etc.
+
+◦ Containers: Docker / Podman
+
+◦ Kubernetes (Helm, networking, storage)
+
+◦ Linux system
+
+• Experience with scripting/programming:
+◦ Java/Bash, NodeJS, Python, or Go
+◦ DB, ORM, Spring/Boot/Cloud, Vert.x etc.
+
+• Good English reading and writing skills
+
+Preferred Qualifications
+
+• Knowledge of DevSecOps and compliance frameworks
+
+• Experience with:
+◦ Nexus / Harbor repository management
+◦ Proxy and networking (Squid, TLS, CA certificates)
+◦ Performance testing tools (JMeter, Locust)
+
+• Exposure to BDD frameworks (Cucumber Java/Ruby)
+
+• Experience with air-gapped or enterprise environments
+
+Key Skills
+
+• Problem-solving and troubleshooting
+
+• Strong understanding of distributed systems
+
+• Automation mindset
+
+• Communication and teamwork
+
+Nice to Have
+
+• Experience with:
+◦ Redis, Kafka-like systems
+◦ Observability stacks like Prometheus, Grafana, Loki, OpenSearch, ELK,etc.
+◦ AI/LLM deployment locally (optional, modern edge)
+
+◦ Certification
+
+• CKA/CKAD
+
+• AWS/Azure/GCP DevOps Certification",DevOps Gin CI/CD CAN Java Go Python Git GitLab CI Jenkins Ansible Terraform,https://www.liepin.com/a/77086691.shtml
+Senior DevOps Engineer(AliCloud）,计算机软件1000-2000人,15-27k·14薪,成都-高新区,成都,本科,5-10年,6月22日更新,liepin,"Responsibilities:
+1. Design, implement and manage AliCloud CI/CD pipelines to facilitate automated build, test, and deployment processes for applications and services.
+2. Familiar with code governance, release management, artifact management & integration toolchain in SDLC.
+3. Continuously improve and optimize the performance and scalability of the cloud-based infrastructure and service.
+4. Troubleshoot and resolve issue related to Alicloud platform, application deployments and performance, and participate in on-call support as needed.
+5. Provide analysis and support to development team to improve and automate the build/release/deployment processes
+6. Participate and report on cost optimization exercises for cloud resources
+7. Not only providing the development capabilities but also having operation technique across infrastructure, IT service management, disastrous recovery, patching, monitoring in our self-owned systems.
+8. Our stakeholders are scattering in APAC region, as a DevOps Engineer, Fluent English both in oral and writing is preferred.
+
+Qualifications:
+1. Bachelor’s Degree in Computer Science, Engineering, Software Engineering.
+2. Strong experience with Linux-based infrastructures, Linux/Unix administration, and Kubernetes.
+3. Strong experience with AliCloud (e.g. ACK, ARMS, KMS,Cloud-native Api Gateway.. )
+4. Solid understand on the DevSecOps process with CI/CD pipeline management platforms such as GitHub, Jenkins, Artifactory, Snyk etc.
+5. Strong scripting skills  such as Shell, Python, Groovy, Bash.
+6. Experience in Monitoring. (e.g. NewRelic, ARMS)
+7. More than five years of experience in a DevOps Engineer role (or similar role); experience in software development and infrastructure development is a plus.
+8. Experience in working with Azure is preferred.
+9. Nice to have experience working with infrastructure as code (Terraform, Ansible)
+10. Nice to have AliCloud certification (e.g. ACA, ACP or ACE)
+
+
+
+
+ ",CI/CD Go Scala ROS DevOps Gin Linux Unix Kubernetes ARM Git Jenkins,https://www.liepin.com/job/1983587593.shtml
+运维开发工程师,上海磐松私募基金管理有限公司,200-250元/天,上海-杨浦区,上海,本科,,90天前更新,liepin,"运维开发工程师负责管理、维护公司的各种基础硬件与系统，例如服务器，数据库，日志系统和容器系统等。理想的系统工程师需要细心、谨慎，面对问题有沉稳的心态，具备良好的服务意识、沟通能力、协调能力和语言表达能力，具备团队协作精神。
+1. 负责 Windows 及 Linux 服务器的监控、调优、维护与故障排除，保障服务器稳定、安全、高效运行。
+2. 负责监控系统和日志系统的搭建、管理与维护。
+3. 负责 Kubernetes 容器化平台的开发、监控与故障处理。
+4. 使用 Python 编写自动化巡检脚本，参与公司后端的开发与维护，与各团队协同推进项目迭代。
+5. 协助团队完成系统开发与维护工作，参与排查和解决技术问题。积极探索新技术栈，协助团队提升工作效率。
+岗位要求
+1. 公办本科及以上学历，具有计算机相关专业背景，计算机基础优秀者不限专业。
+2. 熟悉 Linux 基本操作应用，能使用 Shell 等脚本语言进行脚本的开发和维护。
+3. 掌握计算机核心基础知识：计算机网络、数据结构与算法、操作系统、计算机组成原理。
+4. 熟悉主流关系型数据库（如 MySQL）或非关系型数据库（例如 MongoDB, Redis）的基本概念与操作。
+5. 熟悉 Docker / Kubernetes 等虚拟化技术。
+6. 工作态度细心、认真，做事谨慎，具备较强的学习能力，具有良好的团队协作及沟通能力，具有较强的责任意识和服务意识。
+
+
+
+截止日期：2027年03月24日
+招聘人数：2人",Linux Kubernetes 容器化 Python Shell MySQL MongoDB Redis Docker,https://www.liepin.com/lptjob/81267817
+DevOps Engineer (MJ006824),大众汽车(安徽)有限公司,12-14k·13薪,大连-金州区,大连,本科,应届,7月31日更新,liepin," Key tasks and responsibilities:
+
+1、Lead conceptual design of data-related systems, aligning with corporate goals for stable manufacturing operations and cost control.
+Develop data infrastructure optimization plans, tailoring them to the company’s strategic goal of boosting operational efficiency via digitalization.
+2、Document data management processes and results systematically, ensuring alignment with the strategic requirement for standardized data security.
+3、Mastering the trend of domestic and international new technologies, contributing to the New technology application in enterprise digitalization transformation.
+4、Project/Program Management for region or strategic topics; Balancing adequate implementation models (waterfall, agile, devops) for projects.
+5、Maintain, Optimize data-processing workflows, boosting data utilization efficiency, eliminating redundant operations, and shortening data - processing cycles.
+6、Setup internal knowhow.
+
+Qualification and skills:
+1、Bachelor's degree or above in Computer Science, Data Science, Information Technology, or related fields; a master's degree is preferred.
+2、3+ years of experience in Database, big data analytic. with a manufacturing background is preferred. Excellent fresh graduates are also welcome to consider
+3、Knowledge/Skill(mandatory)
+4、Programming language, Proficiency in SQL, and Proficiency in Python or Java, and Proficiency in shell.
+5、Big data technologies (e.g., Hadoop, Spark, Hive, HDFS, principles of data warehousing, etc).
+6、Database Principles and Operations (Relational and non-relational), database certification.
+7、BI tool, able to create complex reports, solve report issue, familiarity with Power BI is preferred
+Other
+8、English Skill. Collaboration and teamwork 
+9、Strong analytical, strategic planning, and cross-departmental communication skills.
+10、Familiar with data security regulations.
+11、Ability to drive technical innovation and team development, with good problem-solving capabilities and a results-oriented mindset.
+
+截止日期：2027年07月14日
+招聘人数：1人",Go Git DevOps SQL Python Java Shell Hadoop Spark Hive HDFS ROS,https://www.liepin.com/lptjob/84130483
+运维开发工程师【2026届应届生投递],北汽汽车金融(杭州)有限公司,8-10k·13薪,北京-丰台区,北京,本科,应届,5月25日更新,liepin,"职位描述
+工作职责：
+1.负责公司业务系统日常运维监控、信息收集、日常巡检及现场核查安排等工作；
+2.负责运维自动化脚本、运维平台工具的开发、调试落地及功能初审工作；
+3.负责各类业务项目运维环境的沟通与协调，推进环境搭建、项目部署、上线发布等工作；
+4.负责线上业务系统及服务器的日常巡检，定期完成系统稳定性、安全合规等运维管理工作。
+
+任职要求：
+1.本科及以上学历，计算机、软件工程、网络工程、信息安全等相关专业优先；
+2.熟悉 Linux 系统、网络架构、数据库、中间件相关知识，具备一定的系统运维、脚本开发经验；
+3.熟悉 Docker、Kubernetes等容器化与云原生技术，有k8s集群运维经验；
+4.具有运维开发、DevOps 相关行业经验优先，熟悉一种或多种编程语言，例如 Python/Go/Java；
+5.具有良好的逻辑思维能力、沟通表达能力、计划组织能力；具备较强责任心、故障排查能力和安全风险意识，能够独立完成岗位相关工作。
+
+截止日期：2027年05月25日
+招聘人数：1人",Linux Docker Kubernetes 容器化 云原生 K8s DevOps Python Go Java 安全合规 系统运维,https://www.liepin.com/lptjob/82824135
+AI智能运维开发工程师,秦淮数据集团,100-150元/天,北京-朝阳区,北京,本科,,90天前更新,liepin,"核心职责：
+研发 IDC 运维大模型，实现故障预测（如服务器宕机、制冷异常）、资源调度自动化；搭建多源数据（温湿度 / 能耗 / 设备状态）分析平台。
+任职要求：
+精通 Python/TensorFlow，有分布式机器学习、边缘计算经验优先。
+
+招聘人数：1人",大模型 Python TensorFlow 分布式 机器学习 IDC,https://www.liepin.com/lptjob/79848953
+运维开发工程师,南京顺亿科技有限公司,7-10k·13薪,南京-江宁区,南京,本科,应届,90天前更新,liepin,"职位描述
+学历：本科及以上学历。
+专业：计算机类、水文水资源相关专业。
+工作经验：类似行业2年以上
+其他:
+1） 有Java开发经验优先
+2） 熟悉Linux操作系统，具备常见故障的诊断、分析;
+3） 熟悉掌握Tomcat、Apache、Weblogic、 WebSphere、Nginx等中间件使用及部署;
+4） 熟悉主流的数据库（ORACLE、SQLServer、MySQL、DM等），掌握数据库操作方法;
+5） 具备良好的文档编写习惯和代码书写规范;具备良好的学习能力、沟通能力、分析及解决问题能力，优秀的团队协作精神。
+6） 有优秀的学习能力，善于沟通，有强烈的责任感和严谨的工作态度。
+7） 品行端正，形象良好，身体健康，无不良记录，普通话标准，语言流利。
+8） 中共党员、学生干部（学院级以上学生干部或社团主要负责人）、有文体特长者优先。
+
+截止日期：2026年09月19日
+招聘人数：1人",Java Linux Tomcat Nginx Oracle SQL MySQL 文档编写,https://www.liepin.com/lptjob/77357635
+IT运维开发工程师,和利时科技集团,100-120元/天,西安-高新区,西安,学历不限,,90天前更新,liepin,"岗位职责：
+1、熟悉linux、Oracle、tomcat等开源软件的运维、部署与维护；
+2、负责服务器及网络安全设备的运维管理，包括配置管理、数据备份和灾备、监控、应急响应和故障排除等；
+3、参与其他与运维相关的工作，包括应用系统的部署、配置、优化及监控，性能调优，安全运维等。
+
+岗位要求：
+1、熟悉java开发，沟通效率高，熟悉SSH框架和oracle数据库优先考虑，做过OA系统相关运维工作优先考虑；
+2、能熟练运用linux常用命令，熟悉linux基本配置操作;
+3、有较强的沟通表达能力、团队协作能力、快速学习能力；
+4、具备基本的网络知识；
+5、有容灾、备份、性能调优等经验者优先。
+
+
+招聘人数：1人",Linux Oracle Tomcat Java 应急响应,https://www.liepin.com/lptjob/70034513
+运维开发前端工程师(J10845),长三角数链(上海)网络基础设施有限公司,10-20k,上海-徐汇区,上海,本科,应届,7月13日更新,liepin,"职责描述：
+1.运维平台前端开发
+负责运维类 Web 应用的前端设计与开发，包括但不限于：
+监控告警平台（如指标看板、告警列表）
+自动化部署系统（发布流程、任务执行）
+配置管理平台（CMDB、资源拓扑）
+日志分析系统（日志检索、链路追踪）
+容量管理、成本分析、权限管理等内部工具
+2.数据可视化与交互优化
+实现高性能的图表、拓扑图、时序数据展示（如使用 ECharts、G2、D3.js）。
+优化复杂表格、树形结构、流程图等组件的交互体验。
+支持实时数据更新（WebSocket、SSE）和大数据量渲染（虚拟滚动、懒加载）。
+3.与后端/运维系统深度对接
+与运维开发后端工程师协作，定义 API 接口规范。
+集成运维系统能力（如执行命令、触发部署、查看日志）到前端界面。
+处理异步任务状态、错误反馈、操作审计等运维特有逻辑。
+4.平台工程与工程化建设
+参与前端工程体系建设：组件库、脚手架、构建流程、自动化测试。
+推动低代码/可配置化方案，提升内部工具开发效率。
+保障系统在高并发、长时间运行下的稳定性与性能。
+5.用户体验与可用性提升
+面向专业用户（运维、SRE、开发）设计高效操作路径。
+编写用户文档、操作指引，收集反馈并持续优化。
+任职要求：
+1. 大学本科以上学历。
+2.前端技术栈
+核心语言：精通 HTML5、CSS3、JavaScript（ES6+），熟悉 TypeScript。
+主流框架：熟练掌握 Vue.js 或 React（国内运维平台多用 Vue，大厂可能用 React）。
+状态管理：熟悉 Vuex / Pinia / Redux / Zustand 等。
+构建工具：熟悉 Vite / Webpack / Rollup 等构建流程。
+UI 组件库：熟悉 Element Plus、Ant Design、Naive UI 等，有定制或封装经验。
+3. 运维相关能力
+理解基本运维概念：服务器、容器、日志、监控、部署、CI/CD 流程。
+能看懂简单 Shell 命令或 API 返回的运维数据结构（如主机列表、Pod 状态、告警事件）。
+了解 RESTful API、WebSocket、GraphQL 等前后端通信方式。
+4. 数据可视化与性能
+有 ECharts、G2、Apache Superset、Grafana 插件开发经验者优先。
+掌握前端性能优化手段：懒加载、防抖节流、内存泄漏排查、首屏优化。
+能处理万级数据表格、实时刷新、长连接等场景。
+5. 工程与协作能力
+具备 2 年以上前端开发经验，有 内部系统/中后台/B 端产品 开发经验者优先。
+熟悉 Git、CI/CD 流程，能配合自动化测试与部署。
+有良好的代码规范、文档习惯和团队协作意识。
+对 用户体验敏感，能站在运维人员角度思考操作效率。
+
+截止日期：2027年05月12日
+招聘人数：1人",WebSocket 高并发 HTML5 CSS3 JavaScript TypeScript Vue React Vite Webpack CI/CD Shell,https://www.liepin.com/lptjob/82476663
+运维测试工程师(J10846),长三角数链(上海)网络基础设施有限公司,10-20k,上海-徐汇区,上海,本科,应届,5月12日更新,liepin,"职责描述：
+1. 运维类系统的质量保障
+负责运维平台（如监控告警、自动化部署、CMDB、日志平台、权限中心等）的功能、性能、稳定性测试。
+验证运维工具在高并发、大规模集群、异常网络/节点故障等场景下的行为是否符合预期。
+2. 自动化测试体系建设
+设计并开发自动化测试框架，覆盖接口、UI、命令行、Webhook 等多种交互形式。
+编写自动化测试脚本（Python/Shell/Go/Java），集成到 CI/CD 流水线中，实现“提交即测”。
+构建冒烟测试、回归测试、混沌测试（Chaos Engineering）等自动化用例库。
+3. 可观测性与故障验证
+验证监控指标、日志采集、告警触发、链路追踪等可观测性功能的准确性与完整性。
+模拟真实故障场景（如节点宕机、网络延迟、磁盘满、API 超时），验证系统自愈或告警能力。
+4. 发布与变更验证
+参与运维平台的灰度发布、滚动升级、回滚流程测试。
+验证配置变更（如 Ansible Playbook、K8s YAML）对系统的影响，防止“配置即故障”。
+5. 质量左移与协作
+在需求/设计阶段介入，提出可测性、可观测性、容错性建议。
+与运维开发工程师、SRE、后端工程师紧密协作，推动质量内建（Quality Built-in）。
+6. 测试环境与数据管理
+搭建和维护贴近生产环境的测试集群（可能包含虚拟机、容器、云资源）。
+管理测试数据（如模拟主机、服务拓扑、告警事件），支持快速复现问题。
+任职要求：
+1. 大学本科及以上学历。
+2.测试专业能力
+熟悉软件测试理论、测试流程、测试用例设计方法（等价类、边界值、状态迁移等）。
+具备 3 年以上测试经验，有 中后台系统、运维平台、DevOps 工具链 测试经验者优先。
+熟悉 接口测试、性能测试、稳定性测试、安全测试 等专项测试。
+3. 技术栈要求
+编程语言：熟练掌握 Python（主流），或 Shell、Go、Java 中至少一种，能独立编写测试脚本。
+自动化框架：熟悉 pytest、unittest、Robot Framework、Postman + Newman 等。
+运维知识：
+熟悉 Linux 系统操作与 Shell 脚本；
+了解 Docker、Kubernetes、CI/CD（Jenkins/GitLab CI）；
+熟悉常见中间件（Nginx、Redis、Kafka、ZooKeeper）；
+了解监控工具（Prometheus、Zabbix、Grafana）、日志系统（ELK）。
+网络与协议：理解 HTTP/HTTPS、TCP/IP、RESTful API、WebSocket 等。
+4. 工具与平台
+熟练使用 Jira、TestRail、禅道等测试管理工具。
+有 Jenkins、GitLab CI、ArgoCD 等流水线集成经验。
+了解混沌工程工具（如 Chaos Mesh、LitmusChaos）者优先。
+5. 软技能与意识
+具备 系统思维 和 故障排查能力，能快速定位问题根因。
+有 SRE 思维：关注 SLI/SLO/SLA，理解“故障是常态，快速恢复是关键”。
+强烈的 质量意识 和 owner 意识，对线上稳定性负责。
+良好的沟通能力，能与开发、运维、产品高效协作。
+
+截止日期：2027年05月12日
+招聘人数：1人",高并发 Python Shell Go Java CI/CD Gin Ansible K8s DevOps Linux Docker,https://www.liepin.com/lptjob/82476773
+售后实习生（上海）,三未信安,150-200元/天,上海-徐汇区,上海,本科,,6月10日更新,liepin,"岗位职责：
+1.负责公司自有密码产品在客户环境的部署、实施，以及产品的售后维护；
+2.协助运维开发工程师对公司产品的部分界面或功能的二次开发与维护；
+3.负责公司自有密码产品的维护、技术运维相关文档、手册的编写整理；
+4.负责客户现场密码产品的故障处理和问题收集反馈。
+
+任职要求：
+1.计算机软件类相关专业在读；
+2.掌握Linux系统，了解JAVA语言，对数据库或网络通信有一定学习和了解；
+3.可根据不同客户的需求制定并实施综合性的运维技术方案，有较高的沟通能力、分析问题和解决问题的能力；
+4.具有良好的沟通表达能力和团队合作精神，有强烈的责任心、主动性和自我学习成长能力；
+5.可实习6个月及以上者，优先考虑。
+
+截止日期：2026年12月31日
+招聘人数：1人",Linux Java 技术方案,https://www.liepin.com/lptjob/83330961
+运维产品工程师(J10847),长三角数链(上海)网络基础设施有限公司,10-20k,上海-徐汇区,上海,本科,应届,5月12日更新,liepin,"职责描述：
+1. 产品规划与需求管理
+深入理解运维、SRE、开发团队的痛点（如发布慢、故障定位难、资源浪费、权限混乱等），挖掘真实需求。
+负责运维平台产品线（如监控告警、自动化部署、CMDB、日志平台、权限中心、成本治理等）的 全生命周期管理：规划 → 需求 → 设计 → 上线 → 运营 → 迭代。
+制定产品路线图（Roadmap），明确短期目标与长期演进方向。
+2. 平台产品设计
+输出高质量产品文档：PRD、用户故事、流程图、原型图（Axure/Figma/Sketch）。
+设计面向专业用户的交互逻辑（如批量操作、状态机、拓扑图、指标看板），平衡 功能强大性 与 操作效率。
+定义平台核心指标：如部署成功率、MTTR（平均恢复时间）、资源利用率、用户采纳率等。
+3. 跨团队协同与推动落地
+与运维开发工程师、SRE、后端/前端/测试团队紧密协作，推动产品按时高质量交付。
+协调安全、合规、财务等团队，确保平台满足企业治理要求（如等保、审计、成本分摊）。
+组织 UAT（用户验收测试）、培训、推广，提升平台使用率和用户满意度。
+4. 数据驱动与持续优化
+建立产品埋点与数据分析体系，监控平台使用行为与效能指标。
+通过用户反馈、工单、故障复盘等渠道，持续优化产品体验与功能。
+推动平台从“能用”到“好用”再到“智能”（如引入 AIOps 能力）。
+5. 技术理解与行业洞察
+跟踪 DevOps、GitOps、Platform Engineering、FinOps 等前沿趋势。
+评估开源方案（如 Prometheus、ArgoCD、OpenTelemetry）与商业产品的适用性。
+推动内部平台与云厂商（阿里云、AWS、Azure）能力的融合。
+任职要求：
+1.大学本科及以上学历。
+2. 核心能力
+有 B 端 / 中后台 / 内部平台产品经验，有 运维、DevOps、SRE、云原生相关产品经验者优先。
+熟悉 软件开发生命周期（SDLC） 和 ITIL/DevOps 方法论。
+具备 技术理解力：能与工程师无障碍沟通，理解容器、K8s、CI/CD、监控、日志、网络等概念。
+优秀的 需求抽象与优先级判断能力，能在复杂场景中抓住本质问题。
+3. 产品技能
+熟练使用产品设计工具：Axure、Figma、Sketch、MindManager 等。
+能独立撰写清晰、结构化的 PRD 文档。
+具备数据敏感度，能通过 SQL、Excel 或 BI 工具（如 QuickBI、Tableau）分析用户行为。
+
+截止日期：2027年05月12日
+招聘人数：1人",DevOps Git Gin Prometheus Go 阿里云 AWS Azure 云原生 K8s CI/CD SQL,https://www.liepin.com/lptjob/82476863
+售后实习生（济南）,三未信安,150-200元/天,济南-高新区,济南,本科,,6月10日更新,liepin,"岗位职责：
+1.负责公司自有密码产品在客户环境的部署、实施，以及产品的售后维护；
+2.协助运维开发工程师对公司产品的部分界面或功能的二次开发与维护；
+3.负责公司自有密码产品的维护、技术运维相关文档、手册的编写整理；
+4.负责客户现场密码产品的故障处理和问题收集反馈。
+
+任职要求：
+1.计算机软件类相关专业在读；
+2.掌握Linux系统，了解JAVA语言，对数据库或网络通信有一定学习和了解；
+3.可根据不同客户的需求制定并实施综合性的运维技术方案，有较高的沟通能力、分析问题和解决问题的能力；
+4.具有良好的沟通表达能力和团队合作精神，有强烈的责任心、主动性和自我学习成长能力；
+5.可实习6个月及以上者，优先考虑。
+
+截止日期：2026年12月31日
+招聘人数：1人",Linux Java 技术方案,https://www.liepin.com/lptjob/82054419
+售后实习生（北京）,三未信安,150-200元/天,北京-朝阳区,北京,本科,,6月10日更新,liepin,"岗位职责：
+1.负责公司自有密码产品在客户环境的部署、实施，以及产品的售后维护；
+2.协助运维开发工程师对公司产品的部分界面或功能的二次开发与维护；
+3.负责公司自有密码产品的维护、技术运维相关文档、手册的编写整理；
+4.负责客户现场密码产品的故障处理和问题收集反馈。
+
+任职要求：
+1.计算机软件类相关专业在读；
+2.掌握Linux系统，了解JAVA语言，对数据库或网络通信有一定学习和了解；
+3.可根据不同客户的需求制定并实施综合性的运维技术方案，有较高的沟通能力、分析问题和解决问题的能力；
+4.具有良好的沟通表达能力和团队合作精神，有强烈的责任心、主动性和自我学习成长能力；
+5.可实习6个月及以上者，优先考虑。
+
+截止日期：2026年12月31日
+招聘人数：1人",Linux Java 技术方案,https://www.liepin.com/lptjob/82054395
+C++ 工程师,上海秉昊私募基金管理有限公司,1-3k,上海-虹口区,上海,本科,应届,5月18日更新,liepin,"量化c++ 运维开发工程师
+职位概述
+负责日常公司量化交易系统的柜台对接开发、交易通道维护及系统运维保障工作，确保交易系统稳定、高效、低延迟运行，支持多策略、多账户的复杂交易需求。
+
+岗位职责
+1. 柜台系统对接开发
+负责与券商柜台系统的接口开发与维护
+实现交易指令路由、订单管理、持仓同步、资金查询等核心功能
+开发行情接入模块
+设计并实现多账户、多通道的负载均衡与故障切换机制
+2. 交易运维保障
+7×24小时交易系统运维监控，保障开盘期间系统零故障运行
+盘前环境检查、盘后数据核对与清算对账
+实时监控系统性能指标（延迟、吞吐量、内存、网络），及时处理异常
+突发事件应急响应与故障排查，制定并执行应急预案
+3. 系统优化与维护
+持续优化系统延迟（网络栈调优、内核参数优化、CPU亲和性绑定）
+管理交易服务器集群（物理机、虚拟机、容器化部署）
+维护版本发布流程，确保灰度发布与快速回滚能力
+编写运维脚本（Python/Shell），提升运维自动化水平
+4. 合规与风控支持
+配合风控团队实现事前/事中风控规则的技术落地
+确保交易数据完整性，支持审计与合规检查需求
+
+ 我们寻找的你
+理工专业，计算机/金工相关专业
+精通C++11/14/17，熟悉STL、多线程编程、网络编程（TCP/UDP）
+熟悉Linux系统编程，掌握性能分析工具（perf、vtune、systemtap）
+掌握Python/Shell脚本，具备自动化运维能力
+加分项：
+– 具备金融业务知识，熟悉证券期货交易流程（订单、回报、资金、持仓）
+- 2年以上c++开发经验（可非量化相关）
+实习需满足每周 ≥4 天，连续 ≥3 个月，可远程但需保证核心时段在线
+
+软技能要求
+责任心强：交易时段必须确保系统稳定，具备盘前提前到岗、盘后延时离岗的觉悟
+抗压能力强：能在交易故障等高压场景下冷静快速定位问题
+沟通协调能力：能有效对接券商技术部门、内部投研团队及风控合规部门
+ 
+
+截止日期：2027年04月16日
+招聘人数：2人",C++ 容器化 Python Shell Linux 系统运维 应急响应 故障排查 合规 审计,https://www.liepin.com/lptjob/81805969
+DevOps Engineer,高知特信息技术(上海),13-23k·14薪,上海-浦东新区,上海,学生可投,经验不限,6月3日更新,liepin,"We are seeking a skilled DevOps Engineer to maintain our CI/CD pipelines and build tools/products to support different Systems and Automation. The ideal candidate will work closely with development, QA, and security teams to enable rapid and reliable software delivery aligned with Agile, DevSecOps, and BDD practices
+
+The candidate should possess a strong development background, capable of writing clean, maintainable, and production-ready code (e.g. Java, Go, Python or similar).
+Demonstrates self-management and ownership, with the ability to independently drive tasks from design to delivery with minimal supervision.
+Exhibits a self-motivated and proactive attitude, continuously improving systems, processes, and automation.
+Strong sense of accountability and responsibility in delivering reliable and high-quality solutions.
+
+Location: Shanghai
+
+Service Scope / Deliverables:
+
+• Build/Manage Platform & Framework
+
+• Coding/Testing/Knowledge share
+
+• Research & System Architecture
+
+Qualifications / Requirements:
+
+• Bachelor’s degree in computer science, Software Engineering, or related field
+
+• 3–8+ years of experience in DevOps / Platform/Software Engineering roles
+
+• Strong hands-on experience with:
+
+◦ CI/CD tools: GitLab/Gitlab CI, Jenkins, Ansible, Terraform, etc.
+
+◦ Containers: Docker / Podman
+
+◦ Kubernetes (Helm, networking, storage)
+
+◦ Linux system
+
+• Experience with scripting/programming:
+◦ Java/Bash, NodeJS, Python, or Go
+◦ DB, ORM, Spring/Boot/Cloud, Vert.x etc.
+
+• Good English reading and writing skills
+
+Preferred Qualifications
+
+• Knowledge of DevSecOps and compliance frameworks
+
+• Experience with:
+◦ Nexus / Harbor repository management
+◦ Proxy and networking (Squid, TLS, CA certificates)
+◦ Performance testing tools (JMeter, Locust)
+
+• Exposure to BDD frameworks (Cucumber Java/Ruby)
+
+• Experience with air-gapped or enterprise environments
+
+Key Skills
+
+• Problem-solving and troubleshooting
+
+• Strong understanding of distributed systems
+
+• Automation mindset
+
+• Communication and teamwork
+
+Nice to Have
+
+• Experience with:
+◦ Redis, Kafka-like systems
+◦ Observability stacks like Prometheus, Grafana, Loki, OpenSearch, ELK,etc.
+◦ AI/LLM deployment locally (optional, modern edge)
+
+◦ Certification
+
+• CKA/CKAD
+
+• AWS/Azure/GCP DevOps Certification
+
+ ",DevOps Gin CI/CD CAN Java Go Python Git GitLab CI Jenkins Ansible Terraform,https://www.liepin.com/job/1983099313.shtml
+Junior Devops Engineer,高知特信息技术(上海),9-14k·14薪,深圳-南山区,深圳,学生可投,经验不限,7月31日更新,liepin,"We are seeking a skilled DevOps Engineer to maintain our JIRA/Confluence(or equivalent project management tools, e.g. pingcode, ones, etc.) and build tools/products to support different Systems and Automation. The ideal candidate will work closely with development, QA, and security teams to enable rapid and reliable software delivery aligned with Agile, DevSecOps, and BDD practices
+
+The candidate should possess a strong development background, capable of writing clean, maintainable, and production-ready code (e.g. Java, Go, Python or similar).
+
+Demonstrates self-management and ownership, with the ability to independently drive tasks from design to delivery with minimal supervision.
+
+Exhibits a self-motivated and proactive attitude, continuously improving systems, processes, and automation.
+
+Strong sense of accountability and responsibility in delivering reliable and high-quality solutions.
+
+Service Scope / Deliverables:
+
+• Build/Manage Platform & Framework
+
+• Coding/Testing/Knowledge share
+
+• Research & System Architecture
+
+Qualifications / Requirements:
+Mandatory Qualifications
+
+• Bachelor's degree in computer science, Software Engineering, or related field
+
+• 2–5 years of experience in DevOps / Platform/Software Engineering roles
+
+• Strong hands-on experience with:
+◦ CI/CD tools: GitLab/Gitlab CI, Jenkins, Ansible, Terraform, etc.
+◦ Containers: Docker / Podman
+◦ Kubernetes (Helm, networking, storage)
+◦ Linux system
+
+
+• Experience with scripting/programming:
+◦ Java/Bash, NodeJS, Python, or Go
+◦ DB, ORM, Spring/Boot/Cloud, Vert.x etc.
+
+• Good English reading and writing skills
+
+Preferred Qualifications
+
+• Knowledge of DevSecOps and compliance frameworks
+
+• Experience with:
+◦ Nexus / Harbor repository management
+◦ Proxy and networking (Squid, TLS, CA certificates)
+◦ Performance testing tools (JMeter, Locust)
+
+• Exposure to BDD frameworks (Cucumber Java/Ruby)
+
+• Experience with air-gapped or enterprise environments
+
+Key Skills
+
+• Problem-solving and troubleshooting
+
+• Strong understanding of distributed systems
+
+• Automation mindset
+
+• Communication and teamwork
+
+Nice to Have
+
+• Experience with:
+◦ JIRA, Confluence, or Pingcode, Ones, etc.
+◦ Terraform, ansible, etc.
+◦ Redis, Kafka-like systems
+◦ Observability stacks like Prometheus, Grafana, Loki, OpenSearch, ELK,etc.
+
+• AI/LLM deployment locally (optional, modern edge)
+
+• Certifications:
+
+◦ CKA / CKAD
+
+◦ AWS/Azure/GCP DevOps certifications",DevOps Gin CAN Java Go Python CI/CD Git GitLab CI Jenkins Ansible Terraform,https://www.liepin.com/job/1984542455.shtml
+AI DevOps 工程师,青岛华晟,15-35k,青岛-城阳区,青岛,学生可投,经验不限,5月26日更新,liepin,"岗位定位
+负责企业级 AI / Agent 平台的服务器管理、部署运维、稳定性保障、可观测体系、安全审计和成本治理。你需要保障 Agent 服务、知识库服务、模型服务、评估服务、MCP 工具服务和相关业务工具服务在生产环境中稳定运行，并能在出问题时快速定位、告警、降级、回滚和恢复。
+这个岗位不是传统服务器值守，而是面向 AI 基础设施的 DevOps 工程师，需要同时理解基础设施、服务治理和 AI 系统的运行特点。
+
+工作职责
+1.基础环境管理：负责服务器、网络、域名、证书、密钥、环境变量、配置中心和运行环境的规划、管理与日常运维。
+2.部署发布体系建设：建设并维护 Docker、Kubernetes、内部服务部署、CI / CD、镜像管理、配置管理、灰度发布、回滚、备份和恢复流程。
+3.AI 服务稳定性保障：保障 Agent 服务、知识库服务、模型调用服务、评估服务、MCP 工具服务、业务工具服务和相关中间件稳定运行。
+4.可观测体系建设：建设日志、指标、链路追踪、审计记录、看板、告警规则、值班机制、故障复盘和 SLO 管理体系。
+5.AI 运行指标监控：监控模型调用延迟、模型服务错误率、token 使用量、成本、配额、工具调用成功率、MCP 服务健康状态、知识库查询延迟、队列积压、并发量和资源使用率。
+6.基础组件运维：负责关系型数据库、缓存、搜索引擎、向量库、消息队列、对象存储和列式存储等基础组件的部署与运维。
+7.安全与治理机制建设：建立访问控制、权限审计、敏感信息保护、API Key / Token 管理、密钥轮换、高风险操作审计和日志归档机制。
+8.生产保障与应急响应：支持服务上线、压测、容量规划、性能优化、成本治理、故障演练、应急预案和生产问题排查。
+9.研发协作与运维标准化：与 Agent 开发工程师协作，推动服务可部署、可监控、可扩缩容、可回滚、可持续运维。
+
+任职要求
+1.Linux 系统运维：熟练掌握系统安装、服务管理、Shell 脚本编写及日志分析，能够独立完成环境问题的定位与排查，不依赖图形界面操作。
+2.工具代码开发能力：具备 Bash / Python 脚本或工具开发能力，能独立编写自动化脚本和运维工具，提升部署、巡检、排障和配置管理效率。
+3.CI / CD 丰富经验：熟悉 Docker 容器化打包、镜像管理、Jenkins / GitLab CI 等流水线配置与维护，有较丰富的 CI / CD 实践经验，能够独立完成服务部署、升级和版本回滚。
+4.监控与告警：了解 Prometheus / Grafana / ELK / OpenTelemetry / Langfuse 等常见监控与可观测工具，能搭建基础监控告警体系，具备日志分析、链路追踪和故障定位能力。
+5.网络与远程运维：能够处理 IP、DNS、防火墙、证书、反向代理、访问控制等常见网络问题，具备独立远程运维能力。
+6.基础组件运维：理解 Web 服务、API 网关、数据库、缓存、消息队列、对象存储、权限认证、密钥管理等基础组件，能参与部署、巡检、备份、恢复和问题排查。
+7.本地 LLM 与 AI 系统基础：了解本地大模型运行原理和常见部署方式，能协助判断硬件配置、推理服务、模型调用延迟、错误率、token 使用量、成本和配额等问题。
+8.AI 工具使用：能够使用 Claude Code / Codex 辅助完成日常运维、脚本开发、故障排查、配置整理和文档编写，并将 AI 工具融入日常工作流程。
+9.安全与审计意识：能处理 API Key、Token、Secret、敏感数据、权限边界、操作日志和访问审计，具备基本安全基线和风险控制意识。
+
+素质要求
+1.具备持续学习能力，能够快速适应新技术与新场景。
+2.具备较强抗压能力，适应快节奏、多线程的工作环境。
+3.具备良好的团队协作意识，主动暴露问题，及时沟通同步。
+
+加分项
+•有大模型部署经验，包括私有化模型服务、推理服务、GPU 资源管理、模型网关、模型 API 服务或 OpenAI-compatible 服务部署。
+•维护过 LLM 应用、Agent 平台、RAG 服务、MCP Server、模型 API 网关、企业内部 AI 工具或 AI Coding 平台。
+•熟悉主流大模型推理框架、GPU 运行环境或模型推理性能调优。
+•熟悉 Kafka / RabbitMQ / RocketMQ、Redis、PostgreSQL / MySQL、Elastic Search、MinIO / OSS、Doris / ClickHouse、Spark / Flink。
+•有自建机房、腾讯云、阿里云、AWS 等环境的部署和运维经验。
+•有内外网隔离、私有化部署、企业 OA、钉钉开放平台、制造业 IT 环境或混合云环境经验。
+•做过成本监控、配额系统、预算告警、容量规划、SLO 设计、故障演练或发布变更管理。",DevOps Docker Kubernetes Linux Shell Python 容器化 Jenkins GitLab CI Prometheus Grafana 防火墙,https://www.liepin.com/job/1982877049.shtml
+运维开发工程师(头部百亿量化),世纪前沿,25-55k,上海-徐汇区,上海,学生可投,经验不限,7月24日更新,liepin,"岗位职责：
+负责网络传输自动化相关系统的开发，包括传输链路监控、自动巡检、异常自愈等
+参与自动化风控平台的设计与开发，支持规则引擎、风险指标采集与实时评估
+负责告警中心的开发与维护，包括告警聚合、降噪、分级路由、通知渠道集成
+负责自动化流程可视化平台的开发，支持流程编排、DAG 可视化、执行状态追踪
+参与平台的日常运维保障，包括服务部署、监控配置、故障排查与复盘
+与业务方深度协作，将人工操作流程沉淀为可复用的自动化任务
+
+岗位要求：
+本科及以上学历，计算机相关专业
+2 年以上一二线互联网公司后端开发经验
+熟练掌握 Golang 或 Python（能同时使用两者优先）
+熟悉 TCP/IP 网络协议，了解常见网络问题的排查手段（抓包、延迟分析等）
+熟悉主流关系型数据库（MySQL / PostgreSQL）和非关系型数据库（Redis），有数据建模经验
+熟悉自动化/监控平台工具
+
+加分项：
+有 C++ 开发经验（不强求，有更好）
+有 Kafka / RocketMQ 等消息队列使用经验
+有 Prometheus + Grafana + Alertmanager 告警体系搭建经验
+有 Kubernetes / Docker 容器化运维经验
+有自研规则引擎或告警收敛/降噪系统经验
+有流程编排平台（Airflow / prefect / 自研 DAG）开发经验",Golang Python TCP/IP MySQL PostgreSQL Redis C++ Kafka RocketMQ Prometheus Grafana Kubernetes,https://www.liepin.com/job/1984185197.shtml
+华为云运维开发工程师招聘,华为云计算技术有限公司,15-30k,成都-郫都区,成都,学生可投,经验不限,90天前更新,liepin,"职责描述：
+【运维领域架构师】
+-打造99.99%服务可用性，负责高可用的运维架构设计、开发与优化；
+-负责云存储产品相关运维平台&工具设计、开发、部署、交付，持续集成与快速交付。
+-基于高可用运维视角系统推进产品可用性提升
+
+任职要求：
+-有较大型分布式系统或工具的设计、开发、运维经验
+-有一定开发经验，至少精通Python/Shell/C++/Go/Java语言中的一种；
+-熟练使用linux系统，熟悉主要系统配置含义和修改方式
+-计算机或相关专业本科及以上学历
+
+有以下任意一项经验者优先：
+-熟悉业界分布式云存储系统架构和产品服务，并具备相关运维经验者优先
+
+职责描述：
+【运维开发工程师】
+1、负责华为云存储服务运维工具体系的建设，对高可用、运维效能、SRE有深刻的理解和实践；
+2、负责运维工具平台设计、开发，主要负责存储服务交付、监控、变更、应急响应恢复等工具化能力建设，帮助存储服务提升现网运维效率，通过工具平台承载、规范运维业务流程；
+3、熟悉运维技术风险和运维技术发展趋势，为团队在技术风险领域的持续发展提出建议和贡献。
+
+职位要求:
+-有较大型分布式系统或工具的设计、开发、运维经验
+-有一定开发经验，至少精通Python/Shell/C++/Go/Java语言中的一种；
+-熟悉自动化运维平台模块，包括但不限于CI/CD发布系统、监控系统、告警系统、流程编排、日志采集/分析系统等
+-计算机或相关专业本科及以上学历
+
+有以下任意一项经验者优先：
+-熟悉业界分布式云存储系统架构和产品服务，并具备相关运维经验者优先
+
+职位描述:
+【运维&交付工程师】
+工作职责： 
+1. 负责华为云存储服务业务系统运维，包括系统升级、特性发布上线、服务运行资源建设&管理；
+2. 负责相关故障、疑难问题排查处理，跟踪闭环现网事件/问题闭环情况，编制汇总故障、问题，定期提交汇总报告;
+3. 负责存储运维相关流程的规划、设计、推行、实施和持续改进；
+4. 协助、推动产品完善、提升产品可用性、用户体验，提升产品整体竞争力
+
+职位要求:
+-了解系统（Linux）及上下游链路服务（网络/IO等），具有较强技术敏感度和故障排查经验
+-有一定开发经验，至少精通Python/Shell/C++/Go/Java语言中的一种；
+-熟悉服务部署、管理、扩缩容、监控、报警等运维系统。
+-具有良好的团队协作、沟通能力，乐于分享，良好的客户服务意识
+
+
+有以下任意一项经验者优先：
+-熟悉业界分布式云存储系统架构和产品服务，并具备相关运维经验者优先
+",高可用 分布式 Python Shell C++ Go Java Linux 华为云 CI/CD 应急响应 系统运维,https://www.liepin.com/job/1948507001.shtml
+运维开发工程师,尤尼泰(深圳)税务师事务所有限公司,20-30k,深圳,深圳,学生可投,经验不限,90天前更新,liepin,"运维开发工程师岗位职责：
+1)负责现有软件产品的技术实现和维护；负责JAVA应用程序的开发、调试、文档编写等工作；
+2)负责系统的日常管理、更新、维护，包括基于windows/linux的服务安装、应用部署、服务监控、故障应急处理;
+3)负责网络的维护，包括交换机、防火墙、VPN等设备的配置及维护;
+4)负责Citrix系统的日常维护；
+5)负责客户项目的运维对接，包括上线部署、维护、文档编写等工作。
+6)积极响应客户需求并进行定制化开发和交付；
+7)协助并完成其他各类技术开发任务。
+岗位要求：
+1)计算机相关专业本科及以上学历，三年及以上JAVA开发及运维经验；
+2)熟悉SpringMVC、Hibernate、Mybatis等技术，对B/S架构有丰富的开发经验；
+3)熟悉使用Vue，有前后端分离开发经验；
+4)熟悉主流服务器硬件，包括DELL服务器和存储等；
+5)熟悉WindowsServer、Linux操作系统的管理和维护；
+6)熟悉ActiveDirectory,DHCP，DNS等服务的日常运维；
+7)熟悉Citrix和HyperV的配置与维护管理；
+8)熟悉三层交换机、防火墙和VPN的配置和维护;
+9)熟悉ORACLE、MYSQL数据库的基本操作，熟悉SQL，熟悉安装、配置和优化；
+10)熟悉数据备份和灾难恢复机制，能完成相应备份设备的配置、规划及选型",Java Linux 防火墙 Spring Hibernate MyBatis Vue Oracle MySQL SQL 文档编写,https://www.liepin.com/job/1948231033.shtml
+AI平台运维开发工程师,北京开芯红科技有限公司,20-50k,北京-海淀区,北京,学生可投,经验不限,7月14日更新,liepin,"岗位职责:
+
+1. DevOps实践，使用Git进行代码版本控制，维护CI/CD流水线，推动自动化流程
+
+2. 平台工具运维，负责维护开发团队使用的协作工具，如飞书（文档）、Teambition（项目管理）等；
+
+3. 维护AI平台，监控AI 平台健康指标，确保平台高可用。
+
+4. 在AI Expert的指导下设计和优化系统架构，构建解决方案。
+
+5. 遵守开发流程，制订和维护必要的文档。
+
+6. 协助开发经理，参与到团队内部成员的技术提升，技术分享，技术赋能相关的工作。
+
+任职资格:
+
+1. 本科及以上学历，计算机相关专业，有较强的学习能力。
+
+2. 了解主流服务器与硬件平台(Dell /HPE/H3C/华为/浪潮等等)
+
+3. 对系统稳定性、资源利用率、性能问题有好奇心和判断力
+
+4. 熟悉 Docker 容器相关技术，熟悉云资源管理与网络配置，熟悉 CI/CD 工具。
+
+5. 备扎实的数据库知识，有SQL优化和数据库问题排查经验。
+
+6. 熟悉使用Git， 理解DevOps文化及相关工具链
+
+7. 较强的故障排除能力能够和团队一起解决系统问题，并能够根据情况设计水平/垂直扩展解决方案。
+
+8. 具备基本AI编程能力，能够借助AI编写代码。
+
+9. 工作责任心强，具备良好的团队合作精神，具备良好的沟通及协作能力、抗压及自我调节能力，以及较强的理解和解决问题的能力。
+
+加分项：
+
+- 大型互联网公司系统运维工作经验者优先；
+
+- 对于性能分析、编译构建、容量规划、故障定位和处理有经验优先；
+
+ ",DevOps Git CI/CD 高可用 Docker SQL 项目管理 系统运维,https://www.liepin.com/job/1982554609.shtml
+运维开发工程师(头部百亿量化),世纪前沿,25-55k,深圳-南山区,深圳,学生可投,经验不限,7月24日更新,liepin,"岗位职责：
+负责网络传输自动化相关系统的开发，包括传输链路监控、自动巡检、异常自愈等
+参与自动化风控平台的设计与开发，支持规则引擎、风险指标采集与实时评估
+负责告警中心的开发与维护，包括告警聚合、降噪、分级路由、通知渠道集成
+负责自动化流程可视化平台的开发，支持流程编排、DAG 可视化、执行状态追踪
+参与平台的日常运维保障，包括服务部署、监控配置、故障排查与复盘
+与业务方深度协作，将人工操作流程沉淀为可复用的自动化任务
+
+岗位要求：
+本科及以上学历，计算机相关专业
+2 年以上一二线互联网公司后端开发经验
+熟练掌握 Golang 或 Python（能同时使用两者优先）
+熟悉 TCP/IP 网络协议，了解常见网络问题的排查手段（抓包、延迟分析等）
+熟悉主流关系型数据库（MySQL / PostgreSQL）和非关系型数据库（Redis），有数据建模经验
+熟悉自动化/监控平台工具
+
+加分项：
+有 C++ 开发经验（不强求，有更好）
+有 Kafka / RocketMQ 等消息队列使用经验
+有 Prometheus + Grafana + Alertmanager 告警体系搭建经验
+有 Kubernetes / Docker 容器化运维经验
+有自研规则引擎或告警收敛/降噪系统经验
+有流程编排平台（Airflow / prefect / 自研 DAG）开发经验",Golang Python TCP/IP MySQL PostgreSQL Redis C++ Kafka RocketMQ Prometheus Grafana Kubernetes,https://www.liepin.com/job/1984185199.shtml
+DevOps Engineer,高知特信息技术(上海),15-28k·14薪,上海-浦东新区,上海,学生可投,经验不限,6月12日更新,liepin,"About the Role
+We are seeking a Senior DevOps / Platform Engineer in Shanghai. This is an onsite, full-time position supporting either CIS (Cloud Infrastructure & Security) or ADM (Application Development & Modernization) practice. The successful candidate will be responsible for building, maintaining, and optimizing CI/CD pipelines, cloud infrastructure, and monitoring platforms to ensure reliable and scalable application delivery.
+Key Responsibilities
+•	Design, build, and maintain CI/CD pipelines using Jenkins, Spinnaker, and other automation tools to enable efficient and reliable software delivery.
+•	Manage and optimize containerized environments using Kubernetes for deployment, scaling, and orchestration of microservices.
+•	Develop and maintain Unix Shell Scripts for automation, system monitoring, and operational tasks.
+•	Configure and manage cloud infrastructure on AliCloud, including VPC, ECS, OSS, SLB, and RDS services.
+•	Implement and maintain monitoring and logging solutions using Splunk for real-time system observability, alerting, and troubleshooting.
+•	Collaborate with development and operations teams to ensure seamless integration of DevOps practices into the software development lifecycle.
+•	Troubleshoot infrastructure and deployment issues, perform root cause analysis, and implement preventive measures.
+•	Document operational procedures, runbooks, and best practices to ensure knowledge sharing and team continuity.
+•	Support on-call rotation for production incidents and participate in post-incident reviews.
+Qualifications
+Must-Have:
+•	Hands-on experience with Splunk: Splunk query language (SPL), dashboard creation, alert configuration, and log analysis.
+•	Proficiency in Unix Shell Scripting: Ability to write, debug, and maintain complex shell scripts for automation and system administration.
+•	Experience with Spinnaker: Pipeline configuration, deployment strategies (blue/green, canary), and integration with cloud platforms.
+•	Practical experience with AliCloud: ECS, VPC, OSS, SLB, RDS, and basic cloud architecture design.
+•	Strong understanding of CI/CD concepts and tools: Jenkins pipeline setup, plugin management, and integration with version control systems (Git).
+•	Hands-on experience with Kubernetes: Pod deployment, service configuration, Helm charts, and cluster management.
+•	Solid understanding of Linux/Unix operating systems, networking fundamentals, and system troubleshooting.
+•	Good communication skills in English and Chinese; able to collaborate effectively with cross-functional teams.
+Nice-to-Have:
+•	AliCloud professional certifications (ACP/ACE).
+•	Kubernetes certifications (CKA / CKAD).
+•	Experience with Terraform, Ansible, or other Infrastructure-as-Code (IaC) tools.
+•	Familiarity with Docker, container registry management, and image optimization.
+•	Knowledge of monitoring tools beyond Splunk (e.g., Prometheus, Grafana, ELK stack).
+•	Experience in large-scale enterprise environments or digital transformation projects.
+•	Understanding of DevSecOps practices and security compliance in cloud environments.
+What We Offer
+•	Opportunity to work on a high-profile enterprise project with cutting-edge cloud and DevOps technologies.
+•	Exposure to AliCloud, Kubernetes, and Spinnaker in a real-world production environment.
+•	Collaborative and dynamic work culture with access to global Cognizant training and certification programs.
+•	Clear career progression path from SA to PA (Professional Associate) and beyond.
+•	Competitive compensation package and benefits for full-time e
+ ",DevOps Gin CAN CI/CD Scala Jenkins SPI Kubernetes ROS Unix Shell Git,https://www.liepin.com/job/1983396767.shtml
+DevOps工程师,上海泛超,8-12k,广州-天河区,广州,学生可投,1年以上,7月22日更新,liepin,"岗位职责‌
+协助完成AI模型的数据预处理、训练调优与性能评估
+参与NLP或CV方向的实际项目开发，包括模型选型、实验设计与结果分析
+构建与标注高质量训练数据集，确保数据合规性与标注一致性
+编写技术文档，记录实验流程、参数配置与模型表现
+部署并测试模型服务，配合运维团队完成GPU环境调试与资源调度
+跟踪国内外主流大模型进展，评估其在业务场景中的适用性
+核心技术要求‌
+1. 编程与AI开发能力‌
+·精通 ‌Python‌，熟悉常用库：Pandas、NumPy、Scikit-learn
+·熟练使用 ‌PyTorch‌ 或 ‌TensorFlow‌，能独立搭建、训练、调试神经网络
+·掌握监督/无监督学习原理，熟悉SVM、随机森林、XGBoost等算法
+·理解CNN、RNN、Transformer架构，能应用至图像分类、文本生成等任务
+·了解ONNX、TorchScript、TensorRT等模型优化与转换技术
+2. 国内外AI大模型认知‌
+·能区分其参数规模、开源协议、中文优化能力与适用场景，具备选型判断力
+·理解闭源模型API调用限制、长文本处理能力、多模态支持与合规风险
+实习生需能根据任务需求（如中文问答、长文档摘要、多模态解析）合理推荐模型，并说明理由。
+3. GPU服务器运维能力‌
+技术领域	必备技能	实践要求
+·硬件监控：nvidia-smi, gpustat, dcgm，实时识别GPU显存泄漏、温度异常、功耗波动。
+·环境配置：CUDA 12.x, cuDNN, NVIDIA驱动，解决版本冲突、驱动安装失败、CUDA out of memory等常见问题。
+·容器化：Docker + NVIDIA Container Toolkit	构建含GPU支持的镜像，实现模型服务标准化封装。
+·集群调度：Kubernetes + NVIDIA Device Plugin, Slurm，提交多卡训练任务，理解资源请求与队列机制。
+·通信优化：NVLink, RDMA，识别多卡通信瓶颈，优化训练效率。
+·运维实践：液冷系统、芯片级故障识别、备件管理，了解集群维保流程，能配合运维完成日志采集与异常复现。
+任职条件‌
+要求‌：1年以上工作经验，计算机、人工智能、数学、电子工程等相关专业
+学习能力‌：能主动阅读论文（如arXiv）、复现开源项目、快速掌握新技术
+沟通协作‌：具备清晰表达技术问题与进展的能力，能高效配合团队",大模型 Python Scikit-learn PyTorch TensorFlow XGBoost Transformer ONNX 容器化 Docker Kubernetes Gin,https://www.liepin.com/job/1984334885.shtml
+运维开发工程师,字节跳动,20-50k·15薪,北京-海淀区,北京,学历不限,经验不限,90天前更新,liepin,"职位描述
+参与混合云 GPU 服务器项目交付（硬件部署、系统配置、集群搭建）
+定位服务器软硬件故障，重点解决 GPU 相关问题，迭代故障处理手册。
+搭建标准化 GPU 环境（驱动、cuda、nccl、ib等）
+总结运维实践，输出技术文档；沉淀 GPU 服务器选型、性能测试能力，支撑团队决策。
+职位要求
+熟悉寒武纪、天数智芯、华为昇腾、英伟达等主流 GPU 卡特性，了解算力指标、驱动适配及故障排查要点。
+掌握服务器架构（x86/ARM），熟悉核心部件功能与故障排查；有硬件组装、检测经验者优先。
+熟练掌握 Python/Shell/Go 中至少一种语言，能独立开发测试、自动化脚本；了解 Git 者优先。
+理解 Linux 原理，熟练使用监控与排查命令；具备系统性能调优经验，能解决高并发瓶颈。
+沟通协作：高效对接内外部团队，在关键节点快速调动资源，推动问题解决。
+职业素养：细致严谨、责任心强、结果导向，抗压能力与学习能力突出，关注 GPU 技术动态。",ARM Python Shell Go Git Linux 高并发 技术文档 性能测试 故障排查,https://www.liepin.com/job/1977061167.shtml
+运维开发工程师,元知明启(上海)智能科技有限公司,16-26k,上海,上海,学生可投,3-5年,90天前更新,liepin,"（SRE/DevOps/三方软件集成方向）
+岗位职责：
+1. 运维架构与DevOps： 负责设计并维护高可用、高并发的系统架构；主导CI/CD（持续集成与持续交付）流程的优化与工具链开发，推动研发运维一体化（DevOps）落地。
+2. 网络安全： 负责整体网络安全体系的规划与实施，包括但不限于防火墙策略、入侵检测、漏洞扫描、安全审计及数据灾备，确保系统符合等保合规要求。
+3. 大数据运维： 负责大数据平台（如Hadoop、Spark、Flink、Kafka等）的部署、监控、调优及故障排查，保障数据处理的时效性与准确性。
+4. IT基础支持： 负责公司内部IT基础设施（服务器、网络设备、办公网络）的架构规划与技术支持，确保办公环境的稳定与安全。
+5. 三方软件本地化对接： 负责各类第三方商业或开源软件（如中间件、数据库、业务系统）的本地化部署、配置调优、版本管理及与公司自有系统的对接集成；解决异构环境下的兼容性问题。
+6. 统一监控体系建设： 建立覆盖自有系统与三方软件的统一监控体系（包括日志、指标、链路追踪），通过Prometheus、Grafana、ELK等工具实现全方位的可观测性，确保及时发现并定位各类软件的健康状态问题。
+7. 应急响应与预案： 快速响应并处理各类生产环境故障，包括涉及三方软件的复杂问题，输出事故报告并推进根因改进，定期组织应急演练。
+任职要求：
+1. 经验与学历： 本科及以上学历，计算机相关专业，5年以上Linux运维或开发运维经验，其中至少2年负责过大规模分布式系统运维。
+2. 开发能力： 精通Shell和Python/Go，能够独立开发高效的运维工具、自动化脚本及监控插件。
+3. 容器化与编排： 对Docker、Kubernetes有深入理解，有生产级集群管理经验，熟悉Service Mesh等云原生技术。
+4. 大数据技能： 熟悉大数据生态组件，具备实际的大数据集群性能调优与troubleshooting经验。
+5. 三方软件经验： 丰富的第三方软件（如Nginx、MySQL、Redis、MQ、ELK及各类商业软件）部署、配置及对接经验，熟悉许可证管理、版本升级策略及高可用部署模式。
+6. 监控与可观测性： 深入理解监控体系原理，精通至少一种主流监控/日志/链路追踪技术栈，具备从0到1构建统一监控看板的能力。
+7. 网络与安全： 深入理解TCP/IP协议；熟悉常见安全漏洞原理及防护手段，具备良好的安全攻防意识。
+8. 综合素质： 强烈的责任心与抗压能力，优秀的故障排查逻辑，具备良好的文档习惯和跨团队沟通能力。",DevOps 高可用 高并发 CI/CD 防火墙 漏洞扫描 Hadoop Spark Flink Kafka Prometheus Grafana,https://www.liepin.com/job/1982101655.shtml
+运维开发工程师,字节跳动,20-50k·15薪,上海-杨浦区,上海,学历不限,经验不限,90天前更新,liepin,"职位描述
+参与混合云 GPU 服务器项目交付（硬件部署、系统配置、集群搭建）
+定位服务器软硬件故障，重点解决 GPU 相关问题，迭代故障处理手册。
+搭建标准化 GPU 环境（驱动、cuda、nccl、ib等）
+总结运维实践，输出技术文档；沉淀 GPU 服务器选型、性能测试能力，支撑团队决策。
+职位要求
+熟悉寒武纪、天数智芯、华为昇腾、英伟达等主流 GPU 卡特性，了解算力指标、驱动适配及故障排查要点。
+掌握服务器架构（x86/ARM），熟悉核心部件功能与故障排查；有硬件组装、检测经验者优先。
+熟练掌握 Python/Shell/Go 中至少一种语言，能独立开发测试、自动化脚本；了解 Git 者优先。
+理解 Linux 原理，熟练使用监控与排查命令；具备系统性能调优经验，能解决高并发瓶颈。
+沟通协作：高效对接内外部团队，在关键节点快速调动资源，推动问题解决。
+职业素养：细致严谨、责任心强、结果导向，抗压能力与学习能力突出，关注 GPU 技术动态。",ARM Python Shell Go Git Linux 高并发 技术文档 性能测试 故障排查,https://www.liepin.com/job/1977061165.shtml
+运维开发工程师743,广发期货有限公司,15-30k,广州-天河区,广州,学生可投,经验不限,90天前更新,liepin,"职责描述:
+1. 负责公司核心业务系统的日常运维、流程优化和故障处理；
+2. 负责linux系统和信创系统的运维，保证系统稳定运行；
+3. 负责公司核心业务系统数据库的日常运维；
+4. 开发运维、监控和自动化工具。
+任职要求:
+1、本科及以上学历，计算机或相关专业。
+2. 拥有linux系统运维经验，熟悉常用操作命令；
+3. 至少熟练掌握一门编程语言（shell/python/perl/go等）；
+4. 熟练操作MySQL、ORACLE等至少一种数据库，熟悉编写SQL语句；
+5. 能接受每两个月5天夜班的安排（有完善的补助方案）；
+6. 严谨细致，勤恳踏实，责任心强，团队协作精神好，抗压能力强；
+7. 有金融行业系统运维经验的优先，熟练掌握C++编程的优先；
+8. 有企业数据库管理（DBA岗位）相关工作经验，具备数据库、操作系统或者信创资格证书优先。",Linux Shell Python Perl Go MySQL Oracle SQL C++ 流程优化 系统运维,https://www.liepin.com/job/1977047005.shtml
+AI 运维开发工程师,上海海立电器有限公司,薪资面议,上海-浦东新区,上海,学生可投,1-3年,90天前更新,liepin,"岗位三：
+岗位定位： 职位隶属于AI 治理与运维团队，负责“稳定与合规”。通过代码手段建设自动化运维体系，保障 AI 资产的安全与高效运行。
+1. 岗位职责
+•	模型服务保障： 负责 AI 推理服务的高可用建设，监控 GPU 显存、推理延迟及 QPS，通过技术手段解决服务抖动与资源瓶颈问题。
+•	自动化运维开发： 编写 Python/Shell 脚本，实现 AI 服务的自动化部署（CI/CD）、自动扩缩容、模型版本回滚及健康检查，拒绝人肉运维。
+•	合规与安全治理： 开发敏感词过滤中间件及安全护栏（Guardrails），通过代码实现对输入输出内容的自动审计与拦截，确保 AI 生成内容符合国企合规要求。
+•	成本与价值复盘： 开发 Token 消耗监控与成本分析工具，定期产出数字化运营报告，协助团队优化资源配置。
+2. 任职要求
+•	学历背景： 计算机、数学、自动化或相关专业本科及以上学历。
+•	编程能力（硬性）： 具备强代码能力，精通 Python 或 Go 语言，能够独立开发运维工具、监控脚本及自动化插件。
+•	运维技能： 精通 Linux 系统管理，熟练掌握 Docker、Kubernetes (K8s) 容器编排技术。熟悉 Prometheus + Grafana 监控体系。
+•	安全意识： 熟悉网络安全标准，有内容安全（Content Safety）或数据防泄漏（DLP）相关系统开发经验者优先。
+•	综合素质： 具备极强的责任心与故障排查能力，能够在压力下快速定位并解决生产环境问题。
+ ",高可用 Python Shell CI/CD Go Linux Docker Kubernetes K8s Prometheus Grafana 合规,https://www.liepin.com/job/1980012663.shtml
+DevOps 工程师(A45928),小鹏汽车,25-55k·15薪,北京-海淀区,北京,学生可投,经验不限,90天前更新,liepin,"职位描述：
+负责机器人软件研发的 CI/CD 流水线、自动化测试和仿真基础设施，提升团队交付效率和软件质量。
+1、设计和维护机器人软件 CI/CD 流水线（GitLab CI/Jenkins），实现从代码提交→编译构建→自动化测试→出包发布的全自动化；
+2、搭建和管理 SIL（软件在环）和 HIL（硬件在环）测试台架，支持机器人软件的持续集成验证；
+3、构建基于 MuJoCo/Isaac Sim 的仿真测试环境，支持运动控制、导航、操作等模块的自动化回归测试；
+4、开发和维护机器人软件的容器化部署方案，管理 Docker 镜像和 Kubernetes 集群；
+5、建立软件质量监控体系，包括构建成功率、测试覆盖率、缺陷趋势等度量指标。
+
+职位要求：
+1、本科及以上学历，计算机、软件工程等相关专业；
+2、具备 2 年以上 DevOps/CI-CD 工程经验；
+3、熟悉 GitLab CI、Jenkins、Argo Workflows 等至少一种 CI/CD 工具；
+4、精通 Docker 和 Kubernetes，有容器化应用的构建和部署经验；
+5、熟练使用 Python/Bash 编写自动化脚本，熟悉 Linux 系统管理。
+加分项：
+- 有机器人或自动驾驶软件的 CI/CD 经验；
+- 熟悉 Bazel 构建系统（交叉编译 x86/aarch64）；
+- 有仿真环境搭建经验（MuJoCo/Isaac Sim/Gazebo）；
+- 有 HIL 测试台架管理经验；
+- 了解 XTest 或类似的机器人自动化测试框架。",CI/CD GitLab CI Jenkins 容器化 Docker Kubernetes DevOps Go Python Linux 自动化测试,https://www.liepin.com/job/1981673189.shtml
+高级运维开发工程师 — 系统运维,字节跳动,20-40k,上海-杨浦区,上海,学生可投,经验不限,90天前更新,liepin,"职位描述
+1、负责头条公有云运维；
+2、负责各种基础系统搭建和维护；
+3、开发自动化运维平台，提高运维、开发协作效率，规范操作流程；
+4、优化各种系统，减少重复性工作。
+职位要求
+1 、大学大专及以上学历，计算机相关专业；
+2 、三年以上运维开发项目经验；
+3 、掌握常用开发语言 Shell/Python/Golang，熟悉业界主流技术，如Nginx、Mysql、ELK等；
+4、 熟悉 Linux 操作系统，熟悉各种网络协议；
+5 、有开源项目贡献者或开源项目领导优先；
+6 、有较强的学习能力，能够熟练阅读涉及产品和技术的英文文档；
+7 、能够承受较高的工作压力；有强烈的工作责任心；有较好的沟通能力；有良好的团队合作精神；
+8 、能够独立完成工作，具有较强的综合分析问题及解决问题的能力；
+9 、有良好的工作文档习惯，及时按要求撰写更新工作流程及技术文档。",Shell Python Golang Nginx MySQL Linux 技术文档,https://www.liepin.com/job/1975860291.shtml
+运维开发工程师,字节跳动,20-50k·15薪,杭州-余杭区,杭州,学历不限,经验不限,90天前更新,liepin,"职位描述
+参与混合云 GPU 服务器项目交付（硬件部署、系统配置、集群搭建）
+定位服务器软硬件故障，重点解决 GPU 相关问题，迭代故障处理手册。
+搭建标准化 GPU 环境（驱动、cuda、nccl、ib等）
+总结运维实践，输出技术文档；沉淀 GPU 服务器选型、性能测试能力，支撑团队决策。
+职位要求
+熟悉寒武纪、天数智芯、华为昇腾、英伟达等主流 GPU 卡特性，了解算力指标、驱动适配及故障排查要点。
+掌握服务器架构（x86/ARM），熟悉核心部件功能与故障排查；有硬件组装、检测经验者优先。
+熟练掌握 Python/Shell/Go 中至少一种语言，能独立开发测试、自动化脚本；了解 Git 者优先。
+理解 Linux 原理，熟练使用监控与排查命令；具备系统性能调优经验，能解决高并发瓶颈。
+沟通协作：高效对接内外部团队，在关键节点快速调动资源，推动问题解决。
+职业素养：细致严谨、责任心强、结果导向，抗压能力与学习能力突出，关注 GPU 技术动态。",ARM Python Shell Go Git Linux 高并发 技术文档 性能测试 故障排查,https://www.liepin.com/job/1977061169.shtml
+DevOps工程师（C++/Python 方向）,日冕机器人,30-60k·15薪,北京-海淀区,北京,学生可投,5-10年,7月6日更新,liepin,"岗位职责
+我们正在招聘一位具备系统视野、扎实工程功底与“提效”追求的研发效能工程师，加入我们面向现实世界复杂任务的机器人智能系统研发。本岗位聚焦机器人软件系统的编译构建、CI/CD 流水线建设、制品管理及云端运维，通过打造高自动化的基础设施，支撑跨平台（ARM/x86）的快速迭代与高质量交付，推动研发体系向 AI 驱动的软件工程进化。
+
+【岗位职责】 *工程基建与制品管理：负责机器人软件系统的编译构建体系建设（C++/CMake/Conan 及 Python/uv），建立并维护私有制品库（Artifacts）、内网 APT 源及开发侧 Docker 镜像体系。 *自动化流水线建设：基于阿里云效等工具链，设计并实现从代码提交、交叉编译（ARM64/x86）、自动化测试到制品分发的全流程 CI/CD 流水线。 *研发效能提升：推动研发流程的自动化与智能化，包括但不限于单元测试（UT）集成、AI 驱动的代码审查（AI Code Review）、办公协同（飞书）自动化通知，持续解决研发链路中的阻塞点。 *云端与运维支持：负责研发及生产环境相关基础服务的运维与保障，包括 MQTT 代理、文件服务器、参数服务器及 OTA 升级服务器的稳定性维护。 *跨团队协同：深入理解研发痛点，编写工程化技术文档，推动构建标准化与开发环境一致性，提升整体团队的交付能力。
+
+任职要求
+【职位要求】 *本科及以上学历，计算机、软件工程、自动化等相关专业。 *扎实的 Linux 系统功底，熟悉 C++ 与 Python 的工程化构建体系。 *熟练掌握 CMake 编译配置，有 Conan 或类似 C++ 包管理工具的实战经验。 *熟悉 Python 生态，了解 uv 或其他现代包管理工具，具备 Python 私有源及制品库的管理能力。 *精通 Docker 容器化技术，具备多平台（ARM64/x86）交叉编译链路的构建与优化经验。 *熟悉阿里云效、GitLab CI、GitHub Actions 或 Jenkins 等至少一种 CI/CD 工具的深度配置。 *具备良好的脚本开发能力（Shell/Python），能够独立开发效能提升工具。 *工作态度积极认真，具备系统性解决问题的逻辑思维，能有效推动基建方案落地。
+
+优先条件
+【加分项】
+拥有机器人或自动驾驶行业大规模工程基建与构建系统维护经验。
+拥有基于 LLM（大模型）辅助研发流程（如自动生成测试、自动 Review）的实际落地案例。
+热爱机器人产品研发，相信 AI 算法驱动的机器人未来是主流。
+积极拥抱 AI coding，致力于建设 AI 驱动的软件工程研发体系。",CI/CD ARM C++ CMake Python Docker 阿里云 MQTT Linux 容器化 GitLab CI Git,https://www.liepin.com/job/1983747139.shtml
+DevOps 工程师(A45928),小鹏汽车,25-55k·15薪,上海-浦东新区,上海,学生可投,经验不限,90天前更新,liepin,"职位描述：
+负责机器人软件研发的 CI/CD 流水线、自动化测试和仿真基础设施，提升团队交付效率和软件质量。
+1、设计和维护机器人软件 CI/CD 流水线（GitLab CI/Jenkins），实现从代码提交→编译构建→自动化测试→出包发布的全自动化；
+2、搭建和管理 SIL（软件在环）和 HIL（硬件在环）测试台架，支持机器人软件的持续集成验证；
+3、构建基于 MuJoCo/Isaac Sim 的仿真测试环境，支持运动控制、导航、操作等模块的自动化回归测试；
+4、开发和维护机器人软件的容器化部署方案，管理 Docker 镜像和 Kubernetes 集群；
+5、建立软件质量监控体系，包括构建成功率、测试覆盖率、缺陷趋势等度量指标。
+
+职位要求：
+1、本科及以上学历，计算机、软件工程等相关专业；
+2、具备 2 年以上 DevOps/CI-CD 工程经验；
+3、熟悉 GitLab CI、Jenkins、Argo Workflows 等至少一种 CI/CD 工具；
+4、精通 Docker 和 Kubernetes，有容器化应用的构建和部署经验；
+5、熟练使用 Python/Bash 编写自动化脚本，熟悉 Linux 系统管理。
+加分项：
+- 有机器人或自动驾驶软件的 CI/CD 经验；
+- 熟悉 Bazel 构建系统（交叉编译 x86/aarch64）；
+- 有仿真环境搭建经验（MuJoCo/Isaac Sim/Gazebo）；
+- 有 HIL 测试台架管理经验；
+- 了解 XTest 或类似的机器人自动化测试框架。",CI/CD GitLab CI Jenkins 容器化 Docker Kubernetes DevOps Go Python Linux 自动化测试,https://www.liepin.com/job/1981673187.shtml
+高级运维开发工程师 — 系统运维,字节跳动,20-40k,杭州-余杭区,杭州,学生可投,经验不限,90天前更新,liepin,"职位描述
+1、负责头条公有云运维；
+2、负责各种基础系统搭建和维护；
+3、开发自动化运维平台，提高运维、开发协作效率，规范操作流程；
+4、优化各种系统，减少重复性工作。
+职位要求
+1 、大学大专及以上学历，计算机相关专业；
+2 、三年以上运维开发项目经验；
+3 、掌握常用开发语言 Shell/Python/Golang，熟悉业界主流技术，如Nginx、Mysql、ELK等；
+4、 熟悉 Linux 操作系统，熟悉各种网络协议；
+5 、有开源项目贡献者或开源项目领导优先；
+6 、有较强的学习能力，能够熟练阅读涉及产品和技术的英文文档；
+7 、能够承受较高的工作压力；有强烈的工作责任心；有较好的沟通能力；有良好的团队合作精神；
+8 、能够独立完成工作，具有较强的综合分析问题及解决问题的能力；
+9 、有良好的工作文档习惯，及时按要求撰写更新工作流程及技术文档。",Shell Python Golang Nginx MySQL Linux 技术文档,https://www.liepin.com/job/1975860293.shtml
+DevOps 工程师(A45928),小鹏汽车,25-55k·15薪,深圳-南山区,深圳,学生可投,经验不限,90天前更新,liepin,"职位描述：
+负责机器人软件研发的 CI/CD 流水线、自动化测试和仿真基础设施，提升团队交付效率和软件质量。
+1、设计和维护机器人软件 CI/CD 流水线（GitLab CI/Jenkins），实现从代码提交→编译构建→自动化测试→出包发布的全自动化；
+2、搭建和管理 SIL（软件在环）和 HIL（硬件在环）测试台架，支持机器人软件的持续集成验证；
+3、构建基于 MuJoCo/Isaac Sim 的仿真测试环境，支持运动控制、导航、操作等模块的自动化回归测试；
+4、开发和维护机器人软件的容器化部署方案，管理 Docker 镜像和 Kubernetes 集群；
+5、建立软件质量监控体系，包括构建成功率、测试覆盖率、缺陷趋势等度量指标。
+
+职位要求：
+1、本科及以上学历，计算机、软件工程等相关专业；
+2、具备 2 年以上 DevOps/CI-CD 工程经验；
+3、熟悉 GitLab CI、Jenkins、Argo Workflows 等至少一种 CI/CD 工具；
+4、精通 Docker 和 Kubernetes，有容器化应用的构建和部署经验；
+5、熟练使用 Python/Bash 编写自动化脚本，熟悉 Linux 系统管理。
+加分项：
+- 有机器人或自动驾驶软件的 CI/CD 经验；
+- 熟悉 Bazel 构建系统（交叉编译 x86/aarch64）；
+- 有仿真环境搭建经验（MuJoCo/Isaac Sim/Gazebo）；
+- 有 HIL 测试台架管理经验；
+- 了解 XTest 或类似的机器人自动化测试框架。",CI/CD GitLab CI Jenkins 容器化 Docker Kubernetes DevOps Go Python Linux 自动化测试,https://www.liepin.com/job/1981673191.shtml
+运维开发工程师,字节跳动,20-50k·15薪,深圳-南山区,深圳,学历不限,经验不限,90天前更新,liepin,"职位描述
+参与混合云 GPU 服务器项目交付（硬件部署、系统配置、集群搭建）
+定位服务器软硬件故障，重点解决 GPU 相关问题，迭代故障处理手册。
+搭建标准化 GPU 环境（驱动、cuda、nccl、ib等）
+总结运维实践，输出技术文档；沉淀 GPU 服务器选型、性能测试能力，支撑团队决策。
+职位要求
+熟悉寒武纪、天数智芯、华为昇腾、英伟达等主流 GPU 卡特性，了解算力指标、驱动适配及故障排查要点。
+掌握服务器架构（x86/ARM），熟悉核心部件功能与故障排查；有硬件组装、检测经验者优先。
+熟练掌握 Python/Shell/Go 中至少一种语言，能独立开发测试、自动化脚本；了解 Git 者优先。
+理解 Linux 原理，熟练使用监控与排查命令；具备系统性能调优经验，能解决高并发瓶颈。
+沟通协作：高效对接内外部团队，在关键节点快速调动资源，推动问题解决。
+职业素养：细致严谨、责任心强、结果导向，抗压能力与学习能力突出，关注 GPU 技术动态。",ARM Python Shell Go Git Linux 高并发 技术文档 性能测试 故障排查,https://www.liepin.com/job/1977061163.shtml
+自动驾驶DevOps 工程师 - 车端/嵌入式侧方向,上海易博图科技有限公司,15-35k·15薪,上海-闵行区,上海,学生可投,经验不限,90天前更新,liepin,"主要职责
+嵌入式CI/CD流水线构建：
+设计并实现针对嵌入式C/C++项目的自动化构建、测试与发布流水线。
+管理复杂的交叉编译工具链（如ARM GCC, LLVM/Clang, IAR, Keil编译器等），在CI环境中实现高效的缓存与复用。
+处理多种构建系统（如Bazel,CMake, Makefile, Autotools, 以及Yocto/Buildroot等嵌入式构建框架）的集成与自动化。
+实现固件/软件的版本管理、持续集成、静态代码分析、单元测试，并最终生成可追溯的发布产物。
+嵌入式测试自动化基础设施：
+搭建和管理硬件在环测试集群，实现测试任务在真实/模拟硬件上的自动调度、执行与结果收集。
+集成单元测试框架（如Unity, CppUTest, Google Test for Embedded），在x86和仿真器/硬件目标上运行测试。
+推动自动化端到端测试，包括与设备模拟器、QEMU、物理设备的集成测试自动化。
+管理测试资源池，处理设备的连接、刷新、功耗控制和状态监控。
+嵌入式制品与配置管理：
+建立和管理嵌入式制品库，对编译输出的镜像文件、配置文件、工具链、BSP包、许可证文件等进行版本化存储和管理。
+设计和实施固件空中升级流程的自动化验证与发布管道。
+实现配置管理的自动化，管理不同硬件版本、客户定制、功能开关的配置矩阵。
+基础设施与监控（嵌入式视角）：
+将基础设施即代码引入嵌入式领域，管理构建服务器、测试服务器、设备实验室的自动化配置。
+实现构建与测试的效能监控，追踪构建时间、镜像大小、代码覆盖率、内存使用等关键指标。
+探索和集成针对嵌入式系统的运行时日志与指标收集管道，用于生产问题分析和预发布验证。
+工具链与开发体验优化：
+维护和优化统一的、容器化的嵌入式开发环境，确保开发、构建、测试环境的一致性。
+为开发团队提供高效的自助化工具，如一键构建、设备烧录、测试报告查询等。
+编写高质量的文档和脚本，赋能整个嵌入式软件团队。
+任职要求
+必备条件：
+硕士及以上学历，计算机科学、电子工程或相关专业，3年以上嵌入式开发或嵌入式DevOps经验。
+精通C/C++语言，深刻理解嵌入式软件开发、编译、链接、调试的完整流程。
+扎实的Linux功底，熟悉Shell/Python脚本编程，具备良好的自动化思维。
+丰富的CI/CD工具使用经验（如Jenkins, GitLab CI, GitHub Actions），并有实际搭建和维护的经验。
+熟悉交叉编译、构建系统（Bazel/CMake/Make）和版本控制（Git）。
+熟悉至少一种嵌入式硬件架构（如ARM Cortex-M/A, RISC-V, Xtensa）。
+具备出色的问题排查能力和推动流程改进的热情。
+优先考虑：
+有在资源受限环境下优化构建和部署流程的实际经验。
+有硬件在环自动化测试或设备实验室管理的实战经验。
+熟悉容器技术（Docker），并有在非x86架构上使用或构建容器的经验。
+熟悉OTA更新流程及相关安全考量。
+熟悉嵌入式领域的静态分析工具（如Coverity, Klocwork）和代码度量。
+了解实时操作系统（如FreeRTOS, Zephyr, VxWorks）的开发与构建流程。",CI/CD C++ ARM CMake Go 容器化 DevOps Linux Shell Python Jenkins GitLab CI,https://www.liepin.com/job/1981395831.shtml
+运维开发工程师,立讯智造(浙江)有限公司,8-12k,嘉兴-嘉善县,嘉兴,学生可投,1-3年,90天前更新,liepin,"岗位内容：
+1. 协同信息安全管理稽核平(Python、Java)的运维管理，确保系统的稳定运行
+2. 负责公司的信息安全稽核及管理，响应客户要求，转化为公司内部管理实施
+3. 参与制定管控区信息安全流程和规范，提升用户效率和保障信息安全的有效性
+任职要求：
+1. 具备扎实的计算机基础知识和网络基础知识
+2. 熟悉Shell、Python、Java等编程语言，并具备相关开发运维经验
+3. 具备较强的学习能力、沟通能力和团队协作精神
+4.有ISO27001体系经验和Python 开发经验的优先",Python Java Shell,https://www.liepin.com/job/1979097677.shtml
+车联网DevOps工程师,上海汽车集团股份有限公司商用车技术中心,15-25k,上海-杨浦区,上海,学生可投,3-5年,90天前更新,liepin,"1.设计、实现和优化面向微服务架构的持续集成与持续部署流水线，覆盖代码编译、镜像构建、自动化测试、安全扫描到多云部署的全流程；
+2.负责K8s集群的规划、部署、扩缩容、监控与日常运维，确保容器化应用的高可用性；
+3.维护私有云或公有云（如阿里云、AWS、Azure）上的TSP基础设施，包括网络、存储、负载均衡、安全组等；
+4.优化智能告警机制，实现故障的快速发现、定位与自动恢复，负责P0/P1级故障的应急响应与复盘；
+5.在基础设施层面落实车联网安全要求，负责网络隔离、安全组策略、证书管理等工作
+
+1.计算机科学、软件工程或相关专业本科及以上学历；
+2.3年以上DevOps或者SRE相关经验，有车联网、物联网或大型互联网后台开发/运维经验者优先；
+3.有基于公有云的大规模微服务系统运维和管理经验；熟练掌握至少一家主流公有云服务，如AWS、阿里云、腾讯云；
+4.具备扎实的网络知识，熟悉TCP/IP、HTTP/HTTPS、DNS、负载均衡等，能处理复杂的网络问题；
+5.有车联网TSP平台或物联网平台运维经验，熟悉MQTT协议及其集群部署者优先。",微服务 K8s 容器化 高可用 阿里云 AWS Azure DevOps 腾讯云 TCP/IP MQTT 自动化测试,https://www.liepin.com/job/1978721819.shtml
+运维开发工程师,药师帮,15-30k,广州,广州,学生可投,经验不限,90天前更新,liepin,"职责描述：
+1、负责日常业务运维工作，如部署、发布、变更等。
+2、负责故障监控，及时处理服务运行中出现的故障，保障服务的正常提供。
+3、和研发沟通，对业务运营环境中存在的问题进行定期反馈和推动改善。
+4、针对各系统编写并维护自动化运维脚本，参与项目组相关运营支撑工具的开发。
+
+任职要求：
+1、本科以上学历，计算机类或相关专业，1年以上的运维开发经验。
+2、熟悉Linux等系统管理，有脚本开发调试经验，有丰富云产品经验优先。
+3、掌握Python编程语言，具备一定后台开发能力，熟悉Python语言优先。
+4、熟悉网络知识，对数据库和服务器硬件知识有一定的了解。
+5、具备较强的流程分析和优化能力、项目协调、服务管理能力和良好的沟通技巧。
+6、具有良好的沟通协调能力、学习能力、团队精神和服务意识，具有高度的责任心。
+",Linux Python,https://www.liepin.com/job/1949214819.shtml
+Free switch 运维开发工程师,北京科友数云科技有限公司,1-6k,郑州-高新区,郑州,学历不限,经验不限,90天前更新,liepin,"Freeswitch 开发工程师招聘 JD
+一、工作模式
+我们提供灵活的居家办公模式，居家办公不仅给予您自由支配时间的灵活性，减少通勤时间与精力消耗，使您能将更多的时间投入到工作与自我提升中；还能让您依据自身习惯打造个性化的工作环境，提高工作自主性与舒适度，从而提升工作效率。
+二、岗位描述
+负责 Freeswitch 服务器的深度配置与优化，确保系统稳定高效运行。
+主导 Freeswitch 的二次开发工作，包括但不限于 dialplan 定制、嵌入脚本开发以及 ESL（Event Socket Library）开发，以满足业务的多样化需求。
+运用 Java 语言进行相关模块的开发与维护，保障各功能模块间的无缝衔接与协同工作。
+参与呼叫中心平台的优化及语音线路运营相关工作，从技术角度提升平台性能与线路质量。
+借助 Docker 等容器化技术，实现应用的高效部署与管理，提高资源利用率与运维效率。
+三、任职要求
+学历与专业
+本科及以上学历，计算机科学与技术、软件工程、通信工程等相关专业优先。扎实的专业知识基础，为胜任岗位提供有力支撑。
+技术能力
+熟练掌握 Freeswitch 服务器的配置，且拥有丰富的 Freeswitch 二次开发经验，精通 dialplan、嵌入脚本开发与 ESL 开发。
+熟练运用 Java 语言，能够独立完成复杂业务模块的开发，具备良好的代码规范与编程习惯。
+熟悉 Mysql 等常规数据库，能够进行数据库设计、优化以及数据操作。
+了解 Docker 等容器化技术，能够进行容器的创建、部署与管理。
+熟悉常见 IT 监控运维产品，如 zabbix、Prometheus、Grafana 等，能够运用其进行系统监控与数据分析。
+行业经验
+具备呼叫中心平台、语音线路运营相关工作经验，对行业业务流程有深入理解。
+运维能力
+精通 Linux 服务器的系统、网络等安装运维工作，能够快速处理服务器故障与性能问题。
+精通语音网关、SBC、VOS 的配置、调试等工作，确保语音通信的稳定与畅通。
+精通 sip 信令，能够迅速定位并解决信令相关问题，保障呼叫流程的正常运行。
+问题解决能力
+具有很强的发现问题、分析问题和解决问题的能力，能够在复杂的技术环境中迅速定位并解决关键问题。",Java Docker 容器化 MySQL Prometheus Grafana Linux 数据分析,https://www.liepin.com/job/1972034679.shtml
+运维开发工程师,东方国信科技北京,12-36k,北京,北京,学生可投,经验不限,90天前更新,liepin,"岗位职责：
+1.负责KVM、Hyper-V、VMware、openstack架构；
+2.负责公司虚拟化产品测试及维护；
+3.负责公司重点项目的技术支持；
+职位要求：
+1.计算机、软件工程、信息管理等相关专业本科及以上学历；
+2.熟悉服务器硬件及Linux/WindowsServer等服务器系统并可调试配置
+3.具备一定的网络常识；
+4.能熟练的安装调试AD、DHCP、CA、DNS等服务，可熟练使用常用的Linux命令并且搭建应用服务及环境
+5.具有虚拟化理论知识，对于KVM虚拟化结构有一定程度的了解和研究。对于熟悉虚拟化产品技术者优先。
+其它要求：
+1.了解云计算或相关领域，从事云计算研发或运维两年以上，从事openstack研发者优先；
+2.有较大规模OpenStack研发及部署经验；了解分布式存储ceph等技术栈；有分布式存储运维经验优先；
+3.熟练掌握系统管理，网络，存储，系统维护等，精通Linux；
+4.熟悉Python；
+5.熟悉OpenStack整体框架、技术体系，熟练使用各组件API；
+6.精通nova,neutron,heat,ceilometer等组件和内部工作原理；
+7.有开源社区贡献经验者优先。",Linux 分布式 Python 技术支持 Hyper-V VMware DHCP CA,https://www.liepin.com/job/1947982561.shtml
+乌鸫科技 运维开发工程师 杭州,阿里巴巴集团,15-25k·15薪,杭州-余杭区,杭州,学生可投,经验不限,90天前更新,liepin,"职责描述：
+1、负责智能引擎事业部统一运维平台建设。
+2、负责超大规模在线集群稳定性和架构演进。
+3、负责在线集群计算资源管理和优化。
+4、负责运维团队管理和人才培养。
+
+任职要求：
+1、精通Unix/Linux操作系统，有良好的编码规范。
+2、具备shell脚本开发能力即可，若有2年以上go、java、Python开发经验者优先。
+3、有大规模在线或者离线系统运维开发经验，至少熟悉一种开源分布式系统的运行机制和架构，如elasticsearch/hadoop/flink等分布式计算和存储技术。
+4、熟练使用 Kubernetes、Docker 等容器化服务
+5、对云原生、DevOps 领域有相关经验
+6、思路清晰，有良好的沟通表达能力和跨团队协调能力，具有较强的学习能力和堆新技术的最求精神，乐于分享
+
+base地：杭州市、北京市
+
+",Unix Linux Shell Go Java Python 分布式 Elasticsearch Hadoop Flink Kubernetes Docker,https://www.liepin.com/job/1950933467.shtml
+运维开发工程师,华为,18-35k·14薪,上海-浦东新区,上海,学生可投,经验不限,90天前更新,liepin,"【岗位职责】
+1、负责5G运维相关系统开发，提高团队开发整体研发效率，打造高性能高效工程流水线，构筑最强工程能力
+2、自动化运维或者测试工具及平台的优化和整合
+3、应用及网络监控系统的开发
+4、集群管理系统的研究和整合
+5、机器学习/数据挖掘/大数据分析/高性能计算等有挑战性领域探索开发
+【任职要求】
+1、熟悉CI/CD相关技术及平台，有通信软件研发或者运维开发经验优先
+2、熟悉Linux开发环境，Docker经验者优先
+3、具有django、vue或react开发经验者优先
+4、有DevOps相关经验优先
+5、有一定python/Java/C/C++和数据库开发维护知识储备
+6、有自动化运维或者测试相关开发经验、java开发经验者优先
+7、责任心强，良好的对外沟通和团队协作能力，能承受工作压力",5G 机器学习 CI/CD Linux Docker Django Vue React DevOps Python Java C++,https://www.liepin.com/job/1958593723.shtml
+乌鸫科技 运维开发工程师 杭州,阿里巴巴集团,15-25k·15薪,北京-朝阳区,北京,学生可投,经验不限,90天前更新,liepin,"职责描述：
+1、负责智能引擎事业部统一运维平台建设。
+2、负责超大规模在线集群稳定性和架构演进。
+3、负责在线集群计算资源管理和优化。
+4、负责运维团队管理和人才培养。
+
+任职要求：
+1、精通Unix/Linux操作系统，有良好的编码规范。
+2、具备shell脚本开发能力即可，若有2年以上go、java、Python开发经验者优先。
+3、有大规模在线或者离线系统运维开发经验，至少熟悉一种开源分布式系统的运行机制和架构，如elasticsearch/hadoop/flink等分布式计算和存储技术。
+4、熟练使用 Kubernetes、Docker 等容器化服务
+5、对云原生、DevOps 领域有相关经验
+6、思路清晰，有良好的沟通表达能力和跨团队协调能力，具有较强的学习能力和堆新技术的最求精神，乐于分享
+
+base地：杭州市、北京市
+
+",Unix Linux Shell Go Java Python 分布式 Elasticsearch Hadoop Flink Kubernetes Docker,https://www.liepin.com/job/1950933471.shtml
+运维开发工程师,西安华为,12-24k,西安-高新区,西安,学生可投,经验不限,90天前更新,liepin,"工作职责
+1、负责流水线CI持续构建工程能力在产品落地，结合可信构建、可信配置管理等规范打造产品满足可信工程能力的流水线；
+2、积极学习业界和公司持续构建工程工具和方法，引入到产品线构建工程中，提升产品构建效率，减少构建复杂性；
+3、结合可信配置管理工程能力要求，将可信配置管理能力落入到CI流水线，提升产品E2E的软件工程能力，提升产品配置管理能力。
+
+技能要求
+1、熟悉持续集成中的重点工具(svn、git等版本控制工具、代码检查工具等工具)优先；
+2、熟悉Shell、Linux、Makefile等内容，熟悉java/go/C代码构建工程与编译框架；
+3、熟练使用ApacheAnt、Maven、Gradle等自动化构建和测试工具优先；
+4、熟悉软件持续构建，有数通类产品软件或平台设计开发测试等研发背景，熟悉python/java等开发语言和产品研发流程；
+5、具备高度的责任心，有较强的推动协调组织能力，具备良好的结构化思维和与沟通能力。",SVN Git Shell Linux Java Go Maven Gradle Python,https://www.liepin.com/job/1955981249.shtml
+DevOps工程师,农银金融科技有限责任公司,15-35k,北京-通州区,北京,学生可投,经验不限,90天前更新,liepin,"1.负责日常的软件配置管理工作，包括配置项版本管理、制品库管理等。
+2.负责公司测试管理工作，包括制定测试标准、维护测试平台、指导项目组测试人员编写测试案例；
+3.负责CI/CD(持续集成/持续交付)流水线的设计和维护，确保产品的持续交付具有良好的质量和合规性。
+4.负责对项目组软件构建、部署、自动化测试提供支持、培训和指导，确保项目组成员正确理解和使用DevOps工具链。
+5.参与公司DevOps平台建设工作，维护和扩展研发基础软件和服务，如Azure Devops Pipeline、Git、SonarQube、MeterSphere、Artifactory、flyway等的维护和定制化开发，保障系统正常运行，提高研发效率。
+5.参与效能度量数据的统计与分析，协助项目组及时发现和解决研发过程中的效能问题。
+  
+应聘条件
+1.境内外院校大学本科及以上学历。其中海外留学生需提供国家教育部国外学历学位认证书。
+2.计算机及相关专业。
+3.诚实守信、遵纪守法；综合素质较好，具有较强的综合分析、逻辑思维能力和团队合作精神。
+4.身心健康。
+5.年龄一般不超过35周岁。
+6.符合公司亲属回避要求。
+  
+具体要求
+1.精通一门或者多门编程语言，Java、Python或者shell、C#。
+2.熟悉主流的构建工具，如maven、npm、gradle等。
+3.熟悉自动化测试框架；
+4.熟悉DevOps平台的架构设计和系统研发工作，包括但不限于代码托管、CI/CD流水线、自动化测试、效能度量、自动部署等模块。
+5.熟悉Kubernetes/Docker生态，熟练掌握Kuberneters容器调度相关技术，针对应用场景中的kubernetes问题能够快速定位和解决。
+6.有数据监控度量平台搭建、数据分析等方面经验者优先。",CI/CD DevOps Azure Git Java Python Shell C# Maven Gradle Kubernetes Docker,https://www.liepin.com/job/1951999705.shtml
+运维开发工程师,华为云计算技术有限公司,15-25k,杭州,杭州,学生可投,经验不限,90天前更新,liepin,"岗位职责：
+1. 负责云计算运维体系产品的日常运维，问题定位，优化改进，方案设计等
+2. 负责云计算运维体系产品的交付工作及自动化交付开发相关工作等
+任职要求：
+1. 计算机、软件、通信、网络等相关专业
+2. 英语4级及以上水平
+3. 有python、java、shell等开发经验，熟悉DB、kafka、redis、nginx等中间件
+4. 有云计算相关从业经验优先",Python Java Shell Kafka Redis Nginx 方案设计,https://www.liepin.com/job/1958091981.shtml
+AI平台运维开发工程师,百图生科BioMap,10-15k·15薪,北京-海淀区,北京,学生可投,经验不限,90天前更新,liepin,"岗位职责：
+1.参与高性能AI集群的运维和优化工作；
+2.参与公司运维平台系统的开发迭代；
+3.参与相关代码设计以及文档编写工作。
+
+岗位要求
+1.掌握Python开发，了解前端技术栈React/Vue（至少一种）；
+2.熟悉掌握Django、FastApi等web开发框架；
+3.熟悉MySQL数据库体系，有SQL编写能力；
+4.熟悉linux操作系统；了解Redis、mq、docker、k8s、Prometheus等中间件和运维工具；
+5.熟悉Kubernetes架构；有维护和使用经验者有限；
+5.有一定的系统问题分析能力；
+
+加分项：
+1.熟悉运维平台者、主流运维平台二次开发经验者优先；
+2.了解大模型相关应用，有GPU运维开发经验者优先；
+3.具有良好的沟通能力，强烈的进取心、求知欲及团队合作精神。",Python React Vue Django FastAPI MySQL SQL Linux Redis Docker K8s Prometheus,https://www.liepin.com/job/1975323933.shtml
+乌鸫科技 运维开发工程师 杭州,阿里巴巴集团,15-25k·15薪,上海-浦东新区,上海,学生可投,经验不限,90天前更新,liepin,"职责描述：
+1、负责智能引擎事业部统一运维平台建设。
+2、负责超大规模在线集群稳定性和架构演进。
+3、负责在线集群计算资源管理和优化。
+4、负责运维团队管理和人才培养。
+
+任职要求：
+1、精通Unix/Linux操作系统，有良好的编码规范。
+2、具备shell脚本开发能力即可，若有2年以上go、java、Python开发经验者优先。
+3、有大规模在线或者离线系统运维开发经验，至少熟悉一种开源分布式系统的运行机制和架构，如elasticsearch/hadoop/flink等分布式计算和存储技术。
+4、熟练使用 Kubernetes、Docker 等容器化服务
+5、对云原生、DevOps 领域有相关经验
+6、思路清晰，有良好的沟通表达能力和跨团队协调能力，具有较强的学习能力和堆新技术的最求精神，乐于分享
+
+base地：杭州市、北京市
+
+",Unix Linux Shell Go Java Python 分布式 Elasticsearch Hadoop Flink Kubernetes Docker,https://www.liepin.com/job/1950933469.shtml
+运维开发工程师,云盾智慧安全科技有限公司,13-15k·15薪,北京-西城区,北京,学生可投,经验不限,90天前更新,liepin,"技能要求：
+1. 能够使用Python ，Shell等脚本语言编写自动化运维工具，能够熟练使用 web 开发框架Django、Flask、tornado 等至少一种。
+2. 熟悉Linux系统，以及Git、SVN等至少一种版本管理工具。
+3. 熟悉常用的开源组件，Docker、 k8s 等虚拟化相关技术。
+4. 熟悉 Redis，MySQL，Nginx，Keepalived，LVS 等基础技术（满足至少三个）。
+5. 了解HTTP、HTTPS、TCP/IP协议， 能够使用Wireshark 等抓包工具进行协议分析。
+6. 了解ELK，Flume，Kafka相关应用，有相关经验者优先。
+7. 加分项：对SaaS产品云抗D，云WAF等产品有了解，熟悉Puppet，Jenkins等自动化部署工具，有运维平台开发经验。
+职位描述：
+1. 2年及以上的相关工作经验，本科及以上学历。
+2.应急响应解决和处理日常线上问题，上线部署和配置变更，并推动运维规范落地。
+3. 负责研发自动化运维和监控告警平台，提高运维和开发协作效率。
+4. 有良好的工作文档习惯，及时按要求撰写跟新工作流程及技术文档。
+5. 有激情，较强的学习能力，高度的责任心和良好的沟通",Python Shell Django Flask Tornado Linux Git SVN Docker K8s Redis MySQL,https://www.liepin.com/job/1927481139.shtml
+高德-高级运维研发工程师/专家-运维团队,北京高德云图科技有限公司,25-50k·16薪,北京-朝阳区,北京,学生可投,经验不限,90天前更新,liepin,"高德运维研发团队主要负责高德运维平台的建设，对服务稳定性和用户体验负责，主要围绕如下几个方向进行卓有成效的工作：
+
+- 高可用方向：围绕混沌工程、故障自愈、全链路故障定位 等前沿技术方向进行平台化建设和智能运维大规模业务落地，提升系统的稳定性水平。
+
+- 资源管理方向：将机器学习技术应用于超大规模集群的资源管理实践中，围绕 资源画像、应用画像、容量管理、全自动化弹性伸缩 等前沿方向进行算法优化和平台化建设。
+
+- 云原生方向：基于实际业务场景，建设云原生时代的云上运维平台，提升云上业务在变更发布、资源调度 等方面的效率。
+
+
+
+职位要求
+- 大学本科以上学历，计算机相关专业，3年以上工作经验；
+
+- 具有Linux下Python、Golang、Java至少其中之一的研发经验 ；
+
+- 对业务运维场景和痛点有深入理解，有DevOps、FinOps类平台的设计研发经验；
+
+- 强烈的责任心、良好的沟通和协调能力、善于思考、勇于接受挑战；
+
+- 对智能运维领域感兴趣，且有相关项目经验优先。",高可用 机器学习 云原生 Linux Python Golang Java DevOps,https://www.liepin.com/job/1964823413.shtml
+python运维开发工程师,华为,14-23k·14薪,西安,西安,学生可投,经验不限,90天前更新,liepin,"岗位职责：
+
+1.负责设备升级工具环境配套开发，保证流水线维护标准，维护工具linux环境，保证环境配置，代码配置成功。
+
+任职要求：
+
+1.熟悉Oracle、Mysql、PostgreSQL任一种或多种数据库，以上数据库有实际运维管理经验优先。
+
+2.熟练掌握Python，有实际Python开发经验。
+
+3.熟悉Unix/Linux、存储、网络，掌握基本知识和技能。
+
+5.具有相关运维自动化工作经验，大型互联网行业工作经验者优先。
+
+6.具有高度的责任心，良好的沟通能力和团队合作意识。热爱技术，具备较强的学习能力。",Linux Oracle MySQL PostgreSQL Python Unix,https://www.liepin.com/job/1945524055.shtml
+蚂蚁集团技术风险运维研发工程师,蚂蚁集团,30-60k·16薪,杭州-西湖区,杭州,学生可投,经验不限,90天前更新,liepin,"1、制定所负责业务的风险&效能&成本架构演进规划，协同&推动全局架构演进，以及前瞻性的设计规划，包括内部各子域的业务架构、数据架构、信息架构、技术架构，支撑各子域间高质量高效率协同，提升业务交付效率和运营效率；
+2、识别负责业务的风险&效能&成本问题，制定相应的解决方案，并协同方案落地，最终取得业务结果；
+3、制定所负责域的智能化规划，运用好平台已有的数据智能能力，对于团队工作问题提出针对性的数据智能的解决方案，改进工作效率和质量；
+4、识别风险&效能&成本系统建设和运营过程中影响团队效率的其他问题，制定标准化、流程化、系统化、产品化等改进计划。
+
+职位要求：
+1. java研发功底扎实，有大规模在线服务系统架构设计和稳定性保障经验，对如何做好系统稳定性保障有全面深入的理解；
+2、喜欢做系统稳定性技术风险专业相关的事情，愿意在这个领域长期发展；
+3、乐于挑战业务和技术难题，能够探索新方法新思路，全力以赴拿结果。",Java,https://www.liepin.com/job/1962628049.shtml
+运维开发工程师,西安软通动力网络技术有限公司,9-14k,西安,西安,学生可投,经验不限,90天前更新,liepin,"1.linux命令
+2.python语言
+3.shell脚本
+4.docker",Linux Python Shell Docker,https://www.liepin.com/job/1944079385.shtml
+外企德科华为精英研发—运维开发工程师,华为,20-30k·16薪,西安-高新区,西安,学生可投,经验不限,90天前更新,liepin,"1、2年以上大数据平台开发和运维相关工作经验；
+2、熟悉Linux软硬件环境、系统管理和优化，熟练部署、优化各种常用服务。熟练使用Linux 命令；
+3、熟悉大数据生态圈的相关技术栈，包括但不限于CDH/HDFS/Hbase/zookeeper/Spark/Flume/Impala/Hue/Sqoop/Elasticsearch/Druid/presto/kylin等；
+4、具备良好的服务意识，善于主动思考，自我驱动力强。有良好的沟通、协调能力，富有团队精神，有较强的文档编写能力",Linux HDFS HBase Zookeeper Spark Flume Sqoop Elasticsearch Druid Presto 文档编写,https://www.liepin.com/job/1948530351.shtml
+DevOps工程师,浙江零跑科技股份有限公司,20-30k,杭州-滨江区,杭州,学生可投,经验不限,90天前更新,liepin,"岗位职责：
+1.负责公司研发部门持续集成和持续交付平台的建设和完善
+2.解决CI/CD建设过程中的关键问题，包括但不限于配置管理，编译构建，自动化部署，自动化运维等
+3.深入了解研发实践活动，持续提升研发效率
+任职要求：
+1.计算机软件相关专业本科及以上学历
+2.熟悉CI/CD流程及相关工具
+3.有相关容器或K8S应用经验
+4.有shell，python等脚本编写经验
+5.熟悉版本控制，质量控制等工具应用和部署
+6.有运维，网络，linux管理经验者优先
+7.熟悉devops，有相关工具使用和设计经验者优先",CI/CD K8s Shell Python Linux DevOps,https://www.liepin.com/job/1951507679.shtml
+华为云运维开发工程师(云数据库相关),华为,20-40k·16薪,西安-高新区,西安,学生可投,经验不限,90天前更新,liepin,"【岗位职责】
+1. 负责华为云数据库相关服务的现网运维工作，运维效率提升方案或相关工具的设计和开发工作。
+2. 负责华为云数据库网上问题处理，保障现网平稳运行。
+【技能要求】
+1.具有基本的编程开发能力，能否使用C、C++、Java、Python等任意一种主流编程语言进行开发。
+2 熟练使用Linuxt操作系统，具备系统运维能力，能够使用Shel、Python等任意一种脚本语言。
+3. 有强烈的责任心和使命感，具备良好的沟通能力和团队合作意识。
+【优选条件】
+1. 有主流数据库(MySQL、PostgreSQL、Oracle等任意一种)的使用经验者优先",华为云 C++ Java Python Linux MySQL PostgreSQL Oracle 系统运维,https://www.liepin.com/job/1947543605.shtml
+运维开发工程师岗-京东零售,京东集团,20-50k·16薪,北京-通州区,北京,学生可投,经验不限,90天前更新,liepin,"岗位职责：
+
+1、系统稳定性保障：
+
+负责保障公司系统、应用和服务的高可用性、可靠性和性能。设计、实施和维护监控系统，及时发现并解决潜在问题。
+
+2、故障排除与问题解决：
+
+快速响应和解决生产环境中的故障，确保系统正常运行。
+
+3、自动化运维：
+
+开发和维护自动化工具，提高系统部署、配置和监控的效率。
+
+4、容量规划与性能优化：
+
+分析系统资源使用情况，进行容量规划，确保系统能够满足业务增长需求。
+
+5、安全性保障：
+
+与安全团队合作，确保系统和服务的安全性，及时修复潜在的安全漏洞。
+
+6、跨团队协作：
+
+与开发团队、运维团队等密切合作，推动DevOps文化的实施。
+
+职位要求：
+
+1、本科及以上学历，计算机科学、信息技术或相关专业背景。
+
+2、5年以上系统运维、性能优化、故障排查等相关经验。
+
+3、熟练使用自动化运维工具，具备Shell、Python等脚本编程经验。
+
+4、深入了解云计算、容器化技术（如Docker、Kubernetes）。
+
+5、具备强大的故障排除和问题解决能力，能够在高压环境下迅速应对。
+
+6、有大型分布式系统的设计和维护经验者优先。
+
+ 7、本科211院校
+7、对新技术有强烈的学习兴趣，保持对行业最新趋势的关注。",高可用 DevOps Shell Python 容器化 Docker Kubernetes 分布式 系统运维 故障排查,https://www.liepin.com/job/1967786055.shtml
+高级运维开发工程师,快仓智能,20-35k·13薪,上海-徐汇区,上海,学生可投,经验不限,90天前更新,liepin,"需要英语口语能力，
+
+1、参与中间件运维，数据库系统相关产品运维部署及其维护
+2、对接海外项目实施，负责实施海外项目的系统运维，处理docker,系统安全等问题
+
+岗位要求：
+1、熟悉Mysql、Redis、MQ等产品，具备丰富的中间件、数据运维、硬件网络的问题经验；
+2、了解数据库高可用架构及灾备建设方案，熟悉主流数据库产品；
+3、了解高可用架构，熟悉常用共享存储引擎的功能和特点以及主从复制原理和实践，如keepalived等
+4、熟悉监控相关的软件，如zabbix，promethuse等
+5、精通linux操作系统，具备服务器系统宕机问题排查能力
+6、有一定开发基础开发语言Python, Java；
+7、熟悉Docker相关的技术,对k8s有一定了解和使用
+8、有海外项目经验者/英语流利者优先",Docker MySQL Redis 高可用 Linux Python Java K8s 系统运维,https://www.liepin.com/job/1957716833.shtml
+运维开发工程师,华为,15-30k,杭州-滨江区,杭州,学生可投,经验不限,90天前更新,liepin,"岗位职责：
+1、负责云计算OS和虚拟化平台运维开发工作；
+2、负责云计算现网问题处理、重大活动保障、巡检以及变更升级等运维工作；
+3、负责云计算运维工具、AIOps平台构建等开发工作；
+
+
+岗位要求（满足3条以上）：
+1、本科及以上学历，计算机及相关专业以及工作1~5年优先；
+2、熟练掌握Linux基本操作命令定位分析问题，掌握Shell/python脚本开发；
+3、深入理解Linux体系结构，熟悉网络协议栈、存储协议栈、CPU调度原理，有实战经验者优先；
+4、拥有运维故障恢复、问题定位定界、开发运维工具经验者优先；
+5、熟悉软件开发，掌握至少一门编程语言，C/C++/Python/JAVA优先；
+6、拥有公有云、混合云运维经验者优先；
+7、良好的沟通协作能力，端到端闭环意识强，善于总结与技术钻研；",Linux Shell Python C++ Java,https://www.liepin.com/job/1950260589.shtml
+运维开发工程师,华为云计算技术有限公司,15-30k·14薪,杭州-滨江区,杭州,学生可投,经验不限,90天前更新,liepin,"工作地址：杭州，西安，东莞，贵阳，成都都有岗位。
+岗位要求：
+1、本科及以上学历，计算机相关专业，有5年以上线上大规模集群实战运维经验；                                           
+2、熟悉使用Python/GO/C/C++等编程语言之一，具有openstack,k8s,dns项目开发经验者优先；
+3、熟悉服务部署、自动扩容、监控、调用链等运维系统建设，具备成功的运维自动化建设项目经验优先；
+4、熟悉云服务云网络等应用业务场景，具备成功指导用户搬迁上云经验优先。",Python Go C++ K8s GO,https://www.liepin.com/job/1949340189.shtml
+运维研发工程师,浪潮云信息技术股份公司,10-15k,济南,济南,学生可投,经验不限,90天前更新,liepin,"岗位职责:
+1.负责云平台运维系统的设计及落地。
+2.负责云平台的系统技术支持，对客户的云平台相关技术问题和需求进行响应和解答。
+3.负责云平台日常的运维工作，提供云平台的运行保障和故障处理。
+4、设计实现自动化运维工具，提升运维效率。
+
+任职要求:
+1、 熟悉主流中间件、数据库，能够对主流组件进行日常运维工作。
+2、精通Linux，熟练掌握至少一种编程语言（Python、Shell、Perl等脚本语言或Java、Go等编程语言均可）。
+3、对KVM虚拟化、容器等技术有一定的了解。
+4、对自动化运维、智能运维有所了解，熟悉ITIL或其他运维体系、运维流程。
+5、3年以上生产环境运维经验，1年以上OpenStack或K8S运维经验。
+6、强烈的团队意识，高度的责任感和抗压能力，较强的学习能力及沟通能力。",Linux Python Shell Perl Java Go K8s 技术支持,https://www.liepin.com/job/1943582617.shtml
+资深运维开发工程师,美团,25-55k·15薪,深圳-龙华区,深圳,学生可投,经验不限,90天前更新,liepin,"【部门介绍】
+美团自动配送以自研L4级自动驾驶软硬件技术为核心，与美团即时零售业务结合，形成满足公开道路、校园、社区、工业园区等室外全场景下的自动配送整体解决方案。
+美团自动配送团队成立于2016年，团队成员来自于Waymo、Cruise、Pony.ai、泛亚等自动驾驶行业头部公司，自动驾驶技术团队博士占比高达30%，依靠视觉、激光等传感器，实时感知预测周围环境，通过高精地图定位和智能决策规划，保证自动配送车全场景即时配送能力。自2020年起，自动配送车已在北京、深圳等多地进入常态化试运营阶段，运营车辆超500台，日均运营超16小时，截至2023年12月底，自动驾驶里程占比超过99%，完成室外全场景配送近400万单。
+欢迎加入美团自动配送车团队，与我们一起用科技推动即时零售再升级！
+
+【岗位职责】
+1、参与美团自动车配送系统的稳定性保障工作，设计并交付基础运维解决方案，覆盖自动车软硬件、自动驾驶行为以及自动配送运营全场景；
+2、围绕自动车的故障和事故的处置效率，设计对应的工具产品及能力，并且交付落地，持续提升各产品高灵活性、安全性、易用性、高可靠性、高可用性；
+3、参与自动车配送系统的可靠性/系统安全的数据分析、问题诊断、以及架构剖析，跟踪问题和缺陷修复闭环，高效持续提升自动驾驶可靠性及安全性；
+4、对接和协同产品、研发、运营等各团队，提升自动车配送系统的研发迭代效率，规模化运营的能力建设持续提升。
+
+【岗位要求】
+1、具备出色的运维开发经验，对基础架构和大规模业务系统的运维保障有深刻的理解和丰富的工程经验；
+2、具有快速规划、设计和交付运维解决方案及产品落地能力，熟练掌握通用的技术栈、以及常用的架构和平台，且有丰富的相关开发实践经验；
+3、具备良好的系统分析能力、出色的抽象和逻辑思维能力，能快速分析复杂问题并给出合理的解决方案；
+4、具有出色的学习能力，愿意投身自动驾驶领域研究，能够保持自身技术栈的持续更新和迭代；
+5、具有良好的客户服务意识，强烈的责任心和使命感，执行力强，富有团队合作精神。
+
+【岗位亮点】
+1、美团自动配送已经在北京、深圳等地规模化应用落地，支持美团买菜、外卖等场景；
+2、直接投入自动车及自动驾驶在运营中遇到的可靠性挑战，对可靠性工程和技术持续的精进和验证。",高可用 数据分析 客户服务 Cruise Pony.ai,https://www.liepin.com/job/1968106253.shtml
+运维开发工程师,华为,18-30k·14薪,成都,成都,学生可投,经验不限,90天前更新,liepin,"工作内容
+1.负责华为云储存服务运维工具体系的建设，对高可用、运维效能、SRE有深刻的理解和实践
+2.负责运维工具平台设计、开发。主要负责储存服务交付、监控、变更、应急响应、恢复等工具化、自动化、智能化建设。帮助存储服务提升运维交付效率，规范操作流程。
+
+职位要求
+1.有分布式系统或工具的设计，开发，维护经验
+2.至少精通Python/Java/shell/go/c/c++语音中的一种或多种
+3.熟悉自动化运维平台，包括但不限于CI/CD发布系统、监控系统、告警系统、流程编排系统、日志采集、日志分析系统等
+4.理工科专业本科及以上学历
+
+加分项
+熟悉业界分布式云存储系统架构和产品服务
+有运维经验，且对高效运维有一定的实践和深刻理解",华为云 高可用 分布式 Python Java Shell Go C++ CI/CD 应急响应 日志分析,https://www.liepin.com/job/1948507601.shtml
+CDN&边缘计算运维研发工程师,百度网讯,20-50k·15薪,北京-海淀区,北京,学生可投,经验不限,90天前更新,liepin,"工作职责:
+1. 负责百度云CDN&边缘计算平台的资源交付、容量管理及大规模分布式集群的架构设计工作，构建行业领先的资源平台
+2. 负责百度云CDN&边缘计算自动化运维平台发布实践、实现CI/CD全流程管控，打造智能化运维平台提升效率及产品服务稳定性
+3. 负责百度云CDN&边缘计算业务运营、指标体系建设、大客户解决方案落地及质量调优工作
+职责要求:
+1. 计算机或相关专业本科及以上学历，3年以上运维开发经历
+2. 熟练掌握Shell、Python、Go等至少一种语言
+3. 熟练使用Linux、熟悉TCP/IP、HTTP协议，深入了解主流的开源系统（如LVS、Nginx、MongoDB等）
+4. 熟悉容器及云原生技术，如Docker、K8S等，有开发使用经验
+5. 有大规模服务器集群自动化运维及开发经验者优先，熟练使用Saltstack/ansible等开源自动化运维工具
+6. 有网络质量及内核调优经验，底层基础知识扎实者优先
+7. 有技术热情，具备较强的问题分析、排查、解决和沟通协调的能力，善于处理跨团队合作
+8. 做事认真负责，抗压能力强，自驱并积极主动",分布式 CI/CD Shell Python Go Linux TCP/IP Nginx MongoDB 云原生 Docker K8s,https://www.liepin.com/job/1937342697.shtml
+高级运维开发工程师,富途,20-40k·15薪,深圳,深圳,学生可投,经验不限,90天前更新,liepin,"腾讯系团队,扁平管理,六险一金
+
+职位描述：
+1、福利好，薪资高，技术牛人多，工作氛围好，上升空间大
+2、能深度参与互联网金融公司devops全流程建设
+3、能了解到公有云原理、私有云建设等最前沿技术栈
+4、能学习到许多金融、证券行业投资知识
+
+工作职责：
+1、负责云运维自动化平台设计与开发，提供高效创新的一站式运维服务；
+2、负责监控系统开发、海量数据处理集群建设，提供AI智能监控、精准监控、业务链路监控、监控统计分析服务；
+3、负责容器管理平台和服务管理平台的设计和开发以及CI&CD等工具建设;
+4、负责后台自动化测试系统设计与开发， 以及其他运维系统平台开发。
+
+任职要求：
+1、熟悉python，熟悉OOP编程模式，熟悉设计模式、开发规范，前后端都会优先；
+2、熟悉mysql， mongoDB，熟练使用SQL/NOSQL做为web后端数据存储；
+3、熟悉Django框架优先；
+4、熟悉类Unix系统架构、Tcp/Ip协议，掌握常用linux命令；
+5、具有大数据、运维自动化研发经验的优先；具有产品意识优先；
+6、有责任心，优秀的团队合作精神，良好的沟通表达和需求抽象能力；
+",DevOps Python MySQL MongoDB SQL Django Unix TCP/IP Linux 自动化测试,https://www.liepin.com/job/1936590385.shtml
+python运维开发工程师,上海中畅数据,11-16k,上海-浦东新区,上海,学生可投,经验不限,90天前更新,liepin,"1. 熟悉linux，windows服务器基本操作和配置
+2. 熟悉掌握脚本语言，bat,python,shell，能编写运维脚本和工具
+3. 熟悉Redis、MySQL,MongoDB日常维护操作
+4. 有一定的系统运维经验，对DevOps体系有了解，并喜欢尝试 DevOps 相关领域的新技术新产品
+5. 具有良好的沟通能力，协助研发同事定位、处理线上BUG
+6. 具备良好的责任心与服务意识
+7. 熟悉常见运维工具和服务的安装配置及使用，包括但不限于Tomcat、Nginx、MySQL、ELK等",Linux Python Shell Redis MySQL MongoDB DevOps Tomcat Nginx 系统运维,https://www.liepin.com/job/1948539037.shtml
+运维开发工程师,华为技术有限公司西安研究所,14-24k,杭州,杭州,学生可投,经验不限,90天前更新,liepin,"1.  负责华为云数据库管理系统日常运维工作（运维岗）
+2. 负责华为云数据库客户问题处理（DBA）
+3. 负责运维工具的开发(java) 
+满足以上任一条件即可",华为云 Java DBA,https://www.liepin.com/job/1936644397.shtml
+运维开发工程师,艾莎医学,20-30k,上海-徐汇区,上海,学生可投,经验不限,90天前更新,liepin,"长期居住于上海的人士优先考虑
+
+工作职责:
+1.负责运维自动化和服务化架构设计和研发管理，管理维护自动化运维平台与工具。
+2.通过引入DevOps和SRE运维理念，提升运维生产力，保障系统与服务的可用性和稳定性，满足业务需求，提升用户体验.
+3.参与系统架构设计、规划，制定运维与应用服务解决方案（调度、弹性扩容、容灾等）。
+4.负责运维数据化、自动化、可视化的实现。
+5.日常桌面支持（Helpdesk）
+
+任职资格:
+1.3年以上运维经验 ，1年以上Kubernetes或者docker容器化经验，熟悉Kubernetes常用对象的工作原理精通Linux服务器技术，熟悉linux操作系统、服务的配置，管理及优化，有rancher使用经验者优先
+
+2. 熟悉Windows域以及相关维护工作操及日常管理，熟悉域，以及相关域安全策略的设计
+
+3. 熟练Nginx、LVS、HAProxy、Apache Http、tomcat、jenkins、git、redis集群等常用软件的安装、配置及管理，有实战经验者优先
+
+4. 熟悉常用的监控工具，例如zabbix、nagios、gafana 、prometheus等
+
+5. 熟悉Windows PowerShell/Linux Shell脚本. 熟悉分布式存储技术，如Ceph、Gluster FS等开源方案。
+
+有分布式存储运维管理经验者优先强烈责任感，对生产环境服务高可用有敬畏之心 ，良好的团队合作意识
+
+由于工作性质，需要能24小时即时响应工作微信，必要时能及时到场处理紧急情况，这点做不到的请勿投递",DevOps Kubernetes Docker 容器化 Linux Nginx HAProxy Tomcat Jenkins Git Redis Prometheus,https://www.liepin.com/job/1945867677.shtml
+运维开发工程师,中科软,7-12k,北京-通州区,北京,学生可投,经验不限,90天前更新,liepin,"职责描述：
+1、快速对bug进行定位，对错误数据进行修复，以及利用oracle对各种数据的提取；
+2、熟练使用Java；
+3、与开发保持良好沟通，为整体效率提升提供各类工具及流程支持，从运维角度给出优化建议；
+4、参与故障排查、应急保障工作，参与应急演练等工作；
+5、随时应对各种突发情况，对疑难问题进行分析并解决。
+
+任职要求：
+1、2020统招或专升本学历
+2、计算机相关专业优先",Oracle Java 故障排查,https://www.liepin.com/job/1946844499.shtml
+平台运维开发工程师,烟台强讯电子科技有限公司,8-12k,山东,,学历不限,经验不限,90天前更新,liepin,"职责描述：
+1、对现有平台各项功能优化升级。
+2、平台功能、接口、服务开发。
+任职要求：
+1、熟悉MVC框架、精通C#、ASP.NET
+2、熟悉JavaScript、Extjs，熟悉VUE优先
+3、规范的代码编写习惯、能够编写规范的开发文档
+4、良好的沟通协调能力，重视团队合作",C# JavaScript Vue ASP.NET Extjs,https://www.liepin.com/job/1924115205.shtml
+DevOps / 运维工程师,杭州元川微科技有限公司,15-25k·15薪,上海-浦东新区,上海,学生可投,经验不限,7月15日更新,liepin,"岗位职责：
+
+1. 负责核心系统的部署、监控、故障处理与性能优化，保障线上服务高可用。  
+2. 构建和维护基于 Kubernetes 的容器化平台，推进应用容器化与编排管理。  
+3. 搭建并优化 CI/CD 流水线，提升研发交付效率与质量。  
+4. 使用 Python 开发自动化运维工具，降低手动操作成本。  
+5. 参与大模型推理服务（vLLM / SGLang）的架构部署、资源调度与深度性能调优。  
+6. 协同开发团队推动 DevOps 文化，沉淀运维较好实践。  
+
+任职要求：
+
+1.精通 Linux 系统管理，熟悉网络、存储及内核调优，能快速定位系统级问题。  
+2.深入理解 Kubernetes 及容器技术（Docker / containerd），有生产集群运维经验。  
+3. 熟练掌握 Python，具备较强的脚本与工具开发能力。  
+4.熟悉 DevOps 工具链.  
+5.具备良好的问题分析能力、责任心和团队协作精神。  
+
+优先条件:
+
+有 GPU 资源管理与调度经验，了解 CUDA、NVIDIA 生态。  
+有大模型推理引擎 vLLM、SGLang 等的部署、运维与调优实战经验者优先。
+熟悉 MLOps、模型服务化架构或云原生技术栈（如 Istio、Knative）者加分。
+ ",高可用 Kubernetes 容器化 CI/CD Python 大模型 LLM DevOps Linux Docker 云原生 Istio,https://www.liepin.com/job/1984157363.shtml
+云运维 开发⼯程师（DevOps/SRE Engineer）,赢他网络,25-35k,广州-番禺区,广州,学历不限,经验不限,7月13日更新,liepin,"云运维 开发⼯程师（DevOps/SRE Engineer） 
+汇报对象 云运维架构师
+岗位职责 ：
+1、搭建并维护Kubernetes集群：节点管理/Addon部署/版本升级/证书轮转/etcd备份 
+2、构建CI/CD流水线（GitLab CI/Jenkins/ArgoCD）：代码构建-＞镜像打包-＞安全扫描-＞自动化测试-＞灰度部署-＞线上发布 
+3、 搭建可观测性基础设施：Prometheus+Grafana监控面板/ELK日志系统/Jaeger链路追踪/告警规则配置 
+4、 实施云FinOps实践：定期资源利用率分析报告/空闲资源清理/RI购买建议/成本异常告警 
+5、开发运维自动化工具（Python/Go/Shell）：自动扩缩容策略/证书自动续期/日志轮转/配置同步 
+6、 管理IaC代码（Terraform模块编写/环境模板/变更CR⫿批流程） 
+7、执行日常运维工作：线上问题排查/服务重启/数据备份验证/安全补丁更新/DNS管理 
+8、参与值班与应急响应，编写故障复盘报告（Postmortem），推动SRE合理实践 
+9、 管理容器镜像仓库（Harbor）与制品管理（Helm Chart版本管理） 
+
+技能要求 
+1、3年以上云运维/DevOps经验 
+2、 熟悉Kubernetes日常运维（kubectl/Helm/Kustomize/Pod调试/日志排查） 
+3、 熟悉至少一种主流云平台（AWS/GCP/阿里云），掌握核心服务（EC2/ECS/VPC/RDS/S3等） 
+4、掌握CI/CD工具（GitLab CI/ArgoCD/Jenkins/Harbor/Trivy等） 
+5、熟悉Prometheus/Grafana监控体系，能编写PromQL与自定义Dashboard 
+6、熟悉Linux系统管理与Shell/Python脚本编程 
+7、了解Terraform/Pulumi基础，能编写与维护IaC模块 
+8、 了解网络基础（TCP/IP/DNS/负载均衡/VPN/防火墙规则） 
+9、有高并发服务运维经验（消息中间件/数据库/缓存集群等）优先",DevOps Gin Kubernetes CI/CD GitLab CI Jenkins Go Prometheus Grafana Python Shell Terraform,https://www.liepin.com/job/1980486201.shtml
+Devops高级开发工程师 (MJ005699),阳光电源,薪资面议,南京-江宁区,南京,学生可投,5年以上,90天前更新,liepin,"职位描述:
+
+
+参与软件开发、维护和推广工作，熟悉，调研，推广业内先进技术，负责构建和维护高效的自动化工行流程，以支持软件的持续集成，持续交付和高可用性。
+
+
+- 设计、开发和维护自动化工具和流程，以实现嵌入式软件开发、测试和部署的自动化。
+
+
+- 构建和管理持续集成和持续交付流水线，确保软件的高质量和快速交付。
+
+
+- 监控和分析系统性能指标，以优化系统配置和资源利用率。
+
+
+- 负责开发和维护自动化测试框架，以确保代码质量和系统稳定性。
+
+
+- 与跨职能团队合作，推广和保障自动化工具软件的集成和部署。
+
+
+- 提供技术支持和培训，分享最佳实钱和经验。
+
+
+- 积极参与团队的持续改进活动，推动流程和工具的改进，提高研发效率和质量。
+
+
+任职要求:
+
+
+- 本科及以上学历，计算机科学或相关领域优先。
+
+
+- 具备相关的DevOps工作经验，熟悉软件开发和运维流程。
+
+
+- 熟悉常用的编程语言和脚本语言，如Python、GROOVY、Java、Shell等。
+
+
+- 熟悉Jenkins, Gerrit, CI/CD, PIPELINE, Jfrog制品库等相关DevOps工具。
+
+
+- 具备良好的系统架构和设计能力，了解常用的系统工具和技术。
+
+
+- 具备良好的问题解决和故障排除能力，能够快速定位和解决技术问题。
+
+
+- 具备良好的沟通和团队合作能力，能够与不同团队合作，解决问题和推动项目进展。
+
+
+- 具备自我驱动和持续学习的精神，对新技术和行业趋势保持敏感。
+
+
+- 具备一定DevOps项目研发、管理经验者优先。
+
+
+工作经验：5年以上
+
+
+关键词： Jenkins，Java，Python，运维开发经验
+
+
+工作地点：合肥/南京",高可用 DevOps Python Java Shell Jenkins CI/CD 自动化测试 技术支持 培训,https://www.liepin.com/job/1981416591.shtml
+Devops高级开发工程师 (MJ005699),阳光电源,薪资面议,合肥-肥西县,合肥,学生可投,5年以上,90天前更新,liepin,"职位描述:
+
+
+参与软件开发、维护和推广工作，熟悉，调研，推广业内先进技术，负责构建和维护高效的自动化工行流程，以支持软件的持续集成，持续交付和高可用性。
+
+
+- 设计、开发和维护自动化工具和流程，以实现嵌入式软件开发、测试和部署的自动化。
+
+
+- 构建和管理持续集成和持续交付流水线，确保软件的高质量和快速交付。
+
+
+- 监控和分析系统性能指标，以优化系统配置和资源利用率。
+
+
+- 负责开发和维护自动化测试框架，以确保代码质量和系统稳定性。
+
+
+- 与跨职能团队合作，推广和保障自动化工具软件的集成和部署。
+
+
+- 提供技术支持和培训，分享最佳实钱和经验。
+
+
+- 积极参与团队的持续改进活动，推动流程和工具的改进，提高研发效率和质量。
+
+
+任职要求:
+
+
+- 本科及以上学历，计算机科学或相关领域优先。
+
+
+- 具备相关的DevOps工作经验，熟悉软件开发和运维流程。
+
+
+- 熟悉常用的编程语言和脚本语言，如Python、GROOVY、Java、Shell等。
+
+
+- 熟悉Jenkins, Gerrit, CI/CD, PIPELINE, Jfrog制品库等相关DevOps工具。
+
+
+- 具备良好的系统架构和设计能力，了解常用的系统工具和技术。
+
+
+- 具备良好的问题解决和故障排除能力，能够快速定位和解决技术问题。
+
+
+- 具备良好的沟通和团队合作能力，能够与不同团队合作，解决问题和推动项目进展。
+
+
+- 具备自我驱动和持续学习的精神，对新技术和行业趋势保持敏感。
+
+
+- 具备一定DevOps项目研发、管理经验者优先。
+
+
+工作经验：5年以上
+
+
+关键词： Jenkins，Java，Python，运维开发经验
+
+
+工作地点：合肥/南京",高可用 DevOps Python Java Shell Jenkins CI/CD 自动化测试 技术支持 培训,https://www.liepin.com/job/1981416593.shtml
+devops/配置管理工程师,小米集团,20-35k·14薪,北京-海淀区,北京,学生可投,经验不限,90天前更新,liepin,"职责描述：
+参与小米集团公司级别的devops平台的建设和开发
+
+任职要求：
+1，对CI/CD概念有深入理解，有持续集成建设经验
+2，有过coverity使用和二次开发经验优先,有安卓系统或其它嵌入式系统研发支持经验优先
+3，熟练使用jenkins，gerrit，gitlab，jira，sonar，coverity中的至少三种，并有二次开发经验；
+4，精通python、shell、groovy等至少一种脚本语言，并可以按照一定的要求进行功能的开发；
+5，熟悉web开发，有持续集成平台开发及维护经验优先；
+6，熟悉linux系统和常见命令；
+7，了解makefile、maven、gradle、lint等工具，能搭建基础编译环境；
+
+",DevOps CI/CD Jenkins Git Python Shell Linux Maven Gradle,https://www.liepin.com/job/1944331981.shtml
+devops开发运维工程师,微策略软件(杭州)有限公司,20-40k·13薪,杭州,杭州,学生可投,经验不限,90天前更新,liepin,"社招，要求至少1年工作经验
+
+Job Description
+1）Design and develop development infrastructure and tools from front-end to back-end using a number of languages including Java, JavaScript, C++, Objective-C, Python, Ruby, etc.
+2）Use Cloud, container, Jenkins, etc Devops common tools to develop CI/CD product.
+Collaborate with other teams to accelerate development productivity and improve innovation in high visibility roles
+3）Analyze and improve efficiency, user experience, scalability, and stability of development tools and systems to help scale and speed up the company
+4）Innovate in all software engineering lifecycle to develop the world-class infrastructure that significantly changes the approach of software development
+5）Develop systems through their entire lifecycle: requirements analysis, design, implementation, testing, optimization, release and enhancement
+6）Creatively utilize open source technologies and contribute back to open source infrastructure
+7）Share cutting-edge technologies and support fellow team members in an open, collaborative atmosphere
+
+Qualifications
+1）Familiar with multiple development languages, not limited to Ruby/Bash/Python, etc., familiar with Linux development environment
+2）Bachelor degree or above, solid foundation in the field of computer software
+3）Good oral communication skills in English
+4）Good learning ability",Java JavaScript C++ Python Ruby Jenkins DevOps CI/CD Scala Gin CAN Linux,https://www.liepin.com/job/1944789613.shtml
+devops开发运维工程师,上海微福思软件科技有限公司,20-25k·14薪,上海-浦东新区,上海,学生可投,经验不限,90天前更新,liepin,"•3 years or above hands-on software development experience is a must.
+•Bachelor or master’s degree in computer science, Information System, Software Engineering or equivalent.
+•3+ years working experience
+•Experience in DevOps or IT administration or automation development
+•Able to take ownership from inception through finished tasks with minimal external help.
+•Good sense in DevOps/automation methodology, and strong trouble shooting skills
+•Good command of Linux Shell, and scripting languages: Python, Ruby or programming
+•Skills in DevOps technical stack, i.e. Jenkins, Maven repo/Artifact management, Git, GitHub, Ansible, Terraform, etc. 
+•knowledge on Docker/Kubernetes technology stack
+•Familiar with REST services
+•Experience in Agile development practice.
+•Experience in programming language (Java/C/Javascript) is a plus
+•Experience on AWS/Azure/GCP is a plus
+•Good command of English",Gin DevOps Go Linux Shell Python Ruby Jenkins Maven Git Ansible Terraform,https://www.liepin.com/job/1950235315.shtml
+DevOps开发运维工程师,苏州市湖湾信息科技有限公司,12-16k,上海-浦东新区,上海,学生可投,经验不限,90天前更新,liepin,"工作职责：
+1、负责为公司身份安全产品线开发CI/CD持续交付流水线，实现代码提交、静态检查、编译、打包、集成、测试，以及在各种场景下的发布、配置、部署的自动化处理。
+
+2、对平台进行监控、预警、日志、故障管理、容量管理、对线上生产系统提供安全运行保障。
+
+岗位要求：
+1、本科及以上学历，计算机、信息技术或数学相关专业者优先；
+2、对Linux操作系统和数据库、中间件、存储技术有较深入的理解；
+3、精通K8s基本原理；
+4、认真细致，热爱技术，追求极致；
+5、具有良好的沟通能力和团队合作精神；
+
+注：本公司为上海申石软件在苏州市的子公司，社保在苏州缴纳，工作地点在上海市浦东新区。",CI/CD Linux K8s,https://www.liepin.com/job/1961660497.shtml
+Product Operations Engineer — TaiChi AI Platform & Adoption,上海睿沃信息科技有限公司,15-25k,上海-浦东新区,上海,学历不限,经验不限,5月21日更新,liepin,"任职要求
+●5+ 年 IT 运维/产品运营经验，有平台运营或 SRE 经验
+●熟悉 ITIL 框架（Incident/Problem/Change Management）
+●熟练使用 Jira、Confluence、GitLab 等协作工具
+●具备基础的 Linux 操作和 Kubernetes 排障能力
+●熟悉 CI/CD 概念，能维护内容发布 Pipeline
+●良好的文档写作能力（英文），能编写专业的技术文档和运营报告
+●沟通协调能力强，能在多团队间推动问题解决
+●英文读写流利
+●了解 ML/LLM 基础概念（如模型训练、推理、Prompt Engineering、Token、Embedding 等），能理解 AI 平台用户的技术需求
+●能使用 Python 调用 LLM API（如 OpenAI SDK）完成基础任务（Prompt 调试、日志分析、批量测试），具备编写简单自动化脚本的能力
+●接受每周 5 天驻场罗氏办公室 
+●有 AI/ML 平台运营经验
+●了解 DevOps 指标体系（DORA metrics）
+●有 Markdown、AsciiDoc 等技术写作经验
+●ITIL 认证
+●有医药/生命科学行业经验 
+
+作为 TaiChi AI Platform & Adoption 系列服务的运营主接口人，负责日常运维请求处理、Incident 管理、用户支持和运营流程建设。协调 DevOps 工程师解决技术问题，维护知识库和运营文档，提供月度运营报告。
+
+
+主要职责：
+Incident 与问题管理
+●作为用户和监控系统的响应人，受理和分类 Incident
+●协调 DevOps 工程师排查和解决问题，跟踪至闭环
+●执行 Problem Management 流程，推动根因分析和预防措施
+●参与 5*8 oncall 轮值
+
+运营流程与文档
+●建设和维护运营框架（Jira 工作流、GitLab 流程、Confluence 知识库）
+●维护 SOP、TOP、Wiki、用户手册等运营文档
+●搭建内容发布的 CI/CD 流程（GitLab Pages、Google Sites、AsciiDoc）
+●管理运维团队账号和系统账号
+
+服务报告与 KPI
+●按罗氏模板编制月度运营报告，包含 SLA 达成情况，FinOps和 KPI 指标
+●跟踪 DevOps 指标（Lead Time、Change Failure Rate、Deployment Frequency、MTTR）等
+●识别服务改进机会，推动持续优化
+用户支持与沟通
+●处理用户咨询和平台使用问题（On-Site、电话、即时消息）
+●执行罗氏内部流程（ServiceNow 工单、权限申请等）
+●与全球团队协作进行方案设计和故障排查
+
+ ",Git Linux Kubernetes CI/CD LLM Gin Python DevOps Go 技术文档 日志分析 知识库,https://www.liepin.com/job/1982743203.shtml
+云服务开发工程师,成都华为技术有限公司,15-30k·16薪,成都-郫都区,成都,学生可投,经验不限,90天前更新,liepin,"云服务开发工程师
+
+
+对应职级：13-18级
+工作城市：深圳、北京、成都、西安、杭州
+
+
+岗位职责：
+1、负责创新项目系统设计与研发工作；
+2、负责相关子系统及业务流程的优化重构，研发过程优化工作；
+3、负责项目重点、难点的技术攻坚；
+4、负责后端系统核心代码编写和按时交付，保证交付质量和负责版本维护；
+
+
+岗位要求：
+1、 计算机相关专业本科以上学历，3年以上工作经验；
+2、扎实的编程能力，熟悉算法和数据结构；熟悉计算机的基础理论；
+3、扎实的java编程基础，对各种开源的框架如Spring、mybatis、spring boot、spring cloud、dubbo等有深入的了解，对框架本身有过开发或重构者可优先考虑；
+4、具有大规模高并发web应用设计和开发经验优先；
+6、熟悉redis、kafka、MariaDB、mongodb、hadoop、spark、ElasticSearch等大数据技术者优先考虑；
+7、熟悉docker、kubernetes、mesos、rancher等容器技术并有实际使用经验者优先考虑；
+8、熟悉DevOps、微服务理念，并有日常实践者优先；
+ 
+云服务前端开发工程师
+
+
+对应职级：13-18级
+工作城市：深圳、北京、成都、西安、杭州
+
+
+岗位职责：
+1. 设计核心产品的前端架构，并带领组员实现并持续优化；
+2. 为前后端技术改进、网站性能优化、技术选型提供解决方案，持续提升团队整体技术水平；
+3. 抽象业务问题，管控业务需求，支持淘系复杂业务场景，主导平台型业务的技术架构设计，推动数据化运营模式升级。
+岗位要求：
+1. 技术视野广阔，有大型网站前端架构、性能、可访问性、可维护性等方面的实践经验；
+2. 至少熟练使用一门非前端脚本语言（如：NodeJS /Python/PHP等），并有项目经验；
+3. 精通各种Web前端技术（HTML/CSS/Javascript等)，熟练跨浏览器、跨终端的开发；
+4. 精通 Babel/Webpack，对AST有深度理解；熟悉 BaaS/FaaS，对serverless有深刻理解。
+5. 对前端事件流、数据流有深度理解，有复杂可视化搭建平台的研发经验优先。
+
+
+云服务运维工程师
+
+
+对应职级：13-18级
+工作城市：深圳、北京、成都、西安、杭州
+
+
+岗位职责
+负责华为公司内部和外部的研发工具链的开发，打造研发效率持续提升利器。作为工具链核心开发者负责端到端交付工具链前后端服务；负责后端系统核心代码编写和按时交付，保证交付质量和负责版本维护
+
+
+岗位要求
+1、有3年以上IT开发从业经验或在主流开源软件社区长期贡献。国内外知名互联网公司的部署/发布/监控/运维/运营/大数据分析领域的核心开发人员。
+2、至少精通C/C++、JAVA等1种或多种主流编程语言，熟悉linux/Unix操作系统，能熟练使用各种软件研发工具。
+3、熟悉Jenkins、GoCD、AWS CodePipeline、VSTS Build&Relase等CI/CD工具中的一种或多种，有多年的工具开发经验优先。
+ 
+ 
+数据开发工程师
+
+
+对应职级：13-18级
+工作城市：深圳、北京、成都、西安、杭州
+
+
+岗位职责
+1、负责进行大数据相关技术整体解决方案；负责大数据专业服务项目设计与交付（数据治理、数据建模、数据分析挖掘等）
+2、负责大数据专业服务某个子领域的能力建设；
+3、具备业务理解和抽象能力，可解决复杂的商业问题、技术方向把控。
+岗位要求：
+1、 计算机相关专业本科以上学历，5年以上工作经验，3年以上大数据相关经验；
+2、 熟悉常用的数据结构、算法以及数据建模理论；
+3、有过支撑每日亿级别数据的大数据平台建设经验，了解数据仓库实施方法论、了解数据仓库体系，并支撑过实际业务场景；
+4、具备较强的编码能力，掌握 JAVA/Scala/Python 开发语言之一，熟练使用 SQL 进行数据访问；
+5、精通 Hadoop 生态系统基础设施，包括Flume、Kafka、Hbase、Hive、Spark、Storm等。
+ 
+智能中台开发工程师
+
+
+对应职级：13-18级
+工作城市：深圳、北京、成都、西安、杭州
+
+
+岗位职责：
+1. 负责华为软件开发云AI平台的模块设计和关键AI能力建设，引入业界新技术和实践经验，构筑业界领先的AI能力，支撑公司AI战略在华为软件开发云的突破。
+岗位要求：
+1. 熟悉主流机器学习、深度学习框架，如Tensorflow、caffe、Pytorch等，在机器学习和深度学习方面有扎实的理论基础。
+2. 参与过AI相关的大型项目并取得成功，在项目中担任关键技术专家，主导关键技术突破。
+3. 参与过AI平台构建，对AI平台分层设计、关键AI能力建设有深入理解和实践经验。
+4. 对NLP、知识图谱、人物画像、推荐系统、数据处理等相关技术在产品领域内应用有深入理解。
+5. 至少精通java、python等主流编程语言之一。
+
+
+ 
+云服务算法工程师
+
+
+对应职级：13-18级
+工作城市：深圳、北京、成都、西安、杭州
+
+
+岗位职责：
+1. 负责华为研发平台AI能力建设，基于公司海量的研发数据资产，构建研发过程的智能辅助能力，将AI应用到研发过程改进中。
+2. 主导算法模型的研究与开发，对准关键技术路径和业务方向持续耕耘提供具备业界竞争力的技术方案和能力。
+岗位要求：
+1.至少熟练掌握一种主流的机器学习框架，在机器学习和深度学习方面有扎实的理论基础。
+2.主导过AI相关的大型项目并取得成功，在项目中主导关键技术突破。
+3.至少精通java、python等主流编程语言之一。
+
+
+
+
+云服务安全工程师&架构师
+
+
+对应职级：13-18级
+工作城市：深圳、北京、成都、西安、杭州
+
+
+岗位职责：
+1、负责跟踪业界的标准与最佳实践，负责业务安全服务产品（防欺诈、内容安全等）的网络规划和架构设计；
+2、负责业务安全能力未来的规划以及新技术探路工作；
+3、主导具体业务安全技术解决方案以及业务安全服务的总体方案设计；
+4、深刻理解客户需求，能独立负责业务的网络安全/隐私保护工作、解决问题，促进项目成功；
+5、洞察业界DevSecOps发展趋势，输出安全工程能力提升规划；
+岗位要求：
+1、计算机相关专业本科以上学历，3年以上工作经验；安全领域3年以上经验
+2、具有网络安全架构设计经验；
+3、熟悉网络安全以及具有云基础设施安全的知识背景；
+4、精通主流的Web安全技术，了解常见的安全风险，包括SQL注入、XSS、CSRF、SSRF等安全风险；
+5、熟悉国内外主流安全产品和工具，如：Nessus、Nmap、AWVS、Burp、Appscan等；
+6,、熟悉常见安全攻防技术，对网络安全、系统安全、应用安全有深入的理解和自己的认识，熟悉WEB平台渗透测试、后门分析、加固；
+
+
+
+
+云服务测试工程师&云服务高级测试工程师
+
+
+对应职级：13-18级
+工作城市：深圳、北京、成都、西安、杭州
+
+
+岗位职责：
+1、端到端测试交付：参与或负责特性/系统测试方案设计、测试用例的输出和执行；
+2、自动化建设：参与或负责自动化用例设计和脚本输出；
+3、测试技术构建：负责或参与测试方法/自动化技术研究，提升团队提升测试质量和效率。
+岗位要求：
+业务技能要求：
+1、具备通信工程，自动化、电子信息、计算机、网络安全，自动化等相关工科专业背景；
+2、熟悉测试基础理论和测试技术工程方法，能够独立进行测试分析、设计和执行；
+3、熟练掌握Java、python等至少一种脚本编程语言，能够独立进行自动化框架设计和自动化脚本开发；
+4、具备良好的沟通协调能力和团队合作精神、良好的学习、动手以及解决问题的能力。
+5、有DevOPS测试经验&性能可靠性专项测试经验者优先，同时也欢迎有开发经验的同学转测试。
+专业知识要求：
+1、 熟悉测试基础理论，如黑盒和白盒测试方法；
+2、 掌握java、python等至少一种编程语言，有良好的代码基础能力。
+
+
+云化工具链架构师
+
+
+对应职级：17-20级
+工作城市：深圳、北京、成都、西安、杭州
+
+
+岗位职责：
+针对多个类型工作岗位分别为：（满足一条即可）
+1、 Java工程师：需要参与系统需求分析，数据库设计以及系统设计，完成核心编码，项目中的技术方向管控，解决技术难点；
+2、 前端工程师：负责Web前端设计开发，适配不同客户需求，支持ISV联合开发需求和场景；
+3、 运维开发工程师：负责全网集中运维与配置，灰度发布，自动化运维，运维工具开发等能力，帮助运维规划设计。引入监控工具平台交付经验的人才，如APM，帮助设计回顾增强监控系统。支撑业务的监控需求，支撑业务的监控需求。
+4、 Android开发工程师、iOS开发工程师：负责Android/iOS端App的模块设计与开发。
+5、研究基于云化、智能化的研发工具链发展方向，建立华为终端工具领域先进的开发工具链、微服务场景工具链，构建华为研发工具分析决策系统和能力。
+岗位要求：
+业务技能要求：
+满足以下条件其中1项以上即可： 
+1、曾参与大型分布式系统的设计与开发,，熟练使用Java、Spring/mybatis;精通以下任一领域技术或开源产品，包括但不限于计算、网络、存储、安全、监控运维、操作系统、数据库、分布式架构、RDS、服务化API、开源等领域。技术涉猎广泛，知识面广，并在某个领域具有专长优势。熟悉Docker、Rocket、Kubernetes、Swarm、容器、服务化优先。
+2、熟悉前端开源框架，微服务架构、虚拟化技术，有丰富的分布式系统设计和实施经验，能够保障大型系统的高性能、高可靠运行。
+3、熟练使用常用中间件：精通Dubbo、Redis、MQ、Tomcat等常用中间件
+4、掌握持续集成、CD、DevOps等工程方法与工具。 具有构建大型研发基础设施云服务能力。熟悉当今主流的软件开发环境与工具建设，包括但不限于智能化、云化等方向。
+专业知识要求：
+满足以下条件其中1项以上即可：
+1、 精通Java相关技术和框架（包括JVM线程池SpringmyBatis等）。熟悉Linux/Unix操作系统原理、常用工具。全面的知识结构（操作系统、软件工程、设计模式、数据结构、数据库系统、网络安全），熟悉分布式系统架构，精通Dubbo、Redis、MQ、Tomcat等常用中间件；
+2、 精通一种前端框架，需要基于新型TypeScript和Angular2实现样式主体化、响应式、组件动态加载、微件重用、布局自定义等框架。
+3、 精通Android/iOS开发平台及框架原理，熟悉Android/iOS平台UI设计和常用布局，熟练使用Android SDK及相关开发工具，能独立完成基于Android/iOS的应用的开发工作。
+4、具有云化开发工具链建设/持续交付和集成工具开发经验，具备云计算、互联网、数据挖掘与分析的研发架构/网络/安全/服务的设计、开发能力。
+
+
+高级DevOps开发工程师 
+
+
+对应职级：14-18级
+工作城市：深圳、北京、成都、西安、杭州
+
+
+岗位职责：
+1. 熟悉软件工程领域理论及工程技术方法、紧跟最新发展趋势和前沿技术，并在实际应用过程中落地实施；
+2. 实施端到端的DevOps框架搭建，实现跨平台、跨系统的工具、环境、资源的自动化配置与统一监控，代码的静态检查、持续集成与发布；
+3. 设计DevOps工具链平台日常开发、发布与运维全流程，负责实现DevOps全链路策略，包括CICD、项目管理、自动化发布部署、自动化测试等，并制定相关规范；
+4. 洞察业界DevOps软件工程发展趋势，输出本领域工程能力建议规划；
+岗位要求：
+业务技能要求：
+1、具备丰富的软件工程知识，对业内领先的DevOps方法论有所了解，熟悉研发常用工具，具备创新思维，乐意将先进思想融入实际工作中；
+2、有较强的推动协调组织能力；具备良好的结构化思维和与人连接力；
+3、有设计开发测试等研发背景，掌握主流的开发语言，会开发工具提升工作效率；
+4、具备高度的责任心，发现问题并解决问题，能够系统的识别和分析解决问题
+专业知识要求：
+1、熟悉Java，熟悉业界主流的微服务框架，如HSF、SpringCloud，熟悉ServiceMesh相关技术并了解其实现，如Linkerd、Istio等。
+2、熟悉DevOps、主流软件开发工具和软件工程方法，对基于软件工具发展有深刻认识和见解。
+3、熟悉云化产品设计、云服务系统设计、容器化、能够构建大型云服务系统，有成功的DevOps项目交付经验尤佳。
+4、具有良好的沟通能力，刻苦、敬业、有上进心，有良好的团队合作精神。能快速接受和掌握新技术，有较强主动学习能力；
+
+
+工具产品经理
+
+
+对应职级：13-18级
+工作城市：深圳、北京、成都、西安、杭州
+
+
+岗位职责：
+1.带领华为研发工具服务（DevCloud/CloudDragon）取得产品和商业成功，对产品的体验和竞争力负责
+2.产品的定义和规划：行业洞察和产品竞分、产品的定义、竞争力构建、需求和路标管理，服务的生命周期管理和组合管理
+3.产品的设计和体验，对产品的端到端体验负责：交互式设计、体验的持续看护、体验的量化评估和持续改进
+4.产品的持续经营：成本分析，资源容量预测，运营数据分析和经营优化，落地运营驱动开发，主导产品运营
+5.行业影响力构建：技术布道、行业标准的制定、开发者社区活动等
+岗位要求：
+1.大学本科及以上学历，计算机相关专业，?3年以上产品管理/产品规划/产品经理经验，知名互联网公司工作经验优先
+2.有研发背景、熟悉研发工具相关，有设计、开发、测试、协同、发布等工具开发经验者优先
+3.优秀的产品规划、产品和商业设计、行业洞察和产品竞分能力，有敏锐的市场和商业意识
+4.良好的沟通协调能力，能够跨职能、跨部门的沟通协调资源，推进产品演进
+运营产品经理
+
+
+对应职级：13-18级
+工作城市：深圳、北京、成都、西安、杭州
+
+
+岗位职责：
+负责研发工具运营，在研发工具的生命周期内整合营销策划、创意、传播、新媒体，线上&线下联动营销，针对研发工具交付实践及方向，结合业界品牌运营最佳实践和行业趋势，提出工具品牌运营规划和落地支撑方案，制定品牌运营各阶段工作目标和策略，并全过程推动目标达成，使研发工具品牌深入人心。
+岗位要求：
+1、对运营有行业洞察和理解，能够针对研发工具交付实践及方向，结合业界品牌运营最佳实践和行业趋势，提出工具品牌运营规划和落地支撑方案，从业务成功视角给出分析和决策；
+2、能够熟练应用各种媒介技术、营销手段和市场调研方法，具备产品、用户心理分析能力，对市场发展动态有洞察力，能够根据需求与市场变化迅速做出回应；
+3、逐层拆解相关战略目标直至形成具体的品牌运营规划及项目目标；
+4、有很强的沟通、协调、语言表达能力。",Java Spring MyBatis Spring Boot Spring Cloud 高并发 Redis Kafka MongoDB Hadoop Spark Elasticsearch,https://www.liepin.com/job/1963225307.shtml
+运维工程师,杭州天择量化科技有限公司,20-45k,杭州-萧山区,杭州,学生可投,10年以下,5月17日更新,liepin,"DevOps工程师（交易系统方向）招聘JD
+
+一、岗位职责
+
+（一）岗位目标
+
+1. 核心保障交易系统7×24小时稳定运行，支撑业务连续性；
+
+2. 负责多机分布式计算环境搭建与维护，支撑策略回测、AI推理等核心业务场景；
+
+3. 负责对象存储、时序数据库等数据系统的全生命周期管理；
+
+4. 搭建自动化运维体系，实现部署、监控、告警全流程自动化。
+
+（二）核心工作内容
+
+1. 基础设施运维
+
+◦ 负责Ubuntu服务器集群日常管理、系统运维与故障排查；
+
+◦ 完成内网、公网网络规划配置、安全组策略管理；
+
+◦ 统筹服务器磁盘、IO、CPU、GPU、内存等资源调度与性能调优。
+
+2. 容器与集群管理
+
+◦ 基于Docker完成业务容器化部署、镜像管理与运维；
+
+◦ 负责Kubernetes集群搭建、维护与弹性调度；
+
+◦ 支撑多机回测、分布式推理、Agent系统等复杂分布式业务场景。
+
+3. 数据系统运维
+
+◦ 负责MinIO对象存储、ClickHouse时序数据库、Redis缓存集群的部署、调优、故障排查；
+
+◦ 实现数据存储系统的弹性扩容，保障高并发下数据读写稳定性。
+
+4. CI/CD自动化建设
+
+◦ 基于GitLab CI/GitHub Actions搭建持续集成、持续交付流水线；
+
+◦ 实现前后端项目自动部署、灰度发布流程落地。
+
+5. 监控与告警体系建设
+
+◦ 搭建Prometheus+Grafana监控平台，实现系统指标可视化；
+
+◦ 维护ELK/Loki日志系统，实现全链路日志采集与分析；
+
+◦ 设计异常告警策略，做到系统故障提前预警，保障交易系统平稳运行。
+
+6. 安全与交易系统保障
+
+◦ 配置IP白名单、安全组策略，保障网络访问安全；
+
+◦ 实现API签名、限流、防DDoS、防爆破等安全防护；
+
+◦ 参与交易系统低延迟优化、WebSocket稳定性保障，完成API限流、重试机制优化。
+
+二、任职要求
+
+（一）必备技能
+
+1. 精通Linux操作系统，具备Ubuntu服务器运维实战经验；
+
+2. 熟练掌握Docker容器技术，能独立完成容器化部署与维护；
+
+3. 扎实掌握TCP/IP网络基础，具备网络问题排查能力；
+
+4. 熟练使用Shell/Python进行自动化脚本开发；
+
+5. 熟悉Prometheus+Grafana监控体系，能独立搭建监控告警平台；
+
+6. 熟悉ClickHouse、MinIO、Redis等中间件部署与调优。
+
+（二）加分项
+
+1. 具备Kubernetes集群运维、弹性调度实战经验；
+
+2. 有量化交易系统、高频交易系统运维经验；
+
+3. 有GPU集群、AI推理集群运维经验；
+
+4. 熟悉RDMA技术、FastAPI框架者优先；
+
+5. 有分布式回测、Agent系统运维经验者优先。
+",DevOps 分布式 Docker 容器化 Kubernetes ClickHouse Redis 高并发 CI/CD GitLab CI Git Prometheus,https://www.liepin.com/job/1982596849.shtml
+软件开发工程师（外企德科）,华为,15-25k·15薪,东莞-松山湖,东莞,学生可投,经验不限,90天前更新,liepin,"华为OD招聘，工作地点：长沙、南京、东莞、济南
+我们急需 Golang、Java、前端/后端、测试工程师
+团队介绍：Appcube是零代码和低代码应用开发平台，源于华为应用开发和数字化转型的实践，提供了云上无码化、低码化、支持多码化的应用开发模式，屏蔽了技术的复杂性，提升了企业开发的效率。同时提供应用资产的开发标准和微服务框架，助力企业不断沉淀可复制的套件，加速应用的定制，并通过开放的生态，实现套件资产的商业变现。
+软件开发工程师
+专业知识要求：
+1、至少精通JAVA、Golang、Python、TypeScript/JavaScript/Shell、Nodejs、Android、Java、C++、C等至少1种主流编程语言、设计模式和组件技术；精通业务主流技术并有成功应用案例，包括不限于JS框架、微服务运用等；
+2、掌握常见的数据结构、算法，了解软件工程、敏捷开发等知识；
+3、掌握常见的软件性能，可靠性的问题分析方法与工具；
+4、掌握常见软件设计模式，熟练掌握软件系统设计的工具与方法；
+
+Web前端开发工程师
+业务技能要求：
+1、精通HTML5、CSS3、HTTP请求等前端基本知识
+2、精通VUE框架开发，有element UI使用经验；
+3、精通JavaScript，熟悉H5/TypeScript，熟练各种脚本调试器如chrome/postman，快速定位问题；
+4、能承受工作压力，有良好的沟通能力；
+5、有责任心，具有独立分析解决问题的能力，具备良好的团队合作精神。
+专业知识要求：
+1、至少精通Vuejs/Angularjs/Reactjs三大框架之一，JAVA、JavaScript、TypeScript、Nodejs、Android-Java、HTML5、C++等至少2种主流编程语言、设计模式和组件技术；精通业务主流技术并有成功应用案例，包括不限于JS框架、微服务运用等；
+2、掌握常见的数据结构、算法，了解软件工程、敏捷开发等知识；
+3、掌握常见的软件性能，可靠性的问题分析方法与工具；
+4、掌握常见软件设计模式，熟练掌握软件系统设计的工具与方法；
+5、至少参与过1个或多个IOT、边缘计算、云服务的业务或平台项目开发。
+
+安全测试工程师
+业务技能要求：
+1、掌握安全隐私测试、Fuzz测试、渗透测试、源代码审计、漏洞检测等技术并有相关实战经验。
+2、有安全工程实践经验者优先，如网络应用安全、网络安全、认证协议、加密技术、自动化和其他软件安全。
+3、具备良好的沟通协调能力和团队合作意识，有较强的动手能力。
+专业知识要求：
+1、熟悉安全隐私基础知识，如密码学，具备安全渗透测试经验，熟悉渗透测试的各类技术及方法。
+3、掌握JAVA、Python、C/C++其中一门语言。
+
+运维开发工程师
+业务技能要求：
+1、1年以上Python/Shell开发经验；
+2、了解DevOps理念及平台工具，有持续集成、持续部署相关经验，关注技术动态，对技术有热情；
+3、了解微服务架构体系相关知识，熟悉微服务Spring Cloud等解决方案者优先；
+4、有责任心和团队合作精神，心态积极，能主动融入团队。
+5、有云服务产品DevOps实践经验优先。
+其他要求：
+1、熟悉docker、k8s、paas等基本原理和操作。
+2、熟悉linux操作系统和网络，熟练运用python、shell等脚本语言实现自动化功能；
+3、熟悉Mysql数据库以及常见的NoSQL DB，如MongoDB等；
+4、熟悉软件DevOps/CI/CD概念和原理，熟练使用Git,Jenkins,Maven,Ant等持续集成工具。",Golang Java 微服务 Python TypeScript JavaScript Shell C++ HTML5 CSS3 Vue Angular,https://www.liepin.com/job/1965045329.shtml
+软件开发工程师（外企德科）,华为,15-25k·15薪,南京-雨花台区,南京,学生可投,经验不限,90天前更新,liepin,"华为OD招聘，工作地点：长沙、南京、东莞、济南
+我们急需 Golang、Java、前端/后端、测试工程师
+团队介绍：Appcube是零代码和低代码应用开发平台，源于华为应用开发和数字化转型的实践，提供了云上无码化、低码化、支持多码化的应用开发模式，屏蔽了技术的复杂性，提升了企业开发的效率。同时提供应用资产的开发标准和微服务框架，助力企业不断沉淀可复制的套件，加速应用的定制，并通过开放的生态，实现套件资产的商业变现。
+软件开发工程师
+专业知识要求：
+1、至少精通JAVA、Golang、Python、TypeScript/JavaScript/Shell、Nodejs、Android、Java、C++、C等至少1种主流编程语言、设计模式和组件技术；精通业务主流技术并有成功应用案例，包括不限于JS框架、微服务运用等；
+2、掌握常见的数据结构、算法，了解软件工程、敏捷开发等知识；
+3、掌握常见的软件性能，可靠性的问题分析方法与工具；
+4、掌握常见软件设计模式，熟练掌握软件系统设计的工具与方法；
+
+Web前端开发工程师
+业务技能要求：
+1、精通HTML5、CSS3、HTTP请求等前端基本知识
+2、精通VUE框架开发，有element UI使用经验；
+3、精通JavaScript，熟悉H5/TypeScript，熟练各种脚本调试器如chrome/postman，快速定位问题；
+4、能承受工作压力，有良好的沟通能力；
+5、有责任心，具有独立分析解决问题的能力，具备良好的团队合作精神。
+专业知识要求：
+1、至少精通Vuejs/Angularjs/Reactjs三大框架之一，JAVA、JavaScript、TypeScript、Nodejs、Android-Java、HTML5、C++等至少2种主流编程语言、设计模式和组件技术；精通业务主流技术并有成功应用案例，包括不限于JS框架、微服务运用等；
+2、掌握常见的数据结构、算法，了解软件工程、敏捷开发等知识；
+3、掌握常见的软件性能，可靠性的问题分析方法与工具；
+4、掌握常见软件设计模式，熟练掌握软件系统设计的工具与方法；
+5、至少参与过1个或多个IOT、边缘计算、云服务的业务或平台项目开发。
+
+安全测试工程师
+业务技能要求：
+1、掌握安全隐私测试、Fuzz测试、渗透测试、源代码审计、漏洞检测等技术并有相关实战经验。
+2、有安全工程实践经验者优先，如网络应用安全、网络安全、认证协议、加密技术、自动化和其他软件安全。
+3、具备良好的沟通协调能力和团队合作意识，有较强的动手能力。
+专业知识要求：
+1、熟悉安全隐私基础知识，如密码学，具备安全渗透测试经验，熟悉渗透测试的各类技术及方法。
+3、掌握JAVA、Python、C/C++其中一门语言。
+
+运维开发工程师
+业务技能要求：
+1、1年以上Python/Shell开发经验；
+2、了解DevOps理念及平台工具，有持续集成、持续部署相关经验，关注技术动态，对技术有热情；
+3、了解微服务架构体系相关知识，熟悉微服务Spring Cloud等解决方案者优先；
+4、有责任心和团队合作精神，心态积极，能主动融入团队。
+5、有云服务产品DevOps实践经验优先。
+其他要求：
+1、熟悉docker、k8s、paas等基本原理和操作。
+2、熟悉linux操作系统和网络，熟练运用python、shell等脚本语言实现自动化功能；
+3、熟悉Mysql数据库以及常见的NoSQL DB，如MongoDB等；
+4、熟悉软件DevOps/CI/CD概念和原理，熟练使用Git,Jenkins,Maven,Ant等持续集成工具。",Golang Java 微服务 Python TypeScript JavaScript Shell C++ HTML5 CSS3 Vue Angular,https://www.liepin.com/job/1965045199.shtml
+运维开发,华为,20-30k,深圳,深圳,学生可投,经验不限,90天前更新,liepin,"职位描述：
+华为OD岗位，薪资可谈，岗位介绍非最终薪资
+专注AIOPS，业务全链路健康等运维开发能力
+云服务运维开发高级工程师
+岗位职责：
+1.负责维持服务器正常运行，负责检查服务器系统日志和性能及故障处理；
+2.负责部署、维护系统和系统升级工作；
+3.负责研究、优化系统架构，排查系统的故障，提升系统服务质量；
+4.负责服务器运维安全管理，保护、备份数据，确保服务安全；
+5.负责运维数据分析和监控；
+任职资格：
+1.三年以上windows、linux系统与网络相关工作经验，具备服务器、存储等计算机知识，了解计算机体系架构,内外部设备,网络知识；
+2.熟悉linux、windows等常见服务器操作系统下mysql、redis、tomcat、zabbix、jumpserver等应用的部署与维护；
+3.熟练编写shell脚本；
+4.熟练使用vmwarevcenter与docker经验优先；
+5.强烈的责任心和主动性，良好的沟通能力，团队意识强",Linux MySQL Redis Tomcat Shell Docker 数据分析,https://www.liepin.com/job/1950880241.shtml
+DevOps工程教练,中信银行,13-18k·20薪,北京,北京,学生可投,经验不限,90天前更新,liepin,"岗位职责：
+1、 负责组织级软件工程新方法、新工具、新技术的研究、引入和推广，负责软件工程专业技能培训、指导，培养合格的团队级devops工程师；
+2、 参与组织级软件研发管理体系建设和优化，制定软件工程各阶段实施效果指标，并持续优化和改进，提升研发交付整体效率和质量；
+3、 负责团队持续交付和创新能力的持续提升指导和实践，优化提升软件工程各过程，提升团队整体交付效率和质量；
+4、 负责提炼、总结、挖潜优秀工程实践案例并在组织内进行传播、推动落地；
+5、 负责devops工具日常运维的二级响应和支持
+6、 完成上级领导交办的其他工作事项
+岗位要求：
+1、 掌握计算机基础理论知识，有一门以上主流开发语言及脚本的开发经验，
+2、 掌握DevOps、软件工程等理论知识，熟悉配置管理、持续集成、自动化测试、自动化部署、持续交付等实践与技术，了解自动化运维、微服务等知识
+3、 熟练运用Git、Jenkins、SonarQube、nexus等工具
+4、 具备较强的学习能力、逻辑思维能力和沟通能力，乐于接受挑战
+5、 具备互联网或金融等行业的DevOps转型实施经验者优先",DevOps 微服务 Git Jenkins 培训 自动化测试,https://www.liepin.com/job/1931641427.shtml
+量化交易系统开发运维工程师（DevOps方向）,天算量化(北京)资本管理有限公司,20-30k,北京-东城区,北京,学生可投,1-3年,90天前更新,liepin,"【岗位职责】
+1. 负责量化交易系统的开发与迭代，包括交易引擎、数据处理模块、监控告警系统等核心组件的设计与实现。
+2. 构建和优化CI/CD流水线，实现自动化部署、测试和发布，保障系统高可用性。
+3. 对接券商PB系统，开发文件扫单或API接口对接模块，确保交易链路稳定高效。
+4. 参与量化交易系统架构设计，负责系统性能调优、故障诊断与快速恢复。
+5. 设计并实施数据备份、灾难恢复方案，保障交易数据安全与业务连续性。
+  
+
+【任职资格】
+1. 本科双一流院校及以上学历，必须项
+2. 1-3年Python开发经验，代码规范，具备良好的编程习惯和工程意识。
+3. 熟悉Linux系统，具备基本的运维能力和问题排查思路。
+4. 了解Docker/K8s等容器化技术，有实际使用或学习经验。
+5. 学习能力强，对新技术保持好奇心，能够快速掌握新工具和新框架。
+6. 责任心强，主动积极，具备良好的沟通协作能力和抗压能力。
+  
+
+【加分项】
+1. 熟悉Rust语言，或有学习Rust的意愿和计划。
+2. 对量化交易、金融科技有浓厚兴趣，有相关学习或项目经历。
+3. 有个人技术博客、开源项目贡献或活跃的GitHub。
+4. 参加过ACM、数学建模等竞赛者优先。",CI/CD 高可用 Python Linux Docker K8s 容器化 Rust Git 监控告警,https://www.liepin.com/job/1978972091.shtml
+软件开发工程师,华为,15-30k,深圳-龙岗区,深圳,学生可投,经验不限,90天前更新,liepin,"FESCO·Adecco
+追光有你
+外企德科OD人工智能岗位招聘
+--服务于华为
+软件开发工程师(Java)|软件开发工程师(Python)|前端开发工程师
+运维开发SRE	|软件测试工程师	
+
+I【驻派方介绍】
+华为IT平台服务部UniAl产品(原人工智能使能部)承载华为AI战略，专注实现企业场景AI，深耕销售、服务、供应、制造、财经等20+业务及颗粒化领域900+海量场景，基于“场景、算法、数据、算力”四位一体，建设企业AI解决方案及服务，联接开放生态，践行智能之道。
+【工作地域】深圳
+I【招聘岗位】
+软件开发工程师(Java)
+1、精通java、设计模式、网络编程(Netty)、并发编程、JVM内存管理及调优，能够熟练使用 spring boot 进行微服务项目开发。
+2、熟练使用容器化部署技术，能够熟练使用DOCKER和Jenkins进行项目的自动化部署。精通Mysq和Redis,具有sql优化、Mycat分库分表、索引优、性能调优、数据库灾备等丰富的实战经验，掌握 activeMQ、rocketMQ、rabbitMQ、kafka原理及集群布署，熟练使用Nginx( Tengine,Openresty)、Haproxy、LVSKeepAlived、zookeeper等负载均衡组件。
+3、有基于云系统开发维护经验，熟悉云应用常用组件的使用和开发。
+4、具有JAVA视频流处理相关开发经验者优先。
+5、有高并发(＞百万/日)项目经验优先。岗位职责:
+负责视频、语音、知识图谱、智能助手等中台的代码开发和架构看护
+软件开发工程师(Python)
+1、精通常用python的web开发之一(flask，Django等)，有实际＞3个对应项目的开发经验
+2、熟练使用异步框架celery做异步开发，有实际的开发经验和高并发项目经验。
+3、有pythonweb系统设计开发经验(＞3个模块)优先。
+4、对基于python微服务的开发、自动化部署、自动化运维等有实际项目经验或对应模块的开发经验。
+5、有算法基础或者算法服务开发调优运维经验优先。岗位职责:
+负责机器视觉、搜索、推荐、NLP、机器学习、RPA等领域的服务算法微服务的开发、重构、性能调优等。
+前端开发工程师
+1、精通基于vue的工程开发，有实际项目开发经验(＞=3个前端模块)。
+2、有前端性能调优，对JavaScript有深入了解。
+3、熟悉常用前端布局，能够根据高保证进行前端开发和还原。
+4、对前端设计、开发、重构有深入了解和开发经验。
+5、有基于云服务的前端开发、部署和运维优先。
+岗位职责:
+负责视觉、灵犀搜索、语音语义、智能助手、机器学习、RPA等前端项目的红蓝版本设计开发调优、性能调优等。
+运维开发SRE
+1、全日制本科以上学历，3年以上运维开发经验。
+2、熟悉Python、Java语言，具备一定的编程能力，有DevOps实践经验者优先。
+3、熟悉Flask、SpringBoot/SpringCloud等主流开源开发框架，特别在FlaskSpringBoot领域有丰富项目实践经验者优先。
+4、熟悉Elasticsearch、Mysql、RedisKafka等数据库或中间件应用。
+5、熟悉云计算相关技术如Docker、Kubernetes应用等。
+6、学习能力强，有责任心，具有良好的沟通、团队协调能力，并具有一定的抗压能力。(至少满足如上一条技能要求)岗位职责:
+1、负责华为IT云平台服务的运维设计和开发。
+2、与团队一起负责华为IT云平台核心服务的技术竞争力构建，服务华为数字化转型不断提升云应用平台的业界竞争力。
+软件测试工程师
+1、本科以上学历，3年以上实际测试经验，熟悉软件测试理论及方法。
+2、精通需求分析、软件测试策略、测试用例设计方法、测试用例管理。
+3、了解至少一种编程语言，并能主动了解产品功能设计原理，有开发辅助测试工具优先。
+4、熟悉mysql、Fiddler抓包、有接口自动化测试经验。
+5、熟悉jenkins,robot framework,selenium，appium等，或者有任何你熟练掌握的测试框架者优先。岗位职责:
+1、负责公司WEB端产品软件测试工作，跟踪协调问题的解决。
+2、能独立设计合理的测试用例及策略，参与到具体的测试执行工作中，并进行缺陷跟踪和质量分析等。
+3、准确地定位并跟踪BUG，推动问题及时合理地解决，确保质量，遇到问题能及时反馈预警。
+4、定期提交产品测试总结报告、缺陷统计分析报告，上线前对产品做出客观的风险评估。
+5、能接受新事物新领域，并能快速上手解决问题。
+6、熟悉devops开发流程。
+
+★简历投递(二选一均可)★
+
+FESCO·Adecco",Java Python Netty Spring Boot 微服务 容器化 Docker Jenkins Redis SQL ActiveMQ RocketMQ,https://www.liepin.com/job/1950107503.shtml
+"外资DevOps Engineer 运维开发(AWS, Ali) -三方合同",某大型酒店/民宿公司,30-35k,上海-浦东新区,上海,本科,5-10年,7月29日更新,liepin,"Position Summary: 
+As a DevOps Engineer, you will be responsible for designing, implementing, and maintaining scalable and secure infrastructure solutions that support our development and deployment processes. You will work closely with cross-functional teams to streamline CI/CD workflows, manage cloud environments, and ensure the reliability of our systems. Your role will involve scripting in Shell, Python, or Golang, managing build and deployment pipelines, and leveraging tools like Bamboo, Kubernetes, and Kafka to drive operational excellence. Strong communication skills and fluency in English are essential for success in this global role.
+
+Required Qualifications
+
+•	Minimum Education: BA/BS/Bachelor's Degree or equivalent training/experience
+•	5+ years of experience in DevOps or related roles.
+•	Proficiency in AliCloud and AWS.
+•	Hands-on experience with common cloud services. E.g Kafka, RDS, OSS/S3, Lambda/Function Compute.
+•	Strong scripting/coding skills in Shell, Python, or Golang.
+•	Solid understanding of Kubernetes and container orchestration.
+•	Experience with CI/CD tools like Bamboo or Jenkins, especially using pipeline-as-code.
+•	Good communication skills in English.
+
+Preferred Qualifications
+
+•	Experience with monitoring tools like Datadog.
+•	Familiarity with GitOps practices.
+•	Knowledge of security best practices in DevOps.",DevOps Gin Scala ROS CI/CD Shell Python Golang RAG Kubernetes Kafka AWS,https://www.liepin.com/a/77558975.shtml
+SRE/DevOps工程师,大连恒馨科技有限公司,25-35k·14薪,上海-浦东新区,上海,本科,3-5年,7月21日更新,liepin,"作为SRE/DevOps工程师，您将负责构建、部署和维护高可用的云基础设施与CI/CD流水线，确保相关业务系统在AWS和阿里云环境中的稳定性、安全性与可扩展性。您需要与跨职能团队紧密协作，通过自动化手段提升运维效率，保障服务的高可靠交付。
+
+岗位职责
+负责基于AWS和阿里云的云基础设施架构设计、部署与日常运维，包括计算、存储、网络等核心服务的配置与优化
+
+构建、维护并持续优化CI/CD流水线，使用Jenkins、Spinnaker等工具实现自动化构建、测试与部署，提升交付效率与质量
+
+负责Kubernetes集群的部署、运维与容量管理，确保容器化应用的高可用与弹性伸缩
+
+使用Splunk进行日志收集、监控告警与数据分析，保障系统可观测性，实现故障的快速发现、定位与恢复
+
+编写和维护Unix Shell脚本及自动化工具，推动运维任务的自动化与标准化
+
+参与系统架构评审，从可靠性、可扩展性、安全性角度提供技术建议，推动技术架构持续演进
+
+负责复杂跨职能项目的管理与推进，与内部团队及外部合作伙伴高效沟通，协调资源保障项目按时交付
+
+
+
+任职要求
+技术能力
+
+熟练掌握AWS和阿里云核心服务（如ECS、VPC、SLB、OSS、RDS、IAM、CloudWatch等）
+
+精通Kubernetes，熟悉容器编排、服务发现、配置管理及Ingress等核心组件
+
+熟悉CI/CD流水线构建，具备Jenkins、Spinnaker的实际使用经验
+
+熟悉Splunk日志管理与监控分析平台
+
+精通Unix Shell脚本编程，具备编写复杂自动化脚本的能力
+
+熟悉Python或其他编程语言（如Go），能用于开发运维工具和自动化平台
+
+项目与沟通能力
+
+具备复杂跨职能项目的管理经验，能够有效协调资源、把控进度
+
+出色的利益相关者沟通能力，能够在快节奏环境中推动项目进展
+
+良好的英文读写与沟通能力，能够与全球团队顺畅协作
+
+加分项
+
+熟悉Terraform等IaC工具，具备基础设施即代码实践经验
+
+了解GitOps工作流（如ArgoCD）
+
+具备Helm Charts使用经验
+
+有大规模分布式系统或微服务架构运维经验",DevOps 高可用 CI/CD AWS 阿里云 Jenkins SPI Kubernetes 容器化 Unix Shell Python,https://www.liepin.com/job/1984300285.shtml
+Linux运维开发工程师,某基金/证券/期货公司,20-30k,北京,北京,统招本科,5-10年,7月24日更新,liepin,"岗位职责：
+1.公司内部基础服务的部署与日常维护，快速定位并处理故障，保障生产环境稳定性。
+2.编写脚本进行自动化部署和故障告警，提升运维效率。
+3.主导公司网络安全架构，主动识别并防范网络安全风险。
+4.参与高性能算力集群建设与运维，并进行灵活的算力调度与高效的资源分配。
+岗位要求；
+1.熟悉Linux操作系统，有一定Linux系统管理经验。
+2.熟练使用python和shell 编写脚本及自动化部署。
+3.熟悉主流监控工具Prometheus,grafana的部署与运维，能够快速定位系统故障，分析系统性能瓶颈。
+4.熟悉Oracle/MySQL/redis 数据库运维，熟悉ZMQ等中间件技术。
+5.熟悉K8S，slurm等算力集群调度运维，熟练使用Docker容器。",Linux Python Shell Prometheus Grafana Oracle MySQL Redis K8s Docker,https://www.liepin.com/a/77582751.shtml
+运维开发工程师,某大型基金/证券/期货公司,15-25k·20薪,成都,成都,统招本科,3-5年,7月31日更新,liepin,"工作职责
+1、负责Zabbix监控系统的部署、配置与维护；负责基于zabbix的功能定制开发与测试；协助优化监控策略，提升系统稳定性与安全性；
+2、负责运维支持项目的服务器部署、系统环境搭建、数据备份、日志分配、系统监控、性能优化、故障排除、系统巡检、网络故障排查、生产问题排查等，通过各类监控自动化手段及人工巡检，确保系统7*24小时持续运维能力；
+3、负责运维数据分析，如容量报表、系统巡检、生产问题、系统变更、日常分析等文档的数据分析和支持工作；管理日常运维数据，提升运维分析、发现、定位故障能力；
+4、项目管理与交付，能够快速进行项目计划制定、任务分配、进度跟踪和问题管理，确保项目按计划推进；
+
+任职资格
+1、计算机相关专业本科学历，3年以上Linux系统管理运维经验；
+2、熟练掌握Python、SQL、nodejs、golang等一到两种开发语音，熟悉运维平台、CMDB、zabbix监控平台等运维相关系统内容，参加过运维相关系统的开发，熟悉开发过程；熟悉​​MySQL、PostgreSQL、MongoDB、Redis​​等至少两种数据库​​;熟悉Jenkins、Puppet、ansible等自动化发布及同步工具; 熟悉Docker、K8S的运维和管理；
+3、了解大模型应用技术栈、API调用、Prompt工程、RAG（检索增强生成）等AI应用开发基础；了解vibecoding，能够使用vibecoding范式开发适配运维的工具和插件；
+4、强烈的责任心和团队合作能力，良好的学习能力、沟通能力、逻辑思维能力并且敢于创新和接受挑战；
+5、有证券行业工作经验优先。
+",Linux Python SQL Golang MySQL PostgreSQL MongoDB Redis Jenkins Ansible Docker K8s,https://www.liepin.com/a/77880955.shtml
+运维开发工程师,某上海化工上市公司,30-50k·15薪,上海-松江区,上海,统招本科,3年以上,7月27日更新,liepin,"1、负责平台全链路的运维体系建设与日常运维工作，确保平台稳定、高可用、低延迟运行：
+2、负责平台服务的部署、监控、告警、日志分析和容量管理；
+3、构建并维护 CI/CD 自动化流程，确保平台快速迭代（周发 / 日发 / 高频优化）；
+4、负责线上故障排查与应急响应（On-call）；
+5、优化平台的 性能、稳定性与安全性；
+6、协助内容与生态团队、开发者生态团队处理线上素材、任务、内容分发系统的问题，确保用户侧体验稳定；
+7、与研发团队协作，推动整体平台的可观测性体系建设；
+8、建立平台的运维标准与机制；
+职位要求
+1、本科及以上学历，计算机相关专业，3 年以上运维/SRE/DevOps 工作经验；
+2、精通 Linux/Unix 环境，熟练使用 Shell/Python 等脚本语言；
+3、熟悉容器化与调度系统；
+4、熟悉常见的服务框架与 DevOps 系统；
+
+具备以下经验优先：
+1、GPU 集群管理（Nvidia Driver、CUDA、TensorRT、Triton）；
+2、AI 推理服务运维经验；
+3、高并发系统性能监控与告警；
+4、CDN / 对象存储 / 边缘节点部署；
+5、具备优秀的跨团队沟通能力，能推动复杂问题快速闭环。",高可用 CI/CD DevOps Linux Unix Shell Python 容器化 高并发 日志分析 故障排查 应急响应,https://www.liepin.com/a/77951113.shtml
+SRE运维开发工程师,某深圳人力资源服务公司,30-45k·13薪,长沙,长沙,大专,5-10年,7月31日更新,liepin,"3年大型互联网运维/运维开发经验，大专以上学历；
+熟悉 Docker/Kubemetes/Helm/容器 C/CD,具备容器化改造经验;
+熟悉监控&日志系统:Prometheus/InfuxDB/Graylog等；
+熟悉 GitLab/Jenkins 等C/CD 工具；具备大型互联网公司经验(大厂经验)，
+熟悉python或golang，有运维平台开发经验；",Docker Helm 容器化 Prometheus Git Jenkins Python Golang,https://www.liepin.com/a/77012539.shtml
+运维开发工程师,某深圳科技推广服务公司,25-35k·13薪,深圳,深圳,学历不限,3-5年,7月24日更新,liepin,"岗位职责
+
+1、负责自动化运维平台研发，提升运维与开发协作效率，规范标准化操作流程；
+2、主导或参与系统方案设计、功能研发、部署落地全流程工作；
+3、开发通用基础组件，解决业务共性需求，减少重复开发与运维工作；
+4、参与生产系统维护，负责线上问题排查、故障处理以及系统性能调优；
+5、开展行业新技术调研与预研，推动合适的技术方案落地生产环境；
+6、针对现有系统梳理痛点，输出优化方案，并推动落地实施。
+
+任职要求
+
+1、大专及以上学历，计算机相关专业；
+2、熟悉Linux运维，具备较强的问题分析与故障排查能力；
+3、了解HTTP协议，拥有1年及以上DevOps、CI/CD、监控系统、运维自动化平台研发经验；
+4、掌握至少一门编程语言，熟练使用Shell、Python、JS其中一种脚本语言，熟悉Linux/Unix开发环境；
+5、具备良好的沟通协作能力，乐于技术沉淀与分享；
+6、有开源项目贡献或开源项目主导经验优先；
+7、熟悉React/Vue前端框架优先。",Linux DevOps CI/CD Shell Python Unix React Vue 方案设计 技术方案 故障排查,https://www.liepin.com/a/78252237.shtml
+资深运维开发工程师SRE,某深圳大型机械/设备公司,50-70k·15薪,上海-浦东新区,上海,本科,5年以上,7月17日更新,liepin,"职位描述
+我们正在寻找一位兼具 稳定性治理能力 与 运维开发能力 的资深工程师，加入云端 SRE 团队，负责支撑业务增长阶段下的多云、多集群云原生基础设施稳定运行与持续优化。
+你将面向业务增长带来的稳定性、性能、容量和成本挑战，参与 Kubernetes 集群治理、Elasticsearch 等关键基础组件优化、线上故障治理、容量规划和变更风险控制。同时，你也将推动自动化运维平台和工具链建设，将线上问题沉淀为平台能力、工程规范和长期机制，提升研发、数据、安全、合规等团队的协作效率。
+
+1. 稳定性治理：负责云端基础设施及关键基础组件的稳定性建设，定位并解决线上性能瓶颈、容量风险和可用性问题，保障业务系统稳定运行；
+2. 性能优化：针对 Elasticsearch 等核心组件开展性能调优、容量评估、资源治理和架构优化，提升系统吞吐、查询效率和服务可靠性；
+3. 云原生基础设施：负责 Kubernetes 集群及 CNCF 云原生生态组件的日常运维、架构优化和稳定性提升，支撑并保障多个 Kubernetes 集群的可靠运行；
+4. 多云平台治理：参与阿里云 ACK、AWS EKS、GCP GKE 等多云托管 Kubernetes 环境的运维、治理和优化，提升多云环境下的可观测性、弹性、成本效率和运维一致性；
+5. 故障与变更管理：负责线上告警处理、故障应急、根因分析、复盘改进和生产变更管理，建立可持续的稳定性改进机制；
+6. 自动化与平台建设：开发和维护自动化运维平台、工具链和流程系统，提升发布、变更、巡检、告警、权限、资源交付等环节的自动化水平；
+7. 跨团队协作：与后端研发、数据、安全、合规等团队紧密协作，推动基础设施问题定位、流程规范、权限治理、合规要求和稳定性改进落地。
+职位要求
+1. 本科及以上学历，计算机、软件工程、通信、自动化或相关专业优先；
+2. 具备 5 年以上运维、SRE、DevOps、平台工程或云原生基础设施相关经验，有生产环境稳定性治理经验；
+3. 熟练掌握 Shell、Python、Go 中至少一种或多种语言，能够通过工程化方式建设自动化工具、平台能力和运维流程；
+4. 熟悉 Kubernetes 原理及生产环境实践，了解 CNCF 云原生生态中的常见组件，如监控、日志、服务发现、网关、CI/CD、配置管理等；
+5. 具备较强的线上问题定位、性能优化、故障处理、容量规划和系统性复盘能力，能够从单点问题沉淀为平台化、流程化改进；
+6. 熟悉主流公有云产品和云上基础设施，具备阿里云、AWS、GCP 中一种或多种云平台的实际使用经验；
+7. 具备较强的跨团队沟通和项目推动能力，能够与研发、数据、安全、合规等团队协同解决复杂问题。具备技术进取心、责任感和前瞻性，能够在业务快速变化和复杂生产环境中保持主动性和系统性思考。
+
+加分项：
+1. 有阿里云 ACK、AWS EKS、GCP GKE 等托管 Kubernetes 集群的大规模生产使用和治理经验；
+2. 有多集群、大节点规模 Kubernetes 环境的容量规划、稳定性治理、可观测性建设或成本优化经验；
+3. 有 Elasticsearch 集群性能优化、容量治理、故障处理、索引设计或查询性能调优经验；
+4. 有 GPU 集群、AI 训练/推理基础设施、资源调度或异构算力平台运维经验；
+5. 有自动化运维平台、内部开发者平台、发布平台、监控告警平台或资源交付平台建设经验；
+6. 有 AI 辅助编程工具的实际使用经验，能够借助 AI 工具提升运维脚本、自动化平台和工具链的开发效率。",云原生 Kubernetes Elasticsearch 阿里云 AWS DevOps Shell Python Go CI/CD 合规 监控告警,https://www.liepin.com/a/78012307.shtml
+运维开发工程师,某基金/证券/期货公司,25-50k,北京,北京,本科,1-3年,7月27日更新,liepin,"岗位职责:
+1. 负责交易系统日常监控和运维；
+2. 维护校验日常行情数据；
+
+岗位要求：
+1. 良好的英语书面和口语交流能力；
+2. 熟悉linux操作系统；
+3. 熟练使用各种运维工具及命令；
+4. 熟练使用shell，python脚本进行系统监控；
+5. 强烈的责任心和求知欲，能承担压力,　自学能力强。",Linux Shell Python,https://www.liepin.com/a/78321363.shtml
+DevOps工程师,某科技推广服务公司,30-50k·15薪,北京,北京,统招本科,3-5年,7月28日更新,liepin,"岗位概述
+参与一体化运维管控平台的设计与研发，面向多云基础设施和AI算力资源，建设统一的资源治理、权限管理、流程审批、发布变更、告警运维和成本计量能力，支撑研发、算法、运维团队安全高效使用资源。
+核心职责
+1、负责平台后端架构迭代和核心模块研发，建设多云资产纳管、RBAC、审批流程、资产台账等基础能力。
+2、对接公有云和各类集群平台，统一接入云资源、算力、模型任务、数据集等。
+3、建设资源发布、变更、告警、巡检和事件响应能力，形成发现、通知、处置、回收的闭环。
+4、搭建资产拓扑、资源检索、利用率分析、成本统计和预算预警能力，支持资源精细化运营。
+5、输出标准化 API、SDK和运维工具链，协同数据、算法、业务团队落地平台能力。
+职位要求
+任职要求
+1、3年以上平台开发或DevOps经验，熟悉Go/Python至少一门，本科及以上学历。
+2、有公有云API集成、资源管理、发布变更或运维平台经验。
+3、熟悉MySQL、Redis、消息队列、RESTful API等常用技术栈。
+4、熟悉Kubernetes、容器和云原生基础设施，了解训练/推理集群者优先。
+5、具备需求拆解、方案设计和跨团队推动能力。",DevOps Go Python MySQL Redis Kubernetes 云原生 方案设计,https://www.liepin.com/a/78333211.shtml
+DevOps工程师,某科技推广服务公司,25-45k·15薪,深圳,深圳,统招本科,3-5年,7月28日更新,liepin,"职位描述
+1、参与并落地公司 CI/CD 平台建设，以 Jenkins 为核心，配合 Helm + ArgoCD，实现从代码提交到 Kubernetes 部署的标准化交付流程。
+2、负责多环境治理与泳道建设，支持开发 / 测试 / 预发 / 生产环境隔离，以及多版本并行、灰度发布与快速回滚。
+3、在Kubernetes 环境中推进灰度 / 金丝雀发布能力的工程化落地，降低发布风险，提升变更安全性。
+4、建设并完善 应用层全链路可观测能力，覆盖指标、日志、错误追踪与告警（如 Prometheus / Grafana / Sentry 等），提升问题发现与定位效率。
+5、配合研发团队，将可观测、发布、环境治理等能力 下沉到具体项目中，推动平台能力被真实使用。
+6、参与数据基础设施相关的工程支撑（如 BigQuery 相关的数据链路、监控与使用规范），提升系统可观测性与数据可用性。
+7、与Dev / FE / SRE 团队协作，将已有技术方案细化为可执行的配置、脚本与流程，减少重复性人工操作。
+职位要求
+1、3 年以上运维或 DevOps 相关经验，熟悉 Linux 基础，具备基本的问题排查与定位能力。
+2、有 Docker / Kubernetes 实际使用经验，理解 Kubernetes 基本资源模型（Deployment / Service / Ingress / HPA 等）。
+3、使用过 Jenkins 搭建或维护 CI/CD 流水线，理解构建、发布及权限控制的基本实践。
+4、使用过 Helm 和 / 或 ArgoCD 进行 Kubernetes 部署，对声明式发布和 GitOps 有基本认知。
+5、熟悉至少一家主流云厂商（腾讯云 / 阿里云），理解云上计算、网络和负载均衡的基本使用方式。
+6、有一定工程意识，能将方案转化为 脚本、配置或流程文档，而不是停留在口头设计。
+7、具备良好的沟通与执行能力，愿意深入业务项目。
+
+加分项（非必须）
+1、有多环境 / 多集群治理或发布流程规范化经验。
+2、使用过 Prometheus / Grafana / Sentry 等可观测工具。
+3、对平台工程 / DevOps 平台化有兴趣，愿意长期做基础设施建设。
+4、有视频、内容平台或 AI 相关系统经验。
+3、建设并维护可观测性体系（监控、日志、告警、链路追踪），基于Prometheus / Grafana / ELK 等工具，实现问题的快速发现、定位与止损。
+4、与研发团队深度协作推进DevSecOps实践，规范发布与变更流程，负责生产环境稳定性保障、线上故障响应、事后复盘及系统性改进。",CI/CD Jenkins Helm Go Kubernetes Prometheus Grafana DevOps Linux Docker Git 腾讯云,https://www.liepin.com/a/78347249.shtml
+运维开发工程师,某上海化工上市公司,30-50k·15薪,上海-浦东新区,上海,统招本科,3-5年,7月20日更新,liepin,"职位描述
+1、负责平台全链路的运维体系建设与日常运维工作，确保平台稳定、高可用、低延迟运行：
+2、负责平台服务的部署、监控、告警、日志分析和容量管理；
+3、构建并维护 CI/CD 自动化流程，确保平台快速迭代（周发 / 日发 / 高频优化）；
+4、负责线上故障排查与应急响应（On-call）；
+5、优化平台的 性能、稳定性与安全性；
+6、协助内容与生态团队、开发者生态团队处理线上素材、任务、内容分发系统的问题，确保用户侧体验稳定；
+7、与研发团队协作，推动整体平台的可观测性体系建设；
+8、建立平台的运维标准与机制；
+职位要求
+1、本科及以上学历，计算机相关专业，3 年以上运维/SRE/DevOps 工作经验；
+2、精通 Linux/Unix 环境，熟练使用 Shell/Python 等脚本语言；
+3、熟悉容器化与调度系统；
+4、熟悉常见的服务框架与 DevOps 系统；
+
+具备以下经验优先：
+1、GPU 集群管理（Nvidia Driver、CUDA、TensorRT、Triton）；
+2、AI 推理服务运维经验；
+3、高并发系统性能监控与告警；
+4、CDN / 对象存储 / 边缘节点部署；
+5、具备优秀的跨团队沟通能力，能推动复杂问题快速闭环。",高可用 CI/CD DevOps Linux Unix Shell Python 容器化 高并发 日志分析 故障排查 应急响应,https://www.liepin.com/a/78085291.shtml
+运维开发工程师,某知名公司,20-30k·15薪,上海-徐汇区,上海,本科,4-8年,7月2日更新,liepin,"岗位职责： 
+1.负责管理、维护和优化阿里云上的各类资源，包括但不限于ECS（云服务器）、RDS（关系型数据库服务）、OSS（对象存储）、VPC（专有网络）等。 
+2.配置和管理精细化的告警规则（如接口耗时、错误率、服务器磁盘、CPU/Memory使用率等），确保能及时发现并响应系统异常，保障SLA。 
+支持和管理生产环境的容器化部署（如Docker、Kubernetes），处理与容器相关的网络、存储、调度和性能问题。 
+3.与开发团队合作，设计、实现和优化持续集成和持续部署（CI/CD）流程，自动化代码构建、测试、部署和发布环节，提升研发效率。 
+4.参与设计并实施系统容灾、备份和恢复策略，确保业务连续性。
+任职要求： 
+1.学历要求：统招211本科及以上学历。 
+2.经验要求：5年以上系统运维经验，熟悉Docker及Kubernetes生态，有在生产环境部署和排障的实际经验。 熟悉 Linux 系统，至少掌握 Shell、Go、Python 一种编程语言。 熟悉CI/CD理念和工具链（如Jenkins、GitLab CI、ArgoCD等）。",阿里云 容器化 Docker Kubernetes CI/CD Linux Shell Go Python Jenkins GitLab CI 系统运维,https://www.liepin.com/a/77439341.shtml

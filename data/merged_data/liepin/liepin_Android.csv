@@ -1,0 +1,3257 @@
+﻿job_name,company_name,salary,work_area,city,education,work_year,issue_date,source,skill_requirements,tech_tags,job_url
+安卓安全测试工程师,深圳斐卓信息咨询有限公司,薪资面议,深圳-福田区,深圳,本科,5年以上,7月22日更新,liepin,"About PayJoy
+
+PayJoy is a mission-first credit provider dedicated to helping under-served customers in emerging markets to achieve financial stability and success.  Our patented technology for secured credit provides an on-ramp for new customers to enter the credit system.  Through PayJoy’s point-of-sale financing and credit cards, customers gain access to a modern quality of life.  PayJoy’s credit also allows our customers to seize opportunities as micro-entrepreneurs, and provide safety acts as insurance for tough times. Through our cutting-edge machine learning, data science, and anti-fraud AI, we have served over 18 million customers as of 2025 while achieving solid profitability for sustainable growth.
+
+
+This role
+The Software Security Test Engineer is responsible for consistent effort in monitoring Android-based attack tools and performing security testing on all tools that may be a threat to PayJoy’s lock products.
+
+
+Responsibilities
+Collect and evaluate hacking tools; continuously monitor emerging attack techniques and tools that could impact company products.
+Perform security testing on OEM mobile phones using hacking tools and techniques.
+Reproduce and verify security issues discovered on social media, public forums, and other open sources.
+Produce, manage, and maintain clear security testing reports.
+Coordinate with internal teams and external parties to track, prioritize, and verify fixes for security issues.
+
+
+Requirements
+Bachelor’s degree in a technical discipline such as computer science, software engineering, or a related field. 
+4+ years of experience in financial technology services.
+Strong understanding of Android security architecture.
+Practical knowledge of secure boot and the device boot chain.
+Hands-on experience with Android permissions, app sandboxing, and privilege models.
+Proven experience in security testing — identifying, reproducing, and documenting vulnerabilities in mobile devices or applications.
+Ability to write clear and structured technical reports.
+Good English reading and writing skills for report preparation and cross-team communication.
+
+
+Benefits
+Company holidays; 15 days vacation (20 at 3rd year); unlimited sick leave
+$2,000 USD annual Coworking Travel Perk
+$2,000 USD annual Professional Development Perk
+$500 USD annual wellness Perk
+
+
+PayJoy is proud to be an Equal Employment Opportunity employer and we welcome and encourage people of all backgrounds. We do not discriminate based upon race, religion, color, national origin, gender (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics.
+
+PayJoy Principles
+
+Finance for the next billion * Ownership * Break Through Walls * Live Communication * Transparency & Directness * Focus on Scale * Work-Life Balance * Embrace Diversity * Speed * Active Listening",Gin Go ROS RAG Express About PayJoy Through,https://www.liepin.com/job/1979629253.shtml
+Software Architect 软件架构师 (智能座舱/车载OS),整车制造10000人以上,薪资面议,上海-浦东新区,上海,本科,5-10年,7月13日更新,liepin,"Objective of job (abbreviated)
+
+
+Define Software Architecture related to Software Update, incl. OTA (Over-The-Air) and wired update mechanisms incl. update of Android operations system and other environments, systems and VMs.
+Participate in the evaluation of products, planning and discussion of functions, as well as implementation and release according to project needs
+Responsible for system architecture design and implementation
+Responsible for the analysis and solution of architectural problems, as well as the optimization and stability maintenance of system;
+Responsible for explaining the core capabilities of the software to customers. Provide technical guidance to other departments. Explain expertise to developers;
+Research and learn new technologies to meet the iterative updates of smart cockpit product needs.
+
+Education
+Bachelor degree or above (including degree), major in computer, software engineering, electronic engineering, artificial intelligence, pattern recognition, automotive electronics and other related majors;
+
+
+Experience
+More than 5 years of Experience in Android architecture, solution architecture, framework & application development
+More than 3 years of Experience in Linux Platform Development
+More than 3 years of Experience in QNX Platform Development
+More than 3 years of Experience in Android Automotive Systems
+Knowledge
+Proficient in C/C++/Java language, familiar with java virtual machine principles;
+In-depth understanding of Android Automotive system
+Very good understanding of QNX system and environment
+Deeply understand the Android Framework, HAL architecture, software update mechanisms
+Familiar with the car power control process, system startup principle, vehicle signals, lifecycle management of processes
+Have sufficient sensitivity to technical risks and excellent problem-solving ability. Be able to support and maintain the problems found at all stages of the product life cycle, and undertake technical attacks on key and difficult points;
+Preferred:
+Have experience in large-scale operating system architecture design and technical proposals, have sufficient software security awareness, and master data encryption, performance optimization and other technologies
+Software Architect
+Requirements analysis
+Android Architecture design and solution architecture design
+Development process, standards and performance requirements defining.
+System optimization, scalability and extendibility defining and designing.
+System key performance indicators defining and monitoring
+Solution reviewing
+New technologies research and introduction.
+Provide guidance, tutorials to stake holders, explaining and presenting architecture and solution designs, Collaborate with stakeholders and partners on technical solution and requirements
+ ",Gin Electron Linux C++ Java Go Scala,https://www.liepin.com/job/1983297839.shtml
+Audio开发工程师,汽车零部件及配件5000-10000人,18-35k,深圳-南山区,深圳,统招本科,5年以上,7月29日更新,liepin,"岗位职责：
+负责音频子系统的开发和维护，设计音频通路，实现音频功能，对Android/Linux音频架构深度制定和优化，对外置/内置DSP开发，实现混音、音效、ECNR、AVAS等功能，根据项目任务要求交付软件、设计文档等工作产物，参与实车调音工作
+1. 熟悉Radio的逻辑（DAB/AM/FM等）开发，了解Android/Linux音频体系架构；
+2.熟悉Android Audio Framework、Linux kernel，能对音频链路进行定制修改；
+3.熟练掌握Audio driver驱动实现和移植；
+4.具备Audio/Radio DSP调试开发经验；
+5.具备一定的音效算法开发、集成和Audio/Radio Tuner能力；
+6.具备问题分析和总结能力，能完成各类设计文档输出
+任职要求：
+1、5年以上嵌入开发，2年以上音频DSP开发经验，计算机及数字音频等相关专业；
+2、熟悉Linux Audio alsa驱动框架、Android Audio HAL层框架；
+3、熟悉高通ADSP平台，有相关项目经验；
+4、熟悉Radio/DAB标准及相关知识；
+5、有AKM，NXP等数字音频DSP开发经验；
+6、精通C/C++编程和数字信号处理相关理论；
+7、具备良好的英语沟通能力；
+8、有强烈的责任心，具有良好的团队合作、沟通能力。",Linux DSP C++ ECNR DAB AM Audio Framework,https://www.liepin.com/job/1983878181.shtml
+Android Development Lead/安卓开发工程师 (MJ002557),整车制造5000-10000人,薪资面议,上海-嘉定区,上海,统招本科,3-8年,7月30日更新,liepin,"岗位职责：
+核心产品与服务研发：主导安卓端核心产品及服务的全流程开发，重点负责System UI、Launcher的架构设计、开发、调试与优化，牵头APP core services（互联中心、投屏服务、多屏共播等）的架构设计、模块开发与功能迭代，保障服务稳定、高效运行。
+架构设计与技术决策：精通软件架构设计，主导核心模块的架构设计、技术选型与技术方案决策，梳理技术难点，优化代码结构、性能及兼容性，提升产品可维护性与扩展性，推动技术架构迭代升级。
+技术统筹与团队管理：统筹安卓端核心产品开发工作，搭建并管理开发团队，分配开发任务、制定开发计划，监督项目进度与质量，协调解决团队工作中的各类问题，提升团队整体开发效率与技术水平。
+疑难问题攻坚与技术把控：牵头解决开发过程中出现的各类重大技术疑难问题，包括系统级bug、性能瓶颈、兼容性问题等，组织技术评审，把控代码质量与技术落地效果。
+技术研究与团队赋能：跟踪安卓最新技术动态、框架特性及行业实践，组织团队开展技术研究与学习，将新技术、新方案应用到实际开发中，提升产品技术竞争力，赋能团队技术成长。
+开发规范与流程优化：制定并完善安卓开发规范、代码评审标准及开发流程，沉淀开发经验与技术文档，推动开发流程标准化、规范化，提升团队协作效率。
+跨部门协同与需求落地：具备强烈的责任心，主动对接产品、测试等跨部门需求，协调资源推进开发任务落地，主动发现问题并推动解决，确保项目按计划交付。
+
+职位要求：
+本科及以上学历，计算机科学与技术、软件工程、电子信息等相关专业；
+有5年及以上安卓开发经验，2年及以上团队管理经验，有车载安卓开发、智能座舱相关安卓开发经验者优先。具备系统级应用、核心服务开发及技术统筹经验者优先（有System UI、Launcher、投屏/多屏相关开发经验者重点优先）。
+熟悉Android框架、系统机制（如四大组件、生命周期、IPC通信等）、中间件及系统级应用开发，具备Android系统framework层源码的阅读、分析与调试能力。
+有System UI、Launcher开发经验，熟悉APP core services（互联中心、投屏服务、多屏共播等）相关开发逻辑与技术方案者优先
+具备优秀的软件架构设计能力，能独立主导核心模块及整体项目的设计、开发与优化，精通安卓应用架构设计思路，具备技术方案决策能力。
+具备扎实的Java、Kotlin及Android基础，熟悉面向对象编程思想、设计模式，具备良好的代码编写规范与习惯。
+具备独立解决重大技术疑难问题的能力，能快速定位并解决开发过程中的系统bug、性能问题、兼容性问题等，具备技术攻坚与风险把控能力。
+具备优秀的逻辑思维能力、问题分析能力及跨部门沟通协调能力，能带领团队独立完成开发任务，高效对接跨部门协作工作。 对技术有热情，注重细节，追求高质量的产品交付，具备良好的抗压能力，能适应项目迭代节奏。",Java Kotlin 技术方案 团队管理 流程优化 技术文档 跨部门协作,https://www.liepin.com/job/1983501895.shtml
+Android Development Lead/安卓开发工程师 (MJ002557),整车制造5000-10000人,薪资面议,上海-嘉定区,上海,本科,5-10年,7月30日更新,liepin,"What you'll do
+·         核心产品与服务研发：主导安卓端核心产品及服务的全流程开发，重点负责System UI、Launcher的架构设计、开发、调试与优化，牵头APP core services（互联中心、投屏服务、多屏共播等）的架构设计、模块开发与功能迭代，保障服务稳定、高效运行。
+·         架构设计与技术决策：精通软件架构设计，主导核心模块的架构设计、技术选型与技术方案决策，梳理技术难点，优化代码结构、性能及兼容性，提升产品可维护性与扩展性，推动技术架构迭代升级。
+·         技术统筹与团队管理：统筹安卓端核心产品开发工作，搭建并管理开发团队，分配开发任务、制定开发计划，监督项目进度与质量，协调解决团队工作中的各类问题，提升团队整体开发效率与技术水平。
+·         疑难问题攻坚与技术把控：牵头解决开发过程中出现的各类重大技术疑难问题，包括系统级bug、性能瓶颈、兼容性问题等，组织技术评审，把控代码质量与技术落地效果。
+·         技术研究与团队赋能：跟踪安卓最新技术动态、框架特性及行业实践，组织团队开展技术研究与学习，将新技术、新方案应用到实际开发中，提升产品技术竞争力，赋能团队技术成长。
+·         开发规范与流程优化：制定并完善安卓开发规范、代码评审标准及开发流程，沉淀开发经验与技术文档，推动开发流程标准化、规范化，提升团队协作效率。
+·         跨部门协同与需求落地：具备强烈的责任心，主动对接产品、测试等跨部门需求，协调资源推进开发任务落地，主动发现问题并推动解决，确保项目按计划交付。
+
+
+What you'll bring
+·         本科及以上学历，计算机科学与技术、软件工程、电子信息等相关专业；
+·         有5年及以上安卓开发经验，2年及以上团队管理经验，有车载安卓开发、智能座舱相关安卓开发经验者优先。具备系统级应用、核心服务开发及技术统筹经验者优先（有System UI、Launcher、投屏/多屏相关开发经验者重点优先）。
+·         熟悉Android框架、系统机制（如四大组件、生命周期、IPC通信等）、中间件及系统级应用开发，具备Android系统framework层源码的阅读、分析与调试能力。
+·         有System UI、Launcher开发经验，熟悉APP core services（互联中心、投屏服务、多屏共播等）相关开发逻辑与技术方案者优先
+·         具备优秀的软件架构设计能力，能独立主导核心模块及整体项目的设计、开发与优化，精通安卓应用架构设计思路，具备技术方案决策能力。
+·         具备扎实的Java、Kotlin及Android基础，熟悉面向对象编程思想、设计模式，具备良好的代码编写规范与习惯。
+·         具备独立解决重大技术疑难问题的能力，能快速定位并解决开发过程中的系统bug、性能问题、兼容性问题等，具备技术攻坚与风险把控能力。
+·         具备优秀的逻辑思维能力、问题分析能力及跨部门沟通协调能力，能带领团队独立完成开发任务，高效对接跨部门协作工作。 对技术有热情，注重细节，追求高质量的产品交付，具备良好的抗压能力，能适应项目迭代节奏。",Java Kotlin 技术方案 团队管理 流程优化 技术文档 跨部门协作,https://www.liepin.com/job/1982151573.shtml
+安卓Android开发工程师,深圳市微光视界科技有限公司,15-25k·13薪,深圳-宝安区,深圳,本科,3-5年,90天前更新,liepin,"岗位职责：
+1、负责Android系统移植，驱动开发、HAL层、Framework层等开发工作；
+2、负责Android平台驱动的编写、调试和优化；
+3、负责Android系统架构及性能优化；
+4、完成相关API接口程序的编写及调试；
+5、解决在产品开发中遇到的各种问题，并进行总结与改进。
+
+任职要求：
+1、本科及以上学历，计算机、电子信息、自动化等相关专业；
+2、具有3年以上Android开发工作经验；
+3、良好的java/C++/C语言编程开发能力和调试技能；
+4、熟悉Linux内核，深入理解驱动架构、文件系统、进程管理机制和内存管理机制；
+5、熟悉Andriod开发框架，能独立完成Andriod平台下系统集成；
+6、有较强的逻辑思维能力和独立解决问题的能力；
+7、责任感强，工作认真负责，富有团队精神和敬业精神。",Java C++ C语言 Linux,https://www.liepin.com/job/1939919803.shtml
+安卓开发工程师Andriod,互联网天使轮50-99人,13-22k·13薪,西安-雁塔区,西安,学历不限,1-3年,90天前更新,liepin,"职责描述：
+1. 熟悉安卓应用安全机制优先
+2. 熟悉apk逆向脱壳优先
+3. 熟悉hook机制优先
+4. 负责Android APP的研发和打包工作
+5. 熟悉googleplay上架及相关政策者优先
+
+任职要求：
+1. 2年或以上Android APP开发经验，有成功开发并上线APP的经验
+2. 扎实的Java功底，对设计模式有很好的理解，能够写出高质量, 可读可维护的代码
+3. 对Android系统和Android程序框架有深入了解
+4. 对Android打包加固，反编译，安全性有深入了解
+5. 熟悉网络编程、多线程、图形界面编程、熟悉TCP/UDP、HTTP协议；
+6. 遇到问题肯钻研，富有责任心，吃苦耐劳，积极上进
+7. 能独立承担Android产品开发工作
+8. 有很好的英文基础，喜欢和善于学习新的技术和开源框架
+9. 良好的沟通和团队协作能力",Go Java UDP,https://www.liepin.com/job/1942082255.shtml
+Android开发工程师／安卓开发工程师,深圳市邻里农园智慧农业有限公司,15-25k,深圳,深圳,大专,1-3年,90天前更新,liepin,"岗位职责
+一、负责售卖机APP功能实现，APP运行日志，排查问题并记录和优化
+
+二、负责售卖机日常维护升级，机器APP代码优化
+
+三、对接后台，商品在机器端和补货端的具体实现；机器APP和监控APP两者的跨进程消息传递；
+
+四、参与产品的开发工作并进行测试完成上线;
+
+五、处理售卖机故障问题
+
+
+
+任职资格：
+
+1、大专以上学历，计算机或相关专业
+
+2、一年以上安卓系统开发工作经验，对物联网技术通信有较扎实的基础，熟悉通信协议、在无人售卖机行业做过，懂安卓与下位机沟通技术优先考虑
+
+3、技能：
+
+     ◆熟悉JAVA语言，具有扎实的JAVA语言基础，有良好的编码风格，能独立承担任务和把控项目进度
+
+     ◆熟悉MVP/MVVM框架思想，有相关的开发经历，有过使用JetPack中Navigation,paging库的开发经验
+
+     ◆熟悉Okhttp/Retrofit,Glide等常用的开源组件，熟读过某组件源码加分
+
+     ◆ 熟悉Andriod程序设计，理解Andriod的体系结构，
+
+     ◆熟悉Android下网络编程，网络数据传输，Andriod中界面绘制、后台运行、数据存储、消息推送，Socket/Websocket, 熟悉TCP，HTTP等网络协议，
+
+     ◆熟悉Android开发平台及框架原理，Android的基本组件使用
+
+     ◆熟练使用多种常用设计模式，良好的设计文档撰写能力，
+
+     ◆熟练使用Android中常用的性能调优工具，熟练使用Git等版本控制工具，对性能调优，崩溃处理，各种系统版本和机器适配有一定的开发经验
+
+     ◆熟悉软件工程基本理论和方法，熟悉分层软件架构的概念和方法，熟练掌握面向对象编程；
+
+     ◆熟悉动态化，多媒体等相关开发经验      
+
+4.能  力：◆具备良好的学习能力、问题解决能力、团队协作能力和沟通协调能力；
+
+              ◆良好的语言表达能力和逻辑思维能力;
+
+       
+
+面试和工作地址：深圳市南山区高新南七道德维森大厦413",Java Gin WebSocket Git Retrofit Socket Websocket,https://www.liepin.com/job/1942264929.shtml
+android安卓开发工程师,山东新思软件有限公司,5-10k,济南,济南,大专,1-3年,90天前更新,liepin,"职责描述：
+1. 负责Android手机、平板终端软件的开发/调试/维护/优化工作；
+
+2. 能够独立完成移动应用的系统架构设计与开发；
+
+3. 根据研发规范和项目流程编写相关的技术文档。
+
+任职要求：
+1、计算机相关专业背景，本科以上学历；
+
+2、熟练Java开发，具有两年以上andriod开发经验，有安卓产品可展示； 
+
+3、精通Android开发平台的框架原理，能够熟练使用Android SDK；
+
+4、熟悉框架及各种特性，掌握Android中界面绘制、后台运行、数据存储等的原理，熟悉 xml/json、http、TCP/IP等协议；
+
+5、熟悉HTML5技术，熟练使用前端JS；
+
+5、能独立完成安卓产品开发；
+
+6、强烈的责任感和良好的团队合作精神和沟通协调能力； 
+
+7、有IOS或PC端开发经验者优先。",Java TCP/IP HTML5 技术文档 SDK TCP,https://www.liepin.com/job/1921407585.shtml
+高级算法工程师,广州美央创新科技有限公司,25-50k,广州-黄埔区,广州,硕士,5-10年,7月29日更新,liepin,"算法岗位：高级算法工程师
+岗位定位
+建议岗位名称不要写普通“算法工程师”，而是写：
+高级算法工程师｜视觉算法 / 智能体 / 2D&3D 图像算法方向
+
+这个岗位的真实定位是：
+补齐当前算法核心能力缺口，承担 FAITH Auto、FAITH Mobile、AI 面诊、二维图像算法、三维建模、对话智能体、报告解读智能体等关键模块的持续优化。
+主要工作内容
+1. 负责公司 AI 面诊、皮肤/面部图像分析、二维图像算法、三维建模相关算法的开发、优化和工程落地。
+2. 负责现有算法模块的效果评估、问题定位、指标优化和稳定性提升。
+3. 参与 FAITH Auto、FAITH Mobile 等产品中的算法链路建设，包括图像采集质量判断、面部区域识别、皮肤问题识别、美学特征分析、前后对比、标准脸匹配、试妆试戴、3D 表达等。
+4. 参与对话智能体、播报智能体、报告解读智能体的算法能力建设，包括知识库、RAG、Prompt、工具调用、状态机、多轮对话、评估体系等。
+5. 对现有算法项目进行重构和工程化治理，包括数据集管理、评估集建设、算法版本管理、效果回归、日志分析、异常 case 收集等。
+6. 与 Unity、Android/iOS、后端、测试、产品团队协作，推动算法在真实设备、真实 App、真实业务流程中稳定运行。
+7. 主动发现产品和算法链路中的问题，提出可执行优化方案，并推动落地。
+必备技术能力
+1. 计算机视觉基础扎实
+必须熟悉以下能力中的多数：
+- 图像增强、去噪、锐化、颜色校正、光照归一化；
+- 人脸检测、人脸关键点、区域分割、姿态估计；
+- 皮肤/面部图像分析、瑕疵检测、纹理分析、色斑/红区/毛孔/皱纹等视觉问题识别；
+- 图像配准、前后对比、变化检测；
+- OpenCV / Python 图像处理能力扎实；
+- 能判断什么时候该用传统算法，什么时候该用深度学习，而不是所有问题都丢给模型。
+2. 深度学习能力扎实
+需要具备：
+- 熟悉 PyTorch 或 TensorFlow，优先 PyTorch；
+- 熟悉分类、检测、分割、关键点、图像生成、图像质量评估等任务；
+- 熟悉数据清洗、标注规范、训练集 / 验证集 / 测试集构建；
+- 能做模型调优、错误样本分析、消融实验；
+- 能把模型指标和真实业务效果关联起来，而不是只看论文指标。
+3. 算法工程化能力强
+这是你们当前最需要的能力之一。候选人必须能：
+- 把算法从 Demo 做到产品可用；
+- 建立评估集和回归测试机制；
+- 定位线上 / 设备端 / App 端算法异常；
+- 处理不同光照、角度、设备、肤色、人脸状态下的稳定性问题；
+- 能和 Unity / Android / iOS / 后端对齐接口、输入输出、异常码、日志和容错机制；
+- 具备一定部署经验，了解 ONNX、TensorRT、OpenVINO、端侧推理、GPU/CPU 性能优化者优先。
+4. 智能体能力，至少要能快速上手
+如果候选人主攻智能体方向，需要重点看：
+- 是否做过真实业务智能体，而不是只写过 Prompt；
+- 是否理解 RAG、知识库、工具调用、多轮对话、状态管理、意图识别、上下文管理；
+- 是否能设计“检测报告解读—用户追问—项目推荐—风险提示—销售辅助”的完整链路；
+- 是否能做智能体评估，例如回答准确率、幻觉率、流程命中率、用户满意度、销售转化辅助效果；
+- 是否理解医疗 / 医美场景下的合规边界，知道哪些内容不能让 AI 直接替代医生判断。
+5. 3D / 多模态能力是强加分项
+优先考虑熟悉以下方向的人：
+- 3D 重建、单图 / 多图三维人脸建模；
+- 点云、Mesh、高斯表示、Gaussian Splatting、NeRF；
+- 人脸三维表达、数字人、面部变形、表情迁移；
+- 2D+3D 融合分析；
+- 手机端 3D 建模、AR 试妆、虚拟试戴、面部美学分析；
+- 医学影像、超声图像、皮肤影像、光学成像相关经验。
+候选人来源画像
+HR 和猎头重点找这些背景的人：
+1. 美颜 / 相机 / 手机影像 / AR 试妆 / 虚拟试戴方向算法工程师
+    这类人对人脸、肤色、光照、妆容、局部区域识别、前后对比更敏感。
+2. 医疗影像 / 皮肤检测 / 口腔影像 / 超声影像 / AI 诊断辅助方向算法工程师
+    这类人更懂图像质量、医学合规、检测稳定性和真实场景落地。
+3. 工业视觉 / 智能硬件 / 机器人视觉方向算法工程师
+    这类人通常工程化能力更强，知道如何处理设备端复杂环境。
+4. 3D 视觉 / 数字人 / 三维重建 / ARVR 方向算法工程师
+    对 FAITH Mobile、3D 高斯、标准脸、试妆试戴、数字人方向有帮助。
+5. AI Agent / RAG / LLM 应用工程化方向人才
+    但必须要求有真实项目，不要只会调用大模型 API。",RAG 计算机视觉 OpenCV Python 深度学习 PyTorch TensorFlow ONNX LLM 大模型 知识库 版本管理,https://www.liepin.com/job/1984503681.shtml
+【智能驾舱】Android安卓开发工程师（APP/FW）,东软集团有限公司,12-24k,大连-甘井子区,大连,本科,2年以上,6月30日更新,liepin,"东软智行
+智能驾舱业务中心
+社会招聘
+
+【岗位1】Android 应用软件工程师
+【岗位职责】
+1，车载安卓应用开发：负责智能座舱系统（IVI、仪表、HUD、后排娱乐等）的安卓应用开发，包括但不限于：车载信息娱乐系统（IVI）应用（导航、音乐、车辆设置、空调控制等）。多屏互动（中控屏、仪表屏、副驾屏、HUD等）功能开发。语音交互（如对接车载语音助手）、车联网（T-Box/V2X）相关功能开发。车机互联（Hicar、Carlink、FlymeLink）相关功能开发。平台适配层交互（CarService、AdaptApi）相关功能开发。
+2，系统适配与优化：使用Profiler工具优化应用性能（启动速度、内存占用、多任务调度），确保车规级稳定性。使用Linux指令调查相关应用问题。适配不同车机硬件平台（如高通、瑞萨、恩智浦等芯片方案）优化应用性能（启动速度、内存占用、多任务调度），解决车载环境下的特殊问题。
+3，安全与合规开发：遵循功能安全和网络安全标准，确保应用符合车规要求。实现驾驶模式下的防分心设计，如限制复杂交互、语音优先等。
+4，跨团队协作：与UI/UX团队协作，优化人机交互（HMI）体验，符合软件设计规范。与底层系统团队（FrameWrok、BSP、MCU信号层）对接，完成信号的集成。支持测试团队进行HIL、实车路测，确保功能可靠。
+【任职要求】
+1，本科及以上，软件、计算机、电子信息等相关专业。
+2，至少2年以上车载安卓应用开发经验（Java/Kotlin）。有AAOS或QNX开发经验优先。
+3，车企、Tier1或智能座舱方案商工作经验。熟悉汽车行业开发流程和质量标准。
+4，有良好的沟通交流能力，主动学习，对座舱产品未来发展有技术兴趣和追求。
+5，工作认真负责，在过往的工作中有良好的口碑和评价。
+
+【加分项】
+熟练使用AI辅助工具如Claude Opus / GPT / Gemini 等，团队已使用AI工具辅助开发并提供Token资源。
+
+----------------------------------------------------------------------------------
+
+【岗位2】Android Framework软件工程师
+【任职要求】
+1，AAOS系统定制与开发：负责基于 AOSP (Android Open Source Project) 的座舱系统定制化开发、移植和适配工作。
+2，开发和维护汽车专属的车辆硬件服务（Vehicle HAL），实现与车辆网络（如CAN/LIN总线）的通信，为上层应用提供车辆数据（如车速、油耗、车门状态）。
+3，负责座舱专属系统服务的开发，如多显示屏管理、音区管理、驾驶模式感知、电源管理（IGN状态管理）等。
+4，HIDL/AIDL接口设计与实现：定义和实现HIDL (HAL Interface Definition Language) 和 AIDL (Android Interface Definition Language) 接口，完成Framework与HAL层、应用层与系统服务之间的高效、稳定通信。
+5，系统性能与稳定性优化，针对冷/热启动时间、内存泄漏、应用卡顿、系统渲染性能等进行深度优化。分析和修复Framework层的疑难杂症（Native Crash, ANR, SystemServer Watchdog等），保障系统长期运行的稳定性。
+6，外设驱动与HAL层适配：与底层驱动工程师协作，为座舱域控制器（如高通8295、8155等平台）的各类外设（显示屏、Touch、音频设备、蓝牙、Wi-Fi、GPS）适配HAL层，确保硬件功能被系统正确识别和使用。
+【岗位要求】
+1，学历专业：计算机科学、电子工程、软件工程或相关专业本科及以上学历，掌握C++/Java/Kotlin开发语言。
+2，2年以上 Android系统开发经验，源码的开发、编译和调试经验。理解Android系统架构，特别是 Framework层 和 HAL层 的工作原理。
+3，有Android Automotive OS (AAOS) 或 Android Auto 的实际项目开发经验。
+4，了解 I2C、SPI、UART 等基础硬件接口，对 CAN/LIN 等车辆网络协议有基本概念。了解 VHAL (Vehicle HAL) 的概念和实现。
+5，有Android系统性能、功耗、内存优化经验更佳。
+
+
+--------------------------------------------------------------------
+APP、FW、KANZI开发、仪表开发、BSP、CAN、MCU、AutoSAR、Linux开发、软件需求、系统开发、软件经理、产品经理、项目经理、测试经理、测试设计师...200余个岗位社会招聘中，请直接投递简历。",Linux MCU Java Kotlin GPT CAN GPS C++ I2C SPI UART 合规,https://www.liepin.com/job/1981839357.shtml
+高级android安卓开发工程师,杭州长花龙雪信息技术有限公司,10-20k·14薪,杭州-西湖区,杭州,大专,1-3年,90天前更新,liepin,"职责描述：
+1、负责公司android安卓app的设计、开发、发布、监控；
+2、负责android安卓app在东南亚、美洲googleplay的上架和维护；
+3、负责android安卓app设备合法数据的抓取和存储；
+4、不断挖掘可用的安卓合法设备数据，用于产品个性化；
+
+职位要求：
+
+1、本科以上学历，经验不限；
+2、热爱移动产品研发, 愿意在安卓移动开发领域深入钻研, 并成为专家；
+3、有良好的安卓编程习惯, 代码结构清晰, 命名规范；
+4、熟练掌握H5, 安卓Android SDK, 以及UI/网络/数据库框架；
+5、掌握安卓Kotlin，C/C++等语言优先
+其他说明：
+1. 自有业务系统，非外包
+2. 24%的公积金",Go Kotlin C++ SDK,https://www.liepin.com/job/1942527471.shtml
+Android安卓开发工程师,中软国际科技,15-30k·13薪,南京-建邺区,南京,大专,3年以上,90天前更新,liepin,"支持远程电话/视频面试，大厂稳定项目，面试快；
+入职即缴纳五险一金、年终奖，全额缴纳公积金
+工作时间：朝九晚六，周末双休，加班看项目需求
+线上面试 大厂 稳定长期的岗位
+
+
+工作内容
+- 参与系统级应用（SystemUI、桌面Launcher、表盘框架、通知中心、控制中心、系统设置等）的需求分析、架构设计、模块开发与迭代维护
+- 优化应用的启动速度、滑动流畅度、内存占用等关键性能指标
+- 实现与系统框架（AMS、WMS、PMS、 广播机制等）的深度交互
+- 构建高可靠性的系统应用，降低崩溃率与ANR率
+
+任职要求
+- 计算机、软件工程等相关专业本科及以上学历，3年以上Android应用开发经验，有系统应用、Launcher或大型复杂应用开发经验
+- 了解Android系统基本架构，对系统服务有基本概念，能够查阅和使用hide API或系统级API
+- 精通 Android SDK，对 Activity/Fragment生命周期、UI体系（View/ViewGroup）、多线程（Handler/Looper） 有深刻理解
+- 精通 Java/Kotlin， 深入理解面向对象、设计模式，具备优秀的代码架构能力
+- 熟练掌握 Jetpack组件（如ViewModel、LiveData、Room、Navigation等）进行现代化开发
+- 对Android原生动画、手势交互等功能有深入研究和实现经验者优先
+
+另有：
+安卓Framework工程师（AMS/PMS/WMS方向）
+安卓系统应用开发工程师
+RTOS系统优化工程师
+互联互通开发工程师（安卓/RTOS）
+耳机音频开发工程师
+安卓Framework工程师（图形/显示方向）
+短距开发工程师（蓝牙/WiFi/NFC方向）
+安卓系统优化工程师（快稳省方向）
+耳机蓝牙开发工程师
+众多岗位再招，具备其中之一技能皆可，欢迎投递~
+
+
+
+
+【福利待遇】
+双休，各类培训，导师帮带。
+薪资，五险一金（全额公积金），年终奖。
+各类假期，园区食堂(早中晚)，节日礼品，团建活动，下午茶，氛围nice，领导nice。
+其他：年度免费体检、商业保险等。",RAG Java Kotlin RTOS WiFi 需求分析 培训,https://www.liepin.com/job/1979231897.shtml
+Android软件架构—安卓,某杭州整车制造上市公司,50-70k,上海,上海,统招本科,5年以上,7月6日更新,liepin,"职位描述:
+1、 负责智能座舱安卓系统软件架构设计；进行Android 软件模块设计，输出设计文档；
+包括应用、Frameworks 软件设计。
+2、负责智能座舱产品设计的技术可行性、工作量评估及流程跟进、性能调优，关注技术
+架构的改进、风险控制等；
+3、指导、协调、支持、审核Android 软件开发团队进行软件设计，并输出软件架构文档
+指导开发；
+4、协助产品团队进行业务梳理，指导软件开发团队和测试团队进行开发测试；
+5、负责Android 软件开发疑难问题的技术攻关；
+任职资格:
+1、本科及以上学历，5 年以上软件开发编码经验；3 年以上座舱前装软件架构经验
+2、精通JAVA，C/C++等编程语言，熟练掌握软件设计模式；
+3、精通安卓系统，包括中间件，Frameworks, APP 等；
+4、精通Android 系统性能优化，内存优化等;
+5、具有Camera 功能开发、软件架构经验者优先
+6、有高通平台软件架构设计经验者优先;
+7、具有强烈的责任心，较强的学历能力，良好的沟通能力及团队合作精神，工作态度积
+极，乐观，敢于挑战。",Java C++ 产品设计 Frameworks APP,https://www.liepin.com/a/77545499.shtml
+AI智能体应用开发高级工程师(J18005),上海汽车集团股份有限公司乘用车分公司,30-45k,上海-嘉定区,上海,统招本科,3年以上,7月28日更新,liepin,"职责描述：
+1.（车载语音方向）：对接ASR/TTS SDK，开发离线语音能力，优化语音播放/采集体验，有音频采集、降噪、音频流处理实战经验更佳；
+2.（车载方向）：有车载软件开发经验，熟悉 Android Automotive OS（AAOS）、车载系统架构，了解车载硬件（CAN 总线、车载芯片如高通 8155/8295、车载摄像头）适配，或有 ISO 26262 功能安全项目经验者优先；
+3.具备独立解决技术难题的能力，能快速定位并修复 APK 层、Framework 层及车载场景下的跨层复杂 BUG，有车载系统稳定性问题排查经验者加分；
+优先条件3（对AI智能体架构熟悉）：跟踪AI智能体行业前沿，熟悉智能体架构和大模型应用，有车载行业落地经验者加分；
+
+任职要求：
+1.计算机科学、人工智能、机器学习、数据科学或相关领域的本科或硕士学位。
+2.至少3年以上Android应用开发经验，熟练使用Java/Kotlin语言，掌握Jetpack组件（ViewModel、LiveData、Room等）、MVVM/MVC架构。或至少3年的python 智能体开发经验，掌握langchain、Coze、dify等框架
+3. 熟悉语音全链路，熟悉车载语音链路前端声学处理，熟悉ECNR、唤醒、VAD、ASR、NLU等功能模块原理、对接方式、工程调优方式，需熟悉与语音厂商SDK对接开发，需熟悉DM开发、语义对接、车控接口对接等开发技能，能够独立完成复杂应用（尤其是车载场景）的开发和性能优化，有Camera开发经验更佳。
+4.负责大模型Agent的需求分析、场景定义、架构设计、模型选择、数据准备与处理、核心逻辑设计。深入了解LLM、MM-LLM、VLM、LMM等的基础能力，掌握模型的API接口交互等。
+5.问题解决能力: 有较强的分析和问题解决能力，能快速适应并解决模型在生产环境中遇到的各种问题。",CAN 大模型 机器学习 Java Kotlin Python LLM 需求分析,https://www.liepin.com/job/1981816455.shtml
+车载Android安卓开发,某宁波知名公司,14-17k,宁波,宁波,大专,5-10年,7月16日更新,liepin,"1. 独立负责Android App开发
+   forbid 参与需求分析与方案设计，完成从功能拆解、代码实现到单元测试的全流程开发；
+   forbid 主导解决车载App相关的核心技术问题。
+2. 跨团队协作与项目交付
+   forbid 与硬件团队、算法团队、测试团队及产品经理紧密配合，确保项目按节点交付；
+   forbid 主导版本发布全流程（集成测试、线上监控），快速定位并解决线上问题。
+
+任职资格
+1. 基础能力：
+   forbid 统招大专及以上学历，计算机、电子工程等相关专业，5年以上安卓开发经验；
+   forbid 精通Java/Kotlin，熟悉Android系统系统架构（Activity/Lifecycle/View体系）及Jetpack组件（如Compose、Room、WorkManager）；
+   forbid 熟悉Android音视频开发（MediaPlayer、ExoPlayer、AudioRecord、AudioTrack、FFmpeg），掌握音频采集、编解码、播放的全流程实现；
+   forbid 具备具备良好的代码规范与设计模式实践（如MVVM、模块化、组件化、服务化），熟悉Git协作与持续集成（CI/CD）流程。
+2. 车机场景专项能力：
+   forbid 有车机应用开发经验；
+   forbid 具备车机系统适配经验（如分辨率适配、与车载通信模块的交互）。
+3. 软技能：
+   forbid 逻辑清晰，能独立分析复杂问题并推动解决；
+   forbid 具备强项目责任心，能在多任务并行下保证交付质量；
+   forbid 良好的跨团队沟通能力，适应敏捷开发模式。
+
+优先考虑
+- 熟悉Android系统核心服务；
+- 有audio相关应用开发经验；
+- 有汽车行业背景（如主机厂、Tier1供应商）或车载产品全生命周期交付经验。",Java Kotlin Git CI/CD 需求分析 方案设计,https://www.liepin.com/a/77982613.shtml
+安卓Android开发工程师,上海虬溪软件有限公司,20-35k,上海-黄浦区,上海,统招本科,5-10年,90天前更新,liepin,"主要职责（岗位相关）
+使用Android原生技术开发应用程序。
+使用Flutter技术为Android与iOS原生程序提供通用组件并定位、解决过程中的各种问题 。
+解决开发过程中的技术问题和挑战，保证项目进度和质量。
+参与产品测试和调试工作，保证产品的稳定性和性能。
+参与产品需求分析和技术规划，与团队合作制定前端开发方案和技术架构。
+与后端开发工程师密切配合，完成接口开发和数据交互的实现。
+协助团队进行产品文档的编写和维护，确保开发工作的规范和文档化。
+职位要求
+计算机相关本科及以上学历。
+3年以上的安卓前端开发经验，精通Java、Kotlin编程语言和安卓开发框架，开发Native安卓APP，熟悉安卓UI开发和常见的组件使用。
+具备算法能力，能够理解和实现复杂的算法逻辑。
+熟悉客户端与服务器端通信的原理和技术，了解RESTful API等常用协议。
+熟悉Git等代码管理工具和团队协作流程。具备良好的团队合作精神、沟通能力，有研究和钻研精神。
+具备Android端C、C++等NDK开发能力，了解常见的性能、稳定性问题，具备独立解决问题的能力。
+具备日语读写能力，可以理解和编写日语文档及邮件，此为加分项。
+",Flutter Java Kotlin Git C++ 需求分析 产品文档,https://www.liepin.com/job/1979383149.shtml
+智能汽车Android：安卓开发多方向（广州深圳两地）-- 头部集团汽车 智能化扩招,某广州新能源汽车公司,20-40k·15薪,广州,广州,统招本科,3年以上,今日更新,liepin,"
+头部集团汽车智能化扩招-- 
+安卓开发多方向  广深两地
+
+总共三个方向，下滑浏览：
+（一）安卓开发工程师（车联）（广州）
+（二）手车互联研发工程师（广州/深圳）
+（三）Framework开发工程师（MDW）（广州）
+
+注：多个方向岗位，分别可Base 广州 深圳 两地。
+
+
+（一）安卓开发工程师（车联）（广州）（SH-G）
+
+工作职责：
+1. 负责公司Android平台的应用程序开发和维护；
+2. 根据产品需求进行系统设计和编码实现，并保证代码质量；
+3. 跟踪最新Android平台技术发展，持续优化提升应用性能和体验；
+4. 解决软件开发过程中的技术问题，并为技术难题提供解决方案；
+5. 参与软件的测试、修正和更新，确保应用的稳定性和用户满意度；
+6. 完善开发文档，和跨部门团队合作，共同推动产品的迭代升级；
+
+任职要求;
+1、本科以上学历，计算机科学、软件工程或其他相关专业；
+2、至少3年的Android应用开发经验，熟悉Android SDK和NDK；
+3、了解OpenGL ES、 Vulkan等渲染技术，有实际的3D图形编程经验；
+4、良好的问题解决能力，能够独立分析和解决复杂的技术问题；
+5、优秀的团队协作和沟通技巧，能够在快节奏的环境中工作；
+6、具备AI意识，且熟练使用AI工具者优先。
+
+
+（二）手车互联研发工程师（广州/深圳）（SH-GS）
+
+工作职责：
+1. 负责手车互联（手机投屏/车机虚拟手机）系统架构设计与开发落地。主导主流手机互联协议（CarPlay/Android Auto/HiCar/Carlink等）在车机端的集成、适配与定制化开发，支撑手机应用与服务向车机端平滑延展。
+2. 负责车机端投屏模块的核心功能开发，包括协议解析、音视频流传输、屏幕镜像、数据交互及多品牌手机/车机兼容性适配。优化投屏连接的稳定性与流畅度，覆盖蓝牙/Wi-Fi/USB等多链路连接场景。
+3. 承担手车互联模块的架构升级与性能调优工作，分析并解决投屏过程中的高延迟、卡顿、识别率下降、CPU/内存飙升等系统性能瓶颈。推动互联模块的组件化与平台化，支持多车型快速复用。
+4. 主导手车互联相关认证工作（如CarPlay MFi认证、HiCar认证、Carlink认证等），完成认证资料准备、问题定位与整改，保障项目顺利量产交付。负责相关设计文档及单元测试的撰写。
+
+任职要求：
+1. 本科及以上学历，计算机/软件工程/电子信息/自动化等或其他相关专业。
+2. 三年以上Android开发经验，至少一年以上手车互联/车联网/智能座舱Android开发经验。至少深度参与过CarPlay/Android Auto/HiCar/Carlink其中一种协议的落地项目。
+3. 精通Java/Kotlin/C/C++编程语言，熟悉Android平台开发，具备扎实的编程基础。熟悉Android互联相关子系统（如Wi-Fi、Bluetooth），具备APP或Framework层开发经历。
+4. 熟悉车机互联协议栈（如USB/BT/Wi-Fi P2P/AAOS协议等），了解主流互联协议的认证流程与规范。有车载系统或智能座舱相关项目经验者优先。
+5. 具备独立分析定位疑难问题的能力，熟悉常用的软件设计模式。有较强责任心，能承担核心模块交付，具备跨团队协作能力（与BSP/HMI/车控/测试等团队配合）。
+
+
+
+（三）Framework开发工程师（MDW）（广州）（SH-G）
+
+工作职责：
+1、负责XOS核心模块的开发（Framework AMS/WMS/PMS/图形系统等），应用生态方案开发，IOT设备兼容等或SystemUI开发定制方向；
+ 2、质量维护，各车型版本交付；
+ 3、疑难问题攻坚，和业务联调；
+ 4、架构优化，技术沉淀及分享。
+
+任职要求：
+1、计算机、电子信息或其他相关专业，本科及以上学历；
+2、熟练掌握 Java/C++等语言，较强的编程技巧，深度理解面向对象设计原则和设计模式；
+3、五年以上Android App/Framework开发经验，深入了解AMS/PMS等重点服务；
+4、熟练掌握systrace/adb/gdb/Profiler/ndkstack等嵌入式调试方法；
+5、对图形系统，性能优化，gpu使用优化等有深入理解和工作经验优先；
+6、较好的沟通能力和团队协作能力，具备一定的抗压能力和交付意识；
+7、熟悉 Android 应用开发框架， 能独立开发 APP；
+8、有良好的代码习惯，结构清晰、命名规范、逻辑性强。
+
+",Java Kotlin C++ Bluetooth MDW SH-G ES SH-GS,https://www.liepin.com/a/78402183.shtml
+软件项目经理,汽车零部件及配件5000-10000人,15-28k,深圳-南山区,深圳,本科,5-10年,7月29日更新,liepin,"职责描述：
+1、负责车载项目的软件开发管理，制定软件开发计划并组织推动，做好风险识别及管控。
+2、按公司体系流程进行软件开发活动，包括组织、评审各类设计文档等，并做好阶段整改与总结。
+3、负责对接客户交流，推进软件团队的日常开发，协调资源解决项目中遇到的问题。
+
+
+任职要求：
+1、全日制本科或以上学历，计算机、软件工程、电子、通信、自动化等相关专业；
+2、2年以上车载电子产品软件开发管理经验者优先
+
+工作和专业经验
+1、具有较强的推动和协调能力，具有较强的撰写文档的能力；
+2、有车载电子产品（IVI/座舱、仪表/显示屏等）软件开发管理项目经验；
+
+专业技能
+1、熟悉车载软件开发流程，有A-SPICE/CMMI/敏捷/ISO26262和信息安全流程项目经验者优先；
+2、能熟练进行英语交流者优先
+
+知识
+熟悉C/C++/Java语言中的至少一种，熟悉Linux/Android系统中的至少一种；
+
+态度
+具有非常强的事业心、责任感以及主观能动性。",SPI C++ Java Linux IVI SPICE CMMI,https://www.liepin.com/job/1968550035.shtml
+软件测试,广州美央创新科技有限公司,10-25k,广州-黄埔区,广州,统招本科,5-10年,7月30日更新,liepin,"资深软件测试工程师 JD
+Senior Software Test Engineer (Embodied AI & Medical Robotics)
+
+一、基本信息
+岗位名称： 资深软件测试工程师（Senior Software Test Engineer）
+方向定位： 具身智能 / 医疗机器人 / AI软件平台 / 医疗级智能硬件
+所属部门： 质量管理中心 / 测试工程部
+工作地点： 广州（可接受短期出差）
+汇报对象： 质量负责人 / 研发负责人 / CTO
+岗位性质： 核心测试工程岗位、质量体系骨干岗位、测试负责人候选岗位
+招聘优先级： 高优先级，近期重点引进
+
+二、我们是谁｜AIMIRA INNOVATION 美央创新科技
+美央创新科技（AIMIRA INNOVATION）是一家以独创美央女娲大模型为核心的物理AI造物平台公司，专注于AI医疗具身智能体、AI智能体、智能医疗装备、医疗机器人系统与高端智能硬件的设计、研发、生产、制造和商业化落地。
+公司不是单纯的软件公司，也不是传统硬件设备公司，而是围绕“真实世界需求 × 多模态数据 × AI大模型 × 智能硬件 × 工程制造 × 场景交付”构建新一代物理AI产品体系。
+美央女娲大模型的核心价值，在于将真实世界需求转化为算法服务、智能硬件服务和具身智能终端，并通过真实商业场景中的持续反馈，不断反哺模型进化。
+公司围绕“传感 × 光学 × 电子 × 算法 × 机械结构 × 智能控制 × 医疗合规 × 量产交付”构建完整研发体系，产品方向覆盖AI全自动多模态感知具身智能体、智能检测系统、智能递送系统、超导微射流设备、冷等离子相关设备、智能医疗装备及后续医疗机器人产品线。
+我们不是只做一次性样机，也不是只做概念验证，而是要完成从 0→1研发、1→N量产、N→规模化商业交付 的完整产品化路径。
+在这样的体系里，测试工程师不是传统意义上的“手工点工”或“用例执行者”，而是决定物理AI产品能否从研发样机走向合规注册、稳定制造、规模交付和长期安全运行的核心工程岗位。
+公司拥有：
+●2万㎡全新研发总部：地铁上盖，通勤便利，配套高端人才公寓和免费三餐；
+●全球化业务视野：业务与资源网络覆盖伦敦、波士顿、多伦多、香港、广州等核心城市；
+●物理AI产品体系：以美央女娲大模型为中枢，连接AI算法、智能硬件、具身智能终端与真实场景交付；
+●完整工程化能力：覆盖研发设计、光学成像、电子控制、机械结构、算法协同、生产导入、质量闭环和商业交付；
+●内部创业机制：关键人才、关键模块、关键项目都有机会形成长期激励与组织跃迁。
+
+三、岗位介绍
+作为公司产品质量体系的重要组成部分，负责公司AI软件平台、医疗机器人、医疗级智能硬件、视觉系统及云端系统的整体测试工作，建立覆盖软件、硬件、算法、机器人及真实场景验证的一体化测试体系，保障产品达到医疗级稳定性、安全性与可靠性要求。
+我们要找的不是只会执行测试用例、手动点点点的传统测试工程师，而是能够真正理解有源医疗器械、智能医疗装备、机器人系统和物理AI产品复杂性的全栈测试专家。
+这个岗位要解决的是：
+●软件系统测试：Web平台、SaaS平台、App、Windows/Linux客户端、AI Agent系统、医疗工作站软件、机器人控制软件、云端平台、API接口及数据平台的全面测试覆盖；
+●自动化测试体系：建设UI自动化、API自动化、Robot Framework、Pytest、Selenium、Playwright、Appium及Jenkins CI/CD自动回归体系，持续提升自动化覆盖率；
+●AI软件测试：大模型测试、AI Agent测试、Prompt稳定性验证、RAG效果验证、多Agent协同测试、推理准确率验证、AI回复一致性、模型鲁棒性及边界条件测试；
+●机器人软件测试：机器人控制系统、状态机、任务调度、运动控制、机械臂控制、路径规划、定位、安全保护、异常恢复、Emergency Stop及Recovery流程验证；
+●嵌入式软件测试：MCU软件、ARM平台、Linux Embedded、RTOS、驱动程序、通信协议、Firmware升级、Bootloader、OTA升级及日志系统验证；
+●硬件联调测试：传感器、Camera、ToF、深度相机、激光模块、超声模块、压力传感器、编码器、电机控制器、驱动板、IO板、PLC及运动控制卡的接口稳定性与硬件兼容性验证；
+●视觉系统测试：机器视觉、OCR、目标识别/检测/跟踪、3D Reconstruction、SLAM、人体关键点、高斯喷溅、点云、Mesh、深度估计及三维建模的精度与鲁棒性验证；
+●多传感器融合测试：Camera、IMU、超声、力反馈、距离传感器、编码器、深度数据的时间同步、数据融合与异常容错验证；
+●通信协议测试：TCP/IP、UDP、HTTP/HTTPS、WebSocket、MQTT、CAN、RS232/485、USB、EtherCAT、Modbus、串口通信及BLE/WiFi通信稳定性测试；
+●性能测试：CPU/GPU/Memory/Storage/Network响应速度、吞吐量、高并发、压力测试、稳定性测试、长时间运行测试、Leak检测及Crash分析；
+●安全测试：异常输入、异常网络、非法参数、权限验证、数据安全、身份认证、日志审计、Fail Safe、异常恢复及容灾验证；
+●真实世界测试：医院、诊所、实验室、生产环境下的机器人连续运行、用户交互、医生/患者操作、极端环境、复杂光照/背景、网络/设备异常及真实用户反馈验证；
+●医疗器械验证：医疗软件验证、软件生命周期测试、医疗风险验证，支持IEC 62304、ISO 14971、ISO 13485、Design Verification/Validation及Clinical Validation；
+●质量体系建设：建立测试规范、测试流程、测试用例体系、Bug管理体系、版本管理流程、自动化平台、持续集成体系及测试指标体系，推动持续质量改进。
+
+四、为什么这是一个“高要求 × 高回报”的岗位
+1. 测试体系是物理AI产品商业化落地的底层护城河
+女娲大模型可以定义需求，研发团队可以做出硬件和算法，但只有测试体系能够保证产品在真实世界长期稳定运行、批量制造一致、用户使用安全、监管审查可通过、问题发生后可追溯。对于医疗级智能硬件和具身智能终端而言，测试不是最后一道关卡，而是从设计输入、风险分析、研发验证、设计转换、供应商导入、生产制程、出厂放行、售后监测到产品迭代的全链路质量保障能力。
+测试工程师在这里不是“卡流程”的角色，而是把研发、制造、注册、供应链、临床使用和商业交付打通的关键节点。
+2. 这不是传统手工测试，而是创新产品全栈工程化测试
+公司当前需要推进的不只是功能测试覆盖，而是将多个创新产品从研发样机状态推进到注册检验、试产导入、量产交付和持续改进。你将参与设计控制、设计转移、过程验证、风险管理、软件版本控制、供应商质量、生产质量、注册检验、可靠性验证、售后投诉、不良事件和CAPA闭环的完整链条。我们希望你不仅能让产品“跑起来”，更能让产品真正做到安全、可靠、可制造、可检测、可追溯、可交付。
+3. 这是测试岗位，也是公司工程化能力升级岗位
+公司当前需要补齐从研发到量产的质量闭环能力，不是只找一个执行人员，而是希望引入一位能够推动测试体系升级、建立产品测试标准、参与关键研发评审、推动生产质量整改、搭建自动化测试平台、带教测试团队、支撑注册审查和飞检应对的资深测试工程师。理想候选人应具备医疗器械法规意识、全栈测试能力、工程质量判断力和跨部门推动能力，既能守住合规底线，又能深入研发、生产和供应链一线解决真实问题。
+
+五、岗位职责
+1. 软件系统测试
+负责公司所有软件产品测试，包括但不限于：
+●Web平台、SaaS平台、App（iOS / Android）、Windows客户端、Linux软件；
+●AI Agent系统、医疗工作站软件、机器人控制软件、云端平台、API接口、数据平台。
+负责功能测试、回归测试、集成测试、系统测试、验收测试、兼容性测试、安装升级测试、配置测试及用户体验验证。
+2. 自动化测试建设
+建设自动化测试体系，包括UI自动化、API自动化、Robot Framework、Pytest、Selenium、Playwright、Appium及Jenkins CI/CD自动回归体系，持续提升自动化覆盖率。
+3. AI软件测试
+负责AI产品测试，包括大模型测试、AI Agent测试、Prompt稳定性验证、RAG效果验证、多Agent协同测试、推理准确率验证、AI回复一致性、模型鲁棒性、AI异常输入测试及边界条件测试。验证幻觉率、稳定性、一致性、安全性、响应时间及Token效率。
+4. 机器人软件测试
+负责机器人系统整体测试，包括机器人控制系统、机器人状态机、任务调度、运动控制、机械臂控制、机器人路径规划、机器人定位、机器人安全保护、异常恢复、断电恢复、Emergency Stop、Recovery流程及机器人工作流验证。
+5. 嵌入式软件测试
+负责MCU软件、ARM平台、Linux Embedded、RTOS、驱动程序、通信协议、Firmware升级、Bootloader、OTA升级、日志系统及异常恢复测试。
+6. 硬件联调测试
+参与硬件整体联调，包括传感器、Camera、ToF、深度相机、双目相机、RGB Camera、激光模块、超声模块、压力传感器、编码器、电机控制器、驱动板、IO板、PLC、运动控制卡，验证接口稳定性、驱动稳定性、硬件兼容性及异常恢复能力。
+7. 视觉系统测试
+参与机器视觉、OCR、目标识别、目标检测、目标跟踪、3D Reconstruction、SLAM、人体关键点、高斯喷溅、点云、Mesh、深度估计、三维建模的精度、鲁棒性、性能验证及异常场景（复杂光照、遮挡、运动目标）测试。
+8. 多传感器融合测试
+负责验证Camera、IMU、超声、力反馈、距离传感器、编码器、深度数据的时间同步、数据融合及异常容错。
+9. 通信协议测试
+负责TCP/IP、UDP、HTTP、HTTPS、WebSocket、MQTT、CAN、RS232、RS485、USB、EtherCAT、Modbus、串口通信、BLE、WiFi等通信稳定性测试。
+10. 性能测试
+包括CPU、GPU、Memory、Storage、Network响应速度、吞吐量、高并发、压力测试、稳定性测试、长时间运行测试、Leak检测及Crash分析。
+11. 安全测试
+包括异常输入、异常网络、非法参数、权限验证、数据安全、身份认证、日志审计、Fail Safe、异常恢复及容灾验证。
+12. 真实世界测试（Real World Validation）
+参与医院、诊所、实验室、生产环境下的机器人连续运行、用户交互、医生/患者操作、极端环境、复杂光照/背景、网络/设备异常及真实用户反馈验证，形成完整测试报告。
+13. 医疗器械验证
+参与医疗软件验证、软件生命周期测试、医疗风险验证，支持IEC 62304、ISO 14971、ISO 13485、Design Verification、Design Validation及Clinical Validation。
+14. 质量体系建设
+建立测试规范、测试流程、测试用例体系、Bug管理体系、版本管理流程、自动化平台、持续集成体系及测试指标体系，推动持续质量改进。
+
+六、岗位要求
+1. 学历背景
+●本科及以上学历，计算机、软件工程、自动化、机器人、电子信息、人工智能、控制工程、通信工程、机械电子等相关专业；
+●硕士优先；
+●具备计算机、软件、自动化、机器人、人工智能或嵌入式背景者优先。
+2. 工作经验
+●5年以上软件测试经验；
+●其中至少满足以下任一方向：医疗机器人、工业机器人、自动驾驶、AI平台、医疗AI、智能硬件、医疗器械、Embedded、Robotics；
+●具有完整产品交付经验；
+●有从研发样机、注册检验、试产导入到量产交付全过程测试经验者优先。
+3. 必备技能
+熟悉 Python、Shell、SQL、Linux、Git、Docker、Jira、Confluence、Postman、Charles、Wireshark、ADB。
+熟悉 Robot Framework、Pytest、Selenium、Playwright、Appium、JMeter、Locust。
+熟悉 CI/CD、GitLab CI、Jenkins、Docker 自动化测试框架建设。
+4. 软件测试能力
+能够独立完成测试计划、测试设计、测试执行、Bug分析、Root Cause Analysis、风险分析、测试报告、质量分析及自动化建设。
+5. AI测试能力（优先）
+●了解 LLM、Agent、Prompt Engineering、RAG、Vector Database、Function Calling、MCP、A2A、多Agent、Evaluation Framework、AI Benchmark。
+6. 机器人能力（优先）
+●了解 ROS、ROS2、MoveIt、Gazebo、Isaac Sim、机器人运动控制、路径规划、机器人导航、机械臂、机器人状态机、机器人软件架构。
+7. 嵌入式能力（优先）
+●了解 Linux Embedded、RTOS、MCU、STM32、CAN、UART、SPI、I2C、Firmware。
+8. 医疗器械经验（优先）
+●熟悉 ISO 13485、IEC 62304、IEC 60601、ISO 14971、YY/T相关标准、FDA软件要求、NMPA软件要求、医疗软件验证流程。
+
+七、必须具备的核心能力
+第一，全栈测试体系能力强
+熟悉软件系统测试、自动化测试、AI测试、机器人测试、嵌入式测试、硬件联调、视觉系统测试、通信协议测试、性能测试、安全测试及真实世界验证，能够独立推动测试体系建设。
+第二，理解有源医疗器械和智能装备测试特点
+不仅懂传统软件测试，还要理解电气安全、EMC、软件版本、固件升级、传感器融合、机器人控制、视觉系统、通信链路和硬件在环测试。
+第三，具备AI和算法测试能力
+能验证大模型输出稳定性、Agent行为一致性、RAG检索准确性、多模态AI效果及边界条件，而不是只测传统功能。
+第四，具备机器人和嵌入式测试能力
+理解ROS/ROS2、机器人运动控制、状态机、路径规划、嵌入式系统、驱动程序、通信协议和硬件联调，能够深入机器人软件栈定位问题。
+第五，具备医疗器械质量意识
+了解IEC 62304软件生命周期、ISO 14971风险管理、ISO 13485质量体系及医疗软件验证流程，能够支持注册检验和审核应对。
+第六，具备自动化和CI/CD建设能力
+能够搭建自动化测试框架、持续集成体系、质量门禁和测试指标 dashboard，推动测试效率和覆盖率持续提升。
+第七，具备强问题定位能力
+面对复杂跨模块、跨设备故障，能够快速分析根因、推动研发修复、验证效果、防止复发，而不是只停留在提交Bug和催办。
+第八，具备真实世界验证能力
+能够在医院、诊所、实验室、生产环境等真实场景下验证产品，理解医生、患者、操作员实际使用行为，形成高质量测试报告。
+第九，具备文档和数据能力
+能够独立编制测试计划、测试用例、测试报告、Bug分析报告、风险评估报告、自动化方案和质量分析报告，并确保记录真实、完整、可追溯。
+第十，具备跨部门推动力
+能够在研发、算法、硬件、生产、注册、供应链、售后、质量之间推动测试目标落地，敢于坚持质量底线，也能用工程语言解决问题。
+
+八、优先加分项
+●有具身智能、人形机器人、医疗机器人、自动驾驶或智能装备测试经验；
+●参与过医疗器械（二类/三类）软件验证、注册或临床支持工作；
+●熟悉 ROS2、Isaac Sim、Gazebo、MoveIt、OpenCV、PCL、CUDA 等机器人/视觉开发生态；
+●有 AI 大模型、Agent、RAG、多模态模型或计算机视觉产品测试经验；
+●能搭建自动化测试平台、持续集成（CI/CD）质量门禁体系；
+●有性能优化、可靠性测试（7×24小时稳定性）、硬件在环（HIL）或数字孪生仿真测试经验；
+●熟悉医疗信息系统（如 DICOM、HL7、FHIR）或医疗影像、超声、光学设备测试流程；
+●有测试团队管理或测试体系从0到1搭建经验；
+●熟练使用AI工具提升测试效率、辅助用例生成、数据分析、自动化脚本编写和知识库建设。
+
+九、不适合本岗位的人
+●只会手工点功能，不懂自动化、AI和工程化测试的人，不适合；
+●只会执行用例，不关心产品架构、系统设计和真实质量问题的人，不适合；
+●只懂纯软件测试，不愿意学习机器人、嵌入式、硬件联调和有源医疗器械测试的人，不适合；
+●遇到复杂跨模块问题只会让研发“自己解决”，不能定位根因和推动闭环的人，不适合；
+●对医疗级质量标准和合规要求不敏感，习惯凑合放行的人，不适合；
+●不重视测试数据完整性、版本一致性、记录可追溯和缺陷管理的人，不适合；
+●不愿意深入机器人系统、嵌入式代码、硬件联调和真实场景测试现场的人，不适合；
+●只适应传统成熟产品，不愿意在创新产品和快速迭代环境中建立测试体系的人，不适合；
+●排斥AI工具、自动化和测试效率提升的人，不适合。
+
+十、我们期待的候选人画像
+我们希望你是一个真正面向物理AI时代的全栈测试工程师。
+你不只是会执行测试用例、提交Bug、写测试报告；你能理解一个AI具身智能终端和医疗机器人落地到真实世界时，对软件稳定性、算法可靠性、硬件兼容性、机器人安全性、通信鲁棒性和医疗合规的全部要求；你能把一个“研发能跑的样机”推进成“经过充分验证、合规、稳定、可量产、可追溯、可持续迭代的产品”；你愿意在AI大模型、智能硬件、具身智能和智能医疗装备交汇的地方，建立真正有工程壁垒的测试体系。
+理想候选人具备以下特征：
+●做过真实有源医疗器械或智能医疗装备测试；
+●熟悉软件系统测试、自动化测试和AI测试方法论；
+●理解机器人系统、嵌入式开发和硬件联调；
+●能参与研发设计评审和测试方案策划，不只是后端执行；
+●能深入机器人软件栈、嵌入式代码和硬件联调现场定位问题；
+●能组织跨部门问题定位和CAPA闭环；
+●原则性强，守得住质量底线；
+●执行力强，能把测试流程、标准和整改真正落地。
+
+十一、我们能提供
+●物理AI造物平台与AI医疗具身智能体赛道机会；
+●美央女娲大模型驱动的AI智能体与智能硬件产品体系；
+●参与核心智能医疗装备、AI具身智能终端和高端智能硬件测试体系建设的机会；
+●从研发设计、注册检验、试产导入、量产交付到售后闭环的完整测试场景；
+●接触AI、光学、电子、机械、软件、算法、医疗合规、量产交付等跨学科工程体系的机会；
+●2万㎡全新研发总部、地铁上盖办公环境、高端人才公寓和免费三餐；
+●有竞争力的薪酬、项目激励和长期发展机会；
+●对优秀测试骨干开放测试负责人、测试架构师及核心项目负责人发展通道。
+
+十二、核心工作目标
+1. 测试体系目标
+●建立并持续运行覆盖软件、AI、机器人、嵌入式、硬件联调、视觉、通信、性能、安全及真实世界验证的一体化测试体系；
+●保障体系文件、测试记录、流程和执行真实有效；
+●内审、管理评审、第三方认证、客户审核和飞检问题及时闭环；
+●重大合规违规为零，重大质量安全事故为零。
+2. 产品质量目标
+●建立有源医疗器械、智能医疗装备和具身智能终端专项测试标准；
+●实现关键",Gin 大模型 Linux Jenkins CI/CD RAG MCU ARM RTOS SLAM TCP/IP WebSocket,https://www.liepin.com/job/1984521683.shtml
+Android安卓应用工程师,深圳市鸥柏科技有限公司,8-16k,深圳-光明区,深圳,大专,1-3年,90天前更新,liepin,"任职要求：
+1、软件工程、计算机等相关专业，3年以上Android应用软件开发经验；
+2、熟悉Android平台网络通信机制，对Socket通信，对TCP/IP和HTTP有较深刻的理解；
+3、熟悉多线程、设计模式，有良好的编码风格和文档编写习惯；
+4、熟悉Android SDK及Android系统框架，熟悉掌握Android API，精通UI布局；
+5、熟悉使用Eclipse、Android Studio等开发工具，JNI编程；
+6、理解Android Framework层的架构与实现,系统服务；
+7、能快速响应需求，可独立完成应用软件的定制开发；
+8、有基于Android智能终端设备开发经验、成功上线APP优先考虑；
+9、熟悉硬件基本原理、熟悉基本硬件通讯接口，能看懂硬件原理优先。
+岗位职责：
+1、负责安卓应用层、中间件相关开发、测试与维护；
+2、完成安卓APP相关示例程序的开发与维护；
+3、根据客户对系统的功能需求，对安卓APP功能进行修改和完善；
+4、研发文档编写。",TCP/IP IPS 文档编写 API Android,https://www.liepin.com/job/1932855721.shtml
+前端开发工程师 安卓Android系统,台州六路科技有限公司,8-13k,台州-临海,台州,本科,经验不限,90天前更新,liepin,"我们正在招APP前端开发工程师（安卓Android系统）
+岗位职责:
+1.负责公司产品电脑桌面端应用以及APP的开发，采用Electron、React、Native框架
+2.设计软件架构、根据实际场景给出解决方案
+3.与后端开发团队紧密配合，确保代码有效对接，性能优化;
+4.有良好的编码规范，对于用户体验、视觉及交互设计有一定的理解:
+5.遵守项目、部门、小组制定的各种研发规范，保证研发过程的持续改进。
+任职要求:
+1、本科及以上学历，计算机相关专业毕业;
+2、3年及以上Android软件开发经验，具备3个以上的项目开发经验，有丰富的项目架构经验,来应对不同场景业务能力，可以独立承担架构设计,完成较复杂APP的能力;
+3、熟练掌握Java编程语言，精通Android开发平台及框架原理
+4、熟练掌握Android开发技术，具有扎实的JAVA语言及数据结构基础
+5、熟悉各主流手机特性，熟练实现不同版本、屏幕的适配，有数据统计、消息推送，有做直播电商项目优先考虑;
+6、精通安卓开发,熟练各种安卓组件并了解其内部原理;
+7、精通Android调试工具和方法,可以应付各种用Android复杂问题
+8、责任心强，具备良好的沟通能力和优秀的团队协作能力
+待遇薪酬：单休双休 ；五险 ；奖金 ；早中晚均有低价自费食堂 ；节假日正常放假，因公司要求加班均安排倒休 ；发放传统节日福利 ；团建 ; 聚餐 ; 培训等
+工作每天7小时，要求线下办公坐班 08:30-11:30 13:30-17:30",Electron React Java 培训,https://www.liepin.com/job/1975449089.shtml
+Android原生开发（安卓）,重庆余赚网络科技有限公司,7-9k,重庆,重庆,大专,1-3年,90天前更新,liepin,"1.负责安卓APP开发和维护工作；
+2.配合后台完成接口调试，独立开发移动APP。
+3.负责安卓SDK封装和Demo开发
+4.可能会协助后端开发部分产品内容。
+任职要求：
+1.专科及以上学历，有2年以上安卓APP、相关前端经验，有完整的Android开发经验；
+2.掌握前端基本技术，能独立完成APP页面、Android移动端页面绘制；
+3.了解熟悉后端基本技术，能协助后端人员做部分开发；
+4.精通Android UI布局，各类UI特效，DB操作，消息机制，进程管理。熟悉音视频技术，地图导航。对Socket通信，TCP/IP，HTTP有一定理解和经验。
+5.熟悉Android应用打包，签名，安全机制。
+熟练使用Android Studio开发工具，代码调式，性能优化，内存优化。善于解决系统崩溃，内存益处，适配性和兼容性问题。
+
+有任务众包系统，淘宝联盟购物返利系统开发经验优先！
+熟悉其它移动端者（H5，公众号等）优先！能提供上线作品者以及有SDK经验者优先！
+6.具备较强解决问题的能力，有良好的沟通能力和团队精神。",TCP/IP TCP IP H5,https://www.liepin.com/job/1938834473.shtml
+Android-安卓开发工程师,行致科技,10-20k,广州-番禺区,广州,大专,3年以上,90天前更新,liepin,"岗位职责：
+1、app 安卓页面及功能模块的开发；
+2、负责app 安卓需求功能点评估；
+3、负责app 安卓功能模块的联调和测试问题支持；
+4、负责app 安卓技术设计文档的整理和编写；
+任职要求：
+1.大专及以上学历，3年以上相关经验；
+2.精通Android SDK，熟练掌握Android源码，熟悉安卓生态三方库及各类组件；
+3.熟悉Kotlin、JNI，熟悉复用性架构与跨平台框架。",Kotlin app SDK JNI,https://www.liepin.com/job/1975676567.shtml
+安卓软件工程师 Android Software Engineer,某知名公司,25-50k,深圳,深圳,本科,3年以上,今日更新,liepin,"外资，可远程居家办公，薪酬OPEN谈，对学历、年龄等无硬性要求，需具备良好的英文读写能力。
+
+工作职责：
+1.使用 Kotlin 开发并维护线上安卓应用
+2.通过后端接口集成 AI 能力功能，包含对话交互、图像识别、语音交互、智能推荐模块；
+3.设计 AI 交互用户体验规范，涵盖流式输出、重试机制、分段返回结果等场景；
+4.针对高 AI 负载业务流程，优化应用性能、内存占用与页面响应速度；
+5.埋点实现数据分析、日志记录与用户反馈采集，支撑 AI 模型效果评估与迭代优化；
+6.与后端、机器学习工程师紧密协作，对齐接口协议与系统运行逻辑；
+7.保障线上环境应用的稳定性、数据安全与业务扩容能力。
+任职要求：
+1.3 年及以上 Kotlin 安卓开发实战经验；
+2.具备 AI 功能对接落地经验，例如大语言模型、图像、语音相关接口集成；
+3.精通异步编程技术：协程（Coroutines）、数据流（Flow）；
+4.熟悉 REST/gRPC 接口及标准化数据传输格式；
+5.优秀的问题排查与性能调优能力；
+6.能够适配网络延迟、局部报错、结果不确定性等复杂线上环境开发；
+7.有 MLKit 或轻量化端侧模型推理落地经验优先；
+8.拥有 Google 应用商店上架正式应用的项目经历。
+
+技术栈：
+Kotlin / Java
+关系型数据库 / 非关系型数据库
+TensorFlow Lite（端侧轻量化模型推理）
+
+Focus
+Build and maintain production Android apps using Kotlin.
+
+Integrate AI-powered features (chat, vision, voice, recommendations) via backend APIs.
+
+Design UX patterns for AI interactions, including streaming responses, retries, and partial results.
+
+Optimize performance, memory usage, and responsiveness for AI-heavy flows.
+
+Implement analytics, logging, and feedback capture to support AI evaluation and iteration.
+
+Collaborate closely with backend and ML engineers on API contracts and system behavior.
+
+Ensure app stability, security, and scalability in production environments.
+
+ 
+Ideal Experiences
+3+ years of Android development experience using Kotlin.
+
+Hands-on experience integrating AI features (e.g. LLM, vision, speech APIs).
+
+Strong understanding of asynchronous programming (Coroutines, Flow).
+
+Familiarity with REST or gRPC APIs and structured data formats.
+
+Strong debugging and performance profiling skills.
+
+Comfort building in environments with latency, partial failure, and non-deterministic behavior.
+
+Experience with MLKit or light on-device inference.
+
+Published production apps on the Google Play Store.
+
+ 
+Outcomes
+Stable, smooth, and reliable real-world use android applications.
+
+Performance is optimized: responsive, low-latency, and efficient on memory and CPU.
+
+Production issues are detected early, monitored effectively, and resolved with clear root-cause analysis.
+
+ 
+Tech Stack
+Kotlin / Java
+
+SQL / noSQL
+
+TensorFlow Lite (on-device inference)",Kotlin 机器学习 gRPC Go Java TensorFlow Gin Scala LLM SQL 数据分析,https://www.liepin.com/a/77504399.shtml
+安卓Andriod开发工程师,常德掌玩网络科技有限公司,10-15k,长沙-岳麓区,长沙,大专,1-3年,90天前更新,liepin,"岗位职责：
+1.主要负责公司自主研发产品APP开发；
+2.根据产品需求完成架构和模块设计、编码、测试工作，
+3.需要有APP项目研发经验；
+备注：flutter经验者优先
+任职要求：
+1.专科及以上学历，计算机相关专业毕业；
+2.精通Android开发平台及框架原理，能够搭建和重写客户端框架；
+3.精通Android平台UI设计规范，精通自定义控件封装；
+4.熟悉http，SOCKET等协议；
+5.有良好编码风格，追求代码执行效率，习惯写注释；
+6.强烈的责任心和团队精神，善于沟通与合作，独立学习并乐于分享；",Flutter,https://www.liepin.com/job/1945106303.shtml
+安卓/Android开发工程师,山东敏洋网络科技有限公司,8-13k,青岛-市北区,青岛,大专,3-5年,90天前更新,liepin,"职位标题：安卓/Android开发工程师
+要求：三年左右工作经验， 大专学历以上，计算机专业
+薪资范围：8000到15000
+
+
+
+职位信息
+岗位职责：
+1.负责Android手机客户端软件的设计和编码工作；
+2.根据项目任务计划按时完成软件编码和单元测试工作；
+3.分析和发现产品bug,不断优化产品；
+4.按照开发流程编写相应模块的设计文档；
+任职要求：
+1、2年及以上Android开发经验；
+2、熟悉android平台架构,原理,精通API,AndroidSDK,掌握手机终端软件的调试和调优技能,具备架构和设计APP框架能力.精通多线程,android下网络通信机制；
+3、webview熟练使用，了解android与js交互，熟悉 HTML, Javascript 等 Web 前端技术
+4、至少有2个以上安卓项目完整开发经验，独立完成或者参与其中核心模块的开发并成功上线；
+5、有强烈的责任心和团队精神；善于沟通，有团队开发经验；
+6、了解Javascript, H5等web开发知识者优先。",IDS JavaScript AndroidSDK HTML Javascript Web,https://www.liepin.com/job/1925845413.shtml
+Android安卓开发工程师,华为终端有限公司,20-30k,南京,南京,统招本科,经验不限,90天前更新,liepin,"华为消费者bg软件部OD安卓开发招聘，薪资丰厚，要求本科以上学历，一年及以上工作经验，拥有一定安卓开发经验
+岗位职责
+（1）参与Android软件的设计、开发、调试，负责手机AI应用的设计、开发、调试等，以及后续的维护工作；
+（2）参与手机应用软件模块的设计和接口实现，根据开发进度和任务分配，独立完成相应模块的软件设计、开发和调试任务，并对产品进行测试优化完善，保证产品质量，并能够对关键疑难问题的解决和攻关。
+岗位要求
+（1）熟悉JAVA语言，熟悉Android系统，有Android软件开发经验；
+（2）熟悉数据结构和算法；
+（3）熟悉Unix/Linux/Win32环境下编程和调试，熟悉网络编程和多线程编程；",Java Unix Linux,https://www.liepin.com/job/1929693635.shtml
+安卓应用开发工程师/Android客户端产品开发,常州指数星空光学科技有限公司,15-30k,杭州-西湖区,杭州,本科,3-5年,90天前更新,liepin,"岗位职责：
+1、负责公司安卓客户端应用的开发、维护和性能优化；
+2、根据产品需求，独立或协作完成功能模块的设计、编码和测试；
+3、持续重构和优化代码结构，保障代码质量和应用稳定性；
+4、配合测试团队定位并解决线上问题，提升应用崩溃率、启动速度等核心指标；
+5、关注安卓平台新技术动态，将合适的方案引入到产品中，推动技术升级。
+
+任职要求：
+1、计算机相关专业本科及以上学历，3年以上安卓应用开发经验，有完整项目上线经验者优先；
+2、扎实的Java/Kotlin语言基础，熟悉面向对象编程，熟练掌握Android SDK，了解四大组件、生命周期、UI绘制原理等；
+3、熟悉常用布局、控件、动画及自定义View，了解网络编程，熟悉RESTful APl，有使用OkHttp/ Retrofit等网络框架的经验；
+4、熟悉多线程编程，了解Handler、AsyncTask等机制，熟练使用Git进行团队协作，了解Gradle构建工具；
+5、熟悉Kotlin协程、Jetpack组件(如ViewModel，LiveData，Room，Navigation等)并在项目中有实际应用可加分；
+6、有混合开发经验，了解Flutter、React Native或 WebView与原生交互者优先。
+",Java Kotlin Git Gradle Flutter React Native,https://www.liepin.com/job/1981269457.shtml
+Android安卓工程师,深圳市拉科菲希科技有限公司,20-35k,深圳-南山区,深圳,统招本科,3-5年,90天前更新,liepin,"职责描述：
+1、主动思考业务需求，从技术层面驱动业务发展；
+2、架构改进及性能优化；
+3、设计，质量及代码规范意识，可通过各种自动化工具对模块进行权限挑战测试，
+4、新技术的研究和重点难点的技术攻关；
+
+「任职条件」
+1、扎实的计算机以及网络基础；
+2、熟悉Mac OS X、Android Studio开发环境、kotlin，熟练掌握JAVA；
+3、掌握通用的设计原则和常用的设计模式，具备一定的算法分析和实现能力；
+4、理解 Android 模块化；
+5、能够写出强稳定高可用易扩展的代码；
+6、对终端UI/UE有自己的感知，理解安卓设计，追求用户体验；
+7、了解过开源框架源码；
+8、有良好的团队意识以及高度的责任心；
+9、具有抗压能力和快速学习能力；
+
+「符合以下任一条件者优先」
+1、高颜值
+2、极客精神
+3、安卓重度用户
+4、APP爱好者
+5、阅读英文技术文档和书籍66666666
+6、参与开源项目并贡献过代码 （请在简历里附上Github链接）；
+7、熟悉 前后端 或者 iOS 开发；
+8、了解技术发展趋势和业内热点技术。
+
+加入luckyfish你将享受以下福利：
+1、内部培训/行业交流
+定期内部培训，由经验丰富的同事、互联网企业的大咖导师来与你分享同行跨界的知识。
+2、单身联谊聚会
+定期举办单身帅哥美女联谊聚会。
+3、每日下午茶/零食/宵夜
+每日下午茶福利，吃不完的零食、宵夜。
+4、每周团建/娱乐
+每周进行高尔夫、网球、桌游、电影等丰富活动。
+5、每月生日会
+为当月生日同事举办隆重的生日party并赠送生日礼物
+6、季度/年度公费旅游
+每季度市区、周边城市旅游，年度国内外旅游。",Kotlin Java 高可用 Git 技术文档 培训,https://www.liepin.com/job/1923508747.shtml
+Android Engineer 安卓客户端工程师（远程办公）,某上海IT服务公司,20-40k,上海,上海,本科,3-5年,7月14日更新,liepin,"核心工作职责
+1.使用 Kotlin 开发、维护线上正式版安卓应用；
+2.通过后端接口集成各类 AI 能力：对话大模型、图像视觉、语音交互、智能推荐；
+3.设计 AI 交互专属交互方案，包含流式逐字输出、请求重试、分段返回结果等场景；
+4.针对高 AI 算力消耗的业务流程做专项优化：运行性能、内存占用、界面响应速度；
+5.搭建数据埋点、日志采集、用户反馈收集体系，支撑 AI 模型评测与迭代优化；
+6.与后端、机器学习工程师深度协作，统一接口协议、对齐系统运行逻辑；
+7.保障线上 App 的稳定性、安全合规性与可扩容迭代能力。
+理想任职要求
+1.3 年及以上 Kotlin 安卓开发实战经验；
+2.具备 AI 功能集成落地经验（对接大模型、视觉、语音 API 等）；
+3.精通安卓异步编程体系：协程 Coroutines、响应式数据流 Flow；
+4.熟悉 REST/gRPC 接口、结构化数据传输格式；
+5.熟练掌握问题调试、性能分析定位工具；
+6.能适配网络延迟、局部请求失败、模型输出不确定等复杂异常场景开发；
+7.有 MLKit 工具集、移动端本地推理部署经验优先；
+8.有 Google Play 上架发布正式 App 的完整项目经历。
+岗位交付目标
+1.产出稳定流畅、线上可用的安卓应用；
+2.性能全面优化：界面响应迅速、低延迟、内存与 CPU 资源占用高效；
+3.线上问题可提前监控、快速定位，出具清晰根因分析并完成修复。
+技术栈
+Kotlin / Java 关系型数据库 & 非关系型数据库 TensorFlow Lite（移动端本地推理框架）
+",Kotlin 大模型 机器学习 gRPC Go Java TensorFlow 安全合规,https://www.liepin.com/a/77875035.shtml
+Android安卓高级工程师（VirtualApp）,某厦门游戏公司,30-60k,厦门,厦门,本科,3-5年,7月29日更新,liepin,"【岗位职责】
+1.	对开源VirtualApp项目维护，解决手机系统及APP兼容性问题；
+2.	对FC，PSP模拟器相关进行维护，解决系统适配和兼容性问题；
+3.	根据项目实际需求，扩展开发安卓系统相关软件功能；
+【任职要求】
+1.	精通Java，C/C++等语言。熟练操作Android Studio，Git等工具；
+2.	深入了解Java的注解，代理原理；了解Java、C/ C++的钩子原理；懂得Java AOP原理及编程;熟练掌握Android JNI。
+3.	熟悉Android源码，熟悉系统底层架构以及实现机制，有Framework的开发经验。
+4.	有VirtualApp框架维护经验； FBA模拟器开发经验；FC模拟器开发经验； PSP模拟器开发经验；GBA模拟器开发经验者。
+",Java C++ Git Studio JNI,https://www.liepin.com/a/76535613.shtml
+Android安卓高级工程师（VirtualApp）,某厦门游戏公司,30-60k,厦门,厦门,学历不限,5-10年,7月24日更新,liepin,"岗位职责：
+1.对开源VirtualApp项目维护，解决手机系统及APP兼容性问题；
+2.对FC，PSP模拟器相关进行维护，解决系统适配和兼容性问题；
+3.根据项目实际需求，扩展开发安卓系统相关软件功能；
+
+【任职要求】
+1.精通Java，C/C++等语言。熟练操作Android Studio，Git等工具；
+2.深入了解Java的注解，代理原理；了解Java、C/ C++的钩子原理；懂得Java AOP原理及编程;熟练掌握Android JNI。
+3.熟悉Android源码，熟悉系统底层架构以及实现机制，有Framework的开发经验。
+4.有VirtualApp框架维护经验； FBA模拟器开发经验；FC模拟器开发经验； PSP模拟器开发经验；GBA模拟器开发经验者。",Java C++ Git Studio JNI,https://www.liepin.com/a/76736217.shtml
+Android安卓高级工程师（VirtualApp）,某厦门游戏公司,40-60k,厦门,厦门,大专,经验不限,7月28日更新,liepin,"1.对开源VirtualApp项目维护，解决手机系统及APP兼容性问题；
+2.对FC，PSP模拟器相关进行维护，解决系统适配和兼容性问题；
+3.根据项目实际需求，扩展开发安卓系统相关软件功能；
+1.精通Java，C/C++等语言。熟练操作Android Studio，Git等工具；
+2.深入了解Java的注解，代理原理；了解Java、C/ C++的钩子原理；懂得Java AOP原理及编程;熟练掌握Android JNI。
+3.熟悉Android源码，熟悉系统底层架构以及实现机制，有Framework的开发经验。
+4.有VirtualApp框架维护经验； FBA模拟器开发经验；FC模拟器开发经验； PSP模拟器开发经验；GBA模拟器开发经验者",Java C++ Git Studio JNI,https://www.liepin.com/a/78250467.shtml
+安卓/Android开发技术专家,荣耀终端股份有限公司,20-40k·15薪,南京-雨花台区,南京,本科,3-5年,90天前更新,liepin,"岗位职责：
+1、负责安卓相关模块设计与开发，按照产品计划，按时、高质量完成产品交付工作。
+2、负责疑难问题处理，系统性能、功耗等优化工作。
+任职要求：
+1、本科或以上学历，计算机及相关专业，有4年以上Android工程开发经验；
+2、熟练掌握java语言，深入理解并能熟练使用基础类库，熟悉java虚拟机； 
+3、熟连使用Android Studio、SVN、Git等开发工具； 
+4、熟悉Android平台框架（涉及UI、自定义View、framework、多线程、网络等）；
+5、精通Android开发平台及框架原理，Android平台UI设计和常用布局，熟练使用Android SDK及相关开发工具，能独立完成基于Android的应用的开发工作； 
+6、熟练掌握Android性能优化方法和相关调试工具；
+7、掌握Android中间件、HAL层开发规范，对JVM原理有一定了解； 掌握 Jni 运行原理、内存泄漏的应对方案、功耗问题的优化经验、以及崩溃堆栈的排查经验； 
+8、曾负责过性能、安全、稳定性、功耗、兼容性、认证等专题工作者优先。 ",Java SVN Git Studio Jni,https://www.liepin.com/job/1965872719.shtml
+Android Developer 安卓开发,缀梦智能科技(东莞)有限公司,11-20k,东莞-大岭山,东莞,本科,2年以上,90天前更新,liepin,"岗位职责  
+1. 负责物联网类Android客户端应用的核心功能开发、维护与优化，主导安卓端架构设计、技术选型与技术实现；  
+2. 与后端开发人员协作，完成客户端与服务器的数据交互，保障功能联动的稳定性与高效性；  
+3. 负责Android客户端应用的性能优化与稳定性提升，分析并解决线上技术问题，重点优化高并发场景下的用户体验；  
+4. 熟悉不同Android系统版本及主流厂商设备的兼容性适配，确保应用在多环境下的适配性与兼容性；  
+5. 主导Android客户端的版本迭代、发布及Google Play上架全流程，熟悉审核规则与政策，具备丰富的马甲包上架经验；  
+6. 与硬件团队协作，完成蓝牙设备（含BLE）的适配工作，保障硬件功能与客户端的无缝衔接；  
+7. 解决客户端应用的技术问题和Bug修复，持续提升应用整体质量。  
+
+任职要求  
+1. 基础条件：至少2年以上Android开发经验，有物联网、社交类App开发经验，至少主导或深度参与过一款成熟线上产品开发（需提供案例）；  
+2. 技术能力：
+   - 精通Java/Kotlin语言，熟悉Android应用开发流程，掌握Jetpack、RxJava、Retrofit、OkHttp等主流框架；  
+   - 具备物联网、蓝牙设备（含BLE）相关项目经历； 
+   - 熟悉MVVM等设计模式，对即时通讯（IM）系统、实时音视频架构有深入理解；  
+   - 熟悉Android UI设计规范，具备良好的用户体验意识；  
+   - 熟悉Android内存管理、多线程、网络编程及性能优化技术，具备复杂场景下的性能调优能	力；  
+   - 熟悉主流支付平台对接，有海外支付对接经验者优先；   
+3. 软技能：  
+   - 具备良好的沟通能力与团队协作精神，能与UI、后端、测试等团队高效协作；  
+   - 责任心强，工作主动性强，善于主动发现并解决问题；  
+   - 具备较强的问题解决能力和学习能力，能够独立思考和解决复杂技术问题。",高并发 Go Java Kotlin RxJava Retrofit IM,https://www.liepin.com/job/1977080423.shtml
+Android安卓开发工程师,中核放射医疗投资有限公司,9-15k,成都-双流区,成都,统招本科,3-5年,90天前更新,liepin,"主要工作：
+1、负责公司产品所需要的Android平台app的的技术架构，开发及维护。
+2、完成Android端的相关产品及模块的设计、开发及优化。
+3、参与Android平台相关产品框架的规划、设计和改进及产品重构⼯作。
+4、参与性能优化，分析和解决内存、CPU占用等问题，提升APP运行效率。
+5、与产品、测试团队紧密协作，参与需求评审并提出技术可行性建议。
+6、依据需求进行Android平台新技术研究。
+
+任职要求：
+1、全日制统招本科及以上学历，全日制大学本科及以上学历，计算机相关专业。
+2、具有2年以上Android安卓应用开发经验。
+3、熟练使用Java或Kotlin进行android原生APP开发，掌握反射、动态代理、APT等高级特性。
+4、深度掌握Activity,Service,BroadcastReceiver,ContentProvider等主要组件的使用。
+5、深入理解Android生命周期、Binder IPC机制及Zygote进程工作原理。
+6、熟练使用Jetpack组件（ViewModel/Room/WorkManager）及Compose声明式开发,熟悉OkHttp/Retrofit框架使用。
+7、熟悉网络编程,websocket,熟悉restful,熟练掌握多线程编程或Kotlin Coroutines使用。
+8、熟悉SQLite数据库的使用及优化。
+9、具备性能调优经验，能分析和解决 OOM、卡顿、ANR、启动优化、等问题；熟悉 Android Profiler、Systrace、MAT/LeakCanary 等性能分析工具。
+10、熟悉Gradle的使用,熟练使用git进行代码管理，熟悉Git Flow分支管理，具备良好的代码习惯。",Java Kotlin Go WebSocket SQLite CAN Gradle Git,https://www.liepin.com/job/1978107871.shtml
+Android安卓高级开发工程师（双休）,丁马科技,15-18k,成都-高新区,成都,大专,5年以上,90天前更新,liepin,"android开发工程师  14-18K
+任职需求：
+1.有视频播放软件经验优先，
+1.本科及以上，5年以上 Android 平台应用开发经验;
+2.有丰富的独立负责过 Android 客户端产品的关键核心模块开发工作;
+3.精通 Android 应用开发框架，对 Android 平台架构有良好的理解。
+4.精通 JAVA 设计模式、有很好的编程习惯和面向对象编程思想，精通 Kotlin 语言架构模式开发;
+5.有良好的沟通表达能力和团队合作精神。
+岗位职责:
+1、负责公司 Android 平台产品的技术实现，进行软件需求分析及可行性分析;
+2、根据产品需求，参与 android 平台上软件设计、开发与调试等工作;
+3、对安卓应用的用户体验设计有一定经验;
+4、能够按照项目计划，按时提交高质量的代码，并进行单元测试，完成开发任务。
+
+福利待遇：
+1.六险一金；
+2.上班时间9:00-18:00，双休；
+3.带薪年假；
+4.每月10日固定发薪日 (从不拖延)。",Java Kotlin 需求分析 Android JAVA,https://www.liepin.com/job/1973543155.shtml
+安卓开发工程师（Android Software Engineer）,某知名公司,30-60k,上海,上海,本科,经验不限,7月29日更新,liepin,"工作经验：2 年及以上安卓开发经验，熟练使用 Kotlin 语言
+技术能力：
+具备 AI 功能集成实战经验（如 LLM、视觉、语音 API 对接）
+熟练掌握异步编程（协程 Coroutines、Flow）
+熟悉 REST/gRPC 接口与结构化数据格式
+具备扎实的调试与性能优化能力，能解决线上复杂问题
+熟悉低延迟、部分失败场景下的开发模式
+了解 MLKit 或端侧推理技术优先，有 Google Play 上架应用经验优先
+工作内容：
+负责 AI 产品的安卓客户端全流程开发与维护，主导 AI 交互在移动端的用户体验设计与实现。
+使用 Kotlin 开发并维护生产级安卓应用，构建以 AI 交互为核心的产品体验。
+通过后端 API 集成 AI 能力（对话、视觉、语音、推荐等功能），实现流畅的 AI 交互流程。
+设计 AI 交互的用户体验模式，包括流式响应、重试机制、部分结果渲染等场景。
+针对 AI 密集型场景优化应用性能、内存占用与响应速度，保障高并发场景下的稳定性。
+实现埋点、日志与反馈采集功能，支持 AI 效果评估与产品迭代优化。
+与后端、算法工程师协作，定义 API 规范与系统行为，保障端到端功能一致性。
+保障线上应用的稳定性、安全性与可扩展性，处理生产环境问题。",Kotlin LLM gRPC Go 高并发 产品迭代,https://www.liepin.com/a/77431177.shtml
+Android安卓开发工程师,广州塔克兰森信息科技有限公司,6-9k,广州,广州,大专,1-3年,90天前更新,liepin,"职责描述：
+  1、按需求按进度完成Android客户端产品的开发，测试任务；
+
+  2、撰写规范的模块开发和设计文档；
+
+  3、对自己代码进行复查并进行单元测试；
+
+  4、对产品运行过程中出现的问题进行分析和解决；
+
+  5、App性能及内存调优；
+
+  6、熟悉安卓新版本特性。
+
+
+
+任职要求：
+  1、大专以上学历，1-2年以上Android开发经验；
+
+  2、熟练使用java语言，扎实的编程功底和良好的编程习惯；
+
+  3、有独立负责过移动项目开发经验，熟悉app的整个发布流程；
+
+  4、熟悉掌握Android通用主流开源框架；
+
+  5、熟悉网络编程、多线程、熟悉TCP/UDP、HTTP协议；
+
+  6、精通Android的SDK，对Android常用组件实现有深入了解；
+
+  7、熟悉App性能调优，并且有专门进行过相关的优化工作；
+
+  8、责任心强，具备良好的团队合作精神和承受压力的能力；
+
+  9、有音视频项目经验的优先。
+
+
+
+加入我们，你会得到一个充分施展才华的空间！
+
+
+
+个性舒适的***化（不存在压抑的工作氛围！相亲相爱的兄弟姐妹一家人！）
+
+
+
+等值回报（你的作品将会有实实在在的成果转化、与公司共享科技带来的红利！实现职业成就！）
+
+
+
+",Java UDP,https://www.liepin.com/job/1937276245.shtml
+安卓（Android）前端开发,郑州索罗门教育咨询有限公司,10-13k,郑州,郑州,大专,3-5年,90天前更新,liepin,"工作内容：
+1、负责Android商业产品相关的技术开发，维护工作；
+2、根据项目的需求说明或模块的设计文档，完成软件的编程、调试和模块测试工作；
+3、负责产品业务文档的编写，维护，以及其他与项目相关的工作；
+4、持续推进产品性能及体验优化
+5、软件产品的持续改进，如客户体验的提升、手机适配等。
+任职要求：
+1、3年以上的Android开发经验，熟悉安卓端手机蓝牙开发，了解5.0低功耗蓝牙工作机制及协议、广播发送模式；
+2、具有良好的数据结构与算法基础，对面向对象开发有一定的理解；熟悉Java设计模式、MVC、MVP、MVVM设计模式；
+3、了解Android平台内存管理机制、进程管理机制、任务管理机制，熟悉自定义控件，熟悉兼容性适配；
+4、熟悉Android下网络通信机制，对Socket通信、TCP/IP和HTTP有一定的理解和经验；熟悉okhttp、retrofit等开源库的使用，对其原理和特点有一定的了解；",Java TCP/IP MVC MVP TCP,https://www.liepin.com/job/1933798739.shtml
+android安卓开发工程师,广州果子网络科技有限公司,15-20k,广州-天河区,广州,大专,3-5年,90天前更新,liepin,"岗位职责：
+1、负责Android平台的原生APP及相关SDK的开发和维护；
+2、负责APP的性能优化和技术升级；
+3、负责APP打包和发布到应用市场；
+4、负责相关技术文档的编写；
+5、紧跟项目开发计划，确保开发质量和进度。
+ 
+岗位要求：
+1、本科以上学历，计算机或相关专业，3年以上安卓手机客户端开发经验；
+2、熟悉Android开发框架，多线程编程技术，MVP、MVC框架，各种UI组件和界面特效；
+3、掌握Java内存分配、线程等机制，对Android各个版本和各个机型有了解和调优；
+4、熟悉Socket通信技术，HTTP协议，有Socket通信相关开发经验优先；
+5、具备一定的审美能力，能高度还原设计稿并对UI和特效有自己的见解；
+6、了解Android第三方库的设计与应用；
+7、了解至少一种混合APP开发技术，如uni-app；
+8、熟悉华为、小米等各大应用平台的对接和上线要求，有独立上线过至少一个平台的经验；
+9、能够正确理解产品需求，思路清晰，善于思考，能独立分析和解决问题；
+10、责任心强，具备良好的团队合作精神和承受压力的能力。
+",Java 技术文档 MVP,https://www.liepin.com/job/1938602271.shtml
+安卓平台应用开发工程师/android开发,丹弗科技,10-14k·13薪,深圳,深圳,学历不限,1-3年,90天前更新,liepin,"工作职责
+1、从事Android平台软件开发工作；
+2、根据产品设计，负责Android客户端软件需求的整理和软件设计、开发、调试、发布；
+3、根据系统中具体难点问题，有针对性的进行技术攻关和总结；
+4、能根据需求设计整体技术架构方案，可扩展性强；
+5、可以独立完成应用程序开发，能对产品上线后的各种复杂数据进行分析、总结，为版本迭代提供依据和方向，有简单设计能力。
+安卓任职资格
+1.本科以上学历，计算机相关专业毕业；
+2.1-3年Android开发经验(必须)，有成熟的产品开发经历并能独立完成项目；
+3.熟练掌握android的常用组件开发；
+4.有良好的沟通能力和学习能力，良好的团队协作意识，有较强的抗压能力。",产品设计,https://www.liepin.com/job/1936269509.shtml
+安卓开发（Android开发）鸿蒙系统,中软国际科技,14-25k·13薪,深圳-南山区,深圳,本科,3-5年,90天前更新,liepin,"职责描述：鸿蒙开发工程师任职资格：
+1.本科以上，计算机，通信，电子，软件等相关专业；
+2.2年以上安卓应用开发经验，能独立完成移动终端产品开发，有鸿蒙应用开发经验优先；
+3.具备解读目前主流通信协议如 BLE,NFC等，通信协议的能力和开发。
+4.有MQTT开发经验；
+5.熟悉android网络通信机制；
+6.熟悉React Native开发或者熟练掌握JS编程；
+7.熟悉 Android 平台界面开发，Http协议，多线程编程，网络编程，熟悉 Android API；
+8.熟悉MVP编程思想；
+9.具备快速学习和抗压能力。
+
+
+
+
+任职要求：",鸿蒙 MQTT React Native BLE Android API,https://www.liepin.com/job/1942295117.shtml
+安卓开发工程师（android）,深圳阿拉说教育科技有限公司,10-17k,深圳-龙华区,深圳,大专,3-5年,90天前更新,liepin,"年龄要求：24岁以上
+职位描述（全职）
+1.3-5年及以上安卓开发经验；
+2.精通JAVA、熟悉安卓架构和原理，良好的开发习惯；
+3.精通HTTP/TCP/JSON和XML等网络协议，熟悉多线程及面向对象编程，熟悉SQLite数据库编程；
+4.有IM、第三方登录、第三方支付、地理位置、订单处理相关的开发经验；
+5.丰富的安卓性能优化经验，熟练编写单元测试，了解自动化测试；
+6．能够独立开展工作，独自完成产品安卓客户端的开发；
+7．善于沟通和合作，责任心强，具有良好的学习能力和独立解决问题的能力
+
+岗位职责:
+1、按照产品需求, 负责客户端功能开发和性能优化，维护；
+2、与产品经理对接，保证项目质量，按时完成需求；
+3、负责技术攻坚和新技术研究；",Java SQLite 自动化测试 TCP,https://www.liepin.com/job/1921283665.shtml
+安卓软件开发工程师 Android Software Engineer,某知名公司,20-40k,北京,北京,本科,3年以上,今日更新,liepin,"外资，可远程居家办公，薪酬OPEN谈，对学历、年龄等无硬性要求，需具备良好的英文读写能力。
+
+工作职责：
+1.使用 Kotlin 开发并维护线上安卓应用
+2.通过后端接口集成 AI 能力功能，包含对话交互、图像识别、语音交互、智能推荐模块；
+3.设计 AI 交互用户体验规范，涵盖流式输出、重试机制、分段返回结果等场景；
+4.针对高 AI 负载业务流程，优化应用性能、内存占用与页面响应速度；
+5.埋点实现数据分析、日志记录与用户反馈采集，支撑 AI 模型效果评估与迭代优化；
+6.与后端、机器学习工程师紧密协作，对齐接口协议与系统运行逻辑；
+7.保障线上环境应用的稳定性、安全与扩容能力。
+任职要求：
+1.3 年及以上 Kotlin 安卓开发实战经验；
+2.具备 AI 功能对接落地经验，例如大语言模型、图像、语音相关接口集成；
+3.精通异步编程技术：协程（Coroutines）、数据流（Flow）；
+4.熟悉 REST/gRPC 接口及标准化数据传输格式；
+5.优秀的问题排查与性能调优能力；
+6.能够适配网络延迟、局部报错、结果不确定性等复杂线上环境开发；
+7.有 MLKit 或轻量化端侧模型推理落地经验；
+8.拥有 Google 应用商店上架正式应用的项目经历。
+
+技术栈：
+Kotlin / Java
+关系型数据库 / 非关系型数据库
+TensorFlow Lite（端侧轻量化模型推理）
+
+",Kotlin 机器学习 gRPC Go Java TensorFlow 数据分析,https://www.liepin.com/a/77517687.shtml
+安卓开发工程师（Android Software Engineer）,前玮科技(上海)有限公司,30-60k,上海-静安区,上海,本科,2年以上,5月13日更新,liepin,"工作经验：2 年及以上安卓开发经验，熟练使用 Kotlin 语言
+技术能力：
+具备 AI 功能集成实战经验（如 LLM、视觉、语音 API 对接）
+熟练掌握异步编程（协程 Coroutines、Flow）
+熟悉 REST/gRPC 接口与结构化数据格式
+具备扎实的调试与性能优化能力，能解决线上复杂问题
+熟悉低延迟、部分失败场景下的开发模式
+了解 MLKit 或端侧推理技术优先，有 Google Play 上架应用经验优先
+工作内容：
+负责 AI 产品的安卓客户端全流程开发与维护，主导 AI 交互在移动端的用户体验设计与实现。
+使用 Kotlin 开发并维护生产级安卓应用，构建以 AI 交互为核心的产品体验。
+通过后端 API 集成 AI 能力（对话、视觉、语音、推荐等功能），实现流畅的 AI 交互流程。
+设计 AI 交互的用户体验模式，包括流式响应、重试机制、部分结果渲染等场景。
+针对 AI 密集型场景优化应用性能、内存占用与响应速度，保障高并发场景下的稳定性。
+实现埋点、日志与反馈采集功能，支持 AI 效果评估与产品迭代优化。
+与后端、算法工程师协作，定义 API 规范与系统行为，保障端到端功能一致性。
+保障线上应用的稳定性、安全性与可扩展性，处理生产环境问题。",Kotlin LLM gRPC Go 高并发 产品迭代,https://www.liepin.com/job/1982512765.shtml
+AndroidAPP开发工程师（安卓&鸿蒙）,苏州乐享智能科技,20-40k·15薪,苏州,苏州,统招本科,5-10年,90天前更新,liepin,"APP开发工程师（安卓&鸿蒙）
+职位描述
+1.负责消费级机器人App(Android/鸿蒙)的移动端开发与迭代，包括UI实现、交互逻辑与数据展示；
+2.深度对接蓝牙(BLE)通信协议，实现手机与智能硬件的稳定数据传输(如实时状态同步、指令下发、数据回传等)；
+3.解决App后台保活、进程唤醒、消息推送等场景下的技术难题，保障硬件数据实时性与功能连续性；
+4.与设计团队紧密协作，将视觉设计稿精准转化为高质量界面，注重动效、排版与交互细节；
+5.优化App性能（启动速度、页面流畅度、功耗控制等），提升用户体验与稳定性；
+6.参与需求评审与技术方案设计，提出技术优化建议，推动产品体验迭代；
+职位要求：
+1. 本科及以上学历，计算机科学与技术、软件工程、电子信息等相关专业；
+2. 3 年以上消费电子/机器人/硬件产品APP研发经验，有低功耗蓝牙（BLE）通信开发经验者优先，熟悉消费级产品的用户体验逻辑；
+3. 了解消费级机器人或者智能硬件产品的核心特性（如蓝牙通信、设备控制、运动数据采集），清楚多平台适配与应用商店合规要求；
+4. 熟练掌握跨平台开发框架：Flutter/React Native（至少精通一种），具备独立完成从 UI 实现到功能落地的全流程能力；
+5. 精通低功耗蓝牙（BLE）开发，熟悉 GATT 协议、蓝牙扫描 / 连接 / 数据传输逻辑，有设备通信异常处理、抗干扰优化经验；
+6. 熟练使用前端开发工具（VS Code/Android Studio/Xcode），掌握数据可视化工具（ECharts/Chart.js），能实现复杂数据的直观呈现；
+7. 具备离线数据存储与同步能力，熟悉 SQLite/Realm 等数据库，能设计高可靠性的数据缓存方案；
+8. 了解健康数据同步标准（如 HealthKit、华为运动健康 API），具备 APP 性能优化（启动速度、内存占用、功耗）经验；
+9. 熟悉应用商店上架流程与合规要求，能独立完成 APP 审核整改与版本迭代。",鸿蒙 Flutter React Native SQLite 技术方案 数据采集 合规,https://www.liepin.com/job/1981739413.shtml
+Android Software Engineer（安卓开发工程师）,前玮科技(上海)有限公司,20-40k·13薪,上海,上海,统招本科,2-4年,5月9日更新,liepin,"工作经验：2 年及以上安卓开发经验，熟练使用 Kotlin 语言
+技术能力：
+具备 AI 功能集成实战经验（如 LLM、视觉、语音 API 对接）
+熟练掌握异步编程（协程 Coroutines、Flow）
+熟悉 REST/gRPC 接口与结构化数据格式
+具备扎实的调试与性能优化能力，能解决线上复杂问题
+熟悉低延迟、部分失败场景下的开发模式
+了解 MLKit 或端侧推理技术优先，有 Google Play 上架应用经验优先
+工作内容：
+负责 AI 产品的安卓客户端全流程开发与维护，主导 AI 交互在移动端的用户体验设计与实现。
+使用 Kotlin 开发并维护生产级安卓应用，构建以 AI 交互为核心的产品体验。
+通过后端 API 集成 AI 能力（对话、视觉、语音、推荐等功能），实现流畅的 AI 交互流程。
+设计 AI 交互的用户体验模式，包括流式响应、重试机制、部分结果渲染等场景。
+针对 AI 密集型场景优化应用性能、内存占用与响应速度，保障高并发场景下的稳定性。
+实现埋点、日志与反馈采集功能，支持 AI 效果评估与产品迭代优化。
+与后端、算法工程师协作，定义 API 规范与系统行为，保障端到端功能一致性。
+保障线上应用的稳定性、安全性与可扩展性，处理生产环境问题。",Kotlin LLM gRPC Go 高并发 产品迭代,https://www.liepin.com/job/1982372739.shtml
+安卓 android 开发（音视频剪辑）,成都晨电智能科技有限公司,15-30k·13薪,成都-郫都区,成都,统招本科,3-5年,5月6日更新,liepin,"工作内容：
+1、参与安卓程序框架的搭建/开发；
+2、负责复杂动画的实现和UI特效的实现；
+3、自动化测试代码的设计和实现；
+4、编码流程/规范的制定和执行，把控代码质量；
+5、线上问题巡检，疑难问题组织攻关和解决；
+6、针对App的能耗/内存/数据存储/网络速度等关键指标做出优化，提升用户体验。
+任职资格：
+1、211/985本科及以上学历，计算机相关专业，4年以上安卓开发经验；
+2、熟悉计算机基础知识，掌握常见网络协议；
+3、熟悉安卓开发中的常用第三方库；
+4、熟悉Java或者kotlin，C++；
+5、具备较强的学习能力，具有良好的抗压能力及高度责任心，有独立开发和解决问题的能力；
+其他优先条件：
+1、有物联网、游戏、音视频编解码/剪辑相关工作经验（FFmpeg、mediacodec、OpenGL、shader）；
+2、了解地图sdk的使用，了解蓝牙的使用；
+3、有独立开发App并有上线经验者；
+
+〖公司亮点〗
+购买五险一金；
+周末双休，带薪病假；
+公司没有加班文化，追求极致和高效；
+公司涨薪频率高，涨薪幅度大。
+〖工作时间〗
+08：30—12：00  13：30-17：30  
+每天7.5小时工作制，周末双休
+〖晨电人文环境〗
+我们的团队：团队现有130+成员，汇集研发大牛、运营精英、生产干将，我们不求人多，但求人精，希望大家与优秀的人一起工作，沟通轻松，工作高效，成长快！
+开放、专业的工作氛围：公司老板为90后，思想前位，乐于分享，对员工“以人为本”，对工作“高要求、高目标、高追求”；
+年轻活泼的小伙伴：成员构成比较年轻，以90年前后为主，氛围活跃，思想创新，员工关系简单，一切以将工作做好为根本。
+我们为您提供不断完善的薪酬和福利政策，包括：
+1、薪酬福利：完善的薪酬制度、公平的业绩提成，五险一金、员工生日津贴、全勤奖200元、年终奖等；
+2、节日礼金：传统节日我们会花样送礼金；
+3、团建活动：不定期组织外出旅游活动，每月定期组织团队聚餐或户外活动；
+4、文化活动：每周羽毛球，周三下午茶，日常小零食、冲饮等；
+5、假期：周末双休，法定节假日，带薪年假、超长春节假；
+6、身体保障：为员工提供深度的年度体检。",Java Kotlin C++ 自动化测试 FFmpeg OpenGL,https://www.liepin.com/job/1970603437.shtml
+Android/安卓开发工程师,天嘉智能装备制造江苏股份有限公司,10-15k,扬州,扬州,本科,3-5年,90天前更新,liepin,"职责描述：
+1、负责根据产品需求，完成产品Android端软件设计、开发及维护；
+2、负责相关技术文档的编制与维护；
+3、参与产品的需求分析并参与技术实施方案设计；
+4、 做硬件设备的交互屏幕的系统，培训新员工。
+
+任职要求：
+1、本科以上学历，电子工程、机械工程、计算机、通信工程、等相关专业；
+2、二年及以上Android系统APP开发经验，具有良好的代码风格及独立开发项目的能力；
+3、 具有扎实的Java语言基础；
+4、熟悉TCp/UDP等通信协议；
+5、有车载系统或嵌入式开发经验优先；
+6、 有人机交互界面的嵌入式安卓开发经验优先。",Java 技术文档 需求分析 方案设计 培训,https://www.liepin.com/job/1936277011.shtml
+安卓开发专家/Android架构师【智能驾驶 / 智能座舱】,某深圳大型人工智能公司,50-80k,深圳-南山区,深圳,统招本科,10年以上,7月22日更新,liepin,"岗位职责：
+1. 需求分析与规划
+深度参与自动驾驶域控制器、智能座舱、舱驾一体融合平台的需求评审与技术可行性评估
+将整车功能需求（SOA架构、功能安全、信息安全）转化为Android平台技术需求
+2. 架构设计与方案制定
+系统架构设计：主导Android Framework层架构设计，包括：
+系统服务层（System Server）定制化与优化
+HAL层抽象与硬件抽象架构设计
+多屏互动架构（仪表、中控、副驾、后排、HUD）
+跨域通信架构（座舱域与智驾域的SOA通信机制）
+
+3. 疑难问题攻关与技术创新
+主导解决Android系统的疑难问题：系统死机/冻屏、内存泄漏、ANR、Native Crash、驱动兼容性
+建立系统级问题分析体系：Log分析、性能剖析、Kernel调试、Systrace深度优化
+攻关舱驾一体场景下的关键技术：低延迟数据传输、确定性时延保障、跨域资源调度
+4. 技术领导力
+指导中级/高级工程师，建立代码审查机制与技术规范
+推动技术沉淀，输出架构设计文档、专利、技术白皮书
+任职要求
+任职要求
+1、本科以上学历，工作年限8年以上Android系统开发经验，其中至少3年Framework层架构设计经验
+2. 技术深度：精通Android Framework核心模块：AMS/WMS/PMS/InputSystem/SurfaceFlinger/Binder机制
+3. 系统能力：深入理解Linux Kernel、HAL层、驱动模型，具备BSP协同开发经验
+4. 虚拟化架构：支持QNX/Linux Android双系统Hypervisor架构设计经验优先
+5. 加分项：主导过量产车型的Android Automotive系统架构设计；具备舱驾一体（One Box/One Board）融合架构设计经验
+   熟悉功能安全标准（ISO 26262）及ASIL等级实现",Linux 需求分析 专利 Server HUD ANR Native Crash,https://www.liepin.com/a/75303363.shtml
+Android/安卓开发工程师,武汉傲亿科技有限公司,8-10k,武汉-洪山区,武汉,本科,1-3年,90天前更新,liepin,"岗位职责：
+1、负责Android手机端开发工作；
+2、设计和搭建产品的技术架构。
+任职资格：
+1、大学本科及以上学历，计算机专业或相关理工科专业优先；
+2、具有强烈的技术热情和对探索新事物的激情，能在高强度压力下工作，具备良好的分析和独立解决问题的能力；
+3、具有2年以上安卓开发经验者，熟悉多线程、HTTP协议及Socket等相关编程技术，有社交类软件经验者优先；
+4、具备良好的java编程能力，基础扎实，精通常用数据结构与算法；
+5、待遇面议。
+微信分享",Java,https://www.liepin.com/job/1920046345.shtml
+Android/安卓软件工程师,武汉傲亿科技有限公司,8-10k,武汉-洪山区,武汉,本科,3-5年,90天前更新,liepin,"岗位职责：
+1、负责Android手机端开发工作；
+2、设计和搭建产品的技术架构。
+任职资格：
+1、大学本科及以上学历，计算机专业或相关理工科专业优先；
+2、具有强烈的技术热情和对探索新事物的激情，能在高强度压力下工作，具备良好的分析和独立解决问题的能力；
+3、具有2年以上安卓开发经验者，熟悉多线程、HTTP协议及Socket等相关编程技术，有社交类软件经验者优先；
+4、具备良好的java编程能力，基础扎实，精通常用数据结构与算法；
+5、待遇面议。
+微信分享",Java,https://www.liepin.com/job/1920995243.shtml
+Software Engineer - Android（安卓软件工程师）,某上海汽车零部件及配件公司,18-35k·13薪,武汉,武汉,统招本科,5年以上,7月30日更新,liepin,"岗位职责：
+1. 根据产品需求规格说明书和软件架构规格说明书，为跨域控制器（Cross Domain Controller）编写详细的软件设计方案；  
+2. 依据软件开发流程及版本控制环境，开展软件编码、集成、测试与调试工作；  
+3. 负责 Android 媒体框架（Media Framework）的开发、优化与维护；  
+4. 负责 Android 框架层（Framework）及应用程序（APP）的 API 定义，以及 Android 原生服务（Native Service）的设计、实现与协调工作；  
+5. 负责音视频、图片等媒体文件解码功能的支持与性能提升；  
+6. 负责与第三方内容（如腾讯 TAI SDK、Auto MAP 等）开展联合调试工作。
+任职要求：
+1、本科及以上学历，软件工程、电子工程、计算机科学或相关专业；硕士优先。
+2、5年以上汽车电子软件开发经验；
+3、掌握C/C++ 和 Java 编程语言；
+4、具备良好的脚本编程能力（如Shell、Python等）；
+5、熟悉Android/Linux操作系统及多媒体子系统；
+6、理解GPU调度及系统资源使用与调优；
+7、有OS/BSP、底层驱动、HAL层开发经验者优先；",ROS C++ Java Shell Python Linux,https://www.liepin.com/a/76878463.shtml
+AI 原生工程师（Android 安卓客户端开发方向）,某知名公司,30-55k,上海,上海,统招本科,1-3年,7月6日更新,liepin,"招聘一名安卓平台 AI 原生产品工程师，全面负责安卓端「VoiceCursor（语音光标）」产品的全栈工作。
+  你需要是T 型复合型技术人才：既精通前沿的安卓原生开发核心技术，同时能够熟练运用 AI 编程工具，打通全技术栈工作（独立搭建后端服务、接口设计、自动化测试开发），实现功能从 0 到 1 全链路落地交付。
+  你将同时承担技术开发 + 产品负责人双重角色，衔接技术落地实现顺滑的用户体验，打通技术开发与产品体验之间的壁垒。
+硬性任职门槛
+学历背景：985/211 院校计算机相关专业
+行业履历：具备大型互联网大厂工作经验
+项目经验：拥有 AI 相关项目实操经验
+岗位核心目标：
+  全权负责安卓端「VoiceCursor（语音光标）」产品全链路用户体验打磨。你的核心目标，是打造一套交互直观、具备场景智能感知能力的交互界面，让用户逐步摆脱传统键盘打字操作。
+本岗位工作职责
+1，全权负责产品从设计、开发、迭代到上线的完整产品生命周期，自研安卓端核心功能，打造无操作阻碍、响应极速流畅的用户体验。
+2，做AI 赋能型开发者：深度活用 AI 开发工具（如 Cursor、GitHub Copilot 等），实现开发效率指数级提升。将代码模板、基础后端逻辑等重复性工作交由 AI 处理，自身聚焦系统深度集成、像素级交互体验打磨等高价值核心工作。
+3，基于真实用户反馈、产品使用数据快速迭代版本、上线功能，不局限于固化静态的产品规划路线。
+4，持续优化研发交付流程：精简非必要流程壁垒，搭建高稳定性技术底层架构，支撑产品高速迭代与快速上线部署。
+5，与核心工程团队协同，设计模块化底层架构与接口优先型系统，保障新功能、场景化智能能力能够无缝集成接入。
+			
+任职要求
+
+				核心技能要求
+1. 深厚的安卓生态技术功底
+精通 Kotlin/Java 开发语言，熟练掌握安卓 SDK 全套技术体系
+熟练使用 Jetpack 开发套件，优先具备 Jetpack Compose 声明式 UI 开发经验
+熟悉以下安卓系统级底层能力开发：
+无障碍服务（Accessibility Services）
+输入法框架（IME）
+窗口 / 悬浮窗 / 多窗口管理
+音频处理（AudioRecord、媒体相关 API）
+能够开发出交互原生感强、性能流畅、占用极低的安卓应用
+2. T 型全栈工程能力 + AI 工具熟练度
+以安卓开发为核心专精领域，同时可借助 AI 工具拓展全栈技术能力，覆盖：
+后端开发（Python、Node.js）、接口设计、数据库与基础设施搭建
+能够熟练借助 AI 工具处理非核心开发工作，聚焦高价值核心技术问题攻坚
+3. 从 0 到 1 产品搭建经验
+拥有完整的、独立从 0 到 1 搭建并上线一款产品的成功项目案例
+可以在节奏快、需求模糊、不确定性高的创业型环境中高效开展工作
+4. 产品思维与用户共情力
+用户优先设计思维
+无需专属产品经理（PM）配合，可独立完成产品决策、交互体验设计决策
+岗位适配人群画像（You might thrive in this role if you）
+符合以下特质的候选人，会高度适配本岗位：
+具备优秀的产品工程思维，清晰理解技术选型决策对用户体验带来的影响
+自带创造者思维：兼具产品经理的全局视角，与资深工程师的落地执行力
+热衷人机交互（HCI）领域前沿发展，执着于消除用户操作门槛、优化使用阻碍
+追求软件交互的简洁易用，致力于抹平产品使用学习成本
+有创业经历、或独立自研并上线过个人产品项目（优先加分项）
+			
+所属行业:
+人工智能/大模型/算力
+职能分类:
+全栈工程师",Git Kotlin Java Python Node.js 大模型 自动化测试 产品规划,https://www.liepin.com/a/77543289.shtml
+AI 原生工程师（Android 安卓客户端开发方向）,某知名公司,30-55k,上海,上海,统招本科,1-3年,7月3日更新,liepin,"招聘一名安卓平台 AI 原生产品工程师，全面负责安卓端「VoiceCursor（语音光标）」产品的全栈工作。
+  你需要是T 型复合型技术人才：既精通前沿的安卓原生开发核心技术，同时能够熟练运用 AI 编程工具，打通全技术栈工作（独立搭建后端服务、接口设计、自动化测试开发），实现功能从 0 到 1 全链路落地交付。
+  你将同时承担技术开发 + 产品负责人双重角色，衔接技术落地实现与顺滑的用户体验，打通技术开发与产品体验之间的壁垒。
+硬性任职门槛
+学历背景：985/211 院校计算机相关专业
+行业履历：具备大型互联网大厂工作经验
+项目经验：拥有 AI 相关项目实操经验
+岗位核心目标：
+  全权负责安卓端「VoiceCursor（语音光标）」产品全链路用户体验打磨。你的核心目标，是打造一套响应极速、交互直观、具备场景智能感知能力的交互界面，让用户逐步摆脱传统键盘打字操作。
+本岗位工作职责
+1，全权负责产品从设计、开发、迭代到上线的完整产品生命周期，自研安卓端核心功能，打造无操作阻碍、响应极速流畅的用户体验。
+2，做AI 赋能型开发者：深度活用 AI 开发工具（如 Cursor、GitHub Copilot 等），实现开发效率指数级提升。将代码模板、基础后端逻辑等重复性工作交由 AI 处理，自身聚焦系统深度集成、像素级交互体验打磨等高价值核心工作。
+3，基于真实用户反馈、产品使用数据快速迭代版本、上线功能，不局限于固化静态的产品规划路线。
+4，持续优化研发交付流程：精简非必要流程壁垒，搭建高稳定性技术底层架构，支撑产品高速迭代与快速上线部署。
+5，与核心工程团队协同，设计模块化底层架构与接口优先型系统，保障新功能、场景化智能能力能够无缝集成接入。
+			
+任职要求
+
+				核心技能要求
+1. 深厚的安卓生态技术功底
+精通 Kotlin/Java 开发语言，熟练掌握安卓 SDK 全套技术体系
+熟练使用 Jetpack 开发套件，优先具备 Jetpack Compose 声明式 UI 开发经验
+熟悉以下安卓系统级底层能力开发：
+无障碍服务（Accessibility Services）
+输入法框架（IME）
+窗口 / 悬浮窗 / 多窗口管理
+音频处理（AudioRecord、媒体相关 API）
+能够开发出交互原生感强、性能流畅、占用极低的安卓应用
+2. T 型全栈工程能力 + AI 工具熟练度
+以安卓开发为核心专精领域，同时可借助 AI 工具拓展全栈技术能力，覆盖：
+后端开发（Python、Node.js）、接口设计、数据库与基础设施搭建
+能够熟练借助 AI 工具处理非核心开发工作，聚焦高价值核心技术问题攻坚
+3. 从 0 到 1 产品搭建经验
+拥有完整的、独立从 0 到 1 搭建并上线一款产品的成功项目案例
+可以在节奏快、需求模糊、不确定性高的创业型环境中高效开展工作
+4. 产品思维与用户共情力
+极强的用户优先设计思维
+无需专属产品经理（PM）配合，可独立完成产品决策、交互体验设计决策
+岗位适配人群画像（You might thrive in this role if you）
+符合以下特质的候选人，会高度适配本岗位：
+具备优秀的产品工程思维，清晰理解技术选型决策对用户体验带来的影响
+自带创造者思维：兼具产品经理的全局视角，与资深工程师的落地执行力
+热衷人机交互（HCI）领域前沿发展，执着于消除用户操作门槛、优化使用阻碍
+追求软件交互的简洁易用，致力于抹平产品使用学习成本
+有创业经历、或独立自研并上线过个人产品项目（优先加分项）
+			
+所属行业:
+人工智能/大模型/算力
+职能分类:
+全栈工程师",Git Kotlin Java Python Node.js 大模型 自动化测试 产品规划,https://www.liepin.com/a/77481087.shtml
+嵌入式安卓工程师 Android底层开发,某北京IT服务公司,15-20k,北京-海淀区,北京,本科,1-3年,7月23日更新,liepin,"工作职责
+1、负责嵌入式系统（Liunx/Android）底层驱动软件、系统移植、测试以及应用开发。
+2、负责与客户的需求沟通与交流工作，对产品进行维护、升级及技术支持工作，保证设计质量。
+3、负责编写产品/项目相关的文档。
+4、与硬件工程师配合负责产品样机的功能和性能调试、实验工作。
+
+任职资格
+1、计算机相关专业毕业，本科学历以上。
+2、掌握C/C++编程语言及编程，英语4级以上水准，可以看懂datesheet。
+3、掌握Linux/Android开发环境搭建及开发流程。
+4、熟悉Linux内核、Uboot、设备树移植和设计，主流文件系统的裁剪和制作。
+5、熟悉Linux shell脚本开发，能熟练使用vi等编辑工具。
+6、了解ARM体系结构，熟悉常见设备驱动开发，比如uart,i2c,spi,i2s,usb,wifi,BT等。
+7、具备一定的硬件基础，可以看懂原理图，会用常见的仪器。
+8、了解国产（瑞芯微、全志、飞腾）或国外（TI、Xilinx、NXP）等主流嵌入式处理器，具有这方面的应用经验更佳。
+9、熟悉Linux下多线程、多进程应用开发，有网络编程经验。
+10、具有较强的责任心，学习能力，工作态度积极，敢于挑战。
+",C++ Linux Shell ARM UART I2C SPI WiFi 技术支持,https://www.liepin.com/a/75967105.shtml
+AI 原生工程师（Android 安卓客户端开发方向）,某上海科技推广服务公司,26-27k,上海-徐汇区,上海,统招本科,1-3年,7月29日更新,liepin,"我们现在诚聘一名安卓平台 AI 原生产品工程师，全面负责安卓端「VoiceCursor（语音光标）」产品的全栈工作。
+岗位核心目标：全权负责安卓端「VoiceCursor（语音光标）」产品全链路用户体验打磨。你的核心目标，是打造一套响应极速、交互直观、具备场景智能感知能力的交互界面，让用户逐步摆脱传统键盘打字操作。
+
+你需要是T 型复合型技术人才：既精通前沿的安卓原生开发核心技术，同时能够熟练运用 AI 编程工具，打通全技术栈工作（独立搭建后端服务、接口设计、自动化测试开发），实现功能从 0 到 1 全链路落地交付。
+你将同时承担技术开发 + 产品负责人双重角色，衔接技术落地实现与非常顺滑的用户体验，打通技术开发与产品体验之间的壁垒。
+
+工作职责：
+1，全权负责产品从设计、开发、迭代到上线的完整产品生命周期，自研安卓端核心功能，打造无操作阻碍、响应极速流畅的用户体验。
+2，做AI 赋能型开发者：深度活用 AI 开发工具（如 Cursor、GitHub Copilot 等），实现开发效率指数级提升。将代码模板、基础后端逻辑等重复性工作交由 AI 处理，自身聚焦在系统深度集成、像素级交互体验打磨等高价值核心工作。
+3，基于真实用户反馈、产品使用数据快速迭代版本、上线功能，不局限于固化静态的产品规划路线。
+4，持续优化研发交付流程：精简非必要流程壁垒，搭建高稳定性技术底层架构，支撑产品高速迭代与快速上线部署。
+5，与核心工程团队协同，设计模块化底层架构与接口优先型系统，保障新功能、场景化智能能力能够无缝集成接入。
+
+任职要求：
+1，硬性任职门槛：
+学历背景：985/211 院校计算机相关专业
+行业履历：具备大型互联网大厂工作经验
+项目经验：拥有 AI 相关项目实操经验
+
+2，具体技能要求：
+1）、深厚的安卓生态技术功底：
+精通 Kotlin/Java 开发语言，熟练掌握安卓 SDK 全套技术体系；
+熟练使用 Jetpack 开发套件，优先具备 Jetpack Compose 声明式 UI 开发经验；
+熟悉以下安卓系统级底层能力开发：
+    无障碍服务（Accessibility Services）、输入法框架（IME）、窗口 / 悬浮窗 / 多窗口管理、音频处理（AudioRecord、媒体相关 API），能够开发出交互原生感强、性能非常流畅、占用极低的安卓应用
+2）、T 型全栈工程能力 + AI 工具熟练度：
+以安卓开发为核心专精领域，同时可借助 AI 工具拓展全栈技术能力，覆盖：后端开发（Python、Node.js）、接口设计、数据库与基础设施搭建，能够熟练借助 AI 工具处理非核心开发工作，聚焦高价值核心技术问题攻坚
+3. 从 0 到 1 产品搭建经验：
+拥有完整的、独立从 0 到 1 搭建并上线一款产品的成功项目案例；以在节奏快、需求模糊、不确定性高的创业型环境中高效开展工作
+4. 产品思维与用户共情力
+极强的用户优先设计思维，无需专属产品经理（PM）配合，可独立完成产品决策、交互体验设计决策，岗位适配人群画像（You might thrive in this role if you）
+符合以下特质的候选人，会高度适配本岗位：
+具备优秀的产品工程思维，清晰理解技术选型决策对用户体验带来的影响；
+自带创造者思维：兼具产品经理的全局视角，与资深工程师的落地执行力；
+热衷人机交互（HCI）领域前沿发展，执着于消除用户操作门槛、优化使用阻碍；
+追求软件交互的简洁易用，致力于抹平产品使用学习成本；
+有创业经历、或独立自研并上线过个人产品项目（优先加分项）。",Git Kotlin Java Python Node.js 自动化测试 产品规划,https://www.liepin.com/a/78265813.shtml
+安卓开发工程师/Android,华钦科技,12-14k,西安-高新区,西安,大专,3年以上,7月30日更新,liepin,"任职要求：
+1. 统招大专或以上学历，计算机或软件工程相关专业
+2.有3年或以上Android开发经验，精通Java以及Kotlin，熟悉使用MVC,MVP,MVVM等常用架构
+3. 精通Compose开发，使用过Jetpack开发缩件
+4. 熟悉敏捷开发，有做过大型项目的经验
+5. 熟练使用Git，Jira，Confluence等
+6. 对Android各系统版本差异有所了解
+7.了解Android的应用要全知识
+8. 了解混合开发横式
+9. 具备良好的沟通以及解决间题的能力
+10.掌握常用的第三方库okhttp,retrofit,rxjava,dagger
+11. 良好的英语书面读写水平，能看英语技术文档，口语能做自我介绍",Java Kotlin Git 技术文档 MVP Jira,https://www.liepin.com/job/1978376495.shtml
+安卓Android Framework工程师,计算机软件B轮1000-2000人,15-24k,宁波-鄞州区,宁波,统招本科,3-5年,7月23日更新,liepin,"岗位职责：
+1、负责Android Framework, Native 层的开发,CarService Vehicle HAL开发
+2、负责Android系统环境下，设计实现Android Framework CarService &Automotive HAL相关组件
+3、设计和实现MCU-SoC 通信，制定相关私有通信协议
+4、参与Linux/Android Framework层中间件开发，电源管理、通信、vsomeip等等
+5、负责Linux/Android Framework稳定性以及性能问题解决
+6、核心系统设计、关键代码编写、系统优化、性能调优、难点
+7、独立完成组件模块的代码设计与实现及单元测试。
+岗位要求：
+1、熟悉整车电子电器架构，熟悉CAN总线及通讯协议优先
+2、熟悉AAOS系统框架，熟悉binder、AMS、PMS、WMS原理，熟悉SurfaceFlinger绘制相关的流程优先
+3、有相关显示优化、画质优化开发经验者优先;
+4、熟悉OTA升级，电源管理，Doip诊断，健康管理，系统管理的一个或多个模块
+5、熟悉Linux环境下的中间件开发、熟悉MTK下Yocto的集成编译",MCU Linux CAN Framework Native CarService Vehicle Automotive,https://www.liepin.com/job/1984367709.shtml
+安卓软件工程师（android、鸿蒙适配）,电子/半导体/集成电路其他500-999人,20-45k·15薪,无锡-新吴区,无锡,本科,5年以上,90天前更新,liepin,"岗位职责
+1. 负责Android FW层的定制、优化；
+3. 负责Android HAL层相关模块，进行系统优化和稳定性维护；
+2. 参与Android FW、HAL层的需求分析、功能开发、框架设计及评审工作；
+4. 维护Framework核心服务模块，解决各类死机重启/ANR/FC等系统稳定性问题； 
+5. 参与项目技术方案制定，跟踪研究Android新技术，提出创新性的技术解决方案；
+6. 负责Android客户端软件相关的技术文档编写。 1. 计算机相关专业本科以上学历，5年以上Android 开发
+任职要求
+1. 计算机相关专业本科以上学历，5年以上Android 开发经验；
+2. 熟练使用C++和Java，至少精通其中一门语言；
+3. 熟悉Android系统框架，有独立模块设计开发能力；
+4. 熟悉AMS/PMS/WMS核心服务、ART、 Graphics、Native等任一模块者优先； 
+5. 了解Android内存管理机制；
+6. 熟悉Android编译系统，熟悉Android动流程，有系统内存优化、性能优化经验；",C++ Java 需求分析 技术方案 技术文档 FW ANR PMS,https://www.liepin.com/job/1974427457.shtml
+Android开发工程师/安卓开发工程师（南京）,南京君度科技有限公司,11-13k,南京,南京,大专,1-3年,90天前更新,liepin,"职责描述：
+Android开发工程师（1名）
+岗位职责：
+1.专科及以上学历，根据业务需求，完成ANDROID应用程序开发及优化；
+2.熟悉Android原生开发，2年以上Android原生实际项目开发经验。
+3.熟练掌握UI布局和设计，对Android机型适配有一定经验积累；
+4.熟悉Android SDK及相关开发、调试、优化工具；
+5.熟练运用Android各类应用框架并对原理有一定了解；
+6.学习能力强，有较强分析和解决问题的能力，对软件架构、代码复用和代码重构有自己的独到见解。
+7.规范文档的编写.维护，以及其他与项目相关工作；
+8. 按照开发流程编写相应模块的设计文档；
+9. 协助项目经理完成其他安排的工作。
+
+任职要求：
+1. 计算机相关专业本科以上学历，两年以上java/J2ME相关工作经验；
+2. 对Android体系构架有深入的了解，尤其是framework，能独立完成Android客户端的开发工作及后期维护bug修复工作；
+3. 精通Android sdk、各种组件、网络通讯、数据存储、UI布局、动画与控件的使用；
+4. 熟悉图形编程、多线程编程、网络编程、service等；
+5. 熟悉常用设计模式、基本的数据结构与算法，熟悉http协议和tcp/ip协议；
+6. 熟悉使用svn、cvs或者git；
+7. 有较强的执行能力，能保证项目的进度和质量。
+8. 身体健康，品德端正，责任心强；
+9. 能吃苦耐劳，工作踏实，服从公司安排；
+
+",Java TCP/IP SVN Git,https://www.liepin.com/job/1939875395.shtml
+Android/安卓开发工程师,巨擎网络科技(济南)有限公司,12-18k·15薪,济南-历下区,济南,本科,1-3年,90天前更新,liepin,"岗位职责：
+1、负责Android平台的产品开发，独立承担APP的开发迭代；
+2、基于Android系统的原生APP的SDK开发、打包、调试及维护等；
+3、根据产品需求，进行Android端可行性分析和技术探索。
+任职要求：
+1、2年以上Android开发经验；
+2、熟练使用Java语言，精通Android开发；
+3、熟悉Android自定义View以及事件分发机制；
+4、熟悉Android多线程开发与交互；
+5、熟悉MVP/MVVM架构，熟练使用Android常用开发框架；
+6、熟悉Android端与js相关交互，以及了解Html，css和js相关开发；
+7、熟悉其他跨平台开发技术优先，RN/Flutter；
+8、抗压能力强，沟通、合作能力强。
+福利待遇：
+1、六险一金：全额缴纳社保，高比例（12%）缴纳公积金，补充商业保险
+2、薪酬奖励：有竞争力的薪资，全勤奖励，高额年终奖，每年2次调薪机会
+3、年度福利：每年一次全身体检，年度国外旅游，吃喝玩乐一站式
+4、节日补贴：每年7个法定节假日发放过节费，各种节日礼品带回家
+5、员工关怀：入职周年福利，月度团建，高品质下午茶，周边产品拿到手软",Java Flutter RN,https://www.liepin.com/job/1954344451.shtml
+AI 原生工程师（Android 安卓客户端开发方向）,某知名公司,30-55k,上海,上海,统招本科,3年以下,7月27日更新,liepin,"招聘一名安卓平台 AI 原生产品工程师，全面负责安卓端「VoiceCursor（语音光标）」产品的全栈工作。
+  你需要是T 型复合型技术人才：既精通前沿的安卓原生开发核心技术，同时能够熟练运用 AI 编程工具，打通全技术栈工作（独立搭建后端服务、接口设计、自动化测试开发），实现功能从 0 到 1 全链路落地交付。
+  你将同时承担技术开发 + 产品负责人双重角色，衔接技术落地实现与顺滑的用户体验，打通技术开发与产品体验之间的壁垒。
+硬性任职门槛
+学历背景：985/211 院校计算机相关专业
+行业履历：具备大型互联网大厂工作经验
+项目经验：拥有 AI 相关项目实操经验
+岗位核心目标：
+  全权负责安卓端「VoiceCursor（语音光标）」产品全链路用户体验打磨。你的核心目标，是打造一套响应极速、交互直观、具备场景智能感知能力的交互界面，让用户逐步摆脱传统键盘打字操作。
+本岗位工作职责
+1，全权负责产品从设计、开发、迭代到上线的完整产品生命周期，自研安卓端核心功能，打造无操作阻碍、响应流畅的用户体验。
+2，做AI 赋能型开发者：深度活用 AI 开发工具（如 Cursor、GitHub Copilot 等），实现开发效率指数级提升。将代码模板、基础后端逻辑等重复性工作交由 AI 处理，自身聚焦系统深度集成、像素级交互体验打磨等高价值核心工作。
+3，基于真实用户反馈、产品使用数据快速迭代版本、上线功能，不局限于固化静态的产品规划路线。
+4，持续优化研发交付流程：精简非必要流程壁垒，搭建高稳定性技术底层架构，支撑产品高速迭代与快速上线部署。
+5，与核心工程团队协同，设计模块化底层架构与接口优先型系统，保障新功能、场景化智能能力能够无缝集成接入。
+			
+任职要求
+
+				核心技能要求
+1. 深厚的安卓生态技术功底
+精通 Kotlin/Java 开发语言，熟练掌握安卓 SDK 全套技术体系
+熟练使用 Jetpack 开发套件，优先具备 Jetpack Compose 声明式 UI 开发经验
+熟悉以下安卓系统级底层能力开发：
+无障碍服务（Accessibility Services）
+输入法框架（IME）
+窗口 / 悬浮窗 / 多窗口管理
+音频处理（AudioRecord、媒体相关 API）
+能够开发出交互原生感强、性能流畅、占用极低的安卓应用
+2. T 型全栈工程能力 + AI 工具熟练度
+以安卓开发为核心专精领域，同时可借助 AI 工具拓展全栈技术能力，覆盖：
+后端开发（Python、Node.js）、接口设计、数据库与基础设施搭建
+能够熟练借助 AI 工具处理非核心开发工作，聚焦高价值核心技术问题攻坚
+3. 从 0 到 1 产品搭建经验
+拥有完整的、独立从 0 到 1 搭建并上线一款产品的成功项目案例
+可以在节奏快、需求模糊、不确定性高的创业型环境中高效开展工作
+4. 产品思维与用户共情力
+极强的用户优先设计思维
+无需专属产品经理（PM）配合，可独立完成产品决策、交互体验设计决策
+岗位适配人群画像（You might thrive in this role if you）
+符合以下特质的候选人，会高度适配本岗位：
+具备优秀的产品工程思维，清晰理解技术选型决策对用户体验带来的影响
+自带创造者思维：兼具产品经理的全局视角，与资深工程师的落地执行力
+热衷人机交互（HCI）领域前沿发展，执着于消除用户操作门槛、优化使用阻碍
+追求软件交互的简洁易用，致力于抹平产品使用学习成本
+有创业经历、或独立自研并上线过个人产品项目（优先加分项）
+			
+所属行业:
+人工智能/大模型/算力
+职能分类:
+全栈工程师",Git Kotlin Java Python Node.js 大模型 自动化测试 产品规划,https://www.liepin.com/a/78313867.shtml
+Android安卓软件工程师-中高级,计算机软件50-99人,1-2k,厦门-思明区,厦门,本科,5-10年,90天前更新,liepin,"岗位职责：
+
+1.负责Android平台的开发，架构设计，性能优化；
+2.负责Android产品软件框架搭建、技术攻关及疑难问题解决。
+3.负责编写开发文档、技术资料、经验分享等工作。
+
+职位要求：
+
+1.本科及以上学历，计算机相关专业，有5年以上的软件开发经验，3年以上Android开发经验；
+
+2.熟悉Java对面向对象的开发有深刻认识，熟悉移动客户端相关开发经验；
+3.熟悉Android平台上的移动应用软件开发；有android应用市场发布产品经验；
+4.熟悉Android框架及特征，熟练掌握UI及常用UI布局控件，熟悉多线程、网络通信、数据存储技术；
+
+5.熟练掌握Android API，理解Android运行原理和体系架构，对内存分析泄漏有一定的分析处理经验；
+
+6.非常扎实的Java语言编程，调试的知识、经验，对于Java8语言新特性有一定程度的了解；
+
+7.有自己独立完成的AndroidAPP项目或曾经参与并上线的AndroidAPP项目优先。
+
+8.具有很强的学习能力及工作责任心，良好的沟通能力和团队合作精神！",Java API,https://www.liepin.com/job/1961651597.shtml
+Android安卓开发工程师,极限变量(海口)信息科技有限公司,8-12k,广州-天河区,广州,大专,经验不限,90天前更新,liepin,"Android 开发工程师
+1—3年大专全职
+
+职位描述
+1.负责 Android 软件的架构分析、设计和核心代码的编写:
+2、负责相关技术的评审把关,控制设计质量;
+3、负责项目框架搭建、关键技术选型、技术难题公关等工作◇
+4、理解需求文档,组织软件设计工作,并在过程中输出符合标准的设计文档。
+任职要求:
+1、熟悉 Android 应用开发流程,精通 Android 界面 UI 和 API 调用;
+2、精通 Android 的开发框架,精通 Android 系统各种特性,能把握 Android 程序设计和开发;
+3、对用户体验、产品化、性能优化有丰富经验者优先;4、熟悉 Android 下的 XML 、 JSON 、 HTML 的解析;
+5、熟悉数据结构和算法,熟悉无线网络应用开发,精通 Socket 和 Http 网络接口编程;
+6、精通各种 UI 控件,能够实现复杂的界面交互;
+
+公司信息
+广州市绿洲函数网络技术有限公司",Android UI API XML JSON HTML Socket Http,https://www.liepin.com/job/1944341713.shtml
+高级安卓开发工程师 Android flutter（base 全国）,某深圳大型互联网公司,25-50k·14薪,深圳,深圳,本科,3-5年,今日更新,liepin,"# 岗位职责
+1. 负责 Flutter Android 应用的功能开发、版本维护、性能优化与持续迭代。
+2. 承担多 Flutter 项目公共功能迁移、差异适配、依赖版本升级与项目维护工作。
+3. 使用 GetX、signals_flutter 等状态管理方案，遵循 View、Logic、State 分层或项目现有架构编写业务代码。
+4. 维护 GoRouter 路由体系，完成嵌套路由、状态保持、页面跳转以及页面生命周期管理。
+5. 通过 MethodChannel 对接 Kotlin 与 Android SDK，实现动态图标、文件打开、APK 安装、公共目录保存、设备信息读取、原生加解密等原生能力。
+6. 性能调优：解决组件重复 rebuild、列表卡顿、首屏加载慢、图片解码、缓存策略、控制器释放、内存占用过高等问题。
+7. 对接 RESTful API，实现 Token 鉴权、AES 加解密、文件分片上传、断点续传下载、WebSocket、CDN 多线路容灾逻辑。
+8. 维护 Drift/SQLite 本地数据库、SharedPreferences、内存缓存与磁盘缓存。
+9. 维护广告、埋点、支付、IM 相关 Flutter SDK、插件以及 Android 宿主适配层。
+10. 负责 APK/AAB Release 打包构建，包含动态包名、签名配置、Gradle 配置、R8/ProGuard 混淆、资源压缩、ABI 与 so 库配置。
+11. 问题排查：Android Manifest 配置、存储权限、MediaStore、原生依赖、应用市场兼容、杀毒软件误报等各类兼容问题。
+12. 编写维护单元测试、Widget 测试、回归测试；执行 flutter analyze、flutter test 以及代码生成流程。
+13. 协同产品、后端、测试团队完成需求落地、接口联调、故障定位、版本发布上线。
+14. 使用 Claude Code 完成代码分析、批量改造、问题排查、测试用例补充、技术文档编写维护。
+
+# 任职要求
+1. 本科及以上学历，计算机相关专业；能力优秀者学历可放宽。
+2. 5 年以上软件开发工作经验，至少 3 年 Flutter 商业项目实战经验。
+3. 精通 Dart、Flutter 体系：Widget、自定义组件、复杂列表、组件生命周期、异步编程、Isolate。
+4. 熟练使用 GetX，掌握响应式状态管理、路由、依赖管理，熟悉 View‑Logic‑State 分层架构。
+5. 可以快速接手基于 signals_flutter、GoRouter 等非 GetX 技术栈的存量 Flutter 项目。
+6. 熟悉 Kotlin、Android SDK、Manifest、权限体系、MediaStore、Gradle、NDK、应用签名打包流程。
+7. 精通 MethodChannel，可独立完成 Flutter 与 Android 原生双向通信与功能联调。
+8. 熟练使用 Dio 网络库，掌握拦截器、Token 鉴权、加解密协议、异常处理、文件上传下载、请求取消。
+9. 有 WebSocket、IM 即时通讯、消息持久化、断线重连、心跳机制落地经验。
+10. 熟悉 Drift/SQLite 数据库、代码生成、缓存设计、数据版本迁移。
+11. 能够独立排查重复 rebuild、内存泄漏、资源未释放、列表卡顿、启动异常、播放器异常等线上问题。
+12. 熟悉 Android Release 打包，掌握 R8/ProGuard 混淆、资源压缩、ABI、so 库、第三方 SDK 打包配置。
+13. 具备 Flutter Plugin 开发、SDK 封装、宿主适配层、公共基础库开发能力。
+14. 具备单元测试、Widget 测试、静态代码检查、回归测试落地意识与实践。
+15. 规范编码习惯，熟悉 Git 协作，具备较强问题排查能力，可支撑多项目并行维护。
+
+# 加分项
+1. 多个 Flutter‑Android 项目并行维护、公共需求批量迁移改造经验。
+2. 维护过广告、埋点、支付、IM SDK，有 Flutter Plugin 开发维护经历。
+3. Drift 数据库、WebSocket、文件分片上传、加密通信协议开发经验。
+4. App 防报毒整改、杀毒软件误报修复、各大应用市场兼容适配经验。
+5. 权限、Manifest、动态图标、原生 so 库、第三方 SDK 安全整改实战经验。
+6. 使用 Claude Code 完成大型 Flutter 项目重构、批量迁移、疑难 bug 排查真实项目案例。
+ ",Flutter Go Kotlin WebSocket SQLite Gradle Gin Git 加密 测试用例 技术文档,https://www.liepin.com/a/78475097.shtml
+高级安卓开发工程师（Android）,福建苗木宝网络科技有限公司,7-12k,福州,福州,本科,1-3年,90天前更新,liepin,"任职资格：
+1、本科及以上学历，计算机、软件、通信、电子等相关专业；一年以上工作经验
+2、具备Android平台应用程序开发经验，对移动产品有浓厚兴趣；
+3、熟悉Android后台开发平台及框架原理，Android开发工具和测试工具的使用
+4、熟悉Android UI设计，熟悉Socket/HTTP编程，熟练掌握Android下活动、服务、线程、进程的通信机制；
+5、熟悉Android应用开发框架，能独立开发高性能的Android应用；
+6、熟悉软件开发流程，具备良好的编码习惯。
+岗位职责：
+1、负责Android手机客户端应用产品的开发；
+2、参与产品需求的沟通、讨论和协调；
+3、编写相关技术文档。",技术文档,https://www.liepin.com/job/1916382031.shtml
+OTA Software Architect (Android)/OTA安卓软件架构师 ID201956,整车制造10000人以上,薪资面议,上海-浦东新区,上海,统招本科,5-10年,90天前更新,liepin,"Are you ready to shape the future of automotive software innovation? We are seeking a highly skilled Software Architect to join our team in Shanghai. In this role, you will play a key part in defining and implementing the cutting-edge software architecture for our smart cockpit products, ensuring seamless software update mechanisms across diverse platforms.
+Your Role & Responsibilities:
+As an OTA Software Architect (Android), you will:
+•	Define Software Architecture: Develop and design comprehensive software architectures related to software updates, including both Over-The-Air (OTA) and wired update mechanisms.
+•	Oversee the update process for the Android operating system, as well as other environments, systems, and VMs.
+Product Evaluation & Implementation: Participate in the evaluation of products, function planning, and technical discussions to support seamless implementation and release in line with project needs.
+•	System Architecture Design: Lead the design and implementation of system architectures to ensure scalability, performance, and maintainability.
+•	Problem Analysis & Optimization: Analyze and resolve architectural challenges, optimize system performance, and maintain overall system stability throughout the product lifecycle.
+•	Technical Leadership & Communication: Clearly explain core software capabilities to customers, provide technical guidance across departments, and mentor developers.
+•	Innovation & Continuous Learning: Stay abreast of new technologies and industry trends to meet the evolving requirements of smart cockpit products.
+To thrive in this role, you should:
+•	Have a strong background in automotive software architecture, especially in Android, Linux and QNX environment
+•	Proficient in C/C++/Java, with a deep understanding of Java Virtual Machine principles.
+•	In-depth understanding of the Android Automotive system.
+•	Extensive knowledge of the QNX system and environment.
+•	Strong grasp of the Android Framework, HAL architecture, and software update mechanisms.
+•	Familiar with car power control processes, system startup principles, vehicle signals, and process lifecycle management.
+•	Excellent problem-solving skills with a strong sensitivity to technical risks and the ability to support and resolve issues across all stages of the product lifecycle.
+•	Fluent in English and Chinese for clear and efficient communication with other teams in China and worldwide.
+Join us and be at the forefront of automotive software innovation—driving the evolution of smart, connected vehicles with your expertise in Android software architecture. If you are passionate about creating robust, scalable systems and leading technological advancements, we want to hear from you!",ROS Scala Linux C++ Java We Architect Shanghai,https://www.liepin.com/job/1980197759.shtml
+Android安卓高级开发工程师,安徽国信通科技有限公司,11-14k,合肥-高新区,合肥,本科,5-10年,90天前更新,liepin,"Telephony 项目	Android Studio	Framework
+岗位职责：
+1、负责 Android 核心模块 RIL、Telephony、Audio、MediaCodec 等问题处理及开发；
+2、熟悉 Android Framework，了解 Android HAL 层技术，熟悉 Android 拨打电话流程。
+2、负责技术方案预研、测试问题的解决、技术难点攻关。
+
+岗位要求
+1、计算机、通信、电子相关专业，本科以上学历；
+2、熟练掌握 Java、C、C++ 编程语言，具体较好的 OOP 思想；
+3、对 Android 或 Linux 系统有浓厚兴趣；
+4、有责任感，拥有良好的团队合作精神；
+5、有较强的学习能力，较强的理解和沟通能力，善于专研及独立解决问题。",Java C++ Linux 技术方案 Telephony Android Studio Framework,https://www.liepin.com/job/1980486405.shtml
+Android安卓开发工程师,厦门市小熊网络科技有限公司,10-15k·13薪,厦门-湖里区,厦门,本科,1-3年,90天前更新,liepin,"岗位职责：
+1.独立负责Andorid平台产品的核心框架的设计和改进；
+2.负责项目技术难点攻关；
+3.完成Android平台产品的开发工作；
+4.实现与服务器端的接口交互；
+5.配合测试人员进行自动化测试。
+职位要求：
+1.投入敬业，良好的沟通协作意识，较强的问题解决能力；
+2.3年左右Android平台开发经验；
+3.良好的编程习惯，精通数据结构和面向对象程序设计，有兴趣和能力编写高效而整洁的代码；
+4.精通Android平台及框架原理以及应用程序的设计和开发；
+5.精通Android自定义UI的实现；
+6.熟悉AndroidApp的性能优化；
+7.熟悉Android平台安全防护策略；
+8.了解hybirdapp研发，熟悉html和javascript；
+9.有敏捷流程开发经验；
+10.对改进移动端用户体验有自己的见解；
+11.有实际AndroidApp上架经验，了解国内Android主流发布渠道。",JavaScript 自动化测试,https://www.liepin.com/job/1932239439.shtml
+Android工程师/安卓工程师,天津弘创智融科技有限公司,10-13k,天津-南开区,天津,大专,3-5年,90天前更新,liepin,"一、工作职责及内容：
+1.负责银行、 互联网系统Android产品功能模块设计、开发。
+2.负责公司 Android 产品的开发、调试等工作，验证和修改测试中发现的 问题，负责各种技术文档编写。
+3.开发过程中严格执行编码规范， 保证代码健壮性、可读性、易维护性。
+4.学习和研究新技术以满足产品需求，根据开发过程中的体验对产品提出改进建议。
+5.参与系统需求分析，从技术角度给出建议。
+6.完成领导交办的其他工作。
+二、任职要求：
+1.计算机相关专业专科以上学历， 三年以上开发经验。
+2.掌握Java编程语言，熟悉Android Framework，具有源码阅读及修改能力，掌握Android开发及兼容性，追求最优的、突破性的移动端用户体验。
+3.熟悉至少一种主流数据RDMBS数据库，熟练使用NoSQL数据库。
+4.对面向对象思想有深入的理解，熟悉常用的设计模式，有良好的编程习惯。
+5.深入掌握 Android 开发平台和框架原理，熟悉 Android 系统框架及相关技术，熟悉移动端安全设计规则。
+6.有第三方支付/金融行业经验/成功参与开发过大型移动应用app者，对快速迭代开发部署模式有经验者优先。
+
+非外包！
+
+三、福利待遇：
+1、入职签订劳动合同，按照国家规定缴纳五险一金。
+2、防暑降温费与取暖费。
+3、享有国家规定的法定假期。
+4、公司安排每年统一体检。
+5、每年多次户外聚会，员工生日祝福，国家节日祝福等。
+6、因公外出，按标准报销交通费用。",Java SQL 技术文档 需求分析 Android Framework,https://www.liepin.com/job/1938178435.shtml
+安卓（Android）开发工程师,诚迈科技,15-30k,深圳-南山区,深圳,大专,1-3年,90天前更新,liepin,"职责要求：
+ 1.至少3年以上Android开发经验，编程基础扎实； 
+2.有成熟线上Android应用开发经验，能独立完成Android应用的开发工作； 
+3.具备一定android性能调优经验，熟悉android平台单元测试和自动化测试工具； 
+4.熟悉git代码管理工具； 
+5.具备应用功能和数据设计能力，熟悉软件设计模式，熟悉其中的一些建模工具的使用； 
+6.具有一定的技术方案设计能力和设计方案文档编写能力； 
+7.工作细致，具有良好的团队合作精神，高度的责任感，较强的沟通，适应，表达能力。
+
+
+任职职责：
+负责浏览器业务团队的Android客户端的开发和维护，包括浏览器、信息流、负一屏、全局搜索等。",Git 自动化测试 技术方案 文档编写,https://www.liepin.com/job/1947655541.shtml
+Android安卓开发工程师,长沙比特跳动信息技术有限公司,5-6k·14薪,长沙-岳麓区,长沙,学历不限,1-3年,90天前更新,liepin,"岗位职责：
+1、负责公司产品android平台的设计、开发、系统调优；
+2、参与android平台应用软件的设计策划及相关技术研究；
+3、分析并解决软件开发过程中的问题；
+任职要求：
+1、计算机或相关专业，；
+2、熟练使用Android各种UI组件；
+3、按UI设计编写Android界面效果；
+4、熟练掌握Android开发框架和SDK的使用；
+5、熟练掌握Java熟悉面向对象的编程思想、具有良好的编程风格和习惯；
+6、有成功发布androidApp经验者优先；
+7、能独立完成Android应用开发者优先；
+8、具备优秀的学习能力，动手能力强，能承受压力，具有团队协助精神
+
+
+公司福利：
+所有员工购买社保，上班弹性制，不用打卡，国家法定假日、年底多薪，绩效奖金、带薪年假、员工旅游、节日福利、下午茶。
+
+职位诱惑：
+福利健全、氛围好、表现好即可转正、学习成长快",Java,https://www.liepin.com/job/1960283233.shtml
+安卓开发实习生,亲宝宝,150-250元/天,杭州-西湖区,杭州,本科,,90天前更新,liepin,"26届注：实习岗位 无留任机会~
+
+【岗位职责】
+参与公司前端应用的开发与维护，负责安卓客户端的功能模块设计、编码实现、测试和优化。
+根据产品需求，熟练运用Android SDK、Java或Kotlin进行高质量的代码编写，确保应用的稳定性、性能和兼容性，适配多种Android设备。
+深入理解Android系统架构，能够熟练运用Android系统的各种组件，开发高效、流畅的用户界面。
+与后端开发团队协作，定义和实现API接口，确保前后端数据交互的准确性和高效性。
+具备一定的前端开发能力，能够使用HTML5、CSS3、JavaScript等技术构建用户交互界面。
+参与代码审查工作，学习并遵守公司的代码规范，确保代码质量并提供技术建议。
+协助解决应用在生产环境中出现的问题，及时进行故障定位和修复。
+关注行业动态和新技术发展趋势，积极学习并引入合适的新技术到项目中，提升团队整体技术水平。
+
+【任职要求】
+扎实的计算机基础知识，包括数据结构、算法、操作系统、计算机网络等。
+熟练掌握Java或Kotlin编程语言，有良好的面向对象编程思想和代码风格。
+了解Android开发框架，如Android Studio开发环境、Gradle构建工具等，有实际的安卓开发项目经验优先。
+掌握前端开发基础知识，如HTML、CSS、JavaScript，能够进行简单的前端页面开发和交互逻辑实现。
+具备良好的调试和问题解决能力，能够使用相关工具进行安卓应用的调试和性能优化。
+具备强烈的学习欲望和快速学习能力，能够积极主动地学习新知识、新技术，适应不断变化的技术环境。
+热爱编程，对软件开发有浓厚的兴趣，有良好的自我驱动力和责任心。
+具有良好的团队合作精神，能够与不同背景的团队成员有效沟通、协作，共同完成项目目标。
+
+截止日期：2027年04月17日
+招聘人数：1人",Java Kotlin HTML5 CSS3 JavaScript Gradle,https://www.liepin.com/lptjob/81854517
+安卓开发工程师,厦门芯曙光科技有限公司,8-10k,厦门-思明区,厦门,学历不限,应届,90天前更新,liepin,"职责描述：
+1、拥有一定安卓APP开发经验，能够独立编写安卓APP应用；
+2、负责Android平台客户端软件的整体架构、功能设计与定义；
+3、学习和研究新技术以满足产品的需求，根据开发过程中的体验对产品提出改进建议；
+4、监控系统运行健康状态，及时排查问题，优化系统性能，及时做出技术分享；
+任职要求：
+1、拥有一定的Android的开发经验、熟练使用Android 2.2、2.3、2.4、3.0、4.0等版本；
+2、熟悉Android系统体系结构、应用开发框架、底层库及SDK，能独立开发Android应用；
+3、精通HTML5、CSS3.0、Javascript、XML、JSON、Ajax、等WEB前端技术；
+4、熟悉前端框架如jQuery、AngluarJS、ionic、jQuery-UI、Bootstrap中的一种或多种，深入了解其开发思想，对其适用范围及优劣) 有独到见解；
+5、熟练掌握SQL语句，熟悉关系型数据库如MySQL；
+6、熟悉常用框架如Spring、Mybatis、Struts2等。
+
+招聘人数：1人",HTML5 CSS3 JavaScript jQuery SQL MySQL Spring MyBatis,https://www.liepin.com/lptjob/21409995
+安卓开发实习生,西安悦点时代网络科技有限公司,4-6k,西安-雁塔区,西安,本科,应届,90天前更新,liepin,"1. 学历专业：计算机、软件工程、通信等相关本科专业在读，2026年应届毕业生。
+2. 语言基础：
+扎实的 Java 或 Kotlin 编程基础（熟悉 Kotlin 者优先）。
+熟悉常用的数据结构与算法，具备良好的编码规范意识。
+框架技能：
+了解 Android SDK 及常用开发工具（Android Studio, Git, ADB 等）。
+熟悉 Android 四大组件、生命周期、多线程机制及常见设计模式（单例、观察者、工厂等）。
+了解主流开源库（如 Retrofit, OkHttp, Glide/Coil, Room 等）的使用原理。
+了解安卓编译打包流程。
+有真实参加过安卓开发或者开源项目者优先
+
+截止日期：2027年04月22日
+招聘人数：2人",Java Kotlin Git Android SDK Studio ADB Retrofit,https://www.liepin.com/lptjob/81975445
+安卓开发实习生,好未来,200-250元/天,北京-海淀区,北京,本科,,90天前更新,liepin,"安卓实习生
+岗位职责：
+1.负责Android客户端软件的研发，负责编写高质量的代码，并确保其符合编码规范和最佳实践；
+2.根据项目的需求完成需求分析，设计和实现 Android 应用程序的各个模块，编写代码并进行调试。
+3.与其他开发人员、设计师和产品经理密切合作。您需要参与技术讨论和决策，积极提供建设性的意见，并与团队共同解决问题;
+4.软件产品的持续改进，如客户体验的提升、手机适配等；
+
+任职要求：
+1.本科及以上学历，计算机相关专业;
+2.需要具备扎实的编程知识和技能，特别是对于 Java 或 Kotlin 编程语言和 Android 开发框架的理解;
+3.对Android 移动开发生态系统有基本的了解，包括 Android Studio 开发工具、Android SDK、Gradle 构建系统等;
+4.具备良好的问题解决能力和分析能力。能够独立思考，并能够通过有效的方式解决遇到的技术问题;
+5.能够与团队成员进行有效的沟通，并能够协调合作，共同完成项目。
+6.良好的编码习惯，结构清晰，命名规范，逻辑性强；
+7.学习能力强，有较强分析和解决问题的能力，工作积极主动，良好的责任感，做事严谨。
+
+优先考虑：
+1. 热爱教育行业
+2. 有跨平台开发经验、了解AI、大模型
+3. 自驱能力较强
+
+招聘人数：1人",Java Kotlin Gradle 大模型 需求分析 Android Studio SDK,https://www.liepin.com/lptjob/60118413
+安卓开发实习生,万德一博(北京)科技有限公司,200-300元/天,北京-顺义区,北京,本科,,7月29日更新,liepin,"安卓开发实习
+公司介绍
+我们是 Wonderable AI，一家专注 AI 电商方向的创业公司，用最前沿的 AI Agent 技术让 AI 自主完成真实世界的高频痛点任务。我们的创始团队均来自清华、中科院、人大、哥伦比亚大学等名校，拥有字节、腾讯、百度、亚马逊等大厂核心岗位的从业经历。真诚欢迎渴望深度参与创业、拒绝螺丝钉式工作的开发者加入。
+
+岗位职责
+1、在资深 Android 工程师的指导下，参与 Android 客户端的功能开发与版本迭代，独立完成分配的业务模块；
+2、协助排查与修复 Bug，参与客户端稳定性、兼容性、性能的优化与日常测试；
+3、对接后端 RESTful 接口，完成数据联调与基础功能落地；
+4、配合产品、设计、测试推进开发，保障版本按期交付；
+5、参与技术文档、开发规范的整理与沉淀。
+
+任职要求
+1、计算机 / 软件 / 通信等相关专业在校生（本科大三及以上 / 研究生在读均可）；
+2、掌握 Kotlin 或 Java，具备扎实的面向对象编程基础；
+3、熟悉 Android 四大组件、应用生命周期等核心知识，写过完整的 Android 练手项目或课程设计；
+4、了解 OkHttp / Retrofit 等网络库，能完成基本的接口对接；
+5、学习能力强、主动踏实、注重细节，对客户端开发有热情，能独立查资料定位并解决问题；
+6、能保证每周到岗 5 天以上、可连续实习 3 个月以上者优先。
+
+加分项
+1、有完整的个人 App 项目、开源贡献或已上架作品；
+2、了解协程、Jetpack（ViewModel / LiveData / Room 等）、MVVM 等架构；
+3、熟悉 Git 协作流程，有团队开发或多人协作经历；
+4、接触过悬浮窗、推送 SDK、WebView / H5 内嵌等；
+5、熟练使用 Cursor、Claude Code、Codex 等 AI 编码工具，借助 AI 高效编码与调试。
+
+其他
+   工作地点：北京；提供员工宿舍、实习补贴；
+   早期创业团队，扁平管理，能接触到核心业务；表现优异者可优先转正、留用。
+
+截止日期：2027年07月29日
+招聘人数：2人",Kotlin Java Git 技术文档 Wonderable AI Agent Android,https://www.liepin.com/lptjob/84490409
+android开发工程师,北京云绅科技有限公司,200-300元/天,北京-海淀区,北京,本科,,90天前更新,liepin,"Android 工程师
+从事Android移动应用操作系统、游戏、音视频、医疗成像和各种Android平台功能应用等的开发和优化人员。
+工作内容
+1.负责安卓客户端以及相关产品的设计、开发、发布与维护;
+2.承担项目相关部分需求分析架构设计和功能定义的工作;
+3.承担移动Android客户端创新特性研究、开发与维护。
+4.良好的Java基础，掌握面向对象编程思想；
+5.熟练掌握Android UI设计，屏幕、版本适配；
+6.熟悉Android socket与WiFi和USB之间的通信；
+7.熟悉Android NDK开发；
+8.熟悉Android Renderscript 开发；
+
+招聘人数：1人",Java WiFi 需求分析 Android Renderscript,https://www.liepin.com/lptjob/64245593
+安卓开发工程师,极限变量(海口)信息科技有限公司,8-11k,东莞,东莞,大专,应届,90天前更新,liepin,"Android 开发工程师
+1—3年大专全职
+
+1.负责 Android 软件的架构分析、设计和核心代码的编与:
+2、负责相关技术的评审把关,控制设计质量;
+3、负责项目框架搭建、关键技术选型、技术难题公关等工作;
+4、理解需求文档,组织软件设计工作,并在过程中输出符合标准的设计文档。
+任职要求:
+1、熟悉 Android 应用开发流程,精通 Android 界面UI和 APl 调用;
+2、精通 Android 的开发框架,精通 Android 系统各种特性,能把握 android 程序设计和开发;
+3、对用户体验、产品化、性能优化有丰富经验者优先;4、熟悉 Android 下的 XML 、 JSON 、 HTML 的解析;
+5、熟悉数据结构和算法,熟悉无线网络应用开发,精通 Socket 和 Http 网络接口编程;
+6、精通各种 UI 控件,能够实现复杂的界面交互;
+
+招聘人数：1人",Android APl android XML JSON HTML Socket Http,https://www.liepin.com/lptjob/44350903
+安卓系统开发助理工程师,朗国电子科技,16-20k,广州,广州,硕士,应届,5月19日更新,liepin,"一、岗位职责
+框架与 SDK 开发维护：协助开展 Android framework 开发与维护工作，参与 SDK 核心模块开发，保障相关功能稳定运行与迭代优化。
+原生系统定制修改：参与原生 Android 系统的定制化开发与修改，适配公司产品业务需求，提升系统兼容性与适配性。
+系统性能优化辅助：协助推进 Android 系统性能优化工作，聚焦运行效率、资源占用等核心指标，助力提升产品使用体验。
+二、任职要求
+学历与专业基础：硕士及以上学历，计算机、软件工程、物联网、大数据等相关专业；专业成绩优秀，排名前 15% 优先，具备扎实的 Java 编程基础与一定的 C/C++ 开发能力。
+自我驱动，目标导向：对 Android 开发领域有浓厚兴趣，事业心强，主动规划学习与工作进度，以高质量完成开发任务为核心目标。
+探索学习，快速迭代：学习能力突出，主动钻研 Android 源码、框架原理及行业前沿技术，快速适配项目开发需求与技术迭代节奏。
+实干创新，实战攻坚：动手能力强，具备独立思考与问题排查能力，务实肯干；善于在开发过程中探索优化方案，有实验室项目主导经历或竞赛实战获奖经历者优先。
+协作与适配能力：具备良好的团队协作意识与沟通能力，能高效对接跨部门需求；抗压性强，可适应技术开发的快节奏工作场景。
+加分项：有 Android 源码开发、Android 应用开发实习或相关项目经验者优先考虑。
+
+截止日期：2027年05月19日
+招聘人数：10人",Java C++ SDK Android,https://www.liepin.com/lptjob/82677279
+安卓开发工程师,中国第一汽车股份有限公司,薪资面议,长春,长春,硕士,应届,90天前更新,liepin,"工作职责
+1、负责参与公司Android端App开发和维护
+2、负责按照项目计划，根据需求文档、设计文档编写开发文档，完成代码编写和自测工作
+3、负责维护版本的定时更新和bug修复
+任职要求
+任职要求能力要求：
+1、计算机相关专业
+2、熟悉Java/kotlin语言，数据结构，熟悉Android4大组件和事件分发机制
+3、熟悉Android的UI开发以及Android常用框架，如OKhttp/Glide/Rxjava/Retrofit/Eventbus等
+4、具备良好的面向对象编程基础
+基本条件：
+1、国家统招研究生及以上学历的应届毕业生
+2、专业对口，在校期间表现良好，无处分
+3、按规定学制如期取得毕业证和学位证书，且英语通过国家四级
+4、成绩优秀，身体健康
+
+截止日期：2026年09月01日
+招聘人数：1人
+
+职位来源：该职位来自第三方企业官网",Java Kotlin 文档编写 Glide Rxjava Retrofit,https://www.liepin.com/lptjob/77504463
+安卓开发实习生,深圳市阿丹能量信息技术有限公司,100-200元/天,深圳-宝安区,深圳,本科,,90天前更新,liepin,"岗位职责：
+1、参与Android应用的设计与开发；
+2、负责Android应用的代码编写、调试和优化工作；
+3、与团队成员紧密合作，确保项目按时交付。
+
+岗位要求：
+1、本科及以上学历，计算机相关专业；
+2、熟练掌握Java或Kotlin编程语言，具有扎实的编程基础；
+3、了解Android系统架构及开发流程，熟悉Android Studio等开发工具；
+4、具备良好的问题解决能力，能够独立分析并解决问题；
+5、有较强的团队协作精神，善于沟通，乐于分享。
+
+实习要求：
+1、希望你是大三/大四在校生；
+2、每周至少3天，实习期≥3个月。
+岗位福利：
+1、完善的培养方案与导师机制；
+2、提供转正的机会；
+3、每天不低于100元的实习津贴；
+4、行业前沿的内容分享与培训；
+5、风景优美的工作环境。
+
+招聘人数：5人",Java Kotlin 培训,https://www.liepin.com/lptjob/76239173
+Android应用开发工程师,视源股份,13-18k·13薪,广州-黄埔区,广州,本科,应届,90天前更新,liepin,"岗位职责：
+1.负责全球市场智能座舱产品的应用设计、实现、优化与调试；
+2.负责产品需求分析，功能设计与代码编写；
+3.负责在安卓平台上的应用以及用户交互设计开发；
+4.负责客户反馈问题的处理。
+
+岗位要求：
+1.有良好的编程基础，熟练掌握Java语言；
+2.掌握操作系统、数据结构等软件开发必备知识；
+3.具有良好的团队协作、亲和力、乐意与人交往；
+4.有Android系统应用开发经验者优先。
+
+截止日期：2027年01月13日
+招聘人数：1人",Java 需求分析,https://www.liepin.com/lptjob/79712385
+安卓开发实习生,深圳市卓驭科技有限公司,300-400元/天,深圳-南山区,深圳,本科,,90天前更新,liepin,"工作职责：
+1.根据需求完成自动驾驶人机交互App模块设计、开发、优化、维护等工作；
+2.负责所属业务技术架构迭代，关注代码健康度，提高软件稳定性和可扩展性；
+3.参与软件开发流程、规范的建设，提高团队开发效率和软件质量。
+
+任职资格：
+1.本科及以上学历，有Android开发经验；
+2.计算机基础知识牢固，熟悉Java/Kotlin；
+3.具备一定的开发工具使用经验，如 Git、Android Studio、Unity、Visual Studio 等；
+4.熟悉C#，具备一定的Unity开发经验的优先。
+
+招聘人数：2人",Java Kotlin Git C# Android Studio Unity Visual,https://www.liepin.com/lptjob/79361021
+Android应用开发工程师,视源股份,13-18k·13薪,广州-黄埔区,广州,本科,应届,90天前更新,liepin,"岗位职责：
+1.负责全球市场智能座舱产品的应用设计、实现、优化与调试；
+2.负责产品需求分析，功能设计与代码编写；
+3.负责在安卓平台上的应用以及用户交互设计开发；
+4.负责客户反馈问题的处理。
+
+岗位要求：
+1.有良好的编程基础，熟练掌握Java语言；
+2.掌握操作系统、数据结构等软件开发必备知识；
+3.有Android系统应用开发经验者优先。
+
+截止日期：2026年12月11日
+招聘人数：1人",Java 需求分析,https://www.liepin.com/lptjob/79064671
+安卓开发实习生,运城市猗旋商贸有限公司,80元/天,运城-临猗县,,学历不限,,90天前更新,liepin,"有10年开发专门带着做项目和学习
+岗位职责：
+1、负责Android平台前端页面的设计与实现；
+2、与后端工程师紧密合作，确保前后端数据交互顺畅；
+3、持续优化前端代码，提高应用性能和用户体验。
+
+岗位要求：
+1、计算机相关专业；
+2、具有2年以上Android前端开发经验；
+3、熟悉HTML5、CSS3、JavaScript等前端技术，能够独立完成前端页面的开发；
+4、掌握React Native或Flutter等移动端前端框架优先；
+5、具备良好的代码习惯，对前端性能优化有深入了解；
+6、具备良好的沟通能力和团队协作精神。
+
+招聘人数：2人",HTML5 CSS3 JavaScript React Native Flutter,https://www.liepin.com/lptjob/76364489
+安卓开发实习生,长沙源汇泽网络科技有限公司,80-100元/天,长沙-岳麓区,长沙,学历不限,,90天前更新,liepin,"任职要求：
+1、对鸿蒙操作系统充满热情，渴望投身鸿蒙原生应用开发领域，并愿意为此付出努力。
+2、具备扎实的前端基础知识，特别是HTML5、CSS3、JavaScript (ES6+)的核心概念和使用经验。
+3、了解或接触过现代前端框架（如 Vue.js, React, Angular 等）者优先，这有助于理解声明式UI开发思想。
+4、对移动应用开发有浓厚兴趣，了解移动端开发的基本概念和特点。
+5、拥有**强烈的求知欲和学习能力，能够快速学习新技术（特别是 ArkTS ArkUI和鸿蒙开发框架），并积极应用于实践。
+6、具备良好的逻辑思维能力、分析问题和解决问题的能力。
+7、工作认真负责，有良好的沟通能力和团队协作精神。
+8、实习期为4个月，会需要加班（按正常时薪计算加班费），每月有2000补助，4个月实习期内如果双方都满意，就可以签订试用期，试用期待遇4000到5000左右，试用期为期2个月转正，转正后薪资5000到6000元不等
+PS：公司招聘实习生的目的是为了成为公司正式员工继续工作，若只是想做几个月就换工作就不合适了，会签订实习协议作为双方保障。
+
+招聘人数：50人",鸿蒙 HTML5 CSS3 JavaScript Vue React Angular ArkTS ArkUI,https://www.liepin.com/lptjob/76331899
+Android软件工程师,卓易科技,8-12k,上海-徐汇区,上海,本科,应届,90天前更新,liepin,"职责描述：
+1、负责应用和SDK产品的架构设计和开发工作；
+2、结合数据指标驱动和分析，不断深化应用技术产品，优化客户端应用的性能及提升用户体验 ；
+3、独立负责平台相关的Android各机型的适配和优化；
+4、独立负责Android技术难题攻关，解决各种系统限制而导致一些技术和用户体验问题；
+5、应用平台技术研究与新技术新趋势探索。
+
+任职要求：
+1、本科及以上学历，计算机软件或相关专业，基本功扎实，熟练掌握计算机系统结构、算法、网络、数据库、计算机安全等知识；
+2、深刻了解移动应用特性，有Android应用开发经验，独立开发过APP，有经历过大型APP的研发周期者优先；
+3、熟悉Android SDK以及相关配套工具；
+4、了解Android Framework层，并有一定Android源码阅读经验；
+5、 除了Android之外，具备其它方面开发经验的优先，比如具有前端技能或脚本技能优先；
+6、具有对一些底层或框架（JVM/Android ROM/Linux/Flutter等）、以及行业技术（图片编解码/机器学习等）有深入了解者为佳；
+7、思维敏捷，可以应付各类编程复杂问题，并迅速给出解决方案。
+
+招聘人数：10人",Linux Flutter 机器学习 JVM Android ROM,https://www.liepin.com/lptjob/41338221
+Android开发,北京猫起来科技有限公司,250元/天,北京,北京,北京猫起来科技有限公司,,90天前更新,liepin,"【工作内容】 
+1、参与Android端应用程序的开发和技术实现。
+2、在技术leader的指导下独立完成项目开发。
+3、 新技术的研究和调研。
+
+【岗位要求】 
+1、有半年以上Android 编程经验，有扎实的Java语言基础，有着良好的编码习惯。
+2、熟悉面向对象化编程思想和设计模式，并能灵活运用到开发中。
+3、熟悉 Android 相关的 framework 和 API。
+4、沟通能力强，有责任心，能够独立分析问题。
+5、工作拼搏，责任心强，创业型人才。
+6、充满好奇心,享受coding,学习能力强，有代码洁癖。
+
+我们对你的期望：
+1、计算机相关专业毕业，有较高的技能追求和不断学习的优秀心态；
+2、3年以上Android平台应用程序开发经验（我们需要查看您的作品）；
+3、熟悉Android开发的核心类库，对Android系统应用管理、进程管理、内存管理、Activity管理机制有深入理解，并有实际项目调优经验；
+4、熟练使用常用框架，如Glide、ARouter、Retrofit等，并对源码有一定了解；
+5、熟悉面向对象设计和分析，能够运用常用的设计模式；
+6、熟练掌握Android各大UI控件的使用，并能够独立开发定制控件；
+
+招聘人数：1人",Java Android framework API ARouter,https://www.liepin.com/lptjob/44492643
+客户端开发工程师-iOS/Android,本科,薪资面议,上海,上海,实习,3个月,90天前更新,liepin,"职位描述
+1、负责无线客户端和SDK产品的架构设计和开发工作；
+2、结合数据指标驱动和分析，不断深化无线客户端技术产品，优化客户端应用的性能以及提升客户端体验 ；
+3、独立负责平台相关的iOS/Android各机型的适配和优化；
+4、独立负责iOS/Android技术难题攻关，解决各种系统限制而导致一些技术和用户体验问题；
+5、移动平台技术研究与新技术新趋势探索。
+职位要求
+【必备项】
+1、熟悉iOS/Android SDK以及相关配套工具，熟悉iOS/Android平台原理机制；
+2、具有ACM/OI等算法经历、对一些底层或框架（JVM/Android ROM/Linux/Flutter等）、以及行业技术（图片编解码/机器学习等）有深入了解者为佳（plus）；
+3、思维敏捷，可以应付各类编程复杂问题，并迅速给出解决方案;
+4、学习能力强，对新事物保有好奇心，并能快速适应新环境；
+5、有良好的沟通能力和团队协同能力，能与他人合作，共同完成目标；
+6、对所在领域有热情，相信方法总比困难多，善于独立思考并反思总结。
+
+【加分项】
+1、深刻了解移动客户端特性，有iOS/Android客户端开发经验，独立开发过 APP，有经历过大型APP的研发周期；
+2、除了iOS/Android之外，具备其它方面开发经验的优先，比如具有前端技能或脚本技能优先；
+3、在校园内或互联网公司有相关实习或项目经历。
+
+工作地点：上海/杭州/北京均有招募哦
+
+招聘人数：1人
+
+职位来源：该职位来自第三方企业官网",Linux Flutter 机器学习 Android JVM ROM APP,https://www.liepin.com/lptjob/73662501
+客户端开发工程师-iOS/Android,本科,薪资面议,杭州,杭州,实习,3个月,90天前更新,liepin,"职位描述
+1、负责无线客户端和SDK产品的架构设计和开发工作；
+2、结合数据指标驱动和分析，不断深化无线客户端技术产品，优化客户端应用的性能以及提升客户端体验 ；
+3、独立负责平台相关的iOS/Android各机型的适配和优化；
+4、独立负责iOS/Android技术难题攻关，解决各种系统限制而导致一些技术和用户体验问题；
+5、移动平台技术研究与新技术新趋势探索。
+职位要求
+【必备项】
+1、熟悉iOS/Android SDK以及相关配套工具，熟悉iOS/Android平台原理机制；
+2、具有ACM/OI等算法经历、对一些底层或框架（JVM/Android ROM/Linux/Flutter等）、以及行业技术（图片编解码/机器学习等）有深入了解者为佳（plus）；
+3、思维敏捷，可以应付各类编程复杂问题，并迅速给出解决方案;
+4、学习能力强，对新事物保有好奇心，并能快速适应新环境；
+5、有良好的沟通能力和团队协同能力，能与他人合作，共同完成目标；
+6、对所在领域有热情，相信方法总比困难多，善于独立思考并反思总结。
+
+【加分项】
+1、深刻了解移动客户端特性，有iOS/Android客户端开发经验，独立开发过 APP，有经历过大型APP的研发周期；
+2、除了iOS/Android之外，具备其它方面开发经验的优先，比如具有前端技能或脚本技能优先；
+3、在校园内或互联网公司有相关实习或项目经历。
+
+工作地点：上海/杭州/北京均有招募哦
+
+招聘人数：1人
+
+职位来源：该职位来自第三方企业官网",Linux Flutter 机器学习 Android JVM ROM APP,https://www.liepin.com/lptjob/73662499
+客户端开发工程师-iOS/Android,本科,薪资面议,北京,北京,实习,3个月,90天前更新,liepin,"职位描述
+1、负责无线客户端和SDK产品的架构设计和开发工作；
+2、结合数据指标驱动和分析，不断深化无线客户端技术产品，优化客户端应用的性能以及提升客户端体验 ；
+3、独立负责平台相关的iOS/Android各机型的适配和优化；
+4、独立负责iOS/Android技术难题攻关，解决各种系统限制而导致一些技术和用户体验问题；
+5、移动平台技术研究与新技术新趋势探索。
+职位要求
+【必备项】
+1、熟悉iOS/Android SDK以及相关配套工具，熟悉iOS/Android平台原理机制；
+2、具有ACM/OI等算法经历、对一些底层或框架（JVM/Android ROM/Linux/Flutter等）、以及行业技术（图片编解码/机器学习等）有深入了解者为佳（plus）；
+3、思维敏捷，可以应付各类编程复杂问题，并迅速给出解决方案;
+4、学习能力强，对新事物保有好奇心，并能快速适应新环境；
+5、有良好的沟通能力和团队协同能力，能与他人合作，共同完成目标；
+6、对所在领域有热情，相信方法总比困难多，善于独立思考并反思总结。
+
+【加分项】
+1、深刻了解移动客户端特性，有iOS/Android客户端开发经验，独立开发过 APP，有经历过大型APP的研发周期；
+2、除了iOS/Android之外，具备其它方面开发经验的优先，比如具有前端技能或脚本技能优先；
+3、在校园内或互联网公司有相关实习或项目经历。
+
+工作地点：上海/杭州/北京均有招募哦
+
+招聘人数：1人
+
+职位来源：该职位来自第三方企业官网",Linux Flutter 机器学习 Android JVM ROM APP,https://www.liepin.com/lptjob/73662497
+Android开发工程师(A75711),华林证券,15-25k·16薪,深圳-南山区,深圳,本科,应届,7月3日更新,liepin,"职位描述：
+1.参与Android平台客户端软件架构设计，负责客户端应用开发及优化；
+2.独立完成模块编码、自测与维护工作；
+3.遵循编码规范，编写可读性强、结构清晰的代码；
+4.协助修复App运行中的Bug，优化用户体验；配合测试团队完成功能验证与问题修复；
+5.学习并掌握团队使用的技术栈与开发流程。
+
+
+职位要求：
+1.统招本科及以上学历，计算机、软件工程或相关专业，1年以上Android开发经验；
+2.精通Java语言或者Kotlin语言，熟悉面向对象程序设计思想；
+3.对内存、多线程、算法、数据结构等有较深的理解，熟悉网络编程；
+4.熟悉Android开发框架及各种特性，熟悉XML、JSON、SQLite、JNI等技术；
+5.有强烈的技术追求、良好的代码习惯，具备一定的分析解决问题能力；
+6.具有较强的团队意识和良好的沟通能力，高度责任感，对工作积极严谨，有较强的学习能力；
+7.拥抱AI，有金融行业相关经验优先。
+
+截止日期：2027年07月03日
+招聘人数：1人",Java Kotlin SQLite JSON,https://www.liepin.com/lptjob/83895759
+Android应用开发实习生,上海万笔千墨科技有限公司,150-200元/天,上海-浦东新区,上海,本科,,90天前更新,liepin,"岗位职责：
+1. 参与公司现有 Android 原生 App 的维护、功能迭代与问题修复，项目以 Java / Kotlin / XML 为主；
+2. 根据业务需求，协助完成页面开发、接口联调、自测与上线支持；
+3. 与产品、设计、后端同学配合，推动需求落地并保证开发质量；
+4. 协助进行 App 性能优化、兼容性处理及用户体验改进；
+5. 有机会参与公司前端项目的维护与学习。
+任职要求：
+1. 具备 Android 原生开发基础，有实际项目经验，熟悉 Java、Kotlin、XML 布局开发；
+2. 熟悉 Android 常见开发流程，能够完成基础功能开发、接口对接和常见问题排查；
+3. 了解常用第三方库的使用，如 Retrofit、Glide、OkHttp 等；
+4. 有良好的代码规范意识、学习能力和责任心，具备基本沟通协作能力；
+5. 了解 Vue / React 等前端技术，或对前端开发有兴趣并愿意入职后学习者优先；
+6. 有第三方 SDK 对接、打包发布、模块化开发经验者优先。
+
+招聘人数：1人",Java Kotlin Vue React Android App XML Retrofit,https://www.liepin.com/lptjob/81507857
+【实习】Linux/Android 系统研发实习生,此芯科技,150-300元/天,苏州-工业园区,苏州,本科,,90天前更新,liepin,"工作职责
+1.通过日志分析、现场调试、搭建复现环境等方式，联合内部研发团队（芯片设计、驱动开发、系统优化组）推动问题闭环，输出解决方案与规避措施。
+2.Linux 内核驱动适配（如外设驱动、电源管理、中断处理等）
+3.Android 系统框架调试（如 Framework 层兼容性、HAL 层接口适配、CTS/GTS 测试问题）
+4.系统性能优化（启动速度、内存占用、功耗控制等）
+5.软硬件兼容性问题（芯片与客户主板、外设的协同工作问题）
+任职资格
+1.计算机、电子工程、软件工程等相关专业在读研究生， Linux/Android 系统技术支持或开发经验
+2.了解 Linux 系统原理：熟悉 Linux 内核架构（进程管理、内存管理、设备模型）、驱动开发流程，能独立分析内核日志（dmesg、kmsg）和调试工具（gdb、strace）输出。
+3.了解 Android 系统架构：熟悉 Android Framework、HAL 层工作机制，掌握 ADB、Logcat、Systrace 等调试工具，了解 CTS/GTS 测试标准与问题修复方法。
+4.具备扎实的芯片与硬件知识：了解 CPU/GPU 架构、总线协议（PCIe、I2C、SPI 等）、外设接口原理，能看懂原理图者优先。
+
+截止日期：2027年03月06日
+招聘人数：1人",Linux PCIe I2C SPI 日志分析 技术支持,https://www.liepin.com/lptjob/80722251
+【实习】Linux/Android 系统研发实习生,此芯科技,150-300元/天,武汉-洪山区,武汉,本科,,90天前更新,liepin,"工作职责
+1.通过日志分析、现场调试、搭建复现环境等方式，联合内部研发团队（芯片设计、驱动开发、系统优化组）推动问题闭环，输出解决方案与规避措施。
+2.Linux 内核驱动适配（如外设驱动、电源管理、中断处理等）
+3.Android 系统框架调试（如 Framework 层兼容性、HAL 层接口适配、CTS/GTS 测试问题）
+4.系统性能优化（启动速度、内存占用、功耗控制等）
+5.软硬件兼容性问题（芯片与客户主板、外设的协同工作问题）
+任职资格
+1.计算机、电子工程、软件工程等相关专业在读研究生， Linux/Android 系统技术支持或开发经验
+2.了解 Linux 系统原理：熟悉 Linux 内核架构（进程管理、内存管理、设备模型）、驱动开发流程，能独立分析内核日志（dmesg、kmsg）和调试工具（gdb、strace）输出。
+3.了解 Android 系统架构：熟悉 Android Framework、HAL 层工作机制，掌握 ADB、Logcat、Systrace 等调试工具，了解 CTS/GTS 测试标准与问题修复方法。
+4.具备扎实的芯片与硬件知识：了解 CPU/GPU 架构、总线协议（PCIe、I2C、SPI 等）、外设接口原理，能看懂原理图者优先。
+
+截止日期：2027年03月06日
+招聘人数：1人",Linux PCIe I2C SPI 日志分析 技术支持,https://www.liepin.com/lptjob/80722209
+Android APP开发工程师,序写(天津)室内装饰设计有限公司,150-300元/天,天津-河西区,天津,学历不限,,90天前更新,liepin,"岗位职责：
+1、负责Android APP的前端开发工作，实现高质量的用户界面和交互体验；
+2、与产品和设计团队紧密合作，理解需求并转化为技术方案；
+3、参与代码复审，保证代码质量和稳定性；
+4、根据项目需求，进行功能模块的设计与开发；
+5、解决开发过程中的技术难题，持续优化现有产品。
+
+岗位要求：
+1、计算机相关专业，实习期间可全职到岗优先；
+2、熟悉Android开发，有实际项目经验者优先；
+3、掌握Java或Kotlin语言，熟悉Android开发框架；
+4、了解前端技术和用户体验设计原则，能够编写高质量的前端代码；
+5、具备良好的团队沟通能力和项目管理能力，能够适应快节奏的工作环境；
+6、对安卓和iOS双端应用开发有一定了解或有相关经验者优先。
+
+招聘人数：5人",Java Kotlin 技术方案 项目管理,https://www.liepin.com/lptjob/73656065
+Android ROM 开发实习生,北京讯通安添通讯科技有限公司,200-300元/天,北京-朝阳区,北京,硕士,,90天前更新,liepin,"岗位职责：
+负责 ROM 的裁剪开发维护；
+负责 framework 与系统 app 的开发维护；
+负责生产工具 cit 的开发维护；
+负责 uboot，lk，uefi 的开发维护。
+
+
+岗位要求：
+本科以上学历，计算机相关专业优先；25 届应届生优先。
+掌握 java，c，c++，kotlin 至少一种语言；
+了解 android 开发相关知识；
+有 app（demo 也可） 或 android 系统调试经验；
+有 linux 使用经验；
+有 android studio 使用经验。
+
+
+加分项：
+有过刷机经验；
+同时掌握 c + java；
+熟练使用 Linux 系统等；
+独立开发过软件。
+
+招聘人数：4人",Java C++ Kotlin Linux ROM,https://www.liepin.com/lptjob/63419811
+Android开发实习生,清枫(北京)科技有限公司,薪资面议,北京-朝阳区,北京,学历不限,,90天前更新,liepin,"职责描述：
+1.负责Max+&小黑盒 Android客户端功能模块的开发；
+2.分析优化手机客户端软件的性能，改进功能。
+
+
+任职要求：
+1.211、985院校计算机相关专业大四在校生，每周至少3天实习时间；
+2.熟悉Android，Java，理解面向对象的设计思想，良好的数据结构和算法基础，优秀的编码能力；
+3.学习能力强，具有良好的沟通能力和良好的团队合作精神；
+4.有良好的编码习惯，优秀的分析问题和解决问题的能力，对解决具有挑战性问题充满激情；
+5.有Android实际开发经验者优先；
+6.Dota、LOL、吃鸡玩家优先。
+
+招聘人数：1人",Java Dota LOL,https://www.liepin.com/lptjob/18584575
+移动端开发实习生（Android / IOS/React Native）,斯凯荣,200-300元/天,深圳-南山区,深圳,本科,,7月31日更新,liepin,"岗位职责
+1. 阅读并理解业务需求文档，参与需求评审会议
+2. 与 QA 团队协作，理解测试用例，协助还原和定位 Bug
+3. 查看线上/测试环境日志，根据日志信息辅助排查问题
+4. 编写并执行集成测试，覆盖模块间调用、接口联调等场景
+5. 辅助维护测试环境，记录测试结果并输出问题报告
+
+任职要求
+• 熟悉 Java 或 Kotlin 基础语法，能看懂 Android 项目代码
+• 了解 JavaScript / TypeScript 基础，能读懂 React Native 组件逻辑
+• 能使用 Logcat（Android）或 Metro 控制台查看日志，能根据 stack trace 定位错误位置
+• 有基本的 Git 操作能力（clone、branch、commit、PR）
+加分项
+• 做过 Android 或 React Native 的个人项目或课程作业
+• 了解 REST API 基础，使用过 Postman / curl 测试接口
+• 接触过任意测试框架（JUnit、Jest、Detox 等均可）
+• 有使用过 Jira、Linear 等项目管理工具
+• 能熟练使用 AI 工具辅助开发（如 GitHub Copilot、Claude、Cursor 等）
+
+截止日期：2026年08月31日
+招聘人数：1人",Java Kotlin JavaScript TypeScript React Native Git 测试用例 项目管理,https://www.liepin.com/lptjob/83892245
+Android开发实习生（2026应届生）,深圳市无限进制科技有限公司,180-250元/天,深圳-宝安区,深圳,本科,,7月28日更新,liepin,"岗位职责：
+1.负责公司Android端产品的应用开发，从需求分析、功能设计到编码实现、上线维护全程参与。
+2.优化移动端应用性能，包括但不限于内存管理、电量优化、流畅度提升，确保产品在各类移动设备上稳定运行。
+3.与后端团队协作，对接 API，实现移动端与服务器端的数据交互，保障数据传输安全、高效。
+
+任职要求：
+1.本科及以上学历，计算机相关专业，有扎实的计算机基础，熟悉Android开发者优先考虑。
+2.熟悉面向对象编程思想，熟悉至少一种主流的编程语言，熟悉常用设计模式和算法，有良好的代码风格与规范。
+3.具备良好的沟通能力和团队协作精神，能够快速在工作环境中高效完成任务。
+4.热爱技术，有持续学习的自驱力，对新鲜事物和技术保持探索精神。
+5.面向2026应届生，有转校招机会。
+
+招聘人数：1人",需求分析 API,https://www.liepin.com/lptjob/79882029
+Android开发实习生（2026应届生）,深圳市无限进制科技有限公司,180-200元/天,深圳-宝安区,深圳,本科,,90天前更新,liepin,"岗位职责：
+1.负责公司Android端产品的应用开发，从需求分析、功能设计到编码实现、上线维护全程参与。
+2.优化移动端应用性能，包括但不限于内存管理、电量优化、流畅度提升，确保产品在各类移动设备上稳定运行。
+3.与后端团队协作，对接 API，实现移动端与服务器端的数据交互，保障数据传输安全、高效。
+
+任职要求：
+1.本科及以上学历，计算机相关专业，有扎实的计算机基础，可参与实习者优先考虑，熟悉Android开发者优先考虑。
+2.熟悉面向对象编程思想，熟悉至少一种主流的编程语言，熟悉常用设计模式和算法，有良好的代码风格与规范。
+3.具备良好的沟通能力和团队协作精神，能够快速在工作环境中高效完成任务。
+4.热爱技术，有持续学习的自驱力，对新鲜事物和技术保持探索精神。
+5.面向2026应届生，实习3-4月后优秀者可进入校招。
+
+招聘人数：1人",需求分析 API,https://www.liepin.com/lptjob/79689477
+Android开发 26 届实习（提供转正机会）,云计算/大数据港股上市2000-5000人,200-250元/天,杭州-西湖区,杭州,学历不限,,90天前更新,liepin,"岗位职责：
+1. 参与Android平台的应用开发，进行代码编写、单元测试以及修复bug等工作；
+2. 与团队合作，进行应用的设计、开发和发布；
+3. 参与AI技术的研究与应用，提升应用的智能化水平；
+4. 积极参与团队的日常工作，提出建设性意见。
+
+任职要求：
+1. 熟练掌握Java、Kotlin、Dart等至少一种主流编程语言，对Android、Flutter、Weex等平台有深入了解；
+2. 对AI技术有浓厚兴趣，能够独立完成AI相关项目的开发和实施；
+3. 具备良好的学习能力、沟通能力和团队协作精神；
+4. 有实际开发经验者优先，愿意探索前沿技术。
+
+招聘人数：1人",Java Kotlin Flutter,https://www.liepin.com/lptjob/79364879
+Android移动开发实习生,豆瓣网,200-250元/天,北京-朝阳区,北京,本科,,90天前更新,liepin,"职位描述:
+负责开发和维护豆瓣Android移动客户端。
+
+职位要求:
+1、具有扎实的编程功底，良好的设计能力和编程习惯；
+2、熟悉 Android 框架；
+3、有独立钻研移动领域新技术的热情和能力； 
+4、至少保证半年以上的实习时间，了解kotlin，jetpack优先；
+5、豆瓣用户，对豆瓣产品有丰富的使用经验和热情。 
+
+招聘人数：1人",Kotlin Android,https://www.liepin.com/lptjob/78264227
+Android开发实习生,上海传墨信息科技有限公司,200元/天,上海-浦东新区,上海,本科,,90天前更新,liepin,"我们七年来致力于线上社交业务，专注海外 C 端用户市场，具备成熟的商业模式，核心项目已拥有超 2000 万高质量用户，产品下载量超千万；诚邀有兴趣的伙伴加入。
+
+【工作职责】根据需求完成常规产品Android端的开发任务，保证产品高质量上线；
+
+【基本要求】
+1、扎实的计算机基础知识，掌握android开发语言和主流技术框架
+2、较好的学习能力，认真踏实，富有自驱力，良好的团队协作能力
+3、情绪稳定，有一定的抗压能力
+
+【工作时间】朝九晚六，周末双休
+【工作设备】mac + 27 寸 Dell 4K 显示器
+【周边环境】13号线中科路地铁站旁 / 园区班车 ；周边小型商业广场，工作餐、园区食堂、便利店、咖啡聚集
+
+招聘人数：1人",mac Dell,https://www.liepin.com/lptjob/51052713
+Android开发工程师,拼多多集团-PDD,25-40k·16薪,上海-长宁区,上海,硕士,应届,7月15日更新,liepin,"27届研发提前批招聘中！不影响秋招正式批投递（7.6-8.23）
+
+互联网大厂，具有竞争力的起薪，HC多，项目实践机会多，流程推进速度快！
+
+ 
+岗位职责
+1、参与客户端日常需求分析与功能开发，持续优化用户体验与性能表现；
+2、参与客户端架构设计，包括多端统一架构、动态化技术建设、模块解耦与组件体系设计，提升系统的可维护性与研发效率；
+3、深度参与跨平台基础设施建设，如网络中间件、Native 容器、Hybrid 容器、音视频组件、动态化框架接入等；
+4、探索端侧智能（如 AIGC、端智能推荐、语音图像处理）相关能力的集成与优化，推动新技术在业务侧的落地。
+任职要求
+1、2027届毕业生，本科及以上学历，计算机相关专业，热爱技术与产品，有强烈的工程热情；
+2、具备扎实的计算机基础（数据结构、操作系统、计算机网络、编译原理等），熟练掌握至少一种主流编程语言，如Java、Kotlin、Swift、Objective-C 或C++；
+3、具备 iOS / Android 平台开发经验优先，理解系统底层运行机制，有良好的架构设计意识；
+4、熟悉多线程、异步编程、跨进程通信、组件化架构、染优化等关键技术，了解 Jetpack Compose / SwiftUI 等现代 UI 框架者优先；
+5、对 Flutter / React Native 等跨平台方案、边缘计算、端上 Al、低功耗与高性能优化等方向有一定了解或实践者优先；
+6、具备良好的学习能力、逻辑思维、沟通协作能力，乐于拥抱变化、追求技术突破。
+
+截止日期：2027年07月07日
+招聘人数：100人",AIGC Java Kotlin Swift C++ Flutter React Native 需求分析,https://www.liepin.com/lptjob/83963745
+Android开发,成都小马乐智科技有限公司,8-13k,成都-高新区,成都,本科,应届,90天前更新,liepin,"岗位工作：
+1.参与产品的移动端开发工作；
+2.参与研发团队敏捷开发流程，理解和响应产品需求
+
+岗位要求：
+1.熟练掌握java或kotlin开发，熟悉常见的数据结构和算法
+2.对技术充满热情，勇于尝试，有较强的学习能力； 
+3.能够独立发现、分析和解决问题的能力；
+4.掌握Android平台的开发流程和相关技术，能够独立开发内容类APP；
+5.踏实，有责任心，抗压能力强。
+
+截止日期：2027年03月04日
+招聘人数：1人",Java Kotlin,https://www.liepin.com/lptjob/80639291
+Android实习,成都小马乐智科技有限公司,100-200元/天,成都-高新区,成都,本科,,90天前更新,liepin,"岗位工作：
+1.参与产品的移动端开发工作；
+2.参与研发团队敏捷开发流程，理解和响应产品需求
+
+岗位要求：
+1.熟练掌握java开发，熟悉常见的数据结构和算法
+2.对技术充满热情，勇于尝试，有较强的学习能力和责任心；  
+3.较强的发现、分析和解决问题的能力；
+4.熟练掌握基本的算法与数据结构知识;
+5.熟悉Android平台的基本开发流程和相关技术。
+6.更期望可以长期稳定转正的人员！
+
+截止日期：2027年03月04日
+招聘人数：1人",Java,https://www.liepin.com/lptjob/80639223
+Android应用开发实习生（PICO视频）,抖音视界有限公司,500元/天,北京-海淀区,北京,硕士,,90天前更新,liepin,"职位描述：
+1、负责抖音XR和PICO视频相关业务的客户端研发工作；
+2、负责创新型XR操作系统的相关技术调研，学习并应用新技术，提升产品力；
+3、持续优化性能和打磨产品细节，提高产品体验；
+4、与产品经理配合，参与产品需求讨论，功能定义，给出合理的技术方案等。
+
+职位要求：
+1、2027届本科及以上学历在读，计算机、软件工程等相关专业优先；
+2、热爱并看好VR行业的未来，愿意在此领域持续钻研并成为专家；
+3、扎实的数据结构和算法基础；精通至少一门编程语言，包括但不限于：Java、Kotlin、C++、C#；
+4、对新技术保持热情，能够持续学习和应用新技术支持项目迭代演进；
+5、具有独立思考、发现问题与分析解决问题的能力；与产品经理，设计、能良好沟通，协同团队解决各类开发中的问题；
+6、加分项：
+1） 具有Android项目开发的经验；
+2） 具有U3D项目开发的经验；
+3） VR App开发经验
+
+招聘人数：1人",Java Kotlin C++ C# 技术方案 技术支持,https://www.liepin.com/lptjob/80032729
+Android客户端开发实习生,上海哔哩哔哩科技有限公司,200-300元/天,上海-杨浦区,上海,本科,,90天前更新,liepin,"校招客户端JD
+
+工作内容
+1. 参与客户端页面开发、交互实现，参与团队组件化沉淀等工作
+2. 参与产品需求评审，与设计师、后端工程师一起完成产品功能的开发，优化用户体验
+3. 负责或协助相关开发文档的撰写
+
+任职要求
+1. 本科及以上学历，计算机相关专业优先
+2. 热爱编程，具备扎实的JAVA基础，熟悉客户端需求评审及开发流程，具备一定的端项目经验
+3. 良好的编程习惯和代码风格，思路清晰，善于思考，乐于沟通，积极协作
+4. 有较强的学习能力，能够适应客户端技术的快速迭代
+5. 乐于沟通，具备较强的主动性和团队协作意识
+6. 熟悉 Android 研发基础，及各类Android UI框架
+7. 兼会iOS，有独立的博客或完整作品优先
+8. 熟练使用 Git 等代码管理工具
+
+招聘人数：2人",Java Git Android,https://www.liepin.com/lptjob/76796151
+Android开发工程师,北京海伴科技有限公司,120-180元/天,北京-海淀区,北京,本科,,90天前更新,liepin,"本科及以上计算机相关专业，具备优秀的编程和算法能力，
+负责AI大模型C端产品App研发。
+至少熟悉Android/iOS/前端一端技术框架，有过至少一端项目实际经验。
+注：，以线上办公为主，偶尔线下办公。
+
+招聘人数：1人",大模型 iOS,https://www.liepin.com/lptjob/70343999
+校招软件研发工程师（Android） (职位编号：CT0007),科技金融其他2000-5000人,10-15k,南京-建邺区,南京,本科,应届,6月8日更新,liepin,"工作职责
+1、负责公司移动(Android)项目的开发迭代与维护工作；
+2、负责项目相关的需求沟通，协调资源，项目进度把控；
+3、参与公司移动框架的重构与维护工作；
+4、负责组内疑难问题的攻克与移动端新技术方向调研。
+任职资格
+1、本科及以上学历，计算机相关专业；
+2、良好的面向对象思想，扎实的Java语言功底；
+3、熟悉网络通信原理，熟悉多线程、熟悉常用的设计模式；
+4、有良好的编码习惯，有良好的单元测试习惯，有技术专研欲望；
+5、有良好的逻辑思维能力、沟通能力强，有责任心；
+6、了解Android项目开发，熟悉Kotlin语言者优先。
+
+截止日期：2027年06月08日
+招聘人数：1人",Java Kotlin Android,https://www.liepin.com/lptjob/56286491
+Android实习生,二维火,180-250元/天,杭州-拱墅区,杭州,本科,,90天前更新,liepin,"1.参与开发与维护Android客户端产品；
+2.熟悉整个项目的开发平台，参与优化与维护；
+3.整理文档与规范；
+4.熟悉Flutter并有相关开发经验的优先；
+5.统招本科及以上学历，2023年6月及以后毕业；
+6.全职实习至少6个月以上。
+
+招聘人数：1人",Flutter,https://www.liepin.com/lptjob/54801313
+[字节跳动青岛]Android开发实习生,北京小鸟看看科技有限公司,200-300元/天,青岛-崂山区,青岛,本科,,90天前更新,liepin,"工作职责:
+1、协助及独立完成项目软件的需求分析、编码测试等工作；
+2、完成各项文档的编写、软件开发以及其他任务。
+任职资格:
+1、2023年及以后毕业在校学生；本科及以上，计算机、电子，自动化，通信等相关专业
+2、熟悉Android开发
+3、熟悉C/C++；了解常用的数据结构，算法和面向对象的设计模式
+4、有ACM竞赛经验者加分
+
+招聘人数：1人",C++ 需求分析,https://www.liepin.com/lptjob/48082951
+Android,科技金融其他2000-5000人,12-18k,南京,南京,本科,应届,90天前更新,liepin,"职责描述：
+
+
+
+
+任职要求：工作职责
+1、负责公司移动(Android)项目的开发迭代与维护工作；
+
+2、负责项目相关的需求沟通，协调资源，项目进度把控；
+
+3、参与公司移动框架的重构与维护工作；
+
+4、负责组内疑难问题的攻克与移动端新技术方向调研。
+
+任职资格
+1、本科及以上学历，计算机相关专业；
+
+2、良好的面向对象思想，扎实的Java语言功底；
+
+3、熟悉网络通信原理，熟悉多线程、熟悉常用的设计模式；
+
+4、有良好的编码习惯，有良好的单元测试习惯，有技术专研欲望；
+
+5、有良好的逻辑思维能力、沟通能力强，有责任心；
+
+6、了解Android项目开发，熟悉Kotlin语言者优先。
+
+招聘人数：5人",Java Kotlin Android,https://www.liepin.com/lptjob/34965759
+iOS/Android开发工程师-27届客户端研发【HR直推，超高留用率】,拼多多集团-PDD,25-45k·16薪,上海-长宁区,上海,本科,应届,7月21日更新,liepin,"【岗位职责】
+1、参与客户端日常需求分析与功能开发，持续优化用户体验与性能表现；
+2、参与客户端架构设计，包括多端统一架构、动态化技术建设、模块解耦与组件体系设计，提升系统的可维护性与研发效率；
+3、深度参与跨平台基础设施建设，如网络中间件、Native 容器、Hybrid 容器、音视频组件、动态化框架接入等；
+4、探索端侧智能（如 AIGC、端智能推荐、语音图像处理）相关能力的集成与优化，推动新技术在业务侧的落地。
+【任职要求】
+1、2027届毕业生，本科及以上学历，计算机相关专业，热爱技术与产品，有强烈的工程热情；
+2、具备扎实的计算机基础（数据结构、操作系统、计算机网络、编译原理等），熟练掌握至少一种主流编程语言，如Java、Kotlin、Swift、Objective-C 或C++；
+3、具备 iOS / Android 平台开发经验优先，理解系统底层运行机制，有良好的架构设计意识；
+4、熟悉多线程、异步编程、跨进程通信、组件化架构、染优化等关键技术，了解 Jetpack Compose / SwiftUI 等现代 UI 框架者优先；
+5、对 Flutter / React Native 等跨平台方案、边缘计算、端上 Al、低功耗与高性能优化等方向有一定了解或实践者优先；
+6、具备良好的学习能力、逻辑思维、沟通协作能力，乐于拥抱变化、追求技术突破。
+
+截止日期：2027年07月21日
+招聘人数：999人",AIGC Java Kotlin Swift C++ Flutter React Native 需求分析,https://www.liepin.com/lptjob/84290715
+昆仑万维-客户端开发工程师 IOS/Android（校招）(A233269),互联网沪深A股上市10000人以上,20-30k·13薪,北京,北京,本科,应届,90天前更新,liepin,"职位描述：
+1. 参与公司所属 App 的需求分析、功能开发与维护；
+2. 在资深工程师的指导下，应用最新的移动端开发技术，如Jetpack Compose，SwiftUI 等；
+3. 参与应用性能优化、用户体验改进等工作，解决开发中遇到的技术问题；
+4. 撰写相关技术文档，确保代码质量和可维护性；
+5. 积极参与团队讨论，分享技术心得，与团队共同进步。
+
+职位要求：
+1. 计算机科学、软件工程或相关专业本科及以上学历；
+2. 熟悉 kotlin/swift 语言，具备良好的编程习惯和代码风格；
+3. 熟悉移动应用开发生命周期，对 iOS或Android 平台常见组件有实践经验；
+4. 具备良好的 UI 开发能力，能够实现常见的用户界面和动画效果；
+5. 了解常用的数据结构和算法，具备良好的问题分析和解决能力。
+
+截止日期：2026年11月28日
+招聘人数：1人",Swift Kotlin 需求分析 技术文档 App Compose SwiftUI UI,https://www.liepin.com/lptjob/78801997
+（面向2021年应届毕业生和2020年毕业生，Java\.net\IOS\Android开发方向均可）,科力创新软件(广州)有限公司,8-12k·13薪,广州,广州,大专,应届,90天前更新,liepin,"任职要求：
+1. 计算机或相关专业大专以上学历（有本科学历者优先）；
+2. 具有扎实的基础和良好的编程习惯，熟练掌握Java\.net\IOS\Android其中一种或多种编程语言，有相关实习或工作经验优先考虑；
+3. 具备良好的英语书面沟通能力；
+4. 积极进取，有责任心，渴望学习新知识和新技术，学习能力和理解能力强；
+5. 具备分析问题、解决问题的能力；
+6. 良好的沟通和团队合作能力。
+欢迎优秀应届毕业生投递简历。
+
+公司福利：
+1、公司实行双休日，节假日根据国家规定放假；
+2、年假：优于国家规定的每年10天年假（从入职月份起算，试用期过后可以享受）；
+3、五险一金：公司为员工购买养老、医疗、工伤、失业和生育、住房公积金；
+4、礼物：在职员工结婚、生育小孩，公司为员工送上一份礼物；
+5、周年免费体检；
+6、活动：每月下午茶、体育活动，不定期举办公司层面和部门层面的活动及聚餐；
+7、技术等资格考试，深造培训等费用津贴；
+8、弹性工作时间，8小时工作制，非996、007，提供餐费补贴、车费补贴等。
+
+
+招聘人数：1人",Java 培训 net IOS,https://www.liepin.com/lptjob/37680135
+UI/UX 设计师（iOS/Android/Mac/Web 产品设计师/界面交互设计师）,iDaily 每日科技,120-200元/天,上海-黄浦区,上海,本科,,7月29日更新,liepin,"【实习岗位以转正为前提，谢绝短期实习】 
+
+iDaily 每日科技旗下产品迄今获得苹果推荐超过300次，旗下多款 App 获得苹果年度应用荣誉，拥有 倒数日、iCity、iDaily、iMuseum、灵感笔记等知名 App，累计用户超过4亿。
+
+公司极为重视设计美术领域的改进和提升，旗下每一款 App 在设计上都精心打磨，并以优异的审美和体验获得苹果应用商店和用户的数百万计好评。
+
+公司创立迄今始终坚持诚恳、专业、不懈努力的团队氛围，为具有天赋的人才提供稳定成长空间和友善的学习环境，致力于组建价值观相互认同、协作能力出色、持续进化蜕变的组织结构，从而实现更长远的理想与目标。
+
+岗位职责：
+- 参与团队产品 UI/UX 美术品质迭代与优化
+- 参与团队视觉形象、主题等美术项目的设计与绘制
+- 参与上亿用户规模 App 的发展与创造
+
+岗位要求：
+- 手绘能力出色，构图及色彩能力扎实
+- 熟练使用设计软件，对工具掌握娴熟
+- 好奇心强烈，自学能力强，理解力强
+- 对 App 设计有浓厚兴趣
+- 强迫症，细节控，乐观开朗
+- 拥有改变世界的理想
+
+优先条件
+- 对设计和艺术领域有系统性学习
+- 具备英语阅读能力
+
+招聘人数：1人",iDaily App iCity UI UX,https://www.liepin.com/lptjob/75869245
+移动端开发工程师-iOS/Android（2026届实习）,携程集团,150元/天,上海,上海,本科,,90天前更新,liepin,"招聘对象：本、硕、博。
+
+毕业时间：2025 年 9 月至 2026 年 8 月期间毕业（中国大陆以毕业证为准，非中国大陆地区以教育部学位认证为准）的学生。
+
+
+
+你将会负责：
+
+1、负责移动终端设备应用程序的开发和技术实现；
+
+2、提高移动终端设备应用程序的稳定性/性能/可维护性等；
+
+3、研究移动端新技术，转化更多价值。
+
+
+
+我们期望你：
+
+1、专业基础知识扎实，良好的C++/OC 语言基础，对面向对象概念有深入理解，熟练掌握基本的数据结构和算法；
+
+2、有一定的编码和调试经验，懂得如何调试程序优先；
+
+3、了解HTTP和Socket编程，了解常见的客户端开发技术，如使用Object-C进行应用开发；
+
+4、具备实际项目经验（培训项目除外），能够独立解决项目中遇到的疑难杂症、在项目中发挥积极作用；
+
+5、有灵活的思维和多角度考虑问题的能力。
+
+招聘人数：1人
+
+职位来源：该职位来自第三方企业官网",C++ 培训 OC,https://www.liepin.com/lptjob/73665897
+Android,上海哔哩哔哩科技有限公司,300-500元/天,上海-黄浦区,上海,本科,,90天前更新,liepin,"岗位职责：
+1、学习移动端视频剪辑APP产品和业务；
+2、学习移动端相关编码技能；
+3、利用所学知识，参与相关产品需求分析、工程设计及编码工作；
+
+岗位要求：
+1、本科及以上学历，计算机或软件工程相关专业；
+2、至少掌握一门编程语言；
+3、扎实的计算机基础，掌握常用数据结构、算法以及操作系统知识。
+4、英文读写能力强，习惯阅读官方文档；
+5、思维开放活跃，做事踏实靠谱，有良好的沟通能力；
+6、有移动端相关项目开发经验者优先；
+7、热爱或熟悉视频剪辑者优先；
+8、热爱互联网行业
+
+招聘人数：2人",需求分析,https://www.liepin.com/lptjob/49644823
+IOS/Android开发工程师,通信设备10000人以上,15-20k,南京-雨花台区,南京,本科,应届,90天前更新,liepin,"职责描述：
+1、可以对单点算法性能做出极致优化，或具备全局视野，能从E2E考虑算法引用竞争力体现
+2、负责移动终端设备人工智能、大数据挖掘算法和解决放哪的研究、设计、验证和交付
+3、对传感器在专业运动健康、生物识别、情景感知等技术做出优秀的用户体验
+任职要求：
+1、具备人工智能算法、大数据算法、数据结构算法设计和开发能力
+2、具备前沿人工智能技术跟踪和业界趋势的跟踪和算法应用能力
+3、至少掌握Java/Python/C其中一种开发语言，掌握Hadoop开源工具使用更佳
+4、至少掌握一种数据挖掘工具和深度模型训练工具，如TensorFlow、caffe、matlab
+5、具备较强的动手实践能力，善于沟通，富有合作精神，能够快速把想法用算法程序实现
+
+招聘人数：1人",Java Python Hadoop TensorFlow Caffe MATLAB,https://www.liepin.com/lptjob/42621873
+Android,上海禾苗通信技术有限公司,10-12k·13薪,上海-浦东新区,上海,学历不限,应届,90天前更新,liepin,"职责描述：
+负责软件技术类相关工作；
+
+任职要求：
+1.掌握Java或C语言
+2.学习能力强，专业知识扎实
+3.综合素质优秀
+4.有相关学习和实际项目经验者优先考虑
+
+招聘人数：1人",Java C语言,https://www.liepin.com/lptjob/30355927
+软件开发,中科院自动化研究所,200-250元/天,北京-海淀区,北京,本科,,90天前更新,liepin,"职位描述:
+安卓平台上的移动应用程序设计、开发和维护。
+职位要求:
+1、 本科或以上学历，计算机和电子、信息等相关专业;
+2、熟悉Java或Kotlin编程语言;
+3、熱悉Android Studio;
+4、有了解或熟悉安卓App开发、大疆M-SDK或无人机开发经验的优先;
+5、 具备良好的问题解决能力和团队合作精神;
+6、保证每周实习时间4-5天。
+
+招聘人数：2人",Java Kotlin Studio,https://www.liepin.com/lptjob/65163167
+移动开发工程师,上海以太之心科技有限公司,200-400元/天,上海-浦东新区,上海,本科,,7月7日更新,liepin,"核心职责
+1、参与公司移动端产品（iOS/Android）的架构设计与开发，负责核心功能模块的编码实现；
+2、与产品、设计及后端团队紧密协作，完成需求评审、技术方案设计与接口联调；
+3、参与移动端基础组件与工具库的封装，提升开发效率与代码复用性；
+4、参与性能优化、崩溃治理、包体积优化等客户端稳定性工作；
+编写技术文档，参与代码审查，持续提升代码质量；
+5、关注移动端新技术动态，协助团队推进技术选型与演进。
+
+我们希望你：
+1、本科及以上学历在读，计算机科学、软件工程或相关专业，可以长期实习优先；
+2、熟悉至少一种移动端开发语言（Swift / Kotlin / Dart / TypeScript 不限），具备良好的编程习惯；
+3、了解 iOS 或 Android 平台的基础开发框架（UIKit / SwiftUI / Jetpack Compose / Android Framework），有实际开发经验；
+4、理解 HTTP/HTTPS 协议、RESTful API 设计规范，能独立完成后端接口联调；
+5、熟悉 Git 版本控制，了解 GitFlow 或 Trunk-Based 开发流程；
+6、具备良好的学习能力、逻辑思维和问题分析能力，有较强的自驱力。
+
+加分项
+1、有完整的 App 上架经验（App Store / 各安卓应用市场），或 GitHub 上有可展示的移动端项目；
+2、熟悉 Flutter / React Native 等跨平台框架，理解其渲染原理与性能优化策略；
+3、有 AI / Agent / 大模型应用 相关开发经验（如调用 LLM API、AI 对话界面、Function Calling 等）；
+4、了解 WebSocket / 长连接 机制，有即时通讯 / 实时推送相关开发经验；
+5、熟悉 Docker、Linux 基础命令，了解服务端基础概念；
+6、有开源项目贡献或个人技术博客；
+7、了解 CI/CD 流程，有自动化测试实践经验。
+
+我们的优势：
+1、有中厂竞争力的薪资
+2、核心业务参与机会，不做边缘打杂，直接参与产品功能开发
+3、AI Agent 前沿赛道的行业视野与技术积累
+4、工程师带教，技术成长速度快
+5、弹性工作时间
+6、实习表现优秀者可获 正式 Offer 转正机会
+
+
+
+截止日期：2027年07月07日
+招聘人数：1人",Swift Kotlin TypeScript Git Flutter React Native 大模型 LLM WebSocket Docker Linux CI/CD,https://www.liepin.com/lptjob/83950511
+前端实习生,上海以太之心科技有限公司,200-400元/天,上海-浦东新区,上海,本科,,7月7日更新,liepin,"核心职责
+1、参与公司移动端产品（iOS/Android）的架构设计与开发，负责核心功能模块的编码实现；
+2、与产品、设计及后端团队紧密协作，完成需求评审、技术方案设计与接口联调；
+3、参与移动端基础组件与工具库的封装，提升开发效率与代码复用性；
+4、参与性能优化、崩溃治理、包体积优化等客户端稳定性工作；
+编写技术文档，参与代码审查，持续提升代码质量；
+5、关注移动端新技术动态，协助团队推进技术选型与演进。
+
+我们希望你：
+1、本科及以上学历在读，计算机科学、软件工程或相关专业，可以长期实习优先；
+2、熟悉至少一种移动端开发语言（Swift / Kotlin / Dart / TypeScript 不限），具备良好的编程习惯；
+3、了解 iOS 或 Android 平台的基础开发框架（UIKit / SwiftUI / Jetpack Compose / Android Framework），有实际开发经验；
+4、理解 HTTP/HTTPS 协议、RESTful API 设计规范，能独立完成后端接口联调；
+5、熟悉 Git 版本控制，了解 GitFlow 或 Trunk-Based 开发流程；
+6、具备良好的学习能力、逻辑思维和问题分析能力，有较强的自驱力。
+
+加分项
+1、有完整的 App 上架经验（App Store / 各安卓应用市场），或 GitHub 上有可展示的移动端项目；
+2、熟悉 Flutter / React Native 等跨平台框架，理解其渲染原理与性能优化策略；
+3、有 AI / Agent / 大模型应用 相关开发经验（如调用 LLM API、AI 对话界面、Function Calling 等）；
+4、了解 WebSocket / 长连接 机制，有即时通讯 / 实时推送相关开发经验；
+5、熟悉 Docker、Linux 基础命令，了解服务端基础概念；
+6、有开源项目贡献或个人技术博客；
+7、了解 CI/CD 流程，有自动化测试实践经验。
+
+我们的优势：
+1、有中厂竞争力的薪资
+2、核心业务参与机会，不做边缘打杂，直接参与产品功能开发
+3、AI Agent 前沿赛道的行业视野与技术积累
+4、工程师带教，技术成长速度快
+5、弹性工作时间
+6、实习表现优秀者可获 正式 Offer 转正机会
+
+
+
+截止日期：2027年07月07日
+招聘人数：1人",Swift Kotlin TypeScript Git Flutter React Native 大模型 LLM WebSocket Docker Linux CI/CD,https://www.liepin.com/lptjob/83697797
+Flutter 客户端开发实习生 · iOS 方向,爱无止境(上海)科技有限公司,250-400元/天,上海-杨浦区,上海,本科,,6月4日更新,liepin,"Flutter 客户端开发实习生 · iOS 方向
+关于 ANIMA
+ANIMA 是爱无止境(AIINFINITY)正在打造的下一代 AI 情感伴侣 OS——我们想做的是实体化的《Her》。
+公司由复旦人工智能 + 金融双学位连续创业者发起,CEO 来自李佳琦直播间,CTO 是连续创业者/全栈架构师/AI 极客。我们已与央视动漫集团达成全球首家 AI 潮玩战略合作,登榜 Wteam ai00榜单、京东首届AI硬件创新大赛探索者赛道的全国十强,并获得数百万元种子轮融资。
+ANIMA App 安卓端已完成核心功能开发,我们正在筹备 iOS 端,推动产品在今年内正式上线 App Store 和 TestFlight——你将是 iOS 这条线最早的核心成员之一。
+
+---
+这份实习,你会做什么
+- 基于现有 Flutter 项目,参与 iOS 端功能适配、问题修复和体验优化
+- 负责 Flutter App 在 iOS 设备上的运行调试、构建配置、依赖处理和兼容性排查
+- 配合后端完成接口联调,包括网络请求、用户状态、实时通信等
+- 参与移动端音频、权限、后台能力、通知等 iOS 平台能力的调研与实现
+- 编写或维护 Flutter 与 iOS 原生之间的通信逻辑(MethodChannel / Platform Channel)
+- 与产品、设计、后端、Android 端同学协作,推动核心功能在 iOS 上的体验对齐
+- 编写必要的开发文档、问题记录和 iOS 适配说明
+
+---
+我们期待你具备
+- 熟悉 Flutter / Dart,有 Flutter 项目开发经验
+- 了解 Flutter 常见开发流程(页面开发、状态管理、路由、网络请求、异步处理等)
+- 了解 iOS 基础开发环境,能使用 Xcode 进行真机调试、构建和问题排查
+- 了解 iOS 工程配置、证书签名、权限配置、CocoaPods / Swift Package 等基础内容
+- 了解 Swift 或 Objective-C 基础,能配合完成简单 iOS 原生能力接入
+- 熟悉 REST API、JSON、Token 鉴权等基础概念
+- 较强的学习能力与问题拆解能力,能基于现有 Android 端逻辑完成 iOS 端适配
+- 能稳定实习,每周至少 4 天,实习周期 3 个月以上优先
+
+---
+这些会让你加分
+- 有 Flutter App 从开发到真机运行、打包、测试的完整经验
+- 熟悉 Riverpod、Provider、Bloc、GetX 等任一 Flutter 状态管理方案
+- 有 WebSocket、IM、实时通信、音频录制/播放相关经验
+- 熟悉 iOS 原生能力(AVFoundation、通知、后台任务、权限管理等)
+- 有 Flutter Platform Channel / MethodChannel 开发经验
+- 了解 iOS 上架、TestFlight、证书、Profile、打包流程
+- 有 AI 应用、语音交互、聊天类 App 或智能硬件配套 App 开发经验
+- 对 AI 产品、智能交互、虚拟角色或语音类产品感兴趣
+
+---
+加入 ANIMA,你会得到什么
+真实的产品,真实的用户——这不是 PPT 项目。ANIMA 将会上线 App Store,你写的每一行代码都会被真实用户使用。你会经历一款产品从 Demo 到上架、从 0 到第一批用户、从打磨到爆发的完整生命周期。
+核心技术深度参与——iOS 端整体由你深度参与从 0 到 1 的建设。你会触碰移动端音频实时通信、Platform Channel、屏幕共伴权限适配、AVFoundation、TestFlight 上架——这些都是大厂实习里基本接触不到的核心能力。
+离 CTO 最近的位置——直接和 CTO(连续创业者、AI 极客、多次 Hackathon 冠军)对接,不是层层汇报。你提出的技术方案能直接被采纳。
+写在简历上的差异化项目——「ANIMA」这个项目可以写在你 GitHub、简历、未来面试里——它会是一个能让你和大厂实习生不一样的项目。如果你未来想去任何 AI 应用/创业方向,这段经历的价值会持续放大。
+真正的成长加速——早期创业公司的两个月,等于大厂半年。你会接触产品、设计、运营、数据等所有跨职能协作,不只是写代码。
+长期可能性——表现优秀者优先获得转正机会及 Founding Engineer 路径。作为公司早期核心成员之一,转正后将享受期权激励,与公司长期成长深度绑定。
+
+---
+适合什么样的人
+如果你是这样的人,我们想认识你——
+- 你不只想""完成任务"",你想做出自己也愿意用的产品
+- 你看到 iOS 上的兼容性问题不是""想绕过去"",而是""想搞明白为什么""
+- 你愿意读懂别人的代码,在现有工程上继续建造,而不是从头重写
+- 你对 AI 时代的产品形态有自己的想法,愿意把它写进代码里
+- 你能接受早期创业公司的快速迭代和不确定性——并把这种不确定性当作机会而不是负担
+
+---
+技术栈
+Flutter / Dart · iOS / Xcode · Swift / Objective-C · REST API / WebSocket · JSON / Token 鉴权 · Platform Channel · iOS 权限与系统能力适配 · Git / GitHub
+
+截止日期：2027年06月04日
+招聘人数：1人",Flutter CoAP Swift WebSocket Git Gin 技术方案,https://www.liepin.com/lptjob/83172645
+测试工具开发岗（图像语音识别）,整车制造1000-2000人,12-25k·15薪,北京-大兴区,北京,硕士,应届,90天前更新,liepin,"岗位职责：
+1、负责座舱域测试自动化业务需求的对接；
+2、负责座舱域测试自动化工具链的整体规划与设计；
+3、负责座舱域图像识别/判定算法模型/工具的训练与开发；
+4、负责座舱域语音识别/判定算法模型/工具的训练与开发；
+5、负责多模态模型在座舱域测试的落地应用与优化；
+6、负责Monkey类探索性测试工具在座舱域测试的落地应用与优化；
+7、负责座舱域测试设备的集成；
+8、负责测试APP的开发工作。
+岗位要求：
+1、硕士及以上学历，计算机、车辆、电子、自动化、人工智能、软件工程等相关专业；
+2、编程：精通 Python/C++/Java 任一语言；
+3、图像：熟悉常见的图像处理算法和框架，如OpenCV、YOLOv5/v8、Transformer Detection等；
+4、语音：熟悉常见的音频识别算法和框架，如Kaldi/WeNet/Whisper 流程，理解 STFT、MFCC、VAD、CTC/Attention，会用 Python 实现端到端识别推理；
+5、多模态：熟悉 CLIP、BLIP、Visual-BERT 等跨模态模型微调及量化部署；
+6、Monkey/探索性测试：应用/改造过 Android Monkey、FastBot或自研随机模型，具备状态机、覆盖率引导、强化学习经验；
+7、App开发：熟悉移动端应用开发，具备 Flutter/React Native/安卓原生开发经验，熟悉 Android Automotive、QNX、Linux 多屏座舱架构，熟悉 CAN/LIN/Ethernet 诊断及日志抓取；
+8、熟悉至少一种主流的深度学习框架，如TensorFlow或PyTorch 以及CUDA ；
+9、具备扎实的研发功底，有在机器学习领域会议或期刊（CVPR， ICCV，ECCV， Neuro IPS，RSS， AAAI 等）上发表论文者优先；或在相关领域的学术竞赛（ImageNet、COCO、Kitti、Waymo等等）中取得较好成绩者。
+ 
+
+截止日期：2027年02月06日
+招聘人数：10人",语音识别 Python C++ Java OpenCV Transformer BERT Flutter React Native Linux CAN 深度学习,https://www.liepin.com/lptjob/80218201
+手机测试工程师（实习生）,中软国际科技,120元/天,东莞-长安镇,东莞,学历不限,,90天前更新,liepin,"岗位职责：
+1、负责安卓手机相关测试（各个模块），对发现的问题进行提交，验证；针对修改点制定测试方案，保障修改有效性、无副作用；
+2、 熟悉手机操作系统，UI、控制中心、设置、Android保活机制、OTA升级等模块测试
+3、参与测试用例执行，不漏测，不误测；
+3、研究测试新技术和方法，提高测试效率、覆盖率；
+4、以用户思维导向对手机整机进行测试，具备识别缺陷能力。
+
+岗位职责：
+1、专科及以上学历实习生，计算机专业相关；
+2、熟悉软件测试流程，熟悉电脑办公软件，会搭建测试环境；
+3、了解Android系统基础知识
+4、熟练掌握软件测试工具，有较强的品质意识；
+5、有OPPO&realme手机整机测试经验者优先。
+
+招聘人数：1人",测试用例 UI,https://www.liepin.com/lptjob/71568277
+初级Java开发工程师,陆航科技(大连)有限公司,4-5k,大连-甘井子区,大连,本科,应届,5月20日更新,liepin,"工作内容：
+安卓车载多媒体（音频、视频、车设、辅助驾驶等）相关软件开发；
+
+需求岗位：2026应届毕业生，计算机、软件工程等相关专业
+
+职位要求：
+1、 熟练掌握Java 语言；
+2、了解Spring/Spring Boot;
+3、熟练使用Git等开发工具；
+4、了解Linux基础命令或Android 开发基础；对嵌入式环境有一定认知者优先
+
+综合素质：
+1、逻辑清晰，学习能力强，能适应车载软件开发严谨、高可靠性的开发要求
+2、良好的团队协作意识和问题解决能力
+
+我们提供：
+• 1对1导师制+技术培训
+•五险一金、弹性工作制
+•参与量产级车载产品落地的技术实现机会
+
+截止日期：2027年05月19日
+招聘人数：1人",Java Spring Spring Boot Git Linux 培训,https://www.liepin.com/lptjob/82647319
+电子/电器工程师,博世汽车部件(苏州)有限公司,10-13k·15薪,常州,常州,硕士,应届,90天前更新,liepin,"Job Responsibilities：
+1. Follow up new product failure analysis design and release.
+追踪新产品的分析的方案设计，分析设备的安装放行
+2. Familiar with CANoe，oscilloscope, spectrum analyzer, RF signal generator and Android debug
+熟悉CAN诊断工具，示波器，频谱仪，射频信号发生器的使用和安卓系统QNX的调试经验，
+3. More fast analyse via SW analyse, HW analyse by osciocope check and ABA cross check.Reduce quality batch failure risks
+通过产品软件诊断，硬件分析，光学检查，ABA 焊接换料来更快更准的分析出不良，降低产品潜在报废风险，提前预防和预警批量问题
+4. Speed up by using digital analysis tool, quality analysis tool, FTA, ABA, SPC, Fishbone, 5 why,correlation analysis and DoE validation
+利用数据化赋能分析, 质量数据分析工具，FTA，ABA SPC,Fishbone，5 why，相关性分析和假设检验,DoE验证
+5. Common failure analysis and reason management, continuously improve, prepare analysis working instruction and FMEA and control plan
+常见失效问题和原因的管理，持续改善, 准备失效分析作业指导书, FMEA, 控制计划
+6. Responsible for failure accuracy improvement; efficiency improvement.
+负责失效分析准确性的提升; 失效分析效率的效率改善优化
+7. Regular meeting with R&D; global plant to review defined topics and tasks status
+定期和研发一起讨论任务和工作的进展
+8. Responsible for analysis tool develop, familiar at least one coding language, LabVIEW, C#, etc.
+负责失效分析小程序的开发，熟悉使用至少一种上位机测试程序开发语言，例如LabVIEW, C#
+9. Responsible for failure analysis FTA library. Record archiving, record traceability, Standard and AI enabling.
+建立失效分析的FTA，分析数据归档，失效分析标准化流程化追溯化流程化模块化AI化
+10. Training and coach technicians; Assignments of special tasks.
+培训指导测试技术员，以及其他可能分配的特殊任务
+
+
+
+截止日期：2027年03月10日
+招聘人数：1人",CAN ROS Git C# 方案设计 数据分析 培训,https://www.liepin.com/lptjob/80796765
+技术合伙人,南京确安工业技术服务有限公司,6-15k,苏州,苏州,学历不限,应届,90天前更新,liepin,"1.	公司简介：定制工业服务解决方案
+确安工业服务于2011年成立于南京，主要业务是向工业企业提供直接、间接物料，专业管理咨询和其它工业服务，目前主要客户在南京、上海和苏州，大部分客户为外资企业。为了实现公司的快速发展和业务转型，公司确定开发和利用互联网工业服务应用平台，更好更快地为制造企业，特别是中小型制造企业服务：
+	提供全流程的物料管理解决方案
+	提供有关生产成本、节能降耗、产能提升和设备可靠性方面的专业咨询
+2.	职位说明：
+每个成员都是核心团队，只是分工不同，主要职位包括互联网项目/产品经理、Andriod和iOS系统工程师，架构师，UI设计工程师，后台和前端技术开发工程师，主要职责包括：
+	负责和团队成员一起研发、开发和实施整个平台和相关的应用
+	负责协调项目进度，控制预算
+	负责平台用户、客户和供应商的系统对接
+3.	期望特质：
+正直诚实，具有创业勇气，刻苦钻研，积极主动，结果导向，团队合作
+4.	教育和工作背景：
+	大学本科以上，计算机软件、信息工程、物联网相关专业
+	熟悉Android，或iOS开发, 或JAVA, 或PHP, 和数据库SQL
+	有APP开发，ERP、CRM、MES、任务和OKR系统开发或实施经验优先
+5.	薪资参考：底薪+股票期权+项目奖金
+
+核心价值观
+	信任和承诺：我们是一个创业性组织，信任是一个组织为了实现共同目标的开始，承诺积极有效的沟通，提供公正平等的机会，和每个人分享利益
+	成就和责任：团队的成就来自于每个人的成功和失败的分享，时刻保持奋发进取之心，互相帮助，团队协作，并积极履行社会责任 
+	安全和合规：确保每个人的健康和安全，保护我们的环境；遵循商业道德，并始终恪守正直诚实的经营之道
+	创新和客户：敏锐洞察客户的需求和环境的变化，不断创新，为客户和合作伙伴的满意和成功持续不断地改进，才是可持续发展之道
+求：
+
+招聘人数：2人",Java PHP SQL 合规 ERP CRM MES,https://www.liepin.com/lptjob/28411639
+软件开发工程师,计算机软件天使轮50-99人,7-14k·13薪,沈阳-浑南区,沈阳,本科,应届,7月3日更新,liepin,"一、岗位职责
+1、负责智能座舱系统（Android/Linux/QNX）的 HAL、Framework、Service 以及智能座舱系统中 Service、Application 的开发工作，涵盖从架构搭建到上线部署的各个环节，确保产品高质量交付。
+2、依据项目需求，精准完成软件的系统分析与架构设计，撰写详尽、规范的设计文档，为后续开发提供清晰指引。
+3、严格按照设计文档，高效完成代码的编写、调试及测试工作，保证代码的稳定性、可读性和可维护性。
+二、岗位要求
+1、计算机及相关专业，本科及以上学历，对编程充满热忱，具备扎实的专业基础。拥有汽车行业软件开发经验者优先考虑，能快速适应车载软件的开发环境与业务逻辑。
+2、熟练掌握常用的数据结构和算法，能够灵活运用各种设计模式优化代码结构，提升系统性能。
+3、精通 C/C++ 编程语言，对 STL、MVVM 等原理有深刻理解，或者熟练掌握 JAVA，熟悉 Android App 应用开发框架，理解 Android 四大组件及 MVVM 框架。
+4、熟练掌握至少一种开发环境，对 Android Studio、Gradle 以及 docker、shell、make、gcc、gdb、git 等工具运用娴熟，能够高效完成开发任务。
+5、熟悉至少一种操作系统，深入理解文件系统、内存管理、网络 IO、进程间 RPC 等基本原理。
+6、透彻理解多线程编程基本原理，熟练掌握网络编程的基本模型和方法。
+7、具备积极主动的工作态度，拥有强烈的责任心，面对挑战时学习能力强，善于在团队中与成员协作沟通，共同攻克难题。
+三、优先条件
+1、阅读过 Linux Kenel 代码，拥有驱动开发、Linux 窗口系统（如 Wayland）开发经验者优先考虑，尤其是在汽车电子相关领域有实践经验者。特别地，有车载软件开发经验者优先，熟悉车载系统的特殊需求和开发规范。
+2、熟悉 Android AOSP 框架，具备 Framework 层开发、Service 开发经验者优先，特别是在汽车行业的 Android 软件项目中担任过重要角色。具备车载软件开发项目经验者，在同等条件下将被优先录用。
+3、拥有实际项目的开发经验，特别是在分布式大型系统架构和实现、设计和实现大负载高并发系统方面有经验者优先。
+4、熟悉汽车电子行业的功能安全标准，如 ISO 26262，能够在软件开发过程中遵循安全规范，确保产品符合汽车安全要求。
+5、掌握汽车通信协议，如 CAN、LIN、FlexRay 等，能够实现车载系统不同模块间稳定、高效的数据交互。
+6、熟练使用汽车行业特定的开发工具和平台，如 Vector 公司的 CANoe 等，用于车载网络的开发和测试。
+7、有大模型开发经验者。
+四、福利待遇
+1、具有竞争力的薪资待遇，五险一金，绩效奖金，让您的付出得到丰厚回报。
+2、完善的培训体系，助力您不断提升技术能力，实现职业晋升。
+3、丰富的员工活动，轻松愉悦的工作氛围，为您打造和谐的工作环境。
+4、提供广阔的发展空间，鼓励创新，让您的才华得以充分施展。
+
+截止日期：2027年03月24日
+招聘人数：10人",Linux C++ Java Gradle Docker Shell Git 分布式 高并发 CAN 大模型 培训,https://www.liepin.com/lptjob/81202899
+软件开发工程师,计算机软件天使轮50-99人,9-15k·13薪,上海-闵行区,上海,本科,应届,7月3日更新,liepin,"一、岗位职责
+1、负责智能座舱系统（Android/Linux/QNX）的 HAL、Framework、Service 以及智能座舱系统中 Service、Application 的开发工作，涵盖从架构搭建到上线部署的各个环节，确保产品高质量交付。
+2、依据项目需求，精准完成软件的系统分析与架构设计，撰写详尽、规范的设计文档，为后续开发提供清晰指引。
+3、严格按照设计文档，高效完成代码的编写、调试及测试工作，保证代码的稳定性、可读性和可维护性。
+二、岗位要求
+1、计算机及相关专业，本科及以上学历，对编程充满热忱，具备扎实的专业基础。拥有汽车行业软件开发经验者优先考虑，能快速适应车载软件的开发环境与业务逻辑。
+2、熟练掌握常用的数据结构和算法，能够灵活运用各种设计模式优化代码结构，提升系统性能。
+3、精通 C/C++ 编程语言，对 STL、MVVM 等原理有深刻理解，或者熟练掌握 JAVA，熟悉 Android App 应用开发框架，理解 Android 四大组件及 MVVM 框架。
+4、熟练掌握至少一种开发环境，对 Android Studio、Gradle 以及 docker、shell、make、gcc、gdb、git 等工具运用娴熟，能够高效完成开发任务。
+5、熟悉至少一种操作系统，深入理解文件系统、内存管理、网络 IO、进程间 RPC 等基本原理。
+6、透彻理解多线程编程基本原理，熟练掌握网络编程的基本模型和方法。
+7、具备积极主动的工作态度，拥有强烈的责任心，面对挑战时学习能力强，善于在团队中与成员协作沟通，共同攻克难题。
+三、优先条件
+1、阅读过 Linux Kenel 代码，拥有驱动开发、Linux 窗口系统（如 Wayland）开发经验者优先考虑，尤其是在汽车电子相关领域有实践经验者。特别地，有车载软件开发经验者优先，熟悉车载系统的特殊需求和开发规范。
+2、熟悉 Android AOSP 框架，具备 Framework 层开发、Service 开发经验者优先，特别是在汽车行业的 Android 软件项目中担任过重要角色。具备车载软件开发项目经验者，在同等条件下将被优先录用。
+3、拥有实际项目的开发经验，特别是在分布式大型系统架构和实现、设计和实现大负载高并发系统方面有经验者优先。
+4、熟悉汽车电子行业的功能安全标准，如 ISO 26262，能够在软件开发过程中遵循安全规范，确保产品符合汽车安全要求。
+5、掌握汽车通信协议，如 CAN、LIN、FlexRay 等，能够实现车载系统不同模块间稳定、高效的数据交互。
+6、熟练使用汽车行业特定的开发工具和平台，如 Vector 公司的 CANoe 等，用于车载网络的开发和测试。
+7、有大模型开发经验者。
+四、福利待遇
+1、具有竞争力的薪资待遇，五险一金，绩效奖金，让您的付出得到丰厚回报。
+2、完善的培训体系，助力您不断提升技术能力，实现职业晋升。
+3、丰富的员工活动，轻松愉悦的工作氛围，为您打造和谐的工作环境。
+4、提供广阔的发展空间，鼓励创新，让您的才华得以充分施展。
+
+截止日期：2027年03月24日
+招聘人数：10人",Linux C++ Java Gradle Docker Shell Git 分布式 高并发 CAN 大模型 培训,https://www.liepin.com/lptjob/81202849
+座舱应用软件开发（实习）,岚图汽车,100-150元/天,武汉-汉阳区,武汉,本科,,7月13日更新,liepin,"一、岗位职责
+参与车机座舱 Android 应用的功能开发与迭代，包括 HMI 界面、系统服务调用等模块
+协助完成代码 Review、单元测试及 Bug 修复
+在导师带领下了解 AOSP / Android Automotive 开发体系，熟悉车载中间件与系统 API
+利用 AI 工具辅助日常开发任务（代码生成、调试、文档整理），提升研发效率
+
+二、任职要求
+必须具备
+持有有效机动车驾驶证（C1 及以上），能够参与整车联调和道路测试场景
+具备扎实的 Java 编程基础，能独立完成基本的面向对象设计与实现
+有 Android 应用开发经验，熟悉 Android SDK、Activity / Service / BroadcastReceiver 生命周期
+了解 AI 大模型的基本原理（如 SKILL、MCP、RAG、Prompt Engineering），能熟练使用 AI 辅助编程工具（Cursor / GitHub Copilot 等 Vibe Coding 工具）进行日常开发
+
+优先考虑：
+了解 Android Automotive OS 或车载系统开发背景
+有 AIDL、Binder 通信、车载 API（如 CarPropertyManager）使用经验
+熟悉 Git 版本管理，有实际项目或开源贡献经历
+
+截止日期：2027年07月13日
+招聘人数：4人",Java 大模型 RAG Gin Git 版本管理,https://www.liepin.com/lptjob/84074615
+前端开发实习生,上海万笔千墨科技有限公司,150-200元/天,上海-浦东新区,上海,大专,,90天前更新,liepin,"岗位职责：
+- 负责公司小程序产品的开发与维护，基于 uniapp 技术栈。
+- 负责 Admin 后台系统的开发与维护，基于 React 技术栈。
+- 负责 H5 页面开发与优化，基于 Vue 及其生态体系。
+- 负责公司现有 Android 原生 App 的维护与迭代开发（Java / Kotlin / XML 混合开发）。
+- 根据业务需求，参与未来 Android 原生 App 的功能开发与版本迭代。
+- 与产品、设计、后端协作，确保项目高质量按时交付。
+- 持续优化前端与移动端性能，提升用户体验。
+
+任职要求：
+- 熟练使用 uniapp 进行小程序开发，有实际项目落地经验。
+- 熟练掌握 React，具备后台管理系统开发经验。
+- 熟练使用 Vue 及其生态（如 Vue Router、Vuex 或 Pinia 等）。
+- 熟悉 H5 页面开发，掌握移动端适配与兼容性处理方案。
+- 必须具备 Android 原生开发经验，熟练掌握 Java、Kotlin、XML 布局开发。
+- 熟悉 Android 应用打包、发布流程及常见问题排查。
+- 熟悉前端工程化工具（如 Vite、Webpack 等）。
+- 具备良好的代码规范意识与模块化开发能力。
+
+公司文化轻松，创业团队氛围好，00后多，下午茶福利，办公地点在上海模力社区（新 base 设施超豪华）
+
+加入万笔千墨你可以获得：
+1.进入AI科技公司，接触全球先进的人工智能技术；
+2. 00后含量高，组成年轻有活力的科技初创公司，巨大的行业发展空间；
+3. 轻松高效的工作氛围，无官僚主义，扁平化管理；
+4. 完善的福利，入职五险一金
+5. 成熟培训体系，新人一对一专业培训，AI专业技能培训，我们将努力培养您成为AIGC人才
+6. 企业文化：好奇心 责任心 同理心 荣誉心
+
+截止日期：2027年03月02日
+招聘人数：1人",UniApp React Vue Java Kotlin Vite Webpack AIGC 培训,https://www.liepin.com/lptjob/80533313
+移动开发实习生,万兴科技,150-300元/天,长沙-岳麓区,长沙,本科,,90天前更新,liepin,"工作职责
+1、根据产品功能需求设计完成Android客户端软件实现及产品持续升级；
+2、撰写相关系统设计、软件开发文档；
+3、完成上级领导交办的其他任务。
+任职要求：
+1、2026届本科及以上应届毕业生，计算机相关专业，专业课无挂科记录；
+2、能熟练使用java 或 kotlin，了解Android 常用框架，对Android View绘制机制，多线程有深入了解;
+3、对编程常用设计模式, 进程管理、内存管理、网络通讯有系统学习；
+4、了解最新的移动端技术动态，对移动端产品有浓厚的兴趣；
+5、工作积极主动，学习能力强，思维严谨，能够快速融入团队并能适应较高强度的工作；
+6、优先条件： 
+（1）有大型互联网公司Android 应用开发实习经验者；
+（2）对Objective-C 、Swift 、 Python 等语言也有编程基础者；
+（3）熟悉相应平台特性，对组件化、性能优化、网络及UI等有深入实践者；
+
+招聘人数：2人",Java Kotlin Swift Python,https://www.liepin.com/lptjob/79349865
+测试破破破,墨琪科技,150-300元/天,昌都-卡若区,,本科,,90天前更新,liepin,"岗位职责：
+1、负责Android平台的应用程序开发；
+2、参与产品需求分析和技术方案设计，确保应用功能的实现；
+3、编写高质量的代码，并进行单元测试和调试工作，确保应用程序的稳定性和性能。
+
+岗位要求：
+1、本科及以上学历，计算机科学或相关专业；
+2、具备3-5年的Android开发经验；
+3、熟悉Android开发环境及工具，熟练掌握Java或Kotlin语言；
+4、了解常用的数据结构和算法，有良好的编码习惯；
+5、熟悉Android系统架构，能够独立完成模块的设计与开发；
+6、具有较强的学习能力和解决问题的能力，能够快速适应新技术和新挑战。
+
+招聘人数：1人",Java Kotlin 需求分析 技术方案,https://www.liepin.com/lptjob/78144367
+应用软件开发工程师 （日语）,无锡睿勤科技有限公司,150-200元/天,无锡-新吴区,无锡,本科,,7月2日更新,liepin,"岗位描述：
+1、完善和优化AndroidApplication的基本功能，应用层各种问题的分析和解决
+2、负责Android应用层新功能的可行性研究、设计、编码及调试工作； 
+3、负责Android系统层功能可行性研究、设计、编码及调试工作
+4、负责Android系统层功能问题分析、解决和攻关；
+5、负责相关技术文档整理和输出；
+岗位要求：
+1、计算机，通信，电子相关专业本科以上学历，扎实的C++、java、设计模式语言基础； 
+2、熟悉Android框架及开关机流程；熟悉Framework层各种Service机制与原理；熟悉AndroidJNI和Binder通讯；熟悉AndroidBSP和HAL
+3、有过Camera，Audio，Media开发经验优先；通讯和协议栈开发、维护经验优先；POS开发经验优先
+4、自我驱动，有强烈的责任心，思维清晰敏捷，良好的沟通能力和团队协作精神，积极主动，抗压能力强；
+5、日语或英语口语可以用作工作语言。
+
+截止日期：2027年07月02日
+招聘人数：1人",C++ Java 技术文档 Audio,https://www.liepin.com/lptjob/83842323
+移动开发工程师,互联网其他2000-5000人,16-18k·15薪,北京,北京,本科,应届,6月2日更新,liepin,"工作职责
+1. 参与公司 AI 相关业务产品的研发，负责 Android / iOS / 鸿蒙 / Web 等多端应用的设计与实现。
+2. 使用跨端开发框架（如 Flutter、React Native、KMP等）提升开发效率，保证一致的用户体验。
+3. 与产品经理、AI 算法团队、后端工程师紧密协作，将 AI 能力（AIGC、音/视频、图形/图像、大模型应用等）融入业务场景。
+4. 关注大前端前沿技术（Android/iOS/鸿蒙/Web技术生态），推动技术落地与优化。
+5. 参与端侧工程化建设，包括性能优化、组件化、工具链完善与开发体验提升。
+任职资格
+1. 学历：本科及以上学历，计算机科学、软件工程、人工智能、信息工程等相关专业，应届毕业生。
+2. 端侧开发：至少了解一种端侧开发技术（Android/iOS/鸿蒙/Web），能够理解原生与跨端的结合。
+3. 跨端能力：对 Flutter、React Native 或Android KMP等跨端技术有一定了解，有相关实习/项目经验者优先。
+4. AI 技术兴趣：对AI文档处理、AIGC 图片和视频生成、音视频 AI 剪辑 等方向有浓厚兴趣；
+5. 了解 AI 代码辅助开发，熟悉至少一款 AI Coding 工具（如 GitHub Copilot、Cursor、CodeWhisperer 等）。
+6. 综合素质：逻辑思维清晰，具备良好的沟通能力、团队协作精神与快速学习能力。
+7. 加分项：
+• 有开源项目贡献或 GitHub 技术作品。
+• 有跨平台应用开发实践经验（如 Flutter 小程序/鸿蒙应用/多端 WebApp）。
+• 有 AI 应用相关课程项目或比赛经历（如 AI+编程大赛、智能应用设计等）。
+
+截止日期：2027年06月02日
+招聘人数：1人",鸿蒙 Flutter React Native AIGC 大模型 Git,https://www.liepin.com/lptjob/83085799
+系统工程师,深圳鼎智通讯股份有限公司,12-24k·13薪,深圳,深圳,本科,应届,6月29日更新,liepin,"职责：
+1. 负责Android平台应用程序的开发;
+2. 负责Android平台系统的开发;
+3. 完成上级安排的其它任务;
+要求：
+1. 本科以上学历，英语四级以上，计算机或相关专业;
+2. JAVA语言，C语言熟练;
+3. 熟悉基本LINUX操作，具有linux开发经验;
+4. 熟悉Android平台框架原理，精通Android系统和应用软件开发;
+5. 具备良好的代码编写习惯;
+6. 善于团队协作和沟通，具有较强的责任心;
+
+截止日期：2026年10月18日
+招聘人数：5人",Java C语言 Linux,https://www.liepin.com/lptjob/77849913
+自动驾驶大前端开发工程师【校招】,广州星程智能科技有限公司,150-200元/天,广州-黄埔区,广州,本科,,90天前更新,liepin,"职位描述：     
+1、手机App交互应用的开发与优化，包括地图显示、路径规划、实时导航、车辆管理等功能；    
+2、与自动驾驶、硬件团队合作，集成车辆传感器数据（如 GPS、陀螺仪、车速等）；    
+3、开发和维护与车辆 CAN 总线、以太网的通信模块；    
+4、优化应用性能，确保在高性能车机系统上的流畅运行；    
+5、参与需求分析、技术方案设计、代码编写和测试，确保项目按时交付；    
+任职要求：      
+1、熟悉 Java/Kotlin/Flutter，熟悉 Android SDK 和 NDK 开发；    
+2、熟悉 Android 系统架构，了解 Activity、Service、BroadcastReceiver 等组件；熟悉Android 手机UI适配方案以及不同版本系统api差异；    
+3、具备跨平台开发经验（包含 Android、iOS等）    
+4、熟悉多线程编程、网络通信（HTTP/WebSocket/MQTT）；   
+5、熟练掌握常用的设计模式和架构模式，具备良好的编码习惯；    
+6、具备良好的沟通和团队协作能力，注重成果与效率；    
+7、能够独立解决问题，对新技术有着敏锐的洞察力，能够快速学习并掌握新技术。
+加分项：
+1、熟悉 Unity/OpenGL ES ，有 3D 图形渲染经验；
+2、了解自动驾驶或 ADAS（高级驾驶辅助系统）相关技术
+ 
+
+招聘人数：1人",GPS CAN Java Kotlin Flutter WebSocket MQTT 需求分析 技术方案,https://www.liepin.com/lptjob/74500009
+大数据分析师,通信设备10000人以上,18-30k·16薪,上海,上海,本科,应届,90天前更新,liepin,"通用软件开发工程师、安卓应用软件开发工程师、大数据开发工程师：
+【岗位职责】
+1、通用软件开发工程师:
+从事IT应用层软件、互联网软件、自动化测试工具等的设计开发，从测试能力与测试工具等维度提升旗舰机自动化与智能化测试效率。
+2、安卓应用软件开发工程师:
+1)参与手机创新业务IDEA定期交流、讨论，根据提炼的IDEA，设计并实现IDEA;
+2)从事手机特性系统方案的设计开发工作，完成方案的开发、测试、验证，并落地产品。
+3、安卓应用软件开发工程师:
+从事安卓/新系统应用层机制研究与用例自动化测试、人因实验APK工具(如表情识别apk等)设计开发工作，深入挖掘各特性应用层问题与根因，提升测试能力与效率。
+4、大数据开发工程师:
+从事基于大数据的应用场景与用户行为分析工作，通过运用数据挖掘、统计学的理论和方法，对海量数据进行分析并挖掘有价值的信息，以推进产品质量和用户体验改进。
+
+AI工程师
+【专业要求】
+计算机科学、机器学习、统计学、应用数学等专业;
+【岗位意向】
+自然语言处理/语音语义、机器学习、计算机视觉、决策推理、推荐搜索;
+【岗位职责】
+从事旗舰手机智能化测试能力开发工作，基于自然语言处理、机器学习、计算机视觉、决策推理、搜索推荐等技术开展如舆情观点分类、AI自动化打游戏、UI目标检测、版本测试风险预警、海量日志自动化分析挖掘等工作，深入挖掘人工低感知问题，提升智能化测试效率。
+
+招聘人数：1人",机器学习 自然语言处理 计算机视觉 自动化测试,https://www.liepin.com/lptjob/45626643

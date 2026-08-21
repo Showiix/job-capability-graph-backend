@@ -1,0 +1,44 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": {
+    "applicants": [
+      {
+        "id": "a1",
+        "name": "张伟",
+        "file": "zhangwei_cv.pdf",
+        "status": "done",
+        "experience": "3年",
+        "education": "硕士",
+        "skills": ["Python", "PyTorch", "深度学习", "SQL", "Linux"]
+      },
+      {
+        "id": "a2",
+        "name": "李梅",
+        "file": "limei_cv.pdf",
+        "status": "done",
+        "experience": "2年",
+        "education": "本科",
+        "skills": ["大语言模型", "LangChain", "RAG", "Python", "FastAPI"]
+      },
+      {
+        "id": "a3",
+        "name": "王浩",
+        "file": "wanghao_cv.pdf",
+        "status": "done",
+        "experience": "4年",
+        "education": "硕士",
+        "skills": ["C++", "CUDA", "TensorRT", "模型推理", "Linux"]
+      },
+      {
+        "id": "a4",
+        "name": "陈雅丽",
+        "file": "chenyali_cv.pdf",
+        "status": "failed",
+        "experience": "-",
+        "education": "-",
+        "skills": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,3274 @@
+﻿job_name,company_name,salary,work_area,city,education,work_year,issue_date,source,skill_requirements,tech_tags,job_url
+大模型应用开发工程师(J11942),培训服务D轮及以上2000-5000人,30-40k·14薪,北京,北京,统招本科,3-5年,7月21日更新,liepin,"职责描述：
+1、主导大模型相关应用的设计、开发与落地，深入研究最新大模型技术（包括但不限于多模态、微调优化等），结合业务场景打造高可用、高性能的AI应用解决方案，推动大模型从技术到生产力的转化；
+2、负责Agent智能体的全流程开发，包括需求拆解、架构设计、任务编排、工具调度及记忆管理，基于AutogenAI、LangGraph、CrewAI等框架，实现Agent自主决策、多步骤协同完成复杂业务任务，优化Agent交互效率与稳定性；
+3、跟踪大模型领域前沿技术动态（如多模态Agent、MCP协议演进、新型微调技术等），开展技术调研与验证，将成熟技术落地到实际项目中，推动团队技术能力迭代升级；撰写技术文档、分享技术经验，协助团队成员成长；
+4、配合产品、测试及业务团队，明确AI应用需求，参与需求评审、方案设计，推进项目迭代上线，解决项目开发过程中的技术难点，确保项目按时、按质交付；参与Prompt工程实践，设计高效提示策略，提升大模型输出质量。
+任职要求：
+1、2-3年大模型应用开发相关经验,（具备完整的大模型应用/Agent/RAG项目落地经验，能独立负责核心模块开发，有可展示的项目案例者优先；
+2、有企业级AI应用、智能对话系统、知识库问答、多模态应用等相关项目开发经验者，或有MCP协议应用、Skill库搭建经验者优先；
+3、编程语言：精通Python，熟悉Java/Node.js者优先；熟练掌握FastAPI、Django、Flask等Web框架，具备良好的代码风格和工程化思维，能独立完成接口开发与系统搭建；
+4、大模型技术：深入理解大模型基本原理（Transformer架构等），熟悉主流大模型（GPT、Claude、ChatGLM、Qwen等）的API调用与特性；掌握Prompt工程、模型微调、推理优化等核心技术，有开源大模型本地化部署经验者优先（如LLaMA、ChatGLM等）；
+5、Agent与RAG：熟练掌握Agent架构设计与开发流程，熟悉至少1种Agent开发框架（LangChain、LangGraph、AutogenAI等）；精通RAG技术栈，掌握向量数据库的使用与优化，有RAG系统工程化落地经验者优先，理解向量表示、向量检索核心原理；
+6、Skill与MCP：具备Skill设计、开发与封装能力，有Skill库搭建经验者优先；熟悉MCP协议规范，具备基于MCP实现系统集成、Agent通信的实践能力，了解MCP的核心组件（Hosts、Clients、Servers）及工作原理者优先；
+7、工程化能力：熟悉Docker、Kubernetes容器化技术及微服务架构；掌握MySQL、MongoDB、Redis等数据库的使用；了解分布式系统、消息队列（Kafka/RabbitMQ）、分布式缓存等技术者优先；具备CI/CD流程搭建经验者优先。",大模型 高可用 RAG Python Java Node.js FastAPI Django Flask Transformer GPT Docker,https://www.liepin.com/job/1984300239.shtml
+node.js开发工程师,维赛客网络科技,13-20k,南京-雨花台区,南京,大专,3-5年,90天前更新,liepin,"岗位职责：
+1、根据项目需求，使用Node.js进行后端服务设计、开发和维护；
+2、能够进行node.js全栈式开发，优化代码并保持良好兼容性；
+3、持续改进当前产品的前/后端功能，优化性能，改善访问体验；
+任职要求：
+1、计算机及相关专业，大专以上学历，1-2年以上使用Nodejs开发经验
+2、熟练使用 express koa 后端框架搭建后端应用；
+3、熟练 Mysql 数据库的使用 数据表、视图的规划；
+4、熟练掌握 JavaScript/ Typescript、CSS、HTML5、DOM、网络协议等前端相关技术；
+5、熟悉 vue  vueadmin 等常用前端框架；
+6、熟悉 nodejs,熟悉常用模块,能熟练使用 nodejs进行开发；
+7、对新技术充满热情,热爱学习,有责任心,具有优秀的沟通能力及协调能力。",Node.js Express Koa MySQL JavaScript TypeScript HTML5 Vue,https://www.liepin.com/job/1946200613.shtml
+Nodejs-全栈工程师,康数企业管理咨询(上海)有限公司,15-20k·13薪,上海,上海,大专,经验不限,90天前更新,liepin,"工作职能：
+1、负责nodejs项目开发；
+2、设计并开发可测试、可扩展、易用与交互性好的新功能；
+3、技术攻关和创新技术引用，解决产品开发过程中的高性能，高并发和高可靠性问题；
+4、作为中间层与后端同事进行配合开发；
+5、具有web前端开发能力。
+
+岗位要求：
+1、专科及以上学历，计算机相关专业，2年以上Node.js开发工作经验；
+2、精通nodejs，深入理解 events/stream/net 内部模块，并熟练掌握常用的工具/框架(Koa/Egg)；
+3、擅长 Node.js 项目 debug 及性能调优
+4、熟练使用MongoDB，Redis、mysql等数据库；
+5、有Web前端开发经验者（VueJS）优先；
+6、扎实的编程基础，对常见数据结构、设计模式、算法有清晰的理解；
+7、良好的编码习惯，较好的沟通、协调、理解能力和良好的责任心和团队合作能力，性格外向",高并发 Node.js Koa MongoDB Redis MySQL Vue,https://www.liepin.com/job/1936561133.shtml
+Node.js工程师,青润图文设计(北京)有限公司,10-15k,成都-高新区,成都,学历不限,2年以上,90天前更新,liepin," 
+技能要求，我们希望找个Node Js的全栈工程师，前后端模块同时开发。
+1. 熟练使用nodejs以及后端服务框架
+2. 2年以上Web前端开发经验；
+3. 熟练使用mysql, 熟练使用SQL
+4. 对Web性能和安全有较深的见解和相关处理方案。 
+5. 优先考虑：VUE前端框架
+6. 优先考虑：财务系统知识背景
+ ",MySQL SQL Vue,https://www.liepin.com/job/1972428875.shtml
+Senior Nodejs Developer,上海舵正帆满信息技术有限公司,15-25k,上海-杨浦区,上海,本科,3-5年,90天前更新,liepin,"About Us:
+We are a top technology firm specializing in innovative solutions and services. Our commitment to excellence and innovation has positioned us as a key player in the industry. We are currently seeking a highly skilled and experienced Senior Nodejs Developer to join our dynamic team. The ideal candidate will be instrumental in driving our projects from concept to deployment, ensuring high-quality software solutions that meet our business needs. 
+Please send your CV to *********************
+
+Key Responsibilities:
+- Develop and maintain all server-side network components. 
+- Ensure optimal performance of the central database and respond efficiently to front-end developers' requests. 
+- Collaborate with front-end developers on the integration of elements. 
+- Design customer-facing UI and back-end services for various business processes. 
+- Develop high-performance applications by writing testable, reusable, and efficient code. 
+- Implement effective security protocols, data protection measures, and storage solutions. 
+- Run diagnostic tests, repair defects, and provide technical support. 
+- Document Node.js processes, including database schemas, as well as prepare reports. 
+- Recommend and implement improvements to processes and technologies. 
+- Keep informed of advancements in the field of Node.js development. 
+
+Essential Skills and Qualifications:
+- Proficiency in Node.js and frameworks such as Nest.js. 
+- Strong coding skills in JavaScript, including ES6+, and familiarity with TypeScript. 
+- Experience with databases (both SQL and NoSQL) and their declarative query languages. 
+- Understanding of front-end technologies (HTML5, CSS3, JavaScript) and principles of basic UI/UX design. 
+- Familiarity with code versioning tools, such as Git. 
+- Excellent problem-solving abilities, teamwork skills, and communication skills. 
+- Ability to manage a hosting environment, including database administration and scaling an application to support load changes. 
+
+Preferred Experience:
+- Experience with cloud technologies (Azure). 
+- Knowledge of containerization technologies (Docker, Kubernetes). 
+- Familiarity with CI/CD pipelines for efficient code deployment. 
+- Known basic LLM knowledge is a plus. 
+- Bachelor's degree in Computer Science, Engineering, or a related field. 
+- Minimum of 3 years of experience in Node.js development, with a proven track record in a senior or lead developer role.",CAN RAG Node.js JavaScript TypeScript SQL HTML5 CSS3 Git Azure Docker Kubernetes,https://www.liepin.com/job/1967808297.shtml
+Node.js高级研发工程师,北京虹宇科技有限公司,25-55k·14薪,北京,北京,本科,经验不限,90天前更新,liepin,"岗位职责：
+1. 开发与维护 Iris XR Web SDK；
+2. 开发 Iris XR Web SDK 可视化开发工具。
+
+任职要求：
+1. 熟练掌握 JavaScript, TypeScript, NodeJS. 三年以上 NodeJS 开发经验。熟悉 NodeJS 的基本原理，阅读过 NodeJS 源码的优先;
+2. 熟练掌握 NodeJS Native Addon 的编写，熟悉 C/C++ 的基本知识，精通 JS/C++ 对象的生命周期管理;
+3. 熟练掌握前端开发工具，了解Webpack 等工具的原理;
+4. 掌握常见的单元测试工具如 Jest 的使用，阅读过相关源码的优先;
+5. 能流畅阅读英文技术文档;
+6. 对代码质量有⼀定追求，重视 Code Review。
+
+加分项：
+1. 3D 开发经验，如熟悉 WebGL/Three.JS 等。
+2. Electron/NW.JS 等桌面软件开发经验。",JavaScript TypeScript C++ Webpack Electron 技术文档,https://www.liepin.com/job/1937121213.shtml
+Node.js后端开发,某深圳计算机软件公司,25-50k·14薪,深圳,深圳,统招本科,3-5年,今日更新,liepin,"要求：
+需要愿意转node,js语言且3年以上经验，C端互联网+AI背景，能cover住某一个模块
+
+工作内容：
+1.负责公司 AI产品研发；
+2.负责相关业务逻辑的架构设计和后台实现；
+3.根据产品需求，提出良好的解决方案，有编写开发文档习惯。
+
+职位要求：
+1.本科及以上学历，熟练Nodejs/Java/Go/Python等一门或多门语言(公司主要使用Nodejs, 愿意转用该语言编程)；
+2.熟悉 MySQL、MongoDB、PostgreSQL 等数据库；
+3.对AI有强烈兴趣，熟悉使用大模型，了解或熟悉Prompt工程、AI Agent、Comfyui等经验者优先；
+4.具有较强的沟通能力与团队合作精神，具有良好的分析问题、解决问题的能力以及较强的学习能力；
+5.责任心强，有较强的抗压能力。
+
+【接受其他后端语言基础扎实的，但是进来之后需要转node.js,介意的不要投递】。",Java Go Python MySQL MongoDB PostgreSQL 大模型 Node.js,https://www.liepin.com/a/76140045.shtml
+高级Node.js开发工程师,互联网D轮及以上500-999人,30-45k,上海-长宁区,上海,本科,5-10年,90天前更新,liepin,"岗位描述
+
+1、设计和开发支撑部门nodejs层代码；
+
+2、负责高质量的设计和编码； 
+
+3、持续关注node服务稳定与优化; 配合前端完成api开发；
+
+4、研究并持续跟进业界先进技术和开发思路，承担技术难点的攻坚； 
+
+5、负责基于nodejs，nest的开发。
+
+
+
+
+岗位要求
+
+1、全日制统招本科及以上学历，计算机相关专业，5-10年互联网工作开发经验。
+
+2、精通 Node.js / JavaScript，深入理解 events/stream/net 内部模块，熟悉ES6/ES7
+
+3、精通 Nest 或 Koa / Express框架
+
+4、擅长 Node.js 项目 debug 及性能调优
+
+5、熟练使用 Mysql/ Redis 或其他数据库
+
+6、独立完成功能模块的接口设计及开发工作
+
+7、熟悉 Docker / k8s 和容器的开发或部署
+
+8、能够解决复杂的技术问题
+
+9、有跨端沟通的经验，曾经协助前端工程师完成接口设计及调试工作
+
+10、有微服务设计或开发经验
+
+加分项
+
+- 有React Native前端 / 移动端 /其他前端技术栈的开发经验
+
+- 有大型企业级项目开发经验
+
+- 有 Java 开发经验",Node.js JavaScript Koa Express MySQL Redis Docker K8s 微服务 React Native Java,https://www.liepin.com/job/1960255977.shtml
+Node.js后端工程师,武汉在水医方智能科技有限公司,10-18k,武汉-汉阳区,武汉,本科,5年以上,6月29日更新,liepin,"职责描述：
+参与公司医疗AI产品后端开发，技术架构为postgresql+nodejs+python。
+
+任职要求：
+1、本科以上学历，5年以上nodejs后端开发经验；
+2、精通javascript语言与nodejs，熟练掌握各后端技术栈;
+3、熟练掌握postgresql数据库查询语言，熟练掌握plpgsql过程语言；
+4、精通函数式编程者优先；
+5、加分项：曾使用以下任一语言超过3-6个月：R、Clojure、Erlang、Haskell、Prolog、Julia;
+6、加分项：熟悉Linux命令行，有shell、grep、xargs、awk、sed脚本编写；
+7、加分项：熟悉OpenResty、nginx-njs、docker、k8s、有devops经验者；
+8、对新技术敏感，持续学习、抗压能力、自我驱动、团队精神。",PostgreSQL Python JavaScript SQL Linux Shell Nginx Docker K8s DevOps,https://www.liepin.com/job/1983512129.shtml
+Node.js后端技术支持工程师,武汉在水医方智能科技有限公司,11-18k,广州-越秀区,广州,本科,5年以上,6月29日更新,liepin,"职责描述：
+参与公司医疗AI产品后端开发，技术架构为postgresql+nodejs+python。
+
+任职要求：
+1、本科以上学历，5年以上nodejs后端开发经验；
+2、精通javascript语言与nodejs，熟练掌握各后端技术栈;
+3、熟练掌握postgresql数据库查询语言，熟练掌握plpgsql过程语言；
+4、精通函数式编程者优先；
+5、加分项：曾使用以下任一语言超过3-6个月：R、Clojure、Erlang、Haskell、Prolog、Julia;
+6、加分项：熟悉Linux命令行，有shell、grep、xargs、awk、sed脚本编写；
+7、加分项：熟悉OpenResty、nginx-njs、docker、k8s、有devops经验者；
+8、对新技术敏感，持续学习、抗压能力、自我驱动、团队精神。",PostgreSQL Python JavaScript SQL Linux Shell Nginx Docker K8s DevOps,https://www.liepin.com/job/1983691663.shtml
+Node.js开发工程师,唯唯诺(昆明)科技有限责任公司,10-20k,昆明-西山区,昆明,本科,3-5年,90天前更新,liepin,"A、	岗位职责：
+1、	参与项目原型讨论、计划定制、任务估算；
+2、	遵循团队技术标准，使用所规定的测试、监控、运维技术进行交付；
+3、	与运维团队紧密配合，保障线上服务的可靠性、可用性；
+4、	负责产品规划，持续优化产品体验及性能，建设高可靠的API系统及服务端任务调度系统；
+5、	负责技术攻关和创新技术引用，解决产品开发过程中的高性能，高并发和高可靠性问题。
+
+B、任职要求：
+1、计算机、软件工程专业本科以上学历，有前端工作经验优先；
+2、有微信/公众平台/小程序开发经验优先；
+3、2年以上服务端开发经验，能够独立完成服务器的业务开发；
+4、熟悉node.js，精通javascript或其他一门编程语言；
+5、熟悉NodeJS后端开发，可以独立开发NodeJS module；
+6、熟悉http/https协议和restfulapi接口标准，熟练掌握前后端交互的技术和常用的框架；
+7、熟练掌握docker,nestjs,PostgreSQL等；
+8、熟练掌握Linux系统命令行的基本使用，能独立部署服务器端程序，上云 、检查服务器运行情况，分析应用程序日志、nginx日志和系统日志；
+9、良好的代码风格及注释习惯，有自主学习能力，良好的团队合作意识及沟通表达能力；
+10、对后端程序性能优化有丰富经验，有开发和部署高性能，大规模用户的互联网系统经验者优先。
+特别优秀者，薪酬具体面议。",高并发 Node.js JavaScript Docker PostgreSQL Linux Nginx 产品规划,https://www.liepin.com/job/1978738405.shtml
+node.js开发工程师,深圳科卫机器人科技有限公司,10-20k,武汉-洪山区,武汉,统招本科,3-5年,90天前更新,liepin,"职责描述：
+ 1、负责业务服务器框架的设计、开发与维护；
+ 2、负责业务逻辑的后台设计与开发；
+ 3、负责业务数据库的设计与开发； 
+ 4、负责业务内容数据层的模型设计、交互设计与开发；
+ 5、负责需求文档和设计文档编写。
+
+
+任职要求：
+ 1、本科及以上学历；
+ 2、三年以上服务器开发经验以及二年以上NodeJS高性能服务设计和开发经验；
+ 3、精通JavaScript编程；
+ 4、熟悉NodeJS事件机制与常见模块的应用，并具备NodeJS项目集群部署经验；
+ 5、熟悉相关开源框架，精通Mongo、MySQL、Redis等数据库；
+ 6、熟悉Linux系统的基本操作指令，完成产品的部署，会编写shell脚本者优先考虑； 
+ 7、具有良好的团队合作精神，工作态度积极主动，责任心强； ",JavaScript Go MySQL Redis Linux Shell 文档编写,https://www.liepin.com/job/1934238337.shtml
+Node.js开发工程师,深圳柚子街科技有限公司,10-17k,深圳-南山区,深圳,本科,1-3年,90天前更新,liepin,"职位描述：
+1、有上进心，对技术有渴望、主动、热情；有代码洁癖
+
+2、1年以上 Node.js 服务端开发经验, 精通 Nodejs API
+
+3、精通 Javascript, Typescript对其核心概念有深刻理解
+
+4、至少精通一种 Nodejs 开发框架，如：Express, Nestjs，Koa2,  Meteor 等
+
+5、熟练使用git、bash shell, 可以在类Linux环境下开发
+
+6、熟练使用mysql，redis，mongodb等
+
+加分项：
+
+1、具有前端开发能力的优先考虑",Node.js JavaScript TypeScript Express Koa Git Shell Linux MySQL Redis MongoDB,https://www.liepin.com/job/1964077039.shtml
+Node.js后端开发,北京天真互动科技有限公司,20-40k,北京-朝阳区,北京,统招本科,3-5年,90天前更新,liepin,"Nodejs 后端工程师
+
+岗位职责
+1、负责公司 Web3 区块链业务的设计开发
+任职要求
+1、精通 Nodejs 开发，至少 2 年以上 Nodejs 开发经验
+2、精通 Typescript
+3、熟练使用如下数据库：MySQL，Redis 和 MongoDB；对公有云平台有实际使用经验
+4、具有良好的沟通、团队协作能力，具备比较强的逻辑思维能力，良好的编码习惯和技术文档能力
+5、有相关区块链开发经验优先
+6、有金融产品开发背景者优先、",TypeScript MySQL Redis MongoDB 技术文档 Nodejs Web3 Typescript,https://www.liepin.com/job/1964339161.shtml
+node.js研发工程师,深圳瞬玩科技有限公司,18-25k,深圳,深圳,本科,1-3年,90天前更新,liepin,"职责描述：
+职位名称: nodejs开发工程师
+职位要求: 2~3年工作经验，本科学历，计算机相关专业
+薪资范围: 18K~25K
+
+职位职责：
+1.基于Nodejs技术栈进行Web应用的研发；
+2.负责Web前端系统和功能的开发、调试和维护；
+3.负责技术攻关，解决产品开发过程中的高性能，高并发和高可靠性问题。
+
+任职要求：
+1.熟练掌握JavaScript、HTML基础知识
+2.基于NodeJS/Vue技术栈开发Web项目的完整经验
+3.有后端程序性能优化经验
+4.熟练掌握linux，有运维经验
+5.具有良好的沟通能力、协作能力，有钻研精神，对技术充满热情
+
+
+
+",高并发 JavaScript Vue Linux,https://www.liepin.com/job/1935094939.shtml
+Node.js开发工程师,陕西元年科技有限公司,5-10k,西安-碑林区,西安,本科,3-5年,90天前更新,liepin,"岗位职责
+1、根据产品需求完成模块设计、编码、测试工作； 
+2、能按照项目计划，按时提交高质量的代码，完成开发任务； 
+3、团队合作完成大型网站网页等后台服务设计开发、存储、测试等工作；
+4、负责后台等相关文档的编写工作。
+
+岗位要求：
+1. 计算机专业本科以上学历；
+2.三年以上NodeJS高性能服务开发经验，精通JavaScript编程;
+3. 熟悉NodeJS事件机制，常见模块的使用;
+4. 熟悉MySQ数据库；
+5. 了解TCP、UDP、HTTP等网络通信协议;
+6. 具备NodeJS项目集群部署经验者优先；
+7. 熟悉Linux，日常使用Linux者优先。",JavaScript Linux UDP,https://www.liepin.com/job/1962253277.shtml
+node.js工程师,链游网(深圳)科技有限公司,24-35k,深圳,深圳,本科,经验不限,90天前更新,liepin,"1、负责 Nodejs 功能模块编写与实现;
+2、负责项目的设计、编码 调优、测试及 Bug 处理
+、负责产品服务端开发, 断进行产品演进,提高产品质量和用户体验;
+4、根据产品需求,写出良好的解决方案;岗位要求:
+1、3年以上 Nodejs 开发工作经验,优秀的 Javascript 基本功
+2、关注ES6、 Node 社区,了解最新的技术动态,了解 Http 协议, Tls , Proxy ,熟悉 Html 
+3、 Express 、ES6、 Node 和其他编程通信方法的使用经验
+4、熟练使用 Mysql , Redis , MongoDB 等相关数据库:
+
+5.了解基于nodejs的区块链开发技术",JavaScript Express MySQL Redis MongoDB Nodejs Bug Javascript,https://www.liepin.com/job/1945185241.shtml
+node.js后端工程师,好排科技,15-40k,深圳,深圳,本科,1-3年,90天前更新,liepin,"工作职责
+1. 负责Web后端的开发、部署与运维
+2. 参与功能设计及工程化体系建设，提高研发效率与研发质量
+3. 与产品经理、前端工程师协作，提升产品质量与客户满意度
+
+职位要求
+4. 扎实的计算机基础知识，熟悉常用的互联网通信协议
+5. 熟悉nodejs + express / nodejs_koa / nodejs + koa 后端开发技术
+6. 有分布式的软件微服务架构设计、开发和运维经验，能快速定位和调试问题
+7. 有一定的敏捷开发经验
+8. 良好的沟通能力与协作能力
+9. 有责任感、团队合作精神、逻辑思维能力和表达能力
+10. 能够独立完成模块或项目的研发
+11. 有良好的测试习惯以保证高质量软件的产出
+12. 有多端开发能力者优先
+
+*根据毕业院校、工作经验、技术水平薪资待遇会有不同",Express Koa 分布式 微服务,https://www.liepin.com/job/1941666235.shtml
+node.js开发工程师,深圳链改咨询科技有限公司,20-24k,深圳-龙华区,深圳,大专,1-3年,90天前更新,liepin,"Nodejs开发工程师
+1、负责Nodejs功能模块编写与实现；
+2、负责项目的设计、编码、调优、测试及Bug处理；
+3、负责产品服务端开发，不断进行产品演进，提高产品质量和用户体验；
+4、根据产品需求，写出良好的解决方案；
+岗位要求：
+1、3年以上Nodejs开发工作经验，优秀的Javascript基本功；
+2、关注ES6、Node社区，了解最新的技术动态, 了解Http协议,Tls, Proxy，熟悉Html；
+3、Express、ES6、Node和其他编程通信方法的使用经验，；
+4、熟练使用Mysql,Redis,MongoDB等相关数据库；
+5、强烈的产品意识和分享精神；
+6、对编程充满激情，热衷于开发优秀的产品；
+7、负责心强",JavaScript Express MySQL Redis MongoDB Tls Proxy ES6,https://www.liepin.com/job/1949397113.shtml
+node.js后端工程师,赶俏科技,8-13k,长沙,长沙,大专,1-3年,90天前更新,liepin,"工作时间：
+9:00-17:30,公司提供中晚两餐，五险
+工作内容：
+1、与前端设计人员配合完成PC网站，移动端，微信小程序与APP系统的构建；
+2、准确理解需求，做好功能、模块和流程代码研发；
+3、负责系统运维，网站性能和速度提升；
+4、负责系统日常故障处理与技术支持等。
+
+职位要求：
+1、一年以上NODEJS开发经验，有大型项目开发经验者优先，熟悉PHP者优先；
+2、精通H5、微信小程序开发，熟悉APP开发，有APP开发经验者优先；
+3、精通NODEJS语言，熟练掌握fastify,koa,eggjs框架中的一种；
+4、熟练Linux或windows服务器安全配置操作，熟悉Apache、MySQL、NODEJS等软件的编译安装和优化配置；
+5、掌握HTML/XHTML、CSS、Javascript、AJAX、JSON等Web页面技术。",PHP Koa Linux MySQL JavaScript 系统运维 技术支持,https://www.liepin.com/job/1936199333.shtml
+Node.js开发工程师,武汉乐谷在线科技有限公司,9-27k,武汉-洪山区,武汉,大专,1-3年,90天前更新,liepin,"岗位职责：
+1.参与nodejs游戏服务器的功能设计和研发工作；
+2. 参与功能和技术预研；
+3. 保障服务性能，维护服务功能；
+
+
+
+
+岗位需求：
+1. javascript编程2年以上，且nodejs高性能服务开发经验1年以上，熟练掌握es6、es7语法；
+2. 熟悉typescript，熟练掌握接口、类型约束等相关功能；
+3. 熟悉设计模式，能够熟练使用类之间关系实现业务功能；
+4. 熟悉nodejs的事件机制、常见模块的使用方法；
+5. 有游戏服务器开发经验优先；
+6. 了解并掌握http、websocket等常用通信协议；
+7. 了解mongoDB、redis的使用；
+8. 要求有较强的逻辑思维和数据思维，有良好的解决问题的能力，能够独立承担复杂功能的开发工作，具有团队管理经验者优先；
+9. 高度的责任心、谦虚且有良好的沟通能力与团队精神，与团队共同成长。",JavaScript TypeScript WebSocket MongoDB Redis 团队管理,https://www.liepin.com/job/1963576565.shtml
+AI应用开发工程师（React+Node js）,某北京大型计算机软件公司,12-19k,北京,北京,本科,3-5年,90天前更新,liepin,"优先条件:  大厂背景 
+目标公司/行业:  有模型训练平台方向经验优先，互联网背景优先
+职位描述
+敏捷交付与系统集成
+熟练运用aPaaS平台、Aily 开发平台或其他 AI 工具，快速构建、测试并交付符合客户需求的功能与应用。
+实现多智能体间的协同工作流，并完成与外部系统、服务的API集成，确保数据流畅与业务流程连贯。
+AI智能体开发与优化
+基于大语言模型（LLM）设计与开发面向企业场景的AI应用与智能体，如智能客服、知识问答、AI辅助巡检、自动化流程助手等。
+扩展智能体（Agent）能力边界，开发自定义的模型上下文协议（MCP）插件、技能（Skills）或工具，增强其解决复杂任务的能力。
+效果调优与运维监控（AI或系统运维）
+深入应用提示词工程（Prompt Engineering）技术，持续优化AI模型的输出准确性、相关性与稳定性。
+建立并维护应用性能监控体系，跟踪关键指标如响应延迟、任务完成率、用户满意度等，保障AI应用的稳定高效运行。
+任职要求
+职位要求必备条件
+本科及以上学历，工作3 年及以上工作经验（优先5年以上），理工科专业背景、软件专业
+base地：北京
+熟练掌握至少一门编程语言，如：node.js、java、golang、recat等均可，具备扎实的编程基础和软件工程实践，有系统集成经验，熟悉 API、MCP 开发与调用。
+对AI技术充满热情，有不错的逻辑分析、解决问题能力，以及责任心与团队协作精神。
+优先条件
+一年以上专注于AI 应用开发、大模型相关项目或智能体（Agent）开发。
+具备零售、服装、制造行业经验优先；具备HCM/电商/财务/CRM/合同等业务系统研发/集成/实施/测试经验者优先。
+有 aPaaS 平台或同类低代码平台开发经验，参与过大模型 Agent 类项目开发者优先；
+具备良好的客户沟通能力，能理解业务痛点并将其转化为技术方案，有PaaS/SaaS KA交付经验者优先；
+所属行业:互联网类其他
+职能分类:Node.js
+（1）技术栈要求React+Node js（全栈偏前端），并且有AI项目经验
+（2）两轮面试，包含代码技术面
+注：大厂外包，需要提供身份证号查重，以下为内面信息模板，通过初筛后及时将以下推荐信息备注上发给我，晚一步都有可能有OFFER关闭（最近频出的问题，千万不要临时旷面）~~
+【需要提供的基本信息模版】
+1.身份证号：
+2.电话：
+4.姓名：
+5.推荐岗位：（这个我来填写哈）
+6.岗位城市：
+7.学历背景：
+8.工作年限：
+9.推荐理由：（可以自述下跟职位匹配度高相关的技能）
+10.目前状态：
+11.期望级别：（这个我来填写哈）
+12.目前薪资： 
+13.期望薪资：
+",LLM Gin Node.js Java Golang 大模型 React 系统运维 客户沟通 技术方案,https://www.liepin.com/a/75244731.shtml
+Node.js开发工程师-CPA项目,合肥凯捷技术有限公司,12-15k,深圳-南山区,深圳,大专,3年以上,90天前更新,liepin,"该岗位属外包性质岗位，以下为岗位要求和相关信息，期待您的关注
+
+一、岗位要求：
+1、具备3年以上NodeJS开发经验，拥有使用NodeJS构建API及Web应用后端的扎实经验；
+2、具备编写技术规格文档（技术设计、时序图）的相关经验
+3、熟悉MongoDB
+4、熟悉Restful API规范
+5、理解HTTP协议、性能优化及安全相关知识
+6、具备DevSecOps CI/CD经验者优先
+7、拥有AWS、Azure、阿里云等云平台认证者优先
+8、需要具备良好的沟通能力及英语口语流利
+
+岗位备注：
+岗位属性：外包性质
+项目周期：长期
+薪资范围：12500-15000元/月
+工作地址：深圳南山区科技大厦",MongoDB CI/CD AWS Azure 阿里云 CI,https://www.liepin.com/job/1979507823.shtml
+node.js后端开发工程师,智能硬件/消费电子不需要融资100-499人,10-17k,深圳-宝安区,深圳,统招本科,1-3年,90天前更新,liepin,"岗位职责
+1. 参与nodejs后端的功能设计和研发工作；
+2. 参与功能和技术预研；
+3. 保障服务性能，维护服务功能； 
+
+任职要求
+1.本科以上学历，计算机等相关专业。 
+2.有使用nodejs进行后台开发的实际经验，熟练掌握TypeScript。 
+3.熟练使用redis、mysql/pg、消息队列等常用中间件。了解mqtt/coAP等物联网协议。
+4.具有团队开发意识及良好的沟通协调能力。",TypeScript Redis MySQL MQTT CoAP,https://www.liepin.com/job/1981345155.shtml
+node.js 广告全栈工程师,具身智能与机器人100-499人,20-35k,广州-天河区,广州,大专,3-5年,90天前更新,liepin,"任职要求：
+1. 精通JavaScript，熟悉HTML5/XML/JSON/Ajax等前端开发技术；
+2. 熟练使用Vue.js或React的其中一种；
+3. 熟练掌握Nodejs开发，熟悉Node相关的后端框架，有实际项目经验；
+4. 掌握至少一种数据库技术，如MongoDB, Mysql等，熟悉Redis等缓存技术；
+5. 有Typescript的实战经验。熟悉常见的前端构建工具Webpack，Vite等；
+6. 有完整的项目从0到1的过程，具备产品思维。
+7. 有良好的编码、测试习惯、文档写作习惯。
+8. 做过广告业务的优先；
+【岗位职责】
+1. 负责项目的前端开发，使用HTML、CSS、JavaScript等技术与框架实现用户界面及交互功能；
+2. 负责项目后端开发，使用Nodejs等编程语言及框架实现业务逻辑、数据库设计与接口开发；
+3. 深入理解内部各业务方（如不同业务线的广告投放团队）及潜在外部客户的广告投放需求与痛点，设计平台化、可配置化、可扩展的产品解决方案，提升整体广告投放效率与效果。
+4. 负责广告投放全链路（如计划创建、素材管理、定向能力、出价机制、数据上报与监控等）中台核心模块的产品功能实现、迭代优化。
+5. 与算法、工程、数据分析、运营、设计等跨职能团队紧密协作，主导产品从概念到上线的全过程，高效协调资源，并对产品最终的业务成果负责。
+6. 关注程序化广告行业及相关智能技术（如AI、大模型在广告中的应用）的发展趋势，结合广告业务实现创新功能。",JavaScript HTML5 Vue React MongoDB MySQL Redis TypeScript Webpack Vite 大模型 数据分析,https://www.liepin.com/job/1974996421.shtml
+后端开发工程师(Node.js),北京企慕科技有限公司,25-50k·20薪,上海-徐汇区,上海,统招本科,3-5年,90天前更新,liepin,"上五休二，弹性上班，不打卡，无加班，晚来晚走，晚走晚到，可申请短期在家办公
+
+工作职责:
+1.负责公司产品服务端研发，部署和维护工作。
+2.能根据业务需求，提供技术解决方案，并进行快速迭代落地。
+3.能独立进行技术问题攻坚，探索对应的解决方案，通过技术手段降低业务复杂度，提高工作效率。
+
+任职要求：
+1.必须项：统招985/211本科及以上学历，计算机/软件开发等相关专业，90后，三年以上后端开发经验。
+2.能够使用Nodejs进行业务编码，熟悉常用的Nodejs网络请求与数据库相关package。
+3.能够熟练使用Git进行代码管理，多人协作;能够熟练使用Linux进行开发部署。
+4.能够流利阅读英文技术文档，能熟练使用英文进行业务和技术问题的检索。
+5.学习能力强，能快速理解行业知识，前沿技术。
+6.加分项:有基于Docker容器技术，以及在k8s集群中进行开发部署经验，有基于AWS/GCP/AliYun相关云产品进行后端架构和开发的经验。
+7.加分项:有区块链相关行业知识，有合约交互经验，或对行业有浓厚兴趣者优先。
+
+
+齐柏林科技是一家专注于web 3.0的公司，已拿到红杉资本，高榕资本和五源资本领投的种子轮投资。核心团队成员来自上海交大ACM班、卡内基梅隆大学、加州大学伯克利分校等世界知名学府，多名成员曾获得过ACM-ICPC全球总决赛、亚洲区域赛奖牌。创始人拥有多项技术知识产权和重大研究。 企业文化 :齐柏林科技坚信区块链技术将蓬勃发展，即将在web 3.0等领域产生革命性的应用。齐柏林科技致力于打造推动行业发展的产品，成为国际上最有影响力的web3.0的公司之一",Git Linux Docker K8s AWS 技术文档 知识产权,https://www.liepin.com/job/1950011725.shtml
+Nodejs工程师（远程居家办公）,广西梯子科技有限公司,10-16k,南宁-良庆区,南宁,大专,3-5年,90天前更新,liepin,"岗位职责:
+1、负责业务需求分析及可行性分析，完成系统架构设计。
+2、负责系统的开发、测试及上线，并严格遵守时间要求。
+3、负责和其他业务系统的对接工作，保证接口正常稳定工作。
+4、负责系统的二次开发评估、设计、测试及上线。
+5、完成产品相关技术文档的撰写和整理。
+6、不断增强、优化系统功能，积极跟进并解决
+任职资格：
+1、计算机及相关专业，大专以上学历，3年以上Windows和linux系统使用Nodejs进行前、后端设计开发经验，熟悉AI产品，有开发、了解过AI Agent相关经验者优先；
+2、扎实的面向对象编程基础与js基础，深入了解ES6规范及Node.js标准库的使用，能完成相应扩展开发；
+3、至少熟练掌握一个常见后端开源框架:Express，koa等；
+4、熟悉至少一种关系型和非关系型数据库，如Postgres，MySql,MongoDB等，能够合理设计数据模型；
+5、熟悉 HTTP、TCP、UDP等网络相关协议，熟悉Socket.io或Websocket等传输协议，了解web安全；
+6、至少熟悉一种WEB地图引擎应用开发(百度地图，leaflet)",Linux Node.js Express Koa MySQL MongoDB WebSocket 需求分析 技术文档,https://www.liepin.com/job/1972920443.shtml
+Node.js工程师,法本信息,24-28k,上海-杨浦区,上海,大专,5-10年,90天前更新,liepin,"职责描述：
+1、负责NODEJS前后端开发。
+2、负责2D图片标注功能开发，3D点云标注功能开发，联合标注开发，自动标注开发工作。
+3、负责与管理平台打通。
+4、负责重构优化现有标注平台，升级技术体系。
+
+任职要求：
+1、至少5年以上前端研发工作经验，有前端大数据量开发经验以及优化者优先
+2、熟悉threejs、paperjs、reactjs技术体系，具备相关项目应用研发经验
+3、熟练掌握NODEJS开发语言，熟悉前端技术（HTML/CSS/JavaScript）开发
+4、熟悉webgl底层原理、meteor开发框架的优先
+5、有标注开发经验者优先",React JavaScript paperjs HTML CSS,https://www.liepin.com/job/1952567451.shtml
+node.js开发工程师,广告/公关/会展C轮1000-2000人,25-35k,北京,北京,本科,5-10年,90天前更新,liepin,"工作职责：
+1. 负责linux平台程序的开发和维护
+2. 承担部分方案设计和高质量编码；并承担重点、难点的技术攻坚和业务模块；
+3. 开发后端接口，实现软件系统开发、部署、运维等；
+4. 开发我们自有硬件设备上的接口程序
+
+
+任职要求：
+1. 统招本科以上学历，3年及以上工作经历；
+2. 具备扎实的计算机基础，熟悉linux/shell，掌握常用数据结构／算法／设计模式
+3. 精通nodejs, 且有其他编程语言如PHP、C开发经验的优先
+4. 掌握 Mysql/MongoDB/Redis 等常见数据库应用，具有良好的算法、安全、测试、部署、运维等经验；
+5. 能够熟练使用 rabbitmq、kafaka等消息队列服务。
+6. 有一定的web前端经验、掌握 vue/react 任一框架；熟悉 egg/nest/koa 等 NodeJS 框架；
+7. 熟悉Web架构，熟悉HTML/CSS/JavaScript等前端技术
+8. 热爱编程，有较强的学习能力，有强烈的求知欲、好奇心和进取心，能及时关注和学习业界最新技术；
+9. 熟练使用 Git 和 GitLab
+10. 熟悉electron框架
+11. 有责任感，有很好的分析问题和解决问题能力。
+12. 理解前后端全链路流程，有全栈项目经历；
+13. 有移动端相关开发经验优先；
+
+**加分项
+1. 熟悉开源项目的运作、参与过个人或中 /大型开源项目的开发和维护；
+2. 了解计算机网络和安全原理，有相关的项目经验；
+3. 熟悉比特币和以太坊工作原理，了解web3.js，开发过智能合约；
+4. 有自己的技术博客，有分享技术和学习心得的习惯。",Linux Shell PHP MySQL MongoDB Redis RabbitMQ Vue React Koa JavaScript Git,https://www.liepin.com/job/1940170629.shtml
+node.js开发工程师,链游网(深圳)科技有限公司,15-25k·14薪,深圳,深圳,本科,经验不限,90天前更新,liepin,"1、负责 Nodejs 功能模块编写与实现;
+2、负责项目的设计、编码 调优、测试及 Bug 处理
+、负责产品服务端开发, 断进行产品演进,提高产品质量和用户体验;
+4、根据产品需求,写出良好的解决方案;岗位要求:
+1、3年以上 Nodejs 开发工作经验,优秀的 Javascript 基本功
+2、关注ES6、 Node 社区,了解最新的技术动态,了解 Http 协议, Tls , Proxy ,熟悉 Html 
+3、 Express 、ES6、 Node 和其他编程通信方法的使用经验
+4、熟练使用 Mysql , Redis , MongoDB 等相关数据库:",JavaScript Express MySQL Redis MongoDB Nodejs Bug Javascript,https://www.liepin.com/job/1945188489.shtml
+Node.js开发工程师,深圳市瀚兰区块链地产有限公司,12-18k·13薪,深圳,深圳,大专,3-5年,90天前更新,liepin,"岗位职责：
+1.参与需求分析、开发web/app API
+2.维护、优化现有的功能模块
+3.解决测试bug
+
+岗位要求：
+1.3年以上服务端开发经验，基础扎实，熟悉常用的数据结构和算法
+2.精通nodejs，对nodejs的事件循环、核心模块有深刻的理解
+3.熟练使用ES6+ 和koajs、eggjs框架
+4.理解HTTP协议、REST API、session、cookie、stream
+5.掌握MySQL、Redis，对数据库表的设计、SQL优化有较深的理解
+6.遵守代码规范，写单元测试
+
+加分项：
+1.参与开源项目、有高并发经验、有前端开发经验
+2.有房地产SaaS管理工具的开发经验优先",Koa MySQL Redis SQL 高并发 需求分析,https://www.liepin.com/job/1937670665.shtml
+nodejs后端开发,深圳指尖科技有限公司,10-15k,深圳,深圳,大专,1-3年,90天前更新,liepin,"职位信息
+岗位职责：
+1、参与模块开发文档编写；
+2、负责实现业务模块服务端相关开发；
+3、负责前端页面联调相关开发；
+4、协助其他人员完成开发及调试工作；
+
+任职要求：
+1、两年以上Nodejs开发经验；
+2、精通Javascript，精通Node.js标准库的使用，能完成相应的扩展开发；
+3、熟悉MySQL/Nosql数据库系统；
+4、熟悉Web后台架构、性能优化、Restful API及数据库设计；
+5、热爱编程，具有良好的团队合作精神和良好的沟通协调能力；
+6、学习能力强，拥有优秀的逻辑思维能力；
+7、认真负责，善于沟通，优秀的团队合作精神。",JavaScript Node.js MySQL SQL 文档编写 Restful,https://www.liepin.com/job/1920973855.shtml
+node.js开发工程师,链石(上海)信息科技有限公司,15-30k,上海,上海,本科,3-5年,90天前更新,liepin,"岗位职责：   
+1、基于nodejs或golang的后端服务开发   
+2、主要是围绕区块链底层平台的服务和工具开发   
+3、也会涉及公司其他项目的后端服务开发       
+
+任职要求：   
+1、2～3年nodejs项目开发经验   
+2、熟悉js/ts，熟悉koa、typeorm等框架   
+3、熟悉mysql及sql   
+4、熟悉golang优先考虑   
+5、熟悉docker/kubernetes优先考虑      
+
+备注：   
+1、希望你热爱编程，有良好的编码习惯，追求高质量代码   
+2、希望你思维清晰，主动思考，敢于选择合适的方案   
+3、希望你态度端正，情绪稳定，乐于沟通合作   
+4、本岗位工作内容可宽可细，涉及多种编程语言，网络编程，数据存储，根据个人喜好和能力安排，可学的知识点非常多，如果你认为自己适合全栈那十分欢迎   
+5、公司为上市公司子公司，每周提供水果下午茶，有咖啡机，老板人好，气氛宽松，弹性工作时间，出门右转有商业健身房，离地铁不远 ",Golang Koa MySQL SQL Docker Kubernetes,https://www.liepin.com/job/1933234751.shtml
+中高级工程师（PHP&GO&Nodejs）,某上海大型互联网公司,35-55k,上海,上海,统招本科,5-10年,今日更新,liepin,"职位概述 
+我们正在寻找一位拥有丰富后端开发经验的高级软件工程师，主要精通 PHP，并具备 Go 和 
+Node.js 的相关经验。理想的候选人应能够设计、开发、优化和维护高性能的后端系统、API、业务平台和内部工具。 
+此职位要求具备较强的工程能力、扎实的系统设计思维，以及在中英文双语环境下工作的能力。 
+ 
+主要职责 
+● 使用 PHP 作为主要开发语言设计、开发和维护后端系统。 
+● 构建和维护服务、API、内部工具和业务管理系统。 
+● 参与后端架构设计、技术规划、代码审查和性能优化。 
+● 必要时使用 Go 和 Node.js 开发支持服务或模块。 
+● 设计可靠的 API 接口，并与第三方平台、支付系统、数据服务和外部 API 集成。 
+● 优化后端性能，包括数据库查询、缓存策略、队列处理和高并发处理。 
+● 排查并解决生产环境中的问题，包括 API 错误、响应缓慢、服务故障和数据不一致。 
+● 与前端、DevOps、产品和业务团队紧密合作，交付稳定且可扩展的功能。 
+● 编写简洁、易于维护且结构良好的代码。 
+● 根据需要创建和维护中英文技术文档。 
+● 支持系统部署、监控、日志记录和运维改进。 
+ 
+任职要求 
+● 5年以上后端开发经验。 
+● 丰富的 PHP 开发实践经验。 
+● 熟悉常见的 PHP 框架，例如 CodeIgniter、Laravel、Symfony 或类似框架。 
+● 具备使用 Go 和 Node.js 进行后端服务开发或支持工具开发的实践经验。 ● 深入理解 RESTful API、HTTP 协议、身份验证、授权和后端服务设计。 
+● 精通MySQL，包括数据库设计、SQL优化、索引、事务和性能调优。 
+● 具备 Redis、消息队列、缓存和异步任务处理方面的经验。 
+● 熟悉Linux服务器环境、基本shell命令、进程管理、日志和部署流程。 
+● 具备基于 Git 的开发、代码审查、分支管理和协作开发工作流程方面的经验。 
+● 能够独立分析和解决复杂的后端问题。 
+● 深入理解系统的可扩展性、可靠性、安全性和可维护性。 
+● 能够用中英文进行有效沟通。 
+● 能够用中英文读写技术文档、API 文档和开发笔记。 
+ 
+优先资质 
+● 具备高并发系统、API 平台、SaaS 平台、游戏平台、支付系统、电子商务平台或大型业务系统方面的经验。 
+● 具备 AWS、Docker、Nginx、Supervisor、CI/CD 或云部署环境的使用经验。 
+● 具备微服务、分布式系统、服务治理、速率限制、负载均衡和容错方面的经验。 
+● 具备支付集成、用户账户系统、计费系统、订单系统或权限系统方面的经验。 
+● 具备性能监控、日志记录、告警和生产事件处理方面的经验。 
+● 具备 TypeScript、Vue、React、Nuxt 或前端相关技术的经验者优先。 
+● 具备 Python 或 FastAPI 的使用经验者优先。 
+● 具备领导小型工程团队或指导初级开发人员的经验者优先。 
+ 
+我们的期望 
+● 对后端系统质量有强烈的责任感和担当。 
+● 具备务实的工程思维，能够快速交付可靠的解决方案。 
+● 良好的编码习惯、清晰的逻辑和注重细节。 
+● 能够平衡开发速度、系统稳定性和长期可维护性。 
+● 愿意学习新技术，并在需要时使用 PHP、Go 和 Node.js 等技术。 
+● 沟通能力强、团队合作精神好，并能够在双语环境中工作。 ",PHP Go Node.js 高并发 DevOps MySQL SQL Redis Linux Shell Git AWS,https://www.liepin.com/a/77063597.shtml
+NodeJs全栈开发,计算机软件1000-2000人,9-13k·14薪,杭州-滨江区,杭州,统招本科,1-3年,90天前更新,liepin,"
+负责公司业务系统的前端（React/JS）与后端（Node.js）开发、调试及优化，确保系统稳定运行、响应高效；
+主动学习新技术、新框架，结合业务需求落地 AI 相关应用（有 AI 相关经验者优先）；
+完成团队交办的其他技术开发及支持工作。
+
+
+任职要求
+-学历要求：本科及以上学历，计算机相关专业（软件工程、计算机科学与技术等）优先；
+
+-工作经验：1-3 年相关开发工作经验，有完整项目开发经验者优先；
+技能要求（二选一即可，优先 Node.js 全栈方向）：
+
+-Node.js 全栈方向：具备扎实的 JavaScript 基础，熟练掌握 React/JS 前端开发、Node.js 后端开发经验，有全栈开发能力；
+
+-Python 开发方向：熟练掌握 Python 后端开发，熟悉 Django/Flask/FastAPI 等常用框架，能独立完成接口开发；
+
+-附加要求：英语四级及以上，具备良好的英文文档阅读能力，英语能力优秀者优先；学习能力强、可塑性强，有 AI 相关项目经验者优先；
+具备良好的编码规范、逻辑思维能力和问题排查能力，沟通协作能力佳，能快速融入团队。",React Node.js JavaScript Python Django Flask FastAPI,https://www.liepin.com/job/1981203859.shtml
+高级nodejs开发工程师,深圳市光微子科技有限公司,15-18k,深圳,深圳,大专,5-10年,6月4日更新,liepin,"# Node.js 后端开发工程师招聘
+我们正在寻找一位经验丰富的 Node.js 后端开发工程师加入我们的团队。
+岗位职责：
+* 负责公司核心后端系统的开发、维护与优化，确保系统的高可用性和高性能表现。
+* 参与项目的需求分析和技术方案设计，为项目的架构和开发提供专业建议。
+* 按照规范标准编写高质量、可维护的代码，进行代码审查，提升团队代码质量。
+岗位要求：
+* 3 年及以上后端开发经验，具备扎实的编程基础和良好的编程习惯。
+* 熟悉但不限于 node.js、elysia.js、h3.js 等现代后端开发框架，能够根据项目需求灵活选用并高效应用。
+* 熟悉 bun.js、deno.js、node.js 等 js 运行时环境，深入理解其原理和特性，为项目选择合适的运行时方案。
+* 熟悉 vitest、bun:test、deno:test、node:test 等测试框架，能够编写高效的测试代码，保障项目质量。
+* 熟悉 RabbitMQ、RedisMQ、Kafka 等消息队列技术，了解其应用场景和优势，满足项目的异步处理需求。
+优先考虑条件：
+1、有金融、商场相关后端开发经验者优先，在这些领域有丰富的项目实践和解决方案积累。
+2、对新技术敏感，具有持续学习和探索精神，能够快速掌握新知识，适应不断变化的技术环境。
+我们提供具有竞争力的薪资福利、良好的工作环境和广阔的发展空间，期待您的加入！",Node.js 高可用 Vite RabbitMQ Redis Kafka 需求分析 技术方案,https://www.liepin.com/job/1983140089.shtml
+nodejs后端开发工程师,链游网(深圳)科技有限公司,20-35k,深圳-龙华区,深圳,本科,3-5年,90天前更新,liepin,"Nodejs开发工程师
+
+1、负责Nodejs功能模块编写与实现；
+2、负责项目的设计、编码、调优、测试及Bug处理；
+3、负责产品服务端开发，不断进行产品演进，提高产品质量和用户体验；
+4、根据产品需求，写出良好的解决方案；
+岗位要求：
+1、3年以上Nodejs开发工作经验，优秀的Javascript基本功；
+2、关注ES6、Node社区，了解最新的技术动态, 了解Http协议,Tls, Proxy，熟悉Html；
+3、Express、ES6、Node和其他编程通信方法的使用经验，；
+4、熟练使用Mysql,Redis,MongoDB等相关数据库；
+5、了解基于nodejs的区块链开发技术
+
+五险一金
+全勤奖
+
+工作时间 9：30———18：30
+",JavaScript Express MySQL Redis MongoDB Tls Proxy ES6,https://www.liepin.com/job/1945184921.shtml
+Node.js后端开发,杭州诺威兰科技有限责任公司,8-12k,杭州-余杭区,杭州,统招本科,1-3年,90天前更新,liepin,"岗位职责：
+1.负责网站后端以及其他服务的设计和编写。
+2.配合产品经理完成产品功能定义和需求细化。
+3.能够独立完成功能模块的详细设计、编码和单元测试。
+4.根据开发进度和任务分配，完成相应模块的开发、编程任务，并能在开发过程中解决技术难题；
+5.完成上级领导安排的其他工作。
+
+技能要求：
+
+1.熟悉Nodejs、Java、Python、PHP、Go中至少两种语言，能对面向对象编程技术有深刻了解，熟悉常用的一些设计模式。
+2.熟悉或了解Nodejs 语言，了解或接触过Nodejs的一种或多种web框架如：Midwayjs，Express,Koa等。
+3.熟练使用关系型数据库，如Mysql。熟悉nosql数据库或搜索引擎，如Mongodb，Elasticsearch。
+4.熟悉Linux平台，以及Docker等容器的常用命令。
+5.熟悉使用 Git 等代码工具进行代码管理和协作开发。
+6.熟悉tomcat，nginx等Web服务器，熟练配置部署上述服务器。
+7.有以下一项或多项能力的可优先考虑：
+- 具有扎实的数据结构和算法基础，有丰富的性能优化经验者；
+- 有关系型数据库应用设计和开发经验，有维护和性能调优经验者；
+- NoSQL数据库应用设计和开发、分布式系统设计和开发、各种类Linux系统应用设计和开发；
+- 有系统架构设计和项目管理经验者；
+- 有供应链经验者；
+- 有React + Nodejs + Mysql web开发经验者。
+
+
+岗位要求：
+1.有计算机、通信及相关专业1-3年以上工作经验。
+2.工作积极主动，有强烈的责任心和团队合作意识，思维活跃，在软件开发方面有自己的独特想法和见解。
+3.有上进心，责任感强，能快速融入团队，共同学习，共同进步。",Java Python PHP Go Express Koa MySQL SQL MongoDB Elasticsearch Linux Docker,https://www.liepin.com/job/1979048587.shtml
+NodeJS游戏服务器开发,趣风科技(苏州)有限公司,8-15k,苏州,苏州,本科,经验不限,90天前更新,liepin,"职位描述
+我们正在寻找一位经验丰富且充满热情的游戏服务器开发工程师，主要使用 Node.js 开展工作，负责支持和优化游戏平台的相关系统与接口。您将与团队紧密合作，设计与实现游戏功能逻辑，优化开发流程，并推动服务器端系统的高效运作，为玩家提供优质体验。
+
+岗位职责
+开发和维护游戏平台相关接口与基础库。
+设计并实现服务器端游戏功能逻辑，包括单元测试。
+设计游戏功能原型，定义客户端与服务器间的通信协议。
+分析服务器日志，定位并修复问题。
+开发和维护其他支持性系统（如 CRM 系统、CMS 系统）。
+测试与审查客户端代码，确保数据结构与通信逻辑的正确性。
+维护服务器项目的测试、构建和部署流程。
+维护和优化 CI/CD 系统，提升持续交付效率。
+研究游戏行业新技术，提出创新解决方案。
+
+岗位要求
+Node.js 专业技能：熟练掌握 Node.js，能够高效开发可维护、可扩展的代码。
+单元测试：熟悉单元测试，熟练使用 Jest 或其他测试框架。
+打包工具：熟悉 JavaScript 打包工具原理，具备使用 Webpack 等工具的经验。
+数据库：熟悉 MySQL，能够编写和优化高效 SQL 查询。
+协议处理：熟悉 Protobuf 协议，能够处理数据序列化与反序列化。
+Linux 系统：熟悉 Linux，能够进行服务器操作与管理。
+学习能力：具备较强的学习能力，对新技术充满好奇并乐于探索。
+AI 工具：熟练使用 AI 工具提升开发效率。
+沟通能力：良好的沟通技巧，能够与团队高效协作。
+英语能力：具备良好的英语听说读写能力。
+
+加分项
+分布式系统与微服务架构的经验。
+NoSQL 数据库经验（如 Redis）。
+熟悉 AWS 云服务。
+CI/CD 自动化经验。
+熟悉前端框架（如 Angular/Vue/React）。
+Java 及相关工具（如 Maven 或 Gradle）的经验。
+使用过 Nakama 开源游戏服务器。
+熟悉游戏数据分析与优化工具。
+
+我们提供
+有竞争力的薪酬与福利。
+开放的创新环境与灵活的工作模式。
+职业发展与学习机会。
+参与热门游戏开发的机会。
+
+如果您符合以上条件并对游戏开发充满热情，欢迎加入我们的团队，共同打造精彩的游戏体验！",Node.js CI/CD JavaScript Webpack MySQL SQL Protobuf Linux 分布式 微服务 Redis AWS,https://www.liepin.com/job/1972311945.shtml
+node.js后端开发,英君文化传播(上海)有限公司,5-8k,长沙,长沙,本科,1-3年,90天前更新,liepin,"岗位职责：
+1、参与产品后端功能的设计与研发，及持续重构；
+2、完成基于nodejs redis mysql等技术的服务器端API开发；
+3、与团队紧密配合，保障线上服务的可靠性、可用性；
+4、负责产品IM服务功能的迭代与实现
+5、优化服务器基础架构
+岗位要求：
+1、本科以上学历，计算机相关专业；
+2、一年以上后端开发工程师经验，对Node.js以及其他新技术充满热情；
+3、熟练掌握js编程，熟悉Node.js标准库的使用，能完成相应的扩展开发；
+4、具备express、koa等框架的使用经验，熟悉HTTP，TCP/IP网络协议，熟悉Restful API 设计；
+5、熟悉 Redis、mysql，并且掌握常用的sql优化；
+6、具有Linux上的开发经验，能够编写常用和基本的Shell脚本；
+7、高度的责任心以及良好团队合作精神，有高并发后端开发和海量数据处理经验；
+8、有敏捷软件开发流程的经验的优先；
+9、对算法有良好的理解能力、深入理解面向对象及设计模式思想；
+10、良好的文档书写能力和代码注释习惯，对代码整洁度、可维护性有较高追求。",Redis MySQL Node.js Express Koa TCP/IP SQL Linux Shell 高并发,https://www.liepin.com/job/1949483425.shtml
+Node.js服务端开发工程师,北京英特美迪科技有限公司,15-20k·13薪,北京,北京,统招本科,3-5年,90天前更新,liepin,"职责描述
+
+1、开发基于web的专业应用后端；
+2、负责云平台系统的服务性能优化，数据库性能优化;
+
+任职要求
+
+1、精通Node.js/JavaScript，熟悉mongoose、
+async等常用nodejs package；擅长 Node.js 项目debug 及性能调优；
+2、精通 Express/Koa 框架；
+3、扎实的编程基础，对常见数据结构、设计模式、算法有清晰的理解；
+4、熟练使用MongoDB/Redis/MySQL等数据库；
+5、熟练使用 Linux 操作系统；
+6、熟悉Docker、ElasticSearch等技术优先；
+7、乐观积极的态度,良好的沟通和表达能力。
+",Node.js JavaScript Go Express Koa MongoDB Redis MySQL Linux Docker Elasticsearch,https://www.liepin.com/job/1917019055.shtml
+node.js后端开发,上海英檬科技有限公司,13-14k,上海-长宁区,上海,本科,3-5年,90天前更新,liepin,"1.	计算机或相关专业本科及以上学历，3年以上开发经验，精通nodeJS开发语言
+2.	熟悉ES6，具有服务部署经验的优先
+3.	可以熟练设计database schema和model
+4.	具有大型企业级web系统应用开发经验，熟悉CRM系统优先
+5.	了解主流开发思想，精通http协议， web service开发，精通一种或多种node.JS开发框架，使用过eggJS的优先
+6.	熟悉Mysql关系型数据库，以及至少一种非关系型数据库，例如mongoDB
+7.	具有极强的debug能力，迅速排查问题并解决
+8.	具有良好的编码规范及测试习惯，可以编写稳定并且扩展性强的代码
+9.	热爱学习并且能够快速学习新技术
+10.	可以很好的进行团队合作
+11.有node.js全栈开发经验优先",Node.js MySQL MongoDB,https://www.liepin.com/job/1926066519.shtml
+nodejs,北京云族佳科技有限公司,16-20k,杭州-西湖区,杭州,大专,5-10年,90天前更新,liepin,"职责描述：1.负责协助构建node.js 项目， 构建蓝血信息平台。
+2.负责 协助构建node.js框架，精通express、Koa等主流框架。
+3.负责平台详细编码开发，解决express、Koa框架编码中的难点与问题；
+4.完成软件单元测试， 协助完成系统集成测试、系统测试，并修改更新其中bug和缺陷；
+5.配合团队一起工作， 共同完成项目任务， 完成领导安排的其他工作。
+
+
+
+
+任职要求：1、熟练掌握node.js 开发技能， 熟练使用 前后端相关常见开发框架expess等，能够耐心阅读艰涩代码。
+2、非常精通javascript， 熟悉Vue、react，作为骨干工程师编程开发3年。 
+3、熟悉svn或git； 具备良好的编码规范，具有面向对象开发思想， 能按相关需求和产品设计，独立开发应用平台。
+4、熟悉使用数据库mysql 或postgresql之一，batis和调用相关sql。  
+5、熟悉容器化开发docker， 可优先。
+同时熟悉java springboot可优先。
+6、本专科以上学历, 5年或以上相关工作经验；
+7、具有较强的学习接受能力，具有主动积极和负责任的价值观，有一定抗压能力，也能对团队分享、传播正能量的价值和经验技能。",Node.js Express Koa JavaScript Vue React SVN Git MySQL PostgreSQL SQL 容器化,https://www.liepin.com/job/1925996113.shtml
+nodejs后端开发,上海桢诚网络科技有限公司,10-15k,上海,上海,大专,1-3年,90天前更新,liepin,"使用nodeJS实现业务场景比如小程序，网页，APP以及后台管理系统的后台编写。
+
+任职要求：
+1、熟悉Javascript，nodejs, ,express , mongodb , redis；
+
+2、了解mongoose, async等常用nodejs package
+3、 有良好的编码和文档写作习惯
+4、 具备较强的逻辑思维能力、自学能力、英文阅读能力和沟通能力
+
+5、乐于分享，勤奋好学，对互联网应用开发的最新潮流有关注，喜欢去看及尝试最新的技术，追求编写优雅的代码，从技术趋势和思路上能影响技术团队
+
+6、团队气氛融洽，也有技术大牛，想要好好学习计算机的同学快快申请吧！",JavaScript Express MongoDB Redis Go,https://www.liepin.com/job/1921255215.shtml
+Node.js工程师,友机技术(上海)有限公司,11-25k,杭州-上城区,杭州,本科,5-10年,90天前更新,liepin,"岗位职责：
+1.负责工厂边缘计算产品开发进行底层数据C++接口接入Node.js并做相应数据处理及接口设计；
+2.能够编写高质量的产品文档：清晰、明确表达产品功能设计目的、业务逻辑、页面流程及进度安排；
+3.与相关部门配合，协调设计和研发等团队，跟进产品的需求设计、测试、上线的全过程，保证产品开发的进度和质量，帮助项目与团队向前推进；
+4.从软硬一体化角度考虑，协同公司内销售，售前，产品，进行边缘计算场景设计架构和开发；
+任职要求：
+1.5年+后端开发经验，熟悉TCP、ws服务器开发，精通nodejs后端开发。
+2.熟悉JavaScript、TypeScript、ES6+特性； 熟悉Egg、Koa、socketio等, 理解其技术架构、特性、适用场景。
+3.熟练使用MySQL、MongoDB、Sqlite数据库，了解原理及应用。
+4.熟悉Git/Github、TCP/HTTP；  熟悉Linux开发，熟练操作使用Linux系统； 有Docker、Kubernetes、阿里云的使用经验的优先。
+5.熟悉Redis，RabbitMQ，Kafka等消息中间件，有MQTT协议的使用经验。",C++ Node.js JavaScript TypeScript Koa MySQL MongoDB SQLite Git Linux Docker Kubernetes,https://www.liepin.com/job/1969099681.shtml
+Node.js工程师,中软国际科技,15-20k·13薪,广州-天河区,广州,大专,3年以上,90天前更新,liepin,"合同13薪-线上面试-在自己公司上班-双休不内卷17:30下班
+
+工作职责：
+1.开发和维护公司所有产品和服务的后端部分；
+2.利用 Node.js等后端技术解决业务问题；
+3.对现有的系统和代码架构进行重构并不断优化，提高性能和可维护性；
+4.发现项目中各种技术问题，并持续优化；
+
+职位要求：
+1. 3年以上开发经验；
+2. 熟悉NodeJs；
+3. 了解MongoDB",Node.js MongoDB Node.,https://www.liepin.com/job/1977808773.shtml
+nodejs后端开发+英文流利+外派岗位,博彦科技,28-35k,深圳-南山区,深圳,统招本科,5-10年,90天前更新,liepin,"工作地点：深圳市南山区科苑大道中国华润大厦
+工作时间：朝九晚六，周末双休
+
+1、拥有资深后端工程师或类似岗位的可靠工作经验。
+2、熟练掌握 JavaScript 和 Node.js。
+3、在 Express.js 或类似框架方面有丰富经验。
+4、深入了解 MongoDB、MySQL 或 PostgreSQL 等数据库技术。
+5、对可扩展应用程序背后的基本设计原则有深刻认识。
+6、精通身份验证和授权机制。
+7、有使用 Git 等版本控制系统的经验。
+8、具备出色的问题解决能力，注重细节。
+9、拥有较强的沟通能力和领导能力。""
+优先：
+""1、具备使用亚马逊云服务（AWS）、微软 Azure 或谷歌云等云服务的经验。
+2、熟悉像 Docker 这样的容器化技术。
+3、了解微服务架构。
+4、有持续集成 / 持续交付（CI/CD）流水线的相关经验。
+5、有过担任领导或指导他人的经验
+
+
+岗位职责
+""1、带领团队使用 Node.js 和 Java 进行服务器端应用程序的开发与维护。
+2、设计并实现强大的 RESTful API，以支持前端功能。
+3、与前端开发人员协作，将面向用户的元素与服务器端逻辑进行集成。
+4、对应用程序进行优化，以实现更优的运行速度和可扩展性。
+5、确保应用程序的安全性和数据保护。
+6、对应用程序中出现的复杂问题进行故障排查和调试。
+7、参与架构决策和技术战略规划。
+8、及时了解新兴技术和行业趋势。",JavaScript Node.js Express MongoDB MySQL PostgreSQL Git AWS Azure Docker 容器化 微服务,https://www.liepin.com/job/1977960093.shtml
+兼职远程资深nodejs,上毅资讯科技有限公司,9-10k,重庆-渝北区,重庆,本科,3年以上,90天前更新,liepin,"岗位职责：
+1.移动互联网基础平台系统后端API的研发和优化迭代；
+2.对涉及的其他技术栈相关模块进行技术适配或改造，并可能直接主导相关的业务逻辑开发；
+3.开发语言主要为Node.js。
+
+职位要求：
+1.熟练使用Node.js语言及主流框架（Express,Nestjs等），有丰富的实际开发经验，高级工程师需有三年以上经验；
+2.熟练使用Postgres、Redis等主流数据库或缓存技术；
+4.熟悉诸如Nginx、Redis、分布式、负载均衡、Docker等后端技术；
+5.熟悉如React、Vue.js 等移动前端技术者优先；
+6.热爱技术，喜欢折腾，有技术或产品追求，有自认为品质满意的开发案例。",Node.js Express Redis Nginx 分布式 Docker React Vue,https://www.liepin.com/job/1971857831.shtml
+Node.js后端开发,浙江肇丰科技信息有限公司,15-22k,杭州-余杭区,杭州,本科,1-3年,90天前更新,liepin,"我们是0xGen Labs，web3应用孵化器。成立于2021年，并在很短时间内在NFT领域进入头部平台TOP10，非web3游戏类目的TOP2。2022年开启web3应用孵化，目前已有基于AI的元宇宙应用产品得到头部基金和交易所百万美元投资。我们致力于打造大规模应用产品，帮助用户真正发掘和体验AI和web3的价值。
+
+岗位要求
+•	在web3，gamefi/游戏，web3应用，或一般科技行业中有2+年的开发工作经验
+•	计算机科学或相关领域的学士/硕士学位
+•	熟悉websocket原理，且具有相关项目经验
+•	熟练使用Express/Koa框架，理解常用中间件的实现原理；熟悉midwayjs框架者优先
+•	熟练进行MySQL数据库的设计与开发
+•	擅长Node.js项目的调试和性能优化
+•	能够独立完成新功能模块的接口设计和开发
+•	出色的编程技能，擅长NodeJS，熟悉常用算法
+•	了解Redis等存储系统的原理和应用，以及常见队列产品如rabbitmq等
+•	对分布式计算和分布式存储的架构设计概念有一定的理解
+•	良好的团队沟通和协作能力，强烈的责任感，自我驱动，学习能力强
+
+加分项
+•	有电商或金融订单系统经验
+•	有AI、prompt engineering经验
+•	有智能合约开发经验
+
+加入我们，你将得到
+•	与一支才华横溢、充满激情、透明度高的Web3初创团队一起工作和成长
+•	保持在创新革命前沿，因为我们坚信我们正在做的事情是将AI和Web3与每个人的日常生活联系起来，吸引更多的人来BUIDL，从而推动Web3的发展，使我们的社会变得更好
+•	面对并解决快速发展、具有挑战性和独特性的问题
+•	通过试用期后，可以选择远程工作，工作时间灵活
+•	有竞争力的薪酬包+激励",WebSocket Express Koa MySQL Node.js Redis RabbitMQ 分布式 Gin,https://www.liepin.com/job/1959764793.shtml
+nodejs工程师,上海天卓悦科技有限公司,20-30k,上海-黄浦区,上海,大专,3-5年,90天前更新,liepin,"岗位职责：
+不是外包！自己公司业务
+* 负责使用Node.js开发高性能的Web应用；
+* 深度理解并应用Express框架进行项目开发，包括中间件、路由、安全性等方面的优化；
+* 主动识别和修复安全漏洞，确保代码和服务器的安全；
+* 与团队合作，进行代码审查，确保开发质量和效率；
+* 持续优化应用性能，提升用户体验。
+
+任职要求：
+
+* 3-5年Node.js开发经验，有成功的项目案例；
+* 对Express框架有深入理解和实践经验；
+* 熟悉Web安全实践，包括但不限于XSS、CSRF、SQL注入的防护措施；
+* 对服务器安全有实际的操作经验，了解HTTPS、HTTP头配置、防火墙设置等；
+* 具备良好的问题解决能力，能够独立分析和解决复杂问题；
+* 良好的团队合作精神和沟通能力，能够有效地与团队成员协作；
+* 熟悉版本控制工具Git。",Node.js Express SQL 防火墙 Git CSRF,https://www.liepin.com/job/1965769385.shtml
+资深Node.js,北京数驱互娱科技有限公司,20-40k·14薪,北京-朝阳区,北京,统招本科,5-10年,90天前更新,liepin,"每周三羽毛球活动
+
+岗位职责：
+1. 负责公司现有 NodeJS 后端项目的需求评审和日常迭代开发。
+2. 与前端、测试、产品团队紧密合作，确保交付质量和进度符合预期，积极从技术层面为产品提供优化建议。
+3. 引导团队技术方向，分享实践，提升团队整体技术能力和效率。
+4. 收集和整理业务数据，配合相关团队成员进行数据分析和产出。
+
+任职要求：
+1. 计算机或相关专业本科及以上学历，3 年以上后端开发经验，扎实的计算机理论基础。
+2. 精通 Node.js，熟练运用 Egg、Express 等框架进行复杂系统的设计和开发，并深刻理解其原理和性能优化。
+3. 对前端技术有深入研究，熟练运用 HTML5、CSS3、主流前端框架（如 Vue、React）进行前后端分离开发。
+4. 深入理解 RESTful API 设计原则和应用场景，具备大规模分布式系统设计经验。
+5. 精通后端相关技术栈，包括网络、数据库、缓存、消息队列等，能够灵活运用三方库解决复杂问题。
+6. 熟练运用 ES6、Less、Webpack、Nginx 等工具和技术，具备服务端性能优化经验。
+
+加分项：
+1. 具备多语言开发经验，如 Python、Go、Java 等，参与过跨平台项目开发。
+2. 拥有丰富的 Linux 系统操作和服务器运维经验，熟练应用海外云平台（如 AWS、GCP、Azure）服务。
+3. 持续输出高质量的项目作品和开源项目，有技术博客或参与开源社区活动者优先。
+4. 对人工智能技术有深入了解，参与过相关项目或产品研发经验者优先。",Node.js Express HTML5 CSS3 Vue React 分布式 Webpack Nginx Python Go Java,https://www.liepin.com/job/1967081179.shtml
+node.js开发工程师,深圳市画芯科技有限公司,12-20k,深圳-南山区,深圳,大专,1-3年,90天前更新,liepin,"岗位职责：
+1、负责后台的完善和维护，以及新增代码的代码编写和测试、游戏数据处理、游戏接口对接；
+2、根据项目进度和需求按要求完成代码编写、注释、优化；
+3、配合项目完成相关功能测试工作
+4、能独立完成产品需求，对突发性出现的问题能够及时追踪、定位和解决
+5、良好的沟通能力，高度的工作责任心和敬业精神，吃苦耐劳并能承受较大的工作压力；
+
+ 
+岗位要求：
+1、1年以上 nodejs 后端开发经验
+2、熟悉 Node.js 服务端编程，服务接口编写；
+3、有 MySQL, Redis 或 MongoDB 等相关数据库使用经验；
+4、熟悉RESTFUL，了解TCP/IP、SOCKET、WEB SOCKET通讯协议；
+5、具备面向对象编程的思想和经验，了解常用的设计模式；
+6、有渠道接入经验、游戏开发经验者优先 
+7、热爱编程，认真负责，有良好的团队合作能力，善于沟通",Node.js MySQL Redis MongoDB TCP/IP 功能测试,https://www.liepin.com/job/1937440783.shtml
+nodejs全栈开发工程师,上海通芝信息科技有限公司,12-18k,上海-浦东新区,上海,本科,1-3年,90天前更新,liepin,"职位描述：
+1. 参与产品的需求分析及设计讨论；   
+2. 根据需求负责项目前端和后端的设计与开发； 
+3. 负责解决在开发过程中遇到的各种问题，包括性能优化，安全等。
+
+任职要求：
+1. 计算机及相关专业，2年以上Nodejs全栈开发经验；
+2. 熟悉HTML5，CSS3，Element Plus，vue3 ，uniapp，微信小程序原生语言； 
+3. 熟练使用vscode，nodejs，eggjs等开发框架；
+4. 熟悉 Gitee 等版本管理工具； 
+5. 熟练使用MongoDB、Redis等后端数据库；
+6. 了解Serverless开发模式；
+7. 扎实的编程基础、良好的编码习惯，对常见数据结构、设计模式、算法有清晰的理解； 
+8. 全栈项目的经验优先； 
+9. 热爱技术，有较强的学习，沟通、分享、和团队协作能力。 ",HTML5 CSS3 Vue UniApp Git MongoDB Redis Serverless 需求分析 版本管理,https://www.liepin.com/job/1955793821.shtml
+Nodejs后端工程师,南京纯白矩阵科技有限公司,12-24k,南京,南京,本科,1-3年,90天前更新,liepin,"职责描述：
+1. 负责区块链底层服务和中间件的设计与开发；
+2. 根据需求、独立完成项目的系统设计和开发计划。
+3. 负责管理1-2人的初级后端工程师队伍。
+
+
+
+任职要求：
+1. 有开发过大型企业级Nodejs后端的经验，熟悉例如express，egg，NestJS等Nodejs后端开发框架。
+2. 了解并能够熟练使用面向对象概念构建设计服务模型。
+3. 熟悉后端开发中缓存（Redis）、非关系型数据存储（MongoDB）、对象存储服务（OSS, S3）等服务。4. 熟悉REST等后端API接口规范。
+5. 熟悉基于云服务（阿里云、AWS等）的项目开发与部署。
+6. 熟悉Git。其他要求（满足者优先）：
+7. 熟悉Docker，k8s等容器化工具的操作优先。
+8. 对 Linux 操作系统使用熟悉优先。
+9. 有分布式或大数据服务开发经验者优先。
+10. 了解ES6规范、熟练使用TS者优先。
+11. 有区块开发及相关经验优先。
+12. 责任心强、有较强的学习能力和一定的外文文档的阅读能力、探究精神和独立解决问题的能力、对于开发工作有热情。",Express Redis MongoDB 阿里云 AWS Git Docker K8s 容器化 Linux 分布式,https://www.liepin.com/job/1937589827.shtml
+node.js开发工程师,深圳市小镜科技有限公司,10-15k,成都-高新区,成都,本科,3-5年,90天前更新,liepin,"职责描述：
+
+1、一阶段完成业务逻辑部分代码
+2. 构建低耦合 / 高扩展的系统模块
+3、服务器基础的运维工作
+
+
+
+任职要求：
+1、2.5年以上项目开发经验，1年以上Node.js开发经验
+2、熟练掌握使用TypeScript / Nodejs。
+3. 精通express / koa
+4. 熟悉mongodb / redis 以及部分MQ产品。
+5. 对js生态的前端有所了解
+6. 熟悉linux，具备生产环境服务器基础问题分析的能力
+7. 计算机 / 软件专业。有相对扎实的基础知识亦可
+8. 了解docker，k8s等集群化服务优先。",Node.js TypeScript Express Koa MongoDB Redis Linux Docker K8s,https://www.liepin.com/job/1933277695.shtml
+NodeJS全栈开发工程师,西安易龙软件有限公司,8-14k,西安-雁塔区,西安,本科,3-5年,90天前更新,liepin,"职责描述：
+1、 基于Nodejs技术栈进行Web应用的研发；
+2、 负责Web前端系统和功能的开发、调试和维护；
+3、 负责后台服务器端的RestFul接口的研发；
+4、 负责技术方案调研和性能优化，保障服务的稳定性和可靠性；
+
+任职资格：
+1、统招本科以上学历
+2、精通 Javascript, 能熟练使用 ES6 进行开发；
+3、能熟练使用 Vue 、React、Angular 等任何一种前端开发框架开发；
+4、具有Nodejs 相关开发经验，熟悉 Koa、Express、nestjs 或其他 Web 框架；
+5、熟悉数据库相关开发，如 Sql Server、Mysql、Redis 等。
+6、熟悉 Http 协议相关内容。
+7、使用过webpack、rollup等打包工具。
+
+任职要求：
+1. 具有良好的沟通能力；
+2. 具有良好的职业素养、敬业精神和创新精神；
+3.具有不断挑战自我、提高自我的强烈意愿。
+4. 具有很好的抗压能力；
+5.具有很强的学习能力；
+6.具备独立解决问题的能力和经验；",JavaScript Vue React Angular Koa Express SQL Server MySQL Redis Webpack 技术方案,https://www.liepin.com/job/1941177607.shtml
+node.js开发工程师,杭州九划网络科技有限公司,15-20k·13薪,杭州-萧山区,杭州,大专,1-3年,90天前更新,liepin,"职责描述：
+
+岗位职责：
+1. 参与后端服务器框架搭建和开发，编写核心业务代码;
+2. 负责视频类型服务的业务逻辑开发;
+3. 根据产品需求与前端人员配合完成功能模块开发;
+职位要求：
+1. 两年以上服务器开发经验，一年以上nodejs开发经验。
+2. 熟悉Node.js、熟练使用Express 或者 Koa，并了解Linux基本操作;
+3. 熟悉MongoDB或者MySQL、Redis，熟悉数据库设计。
+4. 熟悉HTTP/HTTPS、WebSocket等网络通讯协议。
+5. 熟悉java 或者 python其中一门的语言。
+6. 熟悉vue前端框架者优先。
+7. 良好的沟通能力，强烈的责任心，具有团队精神和创新精神;
+
+
+任职要求：",Node.js Express Koa Linux MongoDB MySQL Redis WebSocket Java Python Vue,https://www.liepin.com/job/1945536861.shtml
+node.js工程师,北京建科研软件技术有限公司,11-18k,北京,北京,大专,1-3年,90天前更新,liepin,"岗位职责：
+1.负责产品服务端开发和维护；
+2.不断进行产品演进，提高产品质量和用户体验；
+
+任职资格：
+1.统招本科及以上学历，2年以上node.js开发经验；
+2.精通JavaScript编程，熟悉C语言；
+3.熟悉NodeJS事件机制，常见模块的使用;
+4.了解Express/Pomelo等开源框架、熟悉MySQL，Redis等数据库；
+5.了解TCP、UDP、HTTP等网络通信协议;
+6.了解WebGL，有ThreeJS,CesiumJS经验者优先;
+7.有项目组系统运行后期维护经验优先。",Node.js JavaScript C语言 Express MySQL Redis,https://www.liepin.com/job/1922111611.shtml
+Nodejs开发工程师,深圳市引导美信息科技有限公司,10-15k,深圳,深圳,大专,1-3年,90天前更新,liepin,"任职资格：
+
+1.3年以上Nodejs开发经验，优秀的Javascript基本功，有Express、ES6、Node和其他编程通信方法的使用经验；
+
+2.关注ES6、Node社区，了解最新的技术动态；
+
+4.熟悉git flow工作流，并严格遵从git操作规范；
+
+5.熟悉Async,Promise，理解异步与同步，阻塞和非阻塞的区别；
+
+6.熟练使用Mysql,Redis,MongoDB，Oracle等相关数据库；
+
+7.精通通信协议TCP/HTTP等，熟练使用RESTful标准；
+
+8.强烈的产品意识和分享精神；
+
+9.性格外向，容易沟通交流，愿意接受他人的意见；
+
+
+
+岗位职责：
+
+1.负责Nodejs功能模块编写与实现；
+
+2.负责项目的设计、编码、调优、测试及Bug处理；
+
+3.负责产品服务端开发，不断进行产品演进，提高产品质量和用户体验；
+
+4.根据产品需求，写出良好的解决方案。",JavaScript Express Git MySQL Redis MongoDB Oracle,https://www.liepin.com/job/1912983017.shtml
+Node.js开发工程师,某知名公司,15-30k,上海,上海,本科,1-3年,6月30日更新,liepin,"1、全日制本科及以上学历，1年以上前端开发经验。有大型系统前端架构以及落地经验优先；
+2、熟练掌握JavaScript、HTML、CSS、HTTP等前端技术，对主流前端解决方案（React、Vue 等）有深入理解。
+3、具有良好的沟通能力，刻苦、敬业、有上进心，有良好的团队合作精神；
+4、对技术有激情，喜欢钻研，能快速接受和掌握新技术，有较强的独立、主动的学习能力；
+5、具备一年以上Serverless（NodeJS）或BI开发经验的优先。",JavaScript React Vue Serverless HTML CSS NodeJS,https://www.liepin.com/a/77297075.shtml
+Node.js工程师,某知名公司,15-30k,南京,南京,本科,1年以下,6月30日更新,liepin,"1、全日制本科及以上学历，1年以上前端开发经验。有大型系统前端架构以及落地经验优先；
+2、熟练掌握JavaScript、HTML、CSS、HTTP等前端技术，对主流前端解决方案（React、Vue 等）有深入理解。
+3、具有良好的沟通能力，刻苦、敬业、有上进心，有良好的团队合作精神；
+4、对技术有激情，喜欢钻研，能快速接受和掌握新技术，有较强的独立、主动的学习能力；
+5、具备一年以上Serverless（NodeJS）或BI开发经验的优先。",JavaScript React Vue Serverless HTML CSS NodeJS,https://www.liepin.com/a/77302381.shtml
+Node.js工程师,某知名公司,15-30k,东莞,东莞,本科,经验不限,7月2日更新,liepin,"1、全日制本科及以上学历，1年以上前端开发经验。有大型系统前端架构以及落地经验优先；
+2、熟练掌握JavaScript、HTML、CSS、HTTP等前端技术，对主流前端解决方案（React、Vue 等）有深入理解。
+3、具有良好的沟通能力，刻苦、敬业、有上进心，有良好的团队合作精神；
+4、对技术有激情，喜欢钻研，能快速接受和掌握新技术，有较强的独立、主动的学习能力；
+5、具备一年以上Serverless（NodeJS）或BI开发经验的优先。",JavaScript React Vue Serverless HTML CSS NodeJS,https://www.liepin.com/a/77424687.shtml
+NodeJS开发工程师,深圳市蓝典智能技术有限公司,16-20k,深圳-南山区,深圳,本科,3年以上,6月25日更新,liepin,"岗位职责：
+
+1、后端开发：基于 NestJS + TypeScript 构建企业级后端服务，使用 TypeORM 进行 PostgreSQL 数据库设计与优化。
+2、客户端开发：使用 Electron + TypeScript 开发跨平台桌面应用，实现复杂业务逻辑与本地系统集成。
+3、参与低代码平台的后端开发，负责后端的开发、部署、运维。
+4、参与RPA（机器人流程自动化）项目开发，设计流程编排引擎、自动化脚本及任务调度系统。
+5、与产品、设计团队紧密协作，将业务需求转化为高质量的技术方案。
+6、积极拥抱AI工具链，使用AI辅助代码生成、测试用例编写及技术文档撰写，提升全链路开发效率。
+
+任职要求：
+
+1、计算机相关专业本科及以上学历，3年以上Node.js开发经验，精通TypeScript。
+2、后端方向：精通NestJS框架，熟悉依赖注入、拦截器、守卫等高级特性；熟练使用TypeORM或Prisma，具备PostgreSQL复杂查询优化经验。
+3、客户端方向：精通Electron框架，熟悉主进程与渲染进程通信、原生模块开发、应用打包与自动更新机制。
+
+加分项：
+
+1、有低代码平台开发经验，熟悉可视化搭建、DSL设计、动态表单渲染等技术。
+2、有RPA项目经验，熟悉流程自动化、浏览器自动化（Puppeteer/Playwright）、Windows COM接口调用。
+
+福利待遇：
+
+1、五险一金、年终奖、带薪年假、节日福利。
+2、提供免费优质的工作餐。
+3、优秀者发放母公司上市公司期权。
+4、工作地点：深圳市 南山区",TypeScript PostgreSQL Electron Node.js 技术方案 测试用例 技术文档,https://www.liepin.com/job/1981467551.shtml
+双栈开发（nodejs+java）,华钦科技,20-24k,广州-越秀区,广州,大专,8年以上,5月25日更新,liepin,"· 8年以上后端经验，至少3年同时使用Java和Node.js进行生产开发。
+· Java：精通Spring Boot/Cloud、JVM调优、多线程。
+· Node.js：精通Nest.js/Express，理解事件循环与Stream。
+· 熟悉MySQL、Redis、Kafka。
+· 加分：有AI项目经验（如智能客服、话后小结、情绪分析、LLM/RAG等）。",Java Node.js Spring Boot Express MySQL Redis Kafka LLM RAG,https://www.liepin.com/job/1982821089.shtml
+Nodejs+React+英语流利,华钦科技,10-22k,北京-朝阳区,北京,本科,3年以上,90天前更新,liepin,"1.3年以上全栈开发经验
+2.熟练使用Nodejs,+React
+3.英语流利
+ ",React,https://www.liepin.com/job/1980553377.shtml
+Node.js工程师,上海睿沃信息科技有限公司,22-26k·13薪,上海-杨浦区,上海,本科,5-10年,90天前更新,liepin,"工作要求
+
+软件设计、计算机科学、工程或相关专业本科或硕士学位
+
+·扎实的计算机科学基础，数据结构，算法，对大数据有很好的理解
+
+·精通NodeJS编程语言，熟悉以下前端框架Vue / Angular / React之一
+
+精通图表框架，如ECharts， Highcharts
+
+有CI/CD工具（Jenkins等）使用经验者优先
+
+有跟踪系统如传感器/ AEM5年web应用开发的实际工作经验
+
+具备CDN和SSO集成（如OAuth， SAML）的工作经验
+
+熟悉SQL，有关系型数据库和NO-SQL数据库的实践经验。
+
+良好的沟通技巧和商业思维",Vue Angular React CI/CD Jenkins SQL,https://www.liepin.com/job/1959570865.shtml
+AI架构师(node.js),深圳嘉立创科技集团股份有限公司,40-50k,深圳-福田区,深圳,本科,3-5年,90天前更新,liepin,"一、工作职责:
+1、负责 NodeJS 后端、基础设施及复杂 Node 项目的架构设计与实现；
+2、基于大模型完成 Agent 任务规划、多 Agent 协作逻辑的工程化落地；
+3、构建 API/Webhook/ 数据管道，设计数据库结构（MySQL/PostgreSQL/Redis/ 向量库），支撑业务场景接入；
+4、实现后端微服务 / 事件驱动架构，保障系统高可用与高性能；
+5、推动 Agent 系统接入真实业务，构建自动化工作流，优化 Agent 执行稳定性与调用成本；
+6、接入主流大模型 API（OpenAI/Claude/Gemini 等），完成性能与成本优化。
+二、、任职要求：
+1、统招本科及以上学历，精通 NodeJS 后端与基础设施，有复杂 Node 项目架构经验；
+2、有大模型 Agent 任务规划实战经验，熟悉 Agent 工具链；（OpenClaw/Skills/Trae/LangChain 等，至少 2 项）；
+3、理解 AI 基础设施：LLM 工作机制、RAG、向量数据库、Function Calling、多 Agent 协作；
+4、具备全栈基础，能独立设计 API、数据库结构与微服务架构；
+5、具备产品思维，能将业务需求转化为可落地的 AI 系统方案。",大模型 MySQL PostgreSQL Redis 微服务 高可用 LLM RAG,https://www.liepin.com/job/1982038615.shtml
+web后端工程师（Node.js）,上海工业控制安全创新科技有限公司,8-13k,郑州-二七区,郑州,统招本科,3-10年,90天前更新,liepin,"职位描述
+1、公司产品的前后端服务设计与开发，编写高质量、可扩展的代码，确保系统的稳定和性能；
+2、对现有系统进行性能调优、Bug修复和架构升级，解决开发过程中的技术难题；
+3、撰写清晰的技术文档，配合团队项目完成相关开发任务。
+
+职位要求
+1、计算机相关专业本科及以上学历，3年以上Python/Nodejs开发经验（若有丰富项目经验可放宽）；
+2、熟练掌握Python及 Flask/ FastAPI框架；熟悉nodejs及Midwayjs/koa 框架；了解框架的优缺点及适用场景
+3、熟悉至少一种关系型数据库（如MySQL/PostgreSQL）的使用，具备基本的数据建模和SQL调优能力；
+4、熟练使用Linux系统进行开发部署，熟悉Git版本控制工具。
+5 、具有良好的沟通能力和团队合作精神、优秀的分析问题和解决问题的能力；
+6 、有 中大型项目开发经验（加分项）",Python Flask FastAPI Koa MySQL PostgreSQL SQL Linux Git 技术文档,https://www.liepin.com/job/1981234595.shtml
+nodejs中高级后端开发,成都锦逸达电子产品有限公司,10-15k,成都-锦江区,成都,统招本科,3年以上,90天前更新,liepin,"工作内容：
+ 负责产品后端设计与开发，包括： 
+1. 系统设计与开发 
+2. 提升及改善系统效能 
+3. 整理系统相关技术文件 
+任职要求: 
+1. 至少3年以上Node.js后端项目开发经验，同时熟悉其他一门后端语言如：Rust、Go、Python等。 
+2.熟练使用Pg和Redis 数据库，拥有数据库程序设计经验。 
+3.熟悉ES6、Express、Lodash、typeorm。 
+4.对系统内存监控，线程阻塞等问题有实际解决经验 
+5.能够独立完成复杂业务系统分析和架构设计。 
+6.对插件化、saas化系统有完整的开发经验 
+7.具有良好的代码风格以及接口设计能力。 
+8.具有良好的沟通交流能力能参与团队协作。 
+加分技能: 
+1. 熟悉NextJS或ReactJS前端框架者佳。 
+2. 计算机相关专业、英语能力良好者佳。 
+3. 有Gitee CI/CD、Docker、K8s经验者佳。 
+4. 了解且长期使用过webpack、tsup、swc、babal等编译构建工具经验者佳。 
+5. 有单元测试经验，热衷于优化代码者佳。 
+6. 熟悉Linux系统操作，熟悉服务器架构、熟悉系统测试经验者佳。",Node.js Rust Go Python Redis Express React Git CI/CD Docker K8s Webpack,https://www.liepin.com/job/1979394437.shtml
+高级全栈开发工程师（偏后端nodejs）,深圳米亿智联科技有限公司,23-24k,深圳-南山区,深圳,本科,3-5年,90天前更新,liepin,"岗位职责:
+1.与项目经理对接，负责项目研发工作;
+2.根据产品需求及项目规划，搭建技术框架，进行版本开发 ；
+3.负责项目开发中技术探索，调研和技术攻坚；
+4.负责编写相关技术文档, 代码check，对项目质量负责。
+
+1.本科及以上学历，计算机相关专业，5年及以上后端开发经验，
+2.熟悉koa / express / hono / prisma / drizzle 等 nodejs 生态，有丰富的项目后端实战经验;
+3.熟练使用Redis / Kafka / RabbitMQ / Mysql / Mongodb / docker 等主流服务端技术；
+4.会node-red、Modbus，有lOT平台及相关产品开发经验者优先 ；
+5.精通主流的前后端技术栈，JS、React、 Vue、ES6、typescript、npm、webpack、redux、mbox、node，golang等，至少有1-2技术栈实际项目经验；
+6.主导或独立负责过一定规模产品的前端模块，有一定的前端架构能力；
+7. 具有良好的学习能力和抗压能力，能够乐观看待工作中的困难，并能积极的面对。",Koa Express Redis Kafka RabbitMQ MySQL MongoDB Docker Modbus React Vue TypeScript,https://www.liepin.com/job/1979909065.shtml
+Node.js全栈开发工程师,深圳米亿智联科技有限公司,23-30k,深圳-南山区,深圳,本科,3-5年,90天前更新,liepin,"后端开发工程师
+岗位职责: 
+1.与项目经理对接，负责项目研发工作; 
+2.根据产品需求及项目规划，搭建技术框架，进行版本开发 ；
+3.负责项目开发中技术探索，调研和技术攻坚；
+4.负责编写相关技术文档, 代码check，对项目质量负责。
+
+1.本科及以上学历，计算机相关专业，5年及以上后端开发经验， 
+2.熟悉koa /  express / hono  / prisma /  drizzle 等 nodejs 生态，有丰富的项目后端实战经验;  
+3.熟练使用Redis / Kafka / RabbitMQ / Mysql / Mongodb / docker 等主流服务端技术；
+4.会node-red、Modbus，有lOT平台及相关产品开发经验者优先 ；
+5. 熟悉 go 有 go 项目经验优先 ；
+6. 具有良好的学习能力和抗压能力，能够乐观看待工作中的困难，并能积极的面对。",Koa Express Redis Kafka RabbitMQ MySQL MongoDB Docker Modbus Go 技术文档,https://www.liepin.com/job/1979910003.shtml
+mes全栈开发工程师-node.js,零跑科技,15-30k·14薪,杭州-滨江区,杭州,本科,3年以上,90天前更新,liepin,"1. 熟练使用 NodeJS、TypeScript，了解服务分层架构
+2. 掌握依赖注入、装饰器、拦截器、守卫、管道等概念
+3. 能编写 RESTful 接口、安全认证、JWT
+4. 会数据库 ORM（TypeORM 或 Prisma）并能写复杂查询
+5. 有写组件库、公共模块的能力（尤其是 Angular 方向）
+6. 能设计前后端架构，熟悉微服务、WebSocket、消息队列、安全认证、部署
+7. 会 Docker、Nginx、GitLab CI/CD 或简单部署
+8. 有工业项目经验（如 MES、WMS、loT、生产看板等）--加分项
+9. 有 Angular 经验者优先 --加分项
+10. 抗压能力强，能够接受短期工厂出差。",TypeScript Angular 微服务 WebSocket Docker Nginx GitLab CI,https://www.liepin.com/job/1974437493.shtml
+全栈开发工程师（React+NodeJS/英语流利/IBM大连CPA项目+长期）,合肥凯捷技术有限公司,12-15k,大连-旅顺口区,大连,大专,3年以上,90天前更新,liepin,"核心职责
+1.参与IBM大连CPA项目的全栈功能模块开发，能够独立负责从需求理解、技术方案设计到编码上线的全流程。
+2.使用React+TypeScript技术栈，开发高质量、可维护的前端应用及组件。
+3.使用Node.js进行后端服务开发与APl设计，并根据需要参与Java后端开发工作。
+4.遵循团队DevOps实践，利用Git、Jenkins等工具进行代码版本管理、持续集成与部署。
+5.使用英语与全球技术团队进行日常沟通、协作及技术文档撰写。
+语言与经验：
+能够使用英语进行流畅的工作口语沟通。
+3年及以上正式全栈或相关开发经验。
+核心技术栈：
+必须具备 React 和 Node.js 的商业项目开发经验。
+熟悉 TypeScript 在实际项目中的应用。
+工作模式：接受人力外包形式，并能长期稳定地在大连工作（驻客户现场）。
+优先录用：
+具备 React Native 移动端开发经验。
+有 AI 相关项目经验或技能（如机器学习应用开发、LLM集成等）。
+熟悉 Java 后端开发，具备微服务架构经验。
+有大型跨国企业或外包项目合作经验。",React TypeScript Node.js Java DevOps Git Jenkins React Native 机器学习 LLM 微服务 技术方案,https://www.liepin.com/job/1979786817.shtml
+Node.js（pinus/pomelo框架）服务器主程,广州优视电子有限责任公司,6-18k,广州-番禺区,广州,学历不限,1-3年,90天前更新,liepin,"以下岗位，现招各路程序员及主程等大神加盟： 
+            支持远程开发，后面这部分平台不让发（ 面议）。
+
+注：非常时期，仅招相向同行者，年龄不限，
+        高薪勿扰，摸鱼勿扰，虚假简历勿扰。 
+
+只要有技术能力和拼搏精神， 年龄、学历不限（接受大龄、超龄、低学历技术大牛加盟）！
+
+项目一： 
+node.js服务端 (pomelo/pinus框架) ；
+laya3D/laya2d客户端 （JavaScript/TypeScript）；
+cocos2d-js客户端 ；
+
+网狐棋牌游戏框架招程序员 
+c++服务端 
+cocos2d-lua客户端 
+
+web前端（需熟悉vue3）:
+PHP/.net网站开发程序员
+-------------------------------------------------
+职位描述：
+
+工作职责： 
+1.在规定时间内完成功能；
+2.配合前端开发，设计接口完成功能需求；
+3.维护日常产品版本稳定； 
+4.修复日常反馈的BUG； 
+5.完善日常产品数据统计；
+6.负责网站运维。
+
+任职资格： 
+1.熟悉NodeJS技术，熟悉V8；(熟悉网易pomelo/pinus框架者优先).
+2.熟悉RESTFUL，了解TCP/IP、SOCKET、WEB SOCKET通讯协议； 
+3.熟悉MySQL、数据库，熟悉内存、rpc、Redis、Memcached等缓存优化； 
+4.熟练使用linux，熟悉linux shell编程，能在linux下进行Node开发和部署； 
+5.2年以上工作经验，具有应用程序框架的设计开发经验，对异步处理有深刻理解； 
+6.具有独立解决问题的能力。
+7.接收优秀实习生实习。",Node.js JavaScript TypeScript C++ Vue PHP TCP/IP MySQL Redis Memcached Linux Shell,https://www.liepin.com/job/1965490841.shtml
+Node.js游戏后端开发工程师,深圳市新诺网科技有限公司,15-25k·13薪,深圳-宝安区,深圳,本科,3年以上,90天前更新,liepin,"职位描述：
+【岗位职责】
+1.负责项目研发工作;；
+2.根据产品需求及项目规划，搭建技术框架，进行版本开发 ；
+3.负责项目开发中技术探索，调研和技术攻坚；
+4.负责编写相关技术文档, 代码check，对项目质量负责；
+5.负责后台系统的开发和维护。
+【任职要求】
+1.本科及以上学历，计算机相关专业，3年及以上后端开发经验； 
+2.熟悉Koa,Express,Nestjs,Egg等 nodejs 生态，有丰富的项目后端实战经验;；
+3.熟练使用Redis / Kafka / RabbitMQ / Mysql / Mongodb / docker 等主流服务端技术；
+4.熟悉 Vue 、React 两个前端框架至少一项；
+5. 熟悉 go且 有 go 项目经验优先 ；
+6. 具有良好的学习能力和抗压能力，能够乐观看待工作中的困难，并能积极的面对。",Koa Express Redis Kafka RabbitMQ MySQL MongoDB Docker Vue React Go 技术文档,https://www.liepin.com/job/1979240259.shtml
+Node.js,江苏慧泽信息技术有限公司,15-20k,南京-建邺区,南京,本科,5-10年,90天前更新,liepin,"1.熟悉Nodejs开发语言或有意于转Nodejs开发;
+2.精通Linux操作系统;
+3.熟悉Postgres或MySql数据库;
+4.熟悉网络通信协议;
+5.热爱编程，愿意刻苦钻研编程技术;
+6.思维敏捷，能够深入理解产品及业务;
+7.具有良好的沟通和团队协作能力;
+8.5-7年工作经验，能力优秀可适度放宽。
+
+",Linux MySQL,https://www.liepin.com/job/1933266039.shtml
+JS前端工程师 (nodejs方向) (MJ000455),东土科技,9-15k,北京-石景山区,北京,本科,应届,90天前更新,liepin,"岗位职责：
+1、负责交互性产品的设计及开发。
+2、负责软件产品开发技术支持工作。
+职位要求：
+1、熟练掌握JavaScript编程，掌握基于nodejs技术架构的Web前后台开发；
+2、掌握 NodeJS 事件机制，常见模块的使用，熟悉 API 调用；
+3、使用nodejs技术架构开发过桌面应用者优先；
+4、了解Electron、NW.js相关实现或JAVA后端开发者优先；
+5、计算机相关专业（计算机、信息工程、自动化等）大学本科以上学历。
+
+
+招聘人数：5人",JavaScript Electron Java 技术支持 NodeJS API NW.,https://www.liepin.com/lptjob/43726619
+node.js后端工程师,哈希森林(北京)科技有限公司,15-20k,上海,上海,本科,应届,90天前更新,liepin,"本职位为分布式办公！！支持远程办公！
+欢迎优秀应届生投递简历！
+
+你将负责：
+围绕区块链项目，开发周边工具及相关服务
+• 使用 polkadot.js 读取区块数据
+o 不限制开发语言，但由于 polkadot.js 是目前最完善的 SDK，故至少读取数据部分使用 JS（或 TS 等方言）为必须项
+• 根据产品需求将区块中的事件、调用等数据以合适的方式存入数据库
+o 数据将用于展示图表、历史记录等用途
+• 为前端提供 API
+
+我们希望你：
+• 熟悉 JavaScript / TypeScript、NodeJS 服务器端开发生态，能够独立开发前端或了解 Vue / React 或其他前端框架、有 polkadot.js 的使用经验更佳
+• 除 JavaScript 和他的方言外，至少再熟悉一门编程语言（ 例：Ruby / Go / Rust 等语言更佳）
+• 有常见数据库系统的实际工作经验，具备良好的数据库建模能力，可根据业务需求选择合适的数据库系统，熟悉PG、Redis等系统更佳
+• 熟悉服务器端开发，了解部署、运维等相关内容
+• 良好的编程习惯、文档编写、协作与沟通能力；熟悉 Git 版本管理、单元测试与开源协作
+
+#加分项目
+• 了解区块链的各种概念，有区块链浏览器的实际开发经验
+• BTC、ETH、Polkadot 等主流区块链平台的使用/开发经验
+• 对以下技术有了解或实际经验
+o JAM stack、FaaS、云原生
+o GraphQL
+o ProtoBuf
+o WASM
+• 英文沟通
+
+招聘人数：1人",分布式 JavaScript TypeScript Vue React Ruby Go Rust Redis Git 云原生 Protobuf,https://www.liepin.com/lptjob/44037953
+Node.js工程师,Bcarps Limited,300-400元/天,北京-朝阳区,北京,本科,,90天前更新,liepin,"职位描述：
+负责区块链相关系统的研发，区块链技术调研；通过不断重构/CI/CD，优化架构设计与底层算法实现。
+职位要求：
+1、本科及以上学历
+2、精通 Node.js，熟悉主流的Web框架及第三方工具的使用
+3、掌握单元测试和集成测试，熟悉Jest/Mocha测试框架
+4、熟练使用 ES6 标准进行编码
+5、熟练使用 Linux/Mac，Git，熟悉Linux Shell
+6、良好的英文阅读能力
+7、具备良好的团队协作精神，能⾼效并⾼质量交付产品
+8、对代码质量有⼀定追求，重视 Code Review
+
+加分项：
+1、有区块链相关工作经验，或了解区块链基础知识
+2、对前沿技术、AI感兴趣，并有实际应用经验
+3、计算机相关专业
+
+招聘人数：1人",CI/CD Node.js Linux Git Shell CI CD ES6,https://www.liepin.com/lptjob/68882687
+拼多多27届web研发工程师,拼多多集团-PDD,20-30k·16薪,上海-长宁区,上海,本科,应届,7月30日更新,liepin,"拼多多集团-PDD｜2027届校招启动啦！
+
+网申时间截止：8月23日
+面向毕业时间：2026年9月-2027年8月
+
+岗位职责
+1、负责公司核心产品（H5/PC Web/微信小程序等）的前端开发，打造流畅、高性能的用户体验；
+2、与产品、设计、后端团队紧密协作，参与技术方案设计，推动前端技术落地；
+3、参与前端工程化建设（如组件库、工具链等），持续优化研发效率与代码质量。
+任职要求
+1、2027届毕业生，本科及以上学历，计算机相关专业，对前端技术有浓厚兴趣；
+2、扎实的计算机基础：熟悉数据结构、网络协议、操作系统等核心知识；
+3、技术能力：熟练掌握 HTML/CSS/JavaScript，了解主流框架（如Vue/React）者优先；
+4、综合素质：逻辑清晰、自驱力强，能快速学习新技术，具备良好的团队协作意识。
+加分项
+1、有线上前端项目（H5/小程序等）开发经验，或独立作品展示；
+2、熟悉 Nodejs 或移动端 Hybrid 开发，了解前端性能优化手段；
+3、对用户体验敏感，有设计思维或全栈潜力者更佳。
+
+
+技术类：
+	  AI Agent研发工程师
+	  服务端研发工程师（上海）
+	  算法工程师（上海）
+	  Web前端研发工程师（上海）
+	  客户端研发工程师（上海）
+	  数据分析师（上海）
+	  安全工程师（上海）
+	  大模型算法工程师
+	  AI Infra研发工程师
+  
+  
+非技术：
+	产品管培生（上海）
+	市场管培生（上海）
+	运营管培生（上海）
+	商务管培生（上海）
+	审核专员
+
+截止日期：2026年08月23日
+招聘人数：300人",JavaScript Vue React 大模型 技术方案 数据分析,https://www.liepin.com/lptjob/84520317
+前端工程师,杭州迪萌科技有限公司,200-400元/天,杭州-余杭区,杭州,本科,,90天前更新,liepin,"岗位描述
+1、设计和开发 nodejs 、react 代码；
+2、编写使用文档、单元测试；
+3、研究并持续跟进业界先进技术和开发思路，承担技术难点的攻坚；
+
+岗位要求
+1、擅长 React 和 Node.js 项目；
+2、熟练使用 Mysql/ Redis 或其他数据库；
+3、熟悉 Docker 容器的开发或部署；
+4、熟悉 Github 工作流程；
+5、有低代码平台开发经验优先；
+6、有开源项目贡献优先。
+
+招聘人数：2人",React Node.js MySQL Redis Docker Git,https://www.liepin.com/lptjob/70415219
+淘天品牌行业前端开发,浙江天猫技术有限公司,300-500元/天,杭州-余杭区,杭州,本科,,90天前更新,liepin,"岗位介绍：
+我们是天猫技术品牌线的行业前端团队，目前负责消费电子、3C数码、运动、家装家居、汽车、奢品等行业的线上线下模式的探索，面向淘内淘外，提供商家、门店、消费者最佳用户体验。团队在XR、3D、2D渲染引擎这些创新体验上有不错的沉淀，同时面向全栈领域团队探索了 Serverless 云端研发模式，在消费者前台，通过数据挖掘消费、意图识别提升消费者效率，同样面向工程领域，在跨端、前端工程化、中后台微前端都有一些沉淀，如果你是一位充满想象的终端极客，欢迎你的加入，通过自己的技术想法去改变天猫行业的终端表达。
+我们这里技术氛围浓厚，有师兄师姐一对一指导和定期的技术分享，加入我们，一起打开有意思的未来！
+----------------------
+岗位要求：
+1、精通各种前端基础技术（包括HTML/CSS/JavaScript等），熟悉ES6语法，熟悉常见前端框架，熟悉网络协议（HTTP/SSL），熟悉常见安全问题和对策；
+2、熟悉前端工程化与模块化开发，并有实践经验（如rollup/webpack、VueJS/React、ide研发等）；
+3、至少熟悉一门非前端的语言（如NodeJS/Java/PHP/C/C++/Python/Ruby等），并有实践经验；
+4、对前端技术有持续的热情，良好的团队协作能力，有复杂业务系统/技术体系建设经验，提升团队研发效率，实现极致性能，通过创新交互优化产品体验；
+5、有 Node.js 经验、前端可视化经验优先
+
+招聘人数：1人",Serverless JavaScript Webpack Vue React Java PHP C++ Python Ruby Node.js,https://www.liepin.com/lptjob/65967961
+MCP/Skill开发工程师(J10353),珠海金智维人工智能股份有限公司,7-9k,珠海-香洲区,珠海,本科,应届,7月31日更新,liepin,"职责描述：
+1. 负责MCP工具的设计、开发与维护，基于Node.js和Python双栈实现各类工具能力封装；
+2. 负责Skill技能包的开发、封装与优化，构建可复用的工具能力模块，编写规范的SKILL.md定义文档；
+3. 封装第三方MCP和Skill，进行协议适配、接口改造、性能优化与兼容性测试，确保稳定接入；
+4. 设计工具函数的接口定义、参数规范、错误处理机制与返回数据结构，控制Token消耗；
+5. 优化工具链的响应速度、稳定性与可用性，持续迭代工具能力；
+6. 参与工具能力的架构设计与技术选型，跟进MCP协议与Skill框架的技术演进；
+7. 编写工具使用文档、接入指南与实践，支撑业务方高效使用。
+任职要求：
+1.计算机、软件工程、人工智能等相关专业，本科及以上学历；
+2.熟练掌握Python和Node.js，有良好的编码习惯和工程化思维；
+3.了解MCP协议的基本概念（如JSON-RPC通信、工具/资源/提示模板定义），有阅读或编写过MCP客户端/服务端代码者优先；
+4.接触过至少一种大模型（如GPT、Claude、Qwen、DeepSeek等），理解Function Calling或Tool Use的交互流程，有基于大模型开发应用的经验；
+5.熟悉RESTful API、WebSocket等网络通信方式，了解异步编程模型；
+6.对开源社区敏感，善于利用现有SDK（如Python的mcp库、Node.js的mcp-sdk）快速搭建原型；
+7.具备较强的学习能力和动手能力，乐于探索新技术，有个人技术博客或GitHub开源贡献者优先；
+8.沟通清晰，团队协作意识强，能够将复杂技术概念转化为易懂的文档。
+
+截止日期：2027年07月27日
+招聘人数：1人",Node.js Python 大模型 GPT WebSocket Git,https://www.liepin.com/lptjob/84436517
+VSCode 平台开发工程师（汽车电子工具链方向）（校招）,计算机软件500-999人,10-20k·14薪,重庆-沙坪坝区,重庆,本科,应届,5月6日更新,liepin,"岗位职责
+1. 基于 VSCode 平台进行汽车电子工具链插件设计与开发，涵盖代码编辑增强、模型可视化、自动化代码生成、调试适配等核心功能模块；
+2. 遵循 VSCode 插件开发规范，结合 Node.js/TypeScript 等技术实现高可扩展、高兼容性的工具组件，参与工具链模块化架构设计；
+3. 跟踪汽车电子行业标准（如 AUTOSAR CP/SOA）与 VSCode 生态演进，将功能安全、信息安全要求落地到插件与工具链实现中；
+4. 与测试、交付及业务团队协作，解决工具链在实际使用中的集成、兼容性问题，持续优化插件性能与用户操作体验；
+5. 编写插件开发、工具使用等高质量技术文档，参与团队代码审查，严格把控代码规范与开发质量。
+任职要求：
+一、 核心技术能力
+1. 精通 Node.js/TypeScript/JavaScript，深入理解 VSCode 扩展 API、插件生命周期、贡献点等核心机制；
+2. 精通 Python/Go（至少一种），能独立完成脚本工具开发、自动化构建 / 测试任务或工具链底层逻辑开发；
+3. 熟悉设计模式与前端工程化思想，具备良好的系统抽象能力，能独立完成插件模块的设计、开发与重构；
+4. 有 VSCode 插件性能调优经验（如启动速度、内存占用、大文件处理优化），熟悉自动化测试框架（如 Jest、PyUnit、Mocha）；
+5. 了解 VSCode 底层架构或有 Electron 开发经验者优先，具备跨平台（Windows/Linux/macOS）开发适配经验者优先。
+二、汽车电子领域知识
+1. 熟悉汽车电子嵌入式开发流程，了解 AUTOSAR CP/SOA 架构、ARXML 数据处理或车载软件核心开发逻辑者优先；
+2. 有汽车电子工具链开发 / 集成经验，或熟悉 Vector、ETAS、EB、东软等主流汽车电子开发工具者优先；
+三、教育背景与软性能力
+1. 统招本科及以上学历，计算机、软件工程、电子工程、自动化等相关专业；
+2. 具备良好的跨团队沟通能力与团队协作精神，能快速定位并解决平台开发、工具集成中的技术问题；
+3. 有技术文档编写习惯，乐于分享技术经验，具备快速学习新框架、新行业知识的能力。
+
+截止日期：2027年04月16日
+招聘人数：2人",Node.js TypeScript JavaScript Python Go Electron Linux 技术文档 自动化测试,https://www.liepin.com/lptjob/82287585
+WEB前端开发,格蓝若,150-250元/天,武汉-洪山区,武汉,大专,,90天前更新,liepin,"岗位职责：  
+1. 负责WEB前端开发相关工作  
+2. 参与WEB前端佳园项目中的开发任务  
+3. 进行Node.js相关开发工作  
+4. 完成Node.js的集成任务  
+
+任职要求：  
+1. 具备WEB前端开发基础知识与技能  
+2. 有Node.js相关开发与集成经验  
+3. 面向在校学生，有校园实习经历者优先  
+4. 能够适应实习工作安排
+
+截止日期：2027年03月16日
+招聘人数：4人",Node.js,https://www.liepin.com/lptjob/80951921
+全栈工程师,,200-400元/天,深圳-福田区,深圳,深圳星链资本科技有限公司,,90天前更新,liepin,"公司简介
+我们相信大模型的发展将会带来一个全新时代。我们正在寻找优秀的 AI 人才，共同为投资市场打造跨时代的 AI 产品，推动资本市场变革。
+如果你渴望在挑战与机遇并存的环境快速成长，请加入星链资本，与优秀导师一起，释放你的无限潜能，共赴 AI 大时代！
+
+工作内容
+我们正在开发一款面向投资领域的数据+AI 的Agent平台产品，欢迎你加入一起进行：
+1. 全栈 AI 应用开发与设计：参与 AI 应用的前后端整体架构设计，使用 Node.js 构建高效后端服务，并利用 Next.js/React 开发交互式前端界面。
+2. AI 能力集成与 Agent 构建：集成与调用 LLM API，并使用 Agent 框架 (如 LangChain, Dify, Agon) 开发与部署智能体。
+3. 工程化实践与云原生部署：数据库设计与优化，通过 Git (GitHub/Gitee) 进行版本控制与协作，使用 Docker 及云原生平台 (如腾讯云, Sealos) 实现应用的部署、运维，并参与 CI/CD 流程。
+
+基本要求
+1. 在校生，2025 年以后毕业的本科/硕士/博士，专业不限，理工科专业优先
+2. 每周至少出勤 3-5 天（4 天及以上优先），实习期至少 3 个月，尽快到岗优先
+3. 熟悉 JS/TS 全栈开发（Node.js 后端、Next.js/React 前端）及 Python 基础，熟练使用 Git、Linux 和 AI 编程工具（如 Cursor），了解 LLM 等 AI 基础。
+
+优先条件
+1. 有使用 Node.js + Next.js/React 开发并部署完整全栈项目或 SaaS 应用的经验（含自主研发项目）。
+2. 有实际 AI 应用开发经验（如集成 LLM API、实现 RAG、构建 Agent），并具备应用 MCP 等模式进行模块化、可扩展架构设计的能力。
+3. 熟悉 Docker 容器化、CI/CD 流程，有云平台（如腾讯云、Sealos、Vercel）部署运维经验。
+
+简历投递要求
+1. 必须有相关项目经验；
+2. 一个月内可以到岗，一周内优先考虑。
+
+面试流程
+1. 三分钟自我介绍，内容不限，形式不限
+2. 十分钟作品展示，内容不限，形式不限
+3. 十分钟自由问答
+48 小时内答复面试结果
+
+团队简介
+团队负责人毕业于香港中文大学，曾任中山大学研究员、美的集团创新实验室负责人和腾讯高级架构师等职位，有超 10 年的产品和研发经验，你的实习经历将由团队负责人担任 mentor 进行辅导。 
+我们追求极简和高效的产品设计和研发理念，对研发和设计有艺术般的追求，团队氛围开放，管理扁平，鼓励自由创新和分享。
+
+工作地点
+深圳福田区泰然立城A栋2706（车公庙地铁站旁）
+
+薪酬福利
+- 200-500 元/天
+- 每日零食、下午茶供应
+- 表现优异者可转正或获得腾讯/字节等大厂内推资格
+
+招聘人数：3人",大模型 Node.js Next.js React LLM Go 云原生 Git Docker 腾讯云 CI/CD Python,https://www.liepin.com/lptjob/73617237
+全栈工程师实习生,北京欣逸天成网络科技有限公司,150-300元/天,北京-朝阳区,北京,本科,,7月7日更新,liepin,"【岗位职责】
+・参与公司核心产品（智能科研助手、投标管理系统、微信小程序、移动端 APP 等）的需求分析、方案设计、编码实现与交付上线
+・基于 React / Vue 等主流框架，参与 Web 端、小程序端、移动端（React Native / Flutter /uni-app）的界面开发与交互实现
+・基于 Python（FastAPI / Django）或 Node.js 参与 RESTful API / GraphQL 服务开发，对接大模型（LLM）、向量数据库、知识图谱等 AI 能力
+・参与关系型（PostgreSQL / MySQL / SQLite）与非关系型（ChromaDB / MongoDB / Redis）数据库的建模与优化
+・编写单元测试、集成测试，确保代码质量
+・参与代码评审，学习技术方案设计，输出技术文档
+・在导师指导下完成功能模块开发，逐步承担独立交付职责
+【任职要求】
+・本科及以上学历，计算机相关专业优先（在校或应届生）
+・有个人项目、课程项目或实习经历优先
+・熟悉 React + TypeScript，了解 Next.js/ Electron 者优先；有微信小程序开发经验（原生或 uni-app / Taro）者优先
+・熟悉 Python（FastAPI / Django）或 Node.js（Express / NestJS），了解 RESTful API 设计、鉴权（JWT / OAuth2 / SAML）
+・了解 PostgreSQL / MySQL，有基本的 SQL 编写能力；了解 Redis 缓存策略者优先
+・了解单元测试（Jest / Vitest /pytest），有代码质量意识
+・熟练使用 Git，了解 GitHub Actions / GitLab CI 流水线，了解 Docker 容器化
+・对主流大语言模型（如 GPT-4、Claude、DeepSeek、Qwen 等）有基本了解，了解其能力边界与调用方式（API / 本地部署）
+・能使用主流 Vibe Coding 工具（如 Cursor、GitHub Copilot、Claude Code、Windsurf 等）辅助开发
+・具备快速学习能力，能使用 AI 工具解决开发中遇到的问题
+・自驱力强，良好的文档习惯，沟通顺畅，能与非技术人员对齐需求
+【加分项】
+・有完整的项目经历（课程项目、个人项目、开源贡献均可）
+・有 AI 产品开发经验（RAG、知识图谱、Agent、大模型应用）
+・有 Electron 桌面应用开发经验
+・有技术博客输出或开源贡献
+・熟悉安全合规（等保、数据脱敏、权限体系设计）
+【我们提供】
+・参与 AI 前沿产品落地的机会，接触大模型、知识图谱等前沿技术
+・资深工程师一对一指导，快速提升技术能力
+・扁平化管理，技术决策空间大
+・灵活的工作方式，支持远程 / 混合办公
+・实习期表现优秀者可转正
+・实习薪资：面议（按天/月计薪）
+工作地点： 远程 / 混合办公（具体面议）
+
+截止日期：2027年07月07日
+招聘人数：2人",React Vue React Native Flutter Python FastAPI Django Node.js 大模型 LLM PostgreSQL MySQL,https://www.liepin.com/lptjob/83952457
+Shopify前端开发工程师,智能硬件/消费电子不需要融资2000-5000人,9-15k·14薪,深圳-龙华区,深圳,本科,应届,7月6日更新,liepin,"岗位职责：
+- 参与 Shopify 独立站主题页面开发，根据设计稿完成 Section/Snippet/模板的 Liquid 编码与样式还原；
+- 协助完成店铺前端交互功能开发（轮播、弹窗、表单验证、动效等），确保移动端适配与主流浏览器兼容；
+- 配合完成 Shopify API 数据对接，参与商品、订单、会员等模块的前端联调；
+- 协助维护现有的自定义组件库（Custom Elements），进行 bug 修复与小功能迭代；
+- 参与页面性能基础优化（图片懒加载、资源压缩、关键渲染路径优化），逐步掌握 Lighthouse 等工具的使用；
+- 编写和维护基础技术文档，参与团队 Code Review，学习并遵守团队的编码规范与 Git 分支协作流程。
+
+岗位要求：
+- 本科及以上学历，计算机、软件工程或相关专业，2026 届应届毕业生；
+- 掌握 HTML5、CSS3、JavaScript（ES6+）基础扎实，了解响应式布局与移动端适配原理；
+- 有至少一个完整的前端项目经验（课程设计、个人项目或实习项目均可），能清晰阐述自己的技术方案与实现思路；
+- 了解至少一门服务端语言（Node.js/Python/PHP 等），有 Node.js + Express 基础者优先；
+- 了解 Git 基本操作（clone/add/commit/push/pull/branch/merge），有团队协作经验者优先；
+- 具备良好的学习能力和自驱力，能主动查阅英文技术文档；
+- 逻辑清晰，具备基本的调试与排错能力（浏览器 DevTools、console、Network 面板）；
+- 沟通表达顺畅，乐于接受 Code Review 反馈并在指导下持续改进。
+
+加分项：
+- 了解 Shopify 平台或有过 Shopify 店铺搭建/主题修改经验；
+- 了解 Liquid 模板语言基础语法；
+- 了解 Web Components / Custom Elements 规范；
+- 了解前端性能优化基础概念（关键渲染路径、资源压缩、缓存策略）；
+- 有电商相关实习或项目经验，对电商业务流程（商品展示→加购→结算）有基本认知；
+- 有个人技术博客、GitHub 开源贡献或技术社区分享经历。
+
+截止日期：2027年07月06日
+招聘人数：1人",Git HTML5 CSS3 JavaScript Node.js Python PHP Express 技术文档 技术方案,https://www.liepin.com/lptjob/83929483
+AI软件运维&数据分析,深圳市少翁智能科技有限公司,150-300元/天,深圳,深圳,大专,,6月30日更新,liepin,"岗位一：AI 运维&数据分析实习生 / 共创者
+人数：1-2 人 | 形式：在校实习 / 兼职共创 / 支持远程
+你将要做什么：
+•	参与“少翁人格底座”与“拼个局”小程序的功能迭代，包括前后端、数据库维护与接口联调
+•	基于微信云开发 / Node.js / Vue 或 uni-app 完成 H5、小程序双端开发协助
+•	接入 LLM、RAG、多模态识图等能力，参与提示词工程与数据回流优化
+•	独立排查接口报错、上下文溢出、中文乱码等工程问题，形成可复用的解决方案
+我们期待你：
+•	计算机、软件工程、人工智能等相关专业在校生，能稳定投入 3 个月以上
+•	至少熟悉一门后端语言（Node.js / Python / Go 等）和一门前端框架（Vue / React / uni-app）
+•	对 LLM 有基本认知，愿意动手解决真实工程问题，而不是只调包跑 Demo
+•	有独立项目或完整开源作品者优先，有小程序/H5 上线经验者优先
+共创说明：
+本岗位为实习/共创性质，表现优异者将纳入项目共创名单，融资到账后按贡献度兑现激励金或期权。
+
+截止日期：2027年06月30日
+招聘人数：1人",Node.js Vue LLM RAG Python Go React 数据分析,https://www.liepin.com/lptjob/83805623
+全栈开发实习生（大前端背景）,,300-400元/天,北京-海淀区,北京,本科,,6月9日更新,liepin,"职位描述
+1、参与快手AI IDE 与 Coding Agent 平台的研发，包括前端页面和 Node.js 后端接口开发；
+2、协助 Coding Agent Runtime 核心能力建设，包括但不限于：Agent 执行引擎（任务规划、代码生成、执行与修复闭环）、多轮上下文管理（context management / memory system）、Tool 调用系统（文件系统、终端、Git、搜索等）；
+3、 参与 AI IDE 核心功能开发，包括但不限于：AI 代码生成与补全功能、AI 代码修改与自动修复能力、AI Agent 自主完成编码任务能力；
+4、参与 AI IDE 前端系统开发，包括但不限于：IDE Web 界面开发（编辑器、diff 视图、Agent 执行状态展示）、Agent 执行可视化与调试界面；
+5、协助 LLM 与 Coding Agent 集成工作，包括但不限于：Prompt engineering 与上下文构建、Token 使用优化与性能调优；
+6、关注 AI Coding Agent 前沿技术动态，参与团队技术分享。
+任职要求
+1、本科及以上在读学生，计算机、软件工程等相关专业；
+2、熟悉 JavaScript / TypeScript，具备基本工程能力和良好代码习惯；
+3、有 Node.js 开发经验，了解异步编程基础；
+4、熟悉至少一种前端框架，包括但不限于：React、Vue；
+5、了解基本 Web 开发流程和工具，包括但不限于：Git、调试与基本性能分析；
+6、具备良好的学习能力和问题解决能力；
+7、具备良好的沟通能力和团队合作精神。
+8、加分项：
+1）有 AI IDE 或 Coding Agent 相关项目经验（课程项目、个人项目均可）；
+2）有 LLM API 使用经验，包括但不限于：OpenAI / Claude / DeepSeek / Qwen 等；
+3）有 Agent 框架使用经验，包括但不限于：LangChain、LangGraph、AutoGen 等；
+4）有 VSCode 插件开发或 Web IDE 相关开发经验；
+5）有 AI 编程助手（Cursor、GitHub Copilot 等）深度使用经验；
+6）有参与开源项目或技术社区贡献经验；
+7）有个人技术博客、项目作品集优先。
+
+截止日期：2027年06月09日
+招聘人数：1人",Node.js Git LLM Gin JavaScript TypeScript React Vue,https://www.liepin.com/lptjob/83286915
+前端研发工程师,华信傲天,100-200元/天,成都,成都,本科,,6月26日更新,liepin,"岗位职责：
+1、协助团队进行 Web 前端功能的开发、调试与优化，参与核心产品界面实现。
+2、负责页面组件开发、接口对接、数据展示及前后端联调，确保功能与交互体验一致性。
+3、学习并应用主流前端框架（React / Vue 等）及现代构建工具（Vite / Webpack / Node.js）。
+4、编写开发文档，配合后端与测试团队。
+
+任职要求
+1、计算机相关专业（计算机科学、软件工程、电子信息等）在校本科生或研究生，能保证 3 个月及以上全职实习（每周≥4天）。
+2、熟悉 HTML、CSS、JavaScript / TypeScript，理解前端基本原理与浏览器运行机制。
+3、掌握至少一种主流前端框架（React / Vue  等）
+4、了解前后端分离架构，理解 RESTful API、JSON 数据交互及基础调试方法。
+5、具备良好的学习能力、沟通能力和团队协作意识，代码规范清晰，注重用户体验。
+6、加分项：
+* 有实际项目经验（课程设计、个人项目、实习项目均可）；
+* 了解前端工程化与自动化工具（Webpack、Vite、ESLint、Git 等）；
+* 熟悉 Node.js / Next.js / React Hooks / 状态管理（Redux、Recoil、Pinia 等）；
+* 有设计感或 UI 交互优化经验；
+* 有个人技术博客、开源项目或作品展示链接。
+
+截止日期：2027年05月06日
+招聘人数：2人",React Vue Vite Webpack Node.js JavaScript TypeScript Git Next.js,https://www.liepin.com/lptjob/82279881
+全栈开发工程师,猴子说话(武汉)科技有限公司,150-250元/天,武汉-洪山区,武汉,学历不限,,7月23日更新,liepin,"团队简介
+我们面向 AI 内容创作者与普通用户搭建新一代 AI 创作分发生态。 核心产品为一款面向C端的出海品牌 ViceMe，帮助 AI 创作者将个人能力打包为 AI Skill 并对外发布；普通用户无需配置任何运行环境，即可调用他人分身与技能协同创作，共同产出 AI 时代数字化作品。
+
+职位描述
+现面向大二、大三年级的优秀同学,开放全栈开发实习生岗位。在这里,你不仅仅是按部就班地听从工作安排,而是将深度参与并负责业务中相当核心的工作,直面真实业务场景,在实战中快速提升工程能力与产品思维。
+
+岗位职责
+参与核心ViceMe功能的前端开发与优化(基于React),你的代码将直接影响用户体验与产品价值;
+配合团队完成后端接口开发与维护(Nodejs或Golang),你的工作将贯穿产品从构思到上线的完整流程;
+借助AI辅助编程工具提升开发效率,探索更优的技术实现方案,你的创新想法有机会直接落地并影响产品方向。
+
+任职要求
+前提条件
+- 深度体验ViceMe，提炼Skill创作、SKill发布等核心产品卖点。
+此外
+掌握前端基础技术栈:HTML、CSS、JavaScript、React;
+了解后端开发,能够使用Nodejs或Golang进行基础开发
+熟练使用Claude Code或其他Al辅助编程工具,对Al应用开发有浓厚兴趣;
+我们并不苛求你的技术栈完全匹配、学历背景或专业出身---我们更看重你是否具备自驱力,能够主动学习并快速掌握所需技术,在实践中持续成长;同时希望你保有对创新的追求,愿意探索更优的解决方案,与团队一起打磨更好的产品。
+
+加分项:
+有Al相关的小型产品开发经验,或参与过开源项目、实习项目。如有相关经历,请在简历中注明项目地址,或于面试时向面试官展示。
+
+截止日期：2027年04月29日
+招聘人数：1人",React Golang JavaScript AI ViceMe Skill HTML CSS,https://www.liepin.com/lptjob/82185267
+AI全栈开发,上海微粒涌动科技有限公司,150-300元/天,上海,上海,学历不限,,90天前更新,liepin,"关于我们:
+我们是「微粒涌动科技」(ParFlow.AI)，一家致力于掀起“学习交互革命”的AI科技公司。我们不传递知识，我们构建通往知识的沉浸式入口。我们的使命，是赋能下一代的“知识导演”，将所有静态的知识，都变成可以被亲历的鲜活世界。
+
+我们刚刚完成了种子轮融资，并已获得关键的种子客户。
+
+为什么这不是一份普通的实习 :
+
+你不是来拧螺丝的，你是来和我们一起“设计并建造”的。 你将从第一天起，就深度参与核心产品的架构讨论和功能开发，你的每一个想法和代码，都将直接影响产品的最终形态。
+
+你将获得“黄金铁三角”的亲自指导。 CEO、COO、产品科学家，以及我们的技术合伙人，将成为你的“私教”，让你在技术、产品、商业三个维度上，获得火箭般的成长。
+
+你将站在AIGC技术浪潮的最前沿。 你会直接接触和应用最前沿的LLM技术，将它们变成能创造奇妙“情景体验”的魔法。
+
+你的使命 (Your Mission):
+
+参与“知岛”App核心功能的开发，包括我们革命性的“情景体验”模块。
+使用 Node.js 和 Python，协助搭建和优化我们的后端服务与AI能力中台。
+使用 JavaScript 及相关框架（如React Native/Flutter），将产品经理和设计师的构想，变成流畅的前端交互体验。
+与创始团队一起，进行头脑风暴，贡献你对产品和业务的独特见解，我们极度渴望听到来自一线开发者的真实声音。
+
+我们希望你:
+技术基础扎实：熟悉JavaScript和Node.js生态，有实际的项目开发经验。对Python有一定了解，并愿意深入学习。
+
+对AI充满狂热：你对AIGC、大语言模型（LLM）有强烈的好奇心和探索欲，自己动手玩过一些相关的开源项目或API。
+
+具备产品思维（最重要！）：你对“为什么做”的关心，要多于“怎么实现”。你是一个为了做出好产品，会和产品经理“吵架”的人。
+
+极强的学习能力和潜力：我们知道你不可能什么都会，但我们希望你什么都愿意学，而且学得很快。我们看重你未来的成长曲线，远胜于你当下的经验值。
+
+加分项 (Bonus Points):
+
+有个人技术博客，或在GitHub上有活跃的开源项目。
+是B站、知乎等知识区的重度用户，对“深度内容”有自己的理解。
+对游戏化设计、互动叙事有浓厚的兴趣。
+
+你将获得 (What You'll Get):
+
+一份有竞争力的实习薪酬和福利。
+创始团队成员一对一的Mentorship，助你野蛮生长。
+一个充满挑战、极速成长的真实创业环境。
+转正机会：对于表现优异、与我们愿景同频的实习生，我们将毫不犹豫地发出全职Offer和早期核心员工期权，邀请你成为我们“黄金战队”的正式一员。
+
+招聘人数：1人",AIGC LLM Node.js Python JavaScript React Native Flutter Git,https://www.liepin.com/lptjob/77127859
+全栈工程师（需实习转正）,医疗器械战略融资1-49人,8-16k,上海-普陀区,上海,本科,应届,7月30日更新,liepin,"岗位职责：
+1. 前端开发
+   - 负责公司产品的前端界面设计与开发工作，包括网页、移动应用等。
+   - 使用HTML5、CSS3、JavaScript等技术栈，构建高性能、高可用性的用户界面。
+   - 与设计师紧密合作，确保产品界面的视觉效果与用户体验符合设计标准。
+2. 后端开发
+   - 参与后端服务的开发与维护，包括API设计、数据库设计与优化等。
+   - 使用Python、Java、Node.js等后端技术栈，实现业务逻辑与数据交互。
+   - 确保后端服务的稳定性和可扩展性，能够应对高并发的业务需求。
+3. 系统集成
+   - 负责前端与后端的接口对接，确保数据交互的准确性和高效性。
+   - 参与系统的整体架构设计，优化系统性能与用户体验。
+4. 代码管理与测试
+   - 按照公司代码规范进行代码编写，确保代码的可读性与可维护性。
+   - 编写单元测试、接口测试代码，确保代码质量。
+   - 参与代码审查，及时发现并修复潜在问题。
+5. 新技术研究与应用
+   - 关注行业内的新技术、新框架，评估其在公司项目中的应用价值。
+   - 在导师指导下，尝试引入新的技术解决方案，提升产品竞争力。
+6. 其他工作
+   - 完成上级领导交待的其他任务。
+
+任职要求：
+1. 本科及以上学历，计算机、软件工程或相关专业在校学生。
+2. 技术能力
+   - 熟练掌握HTML5、CSS3、JavaScript等前端技术栈。
+   - 熟悉Python、Java、Node.js等至少一种后端开发语言。
+   - 了解MySQL、MongoDB等数据库的使用与优化。
+   - 熟悉前端框架（如React、Vue.js、Angular等）和后端框架（如Django、Spring Boot等）的使用。
+3.有相关实习经验者优先，熟悉敏捷开发流程者优先。
+4. 具备较强的学习能力和问题解决能力，能够快速适应新技术和新工具。
+5. 具备良好的团队合作精神和沟通能力，能够与团队成员有效协作。
+6. 对新技术有浓厚的兴趣，具备创新意识和探索精神。
+
+截止日期：2026年09月04日
+招聘人数：1人",HTML5 CSS3 JavaScript 高可用 Python Java Node.js 高并发 MySQL MongoDB React Vue,https://www.liepin.com/lptjob/76978445
+全栈开发实习生,上海噗噗噗教育科技有限公司,200-300元/天,上海-徐汇区,上海,本科,,90天前更新,liepin,"我们正在打造一个基于生成式 AI 的学习平台，致力于通过激发学习者的内在动机，持续推动学习的主动性与自驱力。自今年初以来，团队已完成从平台上线到覆盖数十个课程场景、积累近万课时的成果。
+
+现在，我们正在迈入下一阶段 —— 在现有平台基础上，引入更多 游戏化体验（交互式画布、NPC角色、背包系统、任务地图、动态导航等），并拓展跨平台能力，让 Web 体验无缝延伸至 iOS 与 Android。
+
+作为 全栈实习生，你将有机会同时参与 前端体验开发 和 后端服务搭建，深入理解从界面到数据的完整链路，快速成长为独立负责功能的全栈工程师。
+
+工作内容
+- 参与 Web / App 前端 功能开发（React, React Native, Expo）。
+- 协助实现交互式 UI、动画效果和基础的游戏化系统。
+- 支持 后端服务 开发（Node.js, Express, MongoDB），包括 API 设计、数据建模、实时通信。
+- 参与部署与测试，学习 Docker、CI/CD、云服务的基本流程。
+- 与设计、后端和产品团队紧密协作，共同推动功能上线。
+
+岗位要求
+- 熟悉 JavaScript / TypeScript 基础，了解 React 技术栈。
+- 对 Node.js + Express 有一定了解，愿意尝试编写后端 API。
+- 基本掌握 数据库 使用（如 MongoDB 或 MySQL）。
+- 对 全栈开发 保持好奇心，愿意探索前端 + 后端的结合。
+- 具备良好的学习能力、沟通能力和团队协作精神。
+
+招聘人数：1人",React React Native Node.js Express MongoDB Docker CI/CD JavaScript TypeScript MySQL,https://www.liepin.com/lptjob/76721055
+信息化开发工程师（异地交通费全报),广东高驰运动科技有限公司,300元/天,东莞-松山湖,东莞,硕士,,90天前更新,liepin,"岗位职责：
+
+1、业务需求开发：
+
+参与内部系统（如OMS订单管理系统、SAP、SRM、CRM、MES生产系统、飞书等）的流程设计与功能迭代。
+参与销售、财务、生产、仓储、供应链等场景的业务优化与梳理，并转化业务需求为技术方案；
+根据业务需要与现有系统（如SAP、飞书、WMS等）进行API对接、数据清洗、同步等工作；
+
+ 
+2、文档与协作
+编写系统设计文档、接口文档及用户操作手册；
+协同业务部门、测试团队完成系统测试与上线部署。
+
+ 
+
+技术能力​​
+
+1.低代码开发​​：熟悉主流低代码平台，熟悉NODE-RED与N8N优先，具备快速搭建企业级应用的能力；
+​​2.Node.js​​：熟练使用Node.js进行后端开发，掌握Express/NestJS等框架，熟悉RESTful API设计；
+​​3.数据库​​：熟悉PostgreSQL/MySQL/MongoDB等数据库操作，具备SQL基础能力；
+​​4.工具链​​：熟悉Git、Docker、Jenkins等开发运维工具。
+
+ 
+
+ 加分项
+
+1.有过 Linux下项目经验，包括部署、调试经验优先
+2.有过嵌入式如ESP32、树梅派等开发经验
+3.熟悉Docker 管理、镜像制作
+4.有AI平台(如豆包、openAI、阿里千问等) API对接经验
+
+ 
+
+任职要求​​
+
+​​硕士及以上学历
+
+计算机、软件工程等相关专业优先。
+
+招聘人数：2人",Node.js Express PostgreSQL MySQL MongoDB SQL Git Docker Jenkins Linux 供应链 技术方案,https://www.liepin.com/lptjob/75103083
+网站开发实习生,北京逍遥云游科技发展有限公司,200-300元/天,北京-朝阳区,北京,本科,,90天前更新,liepin,"工作内容：负责后台数据统计系统开发
+
+基本要求：熟练掌握Javascript, ES6, 熟练使用 Node.js
+
+后端：能熟练使用 Express.js 框架，熟悉 MongoDB 数据库系统
+
+前端：熟练使用 Vue3 或者 React 框架，掌握基本CSS样式与Flex页面布局
+
+有全栈开发经验者优先
+
+招聘人数：1人",JavaScript Node.js Express MongoDB Vue React,https://www.liepin.com/lptjob/69401181
+web服务器后端实习岗,云合智网,200-300元/天,上海-徐汇区,上海,硕士,,90天前更新,liepin,"岗位要求：
+使用python/golang开发web服务器后端软件。
+1. Web后端数据模型设计和定义
+2. Web后端REST API设计和实现
+3. 熟练使用一种以上流行的Web后端框架：Node.js/Express.js,Python/flask,Java/Spring等
+4. 熟悉OpenAPI/Swagger, GraphQL等
+5. 掌握一种以上流行业务逻辑开发语言：
+Node.js, Go, Python, Rust, Java/C++等
+6. 掌握一种以上流行的数据库：
+RedisDB, MongoDB, MySQL/SQLite3等
+工作职责：
+公司内部QA，reg网站开发，network controller开发
+
+招聘人数：1人",Python Golang Node.js Express Flask Java Spring Go Rust C++ Redis MongoDB,https://www.liepin.com/lptjob/63337763
+web服务器后端实习岗,云合智网,200-300元/天,杭州-萧山区,杭州,硕士,,90天前更新,liepin,"岗位要求：
+使用python/golang开发web服务器后端软件。
+1. Web后端数据模型设计和定义
+2. Web后端REST API设计和实现
+3. 熟练使用一种以上流行的Web后端框架：Node.js/Express.js,Python/flask,Java/Spring等
+4. 熟悉OpenAPI/Swagger, GraphQL等
+5. 掌握一种以上流行业务逻辑开发语言：
+Node.js, Go, Python, Rust, Java/C++等
+6. 掌握一种以上流行的数据库：
+RedisDB, MongoDB, MySQL/SQLite3等
+工作职责：
+公司内部QA，reg网站开发，network controller开发
+
+招聘人数：1人",Python Golang Node.js Express Flask Java Spring Go Rust C++ Redis MongoDB,https://www.liepin.com/lptjob/63337655
+全栈软件开发工程师,广州市旷宇信息产业有限责任公司,120-200元/天,广州-天河区,广州,本科,,90天前更新,liepin,"1、遵循敏捷开发流程，依据项目计划和需求完成架构和模块设计、编码、测试工作；
+2、参与项目框架结构的演变开发，协助业务部门进行业务方案制定；
+3、负责与项目人员的沟通和其他相关资源的协调； 
+4、 积极完成上级交办的其他各项工作。
+
+能力要求
+1. JavaScript, Node.js, Vue 和相关框架前端工作经验
+2. 精通后端Web Service （Node.js）技术开发
+3. 熟悉SOAP, REST, JSON等框架
+4. 熟悉主流数据库设计及操作，MySQL, NoSQL等
+5. 对敏捷软件开发生命周期和DevOps核心概念有了解
+6. 有一定的编写技术文档的能力
+7、计算机相关专业优先
+
+招聘人数：2人",JavaScript Node.js Vue MySQL SQL DevOps 技术文档,https://www.liepin.com/lptjob/62036327
+前端研发工程师（实习）(J54850),Baidu,200-250元/天,北京-海淀区,北京,本科,,90天前更新,liepin,"职责描述：
+-负责生成式大模型Web前端和移动端前端技术选型和开发工作
+-技术视野广，学习能力强，动手能力好
+-配合产品、设计、后端等其他角色，为业务提供技术支持
+-与团队配合完成产品的迭代升级
+任职要求：
+-掌握面向对象编程思想，熟练使用 React
+-熟悉Nodejs，能利用Nodejs开发工具
+-热爱技术研发工作，有良好的工作责任感和团队合作能力
+
+招聘人数：2人",大模型 React 技术支持,https://www.liepin.com/lptjob/58590293
+web后端开发工程师,云合智网,200元/天,杭州,杭州,云合智网,,90天前更新,liepin,"1. Web后端数据模型设计和定义
+
+2. Web后端REST API设计和实现
+
+3. 熟练使用一种以上流行的Web后端框架：Node.js/Express.js,Python/Tornado,Java/Spring等
+
+4. 熟悉OpenAPI/Swagger, GraphQL等
+
+5. 掌握一种以上流行业务逻辑开发语言：
+
+Node.js, Go, Python, Rust, Java/C++等
+
+6. 掌握一种以上流行的数据库：
+
+RedisDB, MongoDB, MySQL/SQLite3等
+
+招聘人数：1人",Node.js Express Python Tornado Java Spring Go Rust C++ Redis MongoDB MySQL,https://www.liepin.com/lptjob/43617811
+前端开发工程师（深圳、杭州、成都）,招银网络科技,15-22k·14薪,杭州-滨江区,杭州,本科,应届,7月30日更新,liepin,"职位职责
+1. 负责招商银行各类应用系统Web前端开发，参与全栈式或移动端开发；
+2. 研究前沿Web技术，如AI代码生成、智能UI等，并在实际项目中运用。
+
+职位要求
+1. 本科及以上学历，STEM类专业（科学、技术、工程、数学）；
+2. 2027年应届毕业生，境内院校最高学历毕业时间为2026年11月1日-2027年7月31日，境外院校最高学历毕业时间为2026年8月1日-2027年7月31日；
+3. 热爱前端技术，熟悉HTML5、CSS3、JS，掌握React、Vue、Angular中一种或多种开发框架；
+4.了解Java、Node.JS、.Net、PHP、Python等技术，有相关项目开发经验者优先；
+5.了解大模型，具备相关实践经验者优先；
+6. 逻辑思维严密，沟通良好，有较强的学习和分析能力，具备团队合作意识；
+7. 品行端正，无不良行为记录。
+
+截止日期：2027年07月30日
+招聘人数：50人",HTML5 CSS3 React Vue Angular Java Node.js PHP Python 大模型,https://www.liepin.com/lptjob/84534731
+Full Stack Product Engineer Intern,上海又为健康科技有限公司,300-400元/天,上海-徐汇区,上海,本科,,7月29日更新,liepin,"关于我们
+我们是一家由VC支持的创新初创公司，致力于通过突破性的产品和服务颠覆听力解决方案市场。我们的使命是改善人们的生活，开发先进的听力设备——从先进的助听器开始，但不仅限于此——将个性化验配、垄断技术与简洁、以人为本的体验相结合。我们在美国、中国大陆和香港均有运营。
+
+工作职责：
+1. 在开发工作流中运用 AI 工具和代码代理，加速调试、文档编写及迭代实施。
+2. 参与产品功能的端到端工作，从需求理解到开发发布，以及后续迭代。
+3. 构建并优化 Orka 核心产品的前端体验和后端服务。
+4. 与产品、设计及工程部门跨职能协作，将不断演变的需求转化为切实可行且高质量的解决方案。
+5. 协助设计和维护面向客户的产品及内部工具的 API、数据模型和系统集成。
+6. 编写易于维护的代码，参与测试和代码审查，并支持工程优化工作流。
+
+职位要求：
+1. 对全栈产品工程有浓厚兴趣，并具备构建实际应用的实践项目经验。
+2. 习惯使用人工智能工具和自动化脚本，以提升开发速度和质量。
+3. 熟悉使用 React/TypeScript 或类似技术进行前端开发。
+4. 熟悉至少一种后端技术栈，例如 Node.js、Python、Go 或 Java。
+5. 具备良好的问题解决能力、强烈的主人翁意识，并愿意努力工作以解决问题。
+6. 具备良好的沟通能力和团队合作精神。
+
+截止日期：2027年07月29日
+招聘人数：1人",React TypeScript Node.js Python Go Java 文档编写,https://www.liepin.com/lptjob/84491237
+Java工程师,电子商务已上市1000-2000人,9-13k,武汉-洪山区,武汉,本科,应届,7月28日更新,liepin,"能本：上海(3个月技术轮岗）-武汉技术定岗
+能人：武汉技术定岗
+岗位职责：
+
+1、根据业务需求文档完成前端研发工作；与后端研发人员配合，讨论交互方式，页面集成工作；完成现有系统的维护工作，完成相关的迭代优化工作；
+2、根据系统平台的业务需求，积累并开发可复用的组件库；
+3、负责前端系统性能优化工作；
+4、完成各类H5、小程序、web开发。
+
+任职要求：
+有IPASS平台对接经验优先
+1、本科及以上学历，计算机及设计相关专业:
+2、熟悉html5、javascript、css3、jquery、ajax等前端技术；
+3、熟悉vue、vue-router、vuex、axios和vue-resource等vue全家桶; 
+4、熟悉Element-UI组件，BootStrap，Ant Design，Echarts等前端样式库；
+5、熟悉npm， webpack等相关技术，并具备一定经验；
+6、熟悉git、svn等代码版本管理工具；熟悉NodeJs，并有相关开发经验
+7、熟悉前后端分离技术，熟悉后端服务器运行环境和数据通信协议；
+8、学习和理解能力强，责任心强，具有一定的系统分析能力，及独立解决问题的能力。
+9、具备较强的沟通能力和同理心，能精准理解需求并以目标为导向提出前端解决方案。
+
+三、待遇情况：
+薪资待遇：9k～13k（按公司晋升机制调薪）
+工作时间：早9晚7:30，法定节假日正常休，过年提前三天放假
+晋升培养：管培生→主管→经理→总监→总经理→业务线总裁→VP
+福利保障：五险一金（入职即缴纳）、带薪年假、节日福利、公司团建等
+
+
+
+截止日期：2027年07月28日
+招聘人数：10人",HTML5 JavaScript CSS3 jQuery Vue Webpack Git SVN 版本管理,https://www.liepin.com/lptjob/84473941
+后端开发实习生（全栈）,途牛旅游网,250-400元/天,南京-玄武区,南京,本科,,7月28日更新,liepin,"岗位职责
+1、负责产品架构设计及前后端代码实现，包括页面交互、业务逻辑处理及 API 接口开发 。
+2、进行数据库设计、优化及管理，负责服务器部署、日常维护与系统稳定性保障 。
+3、对系统进行性能调优，参与测试流程，使用 CI/CD 工具自动化开发流程，确保产品质量 。
+
+岗位要求：
+1、计算机、软件工程等相关专业，本科及以上学历
+2、熟练掌握 HTML/CSS/JavaScript 及 Vue/React 等主流框架，能处理多端适配 。
+3、精通 Node.js/Java/Python 等后端语言，熟悉 MySQL/MongoDB 等数据库操作及 SQL 优化 。
+4、了解 Git、Docker、Kubernetes 及云服务，具备基础运维与持续集成能力 。
+5、熟练使用linux，coding agent
+6、校招储备，希望长期实习
+
+截止日期：2027年07月28日
+招聘人数：5人",CI/CD JavaScript Vue React Node.js Java Python MySQL MongoDB SQL Git Docker,https://www.liepin.com/lptjob/84468499
+27届校招-AI全栈开发工程师(J14430),合合信息,20-28k·16薪,上海-静安区,上海,本科,应届,7月28日更新,liepin,"职责描述：
+1. 产品全栈开发与交付：负责核心业务系统的前后端全栈开发工作，包括前端页面开发、后端接口设计与实现、数据库设计与优化，确保产品功能的完整性与稳定性。保障产品从需求到上线的端到端高质量交付。
+2. AI Native 研发范式实践：深度践行 AI 驱动的开发模式，熟练利用AI 辅助编程工具进行代码生成、单元测试、代码审查及问题排查；探索并沉淀 AI 辅助开发的标准化流程，推动团队整体研发效能的跨越式提升。
+3. 参与AI Agent 大客户项目开发交付工作。
+任职要求：
+1. 学历与经验：本科及以上学历，计算机科学与技术、软件工程、数学、人工智能、数据科学与大数据技术、信息与通信工程等相关专业优先。
+2. 后端开发能力：具备扎实的编程基础，熟练掌握 JavaScript (Node.js)、Java 或 Python 中的至少一种作为后端主力开发语言，熟悉主流后端框架（如 Spring Boot、FastAPI、Express 等），深入理解微服务架构、分布式系统设计及高并发处理方案。
+3. 前端开发能力：精通 Vue.js 框架及其生态（如 Vuex/Pinia、Vue Router、Vite 等），熟练掌握 HTML5、CSS3、JavaScript/TypeScript，具备响应式布局、组件化开发及前端工程化构建经验，能够独立完成复杂交互与数据可视化页面的开发。
+4. AI 辅助开发能力（核心要求）：具备 AI Native 思维，深度使用AI编程辅助工具。能够熟练运用 Prompt Engineering 驱动代码生成、自动化测试、问题排查与重构，将 AI 作为核心生产力工具，大幅提升全栈开发与迭代效率。
+5. 软件架构设计经验：具备优秀的系统架构设计与技术选型能力，能够根据业务需求独立完成前后端整体架构规划、数据库建模及 API 接口规范设计；注重代码质量与系统可维护性，能够输出高质量的技术方案与架构文档。
+6. 综合素质：具备极强的自驱力与技术好奇心，乐于探索新技术与 AI 新范式；拥有良好的产品思维与沟通协作能力。
+
+
+截止日期：2026年10月31日
+招聘人数：1人",JavaScript Node.js Java Python Spring Boot FastAPI Express 微服务 分布式 高并发 Vue Vite,https://www.liepin.com/lptjob/84461355
+运维开发,上海赋流科技(集团)有限公司,100-150元/天,上海-浦东新区,上海,大专,,7月27日更新,liepin,"岗位概述：负责公司云服务器的日常运维，以及配合业务需求开发桌面端小工具。两个方向合并为一个岗位，一人负责。
+
+岗位职责：服务器运维（60%）
+- Ubuntu 服务器的日常维护、监控和故障排查
+- PostgreSQL 数据库的安装、配置、备份与恢复
+- Nginx、Gunicorn 等 Web 服务的部署和维护
+- 服务器安全加固、日志分析和性能优化
+- 配合业务上线部署新应用/服务
+ 桌面工具开发（40%）
+- 根据业务需求开发桌面端小工具（技术方向不限）
+- 桌面工具需与服务器进行数据交互（API 对接）
+- 工具发布后的问题修复和迭代
+
+任职要求：必须
+- 熟悉 Linux 系统（Ubuntu），能独立完成服务器环境搭建和维护
+- 理解 PostgreSQL 数据库的基本操作（安装、查询、备份、恢复）
+- 具备至少一种桌面端开发能力（PyWebView / Electron / Qt / WinForms / WPF 等均可）
+- 了解 HTTP/API 交互，能开发与服务器联动的桌面工具
+加分项
+- 有兼职 / 远程实习经验
+- 自己折腾过服务器或个人项目
+- 熟悉 Python / Golang / Node.js 其中一门语言
+
+说明
+- 不需要英文简历
+- 不需要牙科 / CAD / CAM 行业知识
+- 优先考虑在校大学生或研究生，时间灵活
+
+工作方式
+- 形式：兼职，远程办公
+- 时间：每周具体时间面议，任务制交付
+- 薪资：面谈（按项目或按工时结算）
+
+面试流程
+1. 简历筛选
+2. 线上技术沟通（30 分钟，了解基础能力和过往项目）
+3. 通过后确认合作方式和薪资
+
+*简历请注明「可兼职 + 预计每周可投入时间」
+
+截止日期：2027年07月27日
+招聘人数：1人",PostgreSQL Nginx Linux Electron Python Golang Node.js 故障排查 日志分析,https://www.liepin.com/lptjob/84438725
+Agent研发助理,国汽智联,150-300元/天,北京-大兴区,北京,硕士,,7月26日更新,liepin,"# AI平台研发实习生（汽车研发工具方向）
+
+工作地点：天津·开物芯港  
+招聘对象：在读研究生  
+招聘人数：若干
+
+## 关于我们
+
+我们专注于汽车行业研发工具与研发平台建设，正在研究利用大模型、知识库、Agent、Skill及MCP等技术，为现有研发工具增加智能化能力。
+
+## 岗位职责
+
+你将参与AI相关的的设计、开发和验证，主要工作包括：
+
+- 参与汽车研发领域知识库建设，包括资料整理、数据清洗、文档解析、知识切分、向量化检索和效果优化；
+- 梳理典型研发场景，将业务流程封装为可复用的AI Skill；
+- 参与智能Agent设计与开发，包括任务规划、工具调用、工作流编排和结果评估；
+- 开发或封装MCP Server，实现AI与现有研发工具、测试平台及企业系统的连接；
+- 完成MCP、REST API及第三方服务之间的接口适配与联调；
+- 参与AI平台后端服务和管理界面开发；
+- 编写Prompt、测试用例和评测数据，持续优化AI应用效果；
+- 调研大模型、RAG、Agent和MCP等技术，并完成原型验证。
+
+## 任职要求
+
+- 计算机、软件工程、人工智能、自动化、车辆工程、电子信息等相关专业；
+- 天津地区在读研究生；
+- 对大模型应用、Agent、RAG、MCP或AI编程有浓厚兴趣；
+- 至少熟悉一种开发语言，优先考虑Python、JavaScript或TypeScript；
+- 了解HTTP、REST API、JSON等基本接口技术；
+- 具备基本的Git使用能力和良好的代码习惯；
+- 有较强的学习能力、问题分析能力和动手实践能力；
+- 能够阅读技术文档，并愿意主动尝试新的AI工具和开发框架。
+
+## 加分项
+
+具备以下任一经验者优先：
+
+- 使用过LangChain、LangGraph、LlamaIndex、Dify、Coze等AI应用框架；
+- 开发或使用过MCP Server、MCP Client；
+- 具备RAG、向量数据库、Embedding、知识图谱等实践经验；
+- 使用过OpenAI、Claude、通义千问、DeepSeek等模型API；
+- 熟悉FastAPI、Flask、Node.js、Spring Boot等后端技术；
+- 熟悉Vue、React等前端框架；
+- 有Agent、Workflow、Prompt Engineering或模型评测项目经验；
+- 了解汽车研发、汽车测试、诊断、总线、SOA或研发工具链；
+- 在GitHub上有个人项目、技术博客或开源贡献。
+
+## 你将获得
+
+- 参与汽车行业AI平台从0到1建设的实践机会；
+- 深入学习知识库、RAG、Agent、Skill和MCP等技术；
+- 接触真实的汽车研发工具、测试平台和企业应用场景；
+- 由资深研发及架构人员提供技术指导；
+- 表现优秀者可获得长期实习、毕业设计合作或正式录用机会；
+- 实习证明及有竞争力的实习待遇。
+
+## 实习要求
+
+- 实习地点：天津津南开物芯港；北京亦庄国汽智联
+- 建议每周到岗4天及以上；
+- 建议连续实习6个月以上，研究生期间可持续实习者优先；
+- 具体工作时间及实习待遇可面议。
+
+## 应聘方式
+
+请将个人简历发送至招聘联系人，并附上以下信息：
+
+- 可到岗时间及每周可实习天数；
+- 预计实习周期；
+- 相关项目、GitHub地址或作品链接；
+- 对知识库、Agent、MCP或AI应用开发最感兴趣的方向。
+
+截止日期：2026年08月31日
+招聘人数：3人",大模型 RAG Python JavaScript TypeScript Git FastAPI Flask Node.js Spring Boot Vue React,https://www.liepin.com/lptjob/84408001
+ai医疗全栈实习生,北京数曜科技有限公司,500-1000元/天,北京-朝阳区,北京,本科,,7月23日更新,liepin,"数曜科技是一家聚焦于 **医疗 + AI 应用** 的医疗科技公司，起步于2021年，业务稳定增长，年营收约五千万。
+
+  公司长期服务北京多家三甲医院，深耕血管外科、神经介入、心血管及慢病健康管理等医疗场景。目前公司正在重点推进 AI 医疗产品体系，包括医生智能助手、患者健康管理系统、AI病例转录、专病数据库、医学科研辅助工具等。
+
+   我们希望找到一位真正具备 AI 原生开发能力的 **AI医疗全栈算法实习生**，一起把医疗场景里的真实需求做成可运行、可演示、可落地的 AI 产品。
+
+## 岗位方向
+
+AI医疗全栈算法实习生 / AI Agent 开发实习生 / AI医疗产品工程实习生
+
+你将参与类似以下产品的开发：
+
+1. AI 医生助手
+2. AI 病例转录系统
+3. AI 患者健康管理助手
+4. 专病数据库与随访系统
+5. 医学文献检索与科研辅助智能体
+6. 医疗进销存 AI 系统
+7. 面向医生、患者、运营人员的多角色 AI 工作流系统
+
+我们希望你能参与打造类似 **“蚂蚁阿福”式的 AI 医疗助手产品**，最终实现医疗AGI。
+不是简单聊天机器人，而是能完成任务、调用工具、管理数据、生成报告、提醒随访、辅助医生和患者完成真实工作流的智能体系统。
+
+---
+
+## 岗位职责
+
+1. 参与 AI 医疗产品的需求分析、功能拆解和技术实现
+2. 基于大语言模型开发医疗场景智能体，包括任务拆解、工具调用、多轮对话、结构化输出、知识库问答等
+3. 参与医生端、患者端、运营后台等产品页面开发
+4. 参与后端接口、数据库、文件上传、任务队列、日志记录等基础模块开发
+5. 参与病例转录、随访提醒、报告生成、医学资料检索、患者健康管理等 AI 工作流设计
+6. 使用 Claude Code / Codex /等 AI 编程工具提升开发效率
+7. 对接 OpenAI、Claude等大模型能力
+8. 参与 RAG 知识库、向量检索、Embedding、Prompt、Function Calling、Agent 工作流等模块开发
+9. 根据医生、业务团队和真实用户反馈，快速迭代产品功能
+10. 协助完成产品测试、问题定位、Bug 修复、部署上线和使用文档整理
+
+---
+
+## 我们真正看重什么
+
+我们不要求你是传统意义上“古法编程”特别强的工程师，也不要求你精通某一个固定技术栈。
+
+但我们要求你具备 **AI 辅助开发下的完整交付能力**。
+
+也就是说，你需要做到：
+
+1. 能把一个需求拆成页面、接口、数据库、AI 调用和业务流程
+2. 能借助 Claude Code  / Codex 等工具快速完成开发
+3. 能看懂、修改和调试 AI 生成的代码
+4. 能把项目跑起来，而不是只停留在想法或 Prompt
+5. 能解释自己的项目架构、核心逻辑和实现过程
+6. 能完成一个可演示、可复盘、可继续迭代的 AI Agent 产品
+
+---
+
+## 技术要求
+
+1. 不限定具体技术栈，但必须有完整 AI Agent / 智能体项目经验
+2. 使用过 Claude Code  / Codex /等 AI 编程工具
+3. 至少独立完成过一个可运行、可演示的 AI 产品或智能体项目
+4. 理解基本工程结构，知道一个产品如何从需求拆解到页面、接口、数据存储、模型调用和部署上线
+5. 使用过至少一种前端或全栈开发方式，如 Next.js / React / Vue / 小程序 / Streamlit / Gradio 等
+6. 使用过至少一种后端或接口开发方式，如 FastAPI / Flask / Node.js / Serverless / Supabase / Firebase 等
+7. 使用过至少一种数据存储方式，如 PostgreSQL / MySQL / MongoDB / Supabase / SQLite / Redis / 向量数据库等
+8. 使用过大模型 API，理解 Prompt、上下文管理、工具调用、结构化输出、RAG 或工作流编排等基本概念
+9. 能独立查资料、定位 Bug、调整代码、优化流程，而不是只会复制粘贴 AI 输出
+10. 投递时必须提供项目链接、Demo、截图、视频、代码仓库或项目说明
+
+---
+
+## 必须具备的项目经验
+
+我们非常看重你是否真正做过完整项目。
+
+以下经验至少满足一项：
+
+1. 做过完整 AI Agent / 智能体系统
+2. 做过基于大模型的工具调用、工作流编排或任务自动化项目
+3. 做过 RAG 知识库问答、文档解析、医学/法律/金融等专业领域问答系统
+4. 做过类似 AI 助手、AI 客服、AI 运营助手、AI 数据录入助手、AI 报告生成工具等产品
+5. 做过从前端页面、后端接口、数据库到模型调用的完整 Demo
+6. 参加过 AI 应用类竞赛、黑客松、课程项目、科研项目，并有可展示成果
+
+只写过简单 ChatGPT API Demo，或者只做过课程里的单点功能，不算完整智能体项目。
+
+---
+
+## 加分项
+
+1. 做过多智能体协作、工具调用、工作流编排项目
+2. 使用过 LangGraph、Dify、Coze、AutoGen、CrewAI、LlamaIndex、LangChain 等工具
+3. 有 GitHub / Gitee / 线上 Demo / 项目文档 / 演示视频
+4. 做过医疗、健康管理、病例结构化、医学文本处理、医学问答、科研文献检索等相关项目
+5. 熟悉 OCR、语音转文字、电子病历、随访系统、医学影像、健康数据管理等方向
+6. 有产品意识，能理解用户需求，不只是被动写代码
+7. 有较强的信息检索能力和自学能力
+8. 能长期实习，并有转正意向
+
+---
+
+## 我们不希望你是这样的候选人
+
+1. 只会调 API，不理解智能体工作流
+2. 只会写 Prompt，不会做完整产品
+3. 只能做单点 Demo，不能做完整闭环
+4. 完全看不懂 AI 生成的代码
+5. 遇到报错只能等别人解决
+6. 不能展示过往项目、代码、Demo 或具体实现过程
+7. 对医疗场景没有兴趣，只想随便找一段实习经历
+8. 缺少交付意识，不能按时推进任务
+9. 只擅长论文复现或模型调参，但不擅长产品开发
+10. 只关注技术炫技，不关注真实业务价值
+
+---
+
+## 任职要求
+
+ 
+1. 每周至少实习 4 天以上，能连续实习 6个月以上优先，这是必须项，这样你可以完整参与一个项目的开发和上线迭代，对双方都负责。
+2. 对 AI 医疗、智能体有信仰，有兴趣，相信AI应用是革命性机会。
+3. 必须北京线下办公
+4. 具备较强沟通能力，能和产品、医生、运营、业务团队直接沟通需求
+5. 做事认真，有责任心，能及时反馈进度
+6. 能接受真实业务场景下的快速迭代
+
+ 
+---
+
+## 面试与作业说明
+
+本岗位会重点考察真实项目能力，不以传统八股面试为主。
+
+面试过程中可能会安排 **现场或线上智能体开发小作业**，主要考察你是否能借助 AI 编程工具完成真实功能。
+
+作业形式可能包括：
+
+1. 给定一个医疗或健康管理场景，让你设计一个简单 AI Agent
+2. 使用 Claude Cod/ Codex 等工具完成一个小型 Demo
+3. 实现简单页面、数据录入、AI 调用、结构化输出和结果保存
+4. 现场讲解你的需求拆解、技术方案、代码结构和实现过程
+5. 根据反馈修改功能或修复 Bug
+
+### 薪资待遇
+
+* 实习薪资：面议 
+* 表现优秀者可转正
+* 优秀者可参与项目奖金
+* 长期表现突出者有机会参与核心产品建设
+
+### 成长机会
+
+1. 参与真实 AI 医疗产品从 0 到 1 的建设
+2. 接触医生、医院、医疗器械、患者健康管理等真实业务场景
+3. 不只是写边缘模块，而是参与核心产品设计和开发
+4. 训练 AI Agent、全栈开发、产品落地、业务理解等复合能力
+5. 与创始团队、业务负责人、医生专家直接协作
+6. 有机会从实习生转为 AI 全栈工程师、AI 产品工程师或核心研发成员
+
+### 工作环境
+
+1. 公司业务稳定，年营收约五千万
+2. 团队精干，决策链路短，研发效率高
+3. 办公环境舒适，沟通直接高效
+
+---
+
+## 工作地点
+
+北京朝阳 / 北京海淀均可办公。
+
+* 公司总部：北京朝阳慈云寺住邦2000，预计2026年7月搬迁
+* 算法部门：北京海淀中关村天创科技大厦
+
+可根据岗位安排、项目协作和个人通勤情况，在两个办公地点中灵活安排。
+
+---
+
+## 投递要求
+
+请投递简历时同时附上以下内容：
+
+1. GitHub / Gitee / 作品集链接
+2. 你做过的 AI Agent / 智能体项目介绍
+3. 项目是否可以演示，如线上 Demo、视频、截图均可
+4. 你在项目中具体负责的部分
+5. 使用过哪些大模型、AI 编程工具、框架、数据库和前后端技术栈
+6. 每周可实习几天，可连续实习多久
+7. 是否接受面试中的智能体开发小作业
+
+我们更看重你是否真正做过完整项目，而不是简历包装。
+
+如果你做过完整智能体系统，能借助 AI 工具把一个想法做成可运行、可演示、可迭代的产品，欢迎投递。
+
+截止日期：2027年07月23日
+招聘人数：1人",大模型 RAG Next.js React Vue FastAPI Flask Node.js Serverless PostgreSQL MySQL MongoDB,https://www.liepin.com/lptjob/84362753
+IT 开发工程师（兼职 / 实习生）,上海知无知网络科技有限公司,200-400元/天,上海-浦东新区,上海,学历不限,,7月23日更新,liepin,"💻 岗位职责
+微信小程序开发：负责公司官方微信小程序开发、测试与持续迭代。核心功能模块包括：产品展示、活动报名及会员中心等。
+内部协同系统搭建：根据公司私域运营及计调团队的业务需求，利用现有工具或编写自动化脚本，开发并维护内部办公效率协同系统，优化订单与线索流转效率。
+日常运维：负责线上系统和数据库的日常维护、Bug 修复与性能优化，保障业务系统的稳定运行。
+🛡️ 任职要求
+全栈开发基础：计算机及相关专业在校生，或具有独立全栈开发经验的开发者。熟练掌握微信小程序原生开发，或熟悉 Uni-app / Taro 等跨平台框架；熟悉云开发（如微信云托管/云开发）或常见后端技术栈（Node.js / Python 等）。
+AI 辅助编程能力（Vibe Coding）：【核心要求】熟练且日常使用 AI 辅助编程工具（如 Cursor、Windsurf、GitHub Copilot、Claude等）。具备优秀的 Prompt 逻辑，能够通过 AI 工具大幅提升开发效率，实现敏捷开发与 MVP（最小可行性产品）的快速上线。
+项目经验：有完整且已上线的微信小程序、H5 或全栈项目独立开发经验优先。（投递时请附上作品链接或 GitHub 仓库地址）。
+职业素养：具备基础的产品思维和 UI 还原能力；责任心极强，沟通顺畅，能够准确理解业务需求并按时交付代码与功能。
+
+💰 薪酬与福利
+薪酬结算：提供符合市场标准的兼职薪酬/实习津贴。
+工作方式：结果导向，每周1-3天，时间灵活，支持远程协作。
+
+🏢 关于我们
+洞穴文化是一家专注于人文知识传播与高端服务机构。随着公司业务量的持续增长，我们正在进行业务数字化升级。现招募一名具备独立开发能力的技术伙伴，负责公司核心线上平台与内部效率工具的搭建与维护。
+
+截止日期：2027年07月23日
+招聘人数：1人",Taro Node.js Python Git Bug Uni-app AI Vibe,https://www.liepin.com/lptjob/84353643
+测试开发工程师,人工智能A轮100-499人,8-15k,北京-海淀区,北京,本科,应届,7月22日更新,liepin,"岗位职责 
+1、负责产品自动化测试工具开发落地，开发与维护自动化测试脚本、自动化执行流程及自动化验证平台，优化产品测试与交付链路，赋能端到端产品实现用例设计、执行、结果分析及问题反馈的全流程智能化落地； 
+2、参与智能化测试工具开发落地，协助完成智能体/小灵人的需求梳理、功能适配、场景测试及优化迭代，助力测试流程自动化、智能化升级，提升测试效率与覆盖度。 
+3、负责效率工具的开发与迭代，包括但不限于工单系统、项目管理平台、智能运维工具的需求实现与应用验证。 
+
+任职要求 
+1.学历与专业背景：计算机、通信、电子、自动化等相关专业在读； 
+2.AI技能与工具掌握 对AI应用有浓厚兴趣，具备以下一种或多种实践经验者优先： AI视觉自动化测试：了解或试用过Midscene.js等新一代AI自动化框架，理解“自然语言即脚本”或“视觉定位”核心理念；有使用Playwright/Puppeteer结合AI模型进行UI自动化测试经验者优先。 智能体（Agent）开发：了解OpenClaw等AI智能体框架，有通过安装配置Skills（技能包）构建自动化工作流的经验者优先，熟悉其在办公、运营或开发等场景的应用。 AI开发工具应用：熟练使用Trae、Cursor、GitHub Copilot等AI编程助手提升开发效率，有利用AI工具辅助编码、调试或项目重构的实际经验者优先。 大模型应用开发：熟悉GPT、Claude、通义千问等主流大模型的API调用与提示词工程（Prompt Engineering），了解常见应用开发框架。 数据处理与分析：能使用Pandas、NumPy等工具进行数据处理，具备基本数据分析能力者优先。 
+3.编程能力 具备扎实的编程能力，熟悉Python/Shell（或Node.js），能独立编写自动化脚本、小工具或简单系统；有实际开发经验者优先。 
+4.综合素质 逻辑清晰、做事严谨、主动推进，具备良好的沟通表达与团队协作意识，能吃苦耐劳，适应快节奏工作环境。 岗位亮点 前沿技术实践：深度参与AI+X落地实践，亲手搭建基于OpenClaw的智能体，探索Midscene.js驱动的“零代码/低代码”智能化测试新范式。 技术能力提升：近距离学习智能化测试工具的设计与落地，掌握Trae等新一代AI开发工具的高效工作流，提升自身技术竞争力。 经验全面积累：深度参与测试与交付全流程，将理论知识转化为可复用的项目经验，为职业发展奠定坚实基础。
+
+截止日期：2027年07月22日
+招聘人数：1人",IDS Git 大模型 GPT Gin Python Shell Node.js 自动化测试 项目管理 数据分析,https://www.liepin.com/lptjob/84311357
+拼多多集团-PDD-2027届校园招聘-技术专场,拼多多集团-PDD,30-60k·18薪,上海-长宁区,上海,硕士,应届,7月22日更新,liepin,"2027届秋季校园招聘
+
+提前批时间截止至8月23日，提前批结果不影响后续正式批！
+
+大模型算法工程师【2027届云弧计划】
+岗位职责
+在本岗位，您将有机会同时深入技术本质并驱动业务落地，具体将参与：
+1. 大模型基座研发与优化：参与构建及优化面向电商领域的多语言、多模态（图/视频/语音等）大模型基座，全流程深入数据处理、样本标注、模型预训练（Pretrain）、有监督微调（SFT）/强化学习（RL）等关键环节；
+2. 前沿技术探索与创新：持续跟踪并攻关大模型领域的前沿方向(如：Long Context、Agent-RL、更高效的训练/推理框架等），通过算法创新持续提升模型的准确性、泛化性与性能；
+3. 大模型应用落地与赋能：将先进的模型能力与电商业务场景结合，主导技术方案的设计与实现，具体应用方向包括但不限于：
+• 体验革新：AI 交互式搜索、生成式推荐、智能导购、智能运营助手、智能客服机器人等；
+• 内容创造：高质量多语言、多模态（文字、图片、视频等）的商品信息生成、数字人互动等；
+• 效率提升：漏斗效率优化、实时翻译、智能代码助手等；
+4. 技术价值闭环：深度理解业务场景，利用平台丰富的数据资源，推动技术创新落地，并通过AB 实验等科学方法验证技术价值，最终提升用户、商家体验和商业效益。
+任职要求
+1. 教育背景：2026.9-2027.8 期间已获得或即将获得博士/硕士学位的同学，计算机科学、人工智能、数学、物理等相关专业优先；
+2. 技术根基：
+• 具备扎实的机器学习基础、出色的数据敏感度和优秀的编程能力；
+• 深入理解主流大模型（如：GPT、Deepseek 等）、多模态模型(如：Gemini、Qwen-VL 等）的技术原理；
+• 熟悉大模型训练全流程（Pretrain/SFT/RL/Agent 等）或生成式模型（Diffusion、Flux 等）者优先；
+3. 创新能力：具备极强的学习能力、主动性和创新思维，能够独立分析和解决复杂技术问题，对将前沿研究应用于实际挑战充满热情；
+4. 成果导向：在学术或工业项目中有突出表现者优先，例如但不限于：
+• 在CCF-A 类会议/期刊(如NeurlPS, ICML, CVPR, ACL 等）发表过论文；
+• 在ACM 编程竞赛、Kaggle 等知名算法竞赛中获奖；
+• 主导或深度参与过有较大技术影响力的大模型相关项目。
+
+
+AI Infra研发工程师【2027届云弧计划】
+岗位职责
+在本岗位，您将有机会深入基础设施技术本质，同时驱动大模型与业务高效落地，具体将参与：
+1. 大模型训练与推理基础设施研发：参与构建和优化面向大规模分布式训练/推理的Infra 平台，支持文本、图像、视频、语音等多模态大模型、扩散模型的训练与推理。涵盖集群资源调度、训练框架优化、高性能通信、混合精度训练、显存优化等关键环节，确保模型的训练效率与系统稳定性；
+2. 前沿Infra 技术探索与创新：持续跟踪并攻关大模型基础设施领域的前沿方向（如：超大规模异构集群管理、更高效的并行策略、MoE 训练/推理优化、量化与推理加速框架、多模态模型高效并行策略等），通过系统创新显著提升训练吞吐、降低推理成本、改善资源利用率；
+3. 大模型基础设施应用落地与赋能：将先进的Infra 能力与公司大模型业务场景深度结合，主导技术方案的设计与实现，具体支持方向包括但不限于：
+• 训练效率提升：支持Pretrain、SFT、RLHF 等全流程训练任务，优化端到端训练性能；
+• 推理服务优化：构建高并发、低延迟的在线推理平台，支持多模态大模型的实时服务；
+• 成本与弹性优化：实现智能资源调度、Spot 实例利用、自动扩缩容等，显著降低大模型训练与推理的算力成本；
+• 稳定性保障：打造高可用、故障自愈的分布式训练系统，确保7×24 小时稳定运行；
+4. 技术价值闭环：深度理解大模型训练与业务需求，利用平台海量算力与数据资源，推动Infra 技术创新落地，并通过性能指标、成本指标、实验验证等科学方法衡量技术价值，最终为大模型研发提效、降本，并支撑业务增长。
+任职要求
+1. 教育背景：2026.9-2027.8 期间已获得或即将获得博士/硕士学位的同学，计算机科学、软件工程、电子信息、自动化等相关专业优先；
+2. 技术根基：
+• 具备扎实的计算机系统基础（操作系统、计算机网络、分布式系统、编译原理等），出色的编程能力和工程实现能力（熟练掌握C/C++、Python，熟悉Go/Rust 者优先）；
+• 深入理解大规模分布式系统原理，熟悉至少一种主流大模型训练/推理框架（PyTorch、Megatron、DeepSpeed、vLLM、TVM 等）；
+• 有GPU/异构集群相关经验者优先，熟悉RDMA、NVLink、InfiniBand 等高性能网络者优先；
+3. 创新与问题解决能力：具备极强的学习能力、主动性和系统性思维，能够独立分析和解决复杂工程与性能问题，对将系统优化技术应用于大模型场景充满热情；
+4. 成果导向：在学术或工业项目中有突出表现者优先，例如但不限于：
+• 在系统/架构相关顶会/期刊发表过论文；
+• 在ACM/ICPC、知名编程或系统竞赛中获奖；
+• 主导或深度参与过高性能计算、分布式系统、大模型训练平台等具有较大技术影响力的项目。
+
+
+算法工程师
+岗位职责
+1、利用机器学习/深度学习技术/图计算技术，优化app内外搜索、推荐、广告、图像、风控、智能客服、平台等效果，提升数亿用户的购物体验和平台的变现效率；
+2、深入产品和业务，发现算法和机制中的不足，提出改进方案并且推动实现；
+3、跟踪业界和学术界最新进展，将理论成果应用到业务场景，提升业务效果。
+任职要求
+1、2027届毕业生，硕士及以上学历，计算机相关专业，对算法有浓厚兴趣；
+2、具备强悍的编码能力，熟悉linux开发环境，熟悉TensorFlow、PyTorch、Hive优先；
+3、具备扎实的数据结构功底，熟悉机器学习、深度学习、图计算、自然语言处理、数据挖掘中一项或多项；
+4、对大语言模型、用户增长、搜索引擎、推荐系统、计算广告、图像、互联网风控、智能客服、平台等相关领域有经验者优先；
+5、具备较好的数理基础和逻辑分析能力，对解决具有挑战性的问题充满激情，具备较好的主动性和团队合作精神。
+
+
+AI Agent研发工程师
+岗位职责
+1、Agent核心架构开发：负责Agent核心模块（任务规划、上下文管理、长期/短期记忆、工具调用）的设计与开发，构建高可靠、低延迟的智能体底层框架；
+2、应用效果调优：主导RAG知识库建设与交互环境构建，精通Prompt工程与工作流编排，持续优化大模型在复杂业务场景下的生成效果、稳定性与可控性；
+3、高性能工程链路建设：参与高并发、高可用分布式系统设计，优化Agent及RAG链路的系统性能，设计与落地缓存机制、消息队列、异步调度等核心组件，保障系统在海量请求下的稳定性；
+4、安全与可观测性体系：建设完善的Agent安全防护机制（意图识别、输出过滤、权限控制、沙箱执行）及全链路评估可观测体系（成功率、延迟、Token消耗、业务转化率等）；
+5、前沿技术探索：紧跟LLM及Agent前沿技术（如MCP协议、多智能体协同、长文本处理等），主导技术调研、复现与业务落地验证。
+任职要求
+1、2027届应届毕业生，本科及以上学历，计算机、软件、人工智能、数学等相关专业优先；
+2、编程底子厚：熟练使用 Python/Java/Go/C++ 中至少一门语言，编程基础扎实，熟悉常用数据结构与算法，具备优秀的代码编写与工程实践能力；
+3、AI工程能力：具备“AI原生”思维，熟练使用 Cursor、Claude Code 等AI编程工具提效；具备扎实的Prompt编写与调优能力，有结合多智能体、MCP、Function Calling等进行实际项目开发的经验；
+4、框架与原理：深入理解 LLM/Agent/RAG 核心原理，熟悉 LangChain、LlamaIndex、AutoGen、Dify 等主流大模型应用开发框架；
+5、极强的自驱力与好奇心，优秀的团队协作与沟通能力，能够拥抱快速迭代的业务节奏，对技术落地和业务结果具有双重责任感。
+加分项
+1、有大模型应用、智能体或 AI 开源项目核心贡献经验，或在相关技术社区有较高影响力；
+2、具备扎实的计算机视觉（CV）与自然语言处理（NLP）算法基础，有大模型后训练（Post-training）经验，包括但不限于 SFT（监督微调）、RLHF/DPO 等对齐技术；
+3、在ACM/ICPC、Kaggle、天池等算法或程序设计竞赛中获得优异成绩；
+4、有AI核心业务线实习经历，或主导过完整的大模型应用从0到1落地经验；
+5、熟悉分布式系统设计，有高并发、大流量系统后端开发及性能调优经验。
+
+
+服务端研发工程师
+岗位职责
+1、负责业务和平台的架构设计和研发工作，解决各类有挑战的技术问题，为产品和业务的发展提供强有力的支撑；
+2、依照软件开发流程，根据产品和项目计划，完成所负责模块的架构设计、编码、测试和文档编写的全流程工作；
+3、持续优化系统架构，提高系统在高并发、高流量和分布式环境下的性能和稳定性，保持系统的高可用性、高可靠性和高扩展性；
+4、承担新技术预研和方案选型，参与关键技术点的攻坚工作，并进行技术推广，取得更大的业务收益。
+任职要求
+1、2027届毕业生，本科及以上学历，对计算机以及互联网技术有兴趣；
+2、扎实的数据结构和算法能力，熟悉常用的存储系统和中间件；
+3、精通至少一种开发语言，并能熟练应用解决具体问题；
+4、有较强的学习能力，有强烈的责任心和自我驱动力；
+5、及时关注并学习业界最新技术，具备良好的沟通能力和团队合作精神。
+
+客户端研发工程师
+岗位职责
+1、参与客户端日常需求分析与功能开发，持续优化用户体验与性能表现；
+2、参与客户端架构设计，包括多端统一架构、动态化技术建设、模块解耦与组件体系设计，提升系统的可维护性与研发效率；
+3、深度参与跨平台基础设施建设，如网络中间件、Native 容器、Hybrid 容器、音视频组件、动态化框架接入等；
+4、探索端侧智能（如 AIGC、端智能推荐、语音图像处理）相关能力的集成与优化，推动新技术在业务侧的落地。
+任职要求
+1、2027届毕业生，本科及以上学历，计算机相关专业，热爱技术与产品，有强烈的工程热情；
+2、具备扎实的计算机基础（数据结构、操作系统、计算机网络、编译原理等），熟练掌握至少一种主流编程语言，如Java、Kotlin、Swift、Objective-C 或C++；
+3、具备 iOS / Android 平台开发经验优先，理解系统底层运行机制，有良好的架构设计意识；
+4、熟悉多线程、异步编程、跨进程通信、组件化架构、染优化等关键技术，了解 Jetpack Compose / SwiftUI 等现代 UI 框架者优先；
+5、对 Flutter / React Native 等跨平台方案、边缘计算、端上 Al、低功耗与高性能优化等方向有一定了解或实践者优先；
+6、具备良好的学习能力、逻辑思维、沟通协作能力，乐于拥抱变化、追求技术突破。
+
+
+Web前端研发工程师
+岗位职责
+1、负责公司核心产品（H5/PC Web/微信小程序等）的前端开发，打造流畅、高性能的用户体验；
+2、与产品、设计、后端团队紧密协作，参与技术方案设计，推动前端技术落地；
+3、参与前端工程化建设（如组件库、工具链等），持续优化研发效率与代码质量。
+任职要求
+1、2027届毕业生，本科及以上学历，计算机相关专业，对前端技术有浓厚兴趣；
+2、扎实的计算机基础：熟悉数据结构、网络协议、操作系统等核心知识；
+3、技术能力：熟练掌握 HTML/CSS/JavaScript，了解主流框架（如Vue/React）者优先；
+4、综合素质：逻辑清晰、自驱力强，能快速学习新技术，具备良好的团队协作意识。
+加分项
+1、有线上前端项目（H5/小程序等）开发经验，或独立作品展示；
+2、熟悉 Nodejs 或移动端 Hybrid 开发，了解前端性能优化手段；
+3、对用户体验敏感，有设计思维或全栈潜力者更佳。
+
+
+数据分析师
+岗位职责
+1、分析业务数据，通过深度挖掘数据，帮助各部门发现、分析和解决问题、优化产品需求；
+2、监控和跟踪数据异常波动情况，进行探索分析和问题定位；
+3、设计实验方案，评估业务策略的效果，提出改进建议；
+4、负责业务相关日常报表的整理分析，对业务进行阶段性总结归纳；
+5、深入理解业务，发现业务特征和潜在机会给出有效的行动建议。
+任职要求
+1、2027届毕业生，本科及以上学历，计算机/数学/统计学等相关专业，热爱计算机科学和互联网技术；
+2、熟练使用 sql/python 语言等，掌握数理统计、数据挖掘等常用理论知识；
+3、对分析感兴趣，喜欢从数据中发现规律，探索本质；
+4、对 Hadoop，Spark 的原理熟练掌握，并有一定的使用经验者优先；
+5、善于沟通，逻辑思维能力较强，善于学习新知识。
+
+
+安全工程师
+岗位职责
+1、持续推进公司安全体系建设，切实提升公司应用系统安全能力；
+2、设计并开发大规模高可用的安全应用、组件和系统，防止公司内主机遭受病毒、木马等攻击，避免通过网络攻击公司应用系统等；
+3、制定公司安全开发流程，并落地实施。按需针对内部架构实施安全评审，指导架构的安全优化；
+4、针对公司内部系统实施周期性的渗透测试、红蓝演练等工作，及时发现内部系统安全问题并推动整改；
+5、紧随各类前沿技术研究、情报等，及时预警当前体系的各种问题并推动整改；
+6、其他安全研究相关工作,包括但不限于：密码学研究，Web、二进制、移动系统的相关安全技术研究。
+任职要求
+1、2027届毕业生，本科及以上学历；
+2、熟悉信息安全领域的技术，有丰富实操经验；
+3、熟悉web安全、主机安全或者移动安全，深入理解相关框架和系统；
+4、熟悉安全原理和相关防御技术；
+5、积极向上，价值观正直，沟通合作能力强；
+6、对技术有热情，责任心强，自我驱动能力强。
+加分项
+有CVE、CTF比赛奖项、SRC致谢。
+
+截止日期：2027年06月30日
+招聘人数：20人",大模型 机器学习 GPT Diffusion 分布式 高并发 高可用 C++ Python Go Rust PyTorch,https://www.liepin.com/lptjob/84233175
+【offer来袭！】Web前端研发工程师-27提前批-大厂,拼多多集团-PDD,20-40k·16薪,上海-长宁区,上海,本科,应届,7月22日更新,liepin,"【岗位职责】
+1、负责公司核心产品（H5/PC Web/微信小程序等）的前端开发，打造流畅、高性能的用户体验；
+2、与产品、设计、后端团队紧密协作，参与技术方案设计，推动前端技术落地；
+3、参与前端工程化建设（如组件库、工具链等），持续优化研发效率与代码质量。
+【任职要求】
+1、2027届毕业生(2026年9月份之后毕业的同学)，本科及以上学历，计算机相关专业，对前端技术有浓厚兴趣；
+2、扎实的计算机基础：熟悉数据结构、网络协议、操作系统等核心知识；
+3、技术能力：熟练掌握 HTML/CSS/JavaScript，了解主流框架（如Vue/React）者优先；
+4、综合素质：逻辑清晰、自驱力强，能快速学习新技术，具备良好的团队协作意识。
+【加分项】
+1、有线上前端项目（H5/小程序等）开发经验，或独立作品展示；
+2、熟悉 Nodejs 或移动端 Hybrid 开发，了解前端性能优化手段；
+3、对用户体验敏感，有设计思维或全栈潜力者更佳。
+
+截止日期：2027年07月17日
+招聘人数：999人",JavaScript Vue React 技术方案 H5 PC Web HTML,https://www.liepin.com/lptjob/84209905
+Web前端研发工程师,拼多多集团-PDD,20-40k·16薪,上海-长宁区,上海,本科,应届,7月16日更新,liepin,"【岗位职责】
+1、负责公司核心产品（H5/PC Web/微信小程序等）的前端开发，打造流畅、高性能的用户体验；
+2、与产品、设计、后端团队紧密协作，参与技术方案设计，推动前端技术落地；
+3、参与前端工程化建设（如组件库、工具链等），持续优化研发效率与代码质量。
+
+【任职要求】
+1、2027届毕业生，本科及以上学历，计算机相关专业，对前端技术有浓厚兴趣；
+2、扎实的计算机基础：熟悉数据结构、网络协议、操作系统等核心知识；
+3、技术能力：熟练掌握 HTML/CSS/JavaScript，了解主流框架（如Vue/React）者优先；
+4、综合素质：逻辑清晰、自驱力强，能快速学习新技术，具备良好的团队协作意识。
+
+【加分项】
+1、有线上前端项目（H5/小程序等）开发经验，或独立作品展示；
+2、熟悉 Nodejs 或移动端 Hybrid 开发，了解前端性能优化手段；
+3、对用户体验敏感，有设计思维或全栈潜力者更佳。
+ 
+
+截止日期：2027年07月16日
+招聘人数：31人",JavaScript Vue React 技术方案 H5 PC Web HTML,https://www.liepin.com/lptjob/84190709
+WEB前端研发工程师,拼多多集团-PDD,20-40k·16薪,上海-长宁区,上海,本科,应届,7月16日更新,liepin,"【岗位职责】
+1、负责公司核心产品（H5/PC Web/微信小程序等）的前端开发，打造流畅、高性能的用户体验；
+2、与产品、设计、后端团队紧密协作，参与技术方案设计，推动前端技术落地；
+3、参与前端工程化建设（如组件库、工具链等），持续优化研发效率与代码质量。
+【任职要求】
+1、2027届毕业生，本科及以上学历，计算机相关专业，对前端技术有浓厚兴趣；
+2、扎实的计算机基础：熟悉数据结构、网络协议、操作系统等核心知识；
+3、技术能力：熟练掌握 HTML/CSS/JavaScript，了解主流框架（如Vue/React）者优先；
+4、综合素质：逻辑清晰、自驱力强，能快速学习新技术，具备良好的团队协作意识。
+【加分项】
+1、有线上前端项目（H5/小程序等）开发经验，或独立作品展示；
+2、熟悉 Nodejs 或移动端 Hybrid 开发，了解前端性能优化手段；
+3、对用户体验敏感，有设计思维或全栈潜力者更佳。
+ 
+
+截止日期：2026年08月23日
+招聘人数：1人",JavaScript Vue React 技术方案 H5 PC Web HTML,https://www.liepin.com/lptjob/84190415
+Web前端研发工程师（2027届）,拼多多集团-PDD,20-50k·18薪,上海-长宁区,上海,本科,应届,7月8日更新,liepin,"岗位职责
+1、负责公司核心产品（H5/PC Web/微信小程序等）的前端开发，打造流畅、高性能的用户体验；
+2、与产品、设计、后端团队紧密协作，参与技术方案设计，推动前端技术落地；
+3、参与前端工程化建设（如组件库、工具链等），持续优化研发效率与代码质量。
+任职要求
+1、2027届毕业生，本科及以上学历，计算机相关专业，对前端技术有浓厚兴趣；
+2、扎实的计算机基础：熟悉数据结构、网络协议、操作系统等核心知识；
+3、技术能力：熟练掌握 HTML/CSS/JavaScript，了解主流框架（如Vue/React）者优先；
+4、综合素质：逻辑清晰、自驱力强，能快速学习新技术，具备良好的团队协作意识。
+加分项
+1、有线上前端项目（H5/小程序等）开发经验，或独立作品展示；
+2、熟悉 Nodejs 或移动端 Hybrid 开发，了解前端性能优化手段；
+3、对用户体验敏感，有设计思维或全栈潜力者更佳。
+
+截止日期：2027年07月08日
+招聘人数：999人",JavaScript Vue React 技术方案 H5 PC Web HTML,https://www.liepin.com/lptjob/83992297
+前端react开发工程师（27届提前批）,拼多多集团-PDD,25-40k·16薪,上海-长宁区,上海,本科,应届,7月26日更新,liepin," 
+27届研发提前批招聘中！不影响秋招正式批投递（7.6-8.23）
+
+互联网大厂，具有竞争力的起薪，HC多，项目实践机会多，流程推进速度快！
+
+岗位职责
+1、负责公司核心产品（H5/PC Web/微信小程序等）的前端开发，打造流畅、高性能的用户体验；
+2、与产品、设计、后端团队紧密协作，参与技术方案设计，推动前端技术落地；
+3、参与前端工程化建设（如组件库、工具链等），持续优化研发效率与代码质量。
+任职要求
+1、2027届毕业生，本科及以上学历，计算机相关专业，对前端技术有浓厚兴趣；
+2、扎实的计算机基础：熟悉数据结构、网络协议、操作系统等核心知识；
+3、技术能力：熟练掌握 HTML/CSS/JavaScript，了解主流框架（如Vue/React）者优先；
+4、综合素质：逻辑清晰、自驱力强，能快速学习新技术，具备良好的团队协作意识。
+加分项
+1、有线上前端项目（H5/小程序等）开发经验，或独立作品展示；
+2、熟悉 Nodejs 或移动端 Hybrid 开发，了解前端性能优化手段；
+3、对用户体验敏感，有设计思维或全栈潜力者更佳。
+
+截止日期：2027年07月07日
+招聘人数：100人",JavaScript Vue React 技术方案 H5 PC Web HTML,https://www.liepin.com/lptjob/83964617
+WEB前端开发工程师（27届提前批）,拼多多集团-PDD,25-40k·16薪,上海-长宁区,上海,本科,应届,7月26日更新,liepin," 27届研发提前批招聘中！不影响秋招正式批投递（7.6-8.23）
+
+互联网大厂，具有竞争力的起薪，HC多，项目实践机会多，流程推进速度快！
+
+ 岗位职责
+1、负责公司核心产品（H5/PC Web/微信小程序等）的前端开发，打造流畅、高性能的用户体验；
+2、与产品、设计、后端团队紧密协作，参与技术方案设计，推动前端技术落地；
+3、参与前端工程化建设（如组件库、工具链等），持续优化研发效率与代码质量。
+任职要求
+1、2027届毕业生，本科及以上学历，计算机相关专业，对前端技术有浓厚兴趣；
+2、扎实的计算机基础：熟悉数据结构、网络协议、操作系统等核心知识；
+3、技术能力：熟练掌握 HTML/CSS/JavaScript，了解主流框架（如Vue/React）者优先；
+4、综合素质：逻辑清晰、自驱力强，能快速学习新技术，具备良好的团队协作意识。
+加分项
+1、有线上前端项目（H5/小程序等）开发经验，或独立作品展示；
+2、熟悉 Nodejs 或移动端 Hybrid 开发，了解前端性能优化手段；
+3、对用户体验敏感，有设计思维或全栈潜力者更佳。
+
+截止日期：2027年07月07日
+招聘人数：100人",JavaScript Vue React 技术方案 H5 PC Web HTML,https://www.liepin.com/lptjob/83964491
+Web前端研发工程师,拼多多集团-PDD,20-40k·16薪,上海-长宁区,上海,本科,应届,7月31日更新,liepin,"岗位职责
+1、负责公司核心产品（H5/PC Web/微信小程序等）的前端开发，打造流畅、高性能的用户体验；
+2、与产品、设计、后端团队紧密协作，参与技术方案设计，推动前端技术落地；
+3、参与前端工程化建设（如组件库、工具链等），持续优化研发效率与代码质量。
+
+任职要求
+1、2027届毕业生，本科及以上学历，计算机相关专业，对前端技术有浓厚兴趣；
+2、扎实的计算机基础：熟悉数据结构、网络协议、操作系统等核心知识；
+3、技术能力：熟练掌握 HTML/CSS/JavaScript，了解主流框架（如Vue/React）者优先；
+4、综合素质：逻辑清晰、自驱力强，能快速学习新技术，具备良好的团队协作意识。
+
+加分项
+1、有线上前端项目（H5/小程序等）开发经验，或独立作品展示；
+2、熟悉 Nodejs 或移动端 Hybrid 开发，了解前端性能优化手段；
+3、对用户体验敏感，有设计思维或全栈潜力者更佳。
+
+截止日期：2027年07月07日
+招聘人数：1人",JavaScript Vue React 技术方案 H5 PC Web HTML,https://www.liepin.com/lptjob/83961277
+技术方向-全栈开发,互联网已上市10000人以上,12-15k,北京,北京,本科,应届,7月21日更新,liepin,"工作内容
+1-集训&轮岗：集训&轮岗时间为半年，集训&轮岗期间的工作地包含北京、宿迁等城市。集训期间会经历超100场培训，通过集训将会完成从学生向优秀职场人的转身。轮岗期间会在客服/物流一线深入实践，同时还会在总部核心技术部门进行轮岗学习，通过轮岗学习建立对业务、技术全流程的视角和理解，有利于技术在真实数据和商业环境中的落地；
+2-定岗：公司的定岗导向是“热爱、擅长、坚定”，可自由定岗至各BGBU的技术岗位，例如Agent开发、后端开发类、前端开发类等岗位类别，届时将结合个人志向和公司需求确认具体的部门、岗位和工作地。
+任职资格
+1-毕业时间：2026年10月1日至2027年9月30日期间毕业，统招本硕士学历不限；
+2-专业背景：计算机科学、软件工程、人工智能、信息工程等相关专业优先；具备扎实的软件系统开发能力与工程实践经验者不限专业。具备全栈开发意识和能力，能够理解并参与从用户交互层到服务层的系统建设，包括但不限于 Web、PC、小程序、移动端、业务服务、数据基础、中间件、AI 智能体等方向；
+3-专业能力：熟悉 Java、C/C++、Golang、Python、JavaScript、Node.js、TypeScript、Kotlin、Objective-C、Swift 等一种或多种开发语言，具备良好的编码习惯和工程交付意识。具备扎实的计算机基础，包括数据结构与算法、操作系统、计算机网络、数据库、分布式系统等基础知识，能够用工程化方式分析并解决复杂问题；
+4-拥抱AI：熟练使用 AI 编程助手，如 Claude Code、Codex、GitHub Copilot、Cursor 等；对 Agent 编排架构、AI 应用开发或智能研发工具有理解或实践经验者优先；
+5-极客精神：对技术有持续热情，具备较强自驱力、学习能力和团队协作能力，在学术攻坚、工程实践、开源项目、顶级赛事或创新项目中有突出成果者优先；
+6-价值观：符合京东价值观：客户为先、创新、拼搏、担当、感恩、诚信；对京东的商业模式有了解，认同京东价值观与商业价值，并愿意为其长期努力。
+
+截止日期：2026年09月30日
+招聘人数：1人
+
+职位来源：该职位来自第三方企业官网",Java C++ Golang Python JavaScript Node.js TypeScript Kotlin Swift 分布式 Git 培训,https://www.liepin.com/lptjob/83948917
+前端开发工程师（应届生）,兰笺科技,6-10k,苏州-工业园区,苏州,本科,应届,7月28日更新,liepin,"岗位职责
+1.系统页面开发与维护：负责公司业务系统 Web 端页面的开发与迭代，基于设计稿或原型图完成高质量的前端页面还原，确保多浏览器兼容性与交互体验。
+2.前后端接口联调：配合后端工程师完成 RESTful API 的对接与调试，基于接口文档完成数据绑定、状态管理及异常场景的前端处理。
+3.前端组件库建设：参与团队前端组件库的规划与开发，封装可复用的业务组件，提升团队开发效率与代码一致性。
+4.性能与体验优化：参与页面加载性能优化（首屏渲染、懒加载、缓存策略等），持续改善用户交互体验。
+5.技术文档沉淀：负责组件使用说明、前端开发规范及项目相关技术文档的编写与维护。
+任职要求
+1.本科及以上学历，计算机科学与技术、软件工程、信息管理与信息系统等相关专业。
+2.前端基础扎实：熟练掌握 HTML5、CSS3 及 JavaScript（ES6+），理解语义化标签、Flex/Grid 布局、事件模型、Promise 及 async/await 等核心机制。
+3.TypeScript 能力：了解 TypeScript 基础类型系统、接口与泛型的使用，能在实际开发中编写类型安全的代码，有 TypeScript 项目实践者优先。
+4.前端框架应用：熟悉 Vue.js 2/3 或 React 框架的核心概念（组件化、响应式数据、生命周期、状态管理等），了解 Vue Router / React Router 及状态管理库的基本用法。
+5.HTTP 与调试工具：理解 HTTP/HTTPS 协议基础、常见状态码含义及浏览器同源策略；熟练使用 Chrome DevTools 进行页面调试与网络分析。
+6.构建工具链：了解 Webpack 或 Vite 的基本配置与核心概念（loader、plugin、HMR 热更新等），能独立完成项目的构建与本地开发环境搭建。
+7.工程化与协作：熟练使用 Git 进行版本管理与协作开发；具备良好的代码规范意识，能遵循 ESLint/Prettier 等团队配置；思维清晰，沟通主动，具备团队协作精神。
+加分项
+有个人技术博客或 GitHub 开源项目 / 贡献者优先。
+了解 Node.js 基础或有过 Express / Koa 简单使用经验者优先。
+了解移动端适配（rem / vw / 媒体查询）或有过小程序 / UniApp 开发经验者优先。
+了解前端性能优化指标（FCP / LCP / CLS）及常见优化手段者优先。
+了解 Element Plus / Ant Design 等 UI 组件库的使用与二次封装。
+
+截止日期：2027年07月01日
+招聘人数：2人",HTML5 CSS3 JavaScript TypeScript Vue React Webpack Vite Gin Git Node.js Express,https://www.liepin.com/lptjob/83837309
+端云协同AI实习生,索尼(中国)有限公司上海分公司,180-250元/天,上海-浦东新区,上海,本科,,6月26日更新,liepin,"Responsibilities:
+1. Assist in building AI-powered interactive demo systems for entertainment scenarios, where user inputs (e.g., photos) are analyzed to generate real-time feedback and suggestions.
+
+2. Develop and integrate AI models (e.g., vision or multimodal models) into edge-cloud pipelines, including data upload, cloud inference, and response delivery.
+
+3. Implement backend services and APIs to support AI agent workflows, including handling user inputs, model invocation, and result generation.
+
+Requirements：
+ Basic experience with AI/ML (e.g., coursework, projects, or internships), especially in computer vision or multimodal models.
+
+Programming skills in Python; familiarity with backend development (e.g., FastAPI, Flask, Node.js) is a plus.
+
+Understanding of how to use and deploy AI models (e.g., calling APIs, running inference, or simple model integration).
+
+索尼中国北京无线网络研究院致力于构建端、边、云协同的人工智能与无线网络融合技术体系，通过高效的AI模型部署、智能无线连接和实时数据交互，实现用户与数字内容的实时感知、智能生成与沉浸式互动，推动下一代智能通信与数字体验的发展。
+
+我们的团队年轻，热情，富有创造力， 从不对自己设限，对技术有狂热且执着的追求。 我们想寻找志同道合的年轻人， 一起在项目中感受索尼的最新科技， 突破自我，自由翱翔。加入我们，用你的热情和创意推动科技和工业向前发展。
+
+
+截止日期：2027年06月26日
+招聘人数：2人",IPS Python FastAPI Flask Node.js Responsibilities Assist AI-powered,https://www.liepin.com/lptjob/83731097
+端云协同AI实习生,索尼(中国)有限公司上海分公司,180-250元/天,北京-朝阳区,北京,硕士,,7月3日更新,liepin,"Responsibilities:
+1. Assist in building AI-powered interactive demo systems for entertainment scenarios, where user inputs (e.g., photos) are analyzed to generate real-time feedback and suggestions.
+
+2. Develop and integrate AI models (e.g., vision or multimodal models) into edge-cloud pipelines, including data upload, cloud inference, and response delivery.
+
+3. Implement backend services and APIs to support AI agent workflows, including handling user inputs, model invocation, and result generation.
+
+Requirements：
+ Basic experience with AI/ML (e.g., coursework, projects, or internships), especially in computer vision or multimodal models.
+
+Programming skills in Python; familiarity with backend development (e.g., FastAPI, Flask, Node.js) is a plus.
+
+Understanding of how to use and deploy AI models (e.g., calling APIs, running inference, or simple model integration).
+
+索尼中国北京无线网络研究院致力于构建端、边、云协同的人工智能与无线网络融合技术体系，通过高效的AI模型部署、智能无线连接和实时数据交互，实现用户与数字内容的实时感知、智能生成与沉浸式互动，推动下一代智能通信与数字体验的发展。
+
+我们的团队年轻，热情，富有创造力， 从不对自己设限，对技术有狂热且执着的追求。 我们想寻找志同道合的年轻人， 一起在项目中感受索尼的最新科技， 突破自我，自由翱翔。加入我们，用你的热情和创意推动科技和工业向前发展。
+
+
+截止日期：2027年06月26日
+招聘人数：2人",IPS Python FastAPI Flask Node.js Responsibilities Assist AI-powered,https://www.liepin.com/lptjob/83730931
+全栈 / App 工程实习生,英灵殿科技(杭州)有限公司,300-500元/天,杭州-西湖区,杭州,本科,,6月22日更新,liepin,"核心职责：
+参与 AI 科学家平台的 Web、后端或 App 功能开发，协助完成页面搭建、接口开发、数据展示、任务管理、内部工具与产品原型迭代等工作。 
+
+任职要求：计算机或相关专业在读，本科及以上，熟悉至少一种前端、后端或移动端开发技术栈，具备良好的代码能力和学习能力，每周到岗 ≥3 天。 
+
+加分项：有完整项目开发经历，熟悉 React / Vue / Next.js、Python / FastAPI、Node.js、Flutter / React Native、Tauri / Electron 等技术栈；对 AI 产品、Agent 系统、科研工具或 Scientific AGI 方向有兴趣者优先。
+
+
+福利待遇：
+1.实习津贴：300-500元 / 天，硕博 / 优质简历上浮；
+2.基础福利：餐补、实习证明、内推机会；
+3.发展成长：零距离接触诺奖导师团队、顶刊科研项目、Scientific AGI 前沿技术，核心导师带教。
+
+截止日期：2027年04月28日
+招聘人数：5人",React Vue Next.js Python FastAPI Node.js Flutter React Native Electron,https://www.liepin.com/lptjob/83586779
+全栈工程师助理岗,计算机软件50-99人,2-6k,长沙-长沙县,长沙,大专,应届,6月18日更新,liepin,"全栈工程师助理岗：
+岗位职责
+1. 全栈开发辅助工作：协助全栈工程师完成前后端开发工作，参与功能模块编码、页面迭代、接口联调，落地基础开发任务，保障项目稳步推进。
+2. 代码编写与维护：负责基础前端页面搭建、样式适配、交互功能实现，配合完成后端接口开发、数据处理、逻辑优化；按照团队规范编写整洁、可复用的代码，做好代码注释与版本管理。
+3. 项目测试与bug修复：参与项目单元测试、功能自测，协助排查开发过程中的页面兼容、接口异常、程序漏洞等问题，快速修复基础bug，配合测试团队完成迭代验收。
+4. 技术文档与需求对接：协助整理项目开发文档、接口文档、迭代日志，记录开发流程与技术要点；对接产品、设计及测试人员，确认需求细节、页面样式及功能逻辑，同步开发进度与问题。
+5. 技术学习与迭代优化：主动学习前后端新技术、新框架，跟进行业技术趋势；协助团队优化现有项目代码、提升系统运行效率、优化用户体验，参与团队技术复盘。
+任职要求
+1. 大学及以上学历，计算机、软件工程、信息技术、电子工程，测绘，GIS等相关专业，应届生或1年以内相关开发经验均可。
+2. 掌握基础全栈开发技术，熟悉前端或后端基础技术栈，具备独立完成简单功能模块开发的能力。
+3. 熟悉MySQL、PostgreSQL主流数据库，掌握基础数据库增删改查、简单语句优化、数据建模基础。
+4. 前端技能：掌握HTML5、CSS3、JavaScript，熟悉Vue/React任意一种主流框架，具备页面适配、交互开发能力。
+5. 后端技能：掌握Java/Python/Node.js任意一种主流后端语言，了解SpringBoot/Django/Express等常用开发框架，熟悉RESTful接口开发规范。
+6. 附加技能加分：了解Linux基础命令、服务器部署流程；熟悉Redis、Nginx基础使用；具备独立小型项目开发、毕业设计、开源项目贡献经验者优先。
+
+截止日期：2027年06月18日
+招聘人数：12人",MySQL PostgreSQL HTML5 CSS3 JavaScript Vue React Java Python Node.js Spring Django,https://www.liepin.com/lptjob/83545735
+Web前端开发工程师（AI方向）-27届暑期 (MJ002892),东方财富,300-400元/天,上海-徐汇区,上海,本科,,6月3日更新,liepin,"工作职责：
+1、探索AI技术在前端系统中的创新应用（如大模型应用、智能交互框架、可视化工具等），推动前沿技术落地；
+2、负责Web前端产品需求分析、技术方案设计、高质量代码实现、性能优化及单元测试，保障项目高效迭代与高质量交付；
+3、深入分析与解决多端兼容性、渲染性能及交互体验问题，持续提升应用的流畅度与用户体验；
+4、参与前端工程化体系建设，推动组件化、模块化开发，完成通用组件、工具库的抽象、封装与技术沉淀；
+5、完成公司交办的其他工作。
+
+任职资格：
+1、2027届本科及以上学历毕业生，计算机、软件工程等相关专业优先；
+2、熟悉JavaScript原生语法，理解并熟悉ES5/ES6/ES7，熟悉一种或多种常用前端框架，如：Vue、React等；
+3、熟悉前端常用的构建工具（如webpack、vite等），熟练使用Git工具；
+4、熟悉W3C标准与Web语义化，精通页面架构和布局，能够解决各种浏览器兼容性问题，熟悉前端性能优化；
+5、对前后端的协作模式、产品、项目流程和组件化模块开发具备一定理解；
+6、熟悉Linux平台，熟悉一种或多种后端开发语言，如：NodeJS/Java/Python等；
+7、精通HTML5/CSS3/JavaScript/JQuery/Ajax等相关技术，具有较强的代码功底；
+8、学习能力强，热爱编程，保持对创新的敏感度和推动力，具有良好的逻辑思维、沟通协作能力、团队合作意识及高度的责任心。
+
+截止日期：2027年06月03日
+招聘人数：3人",大模型 JavaScript Vue React Webpack Vite Git Linux Java Python HTML5 CSS3,https://www.liepin.com/lptjob/83107187
+IT实习生,青葱道文化传播(上海)有限公司,200-250元/天,上海-闵行区,上海,本科,,5月28日更新,liepin,"【岗位职责】
+公司现有若干已上线的小程序（外包开发），需要实习生进行代码整合、数据库合并与功能维护。
+
+1、现有小程序的维护及整合
+理解公司现有的微信小程序的业务功能、代码结构与数据流向。
+在导师指导下，完成指定功能模块的合并、统一或调整（例如统一UI风格、合并用户中心页）。
+
+2、数据库整合与数据清洗
+分析小程序对应的数据库表结构（可能分布在不同数据库或同一库不同表中）。
+编写SQL脚本完成数据合并、字段映射、重复数据清洗。
+协助设计统一的数据库表结构，支撑整合后的小程序/后台。
+
+3、bug修复与轻度功能扩展
+根据测试反馈修复现有小程序中的问题（前端展示、数据提交错误等）。
+根据新需求，在现有代码基础上增加小型功能（例如增加一个查询页面、导出报表）。
+
+4、文档梳理
+整理小程序的现有接口文档、数据库说明、代码目录说明。
+记录整合过程中的改动点与注意事项。
+
+【任职要求】
+
+1、必备条件：
+计算机、软件工程、信息管理等相关专业，大三及以上优先。
+能看懂并修改他人写的小程序代码（重要）：熟悉微信小程序项目结构（app.json, pages, components, utils等），能够通过调试工具定位前端问题。
+数据库能力扎实：熟练使用SQL（尤其是多表关联查询、数据对比与更新）；能够理解ER关系；有Excel或脚本辅助数据比对的经验更佳。
+掌握至少一门脚本语言（Python/Node.js/Java），能用来处理数据或调用API。
+做事细心、有条理，能整理混乱的代码/文档，乐于沟通现状与困难。
+
+2、加分项：
+有过“接盘”外包项目或重构他人代码的经历。
+了解小程序云开发或知晓如何区分前端逻辑与后端接口职责。
+能使用版本控制工具Git（能clone、commit、查看diff即可）。
+熟悉常见的数据库管理工具（Navicat, DBeaver, phpMyAdmin等）。
+
+【我们提供】
+
+实际项目整合经验，非“打杂”实习，可写入简历完整项目经历。
+导师来自内部/外部技术或产品团队，帮助梳理混乱的外包代码。
+实习津贴：200-250元/天
+实习证明 + 项目整合成果展示
+表现优秀有转正机会（视公司HC而定）
+
+截止日期：2027年05月28日
+招聘人数：1人",SQL Python Node.js Java Git PHP,https://www.liepin.com/lptjob/82959439
+全栈开发实习生,中兴保险经纪有限公司,150-250元/天,珠海-横琴新区,珠海,本科,,6月24日更新,liepin,"一、岗位职责
+1.协助全栈开发人员，完成前后端开发、联调、测试及运维工作，重点利用 CodeBuddy 等 AI 工具提升开发效率：
+2.前端开发：基于 CodeBuddy 等 AI 辅助设计工具，快速实现前端界面开发与组件编写，优化交互体验。
+3.后端开发：借助 AI 工具辅助编写 API 接口、业务逻辑代码及数据处理脚本。
+4.前后端联调：参与接口调试与数据对接，利用 AI 工具辅助排查问题、生成测试用例。
+5.测试与运维：执行功能测试与回归测试，借助 AI 工具辅助日志分析、监控配置及基础运维操作。
+6.工具提效：主动探索并应用主流 AI 编程助手（如 CodeBuddy、GitHub Copilot 等），提升日常开发、文档编写及问题定位的效率。
+
+二、任职要求
+1.基本条件
+· 本科及以上在读学生，2026-2027年应届毕业生优先；
+· 计算机、软件工程、电子信息等相关专业。
+2.技术能力
+· 熟练使用 CodeBuddy 或其他 AI 辅助开发工具，能通过 AI 工具快速生成/优化前后端代码；
+· 了解至少一门后端语言（Python / Node.js / Java / Go 等），能编写基础 API；
+· 熟悉基础的前端技术（HTML/CSS/JS，或 Vue/React 等框架），能配合 AI 工具完成页面开发；
+· 具备一定的架构思维：理解模块分层、接口规范、代码可维护性等概念，不局限于“复制粘贴 AI 生成的代码”。
+3.素质要求
+· 主动学习：对 AI 辅助开发工具有强烈兴趣，能快速上手新工具并应用到实际工作；
+· 逻辑清晰：能准确描述问题，与团队高效协作；
+· 责任心强：对代码质量和系统稳定性有基本意识；
+· 每周至少保证 4 天在岗，能连续实习 3 个月以上。
+4.加分项
+· 有个人 GitHub 仓库或技术作品展示；
+· 熟悉 Docker、Linux 命令或云服务平台；
+· 有使用 AI 工具完成过完整小项目的经验；
+· 对金融行业及跨行业应用有了解或项目经验者优先，尤其是金融保险场景。
+
+三、我们提供
+· 实战提效：在真实项目中深度使用 AI 工具，积累“人机协作”开发经验；
+· 导师带教：资深全栈工程师指导架构设计及工具使用技巧；
+· 转正机会：表现优秀者可优先获得 2026-2027届校招 offer；
+· 舒适环境：珠海宜居城市，团队氛围开放、鼓励创新。
+
+截止日期：2027年05月19日
+招聘人数：2人",Git Python Node.js Java Go Vue React Docker Linux 测试用例 功能测试 日志分析,https://www.liepin.com/lptjob/82683549
+测试开发管培生,人工智能A轮100-499人,8-15k,北京-海淀区,北京,本科,应届,6月26日更新,liepin,"校招测试开发管培生
+岗位职责
+1、负责产品自动化测试工具开发落地，开发与维护自动化测试脚本、自动化执行流程及自动化验证平台，优化产品测试与交付链路，赋能端到端产品实现用例设计、执行、结果分析及问题反馈的全流程智能化落地；
+2、参与智能化测试工具开发落地，协助完成智能体/小灵人的需求梳理、功能适配、场景测试及优化迭代，助力测试流程自动化、智能化升级，提升测试效率与覆盖度。
+3、负责效率工具的开发与迭代，包括但不限于工单系统、项目管理平台、智能运维工具的需求实现与应用验证。
+
+任职要求
+1. 学历与专业背景：计算机、通信、电子、自动化等相关专业，要求本科及以上，硕士学历优先。
+2. AI技能与工具掌握
+对AI应用有浓厚兴趣，具备以下一种或多种实践经验者优先：
+AI视觉自动化测试：了解或试用过Midscene.js等新一代AI自动化框架，理解“自然语言即脚本”或“视觉定位”核心理念；有使用Playwright/Puppeteer结合AI模型进行UI自动化测试经验者优先。
+智能体（Agent）开发：了解OpenClaw等AI智能体框架，有通过安装配置Skills（技能包）构建自动化工作流的经验者优先，熟悉其在办公、运营或开发等场景的应用。
+AI开发工具应用：熟练使用Trae、Cursor、GitHub Copilot等AI编程助手提升开发效率，有利用AI工具辅助编码、调试或项目重构的实际经验者优先。
+大模型应用开发：熟悉GPT、Claude、通义千问等主流大模型的API调用与提示词工程（Prompt Engineering），了解常见应用开发框架。
+数据处理与分析：能使用Pandas、NumPy等工具进行数据处理，具备基本数据分析能力者优先。
+3. 编程能力
+具备扎实的编程能力，熟悉Python/Shell（或Node.js），能独立编写自动化脚本、小工具或简单系统；有实际开发经验者优先。
+4. 综合素质
+逻辑清晰、做事严谨、主动推进，具备良好的沟通表达与团队协作意识，能吃苦耐劳，适应快节奏工作环境。
+
+岗位亮点
+前沿技术实践：深度参与AI+X落地实践，亲手搭建基于OpenClaw的智能体，探索Midscene.js驱动的“零代码/低代码”智能化测试新范式。
+技术能力提升：近距离学习智能化测试工具的设计与落地，掌握Trae等新一代AI开发工具的高效工作流，提升自身技术竞争力。
+经验全面积累：深度参与测试与交付全流程，将理论知识转化为可复用的项目经验，为职业发展奠定坚实基础。
+
+截止日期：2027年05月19日
+招聘人数：1人",IDS Git 大模型 GPT Gin Python Shell Node.js 自动化测试 项目管理 数据分析,https://www.liepin.com/lptjob/82666537
+AI算法实习生,纳米维景,200-400元/天,上海-浦东新区,上海,本科,,5月14日更新,liepin,"岗位要求：
+1. 本科及以上学历，计算机、软件工程、人工智能等相关专业。
+2. 具备软件开发经验，熟悉 Python，具备良好的工程开发能力。
+3. 熟悉 FastAPI、Flask、Django、Node.js、React、Vue 中至少一种后端或前端技
+术。
+4. 熟悉大模型应用开发，理解 Prompt、Function Calling、Tool Use、Agent、
+Workflow 等概念。
+5. 熟悉 Git、Docker、Linux、数据库、REST API 等基础开发工具。
+6. 能够独立完成从需求分析、方案设计、开发、测试到上线的完整闭环。
+加分项
+1. 有 LangChain、LlamaIndex、Dify、Coze、AutoGen、CrewAI、OpenAI
+Assistants、MCP 等经验。
+2. 有 VS Code 插件、内部开发工具、DevOps 工具、代码审查工具开发经验。
+3. 熟悉 CI/CD、Jenkins、GitLab、Jira、禅道、Tapd、飞书/钉钉/企业微信接口。
+4. 有 AI Coding 工具使用和二次开发经验，如 Cursor、Copilot、Continue、
+Codeium、Cline 等。
+5. 有医疗影像、工业软件、CT算法、硬件测试系统相关经验优先。
+关键考核指标
+1. 能否把研发痛点转化为可用的 AI 工具。
+2. Agent 是否稳定、可控、可追踪。
+3. 是否能接入公司内部真实系统，而不是孤立聊天机器人。
+4. 是否能显著减少人工重复劳动。
+ 
+
+截止日期：2027年05月14日
+招聘人数：2人",Python FastAPI Flask Django Node.js React Vue 大模型 Git Docker Linux DevOps,https://www.liepin.com/lptjob/82546523
+实施工程师,北京森诺晨科技发展有限公司,5-8k,安顺-西秀区,,大专,应届,5月9日更新,liepin,"1. 开发经验：具备一定的全栈开发基础，拥有后端开发经验，熟悉至少一种前端技术（如Vue、React、HTML/CSS/JavaScript）和一种后端技术（如Java、Python、Node.js），了解数据库基础操作（MySQL、Oracle等）。
+2. 学习能力：具备极强的自主学习能力和快速适应能力，能快速掌握企业级系统（如QMS、MES、CRM等）的实施逻辑与相关技术，乐于接受新的技术挑战。
+
+3. 作品要求：应聘时需提供上学期间的相关项目作品（如课程设计、个人开发项目、竞赛作品等），作品需能体现全栈开发能力或系统实施相关的实践经验（可提供项目源码、演示视频、项目说明文档等）。
+
+4. 综合素质：具备良好的沟通协调能力和团队合作精神，有较强的问题分析与解决能力；工作认真负责，态度积极主动，有一定的抗压能力。
+
+5. 其他：了解企业级软件实施流程者优先；持有相关技术证书（如计算机二级、软件水平考试证书等）者加分。
+
+截止日期：2027年05月09日
+招聘人数：1人",Vue React JavaScript Java Python Node.js MySQL Oracle,https://www.liepin.com/lptjob/82398097
+后端开发工程师（实习）,武大数智教育公司,100-150元/天,武汉-洪山区,武汉,硕士,,5月7日更新,liepin,"岗位职责：
+1.参与业务系统后端功能的设计与开发；
+2.负责数据库表设计、接口开发与性能调优；
+3.配合前端与测试完成功能联调与问题修复；
+4.参与系统部署、监控与运维支持；
+5.编写清晰的技术文档与开发笔记。
+
+技术基础：
+1.掌握至少一门后端语言（Java/ Python/Node.js）；
+2.掌握Spring、Spring boot核心原理，熟悉ORM（MyBatis/MyBatis-Plus）框架，了解 Spring Cloud 微服务组件（如Nacos、Gateway、Feign等）工作原理，了解Spring Security 权限控制相关内容；
+3.了解常用数据库（MySQL / PostgreSQL / Redis）基本操作及工作原理；
+4.了解 RESTful API 设计与开发；
+5.了解 Linux 基础命令与 Git 使用；
+6.对缓存、消息队列、微服务等有基本认知。
+
+
+学历和专业要求：
+研究生及以上学历，计算机、软件工程、通信工程等相关专业。
+
+加分项：
+1.有实习项目、课程设计或参赛经历（如 ACM、软件设计大赛）；
+2.了解 Docker、Kubernetes 或云服务平台（阿里云 / AWS）；
+3.了解系统安全、高并发或性能优化相关知识；
+4.具备英文技术资料阅读能力。
+
+
+截止日期：2026年12月31日
+招聘人数：3人",Java Python Node.js Spring Spring Boot MyBatis MyBatis-Plus Spring Cloud 微服务 MySQL PostgreSQL Redis,https://www.liepin.com/lptjob/82301627
+AI项目开发实习生,诚毅科技软件,100-150元/天,武汉-汉阳区,武汉,本科,,90天前更新,liepin,"【岗位职责】
+1、协助AI应用项目的后端接口开发与简单前端页面实现，参与完整的功能联调。
+2、调用AI模型API（如OpenAI、开源模型）或协助部署轻量模型，完成Demo级应用开发。
+3、基于MySQL/SQLite进行基础的数据查询、读取及结果导出。
+4、配合团队完成代码提交、技术文档编写及基本的功能测试。
+
+【任职要求】
+1、要求27届应届本科及以上学历，计算机、软件工程等相关专业；
+2、熟悉前端技术（HTML/CSS/JS），掌握至少一种框架（React/Vue）；
+3、熟悉后端开发（Node.js/Java/Python/Go任意一门语言），了解数据库基础；
+4、具备全栈项目实践经历（课程作业/个人项目/比赛均可）；
+5、学习能力强，对新技术有热情，能快速投入业务开发。
+
+该岗位提供转正机会。
+
+截止日期：2027年04月27日
+招聘人数：4人",MySQL SQLite React Vue Node.js Java Python Go 技术文档 功能测试,https://www.liepin.com/lptjob/82129657
+前端开发实习生,甲骨易(北京)语言科技股份有限公司湖南分公司,100-150元/天,长沙-岳麓区,长沙,本科,,90天前更新,liepin,"岗位职责:
+1、参与公司 [Web后台 / H5活动页 / 小程序 / 客户端内嵌H5 / 数据可视化等] 产品的前端开发，配合产品、设计、后端团队完成需求评审与落地。
+2. 负责高质量的前端代码编写，保障页面性能、多端兼容性及代码可维护性。
+3. 参与前端工程化建设、公共组件库维护、技术文档沉淀及单元测试编写。
+4. 协助排查线上问题，跟进用户体验优化与性能调优。
+5. 学习业界前沿技术，参与团队技术分享，持续拓宽技术视野。
+岗位要求:
+1、本科及以上学历，计算机、软件工程、电子信息、数学等相关专业，在校生优先。
+2、熟练掌握 HTML5 / CSS3 / JavaScript，了解 TypeScript，熟悉至少一种主流框架（Vue 2/3 或 React）。
+3、了解前端工程化工具（如 Webpack / Vite / pnpm 等）及 Git 协作流程。
+4、具备基础的计算机网络、数据结构知识，能独立使用浏览器开发者工具进行调试与性能分析。
+5、具备良好的沟通表达能力、团队协作意识，对前端技术有热情，具备较强的自学与问题拆解能力。
+能接受敏捷开发节奏，按时交付任务，对代码质量有基本追求。
+加分项（非必须，有则优先）
+1、有完整的前端项目经验（个人项目、开源贡献、比赛作品或过往实习经历均可）。
+2、熟悉 Node.js / SSR (Next.js/Nuxt.js) / 跨端开发 (Uni-app/Taro/React Native)。
+3、了解前端性能优化、安全策略、无障碍（a11y）或自动化测试（Jest/Cypress/Playwright）。
+4、 具备良好的英语阅读能力，能顺畅查阅英文技术文档或MDN/官方RFC。
+5、有技术博客、GitHub活跃记录或参与过开源社区。
+
+截止日期：2027年04月24日
+招聘人数：1人",HTML5 CSS3 JavaScript TypeScript Vue React Webpack Vite Git Node.js Next.js Nuxt,https://www.liepin.com/lptjob/82052595
+agent开发实习生,我想去看看(北京)科技有限责任公司,250-300元/天,北京-朝阳区,北京,本科,,5月29日更新,liepin,"你会做什么
+你会直接参与真实产品的开发，不是写 demo，不是打杂——你的代码会跑在生产环境里。
+- 独立完成功能模块的前后端开发，包括页面、接口、数据库的完整链路
+- 参与 API 设计与实现，完成标准的 CRUD 功能开发
+- 配合 AI 工程师完成与 Agent 相关的前后端接口对接
+- 参与 Code Review，养成规范的工程习惯
+- 遇到问题先自己查、自己试，实在搞不定再问
+
+我们希望你
+必须：
+- 计算机相关专业在读（本科或研究生），计算机基础扎实——理解 HTTP 请求响应、数据库读写、前端渲染的基本原理，不只是会调包
+- 能独立写出可运行的前后端 CRUD——有完整的 side project 或课程项目可以展示，哪怕很简单
+- 熟悉至少一种后端语言（Python / Go / Node.js 均可），能写基础的 REST API
+- 熟悉基础 SQL，能独立完成常规的增删改查和简单联表
+- 熟悉前端基础（HTML / CSS / JavaScript），了解 React 或 Vue 其中之一
+- 能用 Git 进行基本的版本管理，理解 branch / commit / PR 流程
+- 能通过 AI 工具（Cursor / Claude Code 等）提升开发效率，但能判断 AI 生成代码的对错，不盲目粘贴
+- 每周能保证至少 4 天实习，能坚持 3 个月以上
+
+加分：
+- 有完整部署上线过的个人项目（哪怕用 Vercel / Railway 等托管平台）
+- 了解 Docker 基础，能看懂 Dockerfile
+- 接触过 LLM API（OpenAI / Claude 等），做过任何 AI 相关的小项目
+- 熟悉 Next.js 或 TypeScript
+- 有开源贡献或活跃的 GitHub
+
+截止日期：2027年04月14日
+招聘人数：3人",Python Go Node.js SQL JavaScript React Vue Git Docker LLM Next.js TypeScript,https://www.liepin.com/lptjob/81737667
+后端工程师（实习生）,上海德迩实业集团有限公司,200-250元/天,上海-嘉定区,上海,本科,,7月10日更新,liepin,"- 职位描述
+在资深工程师指导下，协助前端组件开发、3D 可视化功能测试与 BFF 层基础接口编写，参与实时流显示功能的辅助开发，积累全栈开发经验。
+- 核心职责
+61	协助开发前端通用组件（如表单、列表），配合团队完成页面集成与样式优化。
+61	支持 3D 可视化界面（基于 Three.js）的基础功能调试，记录渲染性能数据。
+61	协助编写 BFF 层简单数据接口，配合前端完成数据联调。
+61	学习实时通信技术（如 WebSocket），参与实时流显示功能的基础测试。
+- 核心能力要求
+61	在校身份：计算机、软件工程等相关专业本科大三 / 大四或研究生在读。
+61	技术基础：
+o	掌握 HTML、CSS、JavaScript，了解 React 或 Vue 框架的基础使用。
+o	对前端工程化（如 webpack）有初步认知，能编写简单前端代码。
+o	了解 Node.js 或 Python，能编写基础接口者优先。
+61	个人素质：具备审美能力，关注用户体验，愿意学习 3D 渲染与实时通信技术。
+- 加分项
+61	有个人前端项目（如博客、小应用）或了解 Three.js 者优先。
+61	接触过 WebSocket 或后端接口开发（如 Express、Flask）者优先。
+ 
+
+截止日期：2027年04月14日
+招聘人数：3人",WebSocket JavaScript React Vue Webpack Node.js Python Express Flask 功能测试,https://www.liepin.com/lptjob/81733459
+全栈工程师（实习生）,上海德迩实业集团有限公司,200-250元/天,上海-嘉定区,上海,本科,,7月10日更新,liepin,"- 职位描述
+在资深工程师指导下，协助前端组件开发、3D 可视化功能测试与 BFF 层基础接口编写，参与实时流显示功能的辅助开发，积累全栈开发经验。
+- 核心职责
+61	协助开发前端通用组件（如表单、列表），配合团队完成页面集成与样式优化。
+61	支持 3D 可视化界面（基于 Three.js）的基础功能调试，记录渲染性能数据。
+61	协助编写 BFF 层简单数据接口，配合前端完成数据联调。
+61	学习实时通信技术（如 WebSocket），参与实时流显示功能的基础测试。
+- 核心能力要求
+61	在校身份：计算机、软件工程等相关专业本科大三 / 大四或研究生在读。
+61	技术基础：
+o	掌握 HTML、CSS、JavaScript，了解 React 或 Vue 框架的基础使用。
+o	对前端工程化（如 webpack）有初步认知，能编写简单前端代码。
+o	了解 Node.js 或 Python，能编写基础接口者优先。
+61	个人素质：具备审美能力，关注用户体验，愿意学习 3D 渲染与实时通信技术。
+- 加分项
+61	有个人前端项目（如博客、小应用）或了解 Three.js 者优先。
+61	接触过 WebSocket 或后端接口开发（如 Express、Flask）者优先。
+
+
+
+截止日期：2027年04月14日
+招聘人数：3人",WebSocket JavaScript React Vue Webpack Node.js Python Express Flask 功能测试,https://www.liepin.com/lptjob/81732781
+26年校招-全栈工程师（北京）,东土科技,20-30k,北京-石景山区,北京,硕士,应届,90天前更新,liepin,"一、岗位职责
+1. 参与工业智能系统的全栈研发工作，围绕真实业务场景完成功能设计、开发、联调与交付。
+2. 负责前端功能建设，基于 React + TypeScript 完成功能页面、状态展示、告警交互及可视化实现。
+3. 参与实时通信链路开发，基于 WebSocket 实现在线状态管理、实时事件推送及前端数据同步。
+4. 参与后端服务开发，基于 Python + FastAPI 设计并实现业务接口、服务逻辑及系统集成能力。
+5. 参与数据层与系统环境建设，基于 MySQL + Redis + Linux 完成数据存储、缓存管理、服务部署、运行维护及基础性能优化。
+6. 参与工业设备与软件系统联调，了解或接触 ROS2 通信机制、模块协同及系统链路设计，在实践中逐步提升系统理解与架构能力。
+
+二、任职要求
+1. 2026 届或 2027 届本科及以上学历，计算机、软件工程、自动化、电子信息、机器人等相关专业优先。
+2. 具备扎实的计算机基础，理解数据结构、算法、操作系统、计算机网络及数据库基础知识。
+3. 至少熟悉一门主力编程语言，具备良好的编码习惯与工程实现能力，Python / TypeScript / Node.js 优先。
+4. 具备前后端开发基础，熟悉 React + TypeScript，了解 FastAPI 或同类 Web 框架，能够完成基础页面开发与接口联调。
+5. 熟悉 MySQL、Redis、Linux 基础使用，了解常见服务部署、日志排查、进程管理等基本能力；了解 ROS2 基础概念者优先。
+6. 学习能力强，具备责任心和良好的沟通协作能力，认同从工程实现逐步成长为 系统架构师方向 的发展路径。
+
+三、优先考虑条件
+1. 有实时系统相关经验，了解 WebSocket、消息推送、状态同步、事件驱动 等机制。
+2. 有 ROS2 / Linux 相关项目经验，能够参与机器人、设备侧或工业软件系统的开发、联调与部署。
+3. 有完整项目经历（课程、实习、开源均可），能够清晰说明个人职责、技术方案与落地结果；具备系统设计、稳定性优化或 AI 辅助研发实践者优先。
+
+截止日期：2027年04月11日
+招聘人数：1人",React TypeScript WebSocket Python FastAPI MySQL Redis Linux ROS Node.js 技术方案,https://www.liepin.com/lptjob/81684185
+AI 研发实习生,杭州元狲科技有限公司,100-200元/天,杭州-上城区,杭州,本科,,7月16日更新,liepin,"我们优先考虑能保证3个月及以上稳定实习期的同学。 
+我们技术栈主线是 Node.js + Typescript + EffectTS / Python 。
+
+【岗位职责】
+1. 和开发、产品相互配合，快速做 PoC 和部分产品原型的开发迭代。
+2. 参与数据清洗、标注、评测工作，并协助构建相关的数据处理 pipeline 。
+3. 参与 LLM 应用开发、评测体系建设或部分 Infra 相关工作。
+
+【岗位要求】
+1. 计算机、软件工程或相关专业，理解计算机基础原理，拥有较为扎实的代码与编码基础，至少熟练掌握 Python 或Typescript 中的任意一门语言。
+2. 熟悉 Gemini、OpenAI、Anthropic 等主流 LLM 厂商的调用格式，具备相关的 API 调用能力。
+3. 有过数据处理经验，接触过 Mysql、Postgres 等主流数据库，能够明晰 JSON、CSV 等不同数据格式的转换。并具备一定的数据分析能力，能借助 Python/Typescript 完成基本数据清洗、统计分析和结果可视化。
+4. 了解基本 Web 开发流程，接触过 Next.js 等 React 技术栈，能够借助 AI 编码工具实现简单的 Web 开发或数据的可视化。
+5. 具备自驱性，在给定任务的输入与输出的情境下可以主动推进任务的完成。
+6. 具备基础的 Git 协作能力与代码组织能力，具备模块化意识。
+
+【加分项】
+1. 能够说出自己对于 GPT、Claude、Gemini、GLM、Deepseek、Qwen 等不同版本大模型之间的区别的个人感知。
+2. 参与 Github 上开源社区贡献，存在在 Github 上活跃的项目。
+3. 有良好的技术文档撰写习惯。
+4. 深度使用过 Claude Code 等 AI 编码工具，可以滔滔不绝讲述 CC、狗屎的Codex、Cursor 等不同 AI 编码工具的优缺点以及各自的坑。
+5. 有过较大规模的数据爬取以及相应的数据处理经验。
+6. 接触过 Ubuntu 等不同的 Linux 发行版，具备基本的命令行、开发环境配置和服务排查经验。
+7. 使用过 Docker 等容器工具。
+8. 掌握 Haskell、OCaml、Rust 等编程语言，理解 ADT 、Monad、Algebraic Effects 等概念。
+9. 具备图像相关的处理经验（canvas、mockup合成）。
+10. 能够较为稳定地线下参与实习。
+
+
+【我们画的饼】
+1. 可以直接参与到 Infra 、Agent 、Eval 等中大型工程项目中，积累相关项目的实践经验。
+2. 提供关于 LLM 相关的前沿动态见解以及我们相关的工程经验，包括我们踩过的坑吃过的屎。
+3. 前沿AI实践：直接参与AI产品开发，掌握最新的前端技术与AI交互设计、工程经验累积。
+4. 定期内训培训：每周一次AI相关知识内训，了解大模型的直观解释与实践。
+5. 全流程参与：从需求讨论到设计评审，再到开发实现和上线，全流程参与真实项目。
+
+
+截止日期：2027年03月26日
+招聘人数：3人",Node.js TypeScript Python LLM MySQL Next.js React Git GPT 大模型 Linux Docker,https://www.liepin.com/lptjob/81251111
+全栈研发实习生,上海亦灿灿信息服务有限公司,150-300元/天,上海,上海,本科,,7月12日更新,liepin,"岗位职责：
+1.负责人工智能产品技术及云平台产品前后端开发。
+2.通过机器学习，持续产品和技术的优化。
+3.设计及运用先进技术于产品开发。
+职位要求：
+1.本科及以上学历，计算机相关专业毕业，具有丰富的网络或移动后台搭建与编程经验；熟悉业界内常用的开源工具，并在不同项目中有实际使用经验。
+2.具有构建大型面向对象的JavaScript应用程序的经验，使用过MVC模式应用程序的经验。
+3.精通HTML5andCSS3.接触过jQuery,Vue.js,React等不同的库,Node.js,RubyOnRails,Django,JavaSpring至少懂一种。
+4.熟悉多种语言，能快速上手新语言以及新环境。
+5.计算机领域基本能力-Datastructure、Algorithm、Systemprogramming、OS基本概念，能解决难题。
+6.具有扎实的编程及设计功底，精通Linux操作系统上的C或C++或Java或Python，熟悉Shell等脚本语言。
+7.熟悉开源分布式系统如Hadoop以及数据库系统。
+8.熟悉流媒体处理和传输方面的技术优先。
+9.精通如下数据库的一种或多种：MySQL,PostgreSQL,MongoDB,Neo4j；熟练使用Redis和Nginx；具有分布式系统或NoSQL开发经验者优先。
+10.具备良好的分析解决问题能力，能独立承担任务和有项目经验
+
+截止日期：2027年03月17日
+招聘人数：2人",机器学习 JavaScript HTML5 CSS3 jQuery Vue React Node.js Ruby Django Java Spring,https://www.liepin.com/lptjob/81024243
+后端开发实习生（数字技术）,浙江大学湖州研究院,50元/天,湖州-吴兴区,湖州,本科,,90天前更新,liepin,"【岗位职责】：
+1. 参与工业物联网感知、联网、计算及数据平台相关开发工作（如传感器数据采集、设备管理、数据存储等）。
+2. 参与AI大模型平台及智能体的开发，以及智能化业务研发（如AI助手和智能会议纪要等）。
+3. 完成模块的设计与开发，并进行调试，解决技术问题。
+
+【任职条件】：
+ 1. 本科及以上学历，计算机或相关专业，能长期实习者优先。
+2. 熟悉Java基础，熟悉JVM、多线程、并发以及网络通信，熟悉主流Java开源应用框架。
+3. 熟悉HTML5、JavaScript、Ajax、CSS、JQuery、node.js及PHP中的一种或多种Web开发技术。
+4. 熟悉一种关系数据库（Mysql/Oracle）和一种或多种非关系数据库（Redis/MongoDB）。
+5. 熟练后端构建工具如Maven、Gradle等，熟练使用版本控制工具如Git等。
+6. 拥有基于大模型的AI项目经验，熟悉大模型或智能体的训练、部署、调用流程。
+
+加分项：
+1. 熟练使用AI工具辅助开发，如代码自动补全、代码调试等。
+2. 有ICPC、ACM算法竞赛经验，或参加开源项目并贡献过代码者。
+3. 有实习经历者，有项目经历者。
+
+截止日期：2027年03月11日
+招聘人数：1人",大模型 Java HTML5 JavaScript jQuery Node.js PHP MySQL Oracle Redis MongoDB Maven,https://www.liepin.com/lptjob/80846335
+AI开发见习生,汇川技术,180-250元/天,苏州-吴中区,苏州,本科,,90天前更新,liepin,"岗位职责
+1、智能体应用开发：参与公司内大模型（LLM）应用的算法落地。负责智能体（Agent）核心逻辑的编码与调试，基于ReAct等架构实现任务规划、工具调用及多轮对话等基础功能，协助解决或优化业务问题。
+2、Skills/Tools功能开发：根据业务需求，开发并封装大模型所需的各种技能（Skills/Tools）。负责编写接口调用代码，打通API与内部数据查询链路，确保数据流的连通与基础操作的顺畅执行。
+3、模型部署与系统集成：参与AI算法的技术方案设计，利用Ollama、vLLM、Transformers等工具进行模型的高性能部署。负责将第三方API及内部业务系统接入大模型，利用Model Context Protocol (MCP) 协议集成外部数据源，构建动态上下文。
+4、数据与平台建设：负责模型训练及测试数据的清洗、管理与优化；同时参与公司AI相关平台的开发、测试与运维工作，确保算法的有效实施。
+5、技术探索与赋能：跟踪学术界和工业界的前沿研究成果（特别是Agent、RAG及多模态方向），参与集团AI赋能的相关宣传与内部培训工作，完成部门内其他相关事项。
+
+任职资格
+1、教育背景：27届或28届本科生，计算机科学、人工智能、信息类等相关专业优先。
+2、编程能力：熟练掌握Python；熟悉Node.js或有相关代码经验者加分。
+3、框架与工具：
+熟悉主流深度学习框架（如PyTorch、TensorFlow）者优先。
+熟悉Transformers、Ollama、vLLM等大模型推理与部署工具，有实际模型部署经验者优先。
+4、核心知识储备：
+大模型基础：理解LLM基础原理，包括注意力机制、Tokenization等基础概念。
+智能体架构：深入理解大模型工作原理及Agent架构（如ReAct、Planning），熟悉工具调用机制。
+5、技能开发：具备Agent Skills开发经验，能够独立创建Skill包，编写清晰的SKILL.md文档及配套脚本。
+
+加分项：对AI技术（特别是AIGC和LLM领域）有强烈热情，具备优秀的问题解决能力和快速学习能力，有相关项目背景或竞赛经验者优先。
+
+截止日期：2027年03月06日
+招聘人数：4人",大模型 LLM React Transformer RAG Python Node.js 深度学习 PyTorch TensorFlow AIGC 技术方案,https://www.liepin.com/lptjob/80717143
+AI Agent工程实习生,北京市君合律师事务所,300-400元/天,北京-东城区,北京,本科,,5月29日更新,liepin,"【岗位职责】
+1. 收集并分析用户对AI产品的反馈进行整理及微信群的运营、答疑；
+2. 在工程师指导下，利用AI工具进行特定模块的落地；
+3. 进行AI工具、AI模型的数据测试及实验数据的准备和评估；
+4. 参与工程化落地：服务接口、日志/监控、稳定性优化与联调支持。
+
+ 
+【任职要求】
+1. 计算机相关专业在读，具备扎实编程基础；
+2. 熟悉至少一门后端语言（Python/Go/Java/Node.js），能独立完成模块开发；
+3. 具备AI Coding的认知、理解思维及能力；
+4. 良好的工程协作能力，能使用GIT进行版本协作；
+5. 到岗时间3月份，每周至少实习4天，可实习3个月及以上的童鞋优先。
+
+ 
+【加分项 (Nice to have)】
+1. 拥有高质量的个人项目、技术博客，或对开源社区有贡献；
+2. 具备出色的逻辑思维、系统思维、模块化思维、数据分析思维；
+
+ 
+【我们提供】
+1. 核心工程实践：参与真实业务核心系统建设，工程能力快速提升，你的技术实践将直接或间接影响产品的性能与未来的可能性；
+2. 深度的业务影响力： 你构建的系统是整个AI产品的引擎，直接赋能一线法律专家，让你清晰地看到技术为业务带来的核心价值；
+3. 前沿的技术赛道： 深度参与“法律+AI”这一蓝海市场，解决将大模型与复杂业务结合的真实技术挑战，构筑个人职业护城河；
+4. 专业的合作平台与成长： 与头部律所的法律专家和优秀的产品、技术大牛并肩作战，在一个实事求是、鼓励创新的环境中成长。
+
+ 
+
+截止日期：2027年02月06日
+招聘人数：3人",Python Go Java Node.js Git 大模型 数据分析,https://www.liepin.com/lptjob/80228831
+初级全栈实习生,合碳智能,150-200元/天,上海-浦东新区,上海,硕士,,90天前更新,liepin,"实习初级全栈工程师Requirements:
+熟悉Python或Node.js开发，具备后端开发经验
+有使用 React.js 开发前端的经验
+熟悉 Git Workflow，以及使用 GitHub 进行协作
+具备良好的编程能力，能够独立完成模块的设计与实现
+
+Good to have:
+有维护 Web  的经验
+具有UI/UX设计经验者优先
+具有CI/CD流程的实施经验，熟悉项目的自动化部署优先
+熟悉对于各类生成器 / AI模型的应用
+
+ 其他：
+热爱探索各类 Web和前沿新技术
+有海外产品开发经验优先
+活跃于各种开源 / 技术社群
+
+截止日期：2027年02月06日
+招聘人数：1人",Python Node.js React Git Go CI/CD,https://www.liepin.com/lptjob/80225041
+全栈开发工程师,北京英华汇科技有限公司,150-300元/天,北京-朝阳区,北京,本科,,90天前更新,liepin,"岗位职责：
+1.负责人工智能产品技术及云平台产品前后端开发。
+2.通过机器学习，持续产品和技术的优化。
+3.设计及运用先进技术于产品开发。
+职位要求：
+1.本科及以上学历，计算机相关专业毕业，2年以上相关工作经验；具有丰富的网络或移动后台搭建与编程经验；熟悉业界内常用的开源工具，并在不同项目中有实际使用经验。
+2.具有构建大型面向对象的JavaScript应用程序的经验，使用过MVC模式应用程序的经验。
+3.精通HTML5andCSS3.接触过jQuery,Vue.js,React等不同的库,Node.js,RubyOnRails,Django,JavaSpring至少懂一种。
+4.熟悉多种语言，能快速上手新语言以及新环境。
+5.计算机领域基本能力-Datastructure、Algorithm、Systemprogramming、OS基本概念，能解决难题。
+6.具有扎实的编程及设计功底，精通Linux操作系统上的C或C++或Java或Python，熟悉Shell等脚本语言。
+7.熟悉开源分布式系统如Hadoop以及数据库系统。
+8.熟悉流媒体处理和传输方面的技术优先。
+9.精通如下数据库的一种或多种：MySQL,PostgreSQL,MongoDB,Neo4j；熟练使用Redis和Nginx；具有分布式系统或NoSQL开发经验者优先。
+10.具备良好的分析解决问题能力，能独立承担任务和有项目进度把控能力。
+
+招聘人数：1人",机器学习 JavaScript HTML5 CSS3 jQuery Vue React Node.js Ruby Django Java Spring,https://www.liepin.com/lptjob/80141825
+[真格被投]-Guru AI应用工程师,真格基金,20-21k,深圳-南山区,深圳,本科,应届,7月14日更新,liepin,"【岗位职责】
+1.产研提效 (R&D Empowerment):
+探索 AI 工具在游戏研发流程中的应用。
+例如：搭建自动化管线，辅助策划生成关卡配置、辅助美术批量生成游戏 ICON/UI 素材、辅助程序生成基础代码片段，提升研发效率。
+2.投放赋能 (Marketing & UA Empowerment):
+利用AIGC技术（图像、视频、文案生成）通过脚本或工具自动化生产海量广告素材（Ad Creatives），降低投放成本，提升点击转化率。
+3.工具开发 (Tool Development):
+基于大模型 API (OpenAI/Claude 等) 或开源模型，开发内部提效小工具（如竞品评论情感分析工具）。
+4.前沿探索 (Tech Scouting):
+紧跟全球 AI 技术动态 (Hugging Face, GitHub, arXiv)，快速复现并评估新技术（如 ComfyUI 工作流、Agent 智能体）在公司业务场景落地的可能性。
+
+【任职要求】
+1. 本科及以上学历，计算机、数学、人工智能或相关专业。欢迎 2026 届应届生、往届生及优秀实习生投递。
+2.精通Python生态，熟练使用 FastAPI 进行接口开发，并熟悉 PyTorch 等深度学习框架。
+3.熟练掌握 Web 前端开发，熟悉 Node.js, TypeScript, React 等技术栈。
+4.对 AI Agent 相关框架有基础了解和实践，如 LangChain, LangGraph 等。
+5.AI Native，是各种 AI 工具的重度使用者 (ChatGPT, Midjourney, Stable Diffusion, ComfyUI 等)。不仅会用，更懂得如何通过 Prompt Engineering 让模型输出最好的结果。
+6.相比于“造轮子”，更擅长“搭积木” (调用 API、组合开源模型) 来解决实际问题。
+
+【加分项】
+拥有独立全栈开发经验 (从前端到后端再到部署) 是巨大的加分项。
+
+截止日期：2027年01月27日
+招聘人数：1人",AIGC 大模型 Gin Git Python FastAPI PyTorch 深度学习 Node.js TypeScript React GPT,https://www.liepin.com/lptjob/80026725

@@ -1,0 +1,29 @@
+{
+  "code": 200,
+  "data": {
+    "name": "张三",
+    "skills": [
+      {
+        "name": "Python",
+        "level": "核心",
+        "proficiency": 0.85
+      },
+      {
+        "name": "SQL",
+        "level": "基础",
+        "proficiency": 0.90
+      },
+      {
+        "name": "机器学习",
+        "level": "核心",
+        "proficiency": 0.65
+      },
+      {
+        "name": "Tableau",
+        "level": "基础",
+        "proficiency": 0.50
+      }
+    ]
+  },
+  "message": "success"
+}

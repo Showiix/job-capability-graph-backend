@@ -1,11 +1,41 @@
+# macOS / editor
 .DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# env / secrets
 .env
 .env.*
 !.env.example
-.venv/
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.ruff_cache/
-backend/.coverage
-backend/htmlcov/
+*.pem
+*.key
+
+# frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.turbo/
+frontend/.cache/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# backend
+backend/.venv/
+backend/**/__pycache__/
+backend/**/.pytest_cache/
+backend/**/.ruff_cache/
+backend/**/.mypy_cache/
+backend/**/*.pyc
+backend/outputs/
+
+# build / runtime
+logs/
+*.log
+tmp/
+temp/
+
+# optional local generated copies
+knowledge-graph/generated/*.tmp

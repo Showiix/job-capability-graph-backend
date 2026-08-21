@@ -1,0 +1,89 @@
+{
+  "code": 200,
+  "message": "匹配成功",
+  "data": {
+    "job_name": "数据分析师",
+    "match_score": 0.72,
+    "radar": {
+      "dimensions": ["必备技能", "加分技能", "工具掌握"],
+      "user": [78, 55, 62],
+      "required": [100, 100, 100]
+    },
+    "matched_skills": [
+      {
+        "name": "Python",
+        "level": "基础",
+        "proficiency": 0.9,
+        "weight": 0.9
+      },
+      {
+        "name": "SQL",
+        "level": "基础",
+        "proficiency": 0.85,
+        "weight": 0.95
+      },
+      {
+        "name": "数据分析",
+        "level": "核心",
+        "proficiency": 0.75,
+        "weight": 0.8
+      }
+    ],
+    "gap_skills": [
+      {
+        "name": "Tableau",
+        "level": "核心",
+        "required_proficiency": 0.7,
+        "user_proficiency": 0,
+        "weight": 0.7,
+        "evidence": { "jd_count": 32, "confidence": 0.88 }
+      },
+      {
+        "name": "Excel",
+        "level": "基础",
+        "required_proficiency": 0.8,
+        "user_proficiency": 0,
+        "weight": 0.6,
+        "evidence": { "jd_count": 41, "confidence": 0.82 }
+      },
+      {
+        "name": "数据挖掘",
+        "level": "核心",
+        "required_proficiency": 0.75,
+        "user_proficiency": 0.4,
+        "weight": 0.75,
+        "evidence": { "jd_count": 27, "confidence": 0.79 }
+      },
+      {
+        "name": "机器学习",
+        "level": "核心",
+        "required_proficiency": 0.8,
+        "user_proficiency": 0.65,
+        "weight": 0.85,
+        "evidence": { "jd_count": 45, "confidence": 0.91 }
+      }
+    ],
+    "bonus_gap_skills": [
+      {
+        "name": "Power BI",
+        "level": "加分",
+        "required_proficiency": 0.6,
+        "user_proficiency": 0,
+        "weight": 0.3,
+        "evidence": { "jd_count": 18, "confidence": 0.7 }
+      },
+      {
+        "name": "A/B测试",
+        "level": "加分",
+        "required_proficiency": 0.5,
+        "user_proficiency": 0,
+        "weight": 0.25,
+        "evidence": { "jd_count": 12, "confidence": 0.66 }
+      }
+    ],
+    "extra_skills": [
+      { "name": "Git", "level": "基础", "proficiency": 0.8 },
+      { "name": "Linux", "level": "基础", "proficiency": 0.7 }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "code": 200,
+  "message": "简历解析成功",
+  "data": {
+    "name": "张三",
+    "accuracy": 0.92,
+    "skills": [
+      {
+        "name": "Python",
+        "level": "基础",
+        "proficiency": 0.9
+      },
+      {
+        "name": "SQL",
+        "level": "基础",
+        "proficiency": 0.85
+      },
+      {
+        "name": "数据分析",
+        "level": "核心",
+        "proficiency": 0.75
+      },
+      {
+        "name": "机器学习",
+        "level": "核心",
+        "proficiency": 0.65
+      },
+      {
+        "name": "PyTorch",
+        "level": "核心",
+        "proficiency": 0.6
+      }
+    ]
+  }
+}
