@@ -21,7 +21,9 @@ import {
   WarningOutlined,
 } from '@ant-design/icons'
 import { FrameCorners } from '../components/FrameCorners'
+import { GraphScene3D } from '../components/GraphScene3D'
 import { useAuth } from '../context/AuthContext'
+import { fetchGraphData } from '../services/graphApi'
 import {
   confirmResumeProfile,
   createGrowthPath,
@@ -40,9 +42,11 @@ import {
   type ResumeProfileDetail,
   type ResumeSkillRecord,
 } from '../services/resumeWorkflowApi'
+import type { GraphData, Planet, Star } from '../types/graph'
+import { findGraphStarForRole } from '../utils/graphRoleMatch'
 
 type Step = 0 | 1 | 2 | 3
-type ActiveTab = 'radar' | 'skills' | 'path'
+type ActiveTab = 'radar' | 'skills' | 'graph' | 'path'
 type UploadState = 'idle' | 'uploading' | 'processing' | 'ready' | 'failed'
 
 const APPLICANT_STEPS = ['上传简历', '技能确认', '岗位匹配', '学习路径']
@@ -285,6 +289,11 @@ export default function ApplicantFlowPage() {
   const [detailLoading, setDetailLoading] = useState(false)
   const [detailError, setDetailError] = useState<string | null>(null)
   const [selectedMatchDetail, setSelectedMatchDetail] = useState<RecommendationDetailResponse | null>(null)
+  const [jobGraphData, setJobGraphData] = useState<GraphData | null>(null)
+  const [jobGraphLoading, setJobGraphLoading] = useState(false)
+  const [jobGraphError, setJobGraphError] = useState<string | null>(null)
+  const [selectedGraphStar, setSelectedGraphStar] = useState<Star | null>(null)
+  const [selectedGraphPlanet, setSelectedGraphPlanet] = useState<Planet | null>(null)
   const [growthLoading, setGrowthLoading] = useState(false)
   const [growthError, setGrowthError] = useState<string | null>(null)
   const [growthPath, setGrowthPath] = useState<GrowthPathRead | null>(null)
@@ -307,6 +316,34 @@ export default function ApplicantFlowPage() {
   const missingCapabilities = selectedMatchDetail?.missing_capabilities ?? []
   const missingRequired = missingCapabilities.filter((item) => item.requirement_type === 'required')
   const missingBonus = missingCapabilities.filter((item) => item.requirement_type === 'bonus')
+  const selectedRoleGraphPath = useMemo(() => {
+    if (!selectedResult) return '/graph'
+    const params = new URLSearchParams()
+    params.set('job', selectedResult.job_role.canonical_name)
+    params.set('jobId', selectedResult.job_role_id)
+    return `/graph?${params.toString()}`
+  }, [selectedResult])
+  const selectedGraphMatch = useMemo(() => {
+    if (!jobGraphData || !selectedResult) return null
+    return findGraphStarForRole(jobGraphData.stars, {
+      jobRoleId: selectedResult.job_role_id,
+      roleId: selectedResult.job_role.id,
+      canonicalName: selectedResult.job_role.canonical_name,
+      domainName: selectedResult.job_role.domain.name,
+      definitionPayload: selectedMatchDetail?.job_role.definition_payload,
+    })
+  }, [jobGraphData, selectedMatchDetail?.job_role.definition_payload, selectedResult])
+  const selectedJobGraphData = useMemo<GraphData | null>(() => {
+    if (!jobGraphData || !selectedGraphMatch) return null
+    return {
+      stars: [selectedGraphMatch],
+      planets: jobGraphData.planets.filter((planet) => planet.starId === selectedGraphMatch.id),
+      metadata: jobGraphData.metadata,
+    }
+  }, [jobGraphData, selectedGraphMatch])
+  const graphFocusLabel = selectedGraphPlanet
+    ? `${selectedGraphPlanet.label} / ${selectedGraphPlanet.isRequired ? '必备能力' : '加分能力'}`
+    : selectedGraphStar?.label ?? selectedGraphMatch?.label ?? selectedResult?.job_role.canonical_name ?? '等待选择岗位'
 
   useEffect(() => {
     if (!recommendations?.run.id || !selectedJobRoleId) {
@@ -340,6 +377,36 @@ export default function ApplicantFlowPage() {
     }
   }, [recommendations?.run.id, selectedJobRoleId])
 
+  useEffect(() => {
+    if (step < 2 || jobGraphData || jobGraphLoading) return
+
+    let alive = true
+    setJobGraphLoading(true)
+    setJobGraphError(null)
+
+    fetchGraphData()
+      .then((data) => {
+        if (!alive) return
+        setJobGraphData(data)
+      })
+      .catch((error) => {
+        if (!alive) return
+        setJobGraphError(apiErrorMessage(error))
+      })
+      .finally(() => {
+        if (alive) setJobGraphLoading(false)
+      })
+
+    return () => {
+      alive = false
+    }
+  }, [jobGraphData, jobGraphLoading, step])
+
+  useEffect(() => {
+    setSelectedGraphStar(null)
+    setSelectedGraphPlanet(null)
+  }, [selectedJobRoleId])
+
   const resetAnalysisState = () => {
     setCurrentRun(null)
     setResumeRunResult(null)
@@ -351,6 +418,8 @@ export default function ApplicantFlowPage() {
     setGrowthPathKey(null)
     setGrowthError(null)
     setDetailError(null)
+    setSelectedGraphStar(null)
+    setSelectedGraphPlanet(null)
     setActiveTab('radar')
   }
 
@@ -363,7 +432,7 @@ export default function ApplicantFlowPage() {
     }
     const session = user ?? await ensureSession()
     if (!session) {
-      setWorkflowError('访客会话未建立，请确认后端服务已启动后重试')
+      setWorkflowError('浏览器任务通道未建立，请确认后端服务已启动后重试')
       return
     }
 
@@ -484,10 +553,10 @@ export default function ApplicantFlowPage() {
           : uploadState === 'uploading'
             ? '正在上传'
             : authLoading
-              ? '准备访客会话'
+              ? '准备浏览器任务通道'
               : user
                 ? '等待输入'
-                : '会话未建立'
+                : '任务通道未建立'
 
   return (
     <div className="page-shell page-shell--applicant min-h-screen pt-14">
@@ -509,13 +578,13 @@ export default function ApplicantFlowPage() {
           {authLoading ? (
             <div className="flex items-center gap-3 text-[13px] text-[var(--text-dim)]">
               <LoadingOutlined />
-              正在准备访客会话
+              正在准备浏览器任务通道
             </div>
           ) : user ? (
             <div className="flex items-center gap-3 flex-wrap">
               <span className="tag tag-green">
                 <CheckCircleOutlined />
-                {user.username === 'guest_applicant' ? '访客会话已准备' : '当前会话已准备'}
+                {user.username === 'guest_applicant' ? '免登录通道已准备' : '当前通道已准备'}
               </span>
               <span className="font-jetbrains text-[10px] text-[var(--text-dim)]">
                 无需账号密码 · SESSION / READY
@@ -525,7 +594,7 @@ export default function ApplicantFlowPage() {
             <div className="flex items-center gap-3 flex-wrap">
               <div className="flex items-center gap-2 text-[13px] text-[#ee1212]">
                 <WarningOutlined />
-                访客会话未建立
+                浏览器任务通道未建立
               </div>
               <span className="text-[12px] text-[var(--text-dim)]">
                 {sessionError || '可以直接重试，无需输入账号和密码'}
@@ -600,7 +669,7 @@ export default function ApplicantFlowPage() {
                     {selectedFile ? selectedFile.name : '上传候选人简历'}
                   </div>
                   <div className="text-[13px] text-[var(--text-dim)] mb-1.5">
-                    拖拽文件或点击选择，进入后自动建立访客会话
+                    拖拽文件或点击选择，进入后自动准备免登录任务通道
                   </div>
                   <div className="text-[11px] text-[#a49b92]">支持 PDF / Word (.docx) · 最大 20 MB</div>
                   {workflowError && (
@@ -794,7 +863,7 @@ export default function ApplicantFlowPage() {
         {step === 2 && recommendations && (
           <div className="applicant-match-panel animate-fade-up">
             <div className="applicant-tabs flex gap-1 mb-5">
-              {(['radar', 'skills', 'path'] as const).map((tab) => (
+              {(['radar', 'skills', 'graph', 'path'] as const).map((tab) => (
                 <button
                   key={tab}
                   className={`btn btn-sm ${activeTab === tab ? 'btn-primary' : 'btn-ghost'}`}
@@ -809,6 +878,11 @@ export default function ApplicantFlowPage() {
                     <>
                       <SwapOutlined />
                       技能对比
+                    </>
+                  ) : tab === 'graph' ? (
+                    <>
+                      <FundProjectionScreenOutlined />
+                      岗位图谱
                     </>
                   ) : (
                     <>
@@ -892,6 +966,95 @@ export default function ApplicantFlowPage() {
                   </div>
                 )}
 
+                {activeTab === 'graph' && (
+                  <div className="applicant-role-graph">
+                    <div className="applicant-role-graph__head">
+                      <div>
+                        <div className="font-outfit font-bold text-[15px] text-[var(--text)]">岗位知识图谱</div>
+                        <div className="text-xs text-[var(--text-dim)] mt-1">
+                          {selectedResult ? `当前锚定：${selectedResult.job_role.canonical_name}` : '等待选择匹配岗位'}
+                        </div>
+                      </div>
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-ghost"
+                        onClick={() => navigate(selectedRoleGraphPath)}
+                        disabled={!selectedResult}
+                      >
+                        打开星图
+                        <ArrowRightOutlined />
+                      </button>
+                    </div>
+
+                    <div className="applicant-role-graph__canvas graph-canvas-frame graph-canvas-frame--archive relative overflow-hidden">
+                      <FrameCorners />
+                      {jobGraphLoading && (
+                        <div className="applicant-role-graph__state">
+                          <div className="loading-reticle" />
+                          <strong>正在读取岗位图谱</strong>
+                          <span>加载本地 JD 星图并匹配当前推荐岗位</span>
+                        </div>
+                      )}
+
+                      {!jobGraphLoading && jobGraphError && (
+                        <div className="applicant-role-graph__state applicant-role-graph__state--error">
+                          <WarningOutlined />
+                          <strong>岗位图谱暂不可用</strong>
+                          <span>{jobGraphError}</span>
+                        </div>
+                      )}
+
+                      {!jobGraphLoading && !jobGraphError && !selectedJobGraphData && (
+                        <div className="applicant-role-graph__state">
+                          <FundProjectionScreenOutlined />
+                          <strong>未匹配到图谱节点</strong>
+                          <span>当前推荐岗位未能和 JD 星图中的岗位节点对齐，可打开完整星图手动搜索。</span>
+                        </div>
+                      )}
+
+                      {!jobGraphLoading && !jobGraphError && selectedJobGraphData && (
+                        <>
+                          <GraphScene3D
+                            data={selectedJobGraphData}
+                            selectedStar={selectedGraphStar}
+                            selectedPlanet={selectedGraphPlanet}
+                            onStarClick={(star) => {
+                              setSelectedGraphStar(star)
+                              setSelectedGraphPlanet(null)
+                            }}
+                            onPlanetClick={(planet) => {
+                              setSelectedGraphPlanet(planet)
+                              setSelectedGraphStar(null)
+                            }}
+                            showJobLabels
+                            showSkillLabels
+                            filterTypes={['core', 'foundation', 'frontier']}
+                          />
+                          <div className="applicant-role-graph__readout archive-panel glass">
+                            <span>FOCUS</span>
+                            <strong>{graphFocusLabel}</strong>
+                          </div>
+                        </>
+                      )}
+                    </div>
+
+                    <div className="applicant-role-graph__summary">
+                      <div>
+                        <span>图谱技能</span>
+                        <strong>{selectedJobGraphData?.planets.length ?? 0}</strong>
+                      </div>
+                      <div>
+                        <span>简历已覆盖</span>
+                        <strong>{matchedCapabilities.length}</strong>
+                      </div>
+                      <div>
+                        <span>必备缺口</span>
+                        <strong>{missingRequired.length}</strong>
+                      </div>
+                    </div>
+                  </div>
+                )}
+
                 {activeTab === 'path' && (
                   <div>
                     <div className="font-outfit font-bold text-[15px] text-[var(--text)] mb-3.5">成长路径</div>
@@ -939,7 +1102,7 @@ export default function ApplicantFlowPage() {
                         }}
                         onClick={() => {
                           setSelectedJobRoleId(job.job_role_id)
-                          setActiveTab('radar')
+                          setActiveTab((tab) => (tab === 'path' ? 'radar' : tab))
                         }}
                       >
                         <Ring v={job.total_score} size={56} color={color} />
@@ -1046,8 +1209,8 @@ export default function ApplicantFlowPage() {
                     <button className="btn btn-sm btn-primary flex-1" onClick={() => setStep(2)}>
                       返回岗位推荐
                     </button>
-                    <button className="btn btn-sm btn-ghost flex-1" onClick={() => navigate('/graph')}>
-                      查看知识图谱
+                    <button className="btn btn-sm btn-ghost flex-1" onClick={() => navigate(selectedRoleGraphPath)}>
+                      查看该岗位图谱
                     </button>
                   </div>
                 </div>

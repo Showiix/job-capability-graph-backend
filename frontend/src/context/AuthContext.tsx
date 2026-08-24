@@ -55,7 +55,7 @@ async function createGuestSession(): Promise<AuthUser> {
     throw new Error(
       (body as any).error?.message
         ?? (body as any).detail
-        ?? '访客会话建立失败，请确认后端服务已启动',
+        ?? '浏览器任务通道初始化失败，请确认后端服务已启动',
     );
   }
   return ((body as any).data ?? body) as AuthUser;
@@ -88,7 +88,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
         return next;
       } catch (error) {
         setUser(null);
-        setSessionError(error instanceof Error ? error.message : '访客会话建立失败');
+        setSessionError(error instanceof Error ? error.message : '浏览器任务通道初始化失败');
         return null;
       } finally {
         setLoading(false);

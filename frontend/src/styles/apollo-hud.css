@@ -554,6 +554,34 @@ select:focus-visible {
   color: var(--apollo-frame) !important;
 }
 
+.graph-node-label--star {
+  width: max-content;
+  max-width: 220px !important;
+  overflow: visible !important;
+  font-size: 14px !important;
+  line-height: 1.18 !important;
+  white-space: nowrap !important;
+  text-wrap: auto;
+}
+
+.graph-node-label--planet {
+  max-width: 112px !important;
+  padding: 2px 5px;
+  overflow: hidden !important;
+  border: 1px solid rgba(218, 208, 200, 0.18);
+  background: rgba(0, 0, 0, 0.74);
+  color: rgba(218, 208, 200, 0.88) !important;
+  font-size: 10px !important;
+  line-height: 1.18 !important;
+  text-overflow: ellipsis;
+  white-space: nowrap !important;
+}
+
+.graph-node-label--planet.is-selected {
+  border-color: rgba(228, 181, 146, 0.56);
+  color: #fff3ea !important;
+}
+
 .loading-reticle {
   position: relative;
   width: 48px;
@@ -578,6 +606,40 @@ select:focus-visible {
   inset: 15px;
   border-color: rgba(238, 18, 18, 0.42);
 }
+
+.graph-webgl-fallback {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  display: grid;
+  place-content: center;
+  gap: 12px;
+  padding: 28px;
+  text-align: center;
+  color: rgba(255, 243, 234, 0.84);
+  background:
+    radial-gradient(circle at 50% 50%, rgba(228, 181, 146, 0.08), transparent 34%),
+    rgba(0, 0, 0, 0.84);
+}
+
+.graph-webgl-fallback .loading-reticle {
+  margin-bottom: 2px;
+}
+
+.graph-webgl-fallback strong {
+  color: #fff3ea;
+  font-family: var(--font-display);
+  font-size: 20px;
+  line-height: 1.1;
+}
+
+.graph-webgl-fallback span {
+  max-width: 360px;
+  color: rgba(218, 208, 200, 0.7);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .loading-reticle::after {
@@ -1729,6 +1791,543 @@ select option,
   letter-spacing: 0.01em;
 }
 
+.graph-shell--orbit {
+  overflow: hidden;
+}
+
+.graph-workspace {
+  display: grid;
+  grid-template-columns: 330px minmax(0, 1fr);
+  gap: 16px;
+  align-items: stretch;
+  min-height: calc(100dvh - 88px);
+}
+
+.graph-control-panel {
+  position: relative;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 18px 18px 16px !important;
+  z-index: 8;
+}
+
+.graph-control-panel > :not(.frame-corners) {
+  position: relative;
+  z-index: 1;
+}
+
+.graph-control-panel .frame-corners {
+  inset: 7px;
+}
+
+.graph-control-panel__kicker {
+  color: rgba(228, 181, 146, 0.74);
+  font-family: var(--font-mono);
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.graph-control-panel h1 {
+  margin: 0;
+  color: #d9d9d9;
+  font-family: var(--font-display);
+  font-size: 26px;
+  line-height: 1;
+}
+
+.graph-control-panel p {
+  margin: 0;
+  color: rgba(218, 208, 200, 0.76);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.graph-search-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 42px;
+  padding: 0 12px;
+}
+
+.graph-search-control input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  background: transparent !important;
+  outline: none;
+  color: #fff3ea !important;
+  font-family: var(--font-body);
+  font-size: 13px;
+}
+
+.graph-search-control button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: 0;
+  background: transparent;
+  color: rgba(228, 181, 146, 0.88);
+  cursor: pointer;
+}
+
+.graph-job-picker {
+  position: relative;
+  z-index: 24;
+}
+
+.graph-control-panel > .graph-job-picker {
+  z-index: 24;
+}
+
+.graph-job-picker__trigger {
+  display: grid;
+  grid-template-columns: auto auto minmax(0, 1fr) auto;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  min-height: 44px;
+  padding: 0 12px;
+  color: rgba(255, 243, 234, 0.92);
+}
+
+.graph-job-picker__trigger span {
+  flex: 0 0 auto;
+}
+
+.graph-job-picker__trigger strong {
+  margin-left: auto;
+  max-width: 150px;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #e4b592;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}
+
+.graph-job-picker__trigger.is-open {
+  border-color: rgba(228, 181, 146, 0.72) !important;
+}
+
+.graph-job-picker__menu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% + 10px);
+  z-index: 12;
+  overflow: hidden;
+  padding: 12px !important;
+}
+
+.graph-job-picker__menu > :not(.frame-corners) {
+  position: relative;
+  z-index: 1;
+}
+
+.graph-job-picker__menu .frame-corners {
+  inset: 7px;
+}
+
+.graph-job-picker__actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.graph-job-picker__actions button {
+  min-height: 34px;
+  padding: 0 10px;
+  border: 1px solid rgba(228, 181, 146, 0.26);
+  background: rgba(255, 243, 234, 0.035);
+  color: #fff3ea;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.graph-job-picker__actions button:disabled {
+  opacity: 0.38;
+  cursor: not-allowed;
+}
+
+.graph-job-picker__list {
+  max-height: 270px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-right: 4px;
+}
+
+.graph-job-option {
+  display: grid;
+  grid-template-columns: 20px minmax(0, 1fr) auto;
+  gap: 8px;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 10px 0 8px;
+  border: 1px solid rgba(255, 243, 234, 0.14);
+  background: rgba(255, 243, 234, 0.028);
+  cursor: pointer;
+}
+
+.graph-job-option input {
+  display: none;
+}
+
+.graph-job-option__check {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(228, 181, 146, 0.36);
+  color: #000000;
+  background: rgba(0, 0, 0, 0.3);
+  font-size: 10px;
+}
+
+.graph-job-option.is-selected .graph-job-option__check {
+  background: #e4b592;
+}
+
+.graph-job-option__name {
+  min-width: 0;
+  overflow: hidden;
+  color: #fff3ea;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.graph-job-option__count {
+  color: rgba(228, 181, 146, 0.78);
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.05em;
+}
+
+.graph-job-picker__empty {
+  padding: 16px 8px;
+  color: rgba(218, 208, 200, 0.62);
+  font-size: 11px;
+}
+
+.graph-control-section {
+  display: grid;
+  gap: 10px;
+}
+
+.graph-control-section__title {
+  color: rgba(228, 181, 146, 0.7);
+  font-family: var(--font-mono);
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.graph-filter-stack {
+  display: grid;
+  gap: 8px;
+}
+
+.graph-filter-stack--compact {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.graph-filter-stack .graph-filter {
+  width: 100%;
+}
+
+.graph-data-strip,
+.graph-source-mix {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.graph-data-strip div,
+.graph-source-mix span,
+.graph-source-mix strong {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  padding: 10px 10px 9px;
+  border: 1px solid rgba(255, 243, 234, 0.12);
+  background: rgba(255, 243, 234, 0.03);
+}
+
+.graph-data-strip span,
+.graph-source-mix span {
+  color: rgba(228, 181, 146, 0.72);
+  font-family: var(--font-mono);
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.graph-data-strip strong,
+.graph-source-mix strong {
+  color: #fff3ea;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.graph-source-mix {
+  grid-template-columns: 1fr;
+}
+
+.graph-source-mix strong {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.graph-selected-jobs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.graph-selected-jobs button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 28px;
+  padding: 0 9px;
+  border: 1px solid rgba(228, 181, 146, 0.28);
+  background: rgba(255, 243, 234, 0.03);
+  color: #fff3ea;
+  font-family: var(--font-mono);
+  font-size: 9px;
+  cursor: pointer;
+}
+
+.graph-selected-jobs button span {
+  display: inline-flex;
+  width: 7px;
+  height: 7px;
+  flex: 0 0 auto;
+}
+
+.graph-selected-jobs em {
+  align-self: center;
+  color: rgba(218, 208, 200, 0.66);
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-style: normal;
+}
+
+.graph-canvas-frame--archive {
+  min-height: calc(100dvh - 88px);
+  z-index: 1;
+  isolation: isolate;
+}
+
+.graph-canvas-frame--archive canvas {
+  display: block;
+}
+
+.graph-canvas-readout {
+  position: absolute !important;
+  left: 18px;
+  top: auto !important;
+  right: auto !important;
+  bottom: 18px;
+  z-index: 8;
+  display: grid;
+  gap: 3px;
+  width: auto !important;
+  min-width: 148px;
+  padding: 10px 12px !important;
+  pointer-events: none;
+}
+
+.graph-canvas-readout span {
+  color: rgba(228, 181, 146, 0.72);
+  font-family: var(--font-mono);
+  font-size: 8px;
+  letter-spacing: 0.14em;
+}
+
+.graph-canvas-readout strong {
+  color: #fff3ea;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.graph-detail-drawer {
+  width: min(420px, calc(100vw - 24px));
+  padding: 20px 20px 18px !important;
+}
+
+.graph-detail-drawer > :not(.frame-corners) {
+  position: relative;
+  z-index: 1;
+}
+
+.graph-detail-drawer .frame-corners {
+  inset: 8px;
+}
+
+.graph-detail-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.graph-detail-header__meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(228, 181, 146, 0.74);
+  font-family: var(--font-mono);
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.graph-detail-header__meta span {
+  width: 8px;
+  height: 8px;
+}
+
+.graph-detail-header button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(228, 181, 146, 0.24);
+  background: rgba(255, 243, 234, 0.03);
+  color: #fff3ea;
+  cursor: pointer;
+}
+
+.graph-detail-drawer h2 {
+  margin: 0;
+  font-family: var(--font-display) !important;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.graph-detail-subtitle {
+  margin-top: 6px;
+  color: rgba(218, 208, 200, 0.72);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.graph-detail-metrics {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.graph-detail-metrics div {
+  display: grid;
+  gap: 4px;
+  padding: 10px 10px 9px;
+  border: 1px solid rgba(255, 243, 234, 0.12);
+  background: rgba(255, 243, 234, 0.028);
+}
+
+.graph-detail-metrics span,
+.graph-detail-section__title {
+  color: rgba(228, 181, 146, 0.72);
+  font-family: var(--font-mono);
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.graph-detail-metrics strong {
+  color: #fff3ea;
+  font-family: var(--font-mono);
+  font-size: 12px;
+}
+
+.graph-detail-source,
+.graph-detail-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.graph-detail-section {
+  display: grid;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.graph-sample-list {
+  display: grid;
+  gap: 8px;
+}
+
+.graph-sample-list .archive-row {
+  display: grid;
+  grid-template-columns: 10px minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid rgba(255, 243, 234, 0.14);
+  background: rgba(255, 243, 234, 0.028);
+  text-decoration: none;
+  color: inherit;
+  text-align: left;
+}
+
+.graph-sample-list .archive-row strong {
+  display: block;
+  color: #fff3ea;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.graph-sample-list .archive-row span {
+  display: block;
+  margin-top: 4px;
+  color: rgba(218, 208, 200, 0.66);
+  font-size: 10px;
+  line-height: 1.45;
+}
+
+.graph-sample-list .archive-row em {
+  color: rgba(228, 181, 146, 0.74);
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-style: normal;
+}
+
+.graph-sample-list__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 0;
+}
+
 .graph-legend-wrap {
   position: absolute !important;
   left: 24px !important;
@@ -1752,6 +2351,35 @@ select option,
 
 .archive-panel {
   position: relative;
+  overflow: hidden;
+}
+
+.graph-control-panel.archive-panel {
+  background:
+    linear-gradient(90deg, rgba(238, 18, 18, 0.08), transparent 24%),
+    rgba(0, 0, 0, 0.86) !important;
+  overflow: visible;
+}
+
+.graph-control-panel.archive-panel > .graph-job-picker {
+  position: relative;
+  z-index: 24;
+}
+
+.graph-job-picker__menu.archive-panel {
+  position: absolute !important;
+  top: calc(100% + 10px) !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 40;
+  background:
+    linear-gradient(90deg, rgba(238, 18, 18, 0.09), transparent 24%),
+    rgba(0, 0, 0, 0.94) !important;
+  border-color: rgba(228, 181, 146, 0.48) !important;
+}
+
+.graph-canvas-readout.archive-panel {
+  position: absolute !important;
   overflow: hidden;
 }
 
@@ -2611,6 +3239,50 @@ select option,
     white-space: normal;
   }
 
+  .graph-workspace {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    min-height: auto;
+  }
+
+  .graph-control-panel,
+  .graph-control-panel.archive-panel {
+    background:
+      linear-gradient(90deg, rgba(238, 18, 18, 0.08), transparent 24%),
+      #000000 !important;
+    padding: 16px 14px !important;
+  }
+
+  .graph-control-panel.archive-panel::before {
+    opacity: 0.36;
+  }
+
+  .graph-job-picker__menu {
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    margin-top: 10px;
+  }
+
+  .graph-data-strip,
+  .graph-source-mix {
+    grid-template-columns: 1fr;
+  }
+
+  .graph-filter-stack--compact {
+    grid-template-columns: 1fr;
+  }
+
+  .graph-canvas-frame--archive {
+    min-height: 540px;
+  }
+
+  .graph-canvas-readout {
+    left: 12px;
+    bottom: 12px;
+  }
+
   .graph-toolbar__actions {
     display: grid;
     grid-template-columns: 1fr;
@@ -2641,6 +3313,15 @@ select option,
   .graph-legend.archive-panel {
     width: auto;
     max-height: 220px;
+  }
+
+  .graph-detail-drawer {
+    width: calc(100vw - 24px);
+    left: 12px !important;
+    right: 12px !important;
+    top: auto !important;
+    bottom: 12px !important;
+    max-height: min(76dvh, 640px);
   }
 }
 
@@ -2678,6 +3359,134 @@ select option,
 .page-shell--emerging h2,
 .page-shell--emerging h3 {
   letter-spacing: 0.01em;
+}
+
+.applicant-role-graph {
+  display: grid;
+  gap: 14px;
+}
+
+.applicant-role-graph__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.applicant-role-graph__head .btn {
+  flex: 0 0 auto;
+}
+
+.applicant-role-graph__canvas {
+  height: 390px;
+  min-height: 390px;
+  border-color: rgba(228, 181, 146, 0.42) !important;
+}
+
+.applicant-role-graph__canvas.graph-canvas-frame--archive {
+  min-height: 390px;
+}
+
+.applicant-role-graph__canvas > .frame-corners {
+  inset: 9px;
+}
+
+.applicant-role-graph__state {
+  position: absolute;
+  inset: 0;
+  z-index: 6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 28px;
+  text-align: center;
+  background:
+    radial-gradient(circle at 50% 44%, rgba(228, 181, 146, 0.12), transparent 38%),
+    rgba(0, 0, 0, 0.9);
+}
+
+.applicant-role-graph__state svg {
+  color: rgba(228, 181, 146, 0.82);
+  font-size: 26px;
+}
+
+.applicant-role-graph__state strong {
+  color: var(--apollo-ink);
+  font-family: var(--font-display);
+  font-size: 15px;
+  letter-spacing: 0.01em;
+}
+
+.applicant-role-graph__state span {
+  max-width: 320px;
+  color: rgba(218, 208, 200, 0.72);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.applicant-role-graph__state--error svg,
+.applicant-role-graph__state--error strong {
+  color: #ff6a6a;
+}
+
+.applicant-role-graph__readout {
+  position: absolute !important;
+  left: 14px;
+  right: 14px;
+  bottom: 14px;
+  z-index: 8;
+  display: grid;
+  gap: 3px;
+  padding: 9px 11px !important;
+  pointer-events: none;
+  background: rgba(0, 0, 0, 0.76) !important;
+}
+
+.applicant-role-graph__readout span,
+.applicant-role-graph__summary span {
+  color: rgba(228, 181, 146, 0.74);
+  font-family: var(--font-mono);
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.applicant-role-graph__readout strong {
+  overflow: hidden;
+  color: var(--apollo-ink);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.35;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.applicant-role-graph__summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-top: 1px solid rgba(228, 181, 146, 0.24);
+  border-bottom: 1px solid rgba(255, 243, 234, 0.12);
+}
+
+.applicant-role-graph__summary div {
+  display: grid;
+  gap: 4px;
+  padding: 10px 12px;
+  border-right: 1px solid rgba(255, 243, 234, 0.12);
+}
+
+.applicant-role-graph__summary div:last-child {
+  border-right: 0;
+}
+
+.applicant-role-graph__summary strong {
+  color: var(--apollo-ink);
+  font-family: var(--font-mono);
+  font-size: 18px;
+  line-height: 1;
 }
 
 .applicant-final-actions,
@@ -2828,7 +3637,7 @@ select option,
 
   .applicant-tabs {
     display: grid !important;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 6px;
   }
 
@@ -2836,6 +3645,34 @@ select option,
     min-width: 0;
     padding-inline: 8px;
     white-space: normal;
+  }
+
+  .applicant-role-graph__head {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .applicant-role-graph__head .btn {
+    width: 100%;
+  }
+
+  .applicant-role-graph__canvas,
+  .applicant-role-graph__canvas.graph-canvas-frame--archive {
+    height: 330px;
+    min-height: 330px;
+  }
+
+  .applicant-role-graph__summary {
+    grid-template-columns: 1fr;
+  }
+
+  .applicant-role-graph__summary div {
+    border-right: 0;
+    border-bottom: 1px solid rgba(255, 243, 234, 0.12);
+  }
+
+  .applicant-role-graph__summary div:last-child {
+    border-bottom: 0;
   }
 
   .hr-project-panel textarea {
