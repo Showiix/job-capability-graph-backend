@@ -12,7 +12,7 @@
 - Batch G：Applicant 基于当前 confirmed Profile 和正式岗位目录同步生成确定性推荐，保存完整 Match Run/Result 快照，支持历史分页、岗位差距明细和自然幂等复用。
 - Applicant Growth Path：基于历史岗位匹配快照和全部缺失必备技能，同步生成受标准技能库约束、可解释且可复用的结构化成长路径。
 
-本仓库只包含后端。当前没有公开注册接口，也没有脱离业务资源的通用文件上传接口。
+本仓库包含后端、前端、JD 数据和知识图谱生成工具。当前没有公开注册接口，也没有脱离业务资源的通用文件上传接口。
 
 ## 技术栈
 
@@ -36,6 +36,16 @@ docker compose run --rm api uv run python scripts/create_user.py \
 docker compose up -d api worker scheduler
 curl http://127.0.0.1:8000/health/ready
 ```
+
+启动前端：
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+前端默认运行在 `http://localhost:5174`，开发代理会把 `/api` 转发到后端 `/api/v1`。
 
 创建首个管理员时，命令行会通过 `getpass` 要求输入并确认密码；密码不会回显。首个账号必须是 `admin`，后续 applicant、hr、admin 账号由管理员 API 创建和维护。
 

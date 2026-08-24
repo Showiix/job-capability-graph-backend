@@ -1,0 +1,42 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": {
+    "items": [
+      {
+        "id": "nj_001",
+        "type": "new_job",
+        "title": "AI 产品经理",
+        "submitter": "系统自动发现",
+        "submitted_at": "2026-08-05 09:32",
+        "confidence": 94,
+        "detail": "主导 AI 产品从需求到落地的全链路，核心技能：LLM应用设计 / 需求分析 / 数据驱动决策。"
+      },
+      {
+        "id": "nj_002",
+        "type": "new_job",
+        "title": "RAG 系统工程师",
+        "submitter": "系统自动发现",
+        "submitted_at": "2026-08-04 15:47",
+        "confidence": 88,
+        "detail": "构建企业级知识增强问答系统，核心技能：RAG架构 / LangChain / 向量数据库。"
+      },
+      {
+        "id": "cs_001",
+        "type": "custom_skill",
+        "title": "Model Context Protocol",
+        "submitter": "应聘者 张三",
+        "submitted_at": "2026-08-06 10:12",
+        "detail": "应聘者自由输入的新技能，待确认是否加入技能库。"
+      },
+      {
+        "id": "cs_002",
+        "type": "custom_skill",
+        "title": "vLLM",
+        "submitter": "应聘者 李四",
+        "submitted_at": "2026-08-06 11:40",
+        "detail": "应聘者自由输入的新技能，待确认是否加入技能库。"
+      }
+    ]
+  }
+}

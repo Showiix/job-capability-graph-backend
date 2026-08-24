@@ -1,0 +1,309 @@
+/* Apollo 11 Inspired Theme - 21hrs.space style */
+
+/* 新主题：apollo */
+:root[data-theme='apollo'] {
+  /* 配色方案 - 受阿波罗11号登月启发 */
+  --bg: #000000;
+  --bg-light: #0a0a0a;
+  --text: #fff3ea;
+  --text-dim: #dad0c8;
+  --text-muted: #a89886;
+  --border: rgba(228, 181, 146, 0.2);
+
+  /* 强调色 */
+  --color-accent: #e4b592;
+  --color-pop: #ee1212;
+  --color-primary: #e4b592;
+  --color-primary-light: #f0c9a8;
+
+  /* 渐变 */
+  --grad-blue: linear-gradient(135deg, #e4b592, #d9a67c);
+  --grad-purple: linear-gradient(135deg, #e4b592, #f0c9a8);
+  --grad-green: linear-gradient(135deg, #e4b592, #c99870);
+
+  /* 玻璃效果 */
+  --glass-bg: rgba(10, 10, 10, 0.85);
+  --glass-border: rgba(228, 181, 146, 0.25);
+
+  /* 卡片和面板 */
+  --color-card: #0f0f0f;
+  --color-panel: #141414;
+  --drawer-bg: #0a0a0a;
+
+  /* 技能标签 */
+  --skill-tag-bg: rgba(228, 181, 146, 0.12);
+  --skill-tag-border: rgba(228, 181, 146, 0.3);
+  --skill-tag-color: #e4b592;
+}
+
+/* Apollo主题专属样式 */
+:root[data-theme='apollo'] body {
+  background: #000000;
+  color: #fff3ea;
+}
+
+:root[data-theme='apollo'] .glass {
+  background: rgba(10, 10, 10, 0.85);
+  border: 1px solid rgba(228, 181, 146, 0.25);
+  backdrop-filter: blur(20px);
+}
+
+:root[data-theme='apollo'] .glass-bright {
+  background: rgba(15, 15, 15, 0.95);
+  border-color: rgba(228, 181, 146, 0.4);
+}
+
+/* 边角装饰线框 - Apollo风格 */
+.frame-corner {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+
+.frame-corner::before,
+.frame-corner::after {
+  content: '';
+  position: absolute;
+  background: var(--color-accent, #e4b592);
+}
+
+.frame-corner::before {
+  width: 100%;
+  height: 1px;
+}
+
+.frame-corner::after {
+  width: 1px;
+  height: 100%;
+}
+
+.frame-corner.top-left {
+  top: 0;
+  left: 0;
+}
+
+.frame-corner.top-left::before {
+  top: 0;
+  left: 0;
+}
+
+.frame-corner.top-left::after {
+  top: 0;
+  left: 0;
+}
+
+.frame-corner.top-right {
+  top: 0;
+  right: 0;
+}
+
+.frame-corner.top-right::before {
+  top: 0;
+  right: 0;
+}
+
+.frame-corner.top-right::after {
+  top: 0;
+  right: 0;
+}
+
+.frame-corner.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.frame-corner.bottom-left::before {
+  bottom: 0;
+  left: 0;
+}
+
+.frame-corner.bottom-left::after {
+  bottom: 0;
+  left: 0;
+}
+
+.frame-corner.bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+.frame-corner.bottom-right::before {
+  bottom: 0;
+  right: 0;
+}
+
+.frame-corner.bottom-right::after {
+  bottom: 0;
+  right: 0;
+}
+
+/* Apollo主题按钮样式 */
+:root[data-theme='apollo'] .btn-primary {
+  background: linear-gradient(135deg, #e4b592, #d9a67c);
+  border-color: rgba(228, 181, 146, 0.5);
+  color: #000000;
+  font-weight: 600;
+  box-shadow: 0 4px 16px rgba(228, 181, 146, 0.3);
+}
+
+:root[data-theme='apollo'] .btn-primary:hover {
+  background: linear-gradient(135deg, #f0c9a8, #e4b592);
+  box-shadow: 0 6px 24px rgba(228, 181, 146, 0.5);
+}
+
+:root[data-theme='apollo'] .btn-ghost {
+  background: transparent;
+  border-color: rgba(228, 181, 146, 0.3);
+  color: #fff3ea;
+}
+
+:root[data-theme='apollo'] .btn-ghost:hover {
+  background: rgba(228, 181, 146, 0.1);
+  border-color: rgba(228, 181, 146, 0.5);
+  color: #e4b592;
+}
+
+/* Apollo主题导航栏 */
+:root[data-theme='apollo'] .space-nav {
+  background: rgba(0, 0, 0, 0.95);
+  border-bottom-color: rgba(228, 181, 146, 0.2);
+}
+
+:root[data-theme='apollo'] .space-nav__pulse {
+  background: #ee1212;
+  box-shadow: 0 0 8px #ee1212;
+}
+
+:root[data-theme='apollo'] .space-nav__theme-toggle {
+  color: #e4b592;
+  border-color: rgba(228, 181, 146, 0.3);
+}
+
+:root[data-theme='apollo'] .space-nav__theme-toggle:hover {
+  background: rgba(228, 181, 146, 0.15);
+  border-color: rgba(228, 181, 146, 0.5);
+  transform: scale(1.05);
+}
+
+/* Apollo主题标签 */
+:root[data-theme='apollo'] .tag-orange,
+:root[data-theme='apollo'] .tag-blue,
+:root[data-theme='apollo'] .tag-green {
+  background: rgba(228, 181, 146, 0.12);
+  border-color: rgba(228, 181, 146, 0.3);
+  color: #e4b592;
+}
+
+:root[data-theme='apollo'] .tag-purple {
+  background: rgba(238, 18, 18, 0.12);
+  border-color: rgba(238, 18, 18, 0.3);
+  color: #ee1212;
+}
+
+/* Apollo主题文字发光效果 */
+:root[data-theme='apollo'] .text-glow {
+  text-shadow: 0 0 24px rgba(228, 181, 146, 0.6);
+}
+
+/* Apollo主题进度条 */
+:root[data-theme='apollo'] .prog-track {
+  background: rgba(228, 181, 146, 0.15);
+}
+
+:root[data-theme='apollo'] .prog-fill {
+  background: linear-gradient(90deg, #e4b592, #f0c9a8);
+}
+
+/* Apollo主题抽屉 */
+:root[data-theme='apollo'] .drawer {
+  background: #0a0a0a;
+  border-left-color: rgba(228, 181, 146, 0.2);
+}
+
+:root[data-theme='apollo'] .drawer-mask {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+/* Apollo主题徽章 */
+:root[data-theme='apollo'] .badge-conf {
+  background: rgba(228, 181, 146, 0.12);
+  border-color: rgba(228, 181, 146, 0.3);
+  color: #e4b592;
+}
+
+/* Apollo主题卡片 */
+:root[data-theme='apollo'] .stat-card,
+:root[data-theme='apollo'] .workflow-card,
+:root[data-theme='apollo'] .feature-tile {
+  background: linear-gradient(180deg, rgba(15, 15, 15, 0.9), rgba(10, 10, 10, 0.85));
+  border-color: rgba(228, 181, 146, 0.2);
+}
+
+:root[data-theme='apollo'] .stat-card:hover,
+:root[data-theme='apollo'] .workflow-card:hover,
+:root[data-theme='apollo'] .feature-tile:hover {
+  border-color: rgba(228, 181, 146, 0.4);
+  box-shadow: 0 8px 32px rgba(228, 181, 146, 0.15);
+}
+
+/* Apollo主题强调面板 */
+:root[data-theme='apollo'] .accent-panel {
+  background: rgba(228, 181, 146, 0.08);
+  border-color: rgba(228, 181, 146, 0.25);
+}
+
+/* Apollo主题选择样式 */
+:root[data-theme='apollo'] ::selection {
+  background: rgba(228, 181, 146, 0.3);
+  color: #fff3ea;
+}
+
+/* Monospace字体风格（Apollo主题专用） */
+:root[data-theme='apollo'] .font-mono,
+:root[data-theme='apollo'] .badge-conf,
+:root[data-theme='apollo'] .confidence-tag {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  letter-spacing: -0.02em;
+}
+
+/* Apollo主题数字显示 */
+:root[data-theme='apollo'] .stat-value,
+:root[data-theme='apollo'] .home-hero__panel strong {
+  color: #e4b592;
+  text-shadow: 0 0 20px rgba(228, 181, 146, 0.4);
+}
+
+/* Apollo主题3D画布 */
+:root[data-theme='apollo'] .graph-canvas-frame canvas {
+  background: #000000 !important;
+}
+
+/* Apollo主题图例 */
+:root[data-theme='apollo'] .graph-legend {
+  background: linear-gradient(180deg, rgba(15, 15, 15, 0.95), rgba(10, 10, 10, 0.9));
+  border-color: rgba(228, 181, 146, 0.25);
+}
+
+/* Apollo主题滚动条 */
+:root[data-theme='apollo'] ::-webkit-scrollbar-thumb {
+  background: rgba(228, 181, 146, 0.4);
+}
+
+:root[data-theme='apollo'] ::-webkit-scrollbar-thumb:hover {
+  background: rgba(228, 181, 146, 0.6);
+}
+
+/* 月球纹理背景效果（可选） */
+:root[data-theme='apollo'] .space-home::before {
+  background:
+    radial-gradient(circle at 20% 30%, rgba(228, 181, 146, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(238, 18, 18, 0.03) 0%, transparent 40%);
+}
+
+/* Apollo主题错误/警告样式 */
+:root[data-theme='apollo'] .border-orange-500,
+:root[data-theme='apollo'] .text-orange-500 {
+  border-color: #ee1212;
+  color: #ee1212;
+}

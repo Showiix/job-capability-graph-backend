@@ -1,0 +1,34 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": {
+    "paths": [
+      {
+        "skill": "LangChain",
+        "level": "核心",
+        "steps": [
+          { "title": "阅读官方文档，理解核心抽象", "duration": "3 小时", "resource_name": "LangChain 官方文档", "resource_url": "https://python.langchain.com/" },
+          { "title": "完成 LangChain Cookbook 实战", "duration": "1 周", "resource_name": "LangChain Cookbook", "resource_url": "https://github.com/langchain-ai/langchain" },
+          { "title": "构建一个 RAG Demo 项目", "duration": "2 周", "resource_name": "RAG 实战教程", "resource_url": "https://python.langchain.com/docs/tutorials/rag/" }
+        ]
+      },
+      {
+        "skill": "RAG",
+        "level": "核心",
+        "steps": [
+          { "title": "RAG 原理精读", "duration": "2 小时", "resource_name": "RAG 论文", "resource_url": "https://arxiv.org/abs/2005.11401" },
+          { "title": "向量数据库入门", "duration": "1 周", "resource_name": "Weaviate 文档", "resource_url": "https://weaviate.io/developers/weaviate" },
+          { "title": "企业级 RAG 实战与幻觉评估", "duration": "2 周", "resource_name": "RAG 评估指南", "resource_url": "https://docs.ragas.io/" }
+        ]
+      },
+      {
+        "skill": "MLflow",
+        "level": "加分",
+        "steps": [
+          { "title": "MLflow 实验追踪基础", "duration": "3 小时", "resource_name": "MLflow 文档", "resource_url": "https://mlflow.org/docs/latest/index.html" },
+          { "title": "模型注册与版本管理", "duration": "3 天", "resource_name": "MLflow Model Registry", "resource_url": "https://mlflow.org/docs/latest/model-registry.html" }
+        ]
+      }
+    ]
+  }
+}

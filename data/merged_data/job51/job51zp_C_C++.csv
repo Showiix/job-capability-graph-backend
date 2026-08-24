@@ -1,0 +1,3555 @@
+﻿job_name,company_name,salary,work_area,city,education,work_year,issue_date,source,skill_requirements,tech_tags,job_url
+C++软件工程师,苏州瑞仕达企业管理咨询,1.8-2.5万·13薪,苏州·相城区,苏州,本科,5年及以上,2026-06-17 09:40:34,job51,"工作职责：
+1、激光设备软件研发：按照软件开发工作计划，按时完成相关的开发任务（主要工具C++）。
+2、与PLC进行数据交互通信。
+3、AOI相关视觉软件开发，运动控制卡软件开发。
+4、相关软件技术方案、软件说明资料编写。
+
+
+招聘要求：
+1、本科及以上学历，计算机软件相关专业。
+2、C++ MFC或C#开发，熟悉VS2008及以上开发环境。
+3、熟悉python开发语言及开发经验
+4、有机器视觉，有图像处理（Open CV，ADR MIL，Hacon，Open Evision图像处理经验），熟悉并运用sentech，康耐视相机的运用等；
+5、运动控制（AJIN，UMAC，ACS，Aerotech）经验；
+6、具备面板激光修复设备和激光切割涉笔经验尤佳；
+7、能支持项目开发，可适应出差。",C++ C# Python 技术方案 Open CV ADR MIL,https://jobs.51job.com/suzhou-xcq/172588144.html?s=sou_sou_soulb&t=0_0&req=a21896a80c93e41985f8cbaa00fdb859
+C++软件开发工程师,苏州顺造科技,2-4万·14薪,苏州·高新区,苏州,本科,4年及以上,2026-07-09 14:46:13,job51,"1．参与软件系统的方案设计，负责公司机器人产品软件开发；
+2．不同平台下软件分析规划、功能模块开发和技术难点攻关；
+3．负责软件设计、代码编写和调试；
+4．负责相关技术文档的编写；
+5．负责指导助理软件工程师的开发工作，提供技术支持。
+任职资格：
+1.	精通C/C++语言，精通数据结构，具有良好的代码编写习惯；
+2.	熟悉MCU/ARM处理器架构，熟练掌握软件编译环境和软件调试工具；
+3.	熟悉小米iot的启动和接入流程，同时精通spec标准协议的服务-属性、方法、事件的解析；
+4.	了解ros或fast-dds消息与服务的通信机制；
+5.	有一定的算法学习研究、分析设计能力，对机器人技术感兴趣，具有创新思维；
+6.	有较强的分析和解决问题能力，有持续自我学习的能力和意愿，善于沟通和逻辑表达；
+7.	工作积极主动，具有团队协作能力，服从领导安排。",C++ MCU ARM ROS 方案设计 技术文档 技术支持,https://jobs.51job.com/suzhou-gxq/164606553.html?s=sou_sou_soulb&t=0_0&req=a21896a80c93e41985f8cbaa00fdb859
+c++开发工程师,上海万业元创科技,2-4万,苏州·相城区,苏州,本科,5年及以上,2026-06-24 19:27:08,job51,"岗位职责：
+1.负责用于图像处理的软件系统搭建，计算任务及资源调度、优化;
+2.参与图像处理算法的性能调优;
+3.负责硬件平台的性能评估及优化。
+
+任职要求:
+1.计算机、自动化、通信、电子类相关专业，本科5年以上工作经验，硕士3年以上工作经验;
+2.熟练掌握C/C++，各种数据结构和算法，掌握多线程并发编程技术，且对性能优化有着深刻的理解，有量产项目开发经验;
+3.熟悉至少一种Linux操作系统，具备对系统异常的分析解决能力;
+4.有QT和OpenCV开发经验，对基本图像处理过程有了解;
+5.有RDMA分布式网络系统搭建及开发经验优先;
+6.有CPU、GPU、ARM等平台图像处理算法应用经验，并有相关落地产品研发经验者优先。",C++ Linux OpenCV 分布式 ARM GPU,https://jobs.51job.com/suzhou-xcq/172678463.html?s=sou_sou_soulb&t=0_0&req=a21896a80c93e41985f8cbaa00fdb859
+C++软件工程师,苏州迪凯尔医疗科技,1.5-3万,苏州·苏州工业园区,苏州,本科,5年及以上,2026-08-05 14:02:47,job51,"岗位职责：
+1、参与公司产品的软件架构设计、负责公司产品的软件设计、开发（C++为主）
+2、按规定完成软件工程要求的有关技术方案、设计开发文档的编写
+3、参与产品的验证、确认的活动
+4、负责软件所运行环境的建立
+5、负责知识产权的输出，包括专利、软著
+岗位要求：
+1、本科及以上学历，985.211院校毕业，计算机相关专业
+2、5年以上软件开发工作经验，熟练掌握C++，UI交互开发（例如QT）
+3、具有较好的软件设计能力，熟悉设计模式、面向对象编程规范",C++ 技术方案 知识产权 专利,https://jobs.51job.com/suzhou-gyyq/167431776.html?s=sou_sou_soulb&t=0_0&req=a21896a80c93e41985f8cbaa00fdb859
+c++开发工程师,江苏康众数字医疗科技,1.3-2万·14薪,苏州·苏州工业园区,苏州,本科,2年及以上,2026-07-23 10:23:26,job51,"工作职责
+1、负责设备端桌面应用软件的开发与迭代（Windows/Linux 环境）
+2、设计并实现人机交互界面（GUI）及相关业务逻辑模块
+3、与算法、嵌入式、电气等团队协作，完成系统集成与联调
+4、优化软件性能与稳定性，提升用户操作体验
+5、参与软件工程规范建设，包括代码评审、版本管理与自动化构建
+6、编写必要的开发文档与交付说明
+
+任职要求
+1、熟悉并能够高频使用主流 AI 编程辅助工具（如 GitHub Copilot、ChatGPT、Cursor 等），能够在开发过程中充分利用 AI 提升编码效率、调试效率与交付速度
+2、知名院校本科及以上学历，计算机、软件工程等相关专业
+3、2年以上 C++ 开发经验，具备良好的面向对象设计能力（接受相关实习经验的应届生）
+4、熟悉至少一种主流跨平台 GUI 框架（如 Qt 或同类框架）优先
+5、熟悉多线程、网络通信、常见设计模式；熟悉 Windows/Linux 开发环境与调试工具优先
+6、具备强烈的学习意愿与优秀的自学能力，能够快速掌握新技术、新框架并独立解决问题优先",Linux Git GPT C++ 版本管理 Windows GUI AI,https://jobs.51job.com/suzhou-gyyq/173008152.html?s=sou_sou_soulb&t=0_0&req=a21896a80c93e41985f8cbaa00fdb859
+C++软件工程师,昆山古鳌电子机械,1.5-1.8万,昆山,苏州,本科,2年及以上,2026-08-04 10:41:18,job51,"C++软件工程师负责产品前端软件设计，具备windows和linux跨平台开发
+1.本科及以上学历，电子、通讯、计算机等相关专业，有2年以上Linux开发经验；&nbsp;
+&nbsp;2.精通C/C++语言，多线程，多进程，内存共享，网络通信编程技术，熟悉TCP/IP协议和HTTP协议，有嵌入式web后台服务器开发经验；
+&nbsp;3.掌握RS232/RS485/RS422、I2C、SPI、SBUS、USB等接口协议；
+&nbsp;4.熟悉嵌入式linux相关开发、调试、优化工具",C++ Linux TCP/IP I2C SPI 嵌入式Linux,https://jobs.51job.com/kunshan/171630000.html?s=sou_sou_soulb&t=0_0&req=a21896a80c93e41985f8cbaa00fdb859
+C++软件工程师,江苏康众数字医疗科技,1.1-1.4万·14薪,苏州·苏州工业园区,苏州,本科,2年及以上,2026-06-26 11:42:53,job51,"工作职责
+1、负责设备端桌面应用软件的开发与迭代（Windows/Linux 环境）
+2、设计并实现人机交互界面（GUI）及相关业务逻辑模块
+3、与算法、嵌入式、电气等团队协作，完成系统集成与联调
+4、优化软件性能与稳定性，提升用户操作体验
+5、参与软件工程规范建设，包括代码评审、版本管理与自动化构建
+6、编写必要的开发文档与交付说明
+
+任职要求
+1、熟悉并能够高频使用主流 AI 编程辅助工具（如 GitHub Copilot、ChatGPT、Cursor 等），能够在开发过程中充分利用 AI 提升编码效率、调试效率与交付速度
+2、知名院校本科及以上学历，计算机、软件工程等相关专业
+3、2年以上 C++ 开发经验，具备良好的面向对象设计能力（接受相关实习经验的应届生）
+4、熟悉至少一种主流跨平台 GUI 框架（如 Qt 或同类框架）优先
+5、熟悉多线程、网络通信、常见设计模式；熟悉 Windows/Linux 开发环境与调试工具优先
+6、具备强烈的学习意愿与优秀的自学能力，能够快速掌握新技术、新框架并独立解决问题优先",Linux Git GPT C++ 版本管理 Windows GUI AI,https://jobs.51job.com/suzhou-gyyq/172594043.html?s=sou_sou_soulb&t=0_0&req=a21896a80c93e41985f8cbaa00fdb859
+C++软件工程师（分选机方向）,盛欣科智能装备（江苏）,1.5-2.5万·13薪,苏州·苏州工业园区,苏州,本科,3年及以上,2026-06-15 16:28:19,job51,"【工作内容】
+1、负责分选机核心控制系统的C++代码开发与模块优化，确保算法运行高效稳定；
+2、参与视觉识别与运动控制逻辑的联调，解决多轴协同及高速分拣中的技术难题；
+3、配合硬件团队完成底层驱动适配，实现PLC、相机及传感器间的数据交互与通信；
+4、主导系统性能测试与故障排查，输出技术文档并持续迭代提升设备整体精度。
+
+【任职要求】
+1、计算机、自动化或相关专业本科及以上学历，3年以上软件开发工作经验；
+2、具备扎实的C++语言编程功底；
+3、有机器视觉、运动控制或工业设备软件开发经验，了解TCP/IP、Modbus等协议；
+4、具备良好的逻辑思维与问题分析能力，能适应项目现场调试及弹性工作节奏。",C++ TCP/IP Modbus 性能测试 故障排查 技术文档,https://jobs.51job.com/suzhou-gyyq/172562173.html?s=sou_sou_soulb&t=0_0&req=a21896a80c93e41985f8cbaa00fdb859
+c++开发工程师,恩士迅信息科技（中国）,2-2.6万·13薪,苏州,苏州,本科,5年及以上,2026-06-23 16:47:39,job51,"1.熟悉C++、STL以及现代C++新特性
+2.熟悉多线程开发以及socket网络编程
+3.熟悉常用设计模式，能够在项目中合理运用
+4.熟悉常用中间件(rabbitmq,redis等)
+5.熟悉http,websocket协议
+6.具备良好的编码规范、文档习惯和团队合作精神
+ 
+具有以下条件优先
+1.高并发、高性能分布式系统开发经验
+2.音视频项目开发经验
+ *熟悉常用音视频编码格式（H265/H264, AAC/G.711）以及文件容器格式(MP4, MKV)
+ *熟悉FFMPEG，X264, LIVE555, OpenCV
+ *熟悉常用网络串流协议（RTSP, HLS, WebRTC）
+3.熟悉Docker, Kubernetes",C++ RabbitMQ Redis WebSocket 高并发 分布式 OpenCV Docker Kubernetes,https://jobs.51job.com/suzhou/172658063.html?s=sou_sou_soulb&t=0_0&req=a21896a80c93e41985f8cbaa00fdb859
+C++软件开发工程师,小蜂光电科技（苏州）,1.5-2万,苏州·虎丘区,苏州,本科,3年及以上,2026-08-03 13:20:33,job51,"职位描述：
+1）项目需求分析，制定项目开发计划；
+2）开发软件功能模块，按时提交工作成果；
+3）对软件功能模块进行维护、升级和测试人员合作修正已知的软件问题；
+4）接受出差，在现场进行设备软件开发调试。
+
+任职要求：
+1）本科及以上学历，三年以上QT上机位开发工作经验；
+2）熟练掌握C/C++编程；熟练使用QT进行编程；
+3）有至少使用正运动、固高、雷赛等一种品牌运动板卡实现连续插补运动（点到点、直线、圆、圆弧等）经验
+4）有嵌入式软件开发经验；有halcon，opencv任一使用经验优先。",C++ OpenCV 需求分析,https://jobs.51job.com/suzhou-hq/158147836.html?s=sou_sou_soulb&t=0_0&req=a21896a80c93e41985f8cbaa00fdb859
+c++开发工程师,江苏西格数据科技,1.2-1.5万,苏州·苏州工业园区,苏州,本科,3年及以上,2026-06-24 14:31:46,job51,"岗位职责：
+
+1、核心开发
+
+--负责嵌入式平台（Linux）下的C++/Qt应用程序及跨平台SDK的设计、开发与优化。
+
+--主导关键模块架构设计，解决性能、稳定性及跨平台兼容性问题。
+
+2、技术攻关
+
+--排查并解决嵌入式环境下的卡死、闪退、卡顿等复杂问题，优化系统资源占用（内存/CPU）。
+
+--研究嵌入式新技术（如轻量级渲染、低功耗通信协议），推动技术落地。
+
+3、跨平台支持
+
+--搭建嵌入式交叉编译环境（ARM64等），实现代码在树莓派等硬件平台的移植与适配。
+
+--制定跨平台开发规范，统一Windows/Linux/嵌入式OS的构建流程。
+
+4、协作与交付
+
+--编写技术文档、接口规范及单元测试，确保代码可维护性。
+
+--与硬件团队、测试团队协作完成系统联调与问题修复。
+
+任职资格
+
+1、硬性要求
+
+（1）、精通C++11/14/17特性及STL，熟悉RAII、智能指针、多线程同步机制（互斥锁/条件变量）。
+
+（2）、熟练使用Qt框架（信号槽、事件循环、QML），具备Qt嵌入式优化经验（如减少内存占用、启动加速）。
+
+（3）、掌握嵌入式开发全流程：交叉编译、内核裁剪、驱动调试、文件系统定制。
+
+（4）、熟悉TCP/UDP/MQTT等网络协议，具备高并发服务开发经验（epoll/IOCP）。
+
+（5）、了解常见嵌入式外设（串口）通信协议及集成方法。
+
+（6）、熟练使用GDB/Valgrind/perf等工具排查内存泄漏、死锁问题。
+
+（7）、5年以上C++开发经验，至少2个完整的嵌入式跨平台项目交付经历。
+
+（8）、有工业控制、医疗设备、物联网终端等嵌入式产品开发经验者优先。
+
+2、软性要求
+
+（1）、能快速定位复杂系统问题（如CPU飙高、通信阻塞），提出系统性解决方案。
+
+（2）、清晰表达技术方案，编写规范文档；具备跨团队协作推动力。
+
+（3）、持续跟进嵌入式领域新技术（如Rust在嵌入式应用、轻量级OS）",Linux C++ ARM MQTT 高并发 Rust 技术文档 技术方案,https://jobs.51job.com/suzhou-gyyq/172256769.html?s=sou_sou_soulb&t=0_0&req=a21896a80c93e41985f8cbaa00fdb859
+C++软件开发工程师（医疗机器人影像）,鑫君特（苏州）医疗科技,1.5-3万,苏州·虎丘区,苏州,本科,3年及以上,2026-06-25 16:16:14,job51,"岗位职责：
+1、设计开发医疗手术机器人应用软件系统，完成软件模块的代码编写、子系统集成、测试等
+2、与算法、机械等领域工程师一起完成产品方案设计和产品实现
+3、按照质量体系要求编制相应软件的设计文件
+
+
+任职要求：
+1、全日制统招本科及以上学历，计算机、通信、电子等相关专业，3年以上软件开发经验
+2、精通C++，掌握常见的数据结构、算法、设计模式，具有良好的编程习惯
+3、有医疗影像开发经验，熟悉多线程图形编程、医学影像标准DICOM、了解数据库SQL Server
+4、有Qt开发经验、熟悉VTK、ITK、MITK等
+
+加分项：
+有医疗手术机器人相关的项目经验优先",C++ SQL Server 方案设计 Server ITK,https://jobs.51job.com/suzhou-hq/172691126.html?s=sou_sou_soulb&t=0_0&req=a21896a80c93e41985f8cbaa00fdb859
+高级 C++ 软件开发工程师,苏州蓝泽智能科技,1.6-2.5万,苏州·相城区,苏州,本科,8年及以上,2026-07-23 18:50:08,job51,"岗位职责：
+• 负责现有 C++ 运控视觉一体平台的性能诊断与优化，解决软件闪退、卡顿、默停等稳定性问题。
+• 主导多线程架构、内存管理、图像处理管线的重构，提升平台实时性与吞吐量。
+• 基于 Qt 6 重构调试与主界面，改善用户体验，设计可停靠调试面板、实时曲线等。
+• 与运动控制卡、工业相机 SDK 深度集成，保障视觉与运控的精确协同。
+• 指导中级工程师进行代码评审与缺陷修复，建立性能监控与崩溃自动分析体系。
+
+任职要求：
+• 精通 C++17/20，8 年以上工业软件开发经验，有运动控制或机器视觉行业背景。
+• 深入理解多线程编程、内存模型、锁机制，具备实际内存泄漏、死锁、性能瓶颈排查经验。
+• 熟悉 Qt 6（Widgets/QML），有大型桌面软件重构经验。
+• 熟悉至少一种视觉算法库（Halcon 或 OpenCV），了解图像采集与显示流程。
+• 具备 Windows 平台下崩溃转储分析、性能剖析工具（如 PerfView, WinDbg）使用能力。
+
+加分项：
+• 有 EtherCAT、RTX64 等硬实时系统经验；
+• 具备 OpenMP、TBB 并行优化实战经验；
+• 具备自研内存池、无锁队列开发经验。",C++ OpenCV Qt SDK C++17 Widgets QML Halcon,https://jobs.51job.com/suzhou-xcq/173024342.html?s=sou_sou_soulb&t=0_0&req=a21896a80c93e41985f8cbaa00fdb859
+软件工程师-C++,上海骐沃电子科技,2-3万·14薪,苏州,苏州,本科,3年及以上,2026-08-09 06:05:40,job51,"Your tasks:
+1.Linux based hardware-related software development on our own camera hardware (C++)
+2.Implementation of new algorithms for defect detection in textile fabric (C++/OpenCV)
+3.Testing and documentation of the software (this includes in-house testing, but also testing at our customers factories)
+4.Technical contact and advisor for local sales / for local service technicians and for our customers related to camera specific applications
+5.Work in close cooperation with the Germany based main R&amp;D team
+6.Our gateway to the Chinese market / Chinese customers
+
+Your profile:
+1.Degree in software engineering or any other related technical domain
+2.Very Good knowledge of C++ software development (also hardware related)
+3.Good Knowledge of the Linux operating system (Debian/Ubuntu)
+4.Very good knowledge of the English language (spoken and written)
+5.Nice to have experience on setting up AI based applications",Linux C++ Go OpenCV Gin Implementation Germany Chinese,https://jobs.51job.com/suzhou/173055516.html?s=sou_sou_soulb&t=0_0&req=a21896a80c93e41985f8cbaa00fdb859
+C++软件工程师,盛欣科智能装备（江苏）,2.5-3.5万·13薪,苏州·苏州工业园区,苏州,本科,5年及以上,2026-06-15 15:56:56,job51,"工作职责:
+1）软件项目需求分析，制定项目开发计划；
+2）开发软件功能模块，按时提交工作成果；
+3）对软件功能模块进行维护、升级和测试人员合作修正已知的软件问题；
+4）接受出差，在现场进行设备软件开发调试。
+任职要求:
+1、计算机、自动化相关专业本科以上学历；5年以上软件开发工作经验；
+2、熟练掌握C++，理解并能遵守代码规范，有代码阅读能力和团队合作精神；
+3、能读懂架构代码，并能理解架构设计的意图；
+4、思维敏捷，具有良好的沟通表达能力，具有良好的情绪控制能力和刻苦钻研精神；
+5、有自动化精密设备软件开发相关工作经验者优先考虑；",C++ 需求分析,https://jobs.51job.com/suzhou-gyyq/172561000.html?s=sou_sou_soulb&t=0_0&req=a21896a80c93e41985f8cbaa00fdb859
+上位机工程师,苏州万贵源精密科技,1.5-2万,苏州,苏州,大专,3年及以上,2026-08-07 16:02:46,job51,"岗位职责：
+1，基于 C++ + QT 开发工业上位机软件，包含设备控制界面、数据采集、工艺流程交互、报表存储、报警日志等完整功能模块；
+2，在 Linux 环境下完成程序编译、调试、部署、性能优化，处理交叉编译、系统权限、后台守护进程、开机自启等底层适配；
+3，对接底层电气 / 嵌入式设备，开发串口、TCP/IP、Modbus，实现设备数据收发与联动控制；
+4，负责软件版本迭代、bug 修复、稳定性测试，解决界面卡顿、内存泄漏、多线程并发冲突、Linux 兼容性等问题；
+5，编写软件使用文档、接口说明，配合产线调试，对接现场工程师完成设备交付与售后软件问题处理；
+6，参与需求评审，根据机械、视觉、工艺需求梳理上位机交互逻辑，优化操作流程。
+
+岗位要求：
+1.熟练使用 C++11/14，精通面向对象、多线程、智能指针、STL 容器，能独立排查内存、并发类问题；,
+2，精通 QT 框架，熟练使用 QWidget/QML，掌握信号槽、UI 布局、QNetwork、QSerialPort、数据库模块、自定义控件开发；
+3，熟练 Linux 开发环境：会 Shell 基础命令、Makefile/CMake 编译、交叉编译、进程线程管理、日志调试、权限配置，能在 Linux 下独立调试 QT 程序；
+4，3年及以上工业上位机真实项目开发经验，有自动化设备、机器视觉、检测设备上位机开发经历优先。",C++ Linux TCP/IP Modbus Shell CMake 数据采集,https://jobs.51job.com/suzhou/173193550.html?s=sou_sou_soulb&t=0_0&req=a21896a80c93e41985f8cbaa00fdb859
+PC软件工程师,苏州欣华锐电子,8千-1万,苏州·苏州工业园区,苏州,本科,3年及以上,2026-08-07 17:34:59,job51,"1.架构设计：负责 PC 端应用软件的整体架构设计，包括分层架构规划、模块划分、接口定义、数据流设计，搭建可扩展、可维护的软件架构。
+2. 上位机通信开发：负责 PC 端与设备之间的通信协议设计与开发，精通网口（Ethernet/TCP/IP）、Type-C、USB 等主流通信接口的驱动开发与数据交互。
+3. 设备控制软件：开发设备控制与数据采集上位机软件，实现设备状态监控、参数配置、数据上传下载、固件升级等功能。
+4. 驱动开发：完成 USB 设备驱动、WinUSB/libusb 通用驱动封装、Type-C PD 协议交互、网口通信协议栈（Modbus TCP/UDP/自定义协议）的开发与调试。
+5. 界面开发：负责 PC 端图形界面（GUI）设计与开发，提供直观、易用的设备控制与数据可视化界面。
+6. 跨平台适配：完成软件在 Windows 与 Linux 双平台的编译与运行适配，维护跨平台构建脚本与 CI/CD 流程。
+7. 调试与测试：使用主流开发工具进行代码调试、性能分析与单元测试，使用 Wireshark、USBlyzer 等协议分析工具进行通信报文抓包与问题定位。
+8. 技术文档：编写软件架构设计文档、接口协议文档、调试手册及用户手册，其中含英文技术文档编写。
+9. 跨团队协作：与嵌入式软件工程师、硬件工程师协作，对接设备固件协议、驱动接口与硬件寄存器映射，推动产品联调闭环。
+10. 技术预研：跟踪 PC 端技术发展趋势，评估新技术方案（如微服务架构、跨平台框架、高性能通信等），完成技术调研与原型验证。",TCP/IP Modbus Linux CI/CD 微服务 数据采集 技术文档 技术方案,https://jobs.51job.com/suzhou-gyyq/173195865.html?s=sou_sou_soulb&t=0_0&req=a21896a80c93e41985f8cbaa00fdb859
+C++/QT软件工程师,苏州德翼汽车电子,8千-1.3万,苏州·苏州工业园区,苏州,本科,2年及以上,2026-07-06 13:11:00,job51,"岗位职责：
+1、参与公司QT应用程序设计及开发； 
+2、进行代码维护及重构，开发新功能，持续优化现有技术框架；
+3、编写设计文档及软件使用相关文档； 
+4、参与产品相关的问题方案的讨论，参与关键技术预研； 
+5、解决各模块及代码的缺陷问题，提出合理的优化建议。
+
+任职要求：
+1、本科学历，计算机、软件工程等相关专业； 
+2、两年以上C++/C开发经验，熟悉面向对象编程原理，具备扎实的C++语言基础； 
+3、熟练使用常见数据结构，熟悉队列、消息、多线程等技术； 
+4、熟悉Qt/QtQuick开发环境、Qt库，具备Qt GUI应用独立开发软件项目经验； 
+5、熟悉事件机制、信号与槽机制，熟悉qml，以及网络编程、多线程的编程； 
+6、熟悉版本控制工具（SVN或git），有GUI图形化界面优先。",C++ SVN Git,https://jobs.51job.com/suzhou-gyyq/168419043.html?s=sou_sou_soulb&t=0_0&req=a21896a80c93e41985f8cbaa00fdb859
+C++上位机 + 会PLC工程师,苏州泰斯特智能科技,1.5-2万,昆山,苏州,大专,1-3年,2026-07-09 11:20:07,job51,"岗位职责
+1. 负责公司核心设备电控及上位机整体研发工作，涵盖行星/谐波/RV减速机背隙检测工作台、电机测功机、伺服压力机、机器人工作站等非标智能设备。
+2. PLC程序开发与调试：负责设备PLC逻辑编程、IO配置、联锁保护、故障报警、人机界面联动调试；主导多轴伺服定位、往复运动、扭矩/压力闭环控制、多轴同步、电子凸轮等运动控制程序开发。
+3. C++上位机软件开发：负责设备上位机软件编写、数据采集、曲线绘制、参数标定、数据存储、报表生成、设备通讯对接；实现设备自动化测试、耐久测试、精度检测等工艺功能。
+4. 负责主流伺服系统调试适配，熟练对接汇川、台达、松下伺服，可兼容西门子PLC程序逻辑迁移与改造，独立完成设备整机联调、问题整改、性能优化。
+5. 负责设备电控方案设计、电气图纸整理、程序标准化迭代，配合机械结构、工艺团队完成新品研发、旧设备升级改造。
+6. 解决设备生产、测试、现场交付中的电控、软件、运动控制问题，保障设备精度、稳定性、重复性达标。
+任职要求
+1. 专科及以上学历，自动化、电气自动化、测控技术、计算机、机电一体化等相关专业，1-3年非标自动化设备研发经验。
+2. 必备双技能：精通C++开发 + 精通PLC梯形图编程，具备完整的设备程序开发、上位机落地项目经验。
+3. PLC能力：熟练使用梯形图编程，掌握伺服点位控制、扭矩控制、压力闭环、多轴联动、原点回归、限位保护、联锁逻辑；有西门子PLC基础者可快速适配汇川、台达、松下伺服系统优先。
+4. C++能力：熟练使用C++进行Windows上位机开发，熟悉串口、网口、Modbus、EtherCAT等常用通讯协议，能够独立完成设备数据采集、运动控制指令对接、测试算法编写、数据曲线展示。
+5. 熟悉非标精密检测设备、伺服压力设备、电机测功设备、机器人配套工作站工艺者优先，了解减速机背隙检测、耐久测试、精密力学检测工艺优先。
+6. 具备独立整机组调、问题排查能力，逻辑清晰、动手能力强，能独立完成单台设备电控+软件全套开发工作。",C++ Modbus 数据采集 自动化测试 方案设计,https://jobs.51job.com/kunshan/172850910.html?s=sou_sou_soulb&t=0_0&req=a21896a80c93e41985f8cbaa00fdb859
+C++软件工程师(A56436),苏州鑫信腾科技,1.5-2.5万,苏州·吴江区,苏州,本科,3-5年,2026-07-24 11:14:06,job51,"1. 负责蜂窝和短距无线通信射频测试系统解决方案的需求分析、方案设计、开发调试、效率提升和客户现场交付工作；
+2. 负责射频测试仪表上位机软件或仪表软件的方案设计、开发调试和维护类工作；
+3. 负责测试系统或射频仪表的SOP手册编写和维护工作。
+
+岗位要求：
+1、本科及以上学历，计算机、电子、通信、软件工程等相关专业；
+2、 熟悉常见射频仪表（CMW500/CWW100、IQXel/IQStream等）的操作和编程控制；
+3、 熟悉Windows编程，熟悉进程间通信、文件系统、多线程编程；
+4、 熟悉VS、Labview其中一种开发环境，熟悉C/C++/C#/Labviwe编程语言；
+5、 能够熟练阅读英文资料；
+6、 具备良好的沟通协调能力、分析和解决问题的能力，能够承受一定工作压力，有良好的团队合作精神；
+7、 熟悉linux系统编程优先；
+8、 熟悉蜂窝和短距无线通信系统、协议优先；
+9、 有自动化测试行业工作经验优先。",C++ C# Linux 需求分析 方案设计 自动化测试,https://jobs.51job.com/suzhou-wjq/167977305.html?s=sou_sou_soulb&t=0_0&req=a21896a80c93e41985f8cbaa00fdb859
+图形算法工程师（PCB）,苏州天准科技,1.8-2.5万,苏州,苏州,硕士,2-5年,2026-08-06 13:28:03,job51,"岗位职责：
+	1.负责二维图形处理代码的开发和维护
+	2.负责常见PCB格式解析代码开发和维护
+	3.C++代码封装以及与C#代码交互操作
+	4.负责开发过程相关技术文档的撰写和整理；
+	
+岗位要求：
+	1.熟练掌握C++编程基本技能和C++标准库，并有良好的代码风格和习惯；
+	2.熟练掌握数据结构、算法分析与设计、算法复杂度分析；
+	3.熟练掌握面向对象分析与设计和常用设计模式优先；
+	4.熟练掌握并发编程",C++ C# 技术文档,https://jobs.51job.com/suzhou/173174686.html?s=sou_sou_soulb&t=0_0&req=7a7ec7a17d014d38b36be6ee82da9e8a
+QT开发工程师,苏州嘉诺创新科技,1.5-2.5万,苏州·吴江区,苏州,本科,5年及以上,2026-07-27 10:50:28,job51,"【工作内容】
+1、负责人工智能平台核心QT客户端模块的架构设计与代码开发，确保系统高可用性与稳定性；
+2、主导跨平台（Windows/Linux）界面交互逻辑实现，优化渲染性能及内存占用，提升用户体验；
+3、协同后端团队完成数据接口对接，实现复杂业务场景下的实时数据可视化与功能交付；
+4、负责技术难题攻关，编写高质量技术文档，并协助团队进行代码审查与技术分享；
+5、跟进产品迭代需求，快速响应并解决测试阶段及生产环境中的关键缺陷与异常问题。
+
+【任职要求】
+1、计算机或相关专业本科及以上学历，具备5年以上QT/C++实际项目开发经验；
+2、精通C++语言及STL，深入理解多线程编程、网络通信及内存管理机制；
+3、熟练掌握Qt框架核心模块，熟悉QML、OpenGL或GPU加速技术者优先考虑；
+4、具备良好的代码规范意识与问题解决能力，拥有独立承担复杂模块开发经验者优先；
+5、工作积极主动，责任心强，具备良好的团队协作精神及抗压能力，能适应敏捷开发节奏。",高可用 Linux C++ 技术文档 产品迭代 Windows,https://jobs.51job.com/suzhou-wjq/172662692.html?s=sou_sou_soulb&t=0_0&req=7a7ec7a17d014d38b36be6ee82da9e8a
+底层开发工程师(C/C++)(J10946),研华科技（中国）,1-2万·15薪,苏州,苏州,本科,3-5年,2026-07-27 22:52:32,job51,"工作概要Job Purpose：
+负责CODESYS Runtime在Linux平台（含PreemptRT实时扩展）的底层开发与深度定制，包括操作系统移植、驱动开发、硬件适配及性能调优，构建高确定性、低延迟的运动控制运行环境，支撑公司工业控制器产品的技术落地。
+
+工作任务Task： 
+(1) 负责Linux PreemptRT实时操作系统的移植与调校，包括内核参数优化、任务调度策略配置、中断延迟测试，确保实时任务满足确定性要求。
+(2) 负责硬件外设在Runtime层的驱动接口适配与集成，确保Runtime能够正确识别并访问GPIO、UART、SPI、I2C、CAN、EtherCAT等外设及总线。
+(3) 负责系统联调、性能分析（任务抖动、响应延迟、CPU占用等），定位并解决实时任务中的时序问题与稳定性隐患，持续优化系统响应速度与可靠性。
+(4) 编写系统移植文档、驱动接口说明、测试报告及用户手册，保障产品可维护性与可交付性。
+
+专业知识与技能Professional Knowledge and skill：
+(1) 精通C语言。
+(2) 熟悉Linux操作系统原理及实时系统理论。
+(3) 具备嵌入式Linux移植、驱动开发或Linux PreemptRT实时调校经验。",Linux UART SPI I2C CAN C语言 嵌入式Linux,https://jobs.51job.com/suzhou/173058673.html?s=sou_sou_soulb&t=0_0&req=7a7ec7a17d014d38b36be6ee82da9e8a
+c++开发工程师,致茂电子（苏州）,7-9千,苏州·高新区,苏州,本科,1-3年,2026-07-13 11:56:58,job51,"岗位职责：
+1. 负责售前、售后软件C++/C#,开发，维护、修改；
+2. 与客户端、RD沟通与技术反馈；
+3. 现场技术指导、故障分析和排除；
+4. 需配合出差；
+5. 完成上级交办事项。
+
+任职要求：
+1. 电子、通讯、光电等相关专业；
+2. 本科以上学历；
+3. 熟悉模拟电路及数字电路，电路分析、动手能力强；
+4. 熟悉C++/C#，有经验者佳；
+5. 具一定的英文能力，能读懂英文的技术文档；
+6. 态度热情，主动负责，良好的沟通协调能力，能承受一定强度的工作压力；
+7. 身体健康，具有良好的个人素质和团队协作精神。
+
+岗位福利：
+1. 工作时间﹕每周工作五天，每天工作8小时（08:00 - 17:00，中午休息1小时）；
+2. 依规定享有法定假日，包含带薪年假、陪产假、育儿假、独生子女护理假等；
+3. 公司提供中餐，有出差补贴（薪资外）；
+4. 全额缴纳社会保险、公积金，补充购买商业意外保险；
+5. 丰富的员工活动：员工旅游、团建活动、生日会等；
+6. 其他福利：员工体检、员工礼金（生日、结婚、生育......）、中秋福利等。",C++ C# 技术文档,https://jobs.51job.com/suzhou-gxq/172885177.html?s=sou_sou_soulb&t=0_0&req=7a7ec7a17d014d38b36be6ee82da9e8a
+C++软件工程师,江苏康众数字医疗科技,1.2-1.7万·14薪,苏州·苏州工业园区,苏州,硕士,无需经验,2026-07-24 18:13:28,job51,"工作职责
+1、负责设备端桌面应用软件的开发与迭代（Windows/Linux 环境）
+2、设计并实现人机交互界面（GUI）及相关业务逻辑模块
+3、与算法、嵌入式、电气等团队协作，完成系统集成与联调
+4、优化软件性能与稳定性，提升用户操作体验
+5、参与软件工程规范建设，包括代码评审、版本管理与自动化构建
+6、编写必要的开发文档与交付说明
+
+任职要求
+1、熟悉并能够高频使用主流 AI 编程辅助工具（如 GitHub Copilot、ChatGPT、Cursor 等），能够在开发过程中充分利用 AI 提升编码效率、调试效率与交付速度
+2、知名院校硕士学历，计算机、软件工程等相关专业，接受应届毕业生
+3、 C++ 开发经验，具备良好的面向对象设计能力
+4、熟悉至少一种主流跨平台 GUI 框架（如 Qt 或同类框架）
+5、熟悉多线程、网络通信、常见设计模式；熟悉 Windows/Linux 开发环境与调试工具
+6、具备强烈的学习意愿与优秀的自学能力，能够快速掌握新技术、新框架并独立解决问题",Linux Git GPT C++ 版本管理 Windows GUI AI,https://jobs.51job.com/suzhou-gyyq/172581208.html?s=sou_sou_soulb&t=0_0&req=7a7ec7a17d014d38b36be6ee82da9e8a
+软件工程师（C++）,苏州迪凯尔医疗科技,1.2-2.3万,苏州·苏州工业园区,苏州,本科,无需经验,2026-08-05 17:39:49,job51,"岗位职责: 
+1. 参与软件系统的设计、开发和维护工作 
+2. 根据项目需求编写高质量的C++代码 
+3. 协助团队完成技术方案的制定与优化 
+
+任职要求： 
+本科含以上学历，985，211院校25/26届应届生亦考虑，计算机相关专业；
+1. 熟悉C++语言及相关开发工具 ，在校有竞赛/项目/实习经历优先；
+2. 具备良好的逻辑思维能力和问题解决能力 
+3. 善于沟通，具备团队协作意识",C++ 技术方案,https://jobs.51job.com/suzhou-gyyq/173166197.html?s=sou_sou_soulb&t=0_0&req=7a7ec7a17d014d38b36be6ee82da9e8a
+高级软件工程师,苏州迪凯尔医疗科技,2-3.5万,苏州·苏州工业园区,苏州,本科,5年及以上,2026-07-27 09:54:26,job51,"一、岗位职责
+（一）技术研发与设计
+负责核心业务模块、复杂技术方案的设计与实现，主导系统架构的优化与迭代，保障系统的高可用、高性能、可扩展性。
+参与技术选型与架构评审，制定技术规范、编码标准和开发流程，解决研发过程中的关键技术难题与性能瓶颈。
+独立完成复杂功能的编码开发、单元测试与集成测试，确保代码质量与交付效率，主导技术债务清理与代码重构。
+（二）团队协作与技术赋能
+指导初中级工程师完成开发任务，进行代码审查、技术培训与经验分享，提升团队整体技术能力与研发效率。
+跨产品、测试、运维等团队协作，参与需求评审、方案讨论，推动需求落地与问题闭环，保障项目进度与质量。
+参与研发流程优化，推动自动化测试、持续集成 / 持续部署（CI/CD）等工程化实践落地。
+（三）项目与质量管控
+负责核心项目的技术落地与进度把控，识别项目风险并制定应对方案，确保项目按时、高质量交付。
+主导线上问题排查与故障修复，分析问题根因，推动技术优化与预防机制建设，提升系统稳定性。
+跟踪行业前沿技术与趋势，结合业务场景进行技术预研与落地，推动技术创新与业务赋能。
+
+（一）基础要求
+本科及以上学历，计算机、软件工程、电子信息等相关专业，5 年及以上软件开发相关工作经验。
+精通主流编程语言C++、熟悉数据结构、算法、操作系统、计算机网络等核心基础知识。
+（二）技术能力
+具备扎实的系统设计能力，熟悉分布式系统、微服务架构、缓存、消息队列等常用技术栈，有大型复杂系统设计与优化经验者优先。
+熟悉数据库原理与优化，熟练使用 MySQL、PostgreSQL 等关系型数据库，或 Redis、MongoDB 等非关系型数据库。
+熟悉 CI/CD 流程、自动化测试、容器化（Docker/K8s）等工程化技术，有相关落地经验者优先。
+具备良好的问题排查与故障处理能力，能快速定位并解决线上复杂技术问题。
+（三）软素质与综合能力
+具备优秀的逻辑思维、分析能力与学习能力，能快速理解业务需求并转化为技术方案。
+良好的沟通表达、团队协作与项目管理能力，能有效推动跨团队协作与问题解决。
+具备较强的责任心、抗压能力与 ownership，主动承担复杂任务，追求技术与产品质量。
+有技术分享、开源贡献、技术专利或大型项目核心研发经验者优先。",高可用 CI/CD C++ 分布式 微服务 MySQL PostgreSQL Redis MongoDB 容器化 Docker K8s 技术方案 培训 流程优化 自动化测试 项目管理 专利,https://jobs.51job.com/suzhou-gyyq/173045214.html?s=sou_sou_soulb&t=0_0&req=7a7ec7a17d014d38b36be6ee82da9e8a
+QT开发工程师,苏州悦谱半导体,8千-1.2万·13薪,苏州·苏州工业园区,苏州,本科,1年及以上,2026-06-30 09:05:15,job51,"岗位职责：
+1.设计和实现高质量的跨平台桌面应用；
+2.与产品经理、设计师和其他开发人员紧密合作，了解项目需求并提供技术解决方案；
+3.编写清晰、高效的C++代码，并利用QT框架进行用户界面开发；
+4.对现有系统进行维护和优化，提升性能和稳定性；
+5.解决开发过程中遇到的技术难题，并持续改进产品的用户体验。 
+
+任职要求：
+1.计算机科学或相关专业的本科及以上学历；
+2.精通C++编程语言，具备扎实的数据结构和算法基础；
+3.熟悉qt stylesheet，了解qt mvd框架，有c-qt项目架构开发经验；
+4.有跨平台开发经验者优先考虑（Windows, macOS, Linux）；
+5.具有Python开发、前端开发相关经验者优先；
+6.有责任心和团队意识，有较强的沟通、学习和理解能力。
+
+公司交通便利，办公环境优美。入职全额基数缴纳五险一金，7天带薪年假。",C++ Linux Python Windows,https://jobs.51job.com/suzhou-gyyq/164330594.html?s=sou_sou_soulb&t=0_0&req=7a7ec7a17d014d38b36be6ee82da9e8a
+IC驱动开发工程师,芯鼎微（中山）光电半导体,1.5-2.5万,苏州·苏州工业园区,苏州,本科,3年及以上,2026-06-15 11:20:38,job51,"工作职责：
+ 1. 负责面板显示驱动IC芯片中ARM/RISC-V等内核的驱动开发、移植、编译与调试工作。 
+ 2. 深入理解编译器、解释器原理，适配编译器支持自研IC的硬件特性，具备扎实的算法基础，能够将伪代码脚本翻译为指令序列导入内核执行。
+ 3. 能够独立完成产品模块设计、单元测试、系统集成与验证，确保驱动的稳定性、性能及功耗达到产品设计要求。
+ 4. 协助硬件、IC团队进行芯片Bring-up、功能验证和问题定位，提供驱动层面的专业支持。
+
+岗位要求：
+ 1. 学历专业： 计算机、电子、信息、通信等相关专业, 3年以上嵌入式开发调试经验。
+ 2. 熟练掌握C/C++/Python等编程语言，对汇编有了解。
+ 3. 熟悉ARM/RISC-V处理器结构，熟练掌握嵌入式交叉编译环境和软件调试工具，具有数电模电基础;
+ 4. 具有较强逻辑分析能力、学习能力和独立解决问题的能力;
+ 5. 有良好的英语读写能力，工作态度积极主动，有良好的团队合作精神。",ARM C++ Python 汇编 产品设计 RISC-,https://jobs.51job.com/suzhou-gyyq/172553935.html?s=sou_sou_soulb&t=0_0&req=7a7ec7a17d014d38b36be6ee82da9e8a
+IDE 开发工程师,苏州威纶通科技,1.2-2万,苏州·苏州工业园区,苏州,本科,3年及以上,2026-07-27 11:21:14,job51,"岗位职责：
+1. 参与 PLC IDE 核心功能的设计与开发。
+2. 使用 C#、.NET 和 Avalonia 开发高质量桌面客户端功能，处理复杂状态、交互、异步任务和长生命周期工作流。
+3. 参与 Structured Text、梯形图等 PLC 编程体验以及语言服务、诊断和构建流程的持续完善。
+4. 编写单元测试和 UI 自动化测试，保障关键功能的稳定性、可维护性和可回归性。
+5. 参与技术方案评审、代码审查、问题定位和工程质量建设。
+
+任职要求
+1. 扎实的 C# 和 .NET 基础，熟悉现代 C#、异步编程、依赖注入、泛型、集合及常见设计模式。
+2. 具有复杂桌面软件、IDE、工程工具、CAD/EDA、工业软件或其他工具型客户端的开发经验。
+3. 熟悉 Avalonia、WPF，或其他基于 XAML 并采用 MVVM 模式的桌面 UI 技术。
+4. 能够设计职责清晰的模块、接口和数据模型，理解 UI 与领域逻辑分离的重要性。
+5. 具备良好的工程意识，能够为核心逻辑编写自动化测试，并关注异常处理、取消、诊断和可维护性。
+6. 能够独立分析较复杂的问题，并推动功能从设计、实现、测试到交付闭环。
+7. 具备良好的沟通能力和技术文档阅读、编写能力。
+
+ 加分项
+1. 熟悉 PLC、IEC 61131-3、Structured Text、LD、FBD 或 SFC。
+2. 使用过 CODESYS、TwinCAT、TIA Portal、GX Works、Sysmac Studio 等工业自动化开发工具。
+3. 具有编译器、解析器、语言服务、代码编辑器、LSP、IR 或静态分析经验。
+4. 具有插件系统、组件平台、包管理、依赖解析或 `AssemblyLoadContext` 经验。
+5. 熟悉设备连接、状态机、在线调试、变量监控、仿真或工业通信协议。
+6. 熟悉 Modbus、OPC UA、EtherCAT、CANopen、PROFINET 等工业协议或现场总线。
+7. 熟悉 xUnit、桌面 UI 自动化测试、性能分析或崩溃诊断。
+8. 有跨平台桌面产品或大型存量工程演进经验。验者优先。",C# Modbus CAN 自动化测试 技术方案 技术文档,https://jobs.51job.com/suzhou-gyyq/173048174.html?s=sou_sou_soulb&t=0_0&req=7a7ec7a17d014d38b36be6ee82da9e8a
+C/C++ 研发工程师,苏州虹保世纪科技,7千-1.4万·14薪,苏州·高新区,苏州,本科,2年及以上,2026-08-06 09:40:52,job51,"岗位要求： 
+1、本科及以上学历，计算机相关专业.
+2、熟练掌握使用C、C++设计开发语言,对gcc或Visual C++、Netbeanes等编程工具有所了解.
+3、可以从事 Linux 嵌入式程序设计开发，或Windows应用程序开发.
+4、具备终端金融支付产品，POS、接触及非接触式IC卡、磁条读卡器等开发经验者优先.
+5、熟悉网络通信技术和相关编程, 银行卡/IC卡/POS机开发的经历并熟悉整个流程者优先.
+6、熟悉基础RS232、蓝牙、USB、TCP/IP、GPRS通讯优先 .
+
+岗位职责：
+1、有良好的英语读写能力，阅读英文技术资料无障碍.
+2、良好的学习能力,优秀的沟通能力与表达能力及较强的客户服务意识
+3、可以根据客户需求规范进行程序框架设计和文档设计
+4、具备带队进行公司客户应用产品软件提供技术远程或实地技术支持者优先.",C++ Linux TCP/IP 客户服务 技术支持 POS USB TCP,https://jobs.51job.com/suzhou-gxq/131466971.html?s=sou_sou_soulb&t=0_0&req=7a7ec7a17d014d38b36be6ee82da9e8a
+C++软件工程师,苏州金橙子激光技术,1-1.5万·13薪,苏州·虎丘区,苏州,本科,3-5年,2026-07-02 13:50:38,job51,"岗位要求：
+1、熟练掌握C++/Qt至少一种编程语言，具备良好的代码编程习惯，有实际相关项目开发经验，能够熟练应用C++/Qt技术进行自动化上位机软件开发；
+2、熟练使用常用的代码管理工具，如Git等，有较好的代码管理习惯；
+3、熟悉激光加工技术(金橙子Ezcad开发库或软件使用)或具备激光行业经验者优先(激光打标、激光切割)；
+4、具备自动化技术与运动平台开发经验，熟悉主流运动控制卡使用，如固高、正运动等运动控制卡；
+5、本科及以上学历，计算机、自动化、软件工程等相关专业。3-5年以上自动化领域软件开发相关工作经验，能够独立承担复杂项目的技术开发与实施，有大型软件开发经验者优先；
+6、良好的逻辑思维与问题解决能力，能快速定位并修复软件故障；
+7、熟悉多种通信协议，包括TCP/IP、Modbus、串口、网络通信协议等；
+8、有较强的学习能力和责任心，良好的团队协作能力、沟通能力、谦虚务实。
+任职资格：
+1、熟练掌握C++、C等语言，熟悉QT，有一定的项目经验；
+2、计算机、机械、数学等相关本科及以上学历，有大型软件开发经验者优先；
+3、2-3年自动化行业软件开发工作经验，具备激光行业经验者优先",C++ Git TCP/IP Modbus IP,https://jobs.51job.com/suzhou-hq/149558618.html?s=sou_sou_soulb&t=0_0&req=7a7ec7a17d014d38b36be6ee82da9e8a
+C++ 软件开发工程师,苏州蓝泽智能科技,1-1.5万,苏州·相城区,苏州,本科,3年及以上,2026-07-23 09:03:01,job51,"岗位职责：
+• 参与 C++ 运控视觉一体平台的优化与迭代，修复闪退、卡顿等问题。
+• 协助将现有 QT 5界面逐步迁移至 Qt 6，开发调试面板与数据可视化组件。
+• 配合高级工程师进行性能测试、内存分析，执行代码重构。
+• 撰写技术文档，维护系统日志与崩溃报告。
+任职要求：
+• 3年以上 C++ 开发经验，熟悉 C++11/17，掌握多线程与 STL。
+• 有 Qt 实际项目经验，了解桌面软件基本架构。
+• 具备良好的学习意愿与团队协作能力，愿意在高级工程师指导下快速成长。
+• 有工业相机 SDK、运动控制卡编程经验优先。",C++ 性能测试 技术文档 QT Qt C++11 STL SDK,https://jobs.51job.com/suzhou-xcq/173010810.html?s=sou_sou_soulb&t=0_0&req=7a7ec7a17d014d38b36be6ee82da9e8a
+算法工程师——C++,前锦网络信息技术（上海）,2-2.5万,苏州·虎丘区,苏州,硕士,3年及以上,2026-07-22 16:28:44,job51,"人选可以选择交苏州或上海社保
+上海工作时间：9:00-18:00，双休
+汇报对象：软件经理(base上海)
+硬性要求：算法工程师要求硕士学历，半导体行业上C++软件开发经验（非全硕士不看）
+
+岗位职责：
+1、根据需求开发基于C++的数据信号图像算法，从需求分析到算法实现和测试，确保算法性能和准确性；
+2、负责相关算法的优化加速处理，具备并行计算思维，并利用加速优化算法；
+3、负责算法开发过程中主要文档的撰写；
+4、分析并解决算法开发过程中的其他问题
+
+任职要求：
+1. 硕士及以上学历，计算机、电子、自动化等理工类相关专业优先；
+2. 熟悉现代 C++（C++11 及以上，*** C++17/20），具备三年以上C++软件开发经验；
+3. 熟悉GUI设计及开发技术，有Qt开发经验优先；
+4、熟悉OpenCV，有图像或信号处理方面经验优先；
+5、深刻理解面向对象的程序设计理念，熟悉常用的设计模式；
+6、具备扎实的计算机基础，熟练掌握常见的算法和数据结构；
+7、熟练使用多线程编程，能够使用多线程进行同步和异步调度，熟练使用条件变量、原子类型、互斥锁等多工具；",C++ OpenCV 需求分析 C++11 C++17,https://jobs.51job.com/suzhou-hq/173006542.html?s=sou_sou_soulb&t=0_0&req=7a7ec7a17d014d38b36be6ee82da9e8a
+图像算法工程师(J10225),苏州威达智科技,1.5-2.5万,苏州·苏州工业园区,苏州,本科,3年及以上,2026-08-08 17:47:54,job51,"工作职责:
+1. 负责工业视觉检测算法的开发
+2. 使用Halcon进行算法设计与实现
+3. 参与深度学习模型的训练与部署
+任职资格:
+1. 本科及以上学历，3年以上相关经验
+2. 精通Halcon，有项目经验
+3. 熟悉C++或C#",深度学习 C++ C#,https://jobs.51job.com/suzhou-gyyq/173200588.html?s=sou_sou_soulb&t=0_0&req=7a7ec7a17d014d38b36be6ee82da9e8a
+ECD工程师,信创智能科技（苏州）,1-1.5万,昆山,苏州,大专,2年及以上,2026-08-07 16:26:08,job51,"岗位职责：
+1、负责电梯电气控制系统（ECD）的硬件设计，包括电气原理图绘制、电气部件选型及系统配置。
+2、参与电梯控制器的嵌入式软硬件开发，熟悉基于C/C++的程序设计及电路板设计流程。
+3、负责电梯产品的可靠性分析、电气故障排查与现场调试支持。
+4、制定电气产品标准，优化系统设计，确保现有产品稳定运行。
+5、编写产品规格说明书、技术文档及接线指导文件。
+任职要求：
+1、大专及以上学历，电气自动化、机电一体化、电子信息等相关专业。
+2、2年以上电梯行业电气设计或调试经验，熟悉电梯控制技术及行业标准。
+3、熟练使用CAD等电气绘图软件，能独立完成电气图纸设计。
+4、了解嵌入式系统（如EV-ECD01控制系统）基本原理，具备C/C++基础者优先。
+5、熟悉各品牌电梯控制技术，具备现场故障分析与处理能力。
+加分项：
+1、有电梯控制器（如ECD控制器）实际开发或调试经验。
+2、熟悉串行通信系统（SCL）及变频控制技术",C++ 故障排查 技术文档 ECD SCL,https://jobs.51job.com/kunshan/173194159.html?s=sou_sou_soulb&t=0_0&req=7a7ec7a17d014d38b36be6ee82da9e8a
+软件工程师（激光振镜软件系统）,苏州卡门哈斯激光技术,2-3.5万,苏州·苏州工业园区,苏州,本科,3年及以上,2026-07-20 09:42:20,job51,"1.	设计、开发和维护激光振镜软件系统；
+2.	参与软件调试、性能优化、故障排查、代码审查、代码重构等工作，确保软件质量和稳定性；
+3.	编写和执行单元测试，并参与集成测试，验证软件的功能和一致性；
+4.	撰写软件相关的架构书、设计文档、使用说明文档、测试报告等，记录软件开发过程和技术文档；
+5.	跟踪激光振镜和相关领域的技术发展，不断学习和提升专业知识，推动软件系统的创新和改进；
+岗位要求：
+1.	本科及以上学历，计算机、电子、自动化控制等相关专业背景优先考虑；
+2.	熟练掌握C/C++编程语言，熟练使用Qt,具备良好的编码风格和代码质量意识，熟悉设计模式、多线程/多进程、网络编程等；
+3.	能够设计和开发高性能、可扩展的软件系统，熟悉软件开发流程和常用工具；
+4.	熟悉Linux开发环境，熟练使用Git、CMake等常用开发工具；
+5.	掌握一种或多种软件调试或优化方法，具备故障排查和性能优化的经验；
+6.	具备良好的逻辑思维能力，善于发现和解决问题，对技术细节有较强的把控能力；
+7.	具备较强的自学能力和持续学习的意愿，能够跟踪和学习新的技术和工具；
+8.	良好的文档编写能力，能够撰写清晰、准确的技术文档。
+
+加分项：
+1.	熟悉运动控制领域相关知识，对激光振镜运动的原理和应用有所了解；
+2.	掌握跨平台C++编程，熟悉不同操作系统下的开发特点和技巧；
+3.	熟悉ARM体系架构或指令集，有嵌入式系统开发经验；
+4.	熟悉OpenCascade库；",C++ Linux Git CMake ARM 故障排查 技术文档 文档编写,https://jobs.51job.com/suzhou-gyyq/169489472.html?s=sou_sou_soulb&t=0_0&req=7a7ec7a17d014d38b36be6ee82da9e8a
+嵌入式软件工程师,赛默飞世尔科技（中国）,1.8-2.8万·14薪,苏州·高新区,苏州,本科,5年及以上,2026-07-30 11:16:20,job51,"Position Summary: 
+The Embedded Software Engineer will be responsible for building internal capability in ULT control systems and test software platforms.
+In addition to supporting firmware understanding and troubleshooting for ULT products, this role will gradually establish ownership of the ULT performance testing software architecture and data management systems, reducing dependency on external suppliers and strengthening long-term technical capability
+
+
+Key Responsibilities:
+
+ULT Control System Support:
+•	Learn and understand ULT controller firmware architecture 
+•	Support troubleshooting of software-related product issues 
+•	Work with global R&amp;D on software modifications and verification 
+Test Software Platform Ownership:
+•	Develop understanding of current ULT performance test software 
+•	Establish internal ownership of software configuration and maintenance 
+•	Reduce dependency on external software suppliers 
+Data Integrity &amp; Digitalization:
+•	Manage test data collection and storage systems 
+•	Improve data traceability and reporting capability 
+•	Develop automated test reporting tools 
+Validation Support:
+•	Support software verification and validation activities 
+•	Develop test scripts and automation tools 
+•	Ensure software compliance with quality requirements 
+Future Capability Building:
+•	Support digitalization initiatives 
+•	Explore AI and data analytics applications 
+•	Build internal software know-how for future product platforms 
+AI &amp; Digital Engineering
+•	Develop AI-assisted tools for test data analysis and anomaly detection. 
+•	Implement digital solutions for engineering productivity improvement. 
+•	Support digital transformation initiatives across validation and engineering functions. 
+•	Explore AI applications in predictive diagnostics and product performance analysis.
+
+
+
+Qualifications:
+•	BS/MS in Software Engineering, Computer Science, Automation, Electrical Engineering or related field 
+•	Experience with embedded systems or industrial controls 
+•	Familiar with C/C++, Python, SQL 
+•	Experience with test automation systems preferred 
+•	Experience with LabVIEW, PLC, or industrial software platforms preferred 
+•	Strong analytical and troubleshooting skills
+
+Success Metrics
+•	Establish internal ownership of ULT firmware and test software platforms. 
+•	Eliminate critical dependency on external software suppliers. 
+•	Improve test data traceability and reporting efficiency. 
+•	Deliver at least one digitalization or AI-enabled engineering project annually. 
+•	Build a scalable digital foundation for future product development.",Gin DiT Git RAG ROS C++ Python SQL Scala,https://jobs.51job.com/suzhou-gxq/173095569.html?s=sou_sou_soulb&t=0_0&req=7a7ec7a17d014d38b36be6ee82da9e8a
+软件工程师,昆山古鳌电子机械,1.5-2万,昆山,苏州,本科,2年及以上,2026-08-04 10:41:18,job51,"专业技能：
+1.电子、通讯、计算机等相关专业，有2年以上Linux开发经验；
+2.精通C/C++语言，多线程，多进程，内存共享，网络通信编程技术，熟悉TCP/IP协议和HTTP协议，有嵌入式web后台服务器开发经验；
+3.掌握RS232/RS485/RS422、I2C、SPI、SBUS、USB等接口协议；
+4.熟悉嵌入式Linux相关开发、调试、优化工具。
+其他要求：
+嵌入式软件工程师负责设计、开发、测试及维护嵌入式系统，确保功能实现与性能优化。",Linux C++ TCP/IP I2C SPI 嵌入式Linux,https://jobs.51job.com/kunshan/171311108.html?s=sou_sou_soulb&t=0_0&req=7a7ec7a17d014d38b36be6ee82da9e8a
+软件工程师（工业影像系统）,苏州奥图思智能科技,1.5-2.5万,苏州·苏州工业园区,苏州,本科,2年及以上,2026-07-17 15:21:12,job51,"工作职责：
+1.开发工业影像系统软件架构，包括整合UI，上位机以及影像链各模块；
+2.与电子工程师合作，设计与开发工业影像系统上位机系统程序；
+3.与重建算法工程师、物理算法工程师、后处理算法工程师合作开发工业影像系统影像链架构程序（包括算法调用，资源分配和调度、异构并行计算等）；
+4.对算法程序进行重构（C++或python）；
+5.配合产品经理与客户交流，理解客户需求并开发工业影像系统用户界面（UI）；
+6.为实验和系统工程师开发相关工具。
+
+任职要求：
+1.大学计算机科学或相关领域本科及以上学历；
+2.精通C++，熟悉数据结构及设计模式，并有良好的编程习惯，规范的代码管理方法；
+3.英语读写能力无障碍，能够阅读英文专业论文和技术文档；
+4.能够同时处理多项任务，有较强的责任心、善于沟通、勤奋踏实、富有团队合作精神。
+
+有以下经验者优先：
+1.硕士以上学历或有2年及以上软件开发工作经验；
+2.熟悉python，有实际python开发经验；
+3.有AI辅助编程工具，比如claude code经验者优先
+4.熟悉医用开源软件VTK、ITK、以及Qt、OpenCV；
+5.熟悉并行计算，有CUDA编程经验;
+6.有工业图形软件项目开发经验；
+7.有良好的图形学和数学基础。
+8.有一定组织和管理能力者优先；",C++ Python OpenCV 技术文档 UI ITK,https://jobs.51job.com/suzhou-gyyq/172951716.html?s=sou_sou_soulb&t=0_0&req=9c48103a154914a1f4c6ec9637ecab17
+嵌入式linux 应用软件开发工程师,昆山古鳌电子机械,1.5-2万,昆山,苏州,本科,2年及以上,2026-08-04 10:41:18,job51,"1.电子、通讯、计算机等相关专业，有2年以上Linux开发经验；&nbsp;
+&nbsp;2.精通C/C++语言，多线程，多进程，内存共享，网络通信编程技术，熟悉TCP/IP协议和HTTP协议，有嵌入式web后台服务器开发经验；
+&nbsp;3.掌握RS232/RS485/RS422、I2C、SPI、SBUS、USB等接口协议；
+&nbsp;4.熟悉嵌入式linux相关开发、调试、优化工具
+5.负责设计、开发、测试及维护嵌入式系统，确保功能实现与性能优化。",Linux C++ TCP/IP I2C SPI 嵌入式Linux,https://jobs.51job.com/kunshan/171565161.html?s=sou_sou_soulb&t=0_0&req=9c48103a154914a1f4c6ec9637ecab17
+IVUS软件工程师（图像/算法方向）,鑫云生命科学技术（苏州）,1-2万·13薪,苏州·苏州工业园区,苏州,硕士,5年及以上,2026-07-14 14:19:22,job51,"【岗位职责】
+1.成像算法开发：负责IVUS超声原始射频（RF）信号的采集、解调、滤波、波束合成及B模式图像重构，提升图像清晰度与对比度。
+2.AI智能分析：开发基于深度学习的IVUS影像自动分析算法，包括但不限于：血管内外膜自动识别与分割、斑块性质（钙化/纤维/脂质）自动分类、支架贴壁/膨胀不良自动检测、三维血管重建。
+3.软件系统开发：基于C/C++/C#/Python开发IVUS上位机控制软件，实现超声参数调节、图像实时显示、回撤控制、测量分析及报告生成等功能。
+4.多模态融合：参与DSA与IVUS影像的融合配准算法开发，辅助手术导航。
+5.合规与落地：编写软件设计文档（SDD），确保代码符合医疗器械软件生存周期标准，配合完成AI三类证注册。
+
+【任职要求】
+1.硕士及以上学历，计算机科学、生物医学工程、自动化、应用数学等相关专业。
+2.5年以上医学影像（超声、CT、MRI）处理或算法开发经验。
+3.精通C/C++，熟悉Qt/WPF等界面开发框架；熟练掌握Python及OpenCV、SimpleITK、PyTorch/TensorFlow等库。
+4.深入理解数字信号处理（DSP）、滤波算法及图像增强算法。
+5.熟悉DICOM、NIfTI等医学影像格式及通讯协议。
+
+加分项：
+1.有IVUS、OCT或内镜图像处理经验者优先。
+2.有医疗AI项目落地经验（如病灶分割、目标检测）者优先。
+3.了解GPU加速（CUDA/OpenCL）、熟悉FFRct或计算流体力学（CFD）相关算法、有三类医疗器械软件开发经验者优先。
+
+工作地点：苏州、南京，具体薪资面议。",深度学习 C++ C# Python 多模态 OpenCV PyTorch TensorFlow DSP 合规,https://jobs.51job.com/suzhou-gyyq/172904159.html?s=sou_sou_soulb&t=0_0&req=9c48103a154914a1f4c6ec9637ecab17
+C++点云算法工程师,派姆特科技（苏州）,2.5-2.8万,苏州,苏州,本科,2年及以上,2026-07-10 16:08:51,job51,"【工作内容】
+1、负责激光扫描数据实时处理，包括：特征提取、点云采样、融合、噪声剔除、平滑、网格化等；
+2、负责网格化数据的修复、降噪、精简、补洞等算法开发;
+3、负责相关算法模块的测试、维护，编写相关设计文档;
+4、能解决三维测量软件在开发过程中的技术难题，应用前沿技术提升产品的核心竞争力。
+
+【任职要求】
+1、计算机、通信、信息科学，自动化、摄影测量与遥感、测绘或相关专业本科及以上学历，具备扎实的数学与编程基础；
+2、数学基础好，尤其是线性代数及基本的空间几何运算；
+3、精通三维点云、网格数据处理算法，具有点云处理相关开发经验，有扎实的机器视觉、图像处理理论基础；
+4、熟练掌握C++编程，有使用过CUDA者优先；
+5、有用过CGAL、vcglib、openmesh者优先；
+6、具有2年以上点云算法实战经验者优先；
+7、具备良好的逻辑思维能力、英语文档阅读能力及团队协作精神。",C++ vcglib,https://jobs.51job.com/suzhou/172870825.html?s=sou_sou_soulb&t=0_0&req=9c48103a154914a1f4c6ec9637ecab17
+嵌入式linux软件开发工程师,广东锐博软件科技,1.5-1.9万,昆山,苏州,本科,2年及以上,2026-07-23 10:34:54,job51,"1.负责嵌入式设备的开发和维护，系统的集成调试和产品测试；&nbsp;
+&nbsp;2.负责嵌入式Linux平台应用层软件设计与开发；
+&nbsp;3.与底层软件开发人员共同制定底层驱动与上层软件接口；
+&nbsp;4.根据需求文档，编写概要设计、详细设计，并开发相应模块代码。
+
+任职要求：&nbsp;
+&nbsp;1.本科及以上学历，电子、通讯、计算机等相关专业，有3年以上嵌入式开发经验；&nbsp;
+&nbsp;2.精通C/C++语言，多线程，多进程，内存共享，网络通信编程技术，熟悉TCP/IP协议和HTTP协议，有嵌入式web后台服务器开发经验；
+&nbsp;3.掌握RS232/RS485/RS422、I2C、SPI、SBUS、USB等接口协议；
+&nbsp;4.熟悉嵌入式linux相关开发、调试、优化工具。",嵌入式Linux C++ TCP/IP I2C SPI RS485 RS422 SBUS,https://jobs.51job.com/kunshan/173013354.html?s=sou_sou_soulb&t=0_0&req=9c48103a154914a1f4c6ec9637ecab17
+高级软件工程师,苏州迪凯尔医疗科技,1.5-2.5万,苏州·苏州工业园区,苏州,本科,3-5年,2026-08-05 14:03:07,job51,"职位描述：
+1）负责公司口腔种植手术导航产品的软件设计、开发（C++为主）
+2）按规定完成软件工程要求的有关技术方案、设计开发文档的编写
+3）参与产品的验证、确认的活动
+4）负责知识产权的输出，包括专利、软著
+
+任职资格
+学历 本科及以上（211、985）
+专业 计算机相关专业（专业课程学习过数据库、操作系统、数据结构、计算机网络、图形图像等）
+1、 熟练掌握C++
+2、 具有较好的软件设计能力，熟悉设计模式、面向对象编程规范
+3、 编程时充分考虑可读性、可扩展性、兼容性，注重代码的性能
+4、 愿意主动进行代码重构；
+5、 熟悉敏捷开发流程经验者优先",C++ 技术方案 知识产权 专利,https://jobs.51job.com/suzhou-gyyq/137639891.html?s=sou_sou_soulb&t=0_0&req=9c48103a154914a1f4c6ec9637ecab17
+上位机软件开发工程师(J10634),苏州天孚光通信,1.2-2.4万·14薪,苏州·高新区,苏州,本科,5年及以上,2026-08-04 17:03:27,job51,"工作职责:
+1、负责公司自动化设备的上位机人机交互显示界面程序设计。
+2、根据设备设计方案完成软件设计，并完成调试及测试工作。
+3、对现有产品进行改进，提供全面的技术支持与协助。
+4、编写相关开发文档、技术支持文档、使用说明等。
+5、对设备使用部门进行培训，使设备能够顺利投产。
+6、完成领导安排的临时任务。
+Job Responsibilities
+1. Be responsible for the programming design of HMI display for the upper computer of the company’s automated equipment.
+2. Complete software design, commissioning and testing in accordance with equipment design specifications.
+3. Improve existing products and provide comprehensive technical support and assistance.
+4. Compile relevant development documents, technical support documents, operation manuals and other materials.
+5. Conduct training for equipment operation departments to ensure smooth commissioning and mass production of equipment.
+6. Complete ad-hoc tasks assigned by supervisors.
+任职资格:
+1、本科及以上学历，自动化、计算机科学与技术、软件工程、电子信息工程等相关专业。
+2、精通LabVIEW开发，熟悉TestStand、C/C++、C#、Python等语言中的至少1-2种。
+3、掌握数据库操作（如SQL Server）及网络通信模块。
+4、熟悉常用的串行总线协议，比如Modbus等，熟练掌握Socket通信机制。
+5、熟练掌握数据库的使用及XML、JSON等数据结构。
+6、熟悉仪器控制（如万用表、示波器、信号发生器）、数据采集卡及传感器应用。
+7、具备运动控制经验（如多轴协调控制）、PLC通讯及HMI开发能力。
+8、能根据硬件原理图设计测试方案，优化生产测试效率。
+9、有完整产品开发经验者优先，计算机相关专业，英语四级及以上。
+10、熟悉各种通信接口，数据库操作。
+11、有较强钻研创新能力，较强的理解、沟通能力及分析解决问题的能力。
+Job Requirements
+1. Bachelor’s degree or above, majoring in Automation, Computer Science and Technology, Software Engineering, Electronic Information Engineering or other related disciplines.
+2. Proficient in LabVIEW development; familiar with at least one or two programming languages among TestStand, C/C++, C# and Python.
+3. Skilled in database operations (e.g. SQL Server) and network communication modules.
+4. Familiar with common serial bus protocols such as Modbus, and proficient in Socket communication mechanism.
+5. Proficient in database application as well as data structures including XML and JSON.
+6. Familiar with instrument control (such as multimeter, oscilloscope, signal generator), data acquisition cards and sensor applications.
+7. Possess experience in motion control (e.g. multi-axis coordinated control), with capabilities in PLC communication and HMI development.
+8. Capable of designing test solutions based on hardware schematic diagrams to improve production test efficiency.
+9. Candidates with full-cycle product development experience are preferred; major in computer-related disciplines with CET-4 or above.
+10. Familiar with various communication interfaces and database operations.
+11. Strong capability of independent research and innovation, together with good comprehension, communication skills and problem-solving abilities.",C++ C# Python SQL Server Modbus Gin Electron CAN Go 技术支持 培训 数据采集,https://campus.51job.com/tfcsz/jobinfo.html?jobid=173149775
+软件工程师（C++，半导体设备）,苏州德龙激光,1.5-2.5万,苏州·苏州工业园区,苏州,本科,5年及以上,2026-06-17 09:08:16,job51,"任职要求：
+1、本科及以上学历，计算机应用、软件工程等相关专业；
+2、5年以上软件开发经验，有设备控制软件开发经验者优先；
+3、熟练掌握C++编程，MFC或QT，了解运动控制卡（ACS）；
+4、具备设计要求独立完成软件编码的任务能力；
+5、具备良好的团队合作、积极主动沟通意识；
+6、具有良好的分析、解决问题的能力、对攻克疑难问题有浓厚兴趣。
+
+
+岗位职责：
+1、按照设计要求，分成分配的模块编码；
+2、按照要求，完成分配的模块设计文档和编码工作；
+3、参与代码的集成测试和系统联调工作；
+4、维护软件功能模块和系统；
+5、进行相关技术支持;
+6、跟踪问题点协助解决问题；
+7、与服务器的通讯开发；
+8、人机界面的设计开发；
+9、系统间接接口的开发；
+10、图形化监控软件的开发;
+11、主管安排的其他工作。
+
+所属部门：半导体事业部",C++ 技术支持 ACS,https://jobs.51job.com/suzhou-gyyq/145334966.html?s=sou_sou_soulb&t=0_0&req=9c48103a154914a1f4c6ec9637ecab17
+QT软件工程师,南通策林科技,1-1.5万,昆山,苏州,本科,2年及以上,2026-06-10 17:16:40,job51,"1.负责设备整体装配后等相关功能性测试与调整；
+2.负责项目相关的软件安装，远程控制功能与后续的软件升级迭代工作；
+3.负责项目设备交付过程中软件调试相关工作；
+4.熟练掌握常用Qt编程语言，具备良好的代码阅读与分析能力，具备一定的硬件知识，熟悉高端装备设备的硬件架构与工作原理，能够理解软件与硬件之间的交互逻辑；
+5.负责项目过程中，项目成本costdown专案开展工作；
+6.负责公司新进软件人员的培训与教育训练；
+7.负责项目软件相关的技术支持及领导交代的其他工作。
+
+职位要求：
+1.具有2年以上软件调试或测试相关工作经验，有高端装备半导体制造行业软件开发与调试经验者优先。
+2.参与过完整的软件项目开发周期，熟悉软件开发流程与项目管理规范。
+3.熟练AI辅助编程， 有工业机器视觉基础，halcon，OpenCV，python,
+4.熟悉神经网络，深度学习，良好的物理、数学、光学基础。
+加分项：
+1.熟悉各类通讯
+2.熟悉雷赛、固高等轴卡的应用与二次开发
+3.熟悉C#编程，VS上位机软件",OpenCV Python 深度学习 C# 培训 技术支持 项目管理,https://jobs.51job.com/kunshan/172502891.html?s=sou_sou_soulb&t=0_0&req=9c48103a154914a1f4c6ec9637ecab17
+Firmware软件工程师（武汉）,富士康电子工业发展（昆山）,2-4万·13薪,昆山,苏州,本科,2年及以上,2026-06-22 08:52:09,job51,"1. 计算机软件、通信、电子相关专业，2年以上光模块FW开发经验; 
+2. 具备扎实的C/C++编程基础；
+3. 有单片机编程经验；
+4. 精通12C、SPI、MDIO等通讯协议；
+5. 精通多线程，面向对象编程，熟悉常用的设计模式；
+6. 具有良好沟通、团队合作能力。有较强的分析和解决问题的能力，有较强的代码阅读及分析能力。
+岗位职责：
+1. 负责光模块Firmware开发与维护；
+2. 根据产品需求，进行Firmware相关功能的设计、开发、调试、测试等；
+3. 负责调试用上位机开发；
+4. 负责测试及技术文档的编写。",C++ 单片机 SPI 技术文档,https://jobs.51job.com/kunshan/171137589.html?s=sou_sou_soulb&t=0_0&req=9c48103a154914a1f4c6ec9637ecab17
+嵌入式软件工程师（机器人/AMR 底层）,江苏倍川自动化设备,1.5-2.5万·13薪,昆山,苏州,本科,3年及以上,2026-07-07 12:53:07,job51,"核心职责 (Core Responsibilities)：
+运动控制与底层固件：基于 MCU（如 STM32）开发高可靠性的底层驱动，实现电机（BLDC/伺服电机）的精确 PID 闭环控制与里程计（Odometry）计算。
+传感器集成：开发并优化底层通信协议（SPI, I2C, UART, CAN），稳定读取 IMU、超声波、防撞条、编码器等硬件数据。
+系统桥接：实现 MCU 与上位机（IPC）的高效实时通信（如 UART/USB 上的微型串口协议，或 Micro-ROS），确保控制指令和遥测数据的低延迟传输。
+安全与电源管理：负责 BMS（电池管理系统）数据解析，编写底层硬件看门狗（Watchdog）与急停（E-Stop）安全逻辑。
+
+任职要求 (Requirements)：
+熟练掌握 C/C++，具备扎实的嵌入式系统编程基础。
+熟悉 FreeRTOS、RT-Thread 或 Zephyr 等实时操作系统（RTOS）的并发控制与内存管理。
+具备良好的硬件基础，能看懂电子原理图，熟练使用万用表、示波器等仪器进行排障（Bring-up）。
+了解常见的工业总线与协议（如 CANopen, Modbus）。
+
+加分项：
+机械与结构能力：熟练使用 AutoCAD 或 SolidWorks，能够独立查看机械装配图，甚至能够进行简单的钣金、3D 打印结构件修改与设计。
+机器人系统经验：熟悉 ROS/ROS2 通信机制，了解底层固件如何与 Nav2 等导航堆栈进行联调。
+熟悉飞书 (Lark) 或 Jira 等数字化敏捷开发与协同工具。",MCU STM32 SPI I2C UART CAN ROS C++ RTOS Modbus,https://jobs.51job.com/kunshan/172382019.html?s=sou_sou_soulb&t=0_0&req=9c48103a154914a1f4c6ec9637ecab17
+图像算法工程师,小蜂光电科技（苏州）,2-3万,苏州·高新区,苏州,本科,5年及以上,2026-06-22 16:09:23,job51,"职责描述：
+1、负责计算机视觉相关算法的研究与开发；底层算法开发
+2、解决图像分类、目标检测、目标跟踪/图像分割等实际问题；
+3、使用深度学习C++框架进行模型开发训练，并完成模型的部署与优化；
+4、优化算法性能以适应实际应用场景的需求，包括边缘终端设备或云端部署；
+5、设计和实现图像处理相关的预处理、增强及后处理算法；
+6、撰写技术文档，与团队成员分享技术经验与成果；
+任职要求：
+1. 本科及以上学历，计算机科学、电子工程、图像处理等相关专业
+2. 具有较强的编程能力，熟练使用C/C++，熟悉OpenCV等常用算法库，熟悉VTK软件系统。
+3. 掌握常用图像处理算法，有图像分割、特征提取、物体检测、图像识别等相关研究和项目经验
+4. 有较强的文献阅读和算法实现能力；",计算机视觉 深度学习 C++ OpenCV 技术文档,https://jobs.51job.com/suzhou-gxq/166359139.html?s=sou_sou_soulb&t=0_0&req=9c48103a154914a1f4c6ec9637ecab17
+嵌入式软件工程师,江苏超达智能科技,1.5-2.5万,苏州·吴江区,苏州,本科,3年及以上,2026-07-20 20:02:12,job51,"岗位职责：
+1. 基于 Simulink/Stateflow 开发植保机器人 VCU 应用层模型（扭矩/转向/喷洒协同控制），完成 MIL/SIL 仿真验证。
+2. 基于 C++ 将模型代码或手写算法移植到嵌入式平台，集成 CAN 通讯、底软驱动及Bootloader。
+3. 负责台架与田间实车联调，解决转向抖动、扭矩突变、通讯丢帧等工程问题，确保算法与嵌入式运行等效。
+4. 遵循软件架构规范，撰写设计文档，支持 XCP/CCP 标定及实车参数调试。
+
+任职要求：
+1. 本科及以上，3 年以上嵌入式开发经验，至少 1 年 VCU 或机器人运动控制器项目实战。
+2. 精通 C++（C++11/14，多线程、内存管理），同时具备扎实的 C 语言驱动能力。
+3. 熟练使用 Simulink/Stateflow 建模，熟悉 CAN/CANFD、DBC 解析及 UDS 诊断，了解功能安全（ISO 26262）基本概念。",C++ CAN Simulink Stateflow VCU MIL SIL XCP,https://jobs.51job.com/suzhou-wjq/172977464.html?s=sou_sou_soulb&t=0_0&req=9c48103a154914a1f4c6ec9637ecab17
+嵌入式软硬件工程师,江苏超达智能科技,1.8-3万,苏州·吴江区,苏州,本科,3年及以上,2026-06-17 18:08:02,job51,"岗位职责：
+1. 基于 Simulink/Stateflow 开发植保机器人 VCU 应用层模型（扭矩/转向/喷洒协同控制），完成 MIL/SIL 仿真验证。
+2. 基于 C++ 将模型代码或手写算法移植到嵌入式平台，集成 CAN 通讯、底软驱动及Bootloader。
+3. 负责台架与田间实车联调，解决转向抖动、扭矩突变、通讯丢帧等工程问题，确保算法与嵌入式运行等效。
+4. 遵循软件架构规范，撰写设计文档，支持 XCP/CCP 标定及实车参数调试。
+
+任职要求：
+1. 本科及以上，自动化相关专业，3 年以上嵌入式开发经验，至少 1 年 VCU 或机器人运动控制器项目实战。
+2. 精通 C++（C++11/14，多线程、内存管理），同时具备扎实的 C 语言驱动能力。
+3. 熟练使用 Simulink/Stateflow 建模，熟悉 CAN/CANFD、DBC 解析及 UDS 诊断，了解功能安全（ISO 26262）基本概念。",C++ CAN Simulink Stateflow VCU MIL SIL XCP,https://jobs.51job.com/suzhou-wjq/172387944.html?s=sou_sou_soulb&t=0_0&req=9c48103a154914a1f4c6ec9637ecab17
+视觉感知算法工程师,宝时得科技（中国）,2.5-3.5万,苏州,苏州,硕士,3-6年,2026-06-12 12:00:36,job51,"岗位职责:
+1. 负责单目/双目深度估计算法调研、方案设计、开发与效果迭代优化。
+2. 完成相机标定、视差计算、图像预处理等视觉算法开发，保障测距、地形感知精度。
+3. 开展深度学习模型轻量化、量化与适配，完成嵌入式边缘平台部署与联调。
+4. 沉淀技术经验，参与研发流程优化与团队知识体系建设。
+
+任职资格:
+1. 硕士及以上学历，计算机视觉、人工智能、自动化等相关专业。
+2. 3 年及以上单目 / 双目深度估计、立体匹配相关算法研发经验，有机器人 / 车载户外场景落地经历优先。
+3. 熟练使用 C/C++、Python、OpenCV，掌握 PyTorch/TensorFlow 等主流深度学习框架。
+4. 熟悉 Linux 开发环境，有地平线、TI、安霸等嵌入式平台算法部署、优化经验优先。",深度学习 计算机视觉 C++ Python OpenCV PyTorch TensorFlow Linux 方案设计 流程优化,https://jobs.51job.com/suzhou/172530658.html?s=sou_sou_soulb&t=0_0&req=9c48103a154914a1f4c6ec9637ecab17
+软件工程师（苏州常熟）,上海科泽智慧环境科技,2-3万,常熟,苏州,本科,3-5年,2026-08-05 11:06:50,job51,"岗位职责
+
+1、负责环境分析类仪器、仪表产品的软件开发、维护，并持续优化固件性能；
+2、配合产品负责人完成业务算法与流程的实现与优化；
+3、使用 Git 管理 STM32 工程、Linux 应用代码，做好版本迭代、变更记录。
+4、输出配套文档：通信协议文档、软件设计说明、调试手册、版本更新说明、标定使用说明。
+5、配合测试部完成软件测试、BUG 回归，输出测试相关资料；支撑产品批量生产。
+6、编写简易出厂校准程序、整机自检程序，满足生产线烧录、自检需求。
+7、产品维护与迭代优化。
+
+任职要求
+
+1、本科以上学历，计算机软件、数学、电子、自动化等相关专业;
+2、具备扎实的C/C++编程能力，编码规范良好;
+3.、熟悉 Linux 常用命令、交叉编译、Linux 下多线程、串口、Socket 网络编程；掌握 Modbus、自定义串口协议，会使用协议分析仪排查通信问题；了解 全志A40i 、NXP i.MX6U5这类 ARM Linux 平台使用，看得懂设备树、能使用飞凌 SDK 建 Ubuntu 交叉编译环境，完成 ARM 平台程序编译、下载、部署、Linux 用户态开发、实现 A40i 与 STM32 的数据交互、业务算法实现、数据存储、网络功能开发、QT 嵌入式触摸屏界面开发、系统配置、根据需求简单修改设备树、配置系统外设资源，看懂原厂驱动 demo；
+4、熟练 STM32 开发 + FreeRTOS，熟悉各类常用外设，熟练使用VScode、keil等开发环境，基于 STM32 HAL库开发外设驱动GPIO、ADC、UART/RS485、SPI、I2C、TIM、CAN 等，编写设备底层固件，使用 FreeRTOS 搭建多任务框架，数据采集、总线收发、外设动作控制、故障检测、看门狗防护，实现 Modbus-RTU、自定义串口协议，完成数据打包、CRC 校验、重传、超时容错机制，原始 AD 数据滤波、零点标定、硬件采样数据预处理，配合算法输出原始检测值，固件调试、bug 修复，配合测试完成高低温、电磁兼容相关固件稳定性优化。
+5、能看懂基础硬件原理图，会使用基础测量调试仪器；
+6、具备良好的英语读写能力，能够独立、主动、负责任地推进工作，有较强的责任心与团队协作精神。有工控、水质分析仪、气体检测仪器类项目开发经验的优先。",Git STM32 Linux C++ Modbus ARM RTOS UART SPI I2C CAN 数据采集,https://jobs.51job.com/changshu/173157339.html?s=sou_sou_soulb&t=0_0&req=9c48103a154914a1f4c6ec9637ecab17
+软件开发工程师,苏州顺造科技,2-3万·14薪,苏州·高新区,苏州,本科,5年及以上,2026-07-09 14:46:13,job51,"1．参与软件系统的方案设计，负责公司机器人产品软件开发；
+2．不同平台下软件分析规划、功能模块开发和技术难点攻关；
+3．负责软件设计、代码编写和调试；
+4．负责相关技术文档的编写；
+5．负责指导助理软件工程师的开发工作，提供技术支持。
+任职资格：
+1.	精通C/C++语言，精通数据结构，具有良好的代码编写习惯；
+2.	熟悉MCU/ARM处理器架构，熟练掌握软件编译环境和软件调试工具；
+3.	熟悉小米iot的启动和接入流程，同时精通spec标准协议的服务-属性、方法、事件的解析；
+4.	了解ros或fast-dds消息与服务的通信机制；
+5.	有一定的算法学习研究、分析设计能力，对机器人技术感兴趣，具有创新思维；
+6.	有较强的分析和解决问题能力，有持续自我学习的能力和意愿，善于沟通和逻辑表达；
+7.	工作积极主动，具有团队协作能力，服从领导安排。",C++ MCU ARM ROS 方案设计 技术文档 技术支持,https://jobs.51job.com/suzhou-gxq/170635851.html?s=sou_sou_soulb&t=0_0&req=9c48103a154914a1f4c6ec9637ecab17
+上位机软件工程师,苏信半导体科技（苏州）,1.5-1.7万·13薪,苏州·吴中区,苏州,本科,3年及以上,2026-07-21 13:15:36,job51,"【岗位职责】
+1. 负责公司新产品需求分析，能实现自动化设备软件架构搭建，实现整机设备软体开发；
+2. 完成产品需求讨论，方案制定，搭建系统框架和软件系统的开发；
+3. 负责公司非标自动化设备的软件开发工作，软件的程序设计与代码编写；
+4. 负责开发软件流程，参与项目部分功能需求分析、技术评审；
+5. 负责与软件设计相关文档、说明书、软件产权交底书等的撰写、整理和归档工作；
+6. 负责设备机台的调试和验证。
+
+【任职要求】
+1. 本科及以上学历，计算机、软件开发相关专业；
+2. 三年以上自动化行业软件技术开发经验及自动化控制流程相关经验；
+3. 精通C/C++/C#编程，具备优秀的代码调试和解决问题能力；
+4. 熟悉ACS运动控制、雷赛或固高软件或者MEI动作控制软件；
+5. 熟悉设备标准MES等上位机软件开发；
+6. 熟悉串口通讯、网口通讯及多线程编程，能独立完成控制；
+7. 熟悉自动化控制流程、掌握数据结构、算法、多线程、多进程通信、面向对象的分析、设计和编程知识；
+8. 有半导体检测设备工作经验优先；
+9. 良好的团队精神和沟通能力，很强的逻辑思维能力和学习能力；
+10. 优秀的分析问题、解决问题和软件调试的能力和技巧；
+11. 可接受出差。",C++ C# 需求分析,https://jobs.51job.com/suzhou-wzq/172984350.html?s=sou_sou_soulb&t=0_0&req=9c48103a154914a1f4c6ec9637ecab17
+算法工程师,江苏金海创科技,8千-1.5万,镇江·京口区,苏州,硕士,3-4年,2026-06-16 09:23:37,job51,"岗位职责：
+1、负责电机数字化运动控制算法研究，模型仿真与验证；
+2、负责嵌入式系统信息配准融合，闭环检测等前端算法及后端算法的研发和优化；
+3、配合项目经理完成系统相关问题的对接与分析；
+
+任职资格：
+1、计算机科学、自动化、电气或相关领域硕士及以上学历，有扎实的控制论基础和控制算法实现能力;
+2、了解BLDC电机工作原理，具有摆式、音圈电机控制的项目经验为佳；
+3、熟悉PID、状态空间、模型观测等控制算法及相关项目经验为佳；
+4、熟练使用Matlab及Simulink电机仿真工具箱，具有电机建模的相关项目经验；
+5、具备较好的编程功底，熟练使用C及C++编程；
+6、熟悉嵌入式软件开发；
+7、具备独立思考能力和良好的沟通能力以及团队合作精神。",MATLAB C++,https://jobs.51job.com/zhenjiang-jkq/143445731.html?s=sou_sou_soulb&t=0_1&req=9c48103a154914a1f4c6ec9637ecab17
+算法工程师（生理信号类）,湖南科恩人力资源管理,2-3.5万,苏州·吴中区,苏州,硕士,3年及以上,2026-07-22 15:37:18,job51,"职责描述：
+1）依据公司产品开发要求，参与核心算法的设计、数学建模、实现与验证，推动算法模块从理论到工程的完整落地；
+2）负责核心业务算法的架构设计、研发与优化，攻克算法精度、性能、稳定性等关键技术瓶颈，构建可扩展的算法体系，保障算法系统的高可用与高效运行；
+2）负责相关算法类技术调研和设计文档编写等工作，跟踪算法领域前沿技术动态，开展技术预研与创新实践，将前沿技术转化为产品竞争力；
+4）负责对数据进行分析、整理、融合、挖掘工作；
+任职要求：
+1)数学/统计学/应用数学、软件工程、计算机、电子信息等相关专业硕士（含）以上学历，具有扎实的数学基础（概率统计、优化方法等），能够熟练阅读并理解英文论文并进行理论推导；
+2)具有3年以上算法研究，有特征工程、模式识别、信号处理等相关经验；对传感器算法有一定的了解和基础，能从业务问题中抽象出数学模型并形成解决方案；
+3)熟悉各种算法及开发优化流程，熟悉信号处理、数据挖掘、预测算法、滤波算法等算法原理；
+4)熟悉常见算法与优化流程，掌握时间序列分析、滤波算法、预测算法、数据挖掘方法，了解算法在工程化过程中的优化策略。
+5)精通 Python，熟悉MATLAB、Java、R、C/C++等编程语言（一项或多项），具备扎实的代码编写能力及代码规范意识；
+6)具有良好的逻辑思维能力、敏锐的数据洞察力、较强的总结归纳能力、积极的问题诊断和创造性的解决问题的能力；
+7)具有较强的沟通能力，能适应创业团队氛围；
+8)工作态度积极乐观，能够接受挑战和接受挑战，有极强的学习、提升各类专业技能的意愿；
+9)良好的职业操守，无不良从业记录。
+理想能力：
+1)医疗设备的数据分析算法，如血糖监测数据的预测模型；
+2)了解机器学习 / 数据挖掘 / 深度学习 /神经网络的算法原理；
+3)具有解决跨领域复杂问题的能力和经验。",高可用 Python MATLAB Java C++ 机器学习 深度学习 文档编写 数据分析,https://jobs.51job.com/suzhou-wzq/173004953.html?s=sou_sou_soulb&t=0_0&req=9c48103a154914a1f4c6ec9637ecab17
+嵌入式软件工程师,鑫君特（苏州）医疗科技,2.5-3.5万,苏州·虎丘区,苏州,本科,3年及以上,2026-06-18 13:38:35,job51,"【岗位职责】
+1. 负责开发、维护手术机器人外围设备应用和驱动程序
+2. 参与开发手术机器人机械臂应用控制及其相关应用开发；
+3. 根据要求编写规范的软件设计开发文档
+
+【任职资格】
+1. 本科及以上学历， 计算机、软件工程，电子等及其他相关专业；3年及以上工作经验
+2. 熟悉STM32系列MCU，熟悉Rt-thread/FreeRTOS 实时操作系统
+3. 了解嵌入式Linux环境下的C/C++ 软件开发，了解Qt开发框架优先
+4. 有机械臂运动控制相关经验优先
+5. 熟练使用常见工具：万用表，示波器，逻辑分析仪",STM32 MCU RTOS 嵌入式Linux C++ FreeRTOS,https://jobs.51job.com/suzhou-hq/172610473.html?s=sou_sou_soulb&t=0_0&req=1737c32daa8094c4a217c4d330b99722
+软件工程师,苏州华萃仪器,1.3-2.5万·13薪,苏州·相城区,苏州,本科,5年及以上,2026-07-24 11:55:03,job51,"岗位职责：
+1.负责光电子能谱仪及相关功能组件的控制软件与分析软件的开发与设计，确保系统功能符合技术规范和用户需求 2.负责上位机软件的设计、开发和维护，包括但是不限于：界面交互、数据采集、处理、存储以及通信等功能模块实现；
+3.依据项目需求，完成软件系统架构设计，确保系统的稳定性、扩展性与高效性，能针对不同硬件平台进行适配优化；
+4.负责解决上位机软件在开发、测试及客户使用过程中的各类技术问题，对软件进行性能优化与故障排查，持续提升软件质量。　
+任职要求：
+1、本科或以上学历，电子、通信、自动化、机械设计、电气工程及自动化，计算机、软件工程、仪器仪表及测控等相关理工科专业；
+2、具有5年及以上，上位机软件开发实际项目经验，有独立负责或主导开发完整上位机软件项目的经验。
+3、熟练掌握一种及一种以上主流编程语言，如C＃WPF、Python、C等并熟悉相关的开发平台和框架，使用多种编程语言和开发工具，。
+4、有PLC、RS232/485、TCP/IP等硬件接口和协议开发经验者；
+5、具有良好的沟通协作能力及一定抗压能力。
+6、有非标自动化设备软件开发经验者亦可。",Python TCP/IP 数据采集 故障排查 WPF RS232 TCP,https://jobs.51job.com/suzhou-xcq/169985939.html?s=sou_sou_soulb&t=0_0&req=1737c32daa8094c4a217c4d330b99722
+CAX软件开发高级工程师,深圳市汇川技术,3-6万·15薪,苏州·吴中区,苏州,本科,10年及以上,2026-07-29 23:02:12,job51,"岗位职责：
+1、参与CAX相关软件竞品分析与需求梳理工作，确保软件竞争力达成；
+2、承担CAX平台软件的开发任务，完成子模块的设计与开发工作；
+3、承担相应子模块的测试、维护和升级工作，保证软件良好运行；
+
+任职要求：
+1、计算机、自动化、机械工程、数学等相关专业；
+2、熟练掌握C/C++等编程技术，具备三年以上软件开发经验；
+3、熟悉Parasolid、ACIS、OCC三大几何引擎之一，具备5年以上相关内容开发经验；
+4、熟悉计算几何、曲线曲面算法、网格算法、数值优化方法，对常用CAD造型算法或者CAM轨迹算法有深刻理解,有0-1搭建几何引擎框架和产品经验优先；
+5、有仿真软件开发或使用经验者优先，包括OCC/solidworks等；
+6、具备良好的问题解决能力和逻辑思维能力，较强的沟通协调能力和团队合作精神。",C++ 竞品分析 ACIS,https://jobs.51job.com/suzhou-wzq/173090323.html?s=sou_sou_soulb&t=0_0&req=1737c32daa8094c4a217c4d330b99722
+软件工程师(J10219),苏州威达智科技,2-2.5万,苏州·苏州工业园区,苏州,本科,3年及以上,2026-07-20 17:28:33,job51,"工作职责:
+1.负责尺寸量测及定位算法的设计与开发；
+2.使用视觉对图像进行尺寸计算、对位引导、缺陷检测等算法编写；
+3.负责2D/ 3D 视觉方案开发，对尺寸检测和缺陷检测有扎实的功底；
+任职资格:
+1.全日制本科及以上学历，3年以上工作经验；
+2.熟练掌握 C# 软件开发。
+3.熟悉 Halcon/VisionPro视觉软件，或对海康VM，SCI等有熟悉的调试经验；
+4.对运动控制卡有开发调试经验（凌臣，固高等）
+5.有 2D/3D 视觉量测或 AOI 设备开发经验者优先；",C# Halcon AOI,https://jobs.51job.com/suzhou-gyyq/172976076.html?s=sou_sou_soulb&t=0_0&req=1737c32daa8094c4a217c4d330b99722
+软件开发工程师,苏州超盈睿视智能装备,1.8-3万·13薪,苏州·相城区,苏州,本科,1-3年,2026-07-24 16:06:12,job51,"岗位职责
+1. 参与公司工业测量软件的设计、开发、测试与迭代，负责核心模块的编码实现，确保软件的稳定性、可靠性与可扩展性。
+2. 负责3D视觉算法的落地与优化，包括但不限于点云处理、特征提取、相机标定、三维重建等，适配工业场景下的精密测量需求。
+3. 针对市面上主流工业机械臂进行二次开发，完成机械臂运动控制、路径规划、与测量软件的联动对接，解决集成过程中的技术难题。
+4. 针对3D和2D工业相机进行驱动程序开发，实现相机参数配置、图像采集、数据传输与处理，保障视觉采集的精准度与效率。
+5. 配合测试、产品等团队，完成软件调试、问题排查、用户反馈处理，持续优化产品性能与用户体验。
+6. 参与技术方案讨论、技术文档编写，沉淀开发经验，协助团队提升整体技术水平。
+7. 关注工业测量、3D视觉、机械臂控制领域的前沿技术，结合公司业务需求探索技术应用场景。
+
+任职要求
+1. 本科及以上学历，计算机科学与技术、软件工程、自动化、电子信息工程等相关专业，1-3年及以上工业软件开发经验。
+2. 熟练掌握C++和Qt，具备扎实的编程基础，熟悉数据结构、算法设计，能独立完成模块开发与调试。有机械臂运动控制、路径规划、机械臂仿真相关开发经验者优先。
+3. 了解工业测量相关知识，有3D视觉算法（点云处理、相机标定等）、PCL、Open3D、OpenCV等常用视觉算法库使用经验者优先。
+4. 熟悉至少一种主流通讯协议（如Modbus、EtherCAT、TCP/IP等），了解工业相机接口（GigE、USB3 Vision等），有相机采集、图像预处理开发经验者优先。
+5. 具备良好的文档编写能力，能规范编写技术设计文档、测试文档等。
+6. 具备良好的问题排查能力、逻辑思维能力，能快速定位并解决开发过程中的技术问题。",C++ OpenCV Modbus TCP/IP 技术方案 技术文档 文档编写,https://jobs.51job.com/suzhou-xcq/173034835.html?s=sou_sou_soulb&t=0_0&req=1737c32daa8094c4a217c4d330b99722
+BIOS工程师,长城国际信息技术（深圳）,1.5-2.5万,苏州·虎丘区,苏州,本科,3年及以上,2026-07-06 14:23:01,job51,"职位概述:
+主要负责计算机系统底层固件的开发、维护和优化，确保硬件与操作系统之间的兼容性和稳定性，工作内容涉及硬件初始化、系统启动流程管理、固件开发与调试，以及与硬件、电源、散热等多团队协作。
+
+岗位职责:
+1、BIOS设计与开发： 设计、开发和维护笔记电脑的BIOS，确保其与硬件组件和操作系统的兼容性；
+2、操作系统兼容性： 与操作系统团队合作，确保BIOS与各种操作系统（如Windows、Linux等）无缝协作；
+3、硬件驱动程序： 编写、测试和维护硬件驱动程序，以支持各种硬件设备的功能；
+4、BIOS更新、性能优化及安全性： 负责发布和管理BIOS更新，确保用户可以轻松升级系统；优化BIOS以提高系统性能和启动速度，降低能源消耗；实现Secure Boot（安全启动）、TPM（可信平台模块）支持，防御固件级攻击。
+5、问题排查与支持： 协助技术支持团队解决与BIOS相关的问题，提供支持和解决方案；
+6、测试与验证： 进行BIOS的功能测试和性能测试，确保其正常运作和稳定性；
+7、文档编制： 撰写和维护BIOS设计文档、更新日志和用户指南；
+8、新技术适配与创新。
+
+资格要求:
+
+1、本科或以上学历，计算机工程、电子工程或相关领域；
+2、3年以上UEFI/BIOS开发经验；
+3、精通汇编语言、C/C++等编程语言，对计算机体系结构、操作系统和硬件设备有深入的了解；
+4、具备硬件/固件级调试经验，能快速定位系统启动失败或兼容性等问题；
+5、可无障碍阅读英文技术文档如UEFI规范、芯片手册等；
+6、严谨的逻辑思维与问题分析能力；
+7、良好的团队合作和沟通技能，能够与不同部门的团队协作。",Linux 汇编 C++ 技术支持 功能测试 性能测试 技术文档,https://jobs.51job.com/suzhou-hq/168792324.html?s=sou_sou_soulb&t=0_0&req=1737c32daa8094c4a217c4d330b99722
+资深软件工程师,苏州德龙激光,1.5-2.5万,苏州·苏州工业园区,苏州,本科,5年及以上,2026-08-06 22:52:03,job51,"1、本科以上学历，计算机应用、软件工程、数学相关专业。
+2、5年以上实际软件开发经验，有设备控制软件开发经验者优先。
+3、熟练掌握C++编程语言，MFC或QT
+4、英文基础较好，熟练阅读英文文献。
+5、具备设计要求独立完成软件编码的任务能力。
+6、了解运动控制卡（ACS）。
+7、具备良好的团队合作、积极主动沟通意识。
+8、具有良好的分析、解决问题的能力、对攻克疑难问题有浓厚兴趣。
+
+岗位职责：
+1、 参与公司项目开发的立项工作，根据立项需要提出专业意见与建议。
+2、 承担公司大型项目或重要核心项目的开发。
+3、 完成计划开展项目的方案制订及开发流程。
+4、 完成上级分配的事业部软件技术支持任务。",C++ 技术支持 ACS,https://jobs.51job.com/suzhou-gyyq/114562199.html?s=sou_sou_soulb&t=0_0&req=1737c32daa8094c4a217c4d330b99722
+算法工程师,江苏超达智能科技,2-3.5万,苏州·吴江区,苏州,本科,3年及以上,2026-06-17 18:08:02,job51,"岗位职责：
+1、负责农业机器人车身 / 底盘运动控制算法开发：横纵向控制、轨迹跟踪、速度闭环、差速 / 阿克曼转向控制。
+2、基于车辆动力学 / 运动学建模，设计与实现 PID、LQR、MPC、滑膜等控制算法。
+3、负责机器人底盘标定、参数辨识、仿真验证与实车调试，提升行走精度与稳定性。
+4、适配田间复杂工况，优化抗干扰、防打滑、越障、差速控制策略。
+5、与嵌入式、硬件团队协作，完成算法在 Linux / 嵌入式平台部署、优化与产品化。
+6、编写算法设计文档、测试报告与标定规范。
+任职要求：
+1、本科及以上学历，自动化、控制工程、车辆工程、机器人、机电等相关专业。
+2、3年以上运动控制 / 车身控制 / 底盘控制算法开发经验。
+3、扎实控制理论基础，熟练掌握至少一种主流控制算法（PID/LQR/MPC/ 自适应控制）。
+4、熟练使用 C/C++/Python，熟悉 Matlab/Simulink/ROS 仿真与验证。
+5、熟悉无人车 / AGV / 机器人底盘动力学、差速 / 转向机构、电机与驱动器。
+6、有实车调试、底盘标定、轨迹跟踪项目经验优先。
+7、有农业机器人 / 智能农机 / 无人车行业背景优先",Linux C++ Python MATLAB ROS PID LQR MPC,https://jobs.51job.com/suzhou-wjq/172387886.html?s=sou_sou_soulb&t=0_0&req=1737c32daa8094c4a217c4d330b99722
+嵌入式软件开发工程师（ARM Linux / 网关方向）,欧梯恩智能科技（苏州）,2-4万,苏州·姑苏区,苏州,本科,5年及以上,2026-07-01 09:48:44,job51,"岗位职责
+1、负责物联网网关产品的嵌入式软件设计、开发与维护
+
+2、负责ARM Linux平台下的驱动开发、系统裁剪、BSP适配及底层优化
+
+3、负责网络通信协议（TCP/IP、MQTT等）的应用开发与调试
+
+4、配合硬件工程师完成板级调试及软硬件联调
+
+5、编写技术文档，参与专利、软著等知识产权申报
+
+任职要求
+1、本科及以上学历，计算机、电子、通信或相关专业
+
+2、5年以上嵌入式软件开发经验
+
+3、精通Linux环境下的C/C++编程，熟悉多线程、网络编程
+
+4、熟悉ARM平台（Cortex-A）的嵌入式Linux开发，有驱动或BSP经验
+
+5、熟悉常见外设接口：UART、SPI、I2C、USB、Ethernet等
+
+6、具备硬件调试能力，能看懂原理图，能使用示波器、逻辑分析仪等工具
+
+7、有网关、路由器、CPE等网络通信产品开发经验",ARM Linux TCP/IP MQTT C++ 嵌入式Linux UART SPI I2C 技术文档 专利 知识产权,https://jobs.51job.com/suzhou-gsq/172748787.html?s=sou_sou_soulb&t=0_0&req=1737c32daa8094c4a217c4d330b99722
+自动化软件工程师,昆山凯耀电子科技,8千-1.6万,苏州,苏州,大专,3年及以上,2026-07-19 19:28:07,job51,"计算机、自动化及相关专业大专及以上学历，具有自动化行业软件开发经验；
+2、精通C/C++/Labview等程序设计语言，熟悉VS开发环境和MFC机制，有良好的代码编写风格；
+3、熟悉OpenCV或Halocn库，会使用常用图像及图像算子处理方法；
+4、熟悉相关的元器件通讯搭建；
+5、有自动化行业工作经验优先；
+6、有团队合作精神，责任心强，能承受较强工作压力",C++ OpenCV,https://jobs.51job.com/suzhou/166859689.html?s=sou_sou_soulb&t=0_0&req=1737c32daa8094c4a217c4d330b99722
+算法工程师,江苏路航轨道交通科技,1-1.6万,昆山,苏州,本科,6年及以上,2026-06-22 14:30:37,job51,"职责描述:
+(1)研究先进AI算法模型;运用机器学习相关算法、技术，对数据或图像进行处理和分析，挖掘相关信息建立模型，赋能相关成果;
+(2)跟进机器学习相关技术的轨道交通行业发展，并能在实际产品中落地;
+(3)编写算法、模型设计技术文档，算法代码，试验、算法调优，算法业务效果验收。
+任职要求:
+较强的试验能力，熟悉C、C++，能够熟练Python以及使用TensorFlow或Pytorch等框架工具独立进行建模实验;数据敏感，有良好的逻辑思维和定义以及解决问题的能力;计算机、统计、大数据、载运工具安全监测等专业本科及以上学历毕业;具有6年以上相关工作经验，轨道交通行业优先。",机器学习 C++ Python TensorFlow PyTorch 技术文档,https://jobs.51job.com/kunshan/169407912.html?s=sou_sou_soulb&t=0_0&req=1737c32daa8094c4a217c4d330b99722
+嵌入式软件工程师（交换机）,太仓市同维电子,1-2万,苏州,苏州,本科,3年及以上,2026-07-22 11:49:34,job51,"岗位职责：
+1、负责交换机产品的软件开发和维护工作。
+2、负责交换机开发环境的搭建、SDK的编译以及输出相关说明、指导文档。
+3、负责编写软件设计文档，参与需求分析和讨论。
+4、与硬件团队协作，进行驱动开发和芯片SDK的集成与适配。
+5、负责或参与二层/三层网络协议（如STP、LLDP、ERPS、VLAN等）的开发与实现。
+6、负责对软件功能/代码进行调试和验证，设计测试用例，解决技术难题，优化性能。
+7、分析和解决产品在测试及现网运行中遇到的复杂技术问题。
+8、与团队合作，确保软件按时交付。
+
+岗位要求：
+1、计算机科学、电子工程、通信或相关专业本科及以上学历。
+2、3年以上网络设备软件开发经验。
+3、精通C/C++编程，具有良好的编程风格。
+4、熟悉linux操作系统，熟悉嵌入式系统开发和硬件驱动程序开发，
+5、熟悉网络基础知识，熟悉TCP-IP协议族、802.11、STP、LLDP、ERPS、VLANP等交换机二层、三层协议。
+6、有过交换芯片开发经验者，如broadcom、marvel、realtek、airoha中的一种或多种者优先，有过交换机操作系统项目经验
+7、具有良好的沟通和团队协作能力，工作态度积极主动，沟通表达能力较强，抗压能力较强，喜欢接受挑战。
+8、能够流利的使用英语（口语和书面）。",C++ Linux LTE 需求分析 测试用例 LLDP ERPS STP,https://jobs.51job.com/suzhou/169270037.html?s=sou_sou_soulb&t=0_0&req=1737c32daa8094c4a217c4d330b99722
+算法工程师,上海万业元创科技,2.5-3.5万,苏州·相城区,苏州,硕士,3-5年,2026-06-17 14:49:13,job51,"职责描述：
+1. 负责光学量测算法的研究&amp;开发，包括可行性分析，算法方案研究、原型开发、算法设计和实现，性能测试，和迭代优化； 光学测量系统的建模/仿真/校准算法；基于物理建模技术的测量算法（包含计算电磁场算法和反问题求解算法）
+2. 根据项目进度，负责研发计划制定和进展跟踪，负责技术文档和专利撰写
+3. 向客户提供技术支持，协同应用工程师分析和解决客户现场问题
+任职要求：
+1. 物理，数学，计算机，信息、电子工程等相关专业硕士及以上学历；
+2. 在以下至少一个领域具备良好的专业技术知识和技能； 科学计算中数值计算算法（包含但不限于以下领域：计算物理/计算成像/计算流体/计算生物等）；或者数值*优化方法/反问题求解算法；机器学习算法和应用；光学系统建模和校准算法
+3. 熟悉C/C++/Python/Matlab等一种或多种科学计算语言；
+4. 具备良好的数学建模和分析能力；
+5. 具备良好的团队合作精神和沟通能力，责任感强，工作认真仔细；
+6. 具备良好的技术英语阅读和书面表达能力；",机器学习 C++ Python MATLAB 性能测试 技术文档 专利 技术支持,https://jobs.51job.com/suzhou-xcq/172596333.html?s=sou_sou_soulb&t=0_0&req=1737c32daa8094c4a217c4d330b99722
+底层软件开发工程师,宝时得科技（中国）,2-3.5万,苏州,苏州,本科,5年及以上,2026-06-11 14:18:35,job51,"岗位职责:
+1、负责智能驾驶机器人产品的底层驱动开发及维护工作，特别关注传感器接口的高效集成与优化，包括但不限于摄像头、雷达、激光雷达等传感器；
+2、负责嵌入式文件系统构建工作，确保系统高效稳定运行，支持快速的数据交换与存储需求；
+3、主导嵌入式系统安全工作，特别是在传感器数据的安全传输与加密存储方面。
+4、负责嵌入式系统相关技术和解决方法的探索和落地，在传感器融合技术方面的应用；
+5、解决产品开发、质量控制等方面的技术问题，并形成报告或相关文件；
+6、参与方案、架构、协议及代码评审；
+7、参与公司新技术的评估及预研
+
+任职资格:
+1、本科及以上学历，计算机、软件工程、电子、自动化或相关专业优先；5年以上底层驱动相关工作经验，其中至少3年专注于传感器技术；
+2、精通各种传感器的工作原理和技术细节，例如陀螺仪、加速度计、摄像头、激光雷达等；
+3、熟悉Linux内核配置，熟悉内核内部知识（进程调度程序，中断处理，内存管理，并发/同步，内存分配，文件系统缓存）以及网络或存储子系统架构；
+4、熟练掌握C或C++编程语言，具备良好的编程习惯和代码优化能力；
+5、有实际的传感器驱动开发经验，包括但不限于I2C、SPI、UART等接口的传感器；
+6、熟悉buildroot, yocto，debootstrap等构建工具，熟悉dpkg包管理工具， 熟悉docker，qemu，了解工具链生成，熟练使用git及repo；
+7、具备良好的沟通能力和团队合作精神，能够承担压力并在紧急情况下迅速解决问题。",加密 Linux C++ I2C SPI UART Docker Git,https://jobs.51job.com/suzhou/172515583.html?s=sou_sou_soulb&t=0_0&req=1737c32daa8094c4a217c4d330b99722
+算法系统整合工程师,昆山富成科精密电子,6.5千-1.2万·13薪,昆山,苏州,本科,2年及以上,2026-07-22 16:29:38,job51,"专业技能:
+1.具控制算法、讯号处理、数值分析或系统建模能力。
+2.熟悉 C／C++、Python、MATLAB 或其他算法开发工具。
+3.具嵌入式系统、MCU、传感器讯号及硬件控制介接经验。
+4.熟悉马达控制、位置／压力感测、输注剂量换算与校正方法。
+5.具系统状态机、警报逻辑、异常侦测及故障安全机制设计能力。
+6.具数据分析、仿真测试、参数调校及算法验证经验。
+7.具App、韧体、电子硬件及系统通讯接口整合能力。
+8.具Patch Pump、输注帮浦、闭回路控制或医疗器材算法开发经验尤佳。
+
+要求：
+1. 本科及以上学历
+2. 2年以上工作经验
+3. 医工/信息/电机 相关专业",C++ Python MATLAB MCU 数据分析 Pump,https://jobs.51job.com/kunshan/173006579.html?s=sou_sou_soulb&t=0_0&req=1737c32daa8094c4a217c4d330b99722
+视觉算法工程师,浩科机器人（苏州）,1.5-2万,太仓,苏州,硕士,5年及以上,2026-06-15 13:07:43,job51,"岗位职责:
+1、开发及优化用于视觉标定和定位、缺陷检测的图像处理算法；
+2、撰写技术开发文档。
+
+任职要求:
+1、掌握相机选型、标定等相关理论知识，对计算机视觉算法有深入的理解；
+2、熟练使用C/C++、OpenCV、python等语言和工具，Halcon、Opencv至少掌握一种。
+3、有过2个以上的项目经验，有透明物体检测的项目经验的更好。",计算机视觉 C++ OpenCV Python Halcon,https://jobs.51job.com/taicang/172555802.html?s=sou_sou_soulb&t=0_0&req=1737c32daa8094c4a217c4d330b99722
+上位机软件工程师,智芯达真空设备（江苏）,1.5-1.7万·13薪,苏州·吴中区,苏州,本科,3年及以上,2026-06-16 10:15:17,job51,"（一）岗位职责：
+1. 负责公司新产品需求分析，能实现自动化设备软件架构搭建，实现整机设备软体开发；
+2. 完成产品需求讨论，方案制定，搭建系统框架和软件系统的开发；
+3. 负责公司非标自动化设备的软件开发工作，软件的程序设计与代码编写；
+4. 负责开发软件流程，参与项目部分功能需求分析、技术评审；
+5. 负责与软件设计相关文档、说明书、软件产权交底书等的撰写、整理和归档工作；
+6. 负责设备机台的调试和验证。
+
+（二）任职要求：
+1. 本科及以上学历，计算机、软件开发相关专业；
+2. 三年以上自动化行业软件技术开发经验及自动化控制流程相关经验；
+3. 精通C/C++/C#编程，具备优秀的代码调试和解决问题能力；
+4. 熟悉ACS运动控制、雷赛或固高软件或者MEI动作控制软件；
+5. 熟悉设备标准MES等上位机软件开发；
+6. 熟悉串口通讯、网口通讯及多线程编程，能独立完成控制；
+7. 熟悉自动化控制流程、掌握数据结构、算法、多线程、多进程通信、面向对象的分析、设计和编程知识；
+8. 有半导体检测设备工作经验优先；
+9. 良好的团队精神和沟通能力，很强的逻辑思维能力和学习能力；
+10. 优秀的分析问题、解决问题和软件调试的能力和技巧；
+11. 可接受出差。
+
+特别说明：工作地点：苏州吴中区
+ 公司名称：苏信半导体科技（苏州）有限公司",C++ C# 需求分析,https://jobs.51job.com/suzhou-wzq/172569972.html?s=sou_sou_soulb&t=0_0&req=1737c32daa8094c4a217c4d330b99722
+路径规划算法工程师,苏州顺造科技,2-4万·14薪,苏州·高新区,苏州,本科,4年及以上,2026-07-09 14:46:13,job51,"岗位职责：
+1、负责机器人路径规划、决策、避障算法的开发、实现与调试；
+2、负责机器人运动轨迹规划算法和优化相关研究工作，提高机器人控制精度、流畅性、稳定性；
+3、根据项目要求，负责相应算法的移植、优化及产品化。
+任职要求：
+1、计算机、控制、电子工程、机械电子等相关专业；
+2、熟悉常用的路径规划算法，包括但不限于A*Hybrid A*、DWA、TEB、lattice planner；
+3、熟悉扫地机项目者优先；
+4、熟悉C/C++编程，熟悉常用的数据结构；
+5、有ROS 开发经验者优先，熟悉Linux；
+6、了解MDP、PID、 MRP、LQR等算法。",C++ ROS Linux Hybrid DWA TEB PID MRP,https://jobs.51job.com/suzhou-gxq/164606148.html?s=sou_sou_soulb&t=0_0&req=1737c32daa8094c4a217c4d330b99722
+软件工程师,深圳市镭沃自动化科技,1.5-3万·13薪,苏州·吴中区,苏州,本科,5年及以上,2026-06-22 10:51:10,job51,"【岗位职责】
+1、负责激光自动化设备的控制架构设计与软件开发；
+2、负责核心代码的维护升级； 
+3、主导激光设备控制软件的全生命周期开发，涵盖产品需求沟通、功能规划、技术实现； 
+4、熟练使用C++/C#/.NET开发激光控制软件，集成振镜控制、运动控制、PLC、CCD视觉、MES交互、机器人、OCR等功能模块；
+ 5、快速响应产品升级和错误修订需求，提供良好高效的技术支持；
+ 6、维护公司项目，持续优化。
+
+【任职要求】
+ 1、计算机/自动化/光电子工程相关专业本科及以上学历，5年以上 C/C++软件开发经验； 
+ 2、熟悉VC6.0\VS\Qt任何一种开发平台；熟悉运动控制和振镜控制原理，并具有相关工作、项目经验；具备串口、TCP/IP、Webservice等通信、运动控制开发等能力；
+ 3、熟悉激光控制原理，具有JCZ、RTC等控制卡二次开发软件经验者优先； 
+ 4、具备良好的代码风格和习惯、编写规范的代码；
+ 5、具备良好的沟通能力和团队合作精神、有良好的学习能力和强烈的进取心和创新意识。 
+
+【福利待遇】
+1、薪酬：与付出、结果成正比的薪酬结构：年终奖，不定期加薪；
+2、培训发展：完善的培训体系、公平公正的晋升通道及人性化的管理；
+3、保险制度：六险一金（商业保险法、定社会保险（养老、医疗、生育、工伤、失业、住房公积金）；
+4、福利金：公司给予员工节日庆祝、年度全套健康体检；
+5、良好的办公环境，产业园及办公室为全新装修，人性化管理，公司提供下午茶及点心；
+6、丰富的员工活动：每年组织全员外出活动，不定期组织员工聚餐、生日party、团建等活动；
+7、五天制八小时工作制，让你工作生活平衡；
+8、优秀的员工享有出国机会。
+ 公司欢迎优秀、有想法的你加入吧！",C++ C# TCP/IP 技术支持 培训 PLC VS TCP,https://jobs.51job.com/suzhou-wzq/170950691.html?s=sou_sou_soulb&t=0_0&req=1737c32daa8094c4a217c4d330b99722
+下位机软件开发工程师（嵌入式）,苏州睿仟科技,2-3万,苏州,苏州,本科,3年及以上,2026-06-18 16:24:08,job51,"一、工作职责：
+1.参与整机需求与评审，独立承担下位机研发项目，负责需求梳理、架构设计、模块开发与性能优化（实时性、控制精度等）、接口协议等；
+2.独立完成底层驱动开发、多任务的开发、通信协议的开发等保证各模块及设备的实时控制；
+3.联动其他专业组（硬件，液路，光学，上位机等）完成产品的联调与测试工作；
+4.推进下位机从研发到生产转化，解决转产问题，输出工艺文件（设计文档、测试用例等）
+5.完成产品说明书、技术要求（下位机部分）、注册资料等技术文档输出和版本控制；
+6.确保设计符合 IVD 行业标准与法规，跟踪新技术并推动产品创新；
+7.领导安排的其它工作。
+
+二、任职资格： 全日制本科以上学历，计算机、通信、电子工程、自动化、软件工程等专业，掌握嵌入式系统原理、微控制器架构、电路基础知识及原理等理论基础。
+
+三、工作经验： 
+1、有3年以上化学发光仪器或同类仪器下位机软件开发经验；
+2、熟练 C/C++/Linux、精通STM32 开发；
+3、熟悉硬件接口驱动、RTOS，了解 PID 算法、传感器校准者优先。​
+4、看懂硬件原理图、 datasheet，能独立排查IO、时序、模拟电路问题。
+
+四、其他要求：
+1. 有良好的沟通能力、表达能力及学习能力；
+2. 有良好的团队合作精神，工作认真负责；
+3. 热爱软硬件技术开发，有钻研精神。",C++ Linux STM32 RTOS 测试用例 技术文档,https://jobs.51job.com/suzhou/172614938.html?s=sou_sou_soulb&t=0_0&req=1737c32daa8094c4a217c4d330b99722
+嵌入式软件工程师,上海古鳌电子科技,1.5-1.8万,昆山,苏州,本科,3-4年,2026-06-15 15:01:12,job51,"此岗位包食宿
+工作职责:
+1、负责公司产品嵌入式软件部分研发；
+2、使用C/C++语言进行嵌入式产品开发，参与嵌入式软件需求开发、设计、修改工作；
+3、按照操作流程进行软件整体设计、详细设计和编码；
+4、按照需求进行软件修改；与售后进行沟通，协助售后解决产品中出现的问题。
+岗位要求：
+1、本科、硕士学历，计算机、电子、控制或相关专业；
+2、熟练掌握C/C++程序设计语言和数据结构，能够进行简单的嵌入式应用软件架构设计；
+3、了解单片机、ARM(STM32)、DSP (TI28系列芯片)相关项目开发，掌握其中一种芯片
+开发环境，具备较强的软件设计和调试能力优先考虑；
+4、掌握SPI、CAN、485、USB口、I2C等接口协议开发；
+5、具备相关硬件电路调试能力；
+6、熟悉软件技术文档的编写；具备良好的文档编制习惯和代码书写规范；",C++ 单片机 ARM STM32 DSP SPI CAN I2C 技术文档,https://jobs.51job.com/kunshan/171321403.html?s=sou_sou_soulb&t=0_0&req=705e98a8840834dc37db72ac0e195057
+软件工程师,上海科泽智慧环境科技,2-3万,常熟,苏州,本科,3-5年,2026-07-31 15:29:50,job51,"岗位职责
+
+1、负责环境分析类仪器、仪表产品的软件开发、维护，并持续优化固件性能；
+2、配合产品负责人完成业务算法与流程的实现与优化；
+3、使用 Git 管理 STM32 工程、Linux 应用代码，做好版本迭代、变更记录。
+4、输出配套文档：通信协议文档、软件设计说明、调试手册、版本更新说明、标定使用说明。
+5、配合测试部完成软件测试、BUG 回归，输出测试相关资料；支撑产品批量生产。
+6、编写简易出厂校准程序、整机自检程序，满足生产线烧录、自检需求。
+7、产品维护与迭代优化。
+
+任职要求
+
+1、本科以上学历，计算机软件、数学、电子、自动化等相关专业;
+2、具备扎实的C/C++编程能力，编码规范良好;
+3.、熟悉 Linux 常用命令、交叉编译、Linux 下多线程、串口、Socket 网络编程；掌握 Modbus、自定义串口协议，会使用协议分析仪排查通信问题；了解 全志A40i 、NXP i.MX6U5这类 ARM Linux 平台使用，看得懂设备树、能使用飞凌 SDK 建 Ubuntu 交叉编译环境，完成 ARM 平台程序编译、下载、部署、Linux 用户态开发、实现 A40i 与 STM32 的数据交互、业务算法实现、数据存储、网络功能开发、QT 嵌入式触摸屏界面开发、系统配置、根据需求简单修改设备树、配置系统外设资源，看懂原厂驱动 demo；
+4、熟练 STM32 开发 + FreeRTOS，熟悉各类常用外设，熟练使用VScode、keil等开发环境，基于 STM32 HAL库开发外设驱动GPIO、ADC、UART/RS485、SPI、I2C、TIM、CAN 等，编写设备底层固件，使用 FreeRTOS 搭建多任务框架，数据采集、总线收发、外设动作控制、故障检测、看门狗防护，实现 Modbus-RTU、自定义串口协议，完成数据打包、CRC 校验、重传、超时容错机制，原始 AD 数据滤波、零点标定、硬件采样数据预处理，配合算法输出原始检测值，固件调试、bug 修复，配合测试完成高低温、电磁兼容相关固件稳定性优化。
+5、能看懂基础硬件原理图，会使用基础测量调试仪器；
+6、具备良好的英语读写能力，能够独立、主动、负责任地推进工作，有较强的责任心与团队协作精神。有工控、水质分析仪、气体检测仪器类项目开发经验的优先。",Git STM32 Linux C++ Modbus ARM RTOS UART SPI I2C CAN 数据采集,https://jobs.51job.com/changshu/173113328.html?s=sou_sou_soulb&t=0_0&req=705e98a8840834dc37db72ac0e195057
+软件开发工程师,明益信（江苏）智能设备有限公司昆山,1.2-2.4万,昆山,苏州,本科,3-10年,2026-06-16 10:01:29,job51,"职位描述：
+1.负责设备上位机程序的编写，包括软件界面编写，运动控制程序设计，检测算法，操作数据库的编程；
+2.使用激光和相机处理检测等功能；
+3.与PLC进行通讯以及上传服务器编程；
+任职要求：
+1.统招本科及以上学历以上，信息与计算科学或计算机专业优先, 欢迎优秀毕业生。
+2.精通C#, C++高级语言编程
+3.从事过设备控制软件独立开发，熟悉运动控制，串口，网口通讯，熟悉数据库编程。
+4.能适应出差加班
+5.有视觉软件开发经验优先（halcon 或 Opencv）
+6.精通数学算法，从事过检测组装软件开发者优先",C# C++ OpenCV Opencv,https://jobs.51job.com/kunshan/172569429.html?s=sou_sou_soulb&t=0_0&req=705e98a8840834dc37db72ac0e195057
+软件工程师,苏州麦裴特供应链,2.5-3.5万,苏州·相城区,苏州,硕士,3-5年,2026-07-02 15:23:19,job51,"1.	负责高精度激光加工设备的上位机控制软件开发，包括系统架构设计、人机交互界面开发及核心控制逻辑实现；
+2.	承担运动控制模块开发工作，基于高精度运动平***成运动控制卡选型、参数配置、轨迹规划及运动精度补偿算法的开发与调试；
+3.	负责激光器控制模块的开发，包括激光器参数下发、出光时序控制、功率闭环调节及与运动系统的协同联动；
+4.	协同机械、光学及电气团队进行设备整机联调，定位并解决软件控制层面的时序冲突、抖动超差、位置精度不达标等系统性问题；
+5.	负责视觉引导或定位模块的集成开发，完成图像采集、模板匹配、定位坐标计算及与运动系统的坐标标定与数据交互；
+6.	编写软件设计文档、接口说明文档及调试记录，确保技术文档完整、规范、可追溯。
+【任职要求】
+1.	学历专业：全日制硕士及以上学历，计算机科学与技术、软件工程、自动化、控制工程、机电一体化等相关专业；
+2.	工作经验：具备3~5年激光设备行业软件开发工作经验；
+3.	核心硬性条件：
+o	必须具有激光加工设备的软件开发实战经历；
+o	必须具有独立完成关键部件选型的实际项目经验，能够根据技术需求输出选型方案并完成供应商技术评审；
+o	必须具有高精度运动平台的实际控制与调试经历，熟悉精度补偿、加减速规划、轨迹平滑等关键技术；
+4.	编程技能：精通C++或C#，熟悉面向对象设计模式，有Qt或WPF等主流框架的桌面端软件开发经验，具备良好的代码规范与工程化能力；
+5.	运动控制：熟悉主流运动控制卡的API调用与参数整定，掌握PID控制、前馈控制等基本控制理论；
+6.	视觉与通信：熟悉常用视觉库的基本使用，了解TCP/IP、EtherCAT、RS232等常用工业通信协议；
+7.	综合素质：逻辑思维缜密，具备独立定位与解决复杂软件故障的能力，有良好的跨部门沟通协作意识及项目节点管控能力。
+【加分项】
+•	熟悉激光器控制协议（如SPI、IPG、Coherent等主流品牌控制接口）；
+•	有EtherCAT总线从站开发或实时系统（RTX、IntervalZero等）应用经验；
+•	熟悉图像处理算法，有视觉引导定位、飞拍检测等应用开发经历；
+•	有完整参与设备从研发到小批量量产转产的项目经验。",C++ C# TCP/IP SPI 技术文档 IP EtherCAT IPG,https://jobs.51job.com/suzhou-xcq/172772568.html?s=sou_sou_soulb&t=0_0&req=705e98a8840834dc37db72ac0e195057
+嵌入式驱动（BSP开发）工程师,苏州天准科技,1.5-2.7万·15薪,苏州·虎丘区,苏州,本科,3年及以上,2026-07-29 10:37:53,job51,"岗位职责：
+1. 根据产品的功能需求，负责嵌入式软件实现方案的设计、系统总体架构设计及详细设计；
+2. 负责产品核心模块的详细设计和编码工作；
+3. 负责软件模块的单元测试和参与软件的集成测试；
+4. 负责软硬件系统的联调、验证及发布和相关开发设计文档、测试文档的编写与整理；
+5. 负责嵌入式Linux内核的移植与裁剪，Linux底层驱动的开发与调试；
+6. 配合硬件工程师进行硬件和驱动程序的联合调试；
+任职要求：
+1. 本科及以上学历，CET4以上，计算机、通信或电子工程类相关专业；
+2. Linux BSP，内核和驱动开发4年以上相关工作经验；
+3. 有配置相机Camera相关的工作经验优先；
+4. 精通C/C++语言，精通嵌入式Linux操作系统开发；具备UART、I2C、SPI、SDIO、USB、Ethernet、MIPI、CAN、PCIE及其他相关外围设备驱动开发经验；熟悉网络编程、熟悉Socket开发，熟悉TCP/IP；
+5. 具有良好的编程风格与文档习惯，良好的英语读写能力，能阅读大量英文文档；
+6. 具备独立的研发能力，良好的沟通能力和较强的学习能力、动手能力及分析能力，能快速掌握新技术；
+7. 有较强的责任心、执行力，具备较好的抗压能力、良好的沟通能力及团队合作精神。
+8.有芯驰、地平线平台相关开发经验者优先；有ASPICE 经验优先；",嵌入式Linux Linux C++ UART I2C SPI CAN PCIe TCP/IP,https://jobs.51job.com/suzhou-hq/173078127.html?s=sou_sou_soulb&t=0_0&req=705e98a8840834dc37db72ac0e195057
+（高级）软件工程师,苏州鼎科医疗技术,1.8-2.5万·14薪,苏州·苏州工业园区,苏州,本科,3年及以上,2026-07-31 09:32:43,job51,"岗位职责：
+1.主导 IVUS 设备超声成像上位机软件需求分析、架构设计、编码实现与迭代优化，以及适当的版本控制。
+2.与外部技术服务公司技术对接，明确需求、管控进度、解决协作问题。
+3.负责超声成像算法集成、优化，提升图像质量、实时性与临床适配性。
+4.编写软件设计、测试、验证等技术文档，满足有源医疗器械合规要求。
+5.负责软件版本管理、缺陷修复、回归测试，保障系统稳定。
+6.跟踪超声成像与介入医疗设备技术趋势，支撑产品技术升级。
+
+任职要求：
+1.本科及以上学历，电子、电气、计算机、自动化、声学或其它相关专业;
+2.3年及以上工作经验，有医疗器械独立软件经验。熟练使用C/C++编程，具有良好的编程规范，熟悉常用的数据结构；
+3.熟悉ISO 13485,ISO 14971，YY/T 0664，GB/T 25000-51等医疗器械软件相关标准要求；
+4.熟悉至少一种常用的GUI框架，如QT，MFC等；
+5.熟悉Windows及Linux环境，及常用的系统编程接口；
+6.具有超声声学以及超声信号处理理论基础，具有超声医学成像算法和成像功能实现者优先；
+7.熟练使用一种或多种声场仿真软件，擅长多种信号处理语言如MATLAB, Python等；
+8.具备良好的文档编写能力、沟通能力和团队协作能力。",C++ Linux MATLAB Python 需求分析 技术文档 合规 版本管理 文档编写,https://jobs.51job.com/suzhou-gyyq/171526814.html?s=sou_sou_soulb&t=0_0&req=705e98a8840834dc37db72ac0e195057
+软件工程师,苏州运达驭光激光科技,1.5-3万·13薪,苏州·相城区,苏州,本科,无需经验,2026-07-13 16:37:14,job51,"【工作内容】
+负责高精度激光设备上位机软件的开发与维护，基于 c++/winform,框架实现图形化界面设
+计与功能模块集成;针对激光设备的控制逻辑进行算法开发与调试，提升系统运行效率与操作便捷性设计并实现各模块与上位机之间的通信协议，确保数据交互的稳定性与实时性;与硬件团队协作，完成激光设备整体系统的联调与测试，保障产品性能符合行业标准;推动代码标准化、模块化。
+编写技术文档，包括系统架构说明、接口定义及用户手册等，支持后续维护与升级。
+
+【任职要求】
+本科及以上学历，计算机科学、自动化、电子工程等相关专业;优秀的应届毕业生也考虑；
+具备 3年及以上 C++/MFC或者 winform 软件开发经验，熟悉 windows 平台开发;熟悉 visual studio 开发环境，有实际项目开发经验;
+精通金橙子、RTC等振镜控制卡二次开发。
+精通国产主流运动控制卡:凌华、固高、雷赛等。熟悉 ACS、Aergtech 等国外运动控制器。
+具备激光设备相关上位机开发经验，了解激光控制原理及通信协议；
+
+【薪酬福利】
+薪酬福利:具有市场竞争力的薪资待遇，提供五险一金及年终奖金工作环境:处于激光技术前沿的研发环境，接触先进设备与技术;职业发展:提供清晰的职业晋升通道与技能培训机会，助力个人成长。
+优秀者薪资面议",C++ 技术文档 培训 ACS Aergtech,https://jobs.51job.com/suzhou-xcq/172377372.html?s=sou_sou_soulb&t=0_0&req=705e98a8840834dc37db72ac0e195057
+图像算法工程师 (MJ000350),凌云光技术,2-3.5万,苏州·吴中区,苏州,硕士,3年及以上,2026-07-23 14:21:57,job51,"工作职责：
+1.负责（手机屏等3C行业）AOI检测/AI算法设计开发/功能实现，代码编写实现；
+2.负责已有算法模块开发和功能完善。
+
+任职要求：
+1.硕士3年及以上工作经验；图像算法，人工智能，软件工程，计算机 等相关专业；熟悉图像处理/深度学习；
+2.有检测算法和AI算法设计开发经验，熟悉AI常用模型、关注AI发展趋势；
+3.熟练掌握C++和Python；
+4.具有良好的设计文档编写习惯；
+5.有责任心、进取心、事业心，乐于分享技术经验及成果，能适应紧张的工作节奏。",深度学习 C++ Python 文档编写,https://jobs.51job.com/suzhou-wzq/173017860.html?s=sou_sou_soulb&t=0_0&req=705e98a8840834dc37db72ac0e195057
+软件开发工程师,艺唯科技,7千-1.4万,昆山,苏州,本科,3年及以上,2026-07-29 17:33:13,job51,"【工作内容】
+1、负责新能源核心控制系统的软件架构设计与代码实现，确保系统高可用性与稳定性；
+2、主导嵌入式算法模块开发，优化电池管理策略及电机控制逻辑，提升能源转化效率；
+3、协同硬件团队完成接口定义与联调测试，解决现场部署中的技术难题与性能瓶颈；
+4、编写高质量技术文档，参与代码评审，持续重构优化现有系统以提升可维护性；
+5、跟踪行业前沿技术，协助制定技术演进路线，推动产品功能迭代与版本发布。
+
+【任职要求】
+1、本科及以上学历，计算机、自动化或相关专业，具备扎实的编程基础与数据结构知识；
+2、精通C/C++语言，熟悉RTOS/Linux环境，有BMS或电机控制项目经验者优先；
+3、掌握常用调试工具与测试方法，具备良好的代码规范意识及独立排查故障能力；
+4、拥有较强的逻辑思维与沟通协作能力，能适应快节奏研发环境及阶段性加班；
+5、对新能源技术充满热情，具备快速学习能力，能主动承担挑战性开发任务。",高可用 C++ RTOS Linux 技术文档,https://jobs.51job.com/kunshan/173088654.html?s=sou_sou_soulb&t=0_0&req=705e98a8840834dc37db72ac0e195057
+高级嵌入式软件工程师-CGM,江苏诺尔曼生命科技,1.8-2.8万·14薪,苏州·苏州工业园区,苏州,本科,6-8年,2026-06-10 19:18:44,job51,"【岗位职责】
+ 1.参与配合嵌入式硬件工程师完成产品整体方案设计，配合完成对硬件技术指标，相关性能测试评估；
+2.从事可穿戴产品的BLE软件开发、功耗和连接优化、调试与维护；
+3.负责构建可穿戴产品嵌入式软件开发平台和软件架构；
+4.负责智能穿戴相关研发资料的整理、总结与归档。
+5.负责医疗器械嵌入式法规文件编写、整理、输出。
+
+【任职要求】
+1.本科及以上学历，电子信息、生物医学工程、电气自动化、测控等相关专业，6-8年及以上工作经验，有硬件电路相关专业基础，精通C/C++/C#等编程语言；
+2.有电子产品软件开发和调试经验，熟悉使用一款PCB布局软件，有单片机、ARM、DSP开发经验；
+3.掌握CSR、TI、Nordic、Dialog BLE芯片之一的开发，有低功耗蓝牙开发经验者优先考虑；
+4.熟悉生物传感器的微弱小信号采集及处理；
+5.熟悉医用软件设计开发流程，IEC62304，YY9706等，具有医疗行业经验者优先考虑；
+6.有Linux 相关开发经验优先；
+7.良好的英语功底；
+8.至少1-2个量产产品的嵌入式软件开发经验；
+9.熟练使用keil,eclipse等嵌入式开发环境。
+10,有嵌入式软件逆向工程经验优先。
+
+备注：此候选人负责公司CGM事业部产品的设计相关工作，工作地点在苏州",C++ C# 单片机 ARM DSP Linux CLIP 方案设计 性能测试,https://jobs.51job.com/suzhou-gyyq/172504763.html?s=sou_sou_soulb&t=0_0&req=705e98a8840834dc37db72ac0e195057
+设计研发工程师,昆山古鳌电子机械,1.5-1.8万,昆山,苏州,本科,3-5年,2026-08-04 10:41:18,job51,"专业技能：
+1.熟练掌握C/C++程序设计语言和数据结构，能够进行简单的嵌入式应用软件架构设计；
+2.了解单片机、ARM(STM32)、DSP、（TI28系列芯片）相关项目开发，掌握其中一种芯片开发环境，具备较强的软件设计和调试能力；
+3.掌握SPI、CAN、485、USB口、I2C等接口协议开发；
+4.具备相关硬件电路调试能力；
+5.熟悉软件技术文档的编写，具备良好的文档编制习惯和代码书写规范。
+其他要求：
+负责设计、开发、测试及维护嵌入式系统，确保功能实现与性能优化。",C++ 单片机 ARM STM32 DSP SPI CAN I2C 技术文档,https://jobs.51job.com/kunshan/171311464.html?s=sou_sou_soulb&t=0_0&req=705e98a8840834dc37db72ac0e195057
+资深算法工程师,江苏芯长征微电子集团,2.5-4万·15薪,苏州,苏州,硕士,5年及以上,2026-06-29 15:01:39,job51,"岗位职责：
+1、负责VCSEL测试机底层测试时序控制、脉冲输出与数据采集同步触发机制开发与优化；设计高精度时序调度逻辑、脉冲精准触发策略、采集同步时序方案，解决高速测试场景下脉冲偏移、采样不同步、时序抖动问题，实现激励输出、信号采集、数据缓存、点位运动的精准协同，保障整机测试时序稳定性与重复性精度。
+2、独立开发VCSEL LIV测试核心算法，实现阈值电流Ith精准判定、光电斜率效率计算、Kink扭折缺陷识别与判定、串联电阻拟合求解等核心算法。
+3、负责近场、远场光斑图像处理算法整体开发与迭代优化，实现VCSEL单发光点精准定位、光斑轮廓提取、光功率均匀性分析、光束质量判定、远场发散角拟合计算。
+4、负责晶圆Mapping坐标映射算法开发，实现6/8英寸晶圆测试点位坐标校准、坐标系转换、偏差补偿、点位精准匹配。
+5、搭建设备底层高速数据采集、实时运算、实时纠错算法体系，配合硬件高速采样链路完成数据流实时解析、在线计算、异常剔除与数据降噪。
+6、深度对接电气、上位机、系统、光学团队，完成算法与硬件固件、上位机逻辑、整机测试流程的联调适配。
+
+任职资格：
+1、硕士及以上学历，计算机、电子信息、自动化、光学工程、测控技术等相关专业。
+2、5年以上仪器仪表、半导体测试设备底层算法与固件开发经验。
+3、精通C/C++、FPGA开发，具备扎实的底层固件、嵌入式算法、高速时序逻辑开发功底；熟练掌握底层驱动、时序控制、高速采样、实时运算开发技术，能够独立完成设备底层算法架构搭建与核心模块开发落地。
+4、熟悉数字图像处理技术，精通图像降噪、特征提取、轮廓识别、光斑拟合、坐标变换等算法原理与落地应用。
+5、具备完整的半导体测试设备底层算法、固件逻辑从方案设计、仿真验证、代码实现、调试落地到量产优化的全流程经验。
+逻辑严谨、算法功底扎实、擅长底层疑难问题定位与性能优化；具备良好的跨团队沟通协同与项目推进能力。",C++ FPGA 数据采集 方案设计,https://jobs.51job.com/suzhou/172725776.html?s=sou_sou_soulb&t=0_0&req=705e98a8840834dc37db72ac0e195057
+嵌入式软件工程师,苏州贝昂智能科技,1.8-2.3万,苏州·苏州工业园区,苏州,本科,5年及以上,2026-07-08 14:29:40,job51,"岗位职责：
+1、跟进委外软件设计业务，负责五恒/新风机组的软件方案设计，包括设备运行逻辑、传感器数据采集与处理、智能控制策略开发等，确保系统功能正常运转；
+2、负责产品的软件调试与验证，通过模拟不同使用场景，测试系统稳定性、响应速度及故障自诊断能力，输出测试报告并推动问题整改；
+3、配合硬件工程师完成产品的迭代升级，根据硬件性能优化软件代码，提升产品整体兼容性与可靠性；
+4、与硬件研发、结构设计等部门紧密协作，确保软件与硬件的无缝对接，共同推进五恒及新风系统产品的研发进度；
+5、为生产、销售及售后团队提供技术支持，协助解决产品生产过程中的软件问题。
+
+任职资格：
+1、本科及以上学历，电子信息工程、软件工程、自动化、计算机科学与技术等相关专业；
+2、具备5年以上嵌入式系统软件开发经验，有五恒系统、新风系统或暖通空调行业软件研发经验者优先；
+3、C 语言程序设计，两年及两年以上 C 语言编程经验，掌握单片机外围电路，能够掌握排除单片机、 DSP 外围电路故障；
+4、熟悉嵌入式开发流程，具有stm32.GD32.MM32等嵌入式系统开发经验，熟练使用 keil , IAR 等嵌入式开发环境；
+5、熟悉 PID 算法，熟悉主流硬件通信协议（如 SPI 、I2C、 UART 、 CAN 等），实现与驱动器、传感器等设备通信掌握电路设计原理及EDA工具（如Protel、Altium Designer），能够读懂硬件原理图，配合硬件工程师完成软硬件联合调试；
+6、了解五恒系统、新风系统的工作原理与核心组件，熟悉温湿度传感器、空气质量传感器等设备的软件驱动开发；
+7、良好的跨部门协作意识，能与结构、电子、测试、供应链团队高效配合，推进项目进度。",单片机 DSP STM32 SPI I2C UART CAN 方案设计 数据采集 技术支持 跨部门协作 供应链,https://jobs.51job.com/suzhou-gyyq/171331894.html?s=sou_sou_soulb&t=0_0&req=705e98a8840834dc37db72ac0e195057
+嵌入式软件工程师,山东金帝精密机械科技,2.5-3.5万,昆山,苏州,本科,5年及以上,2026-06-25 16:50:09,job51,"岗位职责
+负责机器人关节模组驱动控制单元底层及应用层软件的设计、开发、测试与维护，确保软件功能、性能及可靠性满足产品需求，支持项目顺利量产。
+1. 负责控制器底层驱动软件（MCU、外设、通信等）及实时操作系统（AUTOSAR OS， FreeRTOS或类似）的架构设计、编码实现与单元测试。				
+2. 负责应用层功能算法软件（如模拟信号采样滤波噪声处理，系统鲁棒性校正和故障诊断动作机制等）的模型设计、代码生成（基于MATLAB/Simulink）、集成与调试。						
+3. 负责软件模块的集成、软件单元测试，系统级测试（HIL测试等）及问题分析与解决，支持产品开发过程的软件问题排查。						
+4. 负责软件相关设计文档（如软件需求规格、详细设计、测试用例等）的撰写、评审与释放，遵循ASPICE或相关流程规范。						
+5. 支持跨部门（如硬件、测试、生产）的协同开发与问题解决，参与DFMEA，并针对软件可测试性、可维护性（DFx）进行设计优化。	
+任职要求
+1.	年龄范围：不限	
+2.	学历&amp;专业：本科及以上，软件工程、计算机科学、电子信息工程、自动化、车辆工程（软件方向）；
+3.	工作经验：本科5年以上/硕士3年以上电子嵌入式软件开发经验，具备新能源汽车电子控制器软件正向开发及量产经验优先。	
+4.	专业技能：1. 精通C/C++编程，熟悉嵌入式实时操作系统（如AUTOSAR OS， FreeRTOS）；2. 熟练掌握MATLAB/Simulink进行模型设计及代码生成；3. 熟悉汽车电子开发流程（如V模型、ASPICE），及常用工具链（如CANoe， Lauterbach Trace32）。
+5.	1. 具备新能源汽车电子系统或相关零部件公司软件开发背景者优先；2. 有功能安全（ISO 26262）项目经验或熟悉AUTOSAR架构者优先；3. 同时具备硬件基础或电机控制理论基础者优先。",MCU RTOS MATLAB SPI C++ CAN 测试用例,https://jobs.51job.com/kunshan/172692403.html?s=sou_sou_soulb&t=0_0&req=705e98a8840834dc37db72ac0e195057
+图像算法工程师,苏州睿新微系统技术,1.8-2.5万·15薪,苏州·苏州工业园区,苏州,本科,2年及以上,2026-08-05 18:22:23,job51,"岗位职责
+1. 负责新产品的研发阶段的试制，向工程端输出新产品试制流程，配合产品和项目推动新产品的开发；
+2. 新产品试制中，及时提出由光学、结构、硬件、固件等引入导致的试制标定问题，拉通相应部门提出解决方案，保证新产品试制交付质量和速度；
+3. 结合产品应用，向软件部门提供相应算法实现文档，保证软件部门正确开发产品功能；
+4. 结合产品市场需求，负责对产品图像标定算法和测温算法进行技术专项研究，输出研究成果并落实到具体产品应用；
+5. 负责图像标定算法以及测温标定算法等技术性文档的整理记录和归纳
+
+任职要求
+1. 211本科及以上学历，计算机、电子、数学、物理、光学等相关专业；
+2. 熟悉图像处理基本原理，熟悉图像质量评价方法；
+3. 熟练掌握C、C++、MATLAB、Python、Labview等一种或多种编程语言；
+4. 具备较强的学习能力和逻辑思维能力，良好的沟通能力；
+5. 有ISP算法开发经验、红外产品经验者优先；
+6. 能够接受少量出差，需要去客户现场调试等；",C++ MATLAB Python,https://jobs.51job.com/suzhou-gyyq/173166894.html?s=sou_sou_soulb&t=0_0&req=705e98a8840834dc37db72ac0e195057
+软件工程师,苏州纬旭智能装备,1.6-2.6万,苏州·吴江区,苏州,本科,3年及以上,2026-08-06 08:43:34,job51,"工作内容：
+1. 理解需求和概要设计，完成软件系统代码的实现，编写代码注释和开发文档；
+2.根据开发进度和任务分配，完成相应模块软件的设计、开发、编程任务；
+3.能独立处理和解决所负责的项目问题
+4.负责相应的程序开发和调试工作
+5. 解决客户软件使用中出现的问题，与功能需求；
+
+职位要求：
+1.本科及以上，计算机或相关专业优先（2年及以上）
+2.熟练掌握C++，熟悉QT开发环境，有一定的项目经验
+3.熟悉串口、tcp/udp socket、EtherCat等通信原理，多线程编程；
+4. 较强的学习能力，逻辑思维能力，一定的写作能力，沟通能力和团队精神;
+5.熟悉设备运动控制的优先
+6. 参与过实际开发项目，有项目开发经验优先；
+7. 具有独立设备软件开发经验优先
+8. 有半导体设备主控软件开发经验优先",C++ tcp udp,https://jobs.51job.com/suzhou-wjq/170667921.html?s=sou_sou_soulb&t=0_0&req=705e98a8840834dc37db72ac0e195057
+软件工程师（系统软件）,迈胜医疗设备,1-1.5万·15薪,昆山,苏州,本科,3年及以上,2026-07-31 16:10:10,job51,"工作职责
+1.践行企业文化，严格遵守公司各项规章制度，主动学习文化标杆案例，持
+续提升自身行为标准；
+2. 严格遵守安全生产规范和质量管理体系要求，配合执行相关规范，发现异
+常及时反馈并改进；
+3. 负责医疗器械控制系统软件的核心研发工作，涵盖需求分析、方案设计、
+编码开发、集成调试等全流程；
+4. 在 Linux 上用 C++ 开发后台服务或桌面程序；
+5. 参与业务后台服务的新建或改造（流程控制、状态查询、多客户端对接
+等）；
+6. 参与操作员工作站或人机界面类软件的功能开发与改造；
+7. 完成不同程序之间的网络通信开发与联调；
+8. 编写接口说明，配合其它模块做集成；
+9. 完成领导交办的其它工作。
+任职要求：
+1. 计算机科学、软件工程、生物医学、电子工程等相关专业，本科及以上；
+2. 3 年以上 C++ 经验；
+3. 熟悉 Linux 开发环境；
+4. 有客户端/服务端或桌面应用项目经验；
+5. 有 Socket、RPC、消息队列等进程间/网络通信经验者优先；
+6. 英语读写能力良好。",Linux C++ 需求分析 方案设计 Socket RPC,https://jobs.51job.com/kunshan/173114252.html?s=sou_sou_soulb&t=0_0&req=705e98a8840834dc37db72ac0e195057
+嵌入式软件工程师,苏州芯仪半导体科技,1.1-2万,苏州·苏州工业园区,苏州,本科,3年及以上,2026-07-20 11:25:26,job51,"岗位职责
+
+1、 从事嵌入式C\C++或Python语言的嵌入式程序的开发，编写模块测试程序；
+
+2、 能利用ARM单片机、树莓派等嵌入式硬件，开展相关软件设计与调试；
+
+3、 从事仪器及其模块的调试、测试工作；
+
+
+
+任职要求：
+
+1、 本科及以上学历，3年及以上工作经验，数学专业、应用物理、测控技术与仪器专业、电子工程、通信、自动化控制、计算机或相关专业；
+
+2、 良好的代码风格和文档书写能力； 
+
+3、能用韩语交流者优先
+
+4、 熟悉的模拟/数字电路的硬件设计和调试，有使用DSP芯片经验者优先；
+
+
+
+
+职位福利：五险一金、绩效奖金、带薪年假、午餐补贴、加班补助、创业公司、转岗/轮岗机会",C++ Python ARM 单片机 DSP,https://jobs.51job.com/suzhou-gyyq/172822699.html?s=sou_sou_soulb&t=0_0&req=705e98a8840834dc37db72ac0e195057
+软件工程师,苏州纬旭智能装备,1.5-2.3万,苏州·吴江区,苏州,本科,2年及以上,2026-08-07 09:07:15,job51,"工作内容：
+1. 理解需求和概要设计，完成软件系统代码的实现，编写代码注释和开发文档；
+2.根据开发进度和任务分配，完成相应模块软件的设计、开发、编程任务；
+3.能独立处理和解决所负责的项目问题
+4.负责相应的程序开发和调试工作
+5. 解决客户软件使用中出现的问题，与功能需求；
+职位要求：
+1.本科及以上，计算机或相关专业优先（2年及以上）
+2.熟练掌握C++，熟悉QT开发环境，有一定的项目经验
+3.熟悉串口、tcp/udp socket、EtherCat等通信原理，多线程编程；
+4. 较强的学习能力，逻辑思维能力，一定的写作能力，沟通能力和团队精神;
+5.熟悉设备运动控制的优先
+6. 参与过实际开发项目，有项目开发经验优先；
+7. 具有独立设备软件开发经验优先
+8. 有半导体设备主控软件开发经验优先",C++ tcp udp,https://jobs.51job.com/suzhou-wjq/171098161.html?s=sou_sou_soulb&t=0_0&req=705e98a8840834dc37db72ac0e195057
+自动化软件工程师（机器视觉工程师）,苏州市金阊职业培训学校,1.8-2万,昆山,苏州,本科,5年及以上,2026-07-13 16:39:43,job51,"一、岗位职责： 
+1.配合机构工程师、业务、PM对客户所提需求进行详细评估、并提供可行性解决方案报告。 
+2.负责维护及升级现有专案软件系统，能积极配合项目出差计划。 
+3.能独立完成非标设备的上位机软件系统设计、编程、软件调试任务。
+二、任职资格：
+1.5年及以上自动化设备软件开发经历。本科及以上学历，计算机软件或自动化及相关专业。
+2.精通C#，C/C++开发语言、SQL数据库。
+3.熟悉业内常用的视觉软件，熟悉Halcon，OpenCV、Visionpro等常用的视觉算法库； 
+4.熟悉使用常用型号运动控制卡、有一定的视觉打光方案评估选型经验。 
+5.熟悉机器人与相机结合应用，有高精度视觉引导、对位组装项目经验优先；
+6.了解工厂MES、Shopfloor系统交互、与各类下位机通讯；
+7.能适应出差、客户驻场。",C# C++ SQL OpenCV,https://jobs.51job.com/kunshan/172891881.html?s=sou_sou_soulb&t=0_0&req=705e98a8840834dc37db72ac0e195057
+C++软件工程师,苏州博特勒机器人,1.5-2.5万,昆山,昆山,大专,2年及以上,2026-07-20 11:42:52,job51,"岗位职责：
+1.&nbsp;新产品机器人系统开发
+基于ROS机器人操作系统进行人形机器人整机系统架构设计与功能开发，负责上位机系统开发、模块集成、功能联调等工作，使用**C++**完成核心程序开发与实现。
+2.&nbsp;客户现场应用程序开发
+根据客户实际应用场景需求，开发机器人运动规迹相关程序、任务执行脚本、流程配置程序（如XML相关配置与解析），实现机器人在现场环境的功能适配与任务执行。
+3.&nbsp;现有产品问题维护与现场支持
+负责已交付机器人的系统维护、问题定位、BUG修复；支持客户现场与生产测试现场，快速解决机器人在实际使用过程中出现的系统软件问题，保障设备稳定运行。
+4.&nbsp;系统联调与算法、硬件协同
+与硬件团队、控制算法团队、视觉算法团队、测试团队紧密配合，完成系统集成、功能联调、性能优化，推动机器人整机系统稳定落地与持续迭代。
+5.&nbsp;技术文档与版本管理
+编写系统设计文档、开发说明、现场维护手册等技术资料，做好软件版本管理与迭代记录，保证项目可追溯、可维护。
+6、领导临时交办的其它事项。
+
+岗位要求：
+1、大专及以上学历，计算机、软件工程、自动化、机器人工程、电子信息等相关专业；
+2、精通 C++ 编程，具备扎实的编程功底与良好的代码规范；
+3、熟悉 ROS/ROS2 系统开发，有机器人上位机开发、功能包开发、消息通信等实际项目经验；
+4、熟悉常见的设备通讯协议（CANOpen、EtherCAT、RS232、485、TCP/IP、Modbus等）；
+5、有人形机器人、协作机器人、机械臂等相关机器人软件开发经验优先；
+6、能接受出差。",ROS C++ CAN TCP/IP Modbus 技术文档 版本管理,https://jobs.51job.com/kunshan/169147716.html?s=sou_sou_soulb&t=0_0&req=aaf1ffe3fb78c392e6d31af7ff622b19
+资深上位机构软件工程师,江苏哈森工业智能装备,1.5-1.8万,昆山,昆山,大专,5年及以上,2026-07-24 17:13:00,job51,"5年以上非标自动化行业工作经验，能独立展开工作
+1． 精通C#、Java、C++、Python等主流语言中至少一门，并掌握其开发工具。
+2． 熟练掌握SQL、MySQL等主流数据库中至少一个。
+3． 熟练掌握WINFORM、WPF、QT等中至少一个。
+4． 熟练掌握多线程同步异步开发。
+5． 熟练掌握主流通信方式和协议如TCP/IP协议、Modbus协议等，精通串口和网口通信。
+6． 有PLC编程经验和电路设计工作经验者优先。
+7.6天责任制，需要配合加班或出差，介意慎投，感谢！",C# Java C++ Python SQL MySQL TCP/IP Modbus,https://jobs.51job.com/kunshan/148850893.html?s=sou_sou_soulb&t=0_0&req=aaf1ffe3fb78c392e6d31af7ff622b19
+上位机软件工程师,江苏明益信智能设备,1.5-2.5万,昆山,昆山,本科,4年及以上,2026-07-27 09:40:04,job51,"1.负责设备上位机程序的编写，包括软件界面编写，运动控制程序设计，检测算法，操作数据库的编程；
+2.使用激光和相机处理检测等功能；
+3.与PLC进行通讯以及上传服务器编程；
+任职要求：
+1.本科及以上学历以上，信息与计算科学或计算机专业优先。
+2.精通C#, 高级语言编程，2年以上同行业工作经验
+3.从事过设备控制软件独立开发，熟悉运动控制，串口，网口通讯，熟悉数据库编程。
+4.能适应出差加班
+5.有视觉软件开发经验优先
+6.精通数学算法，从事过检测组装软件开发者优先",C#,https://jobs.51job.com/kunshan/168837798.html?s=sou_sou_soulb&t=0_0&req=aaf1ffe3fb78c392e6d31af7ff622b19
+运动控制软件工程,匠为创汽车智能装备科技（苏州）,1-1.2万,昆山,昆山,大专,2年及以上,2026-08-06 14:25:00,job51,"岗位职责：
+1.负责运动控制软件的全流程开发，包括利用C#/C++编写运动控制卡程序及设备调试，保障系统的精准运行。
+2.主导精密运动控制系统的整体方案设计，结合实际需求完成模块选型，制定经济高效的控制策略。
+3.对控制系统各模块进行测试、评估与分析，输出专业结论并推动优化迭代。
+4.快速定位并解决设计与实施过程中的技术问题，保障项目进度与质量。
+5.参与新项目、新技术的预研与开发，探索运动控制领域的前沿应用。
+
+任职要求：
+1.大专及以上学历，自动化，电机控制等相关专业背景；
+2.精通多轴联动控制、数控插补、加减速控制、小线段拟合、速度前瞻，补偿等核心算 法；
+3.至少熟练掌握一种主流运动控制卡（固高、雷赛、研华等）的应用与开发；
+4.熟悉C，C#等编程语言；掌握CANopen、EtherCAT、TCP/IP、　SECS/GEM、OPC等工业总线协议；
+5.熟悉控制原理，精通共振点分析.稳定带宽分析.位置精度.加减速等特性指标调试；
+6.理解PMSM伺服驱动软件硬件原理.PID原理.矢量控制原理；
+7.有螺丝机、点胶、插件、多轴高速机床、AOI、半导体加工等设备软件开发经验者优先。",C# C++ CAN TCP/IP 方案设计 EtherCAT TCP IP,https://jobs.51job.com/kunshan/154313664.html?s=sou_sou_soulb&t=0_0&req=aaf1ffe3fb78c392e6d31af7ff622b19
+上位机软件工程师,扬州京柏自动化科技,1.5-2万,昆山,昆山,本科,5年及以上,2026-08-04 14:12:33,job51,"一、岗位职责：
+1. 自动化项目软件需求分析、方案制定等；
+2. 视觉需求分析，方案验证及硬件选型； 
+3. 视觉处理及运动控制等项目的实施；
+4. 独立承担自动化软件开发工作；
+5. 对于已开发模块的维护工作；
+6. 配合测试人员进行软件优化和升级的工作； 
+
+二、岗位要求： 
+1. 本科及以上学历，5年及以上自动化行业工作经验，具有中型及以上非标自动化设备软件开发经验者优先； 
+2. 熟练使用C#编程实现设备的运动控制。",C# 需求分析,https://jobs.51job.com/kunshan/155574008.html?s=sou_sou_soulb&t=0_0&req=aaf1ffe3fb78c392e6d31af7ff622b19
+NX开发工程师,上海坤德信息科技,1.1-2万·13薪,昆山,昆山,大专,2年及以上,2026-08-04 17:39:11,job51,"工作职责：
+1.分析客户需求，将需求转化为软件实现，并编写二次开发规格书；
+2.根据开发规格书需求，完成NX软件的二次开发；
+3.根据系统部署和性能情况，对代码进行调优优化。
+
+职位要求：
+1. 专科及以上学历，计算机、软件工程、机械等相关专业;
+2. 熟练掌握C#、C/C++语言具备良好的编程习惯，熟悉 UG/NX 的二次开发，有Solidedge使用经验加分； 
+3. 有一定抗压能力，良好的团队工作精神；
+4. 对数字化设计领域有浓厚的兴趣，善于学习新知识和新技能； 
+5. 思路清晰，善于团队协作，具备较强的沟通能力和表达能力；
+6. 能够适应工作出差。",C# C++ UG NX,https://jobs.51job.com/kunshan/166891935.html?s=sou_sou_soulb&t=0_0&req=aaf1ffe3fb78c392e6d31af7ff622b19
+软件高级工程师,昆山华恒机器人,1.2-1.5万,昆山,昆山,本科,2年及以上,2026-07-20 16:17:36,job51,"一、岗位职责
+1、Linux 系统开发与维护：
+负责 Linux 环境下程序开发，编写脚本实现自动化部署、日志分析及系统运维功能，保障 Linux 系统稳定运行；
+Linux 内核修改：基于项目硬件需求，修改 Linux 内核代码（如驱动模块开发、内核参数调优、中断处理优化），完成内核编译、测试及移植，确保硬件设备与内核兼容，满足实时性与稳定性要求；
+
+2、单片机与嵌入式系统开发：
+负责单片机（如 STM32、ARM Cortex-M 系列）硬件驱动开发、应用程序编写，基于 FreeRTOS 实时操作系统进行任务调度、进程间通信等设计，实现单片机与上位机、外设的协同工作；
+
+3、运动控制与工业总线开发：
+主导运动控制相关功能开发，基于 CANopen、EtherCAT 工业总线协议编写通信程序，实现电机启停、速度调节、位置控制等核心功能；调试总线设备（如伺服驱动器、编码器），优化总线通信实时性与数据传输可靠性，确保运动控制精度满足项目要求（如定位误差、同步性）；
+
+4、项目协作与技术支持：
+配合硬件工程师完成设备硬件与软件的联调，参与产品需求分析、技术方案评审；记录开发过程中的技术文档（如设计文档、测试报告、用户手册）；为项目现场提供技术支持，解决设备部署与运行中的软件问题；配合团队完成新产品迭代与旧产品优化；
+
+5、技术研究与优化：
+跟踪 Linux 内核、FreeRTOS、工业总线（CANopen/EtherCAT）相关技术动态，引入行业先进开发工具与方法；优化现有运动控制算法与软件架构，提升设备运行效率与稳定性；
+
+
+二、任职要求
+1、学历与经验：
+本科及以上学历，计算机科学与技术、电子信息工程、自动化、机械电子工程等相关专业；有 Linux 开发经验，参与过 涉及 Linux 内核修改或工业总线（CANopen/EtherCAT）运动控制的项目，有单片机 + FreeRTOS 开发经验者优先；
+
+2、Linux 技术能力：
+熟练掌握 Linux 操作系统，具备独立开发 Linux 服务程序的能力；掌握 Linux 内核编译流程，能独立完成内核驱动模块开发、内核参数修改，理解内核中断、内存管理、进程调度等核心机制；
+
+3、实时系统能力：精通单片机、STM32 等主流单片机的硬件结构与编程，能看懂硬件原理图并进行驱动开发；熟练使用 FreeRTOS 实时操作系统，理解实时操作系统的任务调度原理与资源管理机制;
+
+4、运动控制与总线能力：理解运动控制原理（如总线控制），熟练掌握 CANopen、EtherCAT 工业总线协议的通信机制；具备基于总线协议开发电机控制程序的经验，能独立调试伺服驱动器、总线适配器等设备，确保运动控制功能稳定运行;
+
+5、编程与工具能力：熟练掌握 C/C++ 编程语言，具备良好的代码规范与调试能力；熟悉嵌入式开发工具；
+
+6、综合素养：具备较强的独立分析与解决问题的能力，能快速排查软件运行中的逻辑错误与通信故障；工作严谨细致，有责任心，具备良好的团队协作与沟通能力；能适应项目需求出差，有工业自动化、机器人、智能装备领域开发经验者优先。",Linux 单片机 STM32 ARM RTOS CAN C++ 日志分析 系统运维 技术支持 需求分析 技术方案 技术文档 产品迭代,https://jobs.51job.com/kunshan/168855209.html?s=sou_sou_soulb&t=0_0&req=aaf1ffe3fb78c392e6d31af7ff622b19
+机器视觉工程师(沪利微电),沪士电子,15-25万·14薪,昆山,昆山,本科,2年及以上,2026-07-06 17:01:33,job51,"岗位职责:
+1. 基于深度学习算法，开发AI摄像头或AI设备用于PCB各流程中的产品缺陷检测。
+2. 针对PCB流程中现有AOI/AVI产生的报点，开发AI过滤系统去除报点中的假点。
+
+岗位要求:
+1. 统计学、人工智能等相关专业，本科以上学历。
+2. 熟悉CNN、Transformer、Yolo等算法原理。
+3. 熟练掌握Python、C、C++等编程语言。
+4. 2年以上视觉算法开发经验。",深度学习 Transformer Python C++,https://jobs.51job.com/kunshan/163954426.html?s=sou_sou_soulb&t=0_0&req=aaf1ffe3fb78c392e6d31af7ff622b19
+嵌入式软件工程师,苏州九驭智控科技,1.5-2.5万,昆山,昆山,本科,3年及以上,2026-07-28 17:47:18,job51,"工作职责：
+1、完成电机控制器产品的软硬件需求分析、架构和模块设计；
+2、软件编程、测试、维护和优化等工作；
+3、研发、测试相关的技术文档和需求文档的整理和编写；
+4、产品功能的调试以及客户现场支持。
+
+岗位要求：
+1、精通C/C++语言，ARM、STM32等系列单片机程序设计，熟悉IAR、Keil等开发平台，良好的编程风格和软件开发规范；
+2、熟练使用UART、SPI、I2C、CAN、AD等单片机常用外设；
+3、熟悉LIN、CAN等通讯协议；
+4、有无刷电机控制器软件开发经验优先；
+5、良好的文档写作能力、语言表达能力、沟通协调能力，以及团队合作精神。",C++ ARM STM32 单片机 UART SPI I2C CAN 需求分析 技术文档,https://jobs.51job.com/kunshan/161693809.html?s=sou_sou_soulb&t=0_0&req=aaf1ffe3fb78c392e6d31af7ff622b19
+嵌入式软硬件工程师,苏州一卓工业技术,1.5-2.5万·15薪,昆山,昆山,本科,3-4年,2026-07-14 22:08:32,job51,"岗位职责：
+1、负责实施产品的单片机软件设计和开发工作；
+2、编写实现需求的软件代码及相关器件的驱动代码；
+3、协同产品开发团队完成技术验证、产品测试、调试及相关工作；
+4、撰写相关技术文档。
+任职要求：
+1、本科以上学历，熟练掌握C/C++，对算法有一定的了解（优先）；
+2、熟悉8位、16位、32位 单片机开发流程，熟悉产品集成测试流程；
+3、有单片机独立产品经验 如果是团对开发 应作为主要开发者，或者组长；
+4、对硬件有一定的了解，熟悉各种接口如 SPI I2C DAC ADC等；
+5、有ST单片机开发经验优先、USB开发经验经验者优先考虑；
+6、能适应快节奏的开发工作，能吃苦耐劳；
+7、有较强的沟通能力，分析能力和问题解决能力，能较好的对问题进行总结；
+8、有良好的学习能力，有一定的创新性。",单片机 C++ SPI I2C 技术文档 DAC,https://jobs.51job.com/kunshan/151118732.html?s=sou_sou_soulb&t=0_0&req=aaf1ffe3fb78c392e6d31af7ff622b19
+Software Application Engineer,斯沃博达汽车电子（昆山）,1.5-2万·14薪,昆山,昆山,本科,3年及以上,2026-08-07 09:36:23,job51,"Goal resp. short summary of field of action简述目标:
+1. Software system and safety design
+2. System configuration
+3. Translate customer needs in software requirements and documentation
+4. Maintain relation with internal and external customer engineers working on the product design
+5. Interprets client’s needs (project) and establishes requirements for project delivery
+6. Perform the encoding in C or C++, according to component requirements. Possible use of other software languages and tools, according to requirements
+7. Validates software at module and system levels
+8. Perform necessary calculations and verifications
+Main responsibilities主要职责:
+1. Design and adapt firmware, as part of the system design. 
+2. Work with the electronic designer to design integrated circuits, participate in start-up, evaluation and ensure maintenance of the software component and of electronic equipment. 
+3. Enables you to work on complex projects with embedded systems and knowledge of electronic material . 
+4. Prepare software quotes for electronic products, establish product proposals and ensure product development, technical drawings, functional diagrams, write or adapt the code, prepare documentation, establishes plans and functional / qualification test procedures for the software. 
+5. Support and/or participates in the actual testing and approval of the reports.
+6. Fulfill design based on basic knowledge of quality policy and quality manual. Working closely with the software R&amp;D team in Germany.
+Qualification Requirement任职资格要求：
+Must have:
+1. MSc / BSc Engineering degree or similar
+2. More than three years’ firmware design experience, including some experience on safety critical design and testing
+3. In-depth knowledge of at least with one or two product lines of Motorola, Siemens, ST, Microchip, Freescale/NXP, Atmel, PSoC, Infineon, etc., microcontrollers
+4. Knowledge of algorithm development for electronic component recognition and modeling of their interconnections
+5. Experience with serial communication like SPI, I05C
+6. Knowledge of programming software, including C, C++ 
+7. Advanced level of English in spoken and written.
+Nice to have/ideally:
+1. Experience with CAN, LIN, PSI5 or SENT
+2. Experience with communication layers
+3. Knowledge of AutoSar",Go Gin C++ Electron SPI CAN,https://jobs.51job.com/kunshan/166063933.html?s=sou_sou_soulb&t=0_0&req=aaf1ffe3fb78c392e6d31af7ff622b19
+嵌入式软件工程师,上海辰仪测量技术,1-1.5万·13薪,昆山,昆山,本科,3年及以上,2026-07-30 17:20:33,job51,"岗位职责：
+1.负责现有产品嵌入式软件的日常维护、产线问题处理及客户端Bug修复工作；
+2.负责产品软件的版本迭代升级，包括功能模块的优化与改进；
+3.根据需求完成软件功能模块的代码编写、自测及联调，配合硬件工程师完成软硬件协同调试；
+4.参与量产阶段问题分析、缺陷修复及版本管理，保障产品稳定运行；
+5.编写和维护软件设计文档、调试记录和使用说明等技术文档
+任职要求：
+1.本科及以上学历，计算机科学与技术、电子信息工程、自动化、软件工程、测控技术与仪器等相关专业；本岗位可以接受优秀应届生
+2.熟悉C语言开发，具备良好的代码编写习惯和模块化编程能力；
+3.有MCU项目经验，熟悉至少一种主流单片机平台，了解常用外设接口和通信协议；
+4.能使用常用调试工具进行问题定位，具备基本的软硬件联调能力；
+5.具有良好的编码习惯、责任心和学习能力，能独立完成模块开发和维护工作；
+6.有FreeRTOS等嵌入式实时操作系统使用经验或量产维护经验者优先；
+7.具备良好的团队协作意识和沟通能力，能与硬件、测试等岗位有效配合。",C语言 MCU 单片机 RTOS 版本管理 技术文档,https://jobs.51job.com/kunshan/165247451.html?s=sou_sou_soulb&t=0_0&req=aaf1ffe3fb78c392e6d31af7ff622b19
+运动控制上位机软件工程师,江苏雷硕智能科技,6千-1.2万·13薪,昆山,昆山,本科,1-2年,2026-08-03 09:20:24,job51,"岗位职责：
+1: 根据客户运动控制需要，配合客户进行运动控制卡 控制器 PLC IO模块 通讯模块 电机驱动等硬产品的选型。
+2：解决客户运动控制卡 运动控器 PLC等产品使用过程中的硬件和软件方面问题。
+3：配合客户的一些软件方面的要求，进行相关的测试和验证。
+4：一些运动控制相关项目的程序编写和调试。
+5：伺服电机 步进电机等其他周边配套产品的应用支持。
+岗位要求：
+1、1-2年运动控制行业应用经验。（可接受优秀应届本科毕业生）；
+2、电气自动化 计算机 软件工程 机器人等相关本科毕业；
+3、熟练C#语言开发，委托、事件、反射、特性、多线程、Task、泛型等;
+4、熟练掌握SOCKET编程及 TCP/IP、UDP通信协议、串口通讯、Modbus协议(RS485、232);
+5、掌握WinForm界面开发、使用各种控件设计、熟悉使用GDl+进行自定义控件设计;
+6、熟练使用WPF依赖属性、路由事件，常用的MVVM模式，如Prism、CommunityToolkit等框架;
+7、具备独立编写技术设计文档，对设计工作讲行总结的能力。
+
+岗位优势:
+1、我们属于运动控制的自动化公司。我们的工程师会面对很多不同行业设备客户的不同需求，会接触到各种新的方案，新的技术。（相对于传统的设备公司，我们接触面广，成长速度快，发展空间会更广泛。）
+2、我们提供了 良好的学习平台和学习机会，不会的问题，会有专业的师傅在后面指导。对于想往这方面发展的工程师，是非常好的机会。",C# TCP/IP Modbus PLC Task TCP IP RS485,https://jobs.51job.com/kunshan/167299744.html?s=sou_sou_soulb&t=0_0&req=aaf1ffe3fb78c392e6d31af7ff622b19
+单片机硬件开发师（电机控制）,苏州一卓工业技术,1.5-3万·15薪,昆山,昆山,大专,3年及以上,2026-07-14 22:07:41,job51,"岗位职责：
+
+负责电机控制系统的研发、测试和维护，熟练掌握嵌入式单片机及电机驱动的硬件或软件技术，熟悉电机控制算法； 
+1、嵌入式单片机硬件方案设计，控制主板及驱动版的开发；
+
+2、负责公司单片机软件相关开发工作，有做过Linux端开发优先； 
+
+2、嵌入式软件的开发，裸板驱动程序，上位机菜单界面编程，编制使用说明文件；
+
+3、有电机控制方面开发经验者优先
+
+
+任职要求：
+- 专科或以上学历，电机控制或相关专业；
+- 3年以上单片机开发经验，熟悉各种电机驱动技术，会原理图设计、PCB布板、BOM表制作
+- 熟悉电机控制算法，如PWM控制、矢量控制等；
+- 熟练掌握C语言、Python等编程语言；
+- 熟悉电路板设计，具有较强的电路设计与调试能力；
+-熟悉通讯协议，TCP/IP，modbus等
+- 具备一定的项目管理经验，熟悉敏捷开发流程； - 具备良好的沟通能力和团队合作精神，敢于挑战、敢于创新。",单片机 Linux C语言 Python TCP/IP Modbus 方案设计 项目管理,https://jobs.51job.com/kunshan/160916156.html?s=sou_sou_soulb&t=0_0&req=aaf1ffe3fb78c392e6d31af7ff622b19
+高级电源软件工程师（电源工控类）,天通精电新科技,1.5-2万,嘉兴·南湖区,昆山,本科,3年及以上,2026-08-03 10:27:38,job51,"岗位职责:
+1.负责工控汽车电子电源类产品的软件功能需求分解、规格参数拟定及关键方案设计验证；
+2.负责工控汽车电子电源类产品软件开发，电力电子控制理论和算法策略研究，完成业务逻辑驱动框架的整体设计；
+3.负责新技术市场调研和关键技术要素识别，完成新技术工程化验证设计；
+4.负责分析和解决产品在设计、生产、市场应用过程中的技术疑难问题。
+5.负责软件产品研发过程中的技术文件管理、评审过程管理、代码仓库管理、确保产品设计周期开发及技术资料交付完备性。
+任职要求:
+1．本科及以上学历，电力电子、电子信息自动化等相关专业，至少3年以上工业变频器,、逆变器、UPS、AC-DC等电源产品软件开发经验；
+2．	熟悉掌握C/C++语言，精通ST、TI C2000等32位MCU程序开发平台，并且具备产品量产实现能力，有TI C2000系列DSP开发经验优先；
+3. 熟练掌握I2C、SPI、RS232、RS485、CAN、WIFI、BLE等通信总线及工作原理，具有较强的分析和解决数据通信疑难问题的能力；
+4．熟悉常见的电源拓扑、控制原理，如LLC，全桥逆变，PFC，反激，BUCK，BOOST等；熟练掌握MPPT、SPWM等驱动调制算法和控制原理，有大功率逆变器
+、PFC，BMS等量产调试经验者优先；
+5. 工作严谨、思路清晰，具备良好的沟通能力、良好的团队合作精神和较强的责任心，具备较强的自我学习和提升能力，有一定的抗压能力。
+6.有宽广的视野，有上下游资源整合和客户服务能力。",C++ MCU DSP I2C SPI CAN WiFi 方案设计 市场调研 产品设计 客户服务,https://jobs.51job.com/jiaxing-nhq/166406634.html?s=sou_sou_soulb&t=0_1&req=aaf1ffe3fb78c392e6d31af7ff622b19
+图片算法工程师,万润科技精机（昆山）,1-1.5万·13薪,昆山,昆山,本科,1-3年,2026-07-07 11:04:03,job51,"岗位职责
+1、带领算法团队完成算法项目，主导需求、设计和开发工作
+2、参与项目前期需求，团队梯队建设和能力培养
+3、软件质量和开发流程的监督和执行
+4、在自己擅长的领域必须达到算法中心***水平，负责解决有难度的技术问题
+任职要求：
+1、具备影象函式库使用经验(Halcon, evision,mil..)三年以上，从事影象视觉检测与打光相关经验三年以上，
+有扎实的数理基础，本科以上学历，理工科专业优先；
+2、熟练掌握C++/C#，有5年以上实际代码开发经验
+3、在某一个机器视觉领域（标定/测量/AOI/机器学习/无人驾驶）有三年以上实际工作经验。
+4、丰富的项目经验，抗压能力强，学习能力强；
+5、良好的英文文献阅读能力，能快速实现技术原型。",C++ C# 机器学习 Halcon AOI,https://jobs.51job.com/kunshan/154714900.html?s=sou_sou_soulb&t=0_0&req=aaf1ffe3fb78c392e6d31af7ff622b19
+自动化软件开发,富翔精密工业（昆山）,7千-1.4万·13薪,昆山,昆山,本科,1-5年,2026-06-24 13:15:39,job51,"任职要求：
+1.熟悉大数据工具，具独立数据处理与分析经验
+2.精通编程语言，能进行数据清洗和可视化
+3.有数据建模和机器学习实战经验
+4.至少2年大数据分析相关工作经验
+5.良好的问题分析和跨部门协作能力
+
+工作职责
+1.业务需求并制定可行AI技术方案
+2.设计优化机器学习与深度学习模型
+4.部署模型至生产并进行性能监控
+5.跟进前沿技术持续改进算法与系统",机器学习 深度学习 数据分析 跨部门协作 技术方案,https://jobs.51job.com/kunshan/168847188.html?s=sou_sou_soulb&t=0_0&req=aaf1ffe3fb78c392e6d31af7ff622b19
+上位机软件工程师,苏州博特勒机器人,1.5-2.5万,昆山,昆山,大专,3年及以上,2026-07-23 08:22:46,job51,"岗位职责：
+1、新产品机器人系统开发
+ 基于 ROS/ROS2 机器人操作系统开展人形机器人整机系统架构设计与功能开发，负责上位机系统、Qt 可视化交互应用开发、模块集成、功能联调，使用 C++ 完成核心程序开发；基于 BehaviourTree 行为树搭建机器人任务调度框架，设计开发机器人自主行为逻辑；运用 Moveit2 完成机械臂运动规划、碰撞检测相关开发，借助 Nav2 实现机器人定位、路径规划、自主避障等导航功能开发。
+2、客户现场应用程序开发
+ 结合机械臂运动学、Moveit2、Nav2 框架，根据客户现场需求开发机器人运动轨迹、自主导航相关程序、任务执行脚本、XML 配置解析程序，完成人形机器人、机械臂现场运动适配、自主行走与自动化任务落地。
+3、现有产品问题维护与现场支持
+ 负责已交付机器人系统维护、故障定位与 BUG 修复；对接客户及产线测试现场，快速处理运动控制、Moveit2、Nav2、行为树、Qt 上位机、设备通信等各类软件问题，保障设备稳定运行。
+4、系统联调与算法、硬件协同
+ 联合硬件、控制算法、视觉算法、测试团队完成整机系统集成、功能联调与性能优化，统筹机械臂运动学、Moveit2 运动规划、Nav2 导航、BehaviourTree 任务逻辑、Qt 上位机交互模块调试迭代，推动产品落地。
+5、技术文档与版本管理
+ 编写系统方案、BehaviourTree 设计文档、Qt 上位机开发手册、Moveit2、Nav2 开发说明、运动控制资料、现场维护手册等文档，规范软件版本管理与迭代记录，保障项目可维护、可追溯。
+6、完成领导临时交办的其它事项。
+
+岗位要求：
+1、大专及以上学历，计算机、软件工程、自动化、机器人工程、电子信息等相关专业；
+2、精通 C++ 编程，具备扎实的编程功底与良好的代码规范；
+3、熟悉 ROS/ROS2 系统开发，有机器人上位机、功能包、消息通信相关项目实战经验；
+4、熟练 Qt 应用开发，可独立开发机器人调试界面、可视化工具、参数配置软件；
+5、掌握 BehaviourTree 行为树开发，能够独立设计实现机器人任务逻辑与自主调度流程；
+6、掌握机械臂运动学，熟悉运动正逆解、轨迹规划相关开发调试；
+7、熟练使用 Moveit2，可完成机械臂运动规划、姿态控制、碰撞检测开发调试；
+8、熟练使用 Nav2 框架，实现机器人定位、路径规划、避障等导航功能开发优化；
+9、熟悉 CANOpen、EtherCAT、RS232、485、TCP/IP、Modbus 等常用设备通讯协议；
+10、有人形机器人、协作机器人、机械臂软件开发经验者优先。",ROS C++ CAN TCP/IP Modbus 技术文档 版本管理,https://jobs.51job.com/kunshan/173010321.html?s=sou_sou_soulb&t=0_0&req=16921c3a0be19371a9613676f9477cfc
+运控软件工程师（苏州）,深圳市华拓半导体技术,1.3-2.5万,昆山,昆山,本科,3年及以上,2026-08-06 11:22:47,job51,"岗位职责：
+1、参与项目需求分析,制定项目所需的运动控制方案；
+2、负责基于PCI运动控制卡的算法开发，动作流程和逻辑规划，以及异常机制保护；
+3、通过光源控制器或位置比较触发等硬件实施光源和相机的控制，实现高速稳定的相机点拍和飞拍功能；
+4、结合机器视觉定位、测高传感器等标定方法，实施精度补偿；
+5、应用驱动器、力传感器等方案，实施力/力矩控制和保护功能开发；
+6、运控性能测试与优化，以及动作并行流程优化，优化设备的精度、速度和稳定性；
+7、指导配合软件测试工程师完成运动控制模块的测试；按规范编写相应的技术文档；
+8、客户与售后问题支持。
+
+任职要求：
+1、自动化、测控、软件、计算机及其相关专业，本科以上学历。
+2、三年以上运动控制软件开发工作经验，精通C#/C++编程语言，精通wxWidgets和Qt库；精通软件项目管理和Git版本管理应用；
+3、精通固高、雷赛PCI运动控制卡、IO模组、以及，传感器AD转换模块的应用编程；
+4、精通现场总线等网口、RS232和USB等串口通信模块的应用编程和测试；
+5、精通伺服电机、直线电机、音圈电机的控制调试等控制应用与开发；
+6、精通半导体设备和非标自动化设备的运控开发和相关安全标准；
+7、具有优秀的需求分析、风险评估、敏捷项目和实际应用经验；
+8、熟悉软件开发、测试和发布流程管理；熟悉软件开发文档的编写规范；
+9、工作积极主动，严谨细致，善于沟通，刻苦钻研，思维敏捷，逻辑和创新思维能力强。",C# C++ Git 需求分析 性能测试 流程优化 技术文档 项目管理 版本管理,https://jobs.51job.com/kunshan/172890224.html?s=sou_sou_soulb&t=0_0&req=16921c3a0be19371a9613676f9477cfc
+上位机软件开发工程师,苏州智熠达科技,1.5-2.2万,昆山,昆山,本科,3年及以上,2026-07-02 14:58:41,job51,"一、基本要求：
+1.熟练使用ONNX，能独立部署模型；
+2.3年以上上位机软件开发经验，有独立承担完整项目的经历，机器视觉行业优先；
+3.精通C#及WinForm/WPF开发，熟悉多线程编程与异步处理；
+4.本科及以上学历，计算机、自动化、电子信息、软件工程等相关专业；
+5.良好的代码规范意识和技术文档编写能力，责任心强。
+
+二、加分项：
+1.熟练使用codex或Claude等AI辅助编程工具；
+2.会使用Openvino。
+
+三、工作时间：
+每周一到周六，8:00-17:00，午休一个半小时",ONNX C# 技术文档,https://jobs.51job.com/kunshan/172771881.html?s=sou_sou_soulb&t=0_0&req=16921c3a0be19371a9613676f9477cfc
+嵌入式软件工程师,迈胜医疗设备,1-1.5万·15薪,昆山,昆山,本科,3年及以上,2026-07-31 16:08:29,job51,"工作职责
+1. 践行企业文化，严格遵守公司各项规章制度，主动学习文化标杆案例，持
+续提升自身行为标准；
+2. 严格遵守安全生产规范和质量管理体系要求，配合执行相关规范，发现异
+常及时反馈并改进；
+3. 负责医疗器械控制系统软件的核心研发工作，涵盖需求分析、方案设计、
+编码开发、集成调试等全流程；
+4. 实现设备的运行流程控制与异常/保护相关逻辑；
+5. 与 PLC 或其它现场设备做数据通信和联调；
+6. 编写说明文档，配合系统集成和现场问题排查；
+7. 完成领导交办的其它工作。
+任职要求：
+1. 计算机科学、软件工程、生物医学、电子工程等相关专业，本科及以上；
+2. 3 年及以上 C/C++ 编程经验；
+3. 有嵌入式或实时控制系统实际项目经验；
+4. 有工控、自动化、医疗设备等相关行业经验者优先；
+5. 有 PLC 或工业通信协议经验者优先；
+6. 英语读写能力良好。",C++ 需求分析 方案设计 PLC,https://jobs.51job.com/kunshan/173114213.html?s=sou_sou_soulb&t=0_0&req=16921c3a0be19371a9613676f9477cfc
+上位机程序工程师,目为智能装备（苏州）,1.6-3万·13薪,昆山,昆山,本科,3年及以上,2026-08-06 10:42:19,job51,"【工作内容】
+- 负责工业自动化设备或智能系统中上位机软件的架构设计与核心功能开发，使用C#、C++等语言实现人机交互界面（HMI）及数据通信模块；
+- 开发并维护基于TCP/IP、Modbus、OPC UA等协议的通信接口，确保与下位机（PLC/ARM等）高效稳定数据交互；
+- 设计并实现数据采集、实时监控、历史数据存储与报表生成等功能模块，支持多设备集中管理与远程运维；
+- 参与系统需求分析与技术方案评审，配合硬件、测试及项目团队完成整机联调与交付；
+- 持续优化软件性能，提升系统响应速度、稳定性与可扩展性，推动代码规范化与文档标准化建设。
+【任职要求】
+- 本科及以上学历，计算机科学、自动化、电子信息或相关专业，3年以上上位机软件开发经验；
+- 精通C#/.NET框架，熟练掌握WinForm/WPF开发，具备良好的代码规范与面向对象设计能力；
+- 熟悉串口、TCP/IP、UDP、Modbus RTU/TCP、OPC UA等工业通信协议，有实际项目集成经验；
+- 掌握数据库技术（如SQL Server、SQLite），具备数据建模与高效查询优化能力；
+- 具备较强的问题排查与调试能力，熟悉常用调试工具及日志分析方法；
+- 有工业控制、智能制造、物联网相关项目经验者优先，具备良好沟通协作能力与责任心。",C# C++ TCP/IP Modbus ARM SQL Server SQLite 数据采集 需求分析 技术方案 日志分析,https://jobs.51job.com/kunshan/173171728.html?s=sou_sou_soulb&t=0_0&req=16921c3a0be19371a9613676f9477cfc
+上位机软件开发,昆山天寰测试科技,1-2万,昆山,昆山,本科,2年及以上,2026-07-28 09:54:07,job51,"1. 负责工厂端上位机软件开发，使用C#，VB等语言进行上位机软件和功能模块开发、调试、维护；
+2. 熟悉使用tcp，udp，com，modbus等通信协议；
+3. 开发WPF或者winform复杂控件，独立设计程序界面；界面设计合理简洁，技术员容易上手。
+4. 有仪器仪表控制如LCR, FCT/ICT, 矢量网络分析仪等经验的优先。
+5. 定义与PLC，单片机之间的交互逻辑。
+任职资格:
+1. 本科及以上学历，软件工程、计算机、自动化等相关专业；
+2. 2年以上工控行业C#以及.NET开发经验，熟悉自动化设备流程搭建和交互；
+3. 具有开发WPF自定义控件能力，了解模板、控件模板、依赖属性等知识；
+4. 工作积极负责，做事态度好，适应出差，能够承受一定的工作压力。",C# Modbus 单片机 FCT ICT,https://jobs.51job.com/kunshan/169579462.html?s=sou_sou_soulb&t=0_0&req=16921c3a0be19371a9613676f9477cfc
+上位机软件开发工程师,昆山佰奥智能装备,7.5千-1.5万,昆山,昆山,本科,3年及以上,2026-06-29 10:38:51,job51,"任职要求：
+1、3年以上精通C#语言，熟悉WPF开发，，熟悉MVVM架构模式；
+2、熟练各类接口，服务，例如WCF，Webservice,WebAPI等；
+3、精通主流数据库技术（如Sql server、Mysql等），至少熟悉一种数据库开发和管理；
+4、 熟悉串口通讯，以太网等常用通讯协议；
+5、有ORM工具及实际项目经验的优先；
+6、有产线追溯系统/MES项目经验者优先；
+7、能独立阅读相关外文（英语）技术文档资料。
+
+工作职责
+1、负责工业产线上位机软件的开发、调试与迭代优化，适配自动化生产线设备数据采集、状态监控、工艺参数配置、流程管控等核心功能；
+2、对接PLC、传感器、工控设备，完成设备通讯、数据解析、协议对接，保障产线数据实时、稳定传输；
+3、负责上位机界面设计、流程优化、数据可视化及生产日志、故障告警、数据统计等功能开发，提升产线运维效率；
+4、配合产线调试、现场落地及问题排查，优化软件稳定性与兼容性，输出相关开发及使用文档；
+5、跟进生产需求，迭代优化软件功能，配合团队完成产线智能化、数字化升级工作。
+
+岗位关键字：c#、mes、wms、sql、mysql、plc通信、scada",C# SQL Server MySQL SQL 技术文档 数据采集 流程优化,https://jobs.51job.com/kunshan/172719693.html?s=sou_sou_soulb&t=0_0&req=807d1d4c07500bc874f2c59d45780c09
+上位机软件工程师,南通策林科技,1-1.5万,昆山,昆山,本科,1年及以上,2026-06-10 17:13:09,job51,"1.熟悉自动化设备硬件，负责软件模块的开发及测试；
+2.现场程序的部署及调试；
+3.工厂及客户的新需求沟通及开发；
+4.完成临时交办的其他技术任务。
+
+任职要求：
+1.本科及以上学历，电子技术、测控、计算机、工业自动化等相关专业；
+2.1年以上软件编写相关经验，优秀应届毕业生亦可；
+3.熟悉Labview、VB、VC++、C#等高级语言编程（C#为主），了解SQL Server等数据库；
+4.有NI或研华等系列数据采集卡、运动控制卡、NI PXI、TestStand、机器视觉等经验者优先；
+5.工作认真踏实，责任心强，具有较强的自我驱动力，良好的沟通能力及一定的承受能力。
+6具体薪资待面试沟通另定。",C++ C# SQL Server 数据采集 VB VC NI PXI,https://jobs.51job.com/kunshan/172502796.html?s=sou_sou_soulb&t=0_0&req=807d1d4c07500bc874f2c59d45780c09
+上位机开发工程师,明益信（江苏）智能设备有限公司昆山,1-1.7万,昆山,昆山,本科,3-5年,2026-06-30 09:10:08,job51,"岗位要求：
+1、熟练使用C#进行软件开发、上位机软件开发；
+2、有Halcon开发经验的优先；
+3、有固高、雷赛、研华运动控制卡开发经验的优先；
+4、有从事贴合设备、点胶设备研发经验的优先
+5、有工作经验的学习要求本科以上，没有工作经验的学习要求本科以上；
+岗位职责：
+1、负责标准部现有设备的软件升级工作；
+2、负责标准部门新机型的研发工作；
+3、负责标准部门新机型的运动控制卡、视觉等选型工作；",C#,https://jobs.51job.com/kunshan/172732896.html?s=sou_sou_soulb&t=0_0&req=807d1d4c07500bc874f2c59d45780c09
+高级软件工程师C#运控,希盟科技（山东）,1.8-2.5万,苏州,昆山,本科,5年及以上,2026-07-10 17:14:34,job51,"任职资格：
+1、统招本科及以上学历，计算机或者软件相关专业。
+2、熟悉基于C/S或者B/S软件架构开发。
+3、精通.net、c#、Java、Python、c++等至少一种开发语言。
+4、精通常见数据库Mysql、MangoDB、Sqlserver、Oracle等应用。
+5、精通各类项目、代码、问题等管理工具。
+6、具备软件框架搭建能力，具备软件模式设计思路及实际经验。
+
+工作描述：
+1、根据标准设备行业趋势及公司战略需求，制定标准化平台软件技术发展路线，保证路线贯彻执行。
+2、负责标准化平台软件的功能定义、开发流程及测试流程的搭建。
+3、根据部门的具体技术发展点，对标准化平台软件进行技术规划及主导开发，并对已有的软件平台进行持续性迭代优化。",C# Java Python C++ MySQL Go SQL Oracle,https://jobs.51job.com/suzhou/170290979.html?s=sou_sou_soulb&t=0_1&req=807d1d4c07500bc874f2c59d45780c09
+上位机软件工程师,昆山芯物联电子通讯,18-25万/年,苏州,昆山,本科,1年及以上,2026-07-01 14:07:21,job51,"投递前请注意【个人简历填写完整、全日制本科及以上计算机相关专业、1年及以上相关工作经验】，请慎重投递，***.
+
+一、【岗位职责】
+1.上位机软件维护与优化
+负责公司现有VB.NET上位机管理软件的日常维护与性能优化，保障软件与EAP/MES系统及底层控制板的高效交互，支持生产线功能控制、设备监控及关键数据实时上传。
+
+2.系统集成与功能扩展
+根据业务需求，对现有软件进行二次开发及功能扩展，确保系统在不同生产环境下的兼容性、稳定性与可扩展性。
+
+3.现场技术支持
+根据项目进度或客户现场的突发情况，接受短期出差，前往客户现场进行技术对接，包括参加技术交流会议、现场调试软件、排查并解决软件运行故障或异常等。
+
+4.领导交代的其他工作安排。
+
+二、【任职要求】
+1.学历与专业：
+(1)全日制本科(二本)及以上学历。
+(2)自动化、自动化科学与技术、计算机科学与技术、软件工程、电子信息工程、电子科学与技术及相关专业。
+
+2.工作经验：要求有一年及以上相关工作经验；
+
+3.专业素养
+(1)仪容仪表整洁、得体，具备良好的职业形象。
+(2)沟通清晰、准确，能与客户进行专业、高效的技术交流。
+
+4.技术能力
+(1)熟练掌握VB.NET编程语言，具备上位机软件开发经验。
+(2)了解EAP、MES系统及控制板通讯原理，具备快速定位并解决底层通讯问题的能力。
+(3)有工厂自动化（FA）或半导体/电子制造行业经验者（优先）。
+(4)熟悉串口、TCP/IP、Modbus等常用通讯协议（优先）。
+(5)能适应短期出差；有C1驾照且会开油车或新能源小轿车。
+
+三、【工作地点】
+苏州市昆山市花桥镇双联国际大厦2栋401（靠近11号线地铁光明路站）
+
+四、【薪资奖金】
+有相关经验者年薪18万-25万（优秀者可放开薪资区间）
+
+五、【福利待遇】
+五险一金、带薪年假
+周五休二、五天八小时
+定期体检、年度员工旅游
+节日福利、团队聚餐、公司氛围nice
+参与公司核心项目、清晰晋升通道
+五险一金、带薪年假
+做五休二、五天八小时
+定期体检、年度员工旅游
+节日福利、团队聚餐、公司氛围nice
+参与公司核心项目、清晰晋升通道
+丰富奖金（年终奖、季度奖金、分红）",TCP/IP Modbus 技术支持 FA TCP IP,https://jobs.51job.com/suzhou/171784976.html?s=sou_sou_soulb&t=0_1&req=807d1d4c07500bc874f2c59d45780c09
+软件设计工程师,江苏华羲动能科技,1.2-2.4万,苏州,昆山,本科,3年及以上,2026-07-02 13:50:20,job51,"岗位职责
+1、BSP、驱动、应用程序等软件产品研发；
+2、参与产品故障诊断、功能和性能验证；
+3、编写软件产品用户手册以及各种相关文档；
+4、协助技术支持部门进行现场和非现场技术支持、客户培训；
+5、维护软件代码库，软件发布记录，版本快照，修订历史等研发文档；
+6、及时学习和掌握最新的产品和技术、扩展知识面；
+7、与公司内部其他同事积极配合，形成团队作战；
+8、及时向上级汇报工作进展，保证研发和技术支持进度顺利进行。
+
+
+任职要求
+1、电子、计算机、通讯或者相关专业大学本科以上学历；
+2、3年以上嵌入式软件研发经历；
+3、应掌握至少一门主流编程语言，如C/C++、Python等，并熟悉软件工程的基本理论和开发流程，包括但不限于需求分析、系统设计、编码实现、测试验证等环节。此外，对于面向对象编程、设计模式、软件架构等高级概念也应有所了解。
+4、有一年以上混合动力系统（或类似复杂系统）的软件开发经验优先录取；
+5、应具备处理复杂系统级问题的经验，如系统故障排查、性能优化和安全性提升等。",C++ Python 技术支持 培训 需求分析 故障排查,https://jobs.51job.com/suzhou/170826168.html?s=sou_sou_soulb&t=0_1&req=807d1d4c07500bc874f2c59d45780c09
+上位机工程师,昆山捷翔工业设备,1.5-2万·13薪,昆山,昆山,本科,3年及以上,2026-08-06 11:07:37,job51,"【工作内容】
+1、负责自动化设备及仪器仪表的上位机软件开发，完成界面设计、逻辑控制及数据交互功能；
+2、基于PLC、运动控制器或传感器进行通信协议开发（如Modbus、OPC UA），实现设备数据采集与监控；
+3、主导上位机软件架构搭建，优化系统运行效率，确保高并发场景下的稳定性与实时性；
+4、配合硬件工程师完成现场调试，解决通讯异常、数据丢包等关键技术问题并输出测试报告；
+5、编写技术文档与维护手册，持续迭代软件版本，响应客户定制化需求并提供售后技术支持。
+
+【任职要求】
+1、本科及以上学历，计算机、自动化、测控或相关专业，具备扎实的编程理论基础；
+2、精通C#或C++语言，熟悉WPF/WinForm框架，有工业组态软件或SCADA系统开发经验优先；
+3、熟练掌握TCP/IP、串口通信及主流工业总线协议，能独立分析底层硬件接口文档；
+4、具有3年以上工业自动化领域上位机开发经验，熟悉多线程处理及数据库操作（SQL Server）；
+5、具备良好的逻辑思维与抗压能力，能适应短期出差，对新技术保持敏锐度与学习热情。",Modbus 高并发 C# C++ TCP/IP SQL Server 数据采集 技术文档 技术支持,https://jobs.51job.com/kunshan/173172521.html?s=sou_sou_soulb&t=0_0&req=807d1d4c07500bc874f2c59d45780c09
+算法工程师（研发）,昆山华恒机器人,1.2-1.6万·13薪,昆山,昆山,本科,3年及以上,2026-07-20 16:17:46,job51,"岗位职责：
+1.运动算法开发与仿真
+负责串并联机器人正 / 逆运动学、动力学、轨迹规划与插补算法的设计、实现与 MATLAB/Python 仿真验证。
+完成奇异点规避、阻尼最小二乘、动力学补偿等核心算法的嵌入式化与优化。
+2.嵌入式平台移植与集成
+将运动算法移植到基于 Linux + FreeRTOS / 实时内核的嵌入式平台，完成代码优化、性能调优与稳定性测试。
+负责与 CANopen/EtherCAT 等工业总线、伺服驱动器、编码器等硬件的驱动集成与通信调试。
+3.轨迹控制与精度优化
+设计并实现直线 / 圆弧 / 样条插补、S 曲线 / 多项式加减速、前瞻预处理等轨迹控制模块。
+定位并解决轨迹精度、振动抖动、速度瓶颈、关节超限等工程问题。
+4.项目协同与技术支持
+参与产品需求分析、方案评审与技术文档编写，配合硬件、应用、测试团队完成项目交付。
+为现场调试与客户项目提供算法与运动控制技术支持。
+5.技术迭代与平台优化
+跟踪串并联机器人、运动控制、实时系统等领域前沿技术，迭代优化现有算法与软件架构。
+构建并完善运动算法仿真、测试与验证工具链。
+
+岗位要求：
+1、学历与经验
+本科及以上学历，计算机科学与技术、电子信息工程、自动化、机械电子工程、机器人工程等相关专业。
+3 年以上嵌入式运动控制或机器人算法开发经验；有串并联机器人（Delta、Scara、6 轴等）项目经验者优先。
+有 Linux 内核 / 驱动开发、FreeRTOS 实时系统或工业总线（CANopen/EtherCAT）开发经验者优先。
+2、机器人与运动控制理论
+扎实掌握串并联机器人正 / 逆运动学、雅可比矩阵、奇异点分析、动力学建模等核心理论。
+熟练掌握轨迹规划、插补算法、加减速控制等运动控制核心技术。
+3、嵌入式与实时系统能力
+精通 Linux 操作系统，具备独立开发 Linux 服务程序的能力；熟悉 Linux 内核驱动、内存管理、中断与进程调度等核心机制。
+精通单片机 / STM32 等主流单片机的硬件结构与驱动开发；熟悉 FreeRTOS 等实时操作系统的任务调度、资源管理与通信机制。
+4、工业总线与集成能力
+深入理解CANopen/EtherCAT等工业总线协议，具备独立调试伺服驱动器、编码器等设备的经验。
+能独立完成运动控制算法与硬件系统的集成、联调与性能优化。
+5、编程与仿真能力
+熟练掌握C/C++，具备良好的代码规范与调试能力；熟悉嵌入式开发工具链。
+熟练使用MATLAB/Simulink、Python进行运动学 / 动力学建模、轨迹仿真与算法验证。
+6、综合素养
+具备较强的独立分析与解决问题的能力，能快速排查软件与硬件故障。
+工作严谨细致，有责任心，具备良好的团队协作与沟通能力；有工业自动化、机器人、智能装备领域开发经验者优先。",MATLAB Python Linux RTOS CAN 单片机 STM32 C++ 技术支持 需求分析 技术文档,https://jobs.51job.com/kunshan/170893029.html?s=sou_sou_soulb&t=0_0&req=807d1d4c07500bc874f2c59d45780c09
+运动控制工程师,昆山优合自动化科技,1.2-2.4万,昆山,昆山,本科,2年及以上,2026-07-23 08:49:57,job51,"岗位职责：1、算法开发：负责机器人等产品的算法设计、软件实现等工作；
+2、模型仿真:负责运动模型的建立、仿真及相关分析工作;
+3、系统测试：协助对运动控制系统进行功能与性能测试
+4、文档输出：完成产品开发中的设计输出与归档等工作；
+5、其他工作：前沿算法研究，以及部门安排的其他工作。
+任职要求：
+1、统招本科及以上学历，控制、机械、计算机等相关专业;
+2、有2年以上六轴协作/工业/人形机器人运动控制算法研发经验；
+3、精通动力学，如动力学建模、参数辨识、前馈补偿，以及阻抗控制、导纳控制、力位混合控制等；
+4、熟悉C/C++等编程语言进行底层算法开发，熟悉一种运动开发平台如LinuX、ROS2、CODESYS等；
+5、熟悉MATLAB、Python算法仿真，了解抖动抑制、轨迹畸变等问题优化
+6、了解运动学，如DH标定、正逆解、轨迹插补、轨迹规划等;
+7、工作认真负责，有较好的团队合作能力和沟通协调能力。",C++ Linux ROS MATLAB Python 性能测试,https://jobs.51job.com/kunshan/173010587.html?s=sou_sou_soulb&t=0_0&req=807d1d4c07500bc874f2c59d45780c09
+嵌入式软件工程师（昆山）,净能科技（嘉兴）,1.5-3万·13薪,昆山,昆山,本科,3年及以上,2026-07-03 08:50:14,job51,"岗位职责：
+1、 负责储能系统中嵌入式软件的开发与优化，确保系统稳定运行；
+2、参与整个产品开发周期，包括需求分析、系统设计、代码、测试和技术文档编写；
+3、 与硬件团队协作，进行软硬件联调与问题定位；
+4、 编写技术文档，支持产品交付与后续维护。
+
+任职要求：
+1、全日制本科及以上学历，电子工程、计算机科学或相关专业；
+2、 3年及以上嵌入式软件开发经验，熟悉C/C++语言；
+3、精通STM32系列芯片嵌入式软件开发，熟练USB、UART、SPI、I2C等底层驱动开发，熟悉RTOS、Linux等操作系统，实现传感器数据采集、处理、无线传输（LoRa、WiFi）。
+4、能独立完成上位机界面开发者优先。
+5、具备储能系统或电力电子相关项目经验者优先；
+6、具备良好的逻辑思维和问题解决能力。
+7、具备良好的沟通能力和团队合作精神。",C++ STM32 UART SPI I2C RTOS Linux LoRA WiFi 需求分析 技术文档 数据采集,https://jobs.51job.com/kunshan/169695184.html?s=sou_sou_soulb&t=0_0&req=807d1d4c07500bc874f2c59d45780c09
+UDS嵌入式开发工程师,苏州九驭智控科技,1.5-2.5万,昆山,昆山,本科,2年及以上,2026-08-05 09:16:21,job51,"岗位核心职责：
+1、负责汽车电子控制器端UDS诊断协议栈的开发、移植与优化，严格遵循ISO 14229系列国际标准完成功能落地。
+2、主导LIN总线通信模块的驱动开发与协议集成，实现节点间可靠的诊断交互与数据传输。
+3、完成DTC故障码体系的全链路设计：包括故障逻辑触发、状态存储、快照数据记录、清除与上报流程开发，满足车规级诊断规范要求。
+4、对接主机厂与Tier1客户的诊断需求，输出规范的诊断服务文档，完成诊断功能的台架测试与实车联调。
+5、跟进车载诊断相关国标、行业标准的更新迭代，持续优化产品的诊断兼容性与合规性。
+任职要求：
+1、本科及以上学历，电子工程、车辆工程、自动化、计算机等相关专业，2年以上汽车电子嵌入式开发经验。
+2、深入理解ISO 14229 UDS诊断协议全体系，熟练掌握常用26种标准诊断服务的实现逻辑与应用场景。
+3、精通LIN总线协议（ISO 17987），具备LIN主/从节点的驱动开发、信号调度与诊断功能集成的完整项目经验。
+4、熟悉汽车电子DTC故障码设计规范，独立完成过至少1款车载控制器的故障诊断体系开发工作。
+5、熟练使用C/C++进行嵌入式代码开发，具备Keil、IAR等主流编译环境调试经验，了解MCU底层外设驱动开发原理。
+6、熟悉CAN/LIN总线分析工具（如CANoe、CANalyzer），能够独立完成诊断报文的抓取、分析与问题定位。
+7、具备车规级功能安全（ISO 26262）、ASPICE开发流程相关经验者优先，有车载动力域、底盘域、车身域控制器开发经验者优先。",C++ MCU CAN SPI 合规 ISO CANalyzer,https://jobs.51job.com/kunshan/173153881.html?s=sou_sou_soulb&t=0_0&req=807d1d4c07500bc874f2c59d45780c09
+系统集成与软件工程师,江苏倍川自动化设备,1.5-2.5万·13薪,昆山,昆山,本科,1-5年,2026-06-27 09:42:53,job51,"【岗位定位】 作为产线数字化与自动化的核心技术枢纽，您将负责制造执行系统（MES）、智能仓储（WMS/WCS）与自主移动机器人（AMR）调度系统的端到端集成与架构演进。您不仅需要打通异构系统间的数据链路，更要作为“系统级神探”，在复杂的软硬件交互环境中解决跨模块的技术疑难杂症，主导远程升级（OTA）与集中化监控体系的建设。
+
+【核心职责】 (Core Responsibilities)：
+复杂系统集成与架构设计： 负责MES与WMS、WCS、AMR FMS（车队管理系统）等多源异构系统的高可靠集成。主导系统层面的架构设计，定义并实现低延迟、高并发的跨系统通信API与消息总线。
+C++ 核心业务与 IoT 接入： 使用 C++ 编写高性能的底层交互与设备接入代码，通过 MQTT、WebSocket、TCP Socket 等协议，实现产线状态的毫秒级采集与设备级控制指令的精准下发。
+跨模块全链路 Debug 与系统调优： 扮演系统级Troubleshooter。在面对“设备卡死”、“丢包”、“指令时序错乱”等复杂生产事故时，能够跨越网络层、业务逻辑层和底层硬件，进行高效的抓包、日志排查与根因分析（RCA）。
+OTA 远程升级架构落地： 设计并开发针对边缘计算节点、网关及自动化设备的 OTA（Over-The-Air）差分升级模块，确保固件与软件更新的安全性、断点续传能力及失败回滚机制。
+集中日志与告警平台建设： 从 0 到 1 搭建涵盖全业务链路的集中式日志分析与可视化告警平台（如基于 ELK 或 Prometheus/Grafana 生态），实现对系统健康度、Slow SQL 及异常状态的提前预警。
+
+【任职要求】 (Requirements)：
+教育背景： 统招本科及以上学历，计算机科学、软件工程、自动化等相关专业。具有 985、211 或双一流院校背景者优先录用。
+核心开发能力： 精通 C++（C++11及以上标准），具备扎实的数据结构、算法基础及多线程并发编程经验。同时熟悉至少一种主流后端辅助语言（如 Java / Go / Python）。
+系统调试与排障： 精通 Linux 操作系统原理，熟练使用 GDB、Wireshark/tcpdump 等系统级调试与网络抓包工具。
+数据库与架构设计： 熟悉关系型数据库（MySQL / PostgreSQL）设计与性能调优；熟练掌握 Redis、Kafka/RabbitMQ 等中间件在分布式系统解耦与削峰中的应用。
+物联网与通信技能： 深入理解 TCP/IP 协议栈，熟悉 MQTT、WebSocket 等即时通信协议以及 JSON/Protobuf 等数据序列化技术。
+
+【加分项】 (Nice to Have)：
+具备 AMR（自主移动机器人）系统、ROS/ROS2 开发或车队调度系统（FMS）经验者属于极度稀缺人才，优先重点考虑。
+
+熟悉工业现场底层通信协议，如 OPC UA、Modbus TCP、EtherCAT 等。
+具备 Docker/Kubernetes 容器化部署经验，了解 CI/CD 自动化流水线建设。",高并发 C++ MQTT WebSocket Prometheus Grafana SQL Java Go Python Linux MySQL PostgreSQL Redis Kafka RabbitMQ 分布式 TCP/IP Protobuf ROS Modbus Docker Kubernetes 容器化 CI/CD 日志分析,https://jobs.51job.com/kunshan/172710558.html?s=sou_sou_soulb&t=0_0&req=807d1d4c07500bc874f2c59d45780c09
+c#软件工程师,昆山欣合通精密机械科技,1.5-2万·13薪,昆山,昆山,,1-3年,2026-07-22 16:13:11,job51,"1:负责非标自动化设备的上位机软件设计与开发，主要包括人机交互界面、数据采集与监控(SCADA)、工艺流程控制逻辑的实现。
+2:基于C#平台，调用运动控制卡(如固高、雷赛、研华、TRIO等)SDK，实现多轴联动、点位运动、JOG运动及复杂的轨迹规划。
+3:集成工业相机(如Basler、海康威视、大恒等)及视算法库(如Halcon、VisionPro、OpenCV)完成定位引导、尺寸测量、缺陷检测、二维码/条码读取等功能。
+4:负责设备与PLC(如西门子、三菱、欧姆龙等)的通信(使用Modbus/TCP、S7协议、MC协议等)以及设备与工厂MES系统(制造执行系统)的数据交(WebAPI/WebService/Socket)。
+5:配合机械、电气工程师进行现场设备调试，解决软件故障，优化程序性能，确保设备稳定运行并满足节拍要求。",C# OpenCV Modbus 数据采集 SCADA SDK VisionPro TCP,https://jobs.51job.com/kunshan/171302369.html?s=sou_sou_soulb&t=0_0&req=807d1d4c07500bc874f2c59d45780c09
+机器人视觉算法工程师,昆山优合自动化科技,1.2-2.4万,昆山,昆山,本科,2-5年,2026-07-23 08:48:27,job51,"工作内容：
+1、负责机器人场景下的2D/3D视觉感知算法研发，包括但不限于目标检测、图像分割、深度估计、姿态估计、语义理解等核心算法；
+2、研究多模态视觉融合与时空感知算法，提升动态场景下的鲁棒性、深度精度与边缘部署性能；
+3、参与从模型训练到端侧推理的全流程开发，包括模型训练、转换、部署以及性能优化（cuDNN/ONNX/TensorRT);
+4、结合IMU、相机、雷达等传感器数据，实现多视角立体视觉重建（SFM/MVS）、BEV融合、光流估计及视觉里程计算法;
+5、跟踪前沿的视觉感知技术与大模型（VLM、Diffusion、AIGCforVision）发展趋势，支撑VLM/端到端项目落地;
+6、探索通用视觉表示在具身智能或机器人视觉系统中的应用。
+
+职位要求：
+1、本科及以上学历，计算机视觉、自动化、电子工程、人工智能、应用数学等相关专业;
+2、熟悉计算机视觉基础算法与图像处理方法，包括目标检测、语义分割、立体匹配、深度估计等方向；
+3、精通至少一种编程语言（C++／Python），熟练掌握主流深度学习框架（PyTorch/TensorFlow/JAX等）；
+4、熟悉视觉系统的工程化部署流程，具备模型加速、剪枝、蒸馏、量化经验;
+5、有以下任一经验者优先：BEV或多视角立体视觉算法开发、双目/单目深度估计与光流匹配、多模态视觉融合（相机+IMU/LiDAR）、视觉里程计/视觉惯导融合（VIO）；
+6、具备良好的数学基础，理解计算几何、光学成像、矩阵运算与优化原理；拥有扎实的工程实现能力与科研能力.",多模态 ONNX 大模型 Diffusion AIGC 计算机视觉 C++ Python 深度学习 PyTorch TensorFlow LiDAR,https://jobs.51job.com/kunshan/173010568.html?s=sou_sou_soulb&t=0_0&req=807d1d4c07500bc874f2c59d45780c09
+资深AI工业软件开发工程师（Agent方向）,江苏哈森智造科技,1.6-3.2万,昆山,昆山,本科,5年及以上,2026-06-24 19:59:09,job51,"岗位职责
+负责基于AI技术构建智能设计与自动建模平台，实现产品设计、工艺匹配和生产数据的智能化应用。
+主要工作包括：
+• 基于大模型（LLM）开发工业AI应用与Agent系统 
+• 开发AI自动建模、参数化建模及模型生成能力 
+• 对接UG/NX、SolidWorks等CAD软件接口，实现模型自动创建与修改 
+• 建设工艺、材料、模具、BOM等知识库体系 
+• 对接ERP、MES、PLM等企业系统，实现数据联动 
+• 参与工业设备、传感器及生产数据采集系统集成 
+• 推动AI技术在研发设计、工艺规划及生产制造场景落地 
+任职要求
+• 本科及以上学历，计算机、软件工程、机械设计、自动化等相关专业 
+• 5年以上软件开发经验，具备扎实的工程化能力 
+• 熟练掌握Python或C++，具备良好的系统设计能力 
+• 熟悉大模型应用开发（OpenAI、Claude、Gemini、DeepSeek等） 
+• 熟悉Agent、RAG、知识库等AI技术方案 
+• 具备CAD/CAE软件二次开发经验优先（UG/NX、SolidWorks、CATIA等） 
+• 具备制造业信息化项目经验优先（ERP、MES、PLM等） 
+• 具备工业设备、PLC、物联网、自动化相关经验优先 
+加分项
+• 参与过工业软件、CAD软件、数字孪生相关项目 
+• 参与过AI Agent、工业知识图谱项目 
+• 熟悉OpenCascade、Parasolid等几何建模技术 
+• 有制造业数字化转型项目经验",大模型 LLM Agent Python C++ RAG AI Agent 产品设计 知识库 数据采集 技术方案,https://jobs.51job.com/kunshan/172678677.html?s=sou_sou_soulb&t=0_0&req=807d1d4c07500bc874f2c59d45780c09
+视觉应用工程师,苏州汉扬精密电子,8千-1.2万,昆山,昆山,本科,2年及以上,2026-08-04 11:18:01,job51,"【工作内容】
+1、视觉系统应用、AI应用及开发（主要）；
+2、机器人程序编写与调试；
+3、用C#上位机软体开发与维护；
+4、根据工程师提出的需求，与项目组成员充分沟通，独立进行软件方案/架构/代码的设计；
+5、编制软件开发详细设计文档/测试文档，保证开发过程符合设计规范要求；
+6、解决设备使用过程中遇到的技术问题；
+7、AI评估及交机
+
+【任职要求】
+1、计算机、自动化或相关专业本科及以上学历，具备扎实的图像处理理论基础；
+2、精通C++/Python编程语言，熟练掌握OpenCV、Halcon等主流视觉开发库；
+3、拥有消费电子或精密制造行业机器视觉项目经验，熟悉工业相机与传感器应用；
+4、具备良好的逻辑分析能力与抗压能力，能适应产线现场调试及跨部门高效协作。",C# C++ Python OpenCV,https://jobs.51job.com/kunshan/172788569.html?s=sou_sou_soulb&t=0_0&req=807d1d4c07500bc874f2c59d45780c09
+软件工程师,昆山芯物联电子通讯,18-25万/年,苏州,昆山,本科,1年及以上,2026-07-31 15:13:00,job51,"一、【岗位职责】
+1.上位机软件维护与优化
+负责公司现有VB.NET上位机管理软件的日常维护与性能优化，保障软件与EAP/MES系统及底层控制板的高效交互，支持生产线功能控制、设备监控及关键数据实时上传。
+
+2.系统集成与功能扩展
+根据业务需求，对现有软件进行二次开发及功能扩展，确保系统在不同生产环境下的兼容性、稳定性与可扩展性。
+
+3.现场技术支持
+根据项目进度或客户现场的突发情况，接受短期出差，前往客户现场进行技术对接，包括参加技术交流会议、现场调试软件、排查并解决软件运行故障或异常等。
+
+4.领导交代的其他工作安排。
+
+二、【任职要求】
+1.学历与专业：
+(1)全日制本科(二本)及以上学历。
+(2)自动化、自动化科学与技术、计算机科学与技术、软件工程、电子信息工程、电子科学与技术及相关专业。
+
+2.工作经验：要求有一年及以上相关工作经验；优秀应届毕业生亦考虑
+
+3.专业素养
+(1)仪容仪表整洁、得体，具备良好的职业形象。
+(2)沟通清晰、准确，能与客户进行专业、高效的技术交流。
+
+4.技术能力
+(1)熟练掌握VB.NET编程语言，具备上位机软件开发经验。
+(2)了解EAP、MES系统及控制板通讯原理，具备快速定位并解决底层通讯问题的能力。
+(3)有工厂自动化（FA）或半导体/电子制造行业经验者（优先）。
+(4)熟悉串口、TCP/IP、Modbus等常用通讯协议（优先）。
+(5)能适应短期出差。
+
+三、【工作地点】
+苏州市昆山市花桥镇双联国际大厦2栋401（靠近11号线地铁光明路站）
+
+四、【薪资范围】
+有相关工作经验者年薪18万-25万（优秀者可放开薪资区间）
+
+五、【福利待遇】
+五险一金、带薪年假
+做五休二、五天八小时
+定期体检、年度员工旅游
+节日福利、团队聚餐、公司氛围nice
+参与公司核心项目、清晰晋升通道
+丰富奖金（年终奖、季度奖金、分红）",TCP/IP Modbus 技术支持 FA TCP IP,https://jobs.51job.com/suzhou/170993176.html?s=sou_sou_soulb&t=0_1&req=23b7971a88b68fcafb79ec4146e7cf3f
+视觉应用工程师,明益信（江苏）智能设备有限公司昆山,8千-1万,昆山,昆山,本科,2-5年,2026-06-30 09:06:57,job51,"岗位职责：
+1、负责设备的机器视觉上位机软件的及视觉系统调试、远程服务，部分非标机型的现场验收、持续改善
+2、编写应用项目调试文档、相关研发技术文档、测试文档等
+3、要求具备良好学习与接受能力、善于总结归纳，逻辑思维能力强
+4、抗压能力强，适应长期出差，具备优秀的沟通和表达能力
+
+工作技能：
+1、本科以上学历、自动化专业、计算机，机器视觉专业、熟悉机器视觉产品，了解相机、镜头、光源等机器视觉硬件选型；
+2、熟练掌握Halcon、Visionmaster、SCI等常用机器视觉软件一种或者几种的使用
+3、熟悉C++、C#等编程语言的一种
+熟悉图像处理常用算法原理，并能够灵活运用算法进行图像匹配、定位、分割、识别、引导抓取和引导组装、外观检测
+4、可接受优秀应届生；",C++ C# 技术文档 Visionmaster,https://jobs.51job.com/kunshan/172732819.html?s=sou_sou_soulb&t=0_0&req=23b7971a88b68fcafb79ec4146e7cf3f
+光模块固件工程师,前锦网络信息技术（上海）,20-25万/年,昆山,昆山,本科,3年及以上,2026-07-01 16:49:29,job51,"【上市公司·光模块】固件工程师（CMIS/SFF-8636/STM32）	年薪20-25W	苏州
+
+A股主板上市公司旗下全资子公司，专注于高速硅光芯片设计及高端光模块的研发与制造，已推出400G/800G/1.6T全系列硅光模块产品，部分产品已向海外客户批量出货。公司拥有完整的硅光芯片设计与模块制造能力，是国内少数具备从PIC设计到模块封装测试全链条能力的厂商之一。目前处于团队扩张期，技术大牛带队，成长空间巨大。
+岗位核心卖点：深度参与高速光模块产品从0到1的研发过程，技术栈可随产品迭代同步升级
+
+岗位职责
+o 负责公司高速光模块产品(400G/800G/1.6T)固件系列设计与开发；
+o 协同硬件工程师完成 MCU 相关的原理设计以及产品功能调试，确保产品达
+到设计需求；
+o 编写高效、稳定的固件代码，完成 OE 模块底层驱动程序及通信协议的开发。
+o 根据固件性能及特点，协助测试工程师制定测试计划，组织实施测试工作，
+确保测试工作的计划性与规范性，协调解决测试测量软件的现场使用问题；
+o 组织固件开发产品评审，完成项目固件开发、用户使用、系统技术文档的编
+写、完善、归档工作；
+o 负责固件的修复、升级、维护及异常情况的处理工作，保持产品稳定性；
+o 负责对产品提供必要售后支持服务。
+
+任职要求
+o 电子信息工程、通信工程、计算机科学等相关专业,本科及以上学历；
+o 3 年以上光模块固件开发经验，有高速光模块（400G/800G）项目经验者优
+先；
+o 精通 C/C++语言，具备扎实的嵌入式系统开发及软件编程能力；
+o 熟悉 ARM、STM32 等主流 MCU 架构，掌握内外资源配置方案，熟练使用
+Keil、IAR 等开发工具；熟练掌握示波器、逻辑分析仪等 Debug 设备；
+o 理解光模块相关协议（如 SFF-8024、SFF-8636、SFF-8679、MSA、CIMS 等光
+模块协议等）；
+o 熟悉 I2C、SPI、UART、JTAG、MDIO 等通信接口开发；
+o 熟悉电子电路原理，有硅光通信模块开发并有实际开发经验者优先考虑；
+o 具备良好的问题分析与解决能力，能独立完成模块调试与故障定位；
+o 良好的团队合作精神，沟通顺畅，责任心。",STM32 MCU C++ ARM I2C SPI UART 产品迭代 测试计划 技术文档,https://jobs.51job.com/kunshan/172758833.html?s=sou_sou_soulb&t=0_0&req=23b7971a88b68fcafb79ec4146e7cf3f
+c#中级软件工程师（昆山）,深圳市恒力天科技,1.2-1.5万,昆山,昆山,大专,1-3年,2026-08-06 13:50:19,job51,"岗位职责：
+1、对客户要求进行方案评估、选型、DOE验证并输出相关测试报告；
+2、负责上位机软件方案设计、代码编写、现场调试等相关工作，能够针对设备的问题点，提供一些改善型建议 
+3、负责软件操作说明书的制作以及现场人员的培训，针对现场软件问题点，能够有效的FA分析
+任职要求：
+1、本科及以上学历，自动化、计算机相关专业；
+2、3-5年以上A客户设备软件开发经验；
+3、熟练掌握C#语言，winform平台软件开发，熟悉多线程编程，数据库，串口及网络通信；
+4、熟练使用固高、雷赛、等品牌板卡进行运动控制程序的编写，了解机器视觉相关背景优先；
+5、有较强的沟通、语言表达、抗压能力及责任心，能适应加班及异地出差；",C# 方案设计 培训,https://jobs.51job.com/kunshan/173175258.html?s=sou_sou_soulb&t=0_0&req=23b7971a88b68fcafb79ec4146e7cf3f
+驻厂上位机开发工程师(台湾）,环鸿电子（昆山）,2-3.5万·15薪,昆山,昆山,大专,3年,2026-07-22 16:07:04,job51,"工作职责:
+1、维护自动化项目关联上位机及视觉软件。
+2、配合现场需求单位提出的增补开发。
+3、协同现场FAE解决现场上位机Bug。
+4、配合开发与维护工作。
+5、维护及管理程序代码。
+6、开展上位机技能培训。
+任职资格:
+1、大专及以上学历，计算机、软件工程、自动化等相关专业优先。
+2、了解C#、VB.NET等开发语言者优先。
+3、有上位机软件开发、设备调试或自动化相关经验者优先。
+4、具备良好的学习能力和问题分析能力。
+5、能配合驻厂工作安排。",C# 培训 VB.,https://jobs.51job.com/kunshan/173001800.html?s=sou_sou_soulb&t=0_0&req=23b7971a88b68fcafb79ec4146e7cf3f
+视觉软件工程师,万润科技精机（昆山）,1-1.5万·13薪,昆山,昆山,本科,1-5年,2026-07-07 11:03:59,job51,"任职要求：
+1.光学工程、智能科学与技术专业、光电信息科学与工程等相关专业；课程包含：图像处理、计算机视觉等，本科及以上学历优秀毕业生；
+2.熟悉 C#、Winform、WPF、能够进行 C#、Halcon 、VM联合编程;
+3.熟悉 Halcon、opencv、VM 等视觉开发工具、熟悉常见的图像处理算法，如边缘检测、模板匹配、blob、特征提取;
+4.熟悉相机成像系统、有海康、大恒、凌云相机的软硬件调试经验、有自动化行业（缺陷检测）的现场;
+5.有很强的学习能力，对新知识/技术敏感，工作负责，主动好学，有较强的团队合作精神。",计算机视觉 C# OpenCV Winform WPF Halcon VM,https://jobs.51job.com/kunshan/172053314.html?s=sou_sou_soulb&t=0_0&req=23b7971a88b68fcafb79ec4146e7cf3f
+软件主管（高精设备）,希盟科技（山东）,2.2-3万,苏州,昆山,本科,5年及以上,2026-07-10 17:14:34,job51,"任职资格：
+1、统招本科及以上学历，计算机或者软件相关专业。
+2、熟悉基于C/S或者B/S软件架构开发。
+3、精通.net、c#、Java、Python、c++等至少一种开发语言。
+4、精通常见数据库Mysql、MangoDB、Sqlserver、Oracle等应用。
+5、精通各类项目、代码、问题等管理工具。
+6、具备软件框架搭建能力，具备软件模式设计思路及实际经验。
+7、至少3年以上的架构设计、团队管理经验及5年的软件开发经验。
+8、对行业及技术前沿有敏感性，能够将前沿技术应用于工业领域。
+9、具备较强的组织协调能力、分析决策执行力。
+工作描述：
+1、根据标准设备行业趋势及公司战略需求，制定标准化平台软件技术发展路线，保证路线贯彻执行。
+2、负责标准化平台软件的功能定义、开发流程及测试流程的搭建。
+3、根据部门的具体技术发展点，对标准化平台软件进行技术规划及主导开发，并对已有的软件平台进行持续性迭代优化。
+4、负责标准化平台软件研发团队搭建、文化建设、团队目标制定、任务及日常管理、基于目标的绩效考核。
+5、给各个应用产品线部门做好技术平台支撑，给各产品线部门对接窗口提供培训，通过产品线以及具体项目获取开发需求信息。",C# Java Python C++ MySQL Go SQL Oracle 团队管理 培训,https://jobs.51job.com/suzhou/168184754.html?s=sou_sou_soulb&t=0_1&req=23b7971a88b68fcafb79ec4146e7cf3f
+感知算法开发工程师,腾飞科技,1-1.5万,昆山,昆山,本科,无需经验,2026-06-15 16:53:06,job51,"1. 信号预处理：负责从原始ADC采样数据中清洗噪声，处理基线漂移，提取时域/频域特征。
+2. 动作识别模型开发：基于身体压力分布数据，构建机器学习/深度学习模型，实现对人体动作、接触状态和生理状态的分类与预测。
+3. 算法验证与优化：在真实数据集上进行模型训练、交叉验证，不断优化模型的准确率。
+4. 端侧部署支持：配合嵌入式工程师，将训练好的模型进行轻量化。
+5. 数据闭环：参与制定数据采集标准，持续迭代算法性能。
+
+学历背景：本科及以上学历，计算机、自动化、应用数学、生物医学工程等相关专业。
+编程基础：熟练掌握 Python和科学计算库。
+算法框架：熟悉 PyTorch 或 TensorFlow，有实际的分类/回归模型开发经验。
+信号处理经验：熟悉常见的分类算法，有处理时间序列数据或传感器信号的经验。
+具备良好的逻辑思维，能沉下心处理枯燥的数据清洗工作，具备良好的团队协作能力。
+有智能服装、柔性传感、TWS耳机、智能手表等可穿戴项目经验者优先。
+熟悉心率（PPG）、心电（ECG）、肌电（EMG）等生物信号采集电路的设计与噪声抑制者优先。
+有柔性传感器、压力分布矩阵、足底压力或智能鞋垫相关的算法经验者优先。了解 TinyML，有将模型部署到MCU端的实战经验者优先。",机器学习 深度学习 Python PyTorch TensorFlow MCU 数据采集,https://jobs.51job.com/kunshan/172562956.html?s=sou_sou_soulb&t=0_0&req=23b7971a88b68fcafb79ec4146e7cf3f
+嵌入式软件开发工程师,江苏依珂诺汽车科技,7千-1.3万,昆山,昆山,本科,1年及以上,2026-06-25 13:27:43,job51,"【工作内容】
+1. 负责汽车电子、电机驱动、蓝牙智能类产品的单片机软件开发，完成需求分析、方案设计、代码编写、调试测试、优化维护全流程工作；
+2. 负责电机控制算法的设计、实现与调试，包括BDC/BLDC电机的PID控制、无感控制、闭环控制等，完成电机驱动程序的开发与优化；
+3. 负责蓝牙通信功能的开发，包括蓝牙BLE/经典蓝牙的协议栈移植、应用层开发、数据透传、OTA升级、低功耗优化等功能的实现与调试；
+4. 负责汽车级产品的软件开发，包括车载MCU的外设驱动、CAN/LIN总线通信、车载功能安全相关的软件设计与开发，符合汽车电子行业标准；
+5. 负责产品的硬件与软件联调，配合硬件工程师完成硬件方案的验证与优化，解决产品开发过程中的各类软硬件协同问题；
+6. 负责产品的测试与问题修复，配合测试工程师完成单元测试、集成测试、系统测试，快速定位并解决测试过程中发现的软件问题；
+7. 负责技术文档的编写与维护，包括需求规格说明书、软件设计文档、代码注释、测试报告、用户手册等，确保文档的完整性与准确性；
+8. 对接客户与供应商，完成技术方案的沟通、需求对接、技术支持，解决客户现场的技术问题，配合供应商完成芯片、器件的选型与验证；
+9. 跟踪行业前沿技术，包括单片机、电机控制、蓝牙、汽车电子相关的新技术、新方案，完成技术预研与产品升级优化；
+10. 完成上级交办的其他研发相关工作任务。
+【经验要求】
+有实习/1年左右单片机软件开发相关工作经验、学校参加过电赛开发经验者优先；有电机控制、蓝牙通信、汽车电子行业开发经验者优先；有完整的车载电子产品、电机驱动产品、蓝牙智能产品开发落地经验者优先。
+【任职要求】
+1. 精通C/C++编程语言，熟练使用keil，具备良好的代码规范与编程习惯，能独立完成复杂嵌入式系统的代码开发与调试；
+2. 精通主流单片机的外设驱动开发，包括GPIO、UART、SPI、I2C、ADC、PWM、定时器等，能快速完成芯片级驱动移植与开发；
+3. 具备扎实的电机控制理论基础，能独立完成BDC/BLDC电机的控制算法设计、仿真、实现与调试，解决电机运行过程中的异响、抖动、效率等问题；
+4. 精通蓝牙协议栈架构，能独立完成蓝牙应用层开发、功能调试，解决蓝牙通信过程中的连接稳定性、数据传输、功耗等问题；
+5. 熟悉汽车电子开发流程，有车载MCU开发、CAN/LIN总线开发、车载功能安全开发经验，能独立完成汽车级产品的软件需求分析、设计、实现与验证；
+6. 具备良好的问题排查与解决能力，能快速定位并解决软件开发、调试、测试过程中的各类技术问题；
+7. 具备良好的文档编写能力，能独立完成需求规格说明书、设计文档、测试报告、用户手册等技术文档的编写；
+8. 具备良好的沟通协调能力，能对接客户、硬件、测试、生产等部门，完成项目全流程的技术对接与落地。
+9.积极主动，责任心强，工作踏实，有较好的抗压能力；具备良好的逻辑思维能力、问题排查能力，对嵌入式开发有浓厚的兴趣，具备良好的团队协作能力。",单片机 MCU CAN C++ UART SPI I2C 需求分析 方案设计 技术文档 技术方案 技术支持 文档编写,https://jobs.51job.com/kunshan/172686366.html?s=sou_sou_soulb&t=0_0&req=23b7971a88b68fcafb79ec4146e7cf3f
+嵌入式系统电子工程师,苏州贝茵科技,9千-1.2万,昆山,昆山,本科,2年及以上,2026-07-16 15:41:33,job51,"岗位职责
+1.硬件开发
+嵌入式硬件系统设计，包括需求分析、方案选型、电路原理图设计及PCB布局。
+硬件调试及问题解决，使用示波器、逻辑分析仪等工具验证信号完整性及系统稳定性。
+2.软件开发与交互
+熟悉ARM内核MCU开发，RTOS系统移植及应用。
+应用层功能开发（如PID控制算法）。
+3.系统集成与文档
+编写设计文档、测试报告及专利技术方案。
+配合生产部门完成量产问题分析及工艺优化。
+
+任职要求
+1.基础条件
+本科及以上学历，电子工程、自动化、通信、计算机等相关专业。
+2年以上嵌入式系统开发经验，具备独立完成硬件项目及软件模块开发能力。
+2.硬件技能
+精通模拟/数字电路设计。
+掌握PCB设计工具及仿真软件。
+3.软件技能
+熟练使用C/C++语言。
+熟悉RTOS系统开发。
+4.综合能力
+熟悉通信协议（Modbus），CAN、SPI总线等。
+具备跨部门协作能力。",ARM MCU RTOS C++ Modbus CAN SPI 需求分析 专利 技术方案 跨部门协作,https://jobs.51job.com/kunshan/172937591.html?s=sou_sou_soulb&t=0_0&req=23b7971a88b68fcafb79ec4146e7cf3f
+研发软件工程师(C#),贸联电子（昆山）,9千-1.5万,昆山,昆山,本科,1年及以上,2026-07-21 10:02:07,job51,"职位描述：
+1.软件项目维护
+2.产品Firmware功能与规划
+3.执行、协助或配合韧体新技术之研发、导入
+4.软件项目进度管理
+
+岗位要求：
+1.精通 Net framework and windows programming 
+2.熟悉 basic Oracle SQL operation
+3.精通 C# / JAVA / C++
+4.熟悉 OPEN CV
+5.熟悉 mobile device programming (Android/iOS) 加分
+6.有 SA/SD 相关经验尤佳
+7.有 Labview 开发经验尤佳
+8.熟悉 GitLab",Oracle SQL C# Java C++ Git 进度管理,https://jobs.51job.com/kunshan/172980241.html?s=sou_sou_soulb&t=0_0&req=23b7971a88b68fcafb79ec4146e7cf3f
+软体设计高级工程师,富港电子（昆山）,1-1.2万·13薪,昆山,昆山,大专,3-5年,2026-07-14 15:11:13,job51,"1.信息系统程序开发设计
+2.系统架构规划导入实施
+3.集团项目CTB系统导入与运维
+4.跨厂区项目支援与远程维护
+技能要求：
+1.熟练掌握C#、Java等开发语言进行C/S或B/S架构开发，如WPF、Web、WebAPI等
+2.能熟练使用.net core 及Vue进行前后端分离代码开发，熟练掌握.net core/Vue的运行机制及所需环境，熟悉常用设计模式及算法
+3.熟悉主流关系数据库,Oracle、SqlServer，精通SQL编程、存储过程、事务、触发器
+4. 熟悉制造业生产管理流程及特点",C# Java Vue Oracle SQL Web SqlServer,https://jobs.51job.com/kunshan/172905747.html?s=sou_sou_soulb&t=0_0&req=23b7971a88b68fcafb79ec4146e7cf3f
+软体设计工程师,昆山峰实电子外观应用科技,1-1.5万,昆山,昆山,本科,1年及以上,2026-06-23 11:59:41,job51,"【工作内容】
+- 负责网页接口开发，软件功能设计，功能拓展，使用等文档；
+- 负责对编码进行调试和验证，设计测试使用等；
+- 日常维护现有系统软件的稳定运行；
+- 疑难问题进行跟踪和解决。
+【任职要求】
+- 计算机科学与技术、软件工程、自动化、通信等相关专业；
+- 熟悉TCP/IP通讯编程、多线程，有模块化编程思想；
+- 熟练掌握C#语言，熟悉WebAPI，WebSocket,Socket等相关技术；
+- 熟悉.NET框架及面向对象和设计模式，具有良好的编程规范。",TCP/IP C# WebSocket,https://jobs.51job.com/kunshan/170069201.html?s=sou_sou_soulb&t=0_0&req=23b7971a88b68fcafb79ec4146e7cf3f
+智能视觉算法工程师,苏州凌风科技,7千-1.4万·13薪,昆山,昆山,硕士,1-3年,2026-08-07 22:16:58,job51,"【工作内容】
+1、负责智能视觉算法的核心研发，包括目标检测、识别跟踪及场景理解等关键技术的落地应用；
+2、主导算法模型的训练、优化与部署工作，针对船舶或航空场景进行数据清洗及模型迭代升级；
+3、深入业务一线分析复杂环境下的视觉需求，设计并实现高鲁棒性的算法解决方案以交付项目成果；
+4、协同软硬件团队完成嵌入式端侧的算法移植与性能调优，确保系统在动态环境中的实时性与稳定性；
+5、持续跟踪前沿技术动态，撰写高质量技术文档，推动核心算法专利布局与技术成果转化。
+
+【任职要求】
+1、计算机、自动化、人工智能等相关专业硕士及以上学历，具备扎实的数学与编程基础；
+2、精通C++/Python语言，熟练掌握OpenCV、PyTorch、TensorFlow等主流深度学习框架；
+3、拥有3年以上视觉算法开发经验，熟悉YOLO、Transformer等经典模型架构及工程化部署流程；
+4、在工业检测、导航定位或无人机视觉等领域有实际项目落地经验，具备解决复杂工程问题的能力；
+5、具备良好的逻辑思维能力与团队协作精神，对新技术保持敏锐度，能适应高强度项目交付节奏。",C++ Python OpenCV PyTorch TensorFlow 深度学习 Transformer 技术文档 专利,https://jobs.51job.com/kunshan/173055638.html?s=sou_sou_soulb&t=0_0&req=23b7971a88b68fcafb79ec4146e7cf3f
+初级上位机工程师,昆山优合自动化科技,6-8千,昆山,昆山,大专,1年及以上,2026-06-17 14:25:43,job51,"【工作内容】
+1、负责自动化设备上位机软件的日常维护、功能优化及故障排查；
+2、根据项目需求编写PLC通讯程序，实现工控机与底层设备的稳定交互；
+3、开发人机界面（HMI），完成数据监控、报警管理及操作逻辑设计；
+4、配合机械工程师进行系统联调，解决现场运行中的技术难题并交付文档。
+
+【任职要求】
+1. 大专及以上，自动化、测控、机电、计算机、软件工程相关专业；
+2. 1 年及以上非标自动化上位机开发调试经验。
+3. 掌握 C# 基础语法，熟练 WinForm 基础控件，能独立写简单窗体程序
+4. 掌握基础 SQL 语句，能使用 SQLite/MySQL 做增删改查，看懂简单数据表结构
+5. 基础工业认知：了解 PLC、IO、串口、TCP 通讯基础概念，能看懂简单电气信号说明。
+6. 能接受项目出差，配合项目现场调试。",C# SQL SQLite MySQL 故障排查 HMI WinForm PLC,https://jobs.51job.com/kunshan/172595620.html?s=sou_sou_soulb&t=0_0&req=23b7971a88b68fcafb79ec4146e7cf3f
+嵌入式软件开发,腾飞科技,1.2-1.9万,昆山,昆山,本科,1年及以上,2026-06-15 16:50:19,job51,"1. 负责基于 STM32/ESP32 等MCU的嵌入式软件开发，实现传感器数据采集、处理及无线传输（BLE/WiFi）。
+2. 软硬联调与优化：负责软硬件联调，解决信号干扰、功耗优化及生产一致性等问题，确保产品性能达标。
+3. 技术协作：与全栈工程师紧密配合，定义数据规范和数据协议，参与产品定义与技术评审。
+
+学历背景：本科及以上学历，电子、通信、自动化、微电子等相关专业。
+经验要求：1年以上嵌入式软件开发经验，有实际量产或原型机开发经验者优先。
+精通 STM32 或 ESP32 系列芯片开发，熟悉ESP-IDF等IDE，能够完成测试软件开发。
+具备良好的文档编写习惯。
+有智能服装、柔性传感、智能可穿戴项目经验。
+熟悉心率（PPG）、心电（ECG）、肌电（EMG）等生物信号采集电路的设计与噪声抑制者优先。",STM32 MCU WiFi 数据采集 文档编写 ESP32 BLE PPG,https://jobs.51job.com/kunshan/172562864.html?s=sou_sou_soulb&t=0_0&req=23b7971a88b68fcafb79ec4146e7cf3f
+算法总监,苏州精创光学仪器,2.5-5万,昆山,昆山,硕士,8年及以上,2026-08-06 11:45:19,job51,"【岗位职责】
+1、负责公司算法团队整体管理，算法技术路线规划、技术选型、年度技术目标拆解，搭建工业算法体系，对齐产品、研发业务目标。
+2、主导仪器仪表、自动化设备核心算法攻关：信号处理、传感数据解析、测量算法、误差补偿、故障诊断、预测性维护、机器视觉检测、工业 AI 识别、控制算法等；解决产品关键技术瓶颈。
+3、参与新产品立项评审，输出算法可行性评估，定义算法指标、精度指标、性能指标，把控算法需求、设计、开发、测试、迭代全流程。
+4、带领算法团队（算法工程师、高级算法工程师），任务分配、技术评审、代码评审、人才培养、绩效考核，搭建人才梯队，建立算法开发规范。
+5、推动算法工程化落地：把算法从仿真原型落地到嵌入式、MCU、DSP、FPGA、工控平台，完成算法移植、优化、算力裁剪，实现在仪器 / 自动化设备量产落地。
+6、算法测试与验证：联合实验室、硬件、测试团队，完成算法精度、稳定性、鲁棒性验证，处理现场工况下算法失效问题，持续迭代优化。
+7、技术预研：跟踪工业算法前沿，评估新技术（工业大模型、边缘 AI、机器视觉）在仪器仪表、自动化场景落地价值；主导专利、技术文档输出。
+8、跨部门协同：对接硬件、嵌入式、产品、生产、质量，解决量产过程算法相关问题；对外对接高校、技术合作方。
+9.其他上级安排事项。
+
+【任职要求】
+1、硕士及以上学历，自动化、测控技术、仪器科学、电子信息、信号处理、模式识别、控制工程等相关专业；博士优先。
+2、8 年及以上工业算法研发经验，3‑5 年算法团队管理经验，有仪器仪表、工业自动化、传感测量、工业机器视觉、工控行业背景。
+3、精通工业场景下至少一类核心算法方向：
+方向 A（测量仪表）：信号处理、滤波、数据拟合、误差补偿、标定算法、传感信号解析；
+方向 B（自动化控制）：运动控制、PID、自适应控制、状态观测；
+方向 C（工业 AI）：机器视觉缺陷检测、故障诊断、预测性维护、时序数据 AI 分析。
+4、具备算法从仿真到嵌入式设备量产落地完整项目经验，熟悉算法工程化，能评估算力、内存、实时性约束。
+5、熟练 Python 做算法仿真验证；熟悉 C/C++ 嵌入式算法开发，熟悉 MCU/DSP/FPGA 算法移植优化；掌握 Matlab/Simulink 建模仿真。
+6、熟悉工业传感器数据特征，能够处理工业现场噪声、干扰、工况波动，提升算法鲁棒性与测量精度。
+7、熟悉机器视觉优先：OpenCV、工业视觉库，工业相机、光源选型，缺陷检测、测量定位项目经验。
+8、懂算法指标定义：精度、重复度、响应时间、误报漏报率，可设计算法验证方案，对接实验室做算法测评。
+9、团队管理：能够做技术规划、技术风险识别，带领 5‑15 人算法团队，建立开发流程、评审机制。
+10、加分优先项：
+10.1有工业仪器、智能传感器、PLC / 工控设备、自动化检测设备算法负责人经验。
+10.2熟悉边缘部署，TensorRT、ONNX，轻量化工业 AI 模型部署；有故障诊断、预测性维护项目。
+10.3熟悉各类标定、补偿算法，有测量类仪表量产算法落地经验。
+拥有算法相关发明专利，有技术预研项目、对外技术合作经验。",MCU DSP FPGA 大模型 Python C++ MATLAB OpenCV ONNX 专利 技术文档 团队管理,https://jobs.51job.com/kunshan/173173660.html?s=sou_sou_soulb&t=0_0&req=23b7971a88b68fcafb79ec4146e7cf3f
+软件工程师-应届生,江苏烽禾升智能科技,8千-1.2万,苏州,昆山,本科,无需经验,2026-06-11 16:02:29,job51,"【工作内容】
+1. 负责磁悬浮输送系统后端软件的开发，基于后端技术栈实现核心业务模块，包括设备管理、任务调度、数据管理（如运行数据存储、日志记录）、故障报警（如异常检测、报警推送）。
+2. 对接硬件与嵌入式技术部、运动控制技术部，实现软件与电控硬件（如电机驱动板、编码器）、运动控制模块的通讯对接，开发通讯协议解析逻辑（如EtherCAT），解决数据丢包、通讯中断等问题。
+3. 参与软件架构设计与性能优化，负责后端接口的设计与开发，确保接口响应速度与稳定性，编写单元测试与集成测试用例，保障代码质量。
+4. 配合HMI工程师完成前后端联调，协助解决数据交互问题；参与软件测试与问题修复，输出技术文档如接口文档、模块设计说明书。
+
+【任职要求】
+1、计算机类、自动化、电子信息、软件工程、通信等
+2、编程语言：C#（WinForm/WPF）或 C++（尤其Qt） 为绝对主流，需能独立完成界面与通信逻辑开发；
+3、技术能力：掌握串口（RS232/485）、TCP/IP、Modbus等工业通信协议；了解多线程、基础数据结构、简单数据库（如SQLite/SQL Server）；有设备控制或产线调试类项目/毕设经验优先。
+4、具备良好的逻辑思维与学习能力，抗压能力强，认同公司企业文化并愿长期发展。",C# C++ TCP/IP Modbus SQLite SQL Server 测试用例 技术文档,https://jobs.51job.com/suzhou/172518979.html?s=sou_sou_soulb&t=0_1&req=23b7971a88b68fcafb79ec4146e7cf3f
+机器人电子线路工程师,腾飞科技,1-1.5万,昆山,昆山,本科,3年及以上,2026-06-25 13:29:22,job51,"【工作内容】
+1、负责仿真机器人中电子模块的硬件设计与原理图绘制，确保电路稳定性；
+2、主导嵌入式系统调试与固件优化，实现传感器数据采集及无线通信功能；
+3、协同机械与软件团队完成样机试制，解决生产过程中的电磁兼容及信号干扰问题；
+4、负责电子元器件选型与BOM表维护，跟进供应链采购并控制物料成本；
+5、编写技术文档与测试报告，协助制定产品量产标准及后续迭代升级方案。
+
+【任职要求】
+1、电子信息、自动化或相关专业本科及以上学历，具备3年以上电子研发经验；
+2、精通STM32等主流MCU开发，熟悉模拟/数字电路设计及PCB Layout规范；
+3、掌握C/C++编程，具备物联网协议（如蓝牙、Wi-Fi）应用开发实战能力；
+4、熟悉电子测试仪器使用，具备良好的问题分析能力及跨部门沟通协作技巧；
+5、责任心强，能适应项目节点压力，对智能服装领域有浓厚兴趣者优先。",STM32 MCU C++ 数据采集 供应链 采购 技术文档,https://jobs.51job.com/kunshan/172686388.html?s=sou_sou_soulb&t=0_0&req=23b7971a88b68fcafb79ec4146e7cf3f
+python工程师,苏州丰航精密金属,1.2-2万,昆山,昆山,本科,3年及以上,2026-07-28 11:28:12,job51,"岗位职责：
+1.生产/制程大数据数据采集及数据仓库建置；
+2.数据分析，依各大数据分析项目所需；
+3.数据治理与Data Model设计；
+4.研究与开发机器学习算法(含深度学习模型研究，模拟与分析)；
+5. 主管安排其他协助事项；
+6. 薪资可谈（视个人能力）
+任职要求
+1. 本科以上学历，计算机科学与技术，软件工程，人工智能，数据科学与大数据技术等专业；
+2 .相关工作经验3年，具备传统产业数据分析经验者优；
+3.具Data warehouse 导入，建置，管理经验；
+4.具Data model设计能力；
+5.具计算机视觉背景；
+6.熟悉Linux运算环境者佳；
+7.具Python、Java、c、c# 经验；",机器学习 深度学习 计算机视觉 Linux Python Java C# 数据采集 数据分析 数据治理,https://jobs.51job.com/kunshan/172984188.html?s=sou_sou_soulb&t=0_0&req=23b7971a88b68fcafb79ec4146e7cf3f
+嵌入式助理工程师,江苏埃施朗电气,4.5-9千,昆山,昆山,本科,无需经验,2026-08-03 10:12:35,job51,"岗位职责
+1、协助主办工程师自研硬件产品的嵌入式软件开发。
+2、配合部门经理参与需求定义和方案讨论。
+3、按照项目需求独立完成系统框架设计、代码开发、自测和系统联调工作。
+4、负责产品的测试、维护以及协助主办工程师bug修复。
+5、根据公司流程输出相关技术文档。
+6、完成领导分配的其他任务。
+任职要求
+1、本科及以上学历，计算机、电子、通信、自动化等相关专业，参加过全国大学生编程竞赛优先考虑。 
+2、精通C/C++语言，精通嵌入式linux软件开发，有良好的编程风格和习惯。 
+3、精通ARM架构Linux系统软件开发调试方法。 
+4、熟悉各种接口协议，如I2C、SPI、USB、UART等。 
+5、具备复杂问题的分析能力和组织攻关能力。 
+6、具有积极的工作态度、强烈的责任心和团队合作精神，有良好的沟通能力，能适应短期出差。",C++ 嵌入式Linux ARM Linux I2C SPI UART 技术文档,https://jobs.51job.com/kunshan/172776910.html?s=sou_sou_soulb&t=0_0&req=ecdbb29c84adb698ceab385c81bbe3fb
+嵌入式助理软件工程师（急聘）,艺唯科技,6千-1.1万,昆山,昆山,本科,无需经验,2026-06-17 16:40:27,job51,"岗位职责：
+1.参与健身器材控制系统、光伏微型逆变器以及储能产品的嵌入式软件开发（基于ARM平台）；
+2.负责底层驱动、通讯协议（如PLC、SUB-1G、CAN、Wi-Fi/4G）、逻辑控制等模块的编码与调试；
+3.配合硬件工程师完成整机联调、问题定位与性能优化；
+4.编写软件设计文档、测试报告及生产导入支持文件。
+任职要求：
+1.本科及以上学历，电子、通信、自动化、电气工程等相关专业，
+2.熟练掌握C语言，具备良好的编程习惯与文档能力；
+3.熟悉至少一种主流MCU（如STM32、GD32）的开发环境及调试方法；
+4.了解RTOS（FreeRTOS/RT-Thread）基本原理，有实际移植或应用经验者优先；
+5.能阅读英文芯片手册，对数字电路、MCU芯片外设（PWM/UART/SPI/I2C）有一定基础；
+6.逻辑清晰，具备独立分析和解决问题的能力，对新能源行业有热情。
+加分项（满足其一即可优先）：
+有电力电子基础，了解电源相关的各种拓扑架构及转换原理，电解驱动以及控制，具有PWM、AD采样、PID控制等概念；
+参加过电子设计竞赛、智能车竞赛或实际项目开发；
+熟悉逆变器、BMS、MPPT算法或储能系统架构
+可以接受2025/2026届毕业生。",ARM CAN 4G C语言 MCU STM32 RTOS UART SPI I2C,https://jobs.51job.com/kunshan/171749718.html?s=sou_sou_soulb&t=0_0&req=ecdbb29c84adb698ceab385c81bbe3fb
+汽车电子测试开发工程师,环鸿电子（昆山）,1-2万·16薪,昆山,昆山,本科,2年及以上,2026-08-05 15:35:30,job51,"工作职责:
+1. 测试方案制定与用例设计
+· 负责公司汽车电子产品（智能驾驶、网联、新能源、底盘、座舱和车身控制等）各类ECU的需求评审，制定测试计划、测试策略和测试标准
+· 根据内外部的需求，编写并维护详细的测试规范、测试方案及测试用例，覆盖功能、网络、性能、可靠性、安全等多维度
+2. 测试环境搭建与维护
+· 搭建桌面级BSW测试环境，制作测试线束、负载箱等测试工装
+· 搭建、维护并优化测试环境，包括仿真平台、HIL测试台架、数据采集系统及相关软硬件
+· 负责汽车电子功能测试系统的开发、集成、调试及日常维护
+3. 测试执行与缺陷管理
+· 执行台架测试、硬件在环（HIL）测试、网络测试、实车测试及白盒测试，采集并分析测试数据，撰写测试报告
+· 针对MCU特定外设（ADC/CAN/SPI等）执行底层驱动测试并评估测试报告
+· 精准定位缺陷，推动问题的复现、分析与解决，建立有效的问题跟踪与验证闭环
+· 利用缺陷管理系统跟踪、登记、验证和关闭bug，协同开发团队定位并验证问题修复效果
+4. 自动化测试开发
+· 根据测试用例类型开发自动化测试脚本（Python/，C#, LabVIEW等），提升测试效率与覆盖率
+· 构建和维护自动化测试框架及测试用例库
+5. 协作与持续改进
+· 与系统负责人、开发工程师协作，理解需求和设计，负责测试场景构建和测试用例评审工作
+· 引入、评估并推进测试相关的改进措施和效率提升方案
+· 参与软件发布流程，与策划、开发和项目管理团队紧密协作，确保软件版本按时、高质量交付
+
+任职资格:
+1. 教育背景
+· 本科及以上学历，电子信息工程、车辆工程、自动化、计算机科学与技术、测控技术与仪器等相关专业
+2. 工作经验
+· 2年以上嵌入式系统或汽车电子产品的系统测试/软件开发或测试经验
+· 有汽车电子（MCU、VCU、BMS等）HIL集成测试经验者优先
+3. 专业技能
+· 编程语言：熟练掌握C/C++、Python, LabVIEW等编程语言，具备自动化测试脚本开发能力
+· 汽车通信协议：熟悉CAN、LIN、Ethernet等车载通信协议及UDS诊断协议
+· 测试工具：熟练使用CANoe、CANalyzer、INCA等测试工具；能够使用Lauterbach或UDE调试器调试代码
+· 测试方法论：熟悉软件测试流程和方法，了解黑盒测试、白盒测试基础知识；熟悉ASPICE测试相关要求者优先
+· 硬件基础：具备嵌入式硬件电路、芯片、操作系统、底层软件等相关知识，能看懂电路原理图等
+4. 综合素质
+· 具备优秀的问题分解与根因分析能力，善于在复杂的软硬件交织环境中定位问题
+· 学***动性强，具备系统化的问题分析和解决能力
+· 良好的沟通协作能力和团队合作精神
+· 良好的英文读写能力，能够流畅阅读英文技术资料",MCU CAN SPI Python C# C++ 测试计划 测试用例 数据采集 功能测试 缺陷管理 自动化测试 项目管理,https://jobs.51job.com/kunshan/173162831.html?s=sou_sou_soulb&t=0_0&req=ecdbb29c84adb698ceab385c81bbe3fb
+数字人表情算法工程师,腾飞科技,1.5-3万,昆山,昆山,本科,1年及以上,2026-06-13 11:17:09,job51,"1. 核心算法研发
+
+◦ 负责人脸检测、跟踪、识别、结构化分析及表情识别等基础算法的研究与优化。
+◦ 构建从文本/语音到面部表情的端到端生成模型，实现文本/语音驱动人脸表情生成。
+◦ 深入研究语音中的节奏、语调、能量、停顿与情绪状态，并建模其对面部运动的影响。
+
+2. 实时交互与系统落地
+
+◦ 研发低延迟、流式（Streaming）推理方案，满足实时对话数字人/机器人的需求。
+◦ 与 TTS、ASR、LLM、VLM 等模块紧密协同，构建完整的实时交互链路，输出可直接驱动数字人、人形仿生机器人或游戏角色的表情参数。
+◦ 建立语音、文本、情绪标签与面部动作之间的跨模态对齐机制，持续优化驱动效果。
+
+3. 引擎对接与资产建设
+
+◦ 熟练使用 Blendshape 等虚拟引擎，辅助设计仿生头的表情与动作，并完成算法在引擎中的部署与适配。
+◦ 负责建立、维护和迭代数字人表情与动作库，不断完善表情数据集。
+
+4. 业务推动与协作
+
+◦ 将算法成果快速落地到具体业务场景中，负责性能评估与持续优化。
+◦ 与产品、硬件等多学科团队配合，完成人机交互相关产品的集成与交付。
+
+任职要求：
+
+1. 学历与经验
+
+◦ 计算机、人工智能、电子信息等相关专业本科及以上学历。
+◦ 1年及以上计算机视觉、表情驱动或数字人相关开发工作经验，具备完整项目经验者优先。
+
+2. 技术栈
+
+◦ 精通 Python，熟练使用 PyTorch 等主流深度学习框架，了解 TensorFlow、Keras、OpenCV 等工具。
+◦ 精通人脸表征、表情识别与生成相关的算法和模型，对视频画面中的表情动态识别有实践经验者优先。
+◦ 熟悉主流生成式模型，如 GAN、Diffusion、NeRF 等。
+◦ 深入了解 Blendshape 等面部动画引擎，有实际使用和部署经验
+。
+3. 专业能力
+
+◦ 具备从语音到面部运动建模的能力，理解 Lip Sync、TTS 与表情之间的协同优化。
+◦ 有多模态（语音、图像、视频）联合学习经验者优先。
+◦ 数学基础扎实，具备优秀的建模能力、逻辑思维和问题分析能力。
+
+4. 软技能
+
+◦ 出色的沟通与团队协作能力，能够与算法、工程、产品等多角色高效合作。
+◦ 对数字人技术充满热情，具备较强的学习能力和执行力，擅长将前沿研究转化为实际应用",TTS ASR LLM 计算机视觉 Python PyTorch 深度学习 TensorFlow Keras OpenCV GAN Diffusion 多模态,https://jobs.51job.com/kunshan/172542650.html?s=sou_sou_soulb&t=0_0&req=ecdbb29c84adb698ceab385c81bbe3fb
+研发软体应用工程师,仁宝信息技术（昆山）,7-9千,昆山,昆山,本科,无需经验,2026-06-10 16:39:46,job51,"招募要求
+1.本科及以上学历，英语四级
+2.电子、计算机、通信工程等相关专业
+3.熟悉电脑软硬体知识，熟悉作业系统，分析能力强，沟通能力强，语言表达能力强
+
+岗位职责：
+1.对笔记本计算机产品研发、测试、生产以及量产售后(客诉)的软件相关问题进行追踪,分析与解决。
+3.掌握issue debug技能,能够初步定位问题类型,并主导与驱动厂商合作,高效推动问题解决(例如:NVIDIA/Intel/Microsoft);。
+4.完成上级交办任务",ROS NVIDIA Intel Microsoft,https://jobs.51job.com/kunshan/172501767.html?s=sou_sou_soulb&t=0_0&req=ecdbb29c84adb698ceab385c81bbe3fb
+FPGA软件工程师,迈胜医疗设备,1-1.5万·15薪,昆山,昆山,硕士,1年及以上,2026-08-05 10:54:39,job51,"工作职责
+加速器控制系统、治疗控制系统等自主研发控制器FPGA及嵌入式逻辑开发与调试工作。
+1、与项目负责人共同确定产品的需求、整体方案；
+2、负责FPGA程序的编写、算法的设计仿真、FPGA调试；
+3、完成所负责产品的设计文档和测试文档的编写；
+4、验证产品的可靠性和稳定性等性能。
+
+任职要求
+1.通信、电子、计算机等相关专业硕士以上学历；
+2.有1年以上相关工作经验；
+3.良好的信号处理专业知识；
+4.具有较好的Verilog/VHDL、C/C++语言设计基础，FPGA、DSP、ARM相关设计开发经验，熟练掌握其设计、仿真、开发流程；
+5.良好的团队合作精神，乐观、积极的工作作风。",FPGA Verilog VHDL C++ DSP ARM,https://jobs.51job.com/kunshan/173156953.html?s=sou_sou_soulb&t=0_0&req=ecdbb29c84adb698ceab385c81bbe3fb
+Python应用开发工程师,苏州梦利达电子,9千-1.3万·13薪,昆山,昆山,本科,1年及以上,2026-07-27 10:31:37,job51,"任职要求：
+1.本科及以上学历，计算机相关专业；本科对口专业优先。
+2.具备1年及以上软件开发相关经验；
+3.熟悉Python开发（必要）；
+4.熟悉关系数据库系统MySQL、SQL SERVER、PostgreSQL等，熟悉标准SQL语言；
+5.熟悉Python后端常见WEB开源框架/系统，熟悉前端VUE框架开发技术；
+6.具备编写需求、设计、使用说明等常见软件工程文档能力；
+7.具备良好的沟通表达能力、责任心和团队协作能力；
+8.有MDC、MES、WMS开发经验者优先。
+9.具有AIcoding工具使用经验；
+10.熟悉web前端技术框架或具备一定开发能力；
+岗位职责：
+1.参与公司MES开发、升级、运维及重点项目的设计与开发编码工作；
+2.能够独立主持开展软件开发项目；
+3.完成B/S架构软件产品或项目的前、后端程序业务设计、代码实现，完成前后端接口设计与开发实现；
+4.完成软件产品或项目的数据库规划与设计。",Python MySQL SQL Server PostgreSQL SQL Vue,https://jobs.51job.com/kunshan/173046390.html?s=sou_sou_soulb&t=0_0&req=ecdbb29c84adb698ceab385c81bbe3fb
+软件实习生,彼欧光电系统（昆山）,3.5-4.5千,昆山,昆山,大专,无需经验,2026-07-09 14:03:08,job51,"【工作内容】
+1、协助工程师进行软件程序编写，调试及测试工作；
+2、负责相关技术文档的撰写与更新管理；
+
+
+【任职要求】
+1、专科及以上学历，计算机、电子工程、自动化或相关专业在读学生；
+2、熟练掌握C/C++编程语言，了解数据结构及常用算法基础；",C++ 技术文档,https://plasticomnium-lighting.51job.com/job_show.html#jobid=172683092&poscode=1
+初级软件工程师,昆山人力资源派遣服务,7-7.5千·13薪,昆山,昆山,本科,1-2年,2026-07-15 22:33:21,job51,"一、【岗位介绍】
+ 本岗位为人才市场国有企业外包岗位，深耕通力电梯长期定岗项目，双方合作已达20年，外派派遣员工近200人。岗位资源稳定、靠谱有保障。入职可同等参与通力电梯内部专业培训、团队活动，享受均等成长资源。团队秉持纯正北欧工作氛围，主打平等包容、轻松人性化的工作模式，氛围和谐、管理人性化，给予员工充足的工作自由度与成长空间。
+ 完善福利体系：免费提供工作餐。节假日均发放节日福利补贴；通力电梯提供上下班班车接送服务，不乘坐班车者每月可享受300元通勤车贴；入职缴纳实缴五险一金；除国家法定年休假外，员工每在岗满一年，可额外增加1天专属服务假；每年享有6天带薪病假，贴心保障员工休息权益。
+
+二、主要工作职责（Major Area of Responsibilities）
+1、负责前端页面开发与优化，满足各业务小组的业务数据展示、功能使用等需求，适配各类业务场景。
+2、高效配合后端团队完成接口对接、联调测试工作，保障前后端数据传输顺畅、功能联动正常。
+3、负责后端数据功能接口开发，熟练开展数据库设计、数据逻辑梳理等工作，熟练使用SQL Server等数据库工具。
+4、主动学习、深度拆解业务需求，精准将业务逻辑转化为标准化、可落地的程序设计方案。
+5、对接多个业务小组开展协同开发，积极配合团队推进项目进度，保障项目高效落地。
+三、任职要求（Requirements）
+1、学历专业
+本科及以上学历，计算机相关专业。
+2、专业技能
+熟练掌握HTML、CSS、JavaScript等前端基础技术，精通Vue等主流前端框架；熟练掌握Java/.NET开发技术，具备多线程开发实战能力，具备独立开发与功能迭代能力。
+3、能力素养
+具备良好的问题分析、逻辑思考和问题解决能力，能快速排查并解决开发过程中的各类技术问题。
+4、工作经验
+拥有1-2年程序开发相关工作经验。熟悉微软.NET Core开发技术的优先
+5、语言能力
+具备基础的英语听、说、读、写能力，可满足日常工作基础英文应用需求。
+6、综合素质
+性格开朗乐观，抗压能力良好，可适配岗位工作节奏；工作态度积极主动，具备较强的自主学习能力和团队协作意识。",SQL Server JavaScript Vue Java 培训 Major Area Responsibilities,https://jobs.51job.com/kunshan/172430092.html?s=sou_sou_soulb&t=0_0&req=ecdbb29c84adb698ceab385c81bbe3fb
+自动化软件开发工程师,立臻精密智造（昆山）,1.1-2.2万,昆山,昆山,本科,3年及以上,2026-08-07 15:45:13,job51,"【工作内容】
+1.&nbsp;负责厂区非标自动化设备、视觉检测设备、机器人模组上位机软件开发，使用C#/C++搭建Winform/WPF操作界面，实现设备运动控制、参数标定、良品检测、数据统计全流程软件逻辑开发。
+2.&nbsp;对接MES生产系统开发数据接口，完成产线生产数据、不良品信息、设备稼动率自动上传、存储、报表导出，适配立臻内部智造系统规范 。
+3.&nbsp;配合视觉团队调试相机SDK、Halcon图像处理程序，集成影像定位、尺寸检测、AA模组对准软件功能，适配摄像头模组生产制程 。
+4.&nbsp;跟进样机开发、NPI试产、量产落地，排查软件卡顿、通讯中断、识别偏差、数据错乱等故障，持续迭代优化软件稳定性与生产节拍。
+5.&nbsp;编写开发文档、操作手册、版本日志，搭建代码标准化模板，沉淀通用模块，提升多条自动化线体复用开发效率。
+6.&nbsp;协同机械、电气、工艺、现场AE工程师对接需求，跟进设备技改、产线升级的软件改版开发。
+
+【任职要求】
+1、计算机或相关专业本科及以上学历，具备3年以上嵌入式或自动化软件开发经验；
+2、精通C/C++/Python语言，熟悉Linux环境开发，掌握多线程及网络通信编程；
+3、了解半导体或消费电子行业测试标准，有自动化测试框架搭建经验者优先；
+4、具备良好的逻辑思维能力与文档撰写习惯，拥有强烈的责任心及团队协作精神。",C# C++ Python Linux 自动化测试,https://jobs.51job.com/kunshan/173193081.html?s=sou_sou_soulb&t=0_0&req=ecdbb29c84adb698ceab385c81bbe3fb
+软件工程师,苏州远昌智能科技,1.1-1.8万·14薪,苏州,昆山,本科,1年及以上,2026-08-07 16:17:07,job51,"岗位职责： 
+6.设计、开发和优化机器人控制软件，包括控制逻辑和通信模块。 
+7.负责机器人运动控制、传感器数据处理和执行器控制等功能； 
+8.负责机器人系统升级、日志管理、系统监控、后台通信、整机状态管理、音视频传输等应用层业务开发； 
+9.编写技术文档（方案设计、设计规范、接口协议、测试报告）;
+10.现场部署与调试机器人，客户培训。
+
+岗位要求： 
+7.本科及以上学历，计算机、软件工程、自动化相关专业，1年或以上机器人产品开发经验； 
+8.精通C++/python开发、调试和性能优化，熟悉面向对象分析与设计技术，熟悉常用设计模式； 熟练使用qt vs等IDE
+9.熟悉常用通信协议，具备CAN、485、WebSocket、modbus、TCP-IP等协议栈优化经验； 
+10.熟悉软件开发流程，具有规范化的代码编写习惯和良好的技术文档习惯，擅于沟通与学习，独立思考能力强；",C++ Python CAN WebSocket Modbus 技术文档 方案设计 培训,https://jobs.51job.com/suzhou/173193899.html?s=sou_sou_soulb&t=0_1&req=ecdbb29c84adb698ceab385c81bbe3fb
+软件工程师,施努卡（苏州）智能装备,1.5-2.5万,昆山,昆山,本科,3年及以上,2026-07-16 04:12:38,job51,"职位描述
+负责公司产品中组合约束、形位公差算法的开发和测试。
+负责公司产品在开发过程中所有开发文档的构建和整合。
+负责现有公司产品的迭代工作。
+配合完成上级部门安排的其他工作。
+
+任职要求
+计算机、电气、机械、数学等理工科相关专业，211本科及以上学历，三年以上工作经验，硕士经验者优先。
+熟练使用&nbsp;C++，有较强的算法和工程代码能力。
+熟悉使用三维几何、线性代数、矩阵变换、数值计算等基础知识。
+了解&nbsp;CAD/CAE、几何建模、装配约束、公差分析、GD&amp;T&nbsp;相关方向。
+使用过&nbsp;Eigen、OpenCASCADE、Qt、CMake&nbsp;等开发环境。
+能读懂已有代码，具备独立分析问题和推进算法实现的能力。
+服从领导，较强的学习能力和良好的工作效率，有高度工作责任感和团队协作精神，能承受适当的工作压力。",C++ CMake nbsp CAD CAE GD Eigen OpenCASCADE,https://jobs.51job.com/kunshan/172919257.html?s=sou_sou_soulb&t=0_0&req=ecdbb29c84adb698ceab385c81bbe3fb
+嵌入式工程师（2026年校招）,普罗斯通信技术（苏州）,8千-1万,昆山,昆山,本科,在校生/应届生,2026-06-16 14:25:59,job51,"1、负责嵌入式系统软件代码编写、调试与维护。
+2、负责嵌入式开发相关技术文档编写、维护，编写总结报告等。
+3、负责协助生产工艺文档编写、维护及生产指导。
+4、负责各类数字板、控制板、功能板的软硬件调试。
+5、负责产品的基本功能性测试，协助可靠性测试。
+
+任职要求：
+1、本科学历，电子、自动化、通信类相关专业；
+2、熟悉CORTEX-M0/M3/M4和ARM/ZYNQ下位机软件开发，熟悉常用的外设器件的使用和编程；
+3、熟悉C/C++/Python语言，有实时嵌入式系统开发经验，了解FreeRTOS，uCos，嵌入式Linux者优先；
+4、熟悉各类嵌入式通信接口，如IIC，SPI，串口，网口，485通信接口等等；
+5、熟悉模拟电子、数字电子电路分析，了解电路调试；
+6、CET6，熟练的英语读写能力，能阅读英语技术文档；口语能交流；
+7、有实际嵌入式AI项目经验者优先。",ARM C++ Python RTOS 嵌入式Linux SPI 技术文档 文档编写,https://jobs.51job.com/kunshan/171014803.html?s=sou_sou_soulb&t=0_0&req=ecdbb29c84adb698ceab385c81bbe3fb
+嵌入式软件开发,杭州喆芯通信技术,1-1.5万·13薪,常熟,常熟,本科,4年及以上,2026-08-05 13:51:26,job51,"杭州喆芯聚焦于为各细分行业客户提供物联网及智能解决方案。
+经数年发展，已先后设立香港喆芯电子、喆芯微（成都）电子、喆芯通信、喆芯智联等子公司，在上海、杭州、苏州、成都、深圳均设有办公点，为客户提供本地化服务。
+目前喆芯已完成了完整的IOT市场代理产品线布局，主要代理泰凌、芯海、聚辰、润石、必易微等25+产品线，也是泰凌微等品牌头部代理商和方案商。产业链覆盖IOT芯片，MCU，射频器件、电源模拟信号链、传感器等其他周边器件。
+同时，喆芯还搭建了完备的研发技术支持团队，具备快速智能化软硬件方案输出服务能力，助力客户产品快速上市。选择喆芯，合作共赢！
+
+岗位职责
+1.根据项目任务，完成所负责项目的嵌入式软件需求拆解、细化和确认;
+2.根据详细设计需求，完成嵌入式软件的设计和开发，独立处理和解决所负责任务，包括硬件平台调试、模块测式等;
+3.上级交付的其它工作。
+职位要求：
+-计算机、通信、电子、自动化等相关专业，本科及以上学历；
+-熟悉数电模电、微机/单片机原理、数据结构、算法、操作系统、通信原理等基础知识；英语CET4级及以上，能够熟练的阅读英文数据手册和开发资料；
+-具有嵌入式系统开发经验，熟练使用C/C++语言编程开发。
+-具有BLE相关开发经验，如BLE应用程序、SDK、协议栈等；
+-具有以下一项或多项经验者优先：
+1、参与过BLE SDK开发；
+2、参与过蓝牙/2.4G音频产品开发（如TWS、headset、音响等），熟悉音频性能指标和算法；
+3、熟悉Bluetooth、Zigbee、WIFI、Thread、Matter等物联网协议标准，并具有相关软件开发经验；
+4、熟悉FreeRTOS、Zephyr、uCOS、liteOS等操作系统，并具有相关软件开发经验，嵌入式软件开发(Linux/单片机/PLC/DSP等)
+
+核心价值：
+1.权益深度绑定，共享长远未来
+这里不是雇佣，而是邀请你成为“共同创造者”。我们提供具有吸引力的核心股权/期权，你的专业付出与业务成果将与公司的长期价值直接挂钩，真正实现“同风险、共成长”。
+2.自主决策，专业获得充分信任
+我们尊重专业判断，不设繁琐审批与过度管控。你可以基于目标、数据与专业判断高效决策，在明确的权责边界内，拥有充分的施展空间与资源支持。
+3.纯粹做事的环境，回归创造本质
+团队由一批务实专注、着眼长远的伙伴组成。我们鼓励坦诚沟通、高效协同，拒绝办公室政治，让精力聚焦于解决问题与创造价值本身。
+
+福利待遇：
+1、工作时间：8小时/天，双休，节假日放假按国家规定执行；
+2、缴纳五险一金
+3、每年组织年度旅游；
+4、每年安排员工体检；
+5、提供各类补贴（出差通勤补助，餐补，通信补助，出差住宿补助，各类培训补助等等）
+6、聘请专业律师提供常年的法律咨询服务，定期开展法律相关讲座；
+7、聘请专业医生（博士）提供常年的健康咨询服务，每月开展健康相关讲座；
+8、提供各种专业的技能，心态，管理等方面的外训和内训，良好的工作和学习氛围让你不断提升自我，成就自我；
+9、传统节假日（春节，端午，中秋，三八）礼品，生日礼物，婚丧津贴发放；
+10、定期组织户外露营烧烤，户外骑行徒步，聚餐，K歌，狼人杀等丰富的文体活动；
+11、年轻化的工作团队，良好开放的工作氛围，秉承敬业，奋进，利他，包容的我们，欢迎具备优质潜力的您加入我们的队伍！",MCU 单片机 C++ 4G Bluetooth WiFi RTOS Linux DSP 技术支持 培训,https://jobs.51job.com/changshu/168495518.html?s=sou_sou_soulb&t=0_0&req=8f01653d51ee7331c7b203cdadd6fcdf
+ATE测试工程师,弘润半导体（苏州）,1-1.8万·13薪,常熟,常熟,本科,1年及以上,2026-07-08 11:13:43,job51,"岗位职责：
+职责一：测试方案开发与实现
+1）独立完成基于ATE（如Teradyne J750，Chroma3380/3360P，ACCOSTS8200/8300等）的测试程序开发、调试与验证；
+2）负责测试接口板（Loadboard,
+Probe Card）的原理图设计和PCB布局检查，并能独立完成硬件调试和故障分析；
+3）制定和完善测试规范（TestPlan）和标准操作流程（SOP）；
+职责二：数据分析
+1）主导新产品的初测（***
+Silicon Bring-up）和良率评估工作；
+2）运用数据分析工具（如Excel, SA_StdfAnalyzer、Minitab等）进行深度数据挖掘，完成统计性分析（如相关性分析、CPK计算、Guard-band设置）；
+职责三：量产支持与效率提升
+1） 监控量产测试良率，快速响应并解决产线出现的测试异常和良率问题；
+2）持续优化测试程序，提升测试效率（UPH）、降低测试成本（Cost Down）；
+3）与生产团队和供应商密切合作，确保测试环境的稳定性和测试数据的一致性；
+职责四：跨部门协作与沟通
+1）与测试设备、测试工程、计划等团队高效协作；
+2）支持客户相关的技术问题，提供必要的测试数据和技术解释。
+岗位要求：
+1. 电子工程、微电子、通信、自动化、机电等相关专业；
+2. 熟悉Perl, VB, C，C++，.Net等语言，能够独立完成程序开发； 熟悉数字、混合信号或RF芯片的测试原理和方法；
+3. 1年以上集成电路测试方案开发经验，熟练掌握至少一种主流ATE平台（Advantest 93K 或
+Teradyne J750/ Chroma 3380/3360P，ACCO STS8200/8300 优先）的编程和调试；
+4. 具备英语阅读能力，可以看懂英文技术文档；
+5. 良好的职业操守及团队合作精神，有带领团队能力者优先。
+职位福利：五险一金、上五休二、年底双薪、带薪年假、免费工作餐、定期体检、员工旅游、生日福利、节日福利等",Perl C++ 数据分析 跨部门协作 技术文档 J750 Chroma3380 ACCOSTS8200,https://jobs.51job.com/changshu/167717717.html?s=sou_sou_soulb&t=0_0&req=8f01653d51ee7331c7b203cdadd6fcdf
+软件工程师,上海禹充新能源科技,1-2万,常熟,常熟,本科,1-3年,2026-07-31 16:22:43,job51,"车载软件工程师（C# / HMI车控方向）
+工作地点：常熟工厂（不包吃住）
+
+岗位职责
+1、负责移动充电车车载屏幕HMI软件全流程开发，包含需求分析、方案设计、架构搭建、代码开发、联调测试及问题闭环，独立把控软件迭代全生命周期。
+2、负责车载HMI软件日常维护，持续开展性能优化、BUG修复、版本迭代升级，保障设备户外、车载颠簸、高低温工况下稳定运行。
+3、负责项目技术文档输出，编写软件设计文档、使用手册、迭代说明、故障排查手册等，完善项目标准化资料体系。
+4、负责车载多子系统通信交互开发，实现HMI与BMS电池管理系统、充电桩模块、液冷热管理系统、车载仪表、整车控制器等设备的实时、可靠数据通信与逻辑控制。
+5、负责整车核心控制逻辑开发落地，包含车辆上下电管理、高压互锁检测、故障诊断与分级处理、热管理协同调控、安全防护逻辑等核心功能。
+7、负责车联网功能开发，实现车载系统与云端运维平台、手机小程序、调度管理系统的数据交互、远程指令执行；独立完成OTA远程升级功能设计与落地，支持设备远程迭代、故障修复与功能拓展。
+8、配合整车集成测试、可靠性测试、行业认证及量产落地工作，快速排查解决量产、试跑、认证过程中的各类软件问题，保障项目顺利交付量产。
+
+任职要求
+1、本科及以上学历，计算机、软件工程、电子信息、自动化等相关专业，1-3年车载/工控上位机软件开发经验，优秀应届生可培养。
+2、熟练掌握 C# 开发语言，精通 .NET 框架，熟悉WinForm/WPF界面开发，具备独立完成车载工控软件、HMI交互软件的开发能力。
+3、熟悉车载通信机制，精通 CAN / CAN FD 协议，熟悉车载以太网、Modbus等常用通信协议，有整车多设备联调经验优先。
+4、了解新能源车辆核心逻辑，熟悉BMS、热管理、高压安全、上下电控制、故障诊断等车载核心业务者优先考虑。",C# CAN Modbus 需求分析 方案设计 技术文档 故障排查,https://jobs.51job.com/changshu/173114521.html?s=sou_sou_soulb&t=0_0&req=8f01653d51ee7331c7b203cdadd6fcdf
+软件开发工程师（机器人二次开发方向）,山东恒元智启智能具身,1.2-1.8万,常熟,常熟,本科,3年及以上,2026-06-29 11:42:49,job51,"职位概述
+ 
+基于主流人形机器人、轮式移动机器人及通用机器人开发平台，开展软件系统二次开发与场景化定制工作。负责功能模块开发、外设驱动适配、业务逻辑集成与系统联调，支撑工业制造、物流分拣、商业服务等场景的定制化落地，保障机器人软件系统稳定运行与功能迭代。
+ 
+岗位职责
+ 
+1.&nbsp;平台适配与二次开发
+​
+- 基于机器人现有软件架构与SDK，根据场景需求完成功能定制与模块扩展，输出可落地的软件二次开发方案
+​
+- 负责外设与第三方组件的软件开发适配，包括视觉模组、末端执行器、工业传感器、专用作业工具等的驱动开发与接口封装
+​
+- 完成业务逻辑开发、系统接口对接与协议适配，解决新增功能与原生系统的兼容性、时序匹配问题
+​
+2.&nbsp;系统集成与联调验证
+​
+- 统筹软件子系统联调，定位并解决功能异常、通信丢包、性能瓶颈、资源占用过高等系统级问题
+​
+- 负责定制化功能的单元测试、集成测试与现场验证，输出测试报告与问题整改方案
+​
+- 配合硬件、算法团队完成整机联调，协同排查软硬件交互、算法落地中的交叉领域问题
+​
+3.&nbsp;现场交付与技术支持
+​
+- 支撑客户现场软件部署、参数调试与版本升级，快速排查并解决现场软件故障，保障项目交付进度
+​
+- 编写软件二次开发技术文档，包括设计说明、接口手册、部署指南、维护规范等
+​
+- 沉淀标准化软件适配方案与通用组件库，提升二次开发效率与方案复用性
+​
+4.&nbsp;技术预研与迭代
+​
+- 跟踪人形机器人软件技术与开源生态发展，评估新型框架、工具、组件的适配可行性
+​
+- 参与二次开发平台的接口标准化、工具链建设，持续优化开发效率与系统稳定性
+ 
+任职要求
+ 
+基础要求
+ 
+- 本科及以上学历，计算机科学与技术、自动化、软件工程、电子信息等相关专业
+​
+- 3年及以上软件开发或系统集成经验，有机器人、智能装备、工业自动化相关项目经验优先
+​
+- 具备独立的问题分析与排查能力，逻辑清晰，动手能力强
+ 
+专业技能
+ 
+- 熟练掌握C++/Python至少一种主流开发语言，具备良好的编码规范与软件工程意识
+​
+- 熟悉ROS/ROS2系统架构，掌握节点、话题、服务、动作通信机制，有基于ROS的功能开发与调试经验
+​
+- 熟悉CAN、EtherCAT、TCP/IP、串口等常用通信协议，具备接口调试与协议解析能力
+​
+- 掌握常用调试与性能分析工具，能独立完成功能验证、问题定位与性能优化
+​
+- 了解机器人运动控制、导航、感知等核心模块的基本原理与交互逻辑
+​
+- 具备Linux系统下开发与部署经验，熟悉常用shell命令与环境配置
+ 
+优先条件
+ 
+- 有人形机器人、工业移动机器人平台二次开发或现场部署经验
+​
+- 有机器视觉、力控、末端执行器驱动开发相关经验
+​
+- 具备工业产线、物流仓储、商业服务等场景机器人落地项目经验
+​
+- 熟悉嵌入式软件开发或Qt等上位机界面开发
+​
+- 具备良好的客户沟通能力与项目推动能力，能独立对接客户技术需求",C++ Python ROS CAN TCP/IP Linux Shell 技术支持 技术文档 客户沟通,https://jobs.51job.com/changshu/172721782.html?s=sou_sou_soulb&t=0_0&req=8f01653d51ee7331c7b203cdadd6fcdf
+软件开发工程师,恒工装备科技（苏州）,1-1.5万,苏州,常熟,本科,3年及以上,2026-07-31 13:30:39,job51,"岗位职责：
+1.沟通需求，配合销售人员对需求进行分析；
+2、搭建视觉识别、检测、定位等程序模块，对接机器人运动控制逻辑；
+3.撰写用户手册；
+4.到客户企业进行软件实施。
+任职条件：
+1、本科及以上学历，计算机、自动化、软件工程、机器人等相关专业；
+2、熟练机器视觉例如yolo等开源模型、深度学习pytorch框架应用，具备项目落地实操经验；
+3、有*** / 省级机器人竞赛参赛、获奖经验者优先录用。
+5.有较强的外语能力，能够熟练的阅读相关英文文档；
+6.工作认真踏实，主动敬业，能适应中长期出差进行软件实施。
+7.能适应长期出差",深度学习 PyTorch,https://jobs.51job.com/suzhou/173110840.html?s=sou_sou_soulb&t=0_1&req=8f01653d51ee7331c7b203cdadd6fcdf
+上位机软件开发工程师,苏州康尼格电子科技,1.5-1.8万,常熟,常熟,硕士,1-2年,2026-07-28 16:01:26,job51,1、负责基于Qt和C++的工业设备上位机软件的设计、开发与迭代、编码及单元测试工作（包括人机交互界面、设备状态监控、参数配置、打印任务管理等核心功能模块的开发）确保软件功能完整、性能稳定； 2、主导上位机与工业设备的通讯模块开发，实现TCP、UDP、ModBus（RTU/TCP）、串口（RS232/485）、PLC等多种通讯协议的对接与数据交互，解决通讯过程中的兼容性及稳定性问题。 3、负责工业相机、运动、PLC等子设备的控制模块开发，保障子设备与上位机协同工作的可靠性。 4、开发并维护上位机与下位机（PLC、运动控制卡、传感器、工控机等）之间的通信接口，支持串口/USB/以太网/Modbus等协议； 5、参与设备控制流程逻辑的设计与实现，包括图像数据处理、路径规划等环节的软件支持； 6、与嵌入式软件团队、硬件/电气团队协同完成软硬件联调，确保整机控制逻辑和上位机交互的完整闭环； 7、参与软件需求分析、技术方案设计及相关技术文档的编写； 8、积极运用AI编程工具（如GitHub Copilot、Cursor等）提升开发效率，探索AI在设备控制与工艺优化中的创新应用。 任职要求基本条件 1、硕士及以上学历，计算机科学与技术、软件工程、自动化、电子信息等相关专业； 2、1~2年上位机软件开发经验，有自动化设备或工业控制软件开发背景者优先。技术能力 1、熟练掌握C++ 开发语言，掌握STL标准库，具备扎实的编程功底和良好的编码习惯； 2、熟悉QT等开发框架，具备人机交互界面开发经验； 3、熟悉串口、TCP/IP等常用通信协议，有实际项目应用经验； 4、熟悉SQL Server/SQLite/MySQL中至少一种数据库的使用； 5、熟练使用Git等版本控制工具。 综合素质 1、思路灵活，学习能力强，对新技术有热情，乐于拥抱AI工具并应用于实际工作提升效率； 2、具备良好的逻辑思维和问题拆解能力，能独立分析和解决开发中的技术问题； 3、具备良好的团队协作与沟通能力，能与嵌入式和硬件团队高效配合。加分项 1、有3D打印设备、自动化封装设备或精密运动控制设备上位机开发经验； 2、熟悉工业相机SDK集成开发，或具备机器视觉系统开发经验； 3、熟悉Modbus、CAN、OPC UA等工业协议； 4、有AI编程工具（Copilot/Cursor等）实际使用经验。,C++ Modbus Git TCP/IP SQL Server SQLite MySQL CAN 需求分析 技术方案 技术文档,https://jobs.51job.com/changshu/173070157.html?s=sou_sou_soulb&t=0_0&req=8f01653d51ee7331c7b203cdadd6fcdf
+上位机软件工程师,多科智能装备（常熟）,1-2万,苏州,常熟,本科,3年及以上,2026-08-05 11:44:43,job51,"职位详情
+1、设备上位机前端界面的设计和开发，高度关注界面美观度，打造优质视觉体验;
+2、针对应用程序的 U 渲染性能与响应速度进行深度优化，有效解决复杂 Ul场景下出现的卡顿问题，提
+升用户操作流畅性;
+3、独立完成软件设计等相关文档的编写工作;
+4、与团队成员紧密合作，积极沟通协调，共同保障
+工作任务按时、高质量交付。
+任职要求:
+1、通信、软件工程、计算机等相关专业，3年以上非标自动化设备上位机开发实战经验
+2、精通 C# 与 WPF 开发，具备扎实的面向对象设计、多线程编程能力，能灵活运用常用设计模式解决实际问题
+3、熟练掌握 RS485、RS232、Modbus、TCP、UDP、MQ等通讯协议，具备通讯接口独立开发与调试能力
+4、精通MVVM设计模式，具备模块化解耦能力;
+5、熟悉设备运动控制逻辑，对位标定经验，能独立完成视觉联动上位机整套程序开发",C# Modbus WPF RS485 RS232 TCP UDP,https://jobs.51job.com/suzhou/170322996.html?s=sou_sou_soulb&t=0_1&req=8f01653d51ee7331c7b203cdadd6fcdf
+资深软件工程师（半导体）,德沪涂膜设备（苏州）,2-3万·13薪,常熟,常熟,本科,5年及以上,2026-07-16 17:26:10,job51,"岗位职责：
+1、负责精密设备的运动控制软件的设计、开发和测试；
+2、参与项目需求分析、软件分析，模块设计，编码实现以及测试，编写相关文档；
+3、开发和维护现有软件，并对相关部门提供技术支持。
+
+任职要求：
+1、本科及以上学历，计算机、数学相关专业；
+2、熟练掌握C++17/20及标准库，有良好的编程习惯；
+3、熟练使用Opencv等视觉运算库集成能力；
+4、熟悉计算几何（Polygon、布尔运算、栅格化）；
+5、具备较强地逻辑分析、数据分析能力、问题排查能力及良好的团队协作和沟通能力；
+6、有半导体设备经验者优先。",C++ OpenCV Go 需求分析 技术支持 数据分析,https://jobs.51job.com/changshu/172940591.html?s=sou_sou_soulb&t=0_0&req=8f01653d51ee7331c7b203cdadd6fcdf
+Senior Electronics Engineer 高级电子工程师,江苏费森尤斯医药用品,1-2万·13薪,苏州,常熟,本科,5-7年,2026-07-21 17:14:46,job51,"At Fresenius Medical Care, we are the global leader in kidney care, committed 
+to improving the lives of patients with chronic kidney disease. Our mission is 
+to deliver high-quality, innovative products, services, and care across the 
+entire healthcare journey. Guided by our vision—“Creating a future worth 
+living. For patients. Worldwide. Every day.”—we work with purpose and 
+compassion, supported by a global team of over 112,000 employees.
+ 
+Within our Care Enablement segment, we develop and provide life-sustaining 
+medical products, digital health solutions, and therapies that empower clinical 
+teams and improve patient outcomes. Our FME Reignite strategy drives 
+transformation through innovation, efficiency, and sustainable growth. Our 
+values guide how we work:
+• We Care for our patients, each other, and our communities 
+• We Connect across teams and borders to deliver excellence together 
+• We Commit to doing things the right way— growing with purpose and leading 
+kidney care with integrity and innovation
+• 
+Information about plant:
+
+At our Changshu plant in China, we specialize in the manufacturing of 
+essential products for dialysis therapy, including dialyzers, Sterile 
+Solutions, bloodline sets, HD machines, injection and extrusion components. 
+With a skilled team of 800 employees, our Plant operates key production 
+technologies such as injection molding and extrusion, Dialysis and auto 
+assembly etc. This site plays a vital role in Fresenius Medical Care’s 
+commitment to enhancing patient care worldwide. Join our passionate team and be 
+part of this global impact!
+
+
+
+Job Responsibilities:
+
+Main Tasks
+1.Design and develop electronics parts (PCBA, sensor, camera, wireless, cable, 
+etc.) for HD Machine products2.Perform in the whole development process 
+including design specifications, design evaluation, design reviews, test and 
+inspection methods, design transfer and OEM co-ordination. Professional design 
+documents creation and review.3.Provide/select technical solution for product 
+design; Make electronics design based on system requirements and relevant 
+standards (e.g. IEC-60601) independently, including schematics design, layout 
+design, bills of materials, engineering testing, manufacturing processes, 
+debugging and improvement.4.implement design and other engineering activities 
+during projects &amp; routine EE tasks, like create and maintain components and 
+footprint in electronics library in EDA system5.Design and develop jigs and 
+fixtures per testing and manufacturing requirements
+Team and Project
+1.Support Line Manager to develop the technical skills of the electronic team2.
+Support project electronic team - complete the development tasks3.Setting up 
+and maintaining an electronics development environment(tools and devices, like 
+EDA systems (e.g. PULSONIX, ORCAD* Altium Designer), etc)Job Requirements:1.Be 
+familiar with programming in embedded C/C++2.Experience with digital and analog 
+signal processing3.Experience with high-end digital processor (e.g. ARM based 
+chip, like C01tex-A9)4.Experience with Human Machine Interfaces 
+(resistive/capacitive touch systems) in medical systems5.Experience with EMS 
+provider (Jabil, Plexus, etc.)6.Fluent in both spoken and written English and 
+Chinese and excellent communication skills
+8. Minimum Bachelor Degree in electronics engineering or related degree
+
+9. 5 years of experience in electronics design.",ROS Git Electron Gin C++ ARM,https://jobs.51job.com/suzhou/172669669.html?s=sou_sou_soulb&t=0_1&req=8f01653d51ee7331c7b203cdadd6fcdf
+Senior Software Verification Engineer,江苏费森尤斯医药用品,1-2万·13薪,苏州,常熟,本科,5-7年,2026-07-02 16:24:59,job51,"Introduction section
+At Fresenius Medical Care, we are the global leader in kidney care, committed to improving the lives of patients with chronic kidney disease. Our mission is to deliver high-quality, innovative products, services, and care across the entire healthcare journey. Guided by our vision—“Creating a future worth living. For patients. Worldwide. Every day.”—we work with purpose and compassion, supported by a global team of over 112,000 employees.
+Within our Care Enablement segment, we develop and provide life-sustaining medical products, digital health solutions, and therapies that empower clinical teams and improve patient outcomes. Our FME Reignite strategy drives transformation through innovation, efficiency, and sustainable growth. Our values guide how we work:
+• We Care for our patients, each other, and our communities 
+• We Connect across teams and borders to deliver excellence together 
+• We Commit to doing things the right way— growing with purpose and leading kidney care with integrity and innovation.
+
+Information about plant:
+At our Changshu plant in China, we specialize in the manufacturing of essential products for dialysis therapy, including dialyzers, Sterile Solutions, bloodline sets, HD machines, injection and extrusion components. With a skilled team of 800 employees, our Plant operates key production technologies such as injection molding and extrusion, Dialysis and auto assembly etc. This site plays a vital role in Fresenius Medical Care’s commitment to enhancing patient care worldwide. Join our passionate team and be part of this global impact!
+
+1) Main tasks:
+Tasks performed regularly which form the essential characteristics of the position.
+
+ ● Organization and execution of product verification of medical products, accessories, and modules.
+ ● Ensure that product requirements are testable,
+ ● Definition and coordination of test strategies
+ ● Planning and organization of the system and software verification incl. Coordination with other departments, projects, and necessary resources
+ ● Creation of test specifications, test cases and test activities according to the requirements of modules/products.
+ ● Definition and creation of test set-ups, test tool and fixture development as required,
+ ● Execution of system and software verification to ensure that the design input has been achieved.
+ ● Develop and maintain the automation test framework and test cases.
+ ● Write test specification according to requirements,
+ ● Follow processes to do peer reviews of test specification, test design and test cases.
+ ● Creation of associated verification documents acc. to internal and external requirements and ensure them are audit-proof.
+ ● Proactively work in a cross-function and cross-site scrum team and collaborate with team member in Verticals.
+ ● Build up the knowledge network within verification team and other site teams in Verticals.
+2) Secondary tasks:
+Tasks performed regularly in addition to the main duties, but which do not determine the essential character of the position.
+
+ ● Participate in all relevant process trainings and follow them in project work.
+ ● Contribute to define test strategy, new concepts of HIL platform, and other automation technologies.
+ ● Share good practices and ideas with team to improve tests.
+ ● Participate in innovation activities and creations of solution for market needs.
+ ● Understand the knowledge of dialysis products and basic principles of dialysis treatment
+ ● 
+3) Miscellaneous tasks:
+Tasks not performed regularly which are nevertheless a distinct part of the job, or special tasks / project work.
+• Other tasks assigned by superior leader
+
+Qualifications, experience, know-how and skills critical for success*
+1) Required training and education:
+
+ ● Bachelor’s degree or above in computer science, mathematics, automation, information, or electronic engineering
+2) Required professional experience (in years):
+
+ ● 5 years or more related experience Prefer Medical Device industry
+3) Important personal qualities:
+
+ ● Enthusiastic on technical topics and be a quick learner to new things.
+ ● Proactive, flexible and teamwork spirit
+ ● Good communication skills
+4) Other specialized knowledge:
+a) Technical knowledge
+Mandatory skills and knowledge:
+
+ ● Understanding of quality process and common test methodologies.
+ ● Solid experience working with python, shell scripts, Familiar with OOP Mith either C#, Java or C++.
+ ● Experience working in Linux environment.
+ ● Experience working Mith communication protocols (e.g. RS232, CAN, LANI etc.) is plus.
+ ● Experience with software automation test framework design and development, and pure software automation testing skills,
+ ● Familiar with Agile process (e.g. Scrum)
+ ● Familiar with medical software development process and related quality processes.
+ ● Familiar with continuous integration framework, e.g., Jenkins, DevOps.
+ ● Familiar with code repositories, e.g., Git, Subversion.
+ ● Familiar with product life cycle tool. e.g., Polarion, JIRA, etc.
+ ● Familiar with SOUP software validation process in medical devices.
+Desired skills and knowledge:
+
+ ● Know-how of configuration management concepts, building framework design and architecture is plus.
+ ● Experience with hardware involved automation testing design and development, experience with modulation simulation like Matlab is plus.
+ ● Good knowledge of test specification with Mat lab/Simulink or Lab view is plus.
+ ● Knowledge and experience of internet security technologies is plus,
+ ● Knowledge and experience of Cybersecurity related document for medical devices registration is plus,
+b) Languages
+
+ ● Good Mandarin and English skills in writing and speaking
+c) IT skills
+
+ ● Have excellent skills with general computer use and office applications such as Microsoft Word, Excel, and Power point.
+d) Product knowledge
+
+ ● Familiar with medical device industry and knowledge of HD dialysis machine is preferred
+5) Special personal requirements:
+
+ ● Excellent work ethic with a strong ability to work with cross-functional/culture/site teams.
+ ● Have strong sense of quality and responsibilities.
+ ● Be flexible to abroad training and travelling.",ROS Git GAN DiT Go Electron Gin SPI Python Shell C# Java C++ Linux CAN Jenkins DevOps MATLAB,https://jobs.51job.com/suzhou/171669225.html?s=sou_sou_soulb&t=0_1&req=8f01653d51ee7331c7b203cdadd6fcdf
+Senior Software Verification Engineer,江苏费森尤斯医药用品,1-2万·13薪,苏州,常熟,本科,5-7年,2026-07-02 16:23:54,job51,"Introduction section
+At Fresenius Medical Care, we are the global leader in kidney care, committed to improving the lives of patients with chronic kidney disease. Our mission is to deliver high-quality, innovative products, services, and care across the entire healthcare journey. Guided by our vision—“Creating a future worth living. For patients. Worldwide. Every day.”—we work with purpose and compassion, supported by a global team of over 112,000 employees.
+Within our Care Enablement segment, we develop and provide life-sustaining medical products, digital health solutions, and therapies that empower clinical teams and improve patient outcomes. Our FME Reignite strategy drives transformation through innovation, efficiency, and sustainable growth. Our values guide how we work:
+• We Care for our patients, each other, and our communities 
+• We Connect across teams and borders to deliver excellence together 
+• We Commit to doing things the right way— growing with purpose and leading kidney care with integrity and innovation.
+
+Information about plant:
+At our Changshu plant in China, we specialize in the manufacturing of essential products for dialysis therapy, including dialyzers, Sterile Solutions, bloodline sets, HD machines, injection and extrusion components. With a skilled team of 800 employees, our Plant operates key production technologies such as injection molding and extrusion, Dialysis and auto assembly etc. This site plays a vital role in Fresenius Medical Care’s commitment to enhancing patient care worldwide. Join our passionate team and be part of this global impact!
+
+1) Main tasks:
+Tasks performed regularly which form the essential characteristics of the position.
+
+ ● Organization and execution of product verification of medical products, accessories, and modules.
+ ● Ensure that product requirements are testable,
+ ● Definition and coordination of test strategies
+ ● Planning and organization of the system and software verification incl. Coordination with other departments, projects, and necessary resources
+ ● Creation of test specifications, test cases and test activities according to the requirements of modules/products.
+ ● Definition and creation of test set-ups, test tool and fixture development as required,
+ ● Execution of system and software verification to ensure that the design input has been achieved.
+ ● Develop and maintain the automation test framework and test cases.
+ ● Write test specification according to requirements,
+ ● Follow processes to do peer reviews of test specification, test design and test cases.
+ ● Creation of associated verification documents acc. to internal and external requirements and ensure them are audit-proof.
+ ● Proactively work in a cross-function and cross-site scrum team and collaborate with team member in Verticals.
+ ● Build up the knowledge network within verification team and other site teams in Verticals.
+2) Secondary tasks:
+Tasks performed regularly in addition to the main duties, but which do not determine the essential character of the position.
+
+ ● Participate in all relevant process trainings and follow them in project work.
+ ● Contribute to define test strategy, new concepts of HIL platform, and other automation technologies.
+ ● Share good practices and ideas with team to improve tests.
+ ● Participate in innovation activities and creations of solution for market needs.
+ ● Understand the knowledge of dialysis products and basic principles of dialysis treatment
+ ● 
+3) Miscellaneous tasks:
+Tasks not performed regularly which are nevertheless a distinct part of the job, or special tasks / project work.
+• Other tasks assigned by superior leader
+
+Qualifications, experience, know-how and skills critical for success*
+1) Required training and education:
+
+ ● Bachelor’s degree or above in computer science, mathematics, automation, information, or electronic engineering
+2) Required professional experience (in years):
+
+ ● 5 years or more related experience Prefer Medical Device industry
+3) Important personal qualities:
+
+ ● Enthusiastic on technical topics and be a quick learner to new things.
+ ● Proactive, flexible and teamwork spirit
+ ● Good communication skills
+4) Other specialized knowledge:
+a) Technical knowledge
+Mandatory skills and knowledge:
+
+ ● Understanding of quality process and common test methodologies.
+ ● Solid experience working with python, shell scripts, Familiar with OOP Mith either C#, Java or C++.
+ ● Experience working in Linux environment.
+ ● Experience working Mith communication protocols (e.g. RS232, CAN, LANI etc.) is plus.
+ ● Experience with software automation test framework design and development, and pure software automation testing skills,
+ ● Familiar with Agile process (e.g. Scrum)
+ ● Familiar with medical software development process and related quality processes.
+ ● Familiar with continuous integration framework, e.g., Jenkins, DevOps.
+ ● Familiar with code repositories, e.g., Git, Subversion.
+ ● Familiar with product life cycle tool. e.g., Polarion, JIRA, etc.
+ ● Familiar with SOUP software validation process in medical devices.
+Desired skills and knowledge:
+
+ ● Know-how of configuration management concepts, building framework design and architecture is plus.
+ ● Experience with hardware involved automation testing design and development, experience with modulation simulation like Matlab is plus.
+ ● Good knowledge of test specification with Mat lab/Simulink or Lab view is plus.
+ ● Knowledge and experience of internet security technologies is plus,
+ ● Knowledge and experience of Cybersecurity related document for medical devices registration is plus,
+b) Languages
+
+ ● Good Mandarin and English skills in writing and speaking
+c) IT skills
+
+ ● Have excellent skills with general computer use and office applications such as Microsoft Word, Excel, and Power point.
+d) Product knowledge
+
+ ● Familiar with medical device industry and knowledge of HD dialysis machine is preferred
+5) Special personal requirements:
+
+ ● Excellent work ethic with a strong ability to work with cross-functional/culture/site teams.
+ ● Have strong sense of quality and responsibilities.
+ ● Be flexible to abroad training and travelling.",ROS Git GAN DiT Go Electron Gin SPI Python Shell C# Java C++ Linux CAN Jenkins DevOps MATLAB,https://jobs.51job.com/suzhou/171669167.html?s=sou_sou_soulb&t=0_1&req=8f01653d51ee7331c7b203cdadd6fcdf
+机器视觉工程师,恺博座椅机械部件,1.2-1.5万·16薪,常熟,常熟,本科,2年及以上,2026-06-22 14:32:30,job51,"岗位职责：
+1、工业视觉领域通用及专用的数据算法及落地实施。
+2、负责机器学习以及深度学习算法，在应用场景下的持续优化。
+3、跟踪图像以及视频算法的流行趋势，促进新算法的导入优化落地。
+任职要求：
+1、本科及以上学历，工作经验2年以上，计算机科学与技术，自动化、人工智能、机器学习等相关专业。
+2、熟悉C/C++，Python、SQL等开发语言。
+3、熟悉常用的图像处理方法，熟练使用Opencv图像处理工具。
+4、有传统视觉处理经验，有专用的视觉、大模型应用的落地实际项目。
+5、熟练深度学习的原理和实现，了解CNN常见的网络模型VGG、GoogLeNet、ResNet、YOLO，熟练使用Pytorch、Tensorflow等至少一种深度学习框架。
+6、熟悉图像算法，如目标检测目标跟踪、分类、分割等深度学习相关算法，对其中的一种或多种算法有较深入的研究。
+7、有强烈的责任心和团队意思，具有良好的主动性和执行力。",机器学习 深度学习 C++ Python SQL OpenCV 大模型 Go PyTorch TensorFlow,https://jobs.51job.com/changshu/172635506.html?s=sou_sou_soulb&t=0_0&req=8f01653d51ee7331c7b203cdadd6fcdf
+研发助理工程师,华凌光电（常熟）,6-7千,常熟,常熟,本科,无需经验,2026-06-22 13:08:42,job51,"1.男女不限，计算机、通讯、自动化、电子等相关专业;
+2.懂模电/数电基础元件工作原理，有基础的电子线路分析知识;
+3.熟练运用auto CAD，会AD设计电路及office软件等;
+4.会C或C++语言,有基于单片机(如8051 STM32等)程式设计调试知识;
+5.良好的沟通协调能力、抗压能力、学习能力。
+工作职责：
+1.负责TFT显示模组开发案担当及新机种异常处理及改善等，
+2.工作相关知识和技能提升等，
+3.主管交办其他事项。",C++ 单片机 STM32 CAD,https://jobs.51job.com/changshu/172633316.html?s=sou_sou_soulb&t=0_0&req=8f01653d51ee7331c7b203cdadd6fcdf
+高级电子工程师（医疗器械）,常熟英格玛企业管理服务,1-2万,常熟,常熟,本科,3年及以上,2026-08-07 13:58:42,job51,"一、产品设计与开发
+1.为HD Machine产品设计并开发电子元件，包括PCBA、传感器、摄像头、无线模块、电缆等核心部件；
+2.根据系统需求及相关标准（如IEC 60601），独立完成电子电路设计，包括： 
+1.原理图设计
+2.PCB布局设计
+3.物料清单（BOM）编制
+4.工程测试与验证
+5.制造工艺制定
+6.调试及优化改进
+3.为产品设计提供或选择技术方案，确保方案满足功能需求与合规要求；
+4.根据测试与制造要求，设计并开发专用夹具及工装。
+二、开发流程管理
+1.参与整个产品开发流程，涵盖： 
+7.设计规范制定
+8.设计评审
+9.设计审查
+10.测试与检验方法制定
+11.设计移交
+12.OEM协调
+2.负责专业设计文件的编制与评审，确保文档完整、规范；
+3.在EDA系统中创建并维护电子元件库及其引脚布局，保障设计基础数据准确。
+三、团队协作与能力建设
+1.支持直线经理（LM）提升电子团队整体技术技能水平；
+2.支撑项目电子团队，按时保质完成各项开发任务；
+3.搭建并维护电子开发环境，包括工具与设备管理，如EDA系统（Pulsonix、ORCAD、Altium Designer等）。
+任职要求
+学历与专业
+2.电子工程、电气工程、自动化或相关专业本科及以上学历。
+专业技能
+1.熟悉嵌入式C/C++编程；
+2.具备数字与模拟信号处理经验；
+3.具有高端数字处理器（如基于ARM架构的芯片，如Cortex-A9）相关开发经验；
+4.具有医疗系统中人机界面（电阻式/电容式触控系统）的应用经验；
+5.熟悉EDA设计工具，包括Pulsonix、ORCAD、Altium Designer等；
+6.了解医疗器械相关标准（如IEC 60601）。
+经验要求
+1.具有EMS服务提供商（如Jabil、Plexus等）合作或管理经验者优先；
+2.具有医疗器械行业电子研发经验者优先。
+综合素质
+1.具备独立承担电子电路设计全流程的能力；
+2.具有良好的跨部门沟通协调能力；
+3.具备团队合作精神，能够有效支持团队技术能力提升；
+4.工作态度严谨，注重设计质量与合规性。
+
+薪资待遇：5天8小时，五险一金，按照工资全额交，带薪年假，节日福利",C++ ARM 产品设计 技术方案 合规 BOM LM Pulsonix,https://jobs.51job.com/changshu/173190304.html?s=sou_sou_soulb&t=0_0&req=8f01653d51ee7331c7b203cdadd6fcdf
+软件测试工程师（应届生）,海力达汽车系统（常熟）,5-6千·13薪,常熟,常熟,本科,无需经验,2026-07-14 14:50:46,job51,"1. 在高级工程师的指导下支持嵌入式软件开发、软件测试和验证；
+2. 协助准备软件设计文档、测试规范、测试用例和相关工程文档；
+3. 根据客户要求、内部标准和项目进度，支持测试计划和执行；
+4. 执行基本的系统测试，问题跟踪，验证活动，并准备测试报告；
+5. 支持软件或系统缺陷的调试和根本原因分析；
+6. 跟踪公司的开发、测试、质量和安全流程；
+7. 完成经理或项目组交办的其他任务。
+
+职位要求：
+1. 本科应届毕业生，专业要求：计算机、电子信息工程、汽车相关专业。
+2. 学习成绩班级前20%
+3. 有C/ c++编程、嵌入式系统、软件测试或汽车电子基础知识优先；
+4. 有与软件、嵌入式系统或汽车工程相关的实习、竞赛或实验室工作经验者优先；
+5. 良好的学习能力，逻辑思维，解决问题的能力，愿意在工程和测试领域工作；
+6. 良好的中英文沟通能力优先考虑。",C++ 测试用例 测试计划,https://jobs.51job.com/changshu/172905118.html?s=sou_sou_soulb&t=0_0&req=8f01653d51ee7331c7b203cdadd6fcdf
+软件测试技术员,苏州特点电子科技,7千-1.2万,常熟,常熟,本科,1-3年,2026-07-22 16:06:15,job51,"岗位职责：
+1. 测试设计与执行：
+参与横机制版软件的需求评审，编写测试用例和测试计划。
+执行功能测试、回归测试、兼容性测试（不同Windows系统、不同分辨率）和安装卸载测试。
+负责软件界面（UI）、交互逻辑及后台数据处理功能的验证。
+
+2. 缺陷管理与追踪：
+熟练使用Bug管理工具，提交高质量的缺陷报告，跟踪Bug生命周期直至关闭。
+复现研发人员和客户反馈的疑难问题，协助开发人员定位问题根源。
+
+3. 专项测试：
+数据准确性测试：​ 验证软件生成的制版数据与控制系统的匹配度。
+图形渲染测试：​ 检查3D模拟仿真效果与实际织物的差异，验证线圈结构、嵌花、提花等复杂组织的显示准确性。
+性能测试：​ 测试大尺寸花型加载、缩放、保存的速度及内存占用情况。
+
+4. 自动化与文档：
+参与搭建自动化测试框架，编写自动化测试脚本，提高测试效率。
+编写用户操作手册中的注意事项或测试报告，总结版本质量风险。
+任职要求：
+1. 基本技能：
+计算机相关专业本科及以上学历，1-3年以上软件测试经验。
+熟练掌握黑盒测试方法论，能独立编写测试用例和测试报告。
+熟悉常用的Bug管理工具。
+
+2. 技术加分：
+掌握Python/JS等至少一门编程语言，有自动化测试经验者优先。
+熟悉软件架构，了解C/S架构软件的测试方法。
+有图形图像软件、CAD/CAM软件或工业软件测试经验者优先。
+
+3. 行业/软性素质：
+（核心优势项）​了解纺织行业知识，有横机操作经验，能看懂基本的针织工艺图纸者优先。
+具备极强的耐心和细心，面对复杂的针法组合能保持高度专注。
+具备良好的沟通能力，能清晰地向开发人员描述Bug现象。",Python 测试用例 测试计划 功能测试 缺陷管理 性能测试 自动化测试,https://jobs.51job.com/changshu/173005837.html?s=sou_sou_soulb&t=0_0&req=8f01653d51ee7331c7b203cdadd6fcdf
+机器视觉算法工程师,芯慧联芯（江苏）科技,1.2-2万·15薪,常熟,常熟,本科,1-3年,2026-08-05 17:31:05,job51,"职位描述
+1.负责机台的相机标定工作；
+2.负责机台的异常分析工作；
+3.算法工具链的开发与维护；
+4.能接受出差现场调试工作；
+职位要求
+1.熟悉传统图像处理算法，如滤波、去噪、边缘提取、模板匹配等；
+2.对2d的相机标定与定位引导系统有一定理解，掌握几何空间和坐标系变换的基础原理。
+3.熟练使用c#/c++语言，及opencv/halcon/visionpro等视觉算法库；",C# C++ OpenCV,https://jobs.51job.com/changshu/173166037.html?s=sou_sou_soulb&t=0_0&req=8f01653d51ee7331c7b203cdadd6fcdf
+AI工程师,苏州艾木自动化设备,7千-1.4万·13薪,常熟,常熟,本科,无需经验,2026-07-27 15:04:53,job51,"岗位职责：
+1、负责AI领域的软件工程化实施，设计高可扩展，可靠的AI系统架构；
+2、开发AI驱动的应用，将机器学习、深度学习等算法集成到软件系统，自动化设备系统；
+3、构建智能监控系统，实时分析日志与性能，自动预警并与自动化设备关联，实现故障自诊断；
+4、AI协作推广：培训团队使用AI开发工具，优化协作流程；
+5、技术分享：编写技术文档，分享AI/自动化***实践。
+
+任职要求：
+1、学历：本科及以上学历，电气工程、自动化相关专业，毕业于985/211工程院校优先；
+2、精通python/java/c++，熟悉javascript/typescript；
+3、掌握至少一种AI框架（pytorch/tensorflow/keras）；
+4、理解机器学习基础算法；脚本编写与任务调度；
+5、API设计与继承，服务间通信优化；持续学习新AI技术能力；
+6、英语读写、英语水平六级优先；
+7、具有出色的逻辑思维、系统性分析问题及解决复杂技术难题的能力；
+8、能适应短期出差，对深入一线保持积极态度。
+
+岗位福利：
+入职即缴纳五险一金；包吃；年度健康体检/旅游；年节福利；商业保险；年终奖金及绩效奖金",机器学习 深度学习 Python Java C++ JavaScript TypeScript PyTorch TensorFlow Keras 培训 技术文档,https://jobs.51job.com/changshu/170275779.html?s=sou_sou_soulb&t=0_0&req=8f01653d51ee7331c7b203cdadd6fcdf
+测试工程师-Test Engineer,耐世特汽车系统（常熟）,1.4-1.8万·15薪,常熟,常熟,本科,5年及以上,2026-06-12 15:55:49,job51,"1.该职位的主要职责：
+- 不断改进现有的电机、MPP 和感应式传感器设备，并协助根据工厂未来的业务计划实施新的项目。
+2.主要职责：
+- 负责 马达 生产线的工具/设备调试/运行/安装工作
+- 领导解决工艺问题/进行根本原因分析
+- 按时执行 CPI 任务
+- 遵循内部控制程序，及时解决不符合项
+- 优化测试流程及扩展计划（电气装配部分），以满足正常运行时间、首次质量合格率和切换目标
+- 实施测试机持续改进项目以降低成本
+- 在 Labview、测试台和 C++ 中维护测试程序，维护测试硬件及相关线路/仪器/电缆或标准测试设备
+- 维护制造文档，如 SMP、PFMEA、PFD、OCP、W/I 等
+- 优化测试机器性能，如电机测试、MPP 测试、霍尔校准、EOL 和泄漏测试、NVH 测试
+- 培训操作人员执行操作说明
+- 评估操作人员的技能水平
+
+3.技能与资质要求：
+- 电气与控制工程学士学位，至少拥有 5 年以上的制造测试流程或自动化测试机开发/上线经验。
+- 熟悉 Labview 或 C+，测试序列规范，有 3 至 4 年的新测试程序触发器相关经验。
+- 熟悉 NI/Keysight 仪器和伺服电机设备者优先。
+- 具备良好的英语沟通与报告能力，资源管理能力和良好的团队合作精神，能够解决冲突。
+- 熟悉常见仪器和传感器理论及应用，能够完成仪器/传感器的选择与设置。
+- 熟悉测试机硬件与软件结构，擅长软件结构设计、编程及维护。
+- 了解 ECU 测试和电机控制知识以及相关的 EPS 应用性能。
+- 能够理解并应用制造标准和工具，包括 CPI、PFMEA、OCP、PFD、SPC 等。
+- 能够大致理解工业液压、气动系统及控制原理。",C++ 培训 自动化测试 MPP CPI Labview SMP PFMEA,https://jobs.51job.com/changshu/171660836.html?s=sou_sou_soulb&t=0_0&req=365297731d07a1926aa14ae8f101ca29
+机器视觉工程师,江苏立讯机器人,4.5-6千·13薪,常熟,常熟,本科,无需经验,2026-07-30 18:43:09,job51,"【工作内容】
+1、负责机器视觉系统的方案设计，包括相机、镜头及光源选型与光学布局；
+2、主导视觉算法开发，完成图像预处理、特征提取及缺陷检测等核心逻辑编写；
+3、负责视觉系统现场调试与部署，解决光照干扰、运动模糊等实际工程问题；
+4、协同机械与电气团队进行设备联调，优化检测节拍并保障产线稳定运行；
+5、撰写技术文档与维护手册，持续迭代算法模型以提升检测精度与效率。
+
+【任职要求】
+任职要求
+1计算机科技技术，电子信息，软件工程计算机相关专业，机械相关专***
+2经验应届生条件优秀可投递
+3学历全日制本科
+4工作时间5天8小时，超出时间算加班",方案设计 技术文档,https://jobs.51job.com/changshu/173104560.html?s=sou_sou_soulb&t=0_0&req=365297731d07a1926aa14ae8f101ca29
+四足机器人二开工程师,山东恒元智启智能具身,8千-1.6万,常熟,常熟,本科,在校生/应届生,2026-07-07 19:51:05,job51,"一、岗位定位
+ 
+岗位 base 地为全国，具体以面试结果为准，就近安排，优先常熟。
+
+本岗位聚焦四足机器人整机二次开发、硬件调试与场景化功能落地，核心负责基于国内外主流四足开发平台进行步态优化、功能扩展与硬件适配。岗位极度看重实操动手能力与竞赛技术沉淀，以快速原型验证、工程化落地为核心目标，支撑公司四足机器人产品的技术迭代与多场景适配。
+ 
+二、核心工作职责
+ 
+1.&nbsp;四足机器人二次开发：基于主流四足机器人开发框架与SDK，开展运动控制调优、步态算法适配、场景功能模块二次开发，完成定制化功能的代码实现与联调验证。
+​
+2.&nbsp;硬件集成与整机调试：负责四足机器人的硬件选型、传感器（IMU、深度相机、激光雷达等）适配、整机组装与联调，独立排查并解决硬件、固件、控制链路中的各类技术问题。
+​
+3.&nbsp;样机迭代与动手落地：主导四足样机的改装、测试与迭代优化，快速完成原型验证与功能落地，保障开发进度与样机可靠性。
+​
+4.&nbsp;技术沉淀与方案输出：输出开发文档、调试规范与测试报告，沉淀四足机器人二次开发方法论，同步跟进国内外四足技术前沿与竞品动态。
+​
+5.&nbsp;竞赛级技术转化：结合机器人竞赛的技术方案与工程经验，将竞赛级调优与攻坚能力落地到产品化场景中，持续优化产品性能与竞争力。
+ 
+三、任职资格要求
+ 
+（一）基础资质
+ 
+1.&nbsp;全日制本科及以上学历，机器人工程、机械设计制造及其自动化、自动化、电子信息、计算机等相关专业；特别优秀的大专学历需要提供相关竞赛/项目经历证明；
+​
+2.&nbsp;优先2025/2026届应届毕业生，有四足机器人相关项目或竞赛经历者优先，能力优异者学历可放宽至大专。
+ 
+（二）核心硬技能（必备）
+ 
+1.&nbsp;熟悉至少一种国内外主流四足机器人开发框架/工具链，如Unitree SDK、MIT Cheetah、ROS/ROS2、Gazebo等，具备实际二次开发与调试经验；
+​
+2.&nbsp;极强的动手实操能力，可独立完成四足机器人整机组装、硬件焊接、电路调试、传感器校准与故障排查，有样机自制、改装经历优先；
+​
+3.&nbsp;掌握四足机器人运动控制、步态规划基础原理，熟悉伺服电机、减速器、主控板等核心部件特性，具备硬件与算法联调能力；
+​
+4.&nbsp;具备扎实的C/C++或Python编程基础，能基于官方SDK进行功能扩展、代码调试与问题定位。
+ 
+（三）竞赛与项目背景（核心加分）
+ 
+1.&nbsp;有RoboMaster、RoboCon、全国大学生机器人大赛、中国机器人大赛等官方机器人竞赛参赛及获奖经历，有四足专项竞赛经验优先；
+​
+2.&nbsp;有从0到1搭建四足机器人样机、完成步态调试与功能落地的完整项目经验；
+​
+3.&nbsp;有开源四足机器人项目贡献、个人技术博客/开源仓库者优先。
+ 
+（四）综合软能力
+ 
+1.&nbsp;问题定位与解决能力突出，面对调试难题能快速拆解根因、动手验证并落地解决方案；
+​
+2.&nbsp;自驱力强，对四足机器人技术有极强兴趣，愿意深耕底层技术，适配快节奏的开发节奏；
+​
+3.&nbsp;具备基础的文档输出能力与团队协作意识，能清晰同步开发进度与技术风险。",ROS C++ Python 技术方案 故障排查 IMU SDK MIT,https://jobs.51job.com/changshu/172829798.html?s=sou_sou_soulb&t=0_0&req=365297731d07a1926aa14ae8f101ca29
+高级软件工程师,珠海市申科谱工业科技,1.5-3万,苏州·苏州工业园区,太仓,本科,5年及以上,2026-07-13 11:54:25,job51,"岗位职责：
+1. 根据客户需求，收集并整理软件功能需求列表，并输出可行性分析报告；
+2. 基于公司现有软件平台，独立完成适用于Windows、macOS及iOS平台的软件相关UI设计和所有功能模块代码封装及测试；
+3. 与电气人员沟通，编写运动控制业务逻辑流程图，并独立完成相关代码封装及测试；
+4. 负责自动化设备软件和控制部分现场调试和后期维护等相关工作；
+5. 负责项目开发周期各阶段的软件技术文档编写和版本更新等相关工作；
+6. 协助完成公司现有软件平台的代码维护和功能扩展；
+7. 负责开发与维护适用于 macOS 和 iOS 平台的应用程序，确保软件在苹果设备上的兼容性和用户体验；
+8. 完成上级交代的其他工作。
+任职要求：
+1. 本科及以上学历，计算机、自动化等相关专业，5年以上自动化软件开发工作经验，有跨平台（Windows, macOS, iOS）开发经验者优先；
+2. 熟练掌握C#（.NET），熟练使用VisualStudio开发工具，同时具备一定的C++开发能力更佳；
+3. 熟练掌握WPF，熟练运用MVVM、Prism等框架进行软件开发，具有良好的代码规范和编写习惯；
+4. 熟练使用固高、雷塞等品牌板卡进行运动控制业务逻辑程序编写和调试；
+5. 掌握基本的数据库编程概念，如MySQL, SQLite，EF等；
+6. 熟悉TCP/IP、EtherCAT、MODBUS、串口通讯；
+7. 熟练掌握苹果系统的编程语言，如 Swift 或 Objective-C，有实际的 macOS 或 iOS 应用开发经验；
+8. 了解苹果平台特有的框架和技术，如 Cocoa, Cocoa Touch, Core Data, Grand Central Dispatch (***) 等；
+9. 熟悉苹果开发者工具链，包括 Xcode、Interface Builder 和 Instruments 等；
+10. 具备良好的沟通能力和团队合作精神，较强的分析解决问题能力，适应出差。",C# C++ MySQL SQLite TCP/IP Modbus Swift 技术文档,https://jobs.51job.com/suzhou-gyyq/161501964.html?s=sou_sou_soulb&t=0_1&req=a0581255de8d80875ae1dbd78cc45cd3
+嵌入式工程师,江苏集萃激光智能装备,9千-1.5万,太仓,太仓,本科,2年及以上,2026-06-25 10:41:09,job51,"【工作内容】
+- 熟悉STM32等主流MCU的开发；
+- 负责空气、水、一般家用电器消毒设备的硬件原型设计及开发，包括电路设计、电控系统架构搭建与优化；
+- 独立完成传感器选型、电源模块配置及电控系统的集成与调试，确保系统稳定运行；
+- 参与产品快速打样过程，协助完成安装调试工作，保障项目按期交付；
+- 配合团队进行现场调试，解决设备在实际应用中的技术问题，提升产品性能与可靠性；
+- 协助制定硬件调试方案，完成单片机编程与系统功能验证，提升产品智能化水平；
+- 深入参与环保设备相关项目的研发与技术支持，推动产品在消毒与环保领域的应用落地。
+【任职要求】
+- 具备2年及以上硬件原型开发经验，熟悉电路设计、单片机编程；
+- 熟练掌握传感器选型与集成方法，具备独立完成硬件调试的能力；
+- 具备良好的问题分析与解决能力，能够适应现场调试工作环境；
+- 有消毒设备或环保设备相关项目经验者优先考虑；",STM32 MCU 单片机 原型设计 技术支持,https://jobs.51job.com/taicang/169039512.html?s=sou_sou_soulb&t=0_0&req=a0581255de8d80875ae1dbd78cc45cd3
+嵌入式软件工程师,太仓市同维电子,1-1.8万·13薪,太仓,太仓,本科,2年及以上,2026-07-22 11:49:47,job51,"任职资格
+1. 精通C语言编程；
+2. 熟悉嵌入式Linux操作系统，linux网络编程；
+3.熟悉G/EPON相关协议标准T-REC-G.984.4/984. 的标准协议；
+4. 熟悉linux下的驱动(如I2C、串口、USB、flash)开发和适配者优先；
+5. 熟悉TR069, MQTT等网络协议优先；
+6. 通信、计算机或相关专业本科以上, 2年以上PON产品相关开发经验；
+职责描述
+1. 参与公司GPON/EPON模块的软件开发与调试工作；
+2. 参与路由器、网关等通信产品软件开发、文档编写，模块设计，功能实现和维护，性能提升和优化工作
+3. 责任心强，具备良好的沟通协调能力及团队协作精神，能承受工作压力，学习能力强，富有进取心。",C语言 嵌入式Linux Linux I2C MQTT 文档编写,https://jobs.51job.com/taicang/157563481.html?s=sou_sou_soulb&t=0_0&req=a0581255de8d80875ae1dbd78cc45cd3
+资深AI工业软件开发工程师（Agent方向）,江苏哈森工业智能装备,1.8-3.5万,太仓,太仓,本科,5年及以上,2026-06-25 11:25:11,job51,"岗位职责
+负责基于AI技术构建智能设计与自动建模平台，实现产品设计、工艺匹配和生产数据的智能化应用。
+主要工作包括：
+• 基于大模型（LLM）开发工业AI应用与Agent系统 
+• 开发AI自动建模、参数化建模及模型生成能力 
+• 对接UG/NX、SolidWorks等CAD软件接口，实现模型自动创建与修改 
+• 建设工艺、材料、模具、BOM等知识库体系 
+• 对接ERP、MES、PLM等企业系统，实现数据联动 
+• 参与工业设备、传感器及生产数据采集系统集成 
+• 推动AI技术在研发设计、工艺规划及生产制造场景落地 
+任职要求
+• 本科及以上学历，计算机、软件工程、机械设计、自动化等相关专业 
+• 5年以上软件开发经验，具备扎实的工程化能力 
+• 熟练掌握Python或C++，具备良好的系统设计能力 
+• 熟悉大模型应用开发（OpenAI、Claude、Gemini、DeepSeek等） 
+• 熟悉Agent、RAG、知识库等AI技术方案 
+• 具备CAD/CAE软件二次开发经验优先（UG/NX、SolidWorks、CATIA等） 
+• 具备制造业信息化项目经验优先（ERP、MES、PLM等） 
+• 具备工业设备、PLC、物联网、自动化相关经验优先 
+加分项
+• 参与过工业软件、CAD软件、数字孪生相关项目 
+• 参与过AI Agent、工业知识图谱项目 
+• 熟悉OpenCascade、Parasolid等几何建模技术 
+• 有制造业数字化转型项目经验",大模型 LLM Agent Python C++ RAG AI Agent 产品设计 知识库 数据采集 技术方案,https://jobs.51job.com/taicang/172684813.html?s=sou_sou_soulb&t=0_0&req=a0581255de8d80875ae1dbd78cc45cd3
+硬件工程师,江苏集萃激光智能装备,1-1.5万,太仓,太仓,本科,3年及以上,2026-06-25 10:41:09,job51,"职责描述：
+
+1. 负责公司产品主机的硬件设计、功能优化和迭代更新；
+2. 负责电路原理图设计、PCB Layout、PCBA和子系统调试、测试和验证工作；
+3. 负责设备底层嵌入式软件/固件定义、开发和调试；
+4. 负责解决研发和测试的硬件问题；
+5. 负责从样机到产品量产转产、测试工装制作、可靠性设计及成本控制；
+6. 参与团队产品规划设计工作；
+7. 负责相关文档编写和归档。
+
+任职要求：
+
+1. 计算机、电子、通信信息等相关专业，统招本科及以上学历，3年以上经验；
+2. 熟悉常见总线协议和通讯接口，如I2C、SPI、RS232、RS485、CAN、USB、Modbus、以太网等；
+3. 熟悉PCB电路设计，能够独立设计电路；熟悉底层硬件系统，不限于单片机和ARM等嵌入式平台；
+4. 熟悉C/C++语言，精通数据结构，能进行嵌入式程序开发并具有良好的代码编写习惯；
+5. 有扎实的专业理论基础和良好的电路设计能力，熟悉常用的电子元器件；
+6. 具有较强的团队意识与良好的沟通能力，较强的学习能力以及快速解决问题的能力。
+
+优先能力：
+
+有激光或医疗仪器设备开发经验者优先。
+
+
+工作地点：江苏太仓与广东东莞均可",I2C SPI CAN Modbus 单片机 ARM C++ 成本控制 产品规划 文档编写,https://jobs.51job.com/taicang/169636771.html?s=sou_sou_soulb&t=0_0&req=a0581255de8d80875ae1dbd78cc45cd3
+软件工程师,爱克奇换热技术（太仓）,1-2万·14薪,太仓,太仓,本科,1年及以上,2026-07-23 11:30:06,job51,"工作职责
+•	负责移动及固定应用中热管理系统软件解决方案的设计、开发与实施
+•	能够独立完成以上软件的开发
+•	负责软件文档管理
+•	将仿真结果转化为软件代码并集成到软件中
+•	与控制器开发团队及供应商保持密切合作
+•	在实验室及现场（实地）进行软件的验证与调试
+•	负责软件开发相关的内部及外部沟通工作
+•	在需求说明书中协调并明确软件需求
+•	积极主动对软件增加新功能，并持续优化和迭代现有功能
+
+任职要求
+•	电气工程、通信工程或计算机工程专业的本科/硕士学位，主修方向为控制技术或相关相近专业
+•	具备将控制技术转化为软件代码的实践经验
+•	熟悉 MATLAB Simulink
+•	熟悉 CAN 总线，特别是 SAE J1939 协议；具备CAN open 协议知识者优先
+•	具备热力学基础知识者优先；有热管理系统或热泵相关经验者优先
+•	具备硬件知识经验者优先
+•	具备强电知识经验者优先
+•	具备 C/C++ 编程知识者优先
+•	具备出色的问题解决能力、团队合作精神、抗压能力及毅力
+•	良好的英语沟通能力(如额外具备德语沟通能力者优先)
+•	能够接受偶尔的国内外出差",MATLAB CAN C++ Simulink SAE J1939,https://jobs.51job.com/taicang/173015002.html?s=sou_sou_soulb&t=0_0&req=a0581255de8d80875ae1dbd78cc45cd3
+硬件工程师,云耀深维（江苏）科技,1-2万,太仓,太仓,本科,3年及以上,2026-07-17 10:42:53,job51,"公司介绍
+ 
+云耀深维是一个技术扎实、充满朝气、高成长性的公司，由来自激光金属粉床增材制造主流技术激光选区熔化技术SLM/LPBF的发明机构－德国弗朗霍夫激光研究所Fraunhofer ILT的专家团队创立的高新科技企业，生产总部位于江苏苏州太仓（与上海毗邻，可缴纳异地五险一金），欧洲总部位于德国亚琛欧洲工程谷光生产中心。以智能制造赋能未来为使命，公司致力于全球领先的激光增材制造全产业链的部件打印、技术开发、设备研发、科研合作等服务，为前沿技术工业化提供专业的技术支持和设备保障。
+ 
+为解决金属3D打印工艺在高精度结构件领域的痛点，除常规尺寸金属增材制造外，公司自主研发的微米级金属3D打印技术实现了复杂精密结构金属材料的3D一次打印成型，可达到打印精度≥2微米，打印部件表面粗糙度Ra值≥0.8微米，实现10度以上大部分部件无支撑成型，致力于填补高精度增材制造部件的市场空白。
+ 
+依托强大的专家团队，云耀深维与全球先进制造领域的各大研究所、高校及企业建立了紧密的合作关系，客户包括德国汉莎技术集团、中科院、清华大学等。
+
+
+岗位描述：
+1、负责产品硬件整体技术对接、开发计划制定与项目落地，参与产品前期规划与方案设计，主导硬件系统架构、功能迭代与优化升级。
+2、独立完成硬件开发全流程工作，包括硬件方案设计、电路原理图设计、PCB Layout布局布线，输出BOM清单、工艺文件及各类硬件技术文档，完成资料整理与归档。
+3、负责单板、PCBA及整机硬件调试、功能测试、性能验证，编写硬件测试方案，定位并解决研发、测试及试产过程中的各类硬件问题。
+4、负责设备整机调测、可靠性优化，承担产品EMC测试、安规相关测试及问题整改工作，保障产品合规稳定。
+5、负责底层硬件适配与嵌入式固件需求定义，可独立完成基础底层嵌入式软件/固件的开发、调试与优化，保障硬件与底层程序匹配适配。
+6、负责产品从样机验证到量产转产的全流程跟进，主导测试工装开发、硬件可靠性设计、版本管控与硬件成本优化，保障产品顺利量产落地。
+岗位要求：
+1、学历专业：统招本科及以上学历，电子、电信、自动化、计算机、通信、生物医学工程、测控等相关专业，3年及以上硬件开发完整经验，具备独立完整的硬件项目开发经历。
+2、电路基础：模电、数电、电路理论功底扎实，熟悉各类常用电子元器件，具备扎实的电路设计、分析与优化能力。
+3、硬件设计能力：熟练掌握至少一种原理图、PCB设计工具，精通PCB布局、布线规范及工艺要求，可独立完成完整硬件电路与板卡设计。
+4、嵌入式硬件基础：熟悉STM32等ARM嵌入式硬件平台，精通I2C、SPI、RS232、RS485、CAN、USB、以太网、Modbus等常用总线协议与通讯接口。
+5、软件能力：熟悉C/C++语言、数据结构，具备嵌入式底层固件开发、调试能力，拥有规范的代码编写习惯，可完成基础底层软硬件联调工作。
+6、综合能力：具备优秀的硬件问题排查、故障分析、独立解决问题的能力，逻辑思维严谨，工作认真负责，自驱力强，具备良好的沟通表达与团队协作能力。
+
+我们能够给予你： 
+1、未来：优越的期股权激励系统； 
+2、薪酬：同行业优秀水平；
+3、机遇：从事热点前沿科技行业，与国际化***专家团队共同成长； 
+4、氛围：年轻、简单、富有朝气、积极向上的工程师文化； 
+5、人性化管理，灵活的工作时间，尊重员工私人空间与自我发展；
+6、福利：五险一金+带薪年假+团建活动等。",STM32 ARM I2C SPI CAN Modbus C++ 技术支持 方案设计 技术文档 功能测试 合规,https://jobs.51job.com/taicang/172946002.html?s=sou_sou_soulb&t=0_0&req=a0581255de8d80875ae1dbd78cc45cd3

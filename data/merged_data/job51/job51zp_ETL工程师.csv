@@ -1,0 +1,1885 @@
+﻿job_name,company_name,salary,work_area,city,education,work_year,issue_date,source,skill_requirements,tech_tags,job_url
+监管报送ETL数据开发工程师,上海向晨信息科技,1-1.5万·13薪,常熟,苏州,大专,无需经验,2026-06-20 00:00:00,job51,"【工作内容】
+- 负责监管报送系统的ETL开发与维护，确保数据准确、及时、合规地传输至监管机构；
+- 设计并优化数据抽取、转换和加载流程，提升数据处理效率与稳定性；
+- 与业务部门及数据团队协作，理解监管数据需求并实现技术落地；
+- 参与数据模型设计与数据质量监控，保障数据符合监管要求。
+【任职要求】
+- 大专及以上学历，计算机、信息管理或相关专业背景；
+- 熟悉SQL、Python等编程语言，具备扎实的数据处理能力；
+- 熟悉ETL工具的使用与开发；
+- 具备良好的沟通能力和团队协作精神，有金融行业或监管报送项目经验者优先。",SQL Python 合规,https://jobs.51job.com/changshu/172621742.html?s=sou_sou_soulb&t=0_0&req=909eecde3f09ceb72e53bda0c480f40e
+数据库开发工程师,江苏磅礴医疗科技,8千-1.6万,苏州·苏州工业园区,苏州,本科,2年及以上,2026-06-17 16:09:02,job51,"我们正在寻找专业的数据库开发工程师，负责数据库的设计、开发、优化和维护。
+
+工作内容：
+1. 参与数据库设计和架构规划；
+2. 负责数据库的开发、测试和优化；
+3. 监控数据库性能，定位并解决性能问题；
+4. 配合应用开发人员完成数据接口开发和调试；
+5. 负责数据库的日常维护和备份；
+6. 与团队内部以及需求部门进行有效沟通，跟进项目进度以及解决相关数据问题。
+
+岗位要求：
+1. 计算机相关专业本科及以上学历；
+2. 2年以上数据库开发经验；
+3. 熟悉多种关系型数据库（PostgreSQL、Oracle、SQLServer、MySql)
+4. 独立进行数据需求分析，编写需求分析文档
+5. 进行数据库设计、ETL设计
+6. 熟练掌握Shell、SQL语言
+7. 有良好的沟通表达能力、团队协作精神和服务意识。",PostgreSQL Oracle SQL MySQL Shell 需求分析,https://jobs.51job.com/suzhou-gyyq/161277713.html?s=sou_sou_soulb&t=0_0&req=909eecde3f09ceb72e53bda0c480f40e
+APP开发工程师,千屿科技（苏州）,1-1.5万,苏州·苏州工业园区,苏州,本科,2年及以上,2026-07-22 19:01:35,job51,"岗位职责
+•负责 Flutter 客户端的功能开发、迭代和日常维护。
+•负责 Android、Windows 等平台的跨平台适配。
+•根据产品需求完成页面、组件、交互和业务逻辑开发。
+•负责设备管理、实时数据展示、数据上传、报告回放及后台管理等功能。
+•完成客户端与服务端接口的对接、数据解析和业务状态联动。
+•参与实时数据、图表、波形及历史数据可视化功能的开发和优化。
+•处理页面布局、状态同步、弱网、超时、缓存及异常恢复等问题。
+•根据测试反馈和缺陷记录完成问题定位、代码修复及回归验证。
+•编写和维护单元测试、组件测试及核心业务逻辑测试。
+•负责 Android APK、Windows 客户端的构建、打包和发布前验证。
+•持续优化客户端的稳定性、性能、代码质量和用户体验。
+•与产品、服务端、测试及其他研发人员协作，推动需求和问题闭环。
+任职要求
+•熟悉 Dart，具有良好的 Flutter 开发基础。
+•具有 2 年以上 Flutter 项目开发经验，并参与过较完整的项目交付。
+•熟悉 Flutter 常用组件、布局、路由、状态管理和页面生命周期。
+•熟悉异步编程、Stream、数据模型及复杂业务状态管理。
+•熟悉 REST API、JSON、文件上传下载等常见客户端开发场景。
+•具备 Android 真机调试经验，能够使用 ADB、日志等工具排查问题。
+•了解 Windows 桌面端开发，或具备 Flutter Windows 项目经验。
+•具备较强的问题定位能力，能够根据日志、代码和问题现象分析原因。
+•熟悉 Git，能够独立完成代码提交、分支管理及冲突处理。
+•具备测试意识，能够为核心逻辑编写单元测试或组件测试。
+•能够独立完成“需求理解—功能开发—测试验证—问题修复”的工作闭环。
+•工作认真负责，具备良好的沟通和团队协作能力。
+加分项
+•有 Android、Windows 多平台项目开发经验。
+•有图表、实时数据、波形或大数据量绘制经验。
+•有医疗健康、物联网、工业软件或数据监测类项目经验。
+•有复杂表单、后台管理、数据回放或文件管理功能开发经验。
+•有客户端性能优化、弱网处理、异常恢复或稳定性治理经验。
+•了解 Kotlin、Java、C++ 或 Flutter Plugin 开发。
+•有应用打包、签名、发布和版本管理经验。
+•熟悉 MQTT、WebSocket、WebRTC 等实时通信技术。
+•有自动化测试、白盒测试或持续集成经验。
+•熟悉禅道、Jira 等项目及缺陷管理工具。",Flutter Git Kotlin Java C++ Gin MQTT WebSocket 版本管理 自动化测试 缺陷管理,https://jobs.51job.com/suzhou-gyyq/173009259.html?s=sou_sou_soulb&t=0_0&req=909eecde3f09ceb72e53bda0c480f40e
+数据开发工程师(J10160),广东顺大食品调料,8千-1.2万·14薪,昆山,苏州,本科,2年,2026-07-02 16:36:26,job51,"工作职责:
+1. 牵头从零搭建公司数据仓库/数据湖，完成整体架构规划、分层设计（ODS/DWD/DWS/ADS）、规范制定，建立统一数据标准、命名规范、开发规范。
+2. 对接各业务系统（业务库、日志、第三方数据），完成数据源梳理、数据接入、同步、清洗、建模，落地离线/实时数据链路，实现业务数据全归集。
+3. 搭建数据调度、监控体系，保障数据任务稳定运行，解决数据延迟、异常、口径不一致问题，支撑后续分析、报表、看板使用。
+4. 配合数据分析师共同落地指标体系，建设公共中间层模型，统一指标口径，避免后续多部门数据打架。
+5. 开展初期数据治理：梳理数据血缘、完善元数据、权限管理，建立数据字典，为后续数字化运营打基础。
+6. 对接业务方理解数据需求，快速迭代数仓模型，支撑业务报表、专项分析、BI看板的数据供给。
+任职资格:
+1. 本科及以上，计算机、大数据、软件工程相关，1–3年数据开发经验，有从零搭建/参与新建数仓经验优先。
+2. 熟练SQL，精通Hive/Spark，了解Flink，熟悉数仓分层、维度建模，能独立从零设计数仓架构。
+3. 熟悉MySQL等业务库，会数据同步、ETL开发，能梳理多业务系统数据源。
+4. 有规范意识，能制定数据开发、建模、指标口径等基础规范。
+5. 主动推进、沟通能力强，能和分析师、业务方协同，适应初创型数据体系建设节奏。",SQL Hive Spark Flink MySQL 数据分析 数据治理,https://jobs.51job.com/kunshan/172774746.html?s=sou_sou_soulb&t=0_0&req=909eecde3f09ceb72e53bda0c480f40e
+Software Engineer III数据工程师,昆山杜克大学,1.2-1.5万,苏州,苏州,本科,5年及以上,2026-07-14 09:59:23,job51,"Position Overview:
+Duke Kunshan University is a world-class liberal arts university offering high-quality, interdisciplinary undergraduate and graduate programs. The IT Applications team within the Office of Information Technology works closely with customers and peer teams to deliver a wide range of applications and services.
+
+This position is for a Data Engineer, a key technical role within the IT Applications team. You will be responsible for building and evolving the core data platform for Duke Kunshan University. Your work will be instrumental in enabling university-wide, data-driven decision-making by transforming our diverse data ecosystem into a scalable, reliable, and well-governed analytical foundation. We are looking for a technical expert who not only excels in engineering but also collaborating with business stakeholders to ensure our data assets deliver maximum impact.
+
+Reports to:
+Manager – IT Applications
+
+Essential Duties:
+1.	Collaborate with customers, business analysts and stakeholders to understand business needs and translate them into effective data architecture and pipeline solutions.
+2.	Design, build, and manage robust, scalable data ingestion and integration pipelines to consolidate data from diverse source systems into a central data platform for data processing and automation.
+3.	Design and implement scalable data models for the enterprise data platform to transform and structure raw data into reliable, well-documented datasets that serve for analytics and data products.
+4.	Develop and maintain core components of the data platform including data service APIs, a unified data asset catalog, and standardized data layers to empower self-service analytics and data product consumption.
+5.	Collaborate with business teams to define key metrics and success criteria for data products and take ownership of developing the corresponding dashboards and visualizations to translate data into actionable insights.
+6.	Contribute to the data governance framework by collaborating with Data Owners to implement data quality standards, monitoring, and remediation, and to ensure data assets are properly classified, documented, and accessible.
+7.	Ensure the operational excellence, stability, and performance of the data platform through proactive monitoring, troubleshooting complex issues, and systematic optimization of queries and pipelines.
+8.	Create and maintain comprehensive technical documentation for data architectures, pipeline specifications, data dictionaries, and operational procedures.
+9.	Stay current with emerging technologies and best practices in data engineering, cloud platforms, and big data ecosystems to drive continuous innovation.
+10.	Work toward achieving assigned annual objectives and KPIs, demonstrating accountability for performance and results.
+11.	Perform other duties as assigned.
+12.	University employees' job responsibilities will continue to expand in scope and depth as the University grows in size and complexity in its programs.
+
+Required Qualifications:
+1.	Full-time bachelor’s degree or above in information technology, computer science, or a related field preferred.
+2.	At least 5 years of professional experience in data engineering or a closely related field.
+3.	Strong ability to collaborate effectively with stakeholders and communicate with both technical and non-technical audiences.
+4.	Excellent oral, written, and interpersonal communication skills in both English and Chinese.
+5.	Strong motivation and capacity to learn new concepts and apply emerging technologies to transform business and technical processes and drive continuous improvement.
+6.	A strong interest in, coupled with a practical understanding of, the complete data product lifecycle—from data curation and development to enabling consumption and measuring business impact.
+7.	A strong sense of ownership for the stability, performance, and data quality of the systems you build.
+8.	Experience in building data ingestion pipelines, pulling data from diverse sources, and orchestrating the subsequent ETL/ELT processes to deliver clean, reliable data for downstream consumption.
+9.	Practical experience with Python for data processing, automation, and scripting. Familiarity with Java or Scala is a plus.
+10.	High proficiency in SQL and extensive hands-on experience with at least one major RDBMS (e.g., PostgreSQL, MySQL, SQL Server, Oracle).
+11.	Practical, hands-on experience with modern cloud data platforms and services (e.g., Snowflake, Databricks). 
+12.	Solid understanding and practical experience in data modeling for analytical systems (e.g., Star Schema, Snowflake Schema, Data Vault).
+13.	Solid understanding of data governance principles and hands-on experience with supporting tools for metadata management, data lineage, or data quality.
+14.	Partner with stakeholders to define data product and related metrics and develop the corresponding tracking dashboards (e.g., Tableau, Power BI).
+Preferred Qualifications
+1.	Hands-on experience in implementing a data platform end-to-end. Direct experience within a higher education setting is a strong plus.
+2.	Hands-on experience with distributed data processing frameworks (e.g., Apache Spark) and streaming data technologies (e.g., Apache Kafka, Flink).
+3.	Experience productizing administrative data and metrics via APIs (e.g., RESTful, GraphQL).
+4.	Expertise in enterprise data warehouse design, including dimensional modeling, layered architecture, and metric system planning.
+5.	Experience in designing and supporting data analysis solutions for AI/ML and LLM initiatives.
+6.	Practical experience with enterprise systems (e.g., ERP like Oracle, SAP) in a complex organizational environment.
+7.	Experience in building data solutions for core administrative domains (e.g., Finance, HR), with an understanding of the key data entities, lifecycle, and quality requirements specific to these functions.
+
+How to Apply:
+Please be advised the salary is commensurate with experience.
+Please submit your formal application by searching the position on DKU recruitment portal.",Gin Scala Go Perl Python Java SQL PostgreSQL MySQL SQL Server Oracle Spark Kafka Flink LLM GAN,https://jobs.51job.com/suzhou/171627406.html?s=sou_sou_soulb&t=0_0&req=909eecde3f09ceb72e53bda0c480f40e
+资深信息化软件开发工程师(J10229),苏州杰锐思智能科技,1.5-2.5万,苏州·吴中区,苏州,本科,5年及以上,2026-07-05 15:03:05,job51,"工作职责:
+1、对接业务部门，梳理需求、优化流程，输出需求文档、技术方案及实施计划；
+2、主导系统开发、迭代与定制化，规范代码与文档；负责测试、BUG修复、上线部署及用户培训运维；
+3、统筹金蝶ERP与PDM/PLM深度集成，落地BOM对接、工程变更同步、图纸联动等关键功能；
+4、开展ETL数据治理，搭建标准化数据体系；维护钉钉、纷享销客等第三方系统接口稳定运行；
+5、负责帆软报表定制开发与优化，实现自动化生成与分发，为企业经营决策提供数据支撑；
+6、负责团队任务分工、进度管控、技术指导与ai自动写代码给团队赋能。全程参与项目全流程管理，推动新技术落地与团队效能提升。
+任职资格:
+1、本科及以上，计算机相关专业；5年以上企业信息化开发经验，有团队管理或项目统筹经验者优先；
+2、精通C#、ASP.NET及前端三剑客（HTML/CSS/JS），熟悉Python/PHP；具备独立系统架构设计与规范化文档输出能力；
+3、精通SQL Server、Oracle调优与开发；熟悉非标行业ERP、PDM、SRM、CRM业务流程，具备二次/定制开发经验；
+4、精通API/中间件集成（钉钉、EHR、纷享销客等）；熟练掌握ETL数据治理全流程，保障数据全链路可追溯；
+5、具备出色的跨部门沟通、抗压与自学能力；能独立排障，同时具备团队任务分配与项目推进能力。",C# Python PHP SQL Server Oracle 技术方案 培训 数据治理 团队管理,https://jobs.51job.com/suzhou-wzq/172797207.html?s=sou_sou_soulb&t=0_0&req=909eecde3f09ceb72e53bda0c480f40e
+数据开发工程师,张家港众智纺织品,1.2-1.8万,张家港,苏州,本科,1年及以上,2026-06-18 15:19:45,job51,"一、岗位职责：
+1.负责从内部数据库（如ERP、CRM）和外部数据源（如行业报告、第三方平台）等多渠道系统收集业务数据，进行清洗、转换、集成与归档处理，统一数据标准，消除重复、缺失及错误数据，构建高质量分析数据集，确保数据的准确性、完整性和可靠性。
+2.运用统计学方法及机器学习算法（如回归分析、聚类分析、决策树等），开展深度数据挖掘与建模分析，探索数据内在关联与趋势，按月完成至少2个数据分析模型的构建、训练、评估与优化，为业务决策提供量化依据。
+3.基于分析结果，撰写详细的数据分析报告，包括分析背景、方法、过程与结论，并通过数据可视化工具（如Tableau、Power BI、Matplotlib等）制作图表和仪表盘，清晰呈现业务洞察，定期向业务部门与管理层汇报。
+4.紧密结合业务场景，提出流程优化、产品改进或策略调整等方面的可行性建议，协助业务部门推动数据驱动决策，促进数据分析成果在实际业务中的落地应用，助力业绩增长。
+5.参与企业数据底层架构和BI报表体系建设，设计与业务需求高度匹配的数据模型与可视化解决方案，支持高效、灵活的数据分析需求。
+6.建立数据质量监控指标体系，定期开展数据质量评估与检查，识别数据偏差、不一致等问题，协同数据管理及技术团队制定改进方案，持续提升数据质量。
+7.与业务部门保持密切沟通，提供数据技术支持和咨询服务，帮助业务人员理解数据、应用数据，协助其解决实际数据问题，提升整体数据应用水平。
+8.根据业务反馈与发展动态，及时调整分析方向与重点，确保数据分析工作与企业目标一致，并推动数据价值在关键业务场景中的实现。
+9.持续跟踪数据分析领域的新技术、新工具与行业实践，引入适合企业业务需要的先进分析方法与平台，提升团队分析效率与能力。 
+
+二、任职要求：
+1.1年及以上数据分析或相关领域工作经验，具备独立完成复杂数据分析项目的能力，有纺织行业经验者优先。
+2.精通SQL、Python或R等数据处理与分析工具，能够熟练进行数据提取、清洗、建模及分析。
+3.熟练使用Tableau、Power BI或Excel等数据可视化工具，具备良好的可视化设计能力，能清晰有效地呈现分析结果。
+4.掌握统计学原理及常用数据分析方法，了解机器学习与数据挖掘算法（如聚类、分类、回归等），具备建模与优化能力。
+5.熟悉数据库原理，能熟练运用SQL进行复杂数据查询与处理。
+6.对数据敏感，具备较强的逻辑思维、数据分析及业务洞察能力，能从复杂数据中识别问题、发现规律并提出解决方案。
+7.具备优秀的沟通协调、团队合作及项目推动能力。
+8.逻辑清晰，对数据敏感，学习与沟通协作能力强。",机器学习 SQL Python 数据分析 流程优化 技术支持,https://jobs.51job.com/zhangjiagang/172613271.html?s=sou_sou_soulb&t=0_0&req=909eecde3f09ceb72e53bda0c480f40e
+高级数据工程师,苏州联讯仪器,1.5-2.5万·14薪,苏州·高新区,苏州,本科,5年及以上,2026-06-12 19:05:40,job51,"岗位职责：
+1. 负责设备日志、运行状态、报错码、传感器数据、测试结果、维修记录和业务系统数据的接入。
+2. 设计设备、客户、项目、批次、时间、故障和维修记录等标准数据模型。
+3. 建设批量和实时数据管道，处理数据库、文件、Kafka、MQTT、HTTP 和设备私有接口等数据来源。
+4. 负责数据清洗、标准化、关联、去重、异常处理、历史补录和数据质量监控。
+5. 与业务部门共同定义设备在线率、故障率、维修时长、诊断准确率、测试通过率等指标口径。
+6. 将设备数据和指标封装为稳定的数据 API，供 Agent、Skill、产品页面和分析系统使用。
+7. 开发设备状态查询、近期告警、历史故障、维修记录、测试结果和指标趋势等数据类 Skill。
+8. 建设面向设备文档、故障案例、维修记录和测试资料的 RAG 知识库，负责文档解析、数据清洗、切分、索引、检索和效果优化。
+9. 建设数据权限、敏感数据脱敏、客户隔离、数据血缘、数据版本和审计机制。
+10. 支持客户现场、客户内网和离线环境的数据接入与部署。
+11. 与 AI 架构工程师共同定义 Agent 数据调用规范，与全栈工程师协作完成数据在产品中的使用。
+
+任职要求：
+1. 计算机、数据工程、软件工程或相关专业本科及以上学历，5 年以上数据工程或数据平台经验。
+2. 熟练掌握 Python、SQL，并具备稳定数据 API 的开发能力。
+3. 熟悉 ETL、实时数据处理、任务调度、数据质量和数据建模。
+4. 熟悉 PostgreSQL、时序数据库、分析数据库及 Redis 等数据组件。
+5. 熟悉 Kafka、MQTT 或其他消息和设备数据接入方式。
+6. 能够处理日志、指标、时序数据和复杂设备数据。
+7. 具备指标体系建设经验，能够明确指标定义、计算公式、数据来源和更新机制。
+8. 具备 RAG 知识库建设经验，熟悉文档解析、文本切分、Embedding、向量检索、混合检索、召回优化和效果评估。
+9. 熟悉 Docker、Linux 和数据服务部署，能够定位数据链路和生产问题。
+10. 具备数据安全、权限隔离、脱敏和客户数据保护意识。",Kafka MQTT Agent RAG Python SQL PostgreSQL Redis Embedding Docker Linux 知识库 审计,https://jobs.51job.com/suzhou-gxq/172539759.html?s=sou_sou_soulb&t=0_0&req=909eecde3f09ceb72e53bda0c480f40e
+数据库工程师（数据治理与建模）,苏州福柯思电气,10-20万/年,太仓,苏州,本科,3年及以上,2026-07-23 10:07:45,job51,"岗位职责：
+1、行业数据治理体系建设
+1.1负责梳理公司内部（如ERP、MES、SCADA）及外部（设备运行）数据来源，辅助制定行业数据治理规范，包括数据标准、数据质量检核规则及元数据管理。
+1.2建立数据全生命周期管理流程，针对电气设备台账、实时运行数据、故障代码等核心数据资产，进行标准化定义，确保“数出同源”。
+2、业务数据建模与应用
+2.1深入理解电气控制业务场景（如：配电损耗分析、设备健康度评估），进行业务数据建模，构建主题模型（如设备画像、故障预测模型特征宽表）。
+2.2负责数据仓库或数据湖的模型设计（如维度建模），将多源异构数据（结构化、时序、日志）进行整合，为前端BI报表和算法团队提供高质量、易理解的数据服务。
+3、数据库架构与性能保障
+3.1负责核心数据库（SQL Server/MySQL/时序数据库）的架构优化，保障在复杂分析查询下的性能稳定。
+3.2支持数据开发团队，进行SQL性能调优和ETL流程优化。
+任职要求：
+1、 本科及以上学历，计算机、自动化、数学/统计学相关专业。
+2、3年以上数据相关工作经验，其中至少1年专注于数据治理或数据建模工作，有电气、能源、工业物联网行业背景者优先。
+3、 熟悉DAMA或DCMM数据治理体系，有实际参与过数据标准制定、数据质量改进项目的经验；对电力行业常见的业务术语（如：线损、功率因数、拓扑结构）有快速学习能力或了解。
+4、精通SQL，具备扎实的数据仓库建模理论（如Kimball维度建模），能独立完成从业务调研到逻辑/物理模型的设计；有Python或Scala数据分析经验者更佳。
+5、精通至少一种主流关系型数据库（MySQL / SQL Server / PostgreSQL）的管理与优化。熟悉ETL工具（如DataX、Kettle、SeaTunnel）及调度框架（如Airflow、DolphinScheduler）。了解时序数据库（TDengine / InfluxDB）或大数据组件（Hive / Spark）者优先。
+6、 具备将“电气业务问题”转化为“数据技术问题”的能力，能够主动与业务部门（生产、运维、销售）沟通，挖掘数据需求。
+7、逻辑严谨，对数据敏感，能从杂乱的数据中抽象出规律，并形成规范文档。
+8、 熟悉电力行业标准（如CIM模型）或有参与电网信息化项目建设经验者， 有数据治理工具（如Atlas、DataHub）或数据可视化工具（Tableau、FineReport）使用经验者， 持有CDMP（数据管理专业人士认证）或相关云厂商数据认证者优先。",SQL Server MySQL SQL Python Scala PostgreSQL DataX Airflow Gin Hive Spark 数据治理 流程优化 数据分析,https://jobs.51job.com/taicang/170623662.html?s=sou_sou_soulb&t=0_0&req=909eecde3f09ceb72e53bda0c480f40e
+IT开发工程师JDTDHY,张家港保税区泰德瑞尔轨道科技,7千-1万,张家港,苏州,大专,3年及以上,2026-07-30 11:25:30,job51,"岗位职责
+负责CRM系统与低代码平台的数据打通，在无API文档的情况下，通过直连MySQL数据库、编写复杂SQL查询或构建数据中间表等方式，实现核心业务数据的实时/定时同步；
+负责竞价系统与低代码平台的数据打通，解析MySQL底层数据结构，将竞价数据、转化数据等安全、稳定地接入低代码平台，支持业务报表与流程自动化；
+设计并开发针对本地人才网的自动化简历抓取程序，通过网页解析、RPA或浏览器自动化技术，实现简历信息的自动提取、清洗，并无缝推送至低代码平台；
+设计高可用、高安全性的数据同步方案，包含数据校验、异常告警、断点续传及日志监控，确保数据一致性与系统稳定性；
+任职要求
+计算机相关专业大专及以上学历，3年以上系统集成、数据ETL、爬虫开发或RPA自动化经验；
+精通MySQL数据库，具备极强的SQL编写与调优能力，熟悉数据库底层架构、索引原理及锁机制，有在无文档情况下进行数据库逆向分析、表结构梳理经验者优先；
+具备丰富的无API系统对接经验，能独立设计基于数据库层面的数据同步方案，并具备数据安全与合规意识；
+熟练掌握网页数据抓取技术，精通至少一种自动化/RPA工具（如Python Selenium/Playwright/Puppeteer、UiPath、影刀等），有针对招聘网站或复杂动态页面的抓取实战经验；
+精通至少一种后端语言（Python/Java/Go/.NET），熟悉HTTP协议、JSON/XML数据格式及RESTful接口设计；
+熟悉主流低代码平台的连接器开发或数据接入规范者优先；
+具备较强的抗压能力与独立攻坚能力，能在信息不全、文档缺失的极端情况下快速定位问题并输出解决方案；
+具备良好的技术文档编写习惯，能输出清晰的集成方案、数据字典与自动化脚本说明。",MySQL SQL 高可用 Python Java Go 合规 技术文档,https://jobs.51job.com/zhangjiagang/173095663.html?s=sou_sou_soulb&t=0_0&req=909eecde3f09ceb72e53bda0c480f40e
+Data QA（数据质量工程师）,昆山联滔电子,9千-1.6万,昆山,苏州,本科,1-3年,2026-08-07 08:14:30,job51,"岗位职责：
+1.&nbsp;搭建数据质量标准与监控体系，推进MES、ERP等业务系统数据治理落地；
+2.&nbsp;排查SQL/ETL脚本、数据接口、报表、看板的自动化/手动校验，对NPI、量产、变更、系统升级、数据迁移等场景开展专项数据质量测试；
+3.&nbsp;跟踪数据问题整改闭环，输出8D/FACA/质量报告，优化质量方案；
+4.&nbsp;跨部门协同保障数据链路通畅，对接客户数据质量需求。满足客户审核、稽核、报告需求。
+
+任职要求：
+1.&nbsp;本科及以上，计算机、电子通信等相关专业
+2.&nbsp;1-3年数据QA/测试/数据分析经验，制造行业优先
+3.&nbsp;熟练SQL，熟悉ETL、数据质量工具，掌握8D、FMEA等质量工具
+4.&nbsp;逻辑严谨，沟通及问题推动能力强",SQL 数据治理 数据分析 FACA,https://jobs.51job.com/kunshan/171627639.html?s=sou_sou_soulb&t=0_0&req=909eecde3f09ceb72e53bda0c480f40e
+AI工程师,贸联电子（昆山）,1.2-1.8万,昆山,苏州,本科,2年及以上,2026-06-29 16:43:47,job51,"一、计算机视觉方向
+1.执行以图像处理、分类和对象检测为重点的人工智能项目；
+2.收集、标记和预处理图像数据以训练 AI 模型；
+3.使用深度学习框架训练、测试和部署计算机视觉模型；
+4.优化 AI 模型的性能和效率；
+5.将应用程序开发和部署为 API、桌面或 Web 应用程序；
+二、机器学习方向
+1.主导以回归分析、分类、预测和聚类为重点的传统机器学习及人工智能项目研发；
+2.负责结构化与非结构化数据的收集、特征工程、ETL清洗，为模型训练构建高质量数据集；
+3.运用经典机器学习与深度学习框架，进行模型的构建、训练、测试、超参数调优与迭代；
+4.持续优化算法的准确性、鲁棒性与推理速度，确保模型在生产环境中的性能与效率；
+5.将训练好的模型封装并部署为API服务、桌面端（GUI）或Web应用程序；
+
+三、大语言模型/智能体方向
+1.负责大语言模型（LLM）的微调与超参数调优，持续优化模型的性能、效率与输出质量；
+2.运用LangChain、LlamaIndex等框架，设计并开发复杂的AI Agents工作流与高精度RAG（检索增强生成）系统；
+3.负责文档解析海量异构数据的清洗与分析，执行高效的数据工程与ETL流程；
+4.利用Flask、Django开发API，结合Streamlit等库构建GUI界面，并通过Docker技术实现系统容器化部署；
+5.紧跟大模型技术（如OpenAI、Gemini、vLLM、Ollama等），协同传统机器学习与计算机视觉，技术实现项目落地；
+
+任职要求：
+1.至少2年相关工作经验，本科及以上学历；
+2.英文口语流畅；",计算机视觉 深度学习 机器学习 LLM LangChain AI Agent RAG Flask Django Docker 容器化 大模型,https://jobs.51job.com/kunshan/172381502.html?s=sou_sou_soulb&t=0_0&req=909eecde3f09ceb72e53bda0c480f40e
+信息系统工程师（MES/EAP）,上海共进微电子技术,1-2万·15薪,太仓,苏州,本科,3年及以上,2026-07-07 16:32:39,job51,"岗位职责：
+1、负责封测工厂MES系统的日常运维、故障排查与用户支持，保障系统高可用性（≥99.9%）；处理生产现场系统异常事件，输出根因分析报告；根据业务需求完成功能配置、流程优化及版本升级；
+2、负责EAP日常运维，保障设备数据采集、配方下发及状态监控的稳定运行；编写并维护相关运维文档及操作手册；
+3、使用Java进行MES/EAP后端服务开发与维护；负责Web端（Vue）及PDA端（Java）的功能开发，并对遗留代码进行重构优化；
+4、负责MES与EAP、WMS、ERP等上下游系统的接口开发、联调测试及日常运维，实现全流程数据贯通；开发与维护设备数据接口（SECS/GEM等协议），了解RMS者优先；
+5、负责Oracle、SQL Server数据库的SQL优化、存储过程编写、数据清洗及ETL任务；设计并维护生产数据模型，处理数据库日常备份及性能调优；
+6、使用FineReport等工具开发车间看板、OEE报表、质量趋势图等BI报表，对接业务部门需求，将指标转化为可视化仪表板。
+
+任职要求：
+1、本科及以上，计算机、软件工程、自动化、信息管理等相关专业；
+2、3年以上MES或生产执行类系统开发/运维经验，有半导体封测行业背景者优先；
+3、扎实掌握Java，有相关开发经验；熟悉Vue框架；精通Oracle或SQL Server，熟练编写复杂SQL及存储过程；了解EAP及SECS/GEM协议；熟悉FineReport等BI工具；
+4、良好的问题分析与故障排查能力；清晰的文档编写习惯；能适应工厂生产环境，具备抗压能力；
+5、熟悉半导体行业MES/EAP系统，有低代码平台或Linux/Windows Server运维经验优先",高可用 Java Vue Oracle SQL Server SQL Linux 故障排查 流程优化 数据采集 文档编写,https://jobs.51job.com/taicang/172826831.html?s=sou_sou_soulb&t=0_0&req=909eecde3f09ceb72e53bda0c480f40e
+Senior AI Full-stack Development Engineer,万通（苏州）定量阀系统,2.5-3.5万,苏州·苏州工业园区,苏州,硕士,5年及以上,2026-08-03 16:27:36,job51,"Working Location: Suzhou/Shanghai
+
+Primary Purpose Summary
+We are seeking an experienced Senior Full-Stack Development Engineer to design, build, and scale AI-powered applications and digital solutions. As a key member of our digital team, the successful candidate will be responsible for end-to-end application development, orchestrating intelligent agents, designing data architecture, and translating complex business needs into scalable AI solutions that deliver measurable value.
+
+Primary Duties and Responsibilities
+- Design, develop, and maintain full-stack applications that power AI-driven products and digital services, from user-facing interfaces to backend services and databases.
+- Lead the full lifecycle of AI projects, from requirement definition, solution design, and model development to production deployment and continuous improvement.
+- Build and integrate APIs, microservices, and event-driven architectures to connect AI models, agent orchestration frameworks, and enterprise systems.
+- Define and manage data architecture and database strategies, ensuring high data quality, robust data governance, and efficient data pipelines for AI workloads.
+- Collaborate with R&amp;D, IT, quality, compliance, and business stakeholders to identify high-value AI use cases and deliver production-ready solutions.
+- Establish LLMOps practices, including model versioning, monitoring, A/B testing, logging, and automated retraining pipelines.
+- Stay current with emerging trends in artificial intelligence, such as agentic AI, retrieval-augmented generation (RAG), cloud-native architectures, and assess their applicability to business challenges.
+- Manage project scope, timelines, resources, and risks to ensure on-time, on-budget delivery while maintaining high technical standards.
+
+Required Qualifications
+- Master's degree in Computer Science, Software Engineering, Artificial Intelligence, Data Science or a related field; PhD preferred.
+- Proven experience (minimum 5 years) in AI or full-stack development roles, with a track record of leading AI projects from concept to production; hands-on experience building production-operation agents in manufacturing environments is highly preferred.
+- Proficiency in programming languages such as Python, SQL, and object-oriented languages like C# or Java.
+- Hands-on experience with agent orchestration frameworks and tools (e.g., LangChain, LangGraph, AutoGen, Semantic Kernel).
+- Experience with large language models (LLMs), prompt engineering, retrieval-augmented generation (RAG) and model evaluation methodologies.
+- Strong database design and optimization skills, with experience in relational databases and vector databases 
+- Familiarity with data warehouses, data lakes, ETL/ELT processes.
+- Familiarity with Azure DevOps, CI/CD pipelines, and cloud platforms (Azure, AWS, or GCP) is a plus.
+- Familiarity with modern front-end frameworks and backend frameworks.
+- Excellent project management skills, with the ability to lead multiple initiatives simultaneously.
+- Strong analytical, problem-solving, and communication skills, capable of translating complex business requirements into clear technical specifications.
+- Fluency in English; experience working in international or cross-functional teams is a plus.
+- Open mind, team player, and able to drive results through collaboration.",Gin Git CAN Agent Scala ROS Go LLM RAG Python SQL C# Java LangChain Prompt Azure DevOps CI/CD AWS,https://jobs.51job.com/suzhou-gyyq/173133319.html?s=sou_sou_soulb&t=0_0&req=909eecde3f09ceb72e53bda0c480f40e
+应用开发架构师（制造业数字化方向）,昆山鑫泰利智能科技,2-2.5万,苏州,苏州,本科,5年及以上,2026-07-30 17:44:19,job51,"工作内容：
+1、核心系统架构设计：主导 ERP / MES / PLM / WMS / SRM / QMS / CRM 等核心业务系统的应用架构设计，规划与推动各业务系统间数据打通与端到端流程贯通。
+2、数据集成与贯通：负责 ESB / iPaaS / API 网关 / CDC / ETL 集成架构选型与落地，主导跨系统主数据、业务事件、接口治理及数据一致性方案设计。
+3、业务中台与平台化：主导研发 / 生产 / 供应链 / 质量中台与统一门户、身份、流程、报表等公共平台建设，落地低代码、配置化等研发效能工具。
+4、数据架构与治理：负责企业级数据建模（物料 BOM / 工艺路线 / MDM）、数据库与时序数据架构、数据仓库与实时计算、BI、数据治理体系建设。
+5、团队与赋能：指导中高级工程师成长，组织架构培训与代码评审，跟踪工业互联网、数字孪生、工业 AI 前沿技术并赋能业务。
+
+任职资格：
+1. 学历与经验：本科及以上学历，计算机 / 软件工程 / 工业工程 / 自动化等相关专业；5 年以上企业级应用开发经验，2 年以上制造业核心系统架构设计经验。
+2. 业务与架构能力：熟悉制造业核心业务（研发 / 工艺 / 生产 / 计划 / 物流 / 质量），理解 BOM / 工艺路线 / MRP / 产能 / 库存等核心概念；精通 Java / .Net/ Python/C# 等主流语言与 Spring Cloud / .Net 等框架；具备微服务、消息队列、缓存、分布式事务、Service Mesh 等实战经验。
+3. 数据架构能力：精通关系型数据库（MySQL / Oracle / SQL Server）；熟悉时序数据库（InfluxDB / TDengine / IoTDB）与大数据生态（Spark / Flink / Kafka）；具备制造业数据建模（物料 BOM / 工艺路线 / MDM）与数据治理经验。
+4. 跨系统数据打通与综合素质：具备 3 个以上制造业核心系统（ERP / MES / PLM / WMS / SRM / QMS / CRM）之间的集成架构设计与落地经验，能独立规划与推动跨系统数据贯通项目；扎实的计算机基础，良好的文档与跨部门沟通协作能力。",Java Python C# Spring Cloud 微服务 分布式 MySQL Oracle SQL Server Gin Spark Flink Kafka 方案设计 供应链 数据治理 培训,https://jobs.51job.com/suzhou/173103916.html?s=sou_sou_soulb&t=0_0&req=909eecde3f09ceb72e53bda0c480f40e
+大数据工程师,苏州通富超威半导体,1-1.3万·13薪,苏州,苏州,本科,3年及以上,2026-06-25 09:42:39,job51,"1．	有计算机互联网工作经验，能独立开发并完成大数据平台和可视化网页，有MES/SAP等企业项目开发经验优先；
+2．	擅长JAVA，Python， C++等常用编程语言，逻辑分析能力强，擅长编写开发小程序，辅助工程师进行BOM数据自动维护，Label比对等工程数据处理和分析工作；
+3．	有AI项目开发经验，基于检测机器进行机器深度学习、测试，开发搭建智能视觉检测模型，提升生产效率。
+
+以下情况优先
+AI/大数据/智能制造背景经验
+• 生产制造工厂从业经验
+• 生产/质量等大数据分析和管理相关经验
+• 有制程/工程改善和智能管理项目经验优先",Java Python C++ 深度学习 数据分析 AI,https://jobs.51job.com/suzhou/169152515.html?s=sou_sou_soulb&t=0_0&req=909eecde3f09ceb72e53bda0c480f40e
+大数据开发工程师,急速国际物流科技（深圳）,1-1.3万,苏州·姑苏区,苏州,本科,3年及以上,2026-07-17 13:48:31,job51,"具备数据产品规划与设计能力，能独立负责报表、数据平台及指标体系建设
+能深入理解业务（电商/物流/金融等），将业务问题抽象为数据需求并落地
+熟练设计指标体系，统一数据口径，具备数据分析能力（漏斗/留存/分层等）
+熟悉数据仓库建模，具备分层设计经验（ODS / DWD / DWS / ADS）
+能设计数据方案，包括数据模型、埋点方案及数据流程
+熟悉 SQL（Hive / MySQL），具备较强数据处理能力
+了解大数据技术体系，如 Apache Hadoop、Apache Spark、Apache Flink、Apache Kafka、Airflow 等
+熟悉数据治理相关内容（数据血缘、数据质量、元数据管理等）
+具备良好的跨团队沟通与项目推进能力
+有完整数据产品项目经验优先
+有基础清洗数据能力者优化
+## 加分项
+- 熟悉 Python 或使用 pandas 进行数据分析
+- 有实时数仓经验
+- 熟悉 ClickHouse / Apache Doris 等 OLAP 引擎
+- 有 BI 工具经验（Superset / Tableau / Power BI）
+- 有百万级以上经验",SQL Hive MySQL Hadoop Spark Flink Kafka Airflow Python ClickHouse Doris 产品规划 数据分析 数据治理,https://jobs.51job.com/suzhou-gsq/172002907.html?s=sou_sou_soulb&t=0_0&req=909eecde3f09ceb72e53bda0c480f40e
+Python开发工程师(J10167),苏州纽威阀门,9千-1.6万·13薪,苏州·虎丘区,苏州,本科,3年,2026-07-09 13:24:01,job51,"工作职责:
+1.	负责公司内部业务系统、自动化脚本及相关功能模块的开发与维护。 
+2.	根据业务需求，完成 Python 程序开发、接口编写、功能优化及问题排查。 
+3.	参与数据库表设计、数据处理及日常脚本编写，提高业务处理效率。 
+4.	配合前后端或业务部门完成系统对接、联调测试及上线支持。 
+5.	参与技术文档、开发文档的编写，持续提升代码质量与系统稳定性。 
+6.	参与 AI Agent 相关功能开发与应用落地，协助实现智能化业务场景。
+任职资格:
+1.	熟悉 Python 基础语法，掌握常用数据结构、函数、模块、面向对象编程等基础知识。 
+2.	熟悉 Flask、Django、FastAPI 等至少一种 Python 开发框架。 
+3.	熟悉 MySQL、PostgreSQL 等关系型数据库，能够编写常用 SQL。 
+4.	熟悉 RESTful API 设计与开发，具备基本接口开发能力。 
+5.	熟悉 Git 等版本管理工具，具备良好的编码习惯。 
+6.	具备较强的问题分析与解决能力，有良好的沟通能力和团队协作意识。 
+7.	熟悉 Python 自动化脚本开发，能够结合 Selenium、Playwright、openpyxl、pandas 等工具完成业务流程自动化。",Python AI Agent Flask Django FastAPI MySQL PostgreSQL SQL Git 技术文档 版本管理,https://jobs.51job.com/suzhou-hq/172852559.html?s=sou_sou_soulb&t=0_0&req=909eecde3f09ceb72e53bda0c480f40e
+资深DBA架构工程师（数据架构师）,新代科技（苏州）,1.5-2万·14薪,苏州,苏州,本科,6年及以上,2026-08-05 16:26:27,job51,"工作职责：
+1.数据架构规划设计
+1&gt;负责MES系统数据架构的整体规划与设计，构建涵盖主数据、业务数据、分析统计维度的全链路数据模型
+2&gt;制定数据库设计规范、数据建模标准与开发规范，输出技术方案文档
+
+2.数据库表结构设计与开发
+1&gt;根据业务需求设计合理的数据库表结构、字段、索引、视图，完成逻辑模型与物理模型的设计落地
+2&gt;编写高性能SQL、存储过程、函数，完成核心模块的数据层开发
+
+3.性能优化与架构升级
+1&gt;负责数据库性能监控、SQL调优、索引优化，解决高并发场景下的数据存取瓶颈
+2&gt;持续优化数据存储架构，保障系统数据存取的高效性与稳定性
+
+4.跨系统数据集成设计
+1&gt;主导MES与ERP、WMS等上下游系统的数据交互方案设计，明确接口规范与数据流转规则
+2&gt;指导或参与接口核心逻辑的开发实现
+
+5.技术规范与质量管控
+1&gt;制定并推行数据建模、开发、运维的全生命周期管理规范
+2&gt;负责核心数据模型评审，把控数据质量与结构合理性
+
+
+任职要求：
+1、本科及以上学历，计算机相关专业；
+2、6年以上数据库开发及数据库相关工作经验，其中至少2年业务域数据架构规划、数据模型设计落地实战经验；经验侧重业务数据库开发设计，非单纯数据库实例运维，有MES/ERP/WMS制造系统经验优先；
+3、精通主流关系型数据库（SQL Server/Oracle/MySQL等），精通SQL优化、事务处理与性能调优；
+4、熟练掌握数据建模方法，具备大型业务系统数据架构设计经验；
+5、熟悉MES系统业务逻辑及制造业生产流程；
+6、掌握至少一种开发语言（Java/C#/.NET等）及ORM框架；
+7、了解数据治理、数据仓库基本理论；
+8、业务洞察力：能快速理解生产业务场景，将业务需求转化为合理的数据模型；
+9、架构思维：具备系统性、前瞻性的数据架构规划能力；
+10、沟通协作力：能与业务部门及开发团队高效沟通，推动方案落地；
+11、责任心与抗压力：工作严谨，能适配项目迭代节奏。",SQL 高并发 SQL Server Oracle MySQL Java C# 技术方案 方案设计 数据治理,https://jobs.51job.com/suzhou/173164303.html?s=sou_sou_soulb&t=0_0&req=909eecde3f09ceb72e53bda0c480f40e
+大数据开发工程师,安德烈斯蒂尔动力工具（青岛）,2-3.5万·14薪,苏州·苏州工业园区,苏州,本科,3年及以上,2026-07-13 15:47:53,job51,"一、岗位职责
+1.	设备统筹与生产协调：负责数据采集设备的整体统筹规划，与研发团队、工厂紧密协作，完成数据采集设备的制作与生产，保障设备性能适配户外智能割草机器人数据采集需求。
+2.	场景规划与数据采集：依据 AI 识别场景需求，自主筛选合适的外部场景或搭建模拟场景，开展全面的数据采集工作，确保采集数据覆盖欧美花园等典型应用场景。
+3.	方案制定与协作：深入与 AI 算法工程师沟通，精准把握数据需求，制定并输出完整、可落地的数据采集方案，支撑算法模型训练与优化。
+4.	数据全流程管理：全程把控数据采集、标注、验收工作，规范数据归档流程，保障数据质量与完整性，为机器人功能迭代提供可靠数据支撑。
+5.	海外数据采集：按需出差至欧美地区，与当地工程师协同开展数据采集工作，深度获取欧美花园场景下的机器人运行数据 。
+
+二、任职要求
+1.	专业技能
+-精通机器人数据采集方法与流程，熟悉图像数据、定位数据、VSLAM 数据格式，具备多模态数据处理能力。
+-熟练使用 Python 进行数据采集脚本编写与处理，熟悉大模型文生图软件（如 Midjourney 等），能辅助数据采集与场景模拟。
+-深入理解欧美花园场景特点，熟悉智能割草机在该场景下的运行需求与数据采集要点。
+2.	工作经验：拥有户外智能设备数据采集经验，有割草机器人、清洁机器人等相关领域工作经历者优先。
+3.	综合能力
+-英语流利，可无障碍进行海外技术交流与协作，胜任欧美出差工作。
+-具备高度责任心与数据敏感度，熟悉数据全生命周期管理流程，能高效完成数据采集全流程工作。
+-擅长团队协作，与 AI 算法工程师等跨部门团队保持良好沟通，保障数据采集工作高效推进。",SLAM 多模态 Python 大模型 文生图 数据采集,https://jobs.51job.com/suzhou-gyyq/172890255.html?s=sou_sou_soulb&t=0_0&req=909eecde3f09ceb72e53bda0c480f40e
+中级ITBP（低代码方向）,滁州捷泰新能源科技,1.3-2万,苏州·苏州工业园区,苏州,本科,5-6年,2026-07-21 14:26:32,job51,"1. 供应链+营销一体化需求分析与方案设计
+- 深度对接销售、采购、仓储、物流、计划、应收等业务，梳理订单—履约—库存—物流—回款全流程，识别断点、数据孤岛与低效环节。
+- 输出一体化需求文档、业务流程图、低代码+ERP的落地方案，兼顾业务适配、系统稳定、数据合规。
+- 管理业务预期，平衡快速交付、系统架构与ERP集成稳定性。
+
+2深度应用低代码平台
+- 主导低代码系统实施项目，负责需求分析、方案设计、系统配置及测试验收
+- 实现低代码系统与SAP、金蝶等ERP系统的无缝对接，确保订单、库存、生产数据的实时同步
+- 利用低代码平台（如轻流、简道云等）快速开发定制化业务模块，满足业务的需求
+- 设计并实施低代码平台系统与企业现有营销、服务、供应链系统的集成方案
+
+3. 数字化赋能与资产沉淀
+- 沉淀营销+供应链低代码+ERP的一体化方案、集成标准、工具模板，形成可复用资产。
+- 为业务团队提供系统培训与支持，提升自主运营能力。
+
+---
+
+任职要求
+1. 经验与背景
+- 全日制本科及以上学历，计算机、信息管理、工商管理、市场营销等相关专业。
+- 3-5年IT相关工作经验，2-3年以上ERP营销/供应链模块实施/对接/运维经验。
+- 有低代码经验优先，无经验但愿意学习亦可。
+
+2. 专业技能
+- ERP：熟悉销售或供应链ERP系统全流程，具备系统实现、功能设计的能力。
+- 业务分析：熟练使用Visio/Draw.io/Xmind，具备营销+供应链流程梳理与需求转化能力。
+- 学习能力：乐于接受新鲜事物、主动尝试新技术，快速学习并落地实践。
+
+3. 软性素质
+- 强跨部门沟通，能在技术、营销、供应链间高效对齐。
+- 强Owner意识与闭环思维，对交付质量与业务价值负责。
+- 积极主动，适应业务与技术快速迭代，抗压能力强。
+
+---
+
+加分项
+- 制造业、新能源、光伏、储能等行业背景的全球化业务经验
+- 有营销+供应链端到端ITBP或数字化项目经验。
+- 持有PMP、敏捷、ERP模块认证等证书。
+- 有AI工具在流程自动化、数据处理等场景的实际应用案例。",供应链 需求分析 方案设计 采购 合规 培训,https://jobs.51job.com/suzhou-gyyq/170924408.html?s=sou_sou_soulb&t=0_0&req=b5d1090c13212eb2c402b006f762e7c6
+DBA数据库工程师,苏州纳芯微电子,2-3万·13薪,苏州·苏州工业园区,苏州,本科,5年及以上,2026-06-23 20:13:05,job51,"岗位职责：
+1.&nbsp;负责公司Oracle、MySQL、PostgreSQL、SQL Server等主流数据库全生命周期运维，包含线上实例部署、日常巡检、性能监控、故障应急处理，保障7*24小时数据库稳定运行。
+2.&nbsp;数据库架构设计与优化：分库分表规划、索引优化、SQL慢查询治理、读写分离、主从集群搭建调优，支撑业务高并发、大数据量访问需求。
+3.&nbsp;制定数据库备份、恢复、容灾方案，定期开展备份校验、故障演练，完善数据安全机制，杜绝数据丢失风险。
+4.&nbsp;配合开发、解决方案团队开展上线评审，审核上线SQL脚本，规范数据库开发规范，提前规避上线性能、锁表、事务等风险。
+5.&nbsp;监控数据库资源水位（CPU、内存、磁盘IO、连接数、锁等待），输出性能周报/月报，持续优化数据库资源成本，处理数据库死锁、雪崩、主从延迟等线上故障。
+6.&nbsp;数据库权限管控、账号生命周期管理、数据脱敏、审计日志落地，满足公司信息安全及合规要求。
+7.&nbsp;参与数据库自动化运维平台建设，编写运维脚本、监控告警规则，推动数据库运维标准化、自动化。
+8.&nbsp;跟进数据库版本升级、漏洞修复，调研新型分布式数据库，完成技术预研与落地试点。
+ 任职要求：
+1.&nbsp;本科及以上计算机相关专业，5年及以上专职DBA实战运维经验，有互联网/中大型企业数据库运维经验优先。
+2.&nbsp;精通Oracle、MySQL、PostgreSQL底层原理，熟练掌握索引、事务、锁机制、MVCC、主从复制、binlog、redo/undo日志，能独立处理各类复杂线上故障，有中大型企业数据湖仓数据库运维经验优先。
+3.&nbsp;熟练Linux操作系统，精通Shell/Python至少一种脚本语言，可独立编写自动化运维工具。
+4.&nbsp;熟练使用Prometheus、Grafana、ELK等监控工具，能搭建完整数据库监控告警体系。
+5.&nbsp;具备较强故障排查能力，抗压能力强，能承接突发线上应急值守；
+6.&nbsp;逻辑清晰，沟通顺畅，能输出规范运维文档、培训开发规范；
+7.&nbsp;严谨细致，有良好风险意识，主动发现并提前规避数据库隐患。",Oracle MySQL PostgreSQL SQL Server SQL 高并发 分布式 Linux Shell Python Prometheus Grafana 审计 合规 监控告警 故障排查 培训,https://jobs.51job.com/suzhou-gyyq/172660978.html?s=sou_sou_soulb&t=0_0&req=b5d1090c13212eb2c402b006f762e7c6
+dba数据库工程师,苏州派维斯信息科技,8千-1.2万,苏州·高新区,苏州,本科,1-2年,2026-07-15 16:45:03,job51,"岗位职责:
+1. 系统配置： 能够通过培训快速理解产品架构，通过配置 SQL、XML 等文件，完成标准界面的微调及定制化数据的提取；
+2. 数据查询： 编写复杂业务流程中的多表关联查询 SQL，并进行数据库层面的性能优化；
+3. 问题排查： 使用监控工具进行开发调试，快速定位问题并输出解决方案；
+5. 文档与沟通： 阅读英文技术文档，理解客户的业务英语需求并转化为系统逻辑；
+任职要求:
+• 教育背景： 全日制统招本科及以上学历，计算机/软件工程等相关专业
+• 工作经验： 1-2年
+• 专业技能： 精通 SQL 基础语法与多表关联查询；
+• 语言能力： 具备基础的英语阅读能力，能熟练使用翻译工具阅读英文技术文档。",SQL 培训 技术文档 XML,https://jobs.51job.com/suzhou-gxq/171135363.html?s=sou_sou_soulb&t=0_0&req=b5d1090c13212eb2c402b006f762e7c6
+产品数据工程师,苏州苏纳光电,1-1.5万,苏州·苏州工业园区,苏州,本科,3年及以上,2026-07-15 09:16:45,job51,"工作职责:
+产品料号与BOM管理：
+ 1、负责新产品开发阶段的料号申请、编码规则遵循与系统建立，确保物料信息***性与准确性。
+ 2、负责产品EBOM（设计BOM）转MBOM（制造BOM）的审核、发布与变更维护。
+ 3、主导工程变更（ECN/ECO）流程的数据端操作，跟踪变更闭环并监督各部门执行情况。
+工艺流程与数据支持：
+ 1、配合工艺部门维护系统内的标准工艺流程路线，确保工艺数据与BOM结构的一致性。
+ 2、协助处理研发试产阶段的工艺文件关联与数据异常排查。
+技术标准文件撰写与归档：
+ 1、负责编写、更新总体办的数据管理规范、料号命名规则、BOM结构搭建标准等SOP文件。
+ 2、负责研发技术文档的标准化审查、格式规范与受控发布。
+任职资格:
+一、基本要求：
+ 学历：本科及以上学历，机械、电子、工业工程、信息管理等相关专业优先
+ 经验：3年以上研发助理、BOM工程师、配置管理或标准化工作经验。
+二、硬性技能：
+ 熟悉主流ERP系统（如SAP、Oracle、用友U9、金蝶云星空）的物料与BOM模块操作。
+ 精通Excel数据清洗与比对（必备能力，需熟练使用VLOOKUP/透视表）。
+ 了解PDM/PLM系统逻辑，有ECN变更流程实操经验。
+三、核心软素质：
+ 逻辑严谨，极度细心：对数字、编码、版本号有天然的敏感性，绝不容忍混乱的数据。
+ 文笔规范：具备良好的技术文档编写能力，能用清晰的书面语言制定规则。
+ 沟通韧性：能够在研发工程师的“灵活性需求”与公司的“规范性要求”之间找到平衡点，推动流程落地。",Oracle 技术文档 ECN ECO,https://jobs.51job.com/suzhou-gyyq/172912902.html?s=sou_sou_soulb&t=0_0&req=b5d1090c13212eb2c402b006f762e7c6
+AI大数据分析工程师(A07006),苏州旭创科技,1.5-2万·15薪,苏州·苏州工业园区,苏州,本科,2年及以上,2026-08-03 17:05:03,job51,"职位描述：
+生产测试数据全链路管理
+1.对接生产测试环节的各类数据源（如测试设备终端、测试管理系统、MES 系统等），设计并落地多维度测试数据（测试参数、测试结果、测试耗时、设备状态、产品批次信息等）的采集方案，确保数据实时、完整、准确归集。
+2.搭建生产测试数据专属数据集市，制定数据清洗、标准化、脱敏规则，建立数据质量校验机制（如异常值剔除、缺失值补全），保障测试数据的可用性与一致性，为后续分析提供可靠数据基础。
+测试效率优化数据分析
+1.基于测试数据，分析生产测试全流程的效率瓶颈，包括但不限于：单工位测试耗时过长、测试设备闲置率高、测试流程重复冗余、不同批次产品测试效率差异异常等。
+2.运用统计分析、对比分析、流程拆解等方法，定位效率瓶颈根源（如某测试步骤参数设置不合理、测试设备老化导致测速下降），构建测试效率评估模型（如单位时间测试量、测试流程达标率），输出可落地的效率优化建议（如优化测试参数、调整测试工位布局、制定设备轮换维护计划）。
+品质风险识别与预警分析
+1.挖掘测试数据与产品品质的关联关系（如特定测试参数异常与产品不良率的相关性、测试结果波动与后续使用故障的关联性），识别潜在品质风险点（如测试合格但存在隐性缺陷的产品特征、某类测试设备检测精度下降导致的漏检风险）。
+2.构建品质风险分析模型，量化风险等级（如高 / 中 / 低风险批次、风险影响范围），设定风险预警阈值（如某测试参数偏离正常范围的临界值），开发自动预警机制，当测试数据触发预警时，及时推送风险信息至生产、质检部门，协助快速介入排查。
+
+
+职位要求：
+1.本科及以上学历，统计学、大数据科学与技术、计算机应用技术、电子工程、工业工程、质量管理工程等相关专业。
+2.具备生产测试流程基础知识，了解电子、机械、汽车零部件等行业生产测试环节（如功能测试、性能测试、可靠性测试）的基本逻辑与核心指标者优先。
+3.熟练使用 Python（掌握 Pandas、NumPy、Scipy 等数据分析库）、SQL，能独立完成生产测试数据的清洗、筛选、聚合、关联分析等操作；熟悉 Hadoop、Spark 等大数据框架，具备百万级及以上测试数据处理经验者优先。
+4.掌握数据仓库建模方法（如星型模型、维度建模），有生产测试领域数据仓库或数据集市搭建经验，能设计贴合测试效率与品质风险分析需求的数据模型者优先。
+5.精通统计分析（如描述统计、假设检验、相关性分析）、机器学习基础算法（如逻辑回归、决策树、聚类算法），能独立构建测试效率优化模型、品质风险识别模型。
+6.有生产测试流程优化、品质风险管控相关项目经验，或曾主导 / 参与通过数据分析实现测试效率提升、不良率下降的项目者优先。",Python SQL Hadoop Spark 机器学习 数据分析 功能测试 性能测试 流程优化,https://jobs.51job.com/suzhou-gyyq/173134370.html?s=sou_sou_soulb&t=0_0&req=b5d1090c13212eb2c402b006f762e7c6
+数据架构师,苏州人旺企业管理咨询,2-2.5万·14薪,苏州·苏州工业园区,苏州,本科,3年及以上,2026-07-22 17:43:16,job51,"岗位职责：
+负责规划与设计公司级数据架构，构建数据仓库与数据治理体系；
+主导跨系统数据集成与数据模型设计；制定数据标准与质量管理规范，并为DBA提供技术指导与架构支持。
+工作内容：
+•数据架构设计，规划并设计公司的统一数据平台/数据仓库（整体架构、数据模型和集成规范等），解决系统间的“数据孤岛”问题。
+• 设计并构建面向业务主题的复杂数据分析模型与指标体系，支撑管理决策。
+• 主导大数据量、复杂逻辑的数据迁移、清洗与整合项目的方案设计与验收。
+• 对接外包开发供应商，将诉求转化清晰、可执行的技术开发需求。
+• 审核外包公司的数据库设计与接口开发，确保其符合内部数据架构标准。
+• 管理数据全流程，负责从现有系统（金蝶云、携客云、无纸化系统等）进行数据清洗、整合、迁移到新库的方案设计，并监督实施。
+• 建立并推行企业级数据治理体系，包括数据标准、质量规则、血缘追踪与安全分级。
+• 制定数据建模、开发、运维的全生命周期管理规范，并监督执行。
+• 主导数据资产目录的构建与管理，提升数据可发现性与可用性。
+• 为DBA及开发团队提供数据架构、模型设计方面的技术指导与评审。
+• 管理与协调外部数据技术供应商或外包团队，确保交付物符合架构标准。
+岗位要求：
+本科及以上学历，计算机或信息技术等相关专业。
+对制造业核心业务流程（供应链、生产、财务）有深刻理解，能快速理解业务数据背后的含义。
+精通SQL，熟悉至少一种主流数据库（如MySQL, SQL Server, Oracle）。必须具备3年以上数据建模和设计经验。了解ETL（数据提取、转换、加载）流程和工具者更佳。
+了解数据仓库、数据治理（如DAMA）基本理论。",SQL MySQL SQL Server Oracle 数据治理 数据分析 方案设计 供应链,https://jobs.51job.com/suzhou-gyyq/173008524.html?s=sou_sou_soulb&t=0_0&req=b5d1090c13212eb2c402b006f762e7c6
+数据架构师,苏州人旺企业管理咨询,2-2.5万·14薪,苏州·苏州工业园区,苏州,本科,3年及以上,2026-07-22 17:23:52,job51,"1.数据架构规划与设计：
+•数据架构设计，规划并设计公司的统一数据平台/数据仓库（整体架构、数据模型和集成规范等），解决系统间的“数据孤岛”问题。
+• 设计并构建面向业务主题的复杂数据分析模型与指标体系，支撑管理决策。
+• 主导大数据量、复杂逻辑的数据迁移、清洗与整合项目的方案设计与验收。
+• 对接外包开发供应商，将诉求转化清晰、可执行的技术开发需求。
+• 审核外包公司的数据库设计与接口开发，确保其符合内部数据架构标准。
+2.数据治理与标准制定：
+• 管理数据全流程，负责从现有系统（金蝶云、携客云、无纸化系统等）进行数据清洗、整合、迁移到新库的方案设计，并监督实施。
+• 建立并推行企业级数据治理体系，包括数据标准、质量规则、血缘追踪与安全分级。
+• 制定数据建模、开发、运维的全生命周期管理规范，并监督执行。
+• 主导数据资产目录的构建与管理，提升数据可发现性与可用性。
+3.技术领导与协作：
+• 为DBA及开发团队提供数据架构、模型设计方面的技术指导与评审。
+• 管理与协调外部数据技术供应商或外包团队，确保交付物符合架构标准。
+4.协助完成部门内其他事务：
+• 协助处理突发事件等有关手续
+• 协助上司及部门长交待其它工作或临时***办事项
+要求：
+本科及以上学历，计算机或信息技术等相关专业。
+对制造业核心业务流程（供应链、生产、财务）有深刻理解，能快速理解业务数据背后的含义。
+精通SQL，熟悉至少一种主流数据库（如MySQL, SQL Server, Oracle）。必须具备3年以上数据建模和设计经验。了解ETL（数据提取、转换、加载）流程和工具者更佳。
+了解数据仓库、数据治理（如DAMA）基本理论。
+有主导过数据仓库、主数据管理或大型系统数据迁移项目的成功经验。有与外包团队协作的经验优先
+ 出色的跨部门沟通能力和项目管理能力，做事严谨，有极强的责任心和数据敏感度。
+沟通协调能力：能与非技术背景的业务人员有效沟通，并将其需求转化为技术语言。",SQL MySQL SQL Server Oracle 数据分析 方案设计 数据治理 供应链 项目管理,https://jobs.51job.com/suzhou-gyyq/173008128.html?s=sou_sou_soulb&t=0_0&req=b5d1090c13212eb2c402b006f762e7c6
+python工程师,苏州丰航精密金属,1.2-2万,昆山,苏州,本科,3年及以上,2026-07-28 11:28:12,job51,"岗位职责：
+1.生产/制程大数据数据采集及数据仓库建置；
+2.数据分析，依各大数据分析项目所需；
+3.数据治理与Data Model设计；
+4.研究与开发机器学习算法(含深度学习模型研究，模拟与分析)；
+5. 主管安排其他协助事项；
+6. 薪资可谈（视个人能力）
+任职要求
+1. 本科以上学历，计算机科学与技术，软件工程，人工智能，数据科学与大数据技术等专业；
+2 .相关工作经验3年，具备传统产业数据分析经验者优；
+3.具Data warehouse 导入，建置，管理经验；
+4.具Data model设计能力；
+5.具计算机视觉背景；
+6.熟悉Linux运算环境者佳；
+7.具Python、Java、c、c# 经验；",机器学习 深度学习 计算机视觉 Linux Python Java C# 数据采集 数据分析 数据治理,https://jobs.51job.com/kunshan/172984188.html?s=sou_sou_soulb&t=0_0&req=b5d1090c13212eb2c402b006f762e7c6
+资深产品数据工程师,苏州苏纳光电,1.5-2.5万,苏州·苏州工业园区,苏州,本科,5年及以上,2026-07-14 08:35:26,job51,"工作职责:
+产品料号与BOM管理：
+ 1、负责新产品开发阶段的料号申请、编码规则遵循与系统建立，确保物料信息***性与准确性。
+ 2、负责产品EBOM（设计BOM）转MBOM（制造BOM）的审核、发布与变更维护。
+ 3、主导工程变更（ECN/ECO）流程的数据端操作，跟踪变更闭环并监督各部门执行情况。
+工艺流程与数据支持：
+ 1、配合工艺部门维护系统内的标准工艺流程路线，确保工艺数据与BOM结构的一致性。
+ 2、协助处理研发试产阶段的工艺文件关联与数据异常排查。
+技术标准文件撰写与归档：
+ 1、负责编写、更新总体办的数据管理规范、料号命名规则、BOM结构搭建标准等SOP文件。
+ 2、负责研发技术文档的标准化审查、格式规范与受控发布。
+能力建设:
+ 1、负责部门产品数据组的能力建设；
+ 2、负责产品数据管理相关系统的规划、评估及配合相关单位的导入。
+任职资格:
+一、基本要求：
+ 学历：本科及以上学历，机械、电子、工业工程、信息管理等相关专业优先
+ 经验：5年以上BOM工程师、配置管理或标准化工作经验。
+二、硬性技能：
+ 熟悉主流ERP系统（如SAP、Oracle、用友U9、金蝶云星空）的物料与BOM模块操作。
+ 精通Excel数据清洗与比对（必备能力，需熟练使用VLOOKUP/透视表）。
+ 了解PDM/PLM系统逻辑，有ECN变更流程实操经验。
+三、核心软素质：
+ 逻辑严谨，极度细心：对数字、编码、版本号有天然的敏感性，绝不容忍混乱的数据。
+ 文笔规范：具备良好的技术文档编写能力，能用清晰的书面语言制定规则。
+ 沟通韧性：能够在研发工程师的“灵活性需求”与公司的“规范性要求”之间找到平衡点，推动流程落地。",Oracle 技术文档 ECN ECO,https://jobs.51job.com/suzhou-gyyq/172895719.html?s=sou_sou_soulb&t=0_0&req=b5d1090c13212eb2c402b006f762e7c6
+数据架构师,苏州人旺企业管理咨询,2-2.5万·14薪,苏州·苏州工业园区,苏州,本科,5年及以上,2026-07-23 10:23:46,job51,"工作内容：
+数据架构规划与设计
+•数据架构设计，规划并设计公司的统一数据平台/数据仓库（整体架构、数据模型和集成规范等），解决系统间的“数据孤岛”问题。
+• 设计并构建面向业务主题的复杂数据分析模型与指标体系，支撑管理决策。
+• 主导大数据量、复杂逻辑的数据迁移、清洗与整合项目的方案设计与验收。
+• 对接外包开发供应商，将诉求转化清晰、可执行的技术开发需求。
+• 审核外包公司的数据库设计与接口开发，确保其符合内部数据架构标准。
+
+数据治理与标准制定
+• 管理数据全流程，负责从现有系统（金蝶云、携客云、无纸化系统等）进行数据清洗、整合、迁移到新库的方案设计，并监督实施。
+• 建立并推行企业级数据治理体系，包括数据标准、质量规则、血缘追踪与安全分级。
+• 制定数据建模、开发、运维的全生命周期管理规范，并监督执行。
+• 主导数据资产目录的构建与管理，提升数据可发现性与可用性。
+
+经验要求：
+1、本科及以上学历，计算机或信息技术等相关专业。
+2、精通SQL，熟悉至少一种主流数据库（如MySQL, SQL Server, Oracle）。必须具备3年以上数据建模和设计经验。了解ETL（数据提取、转换、加载）流程和工具者更佳。
+3、对制造业核心业务流程（供应链、生产、财务）有深刻理解，能快速理解业务数据背后的含义。
+4、有主导过数据仓库、主数据管理或大型系统数据迁移项目的成功经验。有与外包团队协作的经验。",SQL MySQL SQL Server Oracle 数据分析 方案设计 数据治理 供应链,https://jobs.51job.com/suzhou-gyyq/173013005.html?s=sou_sou_soulb&t=0_0&req=b5d1090c13212eb2c402b006f762e7c6
+出口合规安全工程师,江苏立讯机器人,1.3-2万,昆山,苏州,大专,5年及以上,2026-08-07 09:57:06,job51,"1、出口合规认证全流程负责：全权负责公司非标自动化设备欧盟CE（MD机械指令、LVD、EMC）、北美UL/ETL认证相关工作，包含CE自我宣告体系搭建、UL-FE现场评估、UL508A控制柜合规、整机电气安全合规整改，独立对接国内外认证机构、安全顾问。
+2、TCF技术文件独立编制与管控：按照欧盟2006/42/EC机械指令及最新EU 2023/1230新机械法规，独立编写非标设备全套TCF技术档案，包含设备风险评估报告（EN ISO 12100）、安全功能评估、整机合规资料归档、DoC符合性声明、英文设备说明书合规审核，满足欧盟清关及市场抽查要求。
+3、设备安全设计前置评审：参与新项目方案、图纸、BOM评审，从源头把控机械安全、电气安全、功能安全合规性；针对设备防护、安全门联锁、急停回路、光幕/安全继电器等安全部件，依据EN ISO 13849-1完成PL/SIL等级评估与SISTEMA计算，提前规避认证整改问题。
+4、搭建公司出口标准化合规体系：负责建立公司出口设备专属规范，包含UL/CE认证元器件优选库、合规设计标准、TCF文档模板库、设备铭牌/标识/说明书标准化模板，实现新项目合规资料快速复用，降低认证周期与外包成本。
+5、项目整改与落地跟进：负责样机阶段合规自查、预审核，输出整改清单，指导机械、电气工程师完成设备合规整改，保障CE、UL一次性通过评估，无出口合规风险。
+6、合规资料与供应商管理：统筹管理设备零部件认证资料、UL档案号归档；筛选、对接外部安全顾问、认证机构、欧盟授权代表，管控认证成本与项目周期，复盘优化认证流程。
+7、法规更新与内部培训：跟踪欧盟、北美最新设备安全法规更新，对公司研发、设计、工程人员开展合规培训，统一出口设备设计标准。
+
+任职要求
+1、学历专业：大专及以上学历，机械自动化、电气自动化、机电一体化相关专业。
+2、工作经验：5年及以上非标自动化设备行业合规认证经验，有整线、组装设备、非标工装设备CE/UL实操经验优先；有独立落地出口设备认证项目经验者优先。
+3、核心专业能力（硬性要求）
+（1）精通欧盟MD机械指令、LVD、EMC指令，能够独立编写非标设备全套TCF技术文件、EN ISO 12100风险评估报告；
+（2）精通EN ISO 13849-1功能安全标准，熟练掌握PL等级判定、SISTEMA安全计算；
+（3）熟悉北美UL认证体系，掌握UL61010-1、UL508A控制柜标准，熟悉UL-FE现场评估流程及整改要求；
+（4）熟悉非标设备机械防护、电气布线、接地、绝缘、安全回路设计合规要求，可独立指导设计整改。
+4、技能要求：能够看懂机械、电气原理图，熟练整理设备合规资料；具备基础英文读写能力，可审核英文设备说明书、解读海外认证标准；熟练使用Office、SISTEMA安全计算工具。
+5、能力素质：逻辑清晰、严谨细致，具备极强的风险把控能力；沟通协调能力强，可独立对接第三方机构、外部顾问；具备体系化思维，能够搭建标准化合规流程。
+6、优先条件
+（1）有非标自动化设备企业全职合规经验，而非纯检测机构经验；
+（2）独立完成过出口欧盟、北美非标设备TCF编制、UL现场评估落地项目；
+（3）参与过企业出口设备合规标准化体系、元器件认证库搭建者优先。",合规 安全合规 培训 LVD EMC UL- EN ISO,https://jobs.51job.com/kunshan/173185794.html?s=sou_sou_soulb&t=0_0&req=b5d1090c13212eb2c402b006f762e7c6
+python工程师,急速国际物流科技（深圳）,1-1.3万,苏州·姑苏区,苏州,大专,3年及以上,2026-07-20 10:35:57,job51,"岗位职责：
+1.负责处理货物全流程监控，各环节产生的异常及时对接处理。
+2.产品各维度报表输出，服务商异常理赔处理，质检部门工作协调管理。
+3.熟悉物流渠道产品，配合产品运营工作，定期输出相关内容。
+4.日常数据的监控和统计总结，能对工作中出现的问题提出优化改进方案
+5.负责汇总，及时分析并反馈给上级领导
+6.完成上级安排的其他工作任务
+任职要求：
+1..大专或以上学历，计算机科学、软件工程或相关专业优先考虑。
+2.至少3年以上Python开发经验，有【电商ERP】【跨境物流WMS】【跨境物流TMS】等相关项目经验
+3.有前端vue，javascript 开发经验优先
+4.熟悉Django、Flask等Python框架，熟练掌握相关开发工具和技术。
+5.具备良好的沟通能力和团队合作精神，能适应快节奏的工作环境。
+6.对新技术有强烈的学习兴趣和能力，能够不断提升自己的技术水平.",Python Vue JavaScript Django Flask,https://jobs.51job.com/suzhou-gsq/172147273.html?s=sou_sou_soulb&t=0_0&req=b5d1090c13212eb2c402b006f762e7c6
+信息化工程师,微康益生菌（苏州）,8千-1.6万,苏州·吴江区,苏州,本科,2年及以上,2026-08-03 10:47:35,job51,"岗位职责：
+1、OA协同平台及CRM系统日常运维
+2、协同平台相关用户需求沟通及响应解决
+3、协同平台与其他系统接口开发、持续运维及优化
+4、根据公司战略及流程调整持续进行系统优化及流程改进
+5、其他安排的项目任务跟进及技术支持
+技术要求
+熟悉泛微OA系统，具备系统运维能力
+熟练掌握JAVA开发语言，具备开发经验者优先
+2.专业及工作经验要求 
+本科及以上学历，计算机、软件工程及信息工程相关专业优先
+至少2年及以上相关工作经验
+具备良好的跨部门协作沟通能力，具备团队合作精神",Java 技术支持 系统运维 跨部门协作,https://jobs.51job.com/suzhou-wjq/172541593.html?s=sou_sou_soulb&t=0_0&req=b5d1090c13212eb2c402b006f762e7c6
+AI应用工程师-P3747R,华润江苏医药,8千-1.5万,苏州·吴中区,苏州,本科,3年及以上,2026-07-31 16:28:15,job51,"工作职责：
+1. AI应用梳理规划
+- 深入理解公司业务，识别AI应用机会点
+- 进行技术选型和资源规划
+2. AI项目落地
+- 从需求分析到系统开发，全程参与AI项目实施
+- 独立或协作完成AI智能体开发、优化和部署
+- 将AI能力集成到现有业务系统中
+- 评估AI应用效果，量化提效提质指标
+3. AI能力建设
+- 在公司内部分享AI技术和应用经验
+- 培训业务团队使用AI工具，提升整体AI应用能力
+任职资格：
+1.3年以上 IT 开发或数据相关经验，至少1年以上的 LLM 应用落地经验；
+2.熟练掌握Python，熟悉主流AI框架，如dify，coze，aily等；
+3.能够独立完成AI项目的开发实施。",LLM Python 需求分析 培训 IT,https://jobs.51job.com/suzhou-wzq/171293730.html?s=sou_sou_soulb&t=0_0&req=b5d1090c13212eb2c402b006f762e7c6
+报表开发工程师 / BI 数据可视化工程师,博众精工科技,1.3-1.6万,苏州·吴江区,苏州,本科,3-5年,2026-07-21 13:34:47,job51,"【岗位职责】
+ 1. 与各业务部门沟通，梳理指标需求，建立统一的指标体系和定义标准
+ 2. 使用 FineBI 等工具搭建多领域数据看板，支持分级展示与钻取分析
+ 3. 对接多源数据，完成清洗、去重、标准化处理，保障数据质量
+ 4. 推动看板上线落地，持续收集反馈并迭代优化
+【任职要求】
+ - 熟练使用 FineBI（含自助数据集、仪表板、钻取、条件属性）
+ - 了解至少一种其他 BI 工具（Power BI / Tableau / 帆软）
+ - 熟练使用 Excel，能用 Python 处理数据是加分项
+ - 具备 SQL 基础，能独立取数验数
+ - 有制造业或 HR 域看板落地经验优先",Python SQL FineBI BI Power Tableau Excel HR,https://jobs.51job.com/suzhou-wjq/172984669.html?s=sou_sou_soulb&t=0_0&req=b5d1090c13212eb2c402b006f762e7c6
+后端实施开发工程师,苏州派维斯信息科技,8千-1.2万,苏州·高新区,苏州,本科,1-2年,2026-06-16 17:34:37,job51,"需要有英语四级证书，偏实施，要做测试
+岗位职责
+1. 系统配置： 能够通过培训快速理解产品架构，通过配置 SQL、XML 等文件，完成标准界面的微调及定制化数据的提取；
+2. 客制化开发： 独立开发并配置客制化的报表、自动化执行逻辑；
+3. 数据查询： 编写复杂业务流程中的多表关联查询 SQL，并进行数据库层面的性能优化；
+4. 问题排查： 使用监控工具进行问题排查，快速定位问题并输出解决方案；
+5. 文档与沟通： 阅读英文技术文档，理解客户的业务英语需求并转化为系统逻辑；解决技术问题。
+
+任职要求
+• 教育背景： 全日制统招本科及以上学历。 计算机 / 软件工程等相关专业
+• 工作经验： 1-2年，需要有一定的后端开发经验。
+• 专业技能： 精通 SQL 基础语法与多表关联查询，能按业务要求提取多表关联数据。
+• 语言能力：最少CET-4证书，具备基础的英语阅读能力，能熟练使用翻译工具阅读英文技术文档。",SQL 培训 技术文档 XML,https://jobs.51job.com/suzhou-gxq/172425499.html?s=sou_sou_soulb&t=0_0&req=b5d1090c13212eb2c402b006f762e7c6
+AI部署工程师,杭州盈泽商业管理,8千-1.3万,苏州·苏州工业园区,苏州,本科,1-3年,2026-07-13 13:21:47,job51,"岗位职责：
+1. 负责利用 AI 编程工具（如 Cursor、GitHub Copilot 等）开展公司内部数字化产品、管理工具及自动化脚本的设计、开发、测试与部署工作，能够独立完成小型软件项目的全流程交付。 
+2. 负责 AI 工作流的设计、搭建与落地，结合 AI 工具完成多源数据的采集、清洗、分析与处理，持续提升数据应用效率与业务支撑能力。 
+3. 负责数字化产品的技术支持与持续优化，收集并分析用户反馈，快速定位和解决系统问题，协助开展系统培训，推动产品迭代升级。 
+4. 配合业务部门完成技术方案设计、评审与实施，负责相关软件系统的部署、初始化、交付及硬件安装过程中的技术对接工作。 
+5. 负责办公网络、域控、文件共享等基础 IT 系统的日常管理与维护，保障公司核心业务系统稳定、安全、高效运行。 
+任职资格：
+1. 全日制统招本科及以上学历，计算机科学与技术、软件工程、人工智能、信息工程等相关专业优先。 
+2. 熟悉 AI 编程范式，能够熟练使用至少一种主流 AI 编程工具（如 Cursor、GitHub Copilot、通义灵码等）进行高效的人机协作开发，具备独立完成软件应用设计与开发的能力。 
+3. 熟练掌握 Python、Java、Go 等至少一门编程语言，具备良好的工程化开发能力与代码规范意识。 
+4. 熟悉 MySQL、PostgreSQL 等关系型数据库。 
+5. 熟悉 Git 版本管理、Docker 容器化部署及 Linux 基本操作，具备基础的软件部署、运维和问题排查能力。 
+6. 具备较强的逻辑思维能力、问题分析与拆解能力、学习能力及沟通协作能力，能够将复杂业务需求转化为清晰可执行的技术方案。 
+7. 工作认真踏实，责任心强，具备良好的服务意识与团队合作精神。 
+加分项
+1. 熟悉大模型（LLM）应用开发，有 LangChain、LlamaIndex 等相关框架实战经验者优先。 
+2. 具备数据爬取、自动化流程搭建、推荐算法或智能应用落地经验者优先。 
+3. 有企业内部信息化、数字化系统建设或城市级 IT 项目实施经验者优先。",Git Python Java Go MySQL PostgreSQL Docker 容器化 Linux 大模型 LLM LangChain 技术支持 培训 产品迭代 技术方案 版本管理,https://jobs.51job.com/suzhou-gyyq/172884561.html?s=sou_sou_soulb&t=0_0&req=b5d1090c13212eb2c402b006f762e7c6
+AI数据中心工程师,苏州玖隆再生科技集团,1-1.2万,苏州,苏州,本科,3年及以上,2026-06-26 09:42:46,job51,"负责公司数据治理、数据运维分析及AI模型落地、轻量化AI应用搭建，兼顾基础IT支撑工作，助力企业数字化、智能化升级；
+
+- 本科及以上学历，计算机、大数据、人工智能、软件工程等相关专业，3年以上相关工作经验。
+- 熟练掌握Python、SQL，精通主流数据库，熟悉数据治理、数据分析及可视化相关工作。
+- 了解AI模型微调、轻量化部署、容器化运维，具备AI应用落地实操经验。
+- 熟悉Linux基础操作，具备独立排查数据、系统、模型常见故障的能力。 
+- 工作严谨负责，具备良好的沟通协作能力和自主学习能力，有业务思维。",Python SQL 容器化 Linux 数据治理 数据分析,https://jobs.51job.com/suzhou/172697256.html?s=sou_sou_soulb&t=0_0&req=b5d1090c13212eb2c402b006f762e7c6
+数据库管理主任工程师(J10861),苏州东山精密制造,1.8-2.1万,苏州,苏州,本科,8年,2026-07-06 14:15:59,job51,"工作职责:
+1. 数据库系统建设与运维：负责整个事业部各类业务系统的数据库部署、配置、升级与日常运维Oracle\SQL\MSSQL等），确保数据库的稳定运行，保障高可用、高性能与数据安全。
+2. 数据库架构设计：参与数据库架构设计，包括主从复制、读写分离、冷热数据分层；根据业务增长进行容量规划与性能评估；参与管理和建设服务器及数据库服务和数据库服务的高可用集群，集群监控和备份恢复机制及应急机制；
+3. 性能优化与故障处理：定位并解决数据库性能瓶颈，快速响应线上故障，进行问题分析、根因定位和改进方案。
+4. 数据安全与权限管理：设计并维护数据库用户、角色、权限模型，实施审计、加密、备份与恢复策略，数据监控、数据迁移、系统升级，确保数据合规与安全。
+5. 数据平台与工具支持：支持 BI 工具（如 Metabase、FineBI、Power BI、Tableau 等）访问数据库，配合 BI 和 AI工程师进行数据同步、数据建模与数据治理。
+6. 自动化与规范建设：推动数据库运维自动化（脚本化、监控告警、变更流程），编写技术文档、运维规范和应急预案。
+任职资格:
+1. 本科及以上学历，计算机相关专业优先，英文佳优先；
+2. 5年及以上数据库相关工作经验；
+3. 精通两种以上数据库类型（Oracle 为必须），熟悉RAC，DataGuard，Linux等相关架构，能熟练进行SQL查询优化、有大数据处理经验；精通数据库的部署、备份、恢复机制和方法，能根据业务实际制定相应的方案
+4. 有BI/报表系统/数据分析平台支撑经验；
+5. 熟悉x86服务器、光纤交换机、存储等硬件，熟悉 Linux 操作系统，具备基本的 Shell 脚本能力；
+6. 具备较强的问题分析与排障能力，责任心强，沟通能力强。",Oracle SQL 高可用 加密 Linux Shell 审计 合规 数据治理 监控告警 技术文档 数据分析,https://jobs.51job.com/suzhou/172806086.html?s=sou_sou_soulb&t=0_0&req=b5d1090c13212eb2c402b006f762e7c6
+大数据算法工程师（沪利微电）,沪士电子,1.2-1.7万,昆山,苏州,本科,3年及以上,2026-07-08 07:51:51,job51,"【工作内容】
+- 负责大数据平台的算法模型设计与优化，提升数据处理效率和分析准确性；
+- 参与数据挖掘、机器学习等算法在实际业务场景中的应用与落地；
+- 推动算法技术在业务中的有效集成；
+【任职要求】
+- 计算机、数学、统计学或相关专业本科及以上学历；
+- 熟悉Python、Java等编程语言，具备良好的算法基础；
+- 了解Hadoop、Spark等大数据处理框架者优先；
+- 具备较强的学习能力和团队协作精神，对数据有敏锐的洞察力。",机器学习 Python Java Hadoop Spark,https://jobs.51job.com/kunshan/171728707.html?s=sou_sou_soulb&t=0_0&req=b5d1090c13212eb2c402b006f762e7c6
+Python应用开发工程师,苏州梦利达电子,9千-1.3万·13薪,昆山,苏州,本科,1年及以上,2026-07-27 10:31:37,job51,"任职要求：
+1.本科及以上学历，计算机相关专业；本科对口专业优先。
+2.具备1年及以上软件开发相关经验；
+3.熟悉Python开发（必要）；
+4.熟悉关系数据库系统MySQL、SQL SERVER、PostgreSQL等，熟悉标准SQL语言；
+5.熟悉Python后端常见WEB开源框架/系统，熟悉前端VUE框架开发技术；
+6.具备编写需求、设计、使用说明等常见软件工程文档能力；
+7.具备良好的沟通表达能力、责任心和团队协作能力；
+8.有MDC、MES、WMS开发经验者优先。
+9.具有AIcoding工具使用经验；
+10.熟悉web前端技术框架或具备一定开发能力；
+岗位职责：
+1.参与公司MES开发、升级、运维及重点项目的设计与开发编码工作；
+2.能够独立主持开展软件开发项目；
+3.完成B/S架构软件产品或项目的前、后端程序业务设计、代码实现，完成前后端接口设计与开发实现；
+4.完成软件产品或项目的数据库规划与设计。",Python MySQL SQL Server PostgreSQL SQL Vue,https://jobs.51job.com/kunshan/173046390.html?s=sou_sou_soulb&t=0_0&req=76f978ef4b0b584bc22fa636c9594780
+RPA工程师,贸联电子（昆山）,1.2-1.6万,昆山,苏州,本科,1年及以上,2026-06-29 16:43:47,job51,"岗位职责：
+1.流程分析与架构规划：主导业务流程评估与可行性分析，设计自动化工作流，确保技术解决方案高度契合企业战略目标；
+2.端到端开发与生命周期管理：负责 RPA 解决方案的系统架构设计、技术文档
+撰写、代码编写及持续迭代优化；
+3.系统稳定性与运维管理：主动监控系统运行表现，快速响应并解决异常故障，确保自动化平台的高可用性与稳定性；
+3.技术创新与数字化转型：调研并引入前沿技术（如 AI Agent），以技术创新赋能企业数字化转型；
+
+任职资格：
+1.本科及以上学历，具备 1 年及以上相关工作经验；
+2.具备扎实的编程语言基础（如 Python、VBA 等）；
+
+加分项：
+1.具备 RPA 或 AI Agent 实际项目开发经验者优先；
+2.精通 Python、VBA 等编程语言；
+3.拥有数字化转型、流程再造（Process Optimization）等项目的成功落地实践经验；",高可用 AI Agent Python 技术文档 RPA AI Agent VBA,https://jobs.51job.com/kunshan/172381428.html?s=sou_sou_soulb&t=0_0&req=76f978ef4b0b584bc22fa636c9594780
+OA工程师,苏州维信电子,8-9千·14薪,苏州·吴中区,苏州,本科,2年及以上,2026-07-21 10:35:38,job51,"岗位职责：
+1、负责现有BPM/契约锁/ERP等系统的开发和问题处理，包括业务模块拓展、报表定制、流程开发；
+2、独立在 BPM 后台建模流程、设计表单、维护组织架构、岗位权限、数据字典；处理用户权限开通、离职回收、流程代理等。
+3、主导或参与跨系统接口开发与集成工作，实现BPM与ERP、MES、SRM、PLM等系统的数据互通与联动，保障数据传输的准确性和及时性。
+4、负责软件更改说明、功能特性说明等文档编写工作；
+5、把控项目进度、风险、范围变更；编写实施手册、运维文档、验收文档，完成客户验收签字，满足财务、供应链、HR、生产等部门的业务需求；
+6、日常巡检系统运行状态，处理流程报错、接口同步失败、数据上传异常；定期清理冗余数据。
+能力要求：
+1、本科以上学历；
+2、软件工程/计算机应用/信息管理或其他相关专业 ；
+3、熟练掌握Java(优先考虑)、Android(优先考虑)；掌握MySQL、SQL Server、Oracle 基础 SQL，能编写查询、简单存储过程，排查数据异常；;
+4、掌握HTML、JavaScript、JS 表单校验、数据联动，能写业务脚本；Vue/JQuery 基础了解更佳；
+5、Windows 服务器基础操作，了解 Linux 基础命令，系统部署、日志查看、故障排查；
+6、基于泛微 E9/E10、AWS、Flowable 流程引擎做定制开发：复杂业务插件、自定义组件、复杂接口、报表开发、流程扩展逻辑。
+7、有制造业IT相关工作经验优先；
+8、具有良好的理解、沟通、项目管理、需求分析、系统分析设计的能力及文档编写能力；
+9、有责任感，诚信正直、积极主动、工作细致、有耐心，愿意上进，乐于学习，遵守公司相关工作制度，能适应弹性加班。",Java MySQL SQL Server Oracle SQL JavaScript Vue jQuery Linux AWS 文档编写 供应链 故障排查 项目管理 需求分析,https://jobs.51job.com/suzhou-wzq/172981317.html?s=sou_sou_soulb&t=0_0&req=76f978ef4b0b584bc22fa636c9594780
+国昇数智数据工程部主管,苏州高新区国有资本控股集团,23-32万/年,苏州·高新区,苏州,本科,5年及以上,2026-06-11 09:15:45,job51,"35周岁及以下，本科及以上学历，机器人与智能系统、计算机科学与技术、大数据、人工智能、软件工程，基础理学类等具身智能相关专业毕业。
+应聘人员需具备5年以上数据管理、数据治理或数据资产化相关领域工作经验，其中至少2年聚焦具身智能、机器人或AI行业的数据体系搭建与管理实践；熟悉数据全生命周期管理，具备数据治理框架设计、数据标准制定、数据质量评估等能力；对数据资产化路径有实际参与或深入研究经验者优先；良好的跨部门沟通协调能力，能推动业务与技术部门协同构建数据管理体系。
+具体薪资面议",数据治理,https://jobs.51job.com/suzhou-gxq/172507363.html?s=sou_sou_soulb&t=0_0&req=76f978ef4b0b584bc22fa636c9594780
+数字化部署工程师,苏州易库自动化设备,7-9千,苏州·苏州工业园区,苏州,本科,1年,2026-08-04 15:26:23,job51,"-熟悉C语言，Java，JavaScript, C#, Python至少一种；
+
+-熟悉常见数据库，MSSQL，PostgreSQL；
+
+-熟悉Linux系统优先；
+
+-有MES部署经验的优先；
+
+-了解西门子，倍福，力士乐PLC中的一种尤佳；
+
+-学习意愿及能力强，具有较强的团队意识。",C语言 Java JavaScript C# Python SQL PostgreSQL Linux,https://jobs.51job.com/suzhou-gyyq/140816788.html?s=sou_sou_soulb&t=0_0&req=76f978ef4b0b584bc22fa636c9594780
+软件工程师(OA方向),苏州锐杰微科技集团,8千-1.2万·14薪,苏州·高新区,苏州,大专,2年及以上,2026-08-04 11:47:24,job51,"主要工作职责（内容）： 
+1、负责泛微 OA 运维、功能定制与二次开发，搭建项目管理与业务追溯链路，满足企业内控审计、生产流程溯源管理要求，持续优化业务审批流程；
+2、开发与优化OA与ERP/MES/RMS等系统的集成接口，实现数据对接与同步；
+3、搜集和对接各部门对OA相关功能的需求，提供解决方案，进行开发、调试、培训用户与验收；
+4、主动学习与引进新技术、新功能，提高用户工作效率；
+5、领导交办的其他工作；
+任职要求：
+1、大专以上学历，计算机、软件工程、信息工程相关专业；
+2、熟悉泛微OA系统，熟练掌握JSP、JAVA、C、Python等主流开发语言，具备系统运维和开发能力；
+3、具备OA门户搭建，项目管理/质量体系相关流程功能搭建经验优先；
+4、具备2年以上半导体行业相关经验优先；
+5、乐于学习，具备AI相关经验或者落地场景优先；",Java Python 项目管理 审计 培训 系统运维,https://jobs.51job.com/suzhou-gxq/173142682.html?s=sou_sou_soulb&t=0_0&req=76f978ef4b0b584bc22fa636c9594780
+IT软件工程师,苏州市艺达精工,8千-1万·13薪,苏州·相城区,苏州,大专,2年及以上,2026-07-04 15:55:13,job51,"1.负责公司现有SAP Business One、PLM等系统的日常运维、优化及问题排查，确保系统稳定运行;
+2.负责SQL数据库的管理和维护，包括数据查询、备份、优化、性能调优等;
+3.进行简单的软件开发和二次开发工作，如编写脚本、开发接口、报表定制等;
+4.负责与业务部门沟通需求，提供系统支持和培训，优化业务流程，提高信息化水平;
+5.编写和维护系统运维文档，建立知识库，提高运维效率。
+6.负责系统涉及到的各操作岗位的员工入职培训
+熟悉SQL数据库(如SQL Server、MySQL等)，能编写SQL查询、存储过程，并进行数据库优化;具备基本的代码开发能力，熟悉C#、Python、JavaScript等至少一种开发语言;
+了解ERP、MES、PLM等企业管理软件的基本原理，有SAPB1、U8等ERP系统运维经验者优先:
+学历/Education background:专业/Speciality:
+工作经验/Working experience:
+2年以上企业信息系统维护相关工作经验，有制造行业经验者优先",SQL SQL Server MySQL C# Python JavaScript 培训 系统运维 知识库,https://jobs.51job.com/suzhou-xcq/162546198.html?s=sou_sou_soulb&t=0_0&req=76f978ef4b0b584bc22fa636c9594780
+Senior Analyst Application Delivery (Data & AI),康美包（苏州）,20-30万/年,苏州·姑苏区,苏州,本科,3年及以上,2026-06-24 09:54:13,job51,"•	Application Delivery (Incident Management): Monitor data pipelines and tune report performance, resolving complex query bottlenecks. Implement DataOps and quality frameworks to ensure reliable data delivery and quickly handle system anomalies; Have the ability to independently handle user cases.
+用支持（事件管理）：负责日常数据管道监控与报表性能调优，解决复杂查询瓶颈及前端渲染挑战。落地DataOps实践与数据质量框架，保障日常数据交付的可靠性与可重复性，快速响应并处理系统异常;有独立处理用户案例的能力。
+•	Changes &amp; Optimization (Change/Release Management): Continuously optimize ETL performance and control compute costs. Develop executive KPI dashboards, enhancing business value through refined partitioning strategies and incremental loading logic
+变更与优化（变更/发布管理）：持续优化ETL性能并合理控制计算成本，保障底层数据架构的高效运转。开发面向高管决策的KPI看板与数据故事，通过精细化的分区策略与增量加载逻辑，全面提升数据呈现的业务价值。
+•	Project Management: Drive BI-to-data-lake migration by shaping implementation roadmaps. Build high-throughput data pipelines and design semantic layers to support self-service analytics, ensuring steady project progression.
+项目管理：深度参与BI向数据湖迁移，协助制定阶段性实施路线图。主导构建高吞吐低延迟的数据管道，设计语义层与指标中台核心模块，有效支撑业务团队的自助分析需求，确保整体工程稳步推进。
+•	Support to lead complex ML projects and feature store engineering as a tech core. Build MLOps pipelines and introduce AutoML, support Manager to guide the team in model deployment, testing, and tracking business outcomes.
+支持主导高复杂度ML项目及自动化特征存储的工程化设计。参与核心数据架构实现，搭建MLOps流水线，引入AutoML等前沿技术，支持团队负责人指导团队完成模型部署、测试与业务效果追踪。
+
+1. Bachelor's degree or above in computer science, data science, statistics, mathematics, engineering or related fields.
+2. Master SQL optimization and Python for data analysis and ML modeling.
+3. Understand data lake architectures and lead large-scale platform migrations.
+4. Execute full ML lifecycles, MLOps, DataOps, and CI/CD engineering practices",Gin SQL Python CI/CD 项目管理 Application Delivery Incident,https://jobs.51job.com/suzhou-gsq/172664175.html?s=sou_sou_soulb&t=0_0&req=76f978ef4b0b584bc22fa636c9594780
+ERP软件开发工程师,柳道万和（苏州）热流道系统,10-19万/年,苏州,苏州,本科,1-3年,2026-08-05 16:02:40,job51,"【工作内容】
+- 参与ERP系统的设计、开发、测试和维护工作；
+- 根据业务需求，编写高质量的代码，保证系统的稳定性和性能；
+【任职要求】
+- 本科及以上学历，具有全国排名前10的重点名校毕业背景者优先考虑。
+- 熟练掌握（VS Studio、C#等）编程语言；
+- 具备良好的逻辑思维能力和问题解决能力，
+-熟悉数据库设计（如存储过程、触发器和视图等）和常规的SQL语句，熟悉关系型数据库 (如 MS SQL)
+- 具有良好的沟通能力和团队协作精神
+- 服从领导安排的其他工作
+- 对ERP,MES系统有深入了解者优先考虑；
+
+备注：特别优秀薪资可谈",C# SQL VS Studio MS,https://jobs.51job.com/suzhou/158232609.html?s=sou_sou_soulb&t=0_0&req=76f978ef4b0b584bc22fa636c9594780
+Specialist Application Delivery (Data & AI),康美包（苏州）,20-30万/年,苏州·姑苏区,苏州,本科,3年及以上,2026-06-24 09:40:19,job51,"•	Application Delivery (Incident Management): Monitor data pipelines and tune report performance, resolving complex query bottlenecks. Implement DataOps and quality frameworks to ensure reliable data delivery and quickly handle system anomalies; Have the ability to independently handle user cases.
+用支持（事件管理）：负责日常数据管道监控与报表性能调优，解决复杂查询瓶颈及前端渲染挑战。落地DataOps实践与数据质量框架，保障日常数据交付的可靠性与可重复性，快速响应并处理系统异常;有独立处理用户案例的能力。
+•	Changes &amp; Optimization (Change/Release Management): Continuously optimize ETL performance and control compute costs. Develop executive KPI dashboards, enhancing business value through refined partitioning strategies and incremental loading logic
+变更与优化（变更/发布管理）：持续优化ETL性能并合理控制计算成本，保障底层数据架构的高效运转。开发面向高管决策的KPI看板与数据故事，通过精细化的分区策略与增量加载逻辑，全面提升数据呈现的业务价值。
+•	Project Management: Drive BI-to-data-lake migration by shaping implementation roadmaps. Build high-throughput data pipelines and design semantic layers to support self-service analytics, ensuring steady project progression.
+项目管理：深度参与BI向数据湖迁移，协助制定阶段性实施路线图。主导构建高吞吐低延迟的数据管道，设计语义层与指标中台核心模块，有效支撑业务团队的自助分析需求，确保整体工程稳步推进。
+•	Support to lead complex ML projects and feature store engineering as a tech core. Build MLOps pipelines and introduce AutoML, support Manager to guide the team in model deployment, testing, and tracking business outcomes.
+支持主导高复杂度ML项目及自动化特征存储的工程化设计。参与核心数据架构实现，搭建MLOps流水线，引入AutoML等前沿技术，支持团队负责人指导团队完成模型部署、测试与业务效果追踪。",Gin 项目管理 Application Delivery Incident Monitor Implement DataOps,https://jobs.51job.com/suzhou-gsq/172663692.html?s=sou_sou_soulb&t=0_0&req=76f978ef4b0b584bc22fa636c9594780
+数据分析工程师,江苏西格数据科技,8千-1万,苏州·苏州工业园区,苏州,大专,2年及以上,2026-07-30 17:55:45,job51,"岗位职责：
+1、边缘计算部产品功能迭代、新功能验证、历史功能优化；
+2、协助处理现场问题；
+3、支持POC的实施工作；
+4、参与部门软件产品知识体系的构建；
+
+任职资格：
+1、计算机科学、软件工程、数控技术、统计分析、数据分析相关专业，2年及以上相关的工作经验，优秀应届毕业生也可以，要懂电气，或者统计分析、数学、算法相关背景的，然后做过软件行业相关工作的也行；
+2、具备积极主动的沟通意识，较强的学习能力；",数据分析,https://jobs.51job.com/suzhou-gyyq/173104097.html?s=sou_sou_soulb&t=0_0&req=76f978ef4b0b584bc22fa636c9594780
+主数据主管,苏州易开迪新能源技术,1-1.5万·13薪,常熟,苏州,大专,3年及以上,2026-07-16 13:25:54,job51,"岗位职责：
+1.按照公司制定的编码规则，完成公司各类主数据的编码；
+2.按照编码对系统主数据进行规划、清理与录入相关录入（ERP）；
+3.配件编码相关文件的整理归档，项目过程文件资料的编制，及时为业务系统提供支持；
+4.对公司内业务相关人员进行数据梳理流程指导、培训和考核；
+5.其他相关事项；
+任职要求：
+1.统招大专及以上学历，计算机相关专业；
+2.熟悉数据管理流程，具备一定的规划、分析能力；
+3.有过企业ERP(Info、SAP）实施、维护、培训相关实践经验优先；
+4.有良好的学习及解决问题能力；
+5.有一定的书面英语基础，",培训 ERP Info SAP,https://jobs.51job.com/changshu/169373521.html?s=sou_sou_soulb&t=0_0&req=76f978ef4b0b584bc22fa636c9594780
+数据管理工程师-供应链,杭州凡略科技,1.5-2万,苏州·吴中区,苏州,本科,3年及以上,2026-07-10 16:54:56,job51,"工作职责
+1. 采购数据架构与标准制定：负责采购领域数据架构规划，主导制定采购数据标准、数据模型、数据分布，适配多源异构系统数据接入，满足采购分析、指标建设与入湖需求。
+2. 采购数据质量治理：负责采购领域数据质量评估，与业务部门共同制定数据质量提升方案，制定并落地数据质量校验规则，推动方案执行并确认结果，确保采购核心数据的准确性、一致性与时效性。
+3. 数据支持与入湖保障：为采购数据入湖、指标体系建设及数据分析提供数据支持，梳理数据映射与采集链路，保障数据高效、可用。
+4. 业务痛点闭环：收集采购业务中的数据痛点，将业务需求转化为可落地的数据解决方案，协同业务与技术团队推动闭环解决。
+5. 交付物输出：输出采购数据标准规范、数据模型设计文档、数据质量报告与方案等交付物，配合项目管理要求完成阶段性评审与验收。
+任职资格
+1. 必备知识
+- 精通数据治理核心理论，熟悉数据标准、数据模型、数据质量、元数据管理、维度建模等基础方法论。
+- 熟悉电子制造业采购业务流程，涵盖供应商管理、采购需求、订单、合同、到货、入库、对账与付款等核心领域。
+- 理解采购相关核心系统（如SRM、ERP等）的业务逻辑与数据结构，掌握跨系统数据拉通与映射方法。
+- 了解数据湖、数据仓库分层架构，熟悉指标体系建设的基本思路，掌握数据异常识别与根因分析的基本方法。
+- 熟悉SQL语句指令，能够进行中等复杂程度的数据查询、探查与质量校验脚本编写。
+2.必备经验
+- 本科及以上学历，计算机、信息工程、信息管理等相关专业，英语4级。
+- 具备3年以上电子制造业（工控领域更佳）从业经验，熟悉电子制造业采购领域业务流程。
+- 具备1年以上数据管理或数据治理从业经验，主导或深度参与过至少1个采购领域数据治理项目的方案设计与落地实施。
+- 有外包项目交付、跨团队协作经验者优先，可快速适配项目节奏。",SQL 采购 数据分析 项目管理 数据治理 方案设计,https://jobs.51job.com/suzhou-wzq/172856218.html?s=sou_sou_soulb&t=0_0&req=76f978ef4b0b584bc22fa636c9594780
+AI自研软件工程师,苏州工业园区瑞塑整合包装,1.3-1.5万,苏州·苏州工业园区,苏州,大专,1年及以上,2026-08-05 17:25:38,job51,"1.&nbsp;结合公司制造业生产、仓储、品质、设备、办公管理真实场景，独立使用AI辅助自研开发公司专属内部软件/系统，不依赖外购成品系统。
+
+2.&nbsp;负责需求梳理、系统架构设计、功能开发、测试上线与后期迭代，包含生产管理、工单、库存、报表、数据分析、流程审批等企业自研系统。
+
+3.&nbsp;利用AI能力赋能软件开发，实现智能统计、自动报表、数据预警、流程提效、内容智能处理等智能化功能，提升工厂数字化效率。
+
+4.&nbsp;负责系统日常运维、数据维护、BUG修复、版本更新，输出操作手册和技术文档，保障系统稳定运行。
+
+5.&nbsp;结合生产业务痛点持续优化系统功能，推进公司内部数字化、智能化落地。
+ 
+任职要求
+ 
+1.&nbsp;熟悉全流程软件开发，能够独立完成企业软件自研开发，熟练运用AI工具/AI模型辅助编程与功能开发。
+
+2.&nbsp;了解制造业工厂业务（生产、物料、品质、设备、办公流程），能落地贴合工厂实际使用的系统。
+
+3.&nbsp;具备独立思考、需求拆解、问题排查能力，能自主推进项目落地。
+
+4.&nbsp;有AI自研系统、企业管理系统、制造业数字化软件开发经验者优先。",数据分析 技术文档 nbsp,https://jobs.51job.com/suzhou-gyyq/173165889.html?s=sou_sou_soulb&t=0_0&req=76f978ef4b0b584bc22fa636c9594780
+AI应用工程师,思码睿猎人才咨询（上海）,1.8-2万·14薪,苏州,苏州,本科,3年及以上,2026-07-06 11:26:29,job51,"岗位职责：
+研究市场主流AI工具（如飞书、OpenCLAW、Agent等），评估其在公司业务中的适用性。
+负责AI工具的POC（概念验证）测试，输出可行性报告及落地建议。
+推动AI工具的引入、部署及集成，确保与现有系统的兼容性。
+为业务部门提供技术支持，解决AI工具使用中的技术问题。
+跟踪AI技术发展，持续优化公司AI应用生态
+
+任职资格：
+本科及以上学历，计算机、数据科学、统计学等相关专业，3年以上数据治理或数据开发经验。
+精通SQL，熟悉Python/Java/Golang至少一种编程语言。
+熟悉Oracle、MySQL、PostgreSQL等数据库的权限管理、数据备份等，熟悉SQL语句的优化。
+熟悉数据仓库方法论、理解维度建模，熟悉多项大数据治理/分析相关的工具/框架，如Hadoop、Spark、Flink、Kafka等。
+有主流数据治理平台（如Apache Atlas、Datahub）使用或开发经验。
+熟悉数据仓库/数据湖架构，熟悉Hive、Iceberg、Hudi等技术。
+了解常见的机器学习/深度学习算法，如线性回归、决策树、随机森林、CNN、RNN等。
+对AI技术充满热情，有制造业数据治理经验者优先，熟悉光模块行业数据特点者更佳",Agent SQL Python Java Golang Oracle MySQL PostgreSQL Hadoop Spark Flink Kafka Hive 机器学习 深度学习 技术支持 数据治理,https://jobs.51job.com/suzhou/172803083.html?s=sou_sou_soulb&t=0_0&req=76f978ef4b0b584bc22fa636c9594780
+IT开发工程师（HR绩效考核方向）,苏州维信电子,9千-1.4万·14薪,苏州·吴中区,苏州,本科,3年及以上,2026-06-30 13:27:50,job51,"岗位职责
+1. 负责绩效考核系统，推动系统实施、上线及运维，包括需求收集、用户权限管理、流程配置、数据备份及故障排查；
+2. 熟悉HR模块（绩效模块精通），具备需求分析与系统落地能力；
+3. 兼具技术实现与业务理解，能推动HR数字化转型；
+4.. 主导系统升级/UAT测试，编写用户操作手册并组织培训；
+5. 根据业务需求，开发各类绩效考核报表。"" 
+
+ 
+能力要求
+ 1.本科及以上学历，计算机、信息技术、软件工程相关专业优先； 
+2. 至少三年以上的绩效考核经验，精通绩效考核业务逻辑； 
+3. 懂Java/Python/JavaScript等开发语言，熟悉一种前端开发框架如Vue等； 
+4. 了解HR系统集成（如与OA、钉钉对接）； 
+5. 掌握HR数据分析工具（如Power BI、Oracle存储过程）； 
+6. 具备良好的沟通能力，表达能力和团队协作精神，能够快速融入团队； 
+7. 工作认真负责，注重细节，有良好的服务意识。",Java Python JavaScript Vue Oracle 故障排查 需求分析 培训 数据分析,https://jobs.51job.com/suzhou-wzq/172738752.html?s=sou_sou_soulb&t=0_0&req=76f978ef4b0b584bc22fa636c9594780
+供应链系统运维,上海美农生物科技,6千-1万,苏州,苏州,本科,3年及以上,2026-07-18 11:42:57,job51,"核心责任
+1.维护供应链信息系统服务器与客户端的正常运行，确保系统高可用。
+2.维护系统操作文档、系统操作规范、常见问题，并培训用户，确保用户熟练掌握系统使用方法，按规范要求及时、准确操作信息系统。
+3.及时发现并解决用户在系统使用中的问题。
+积极发掘系统使用中可优化的流程和功能，提出优化建议，不断提升系统应用水平。
+主要工作内容：
+1、参与供应链系统建设项目，熟悉业务与流程，掌握系统操作，协同业务部门形成系统操作规范、系统操作手册、常见问题等文档；并根据业务与系统发展不断迭代更新系统文档。
+2、持续对用户进行操作培训，并考试合格。确保用户熟练掌握系统使用方法，按规范要求及时、准确操作信息系统。
+3、接收或发现用户使用系统中的问题，记录、分析、跟踪问题，协同内外部伙伴解决问题。
+4、发掘系统使用中可优化的流程和功能，提出优化建议，不断提升系统应用水平。
+5、根据业务需求，修改系统配置/模板/参数/数据/用户/权限/等信息，导入导出数据等
+工作经验：
+3年以上IT基础设施运维经验
+熟悉主流网络设备、桌面等系统安装、设置、维护、问题处理
+专业知识
+(1)熟悉信息系统常用操作模式
+(2)熟悉WORD、EXCEL常用操作
+(3)熟练使用SQL语句，可以批量操作数据
+熟练使用报表工具制作报表
+能力要求
+(1)学习能力：主动学习；应用实践；沉淀分享与提升；
+(2)分析判断：识别问题；系统思考；判断决策；
+(3)沟通影响：主动沟通；同理心；影响说服；
+(4)服务能力：满足需求；快速响应；主动服务意识；
+研究与创新：实践应用；主动研究；严谨专注；",高可用 SQL 供应链 培训,https://jobs.51job.com/suzhou/170856008.html?s=sou_sou_soulb&t=0_0&req=76f978ef4b0b584bc22fa636c9594780
+系统分析师,创迈精密金属成型（苏州）,1-2万·14薪,苏州·高新区,苏州,本科,1-5年,2026-06-11 15:48:20,job51,"【岗位职责】
+1.	业务流程分析与需求转化：深入生产、质量、供应链、工程等部门，观察记录实际工作方式，识别流程与系统能力之间的差距，将运营需求转化为结构化系统需求，区分配置变更与开发需求；
+2.	运营可见性与系统报表开发：设计并维护报表和仪表板，确保生产、质量、库存、运营绩效等数据的准确及时可见性，确保各部门及分厂之间的指标一致性，验证报表数据，识别并解决数据差异，推行结构化的、系统原生的报表，减少手工报表；
+3.	系统支持与协作：担任工厂与IT系统的***联系点，具备制造知识并能质疑不清晰的需求，与生产、质量、供应链团队协作澄清数据问题，形成闭环反馈；
+4.	数据完整性与治理：维护指标定义和数据标准，记录报表逻辑、数据源、字段定义和系统配置，上报数据质量问题，支持系统更新期间的数据迁移验证；
+5.	持续改进：主动识别系统可替代手工跟踪、纸质表单、白板工作流的机会，提出并支持自动化的定期数据拉取、报表分发和运营通知，整合冗余报表，编写系统逻辑说明、报表定义文档、流程配置手册，确保知识可沉淀、可传承。
+【任职要求】
+1.	信息技术、信息系统、工业工程、制造系统等相关专业本科及以上学历（或同等实践经验）；
+2.	1-5年系统分析、报表、数据或制造支持相关经验；
+3.	必须具有制造或工厂运营环境的直接经验；
+4.	具有MES系统或制造运营平台（基于浏览器），ERP系统（SQL Server）、关系数据库（PostgreSQL、SQL）及结构化数据的工作经验；
+5.	能够从数据问题追溯到系统数据表，并给出验证答案；
+6.	具备业务流程理解与需求转化能力，能独立完成报表和配置文档；
+7.	英语可作为工作语言，具备良好的跨部门沟通能力；
+8.	熟悉JavaScript、API或基于Web的工具优先。
+
+【福利待遇】
+1，美资企业，福利优厚健全，氛围宽松；
+2，全薪缴纳五险一金，住房公积金按照比例24%（个人12%，公司12%）缴纳，另外公司额外缴纳15%的补充住房公积金。
+3，公司提供带薪年假，病假，年终奖，交通补贴，员工旅游，健康体检，家庭日，工会活动，年节福利，生日礼金，生病慰问金，***礼金，子女医疗补贴，连续服务奖等多种丰厚的员工福利。",SQL Server PostgreSQL SQL JavaScript 供应链 Server,https://jobs.51job.com/suzhou-gxq/172518503.html?s=sou_sou_soulb&t=0_0&req=76f978ef4b0b584bc22fa636c9594780
+科技数据部数据分析师,中国平安财产保险股份有限公司苏州,14-20万/年,苏州,苏州,本科,1年及以上,2026-07-13 10:36:24,job51,"岗位职责：
+1. 对接公司各中心真实业务需求，依托平安内部数据平台及AI工具，开展智能体开发、迭代与落地应用，赋能业务智能化升级。
+2. 承接数据中心日常工作，协助开展部门日常管理、项目跟进及事务统筹。
+3.负责日常数据安全管控、合规管理与风险自查，保障数据资产规范安全使用。
+4.跟进部门考核指标，做好日常复盘优化，保障各项工作高效闭环落地。
+任职要求
+1.本科及以上学历，计算机、软件工程、自动化、通信、人工智能等相关专业。
+2. 熟练掌握 Python开发，具备智能体开发经验，了解Codex、Claude Code 等coding工具优先。
+3.具备良好的需求理解、沟通协调与问题解决能力。
+4. 工作踏实负责，学习能力强，有较强责任心和执行力。",Python 合规 Claude Code,https://jobs.51job.com/suzhou/172882911.html?s=sou_sou_soulb&t=0_0&req=76f978ef4b0b584bc22fa636c9594780
+数据分析师,巴马格（苏州）科技,1.2-1.6万,苏州,苏州,本科,3-8年,2026-06-25 08:29:21,job51,"【岗位职责】
+1、负责复杂业务数据的分析、解读与可视化呈现，输出专业数据分析成果，为公司战略规划、日常运营决策提供核心数据支撑。
+2、对接财务、销售、运营、IT等各业务部门相关负责人，深度挖掘业务需求，将业务问题转化为可落地的数据分析需求与技术开发需求。
+3、熟练运用Power BI等BI工具，独立完成数据看板、业务报表、分析模型的设计、开发与迭代维护工作，保障数据展示高效、直观。
+4、针对全业务流程开展深度专项分析，精准挖掘业务发展趋势、潜在风险、增长机会及问题根本原因，输出针对性分析结论与优化建议。
+5、制定数据校验规则，联动数据负责人推进数据治理工作，持续保障企业数据的准确性、一致性与可靠性。
+6、依据企业统一规范与标准，搭建并优化数据模型、核心KPI指标及业务度量体系，统一公司数据统计口径。
+7、赋能各类数据驱动型项目落地，支撑绩效管理、业务预测、用户洞察、运营效率提升等核心业务工作。
+8、指导初级数据分析师及业务端自主数据分析人员开展工作，推广数据分析、数据可视化、数据故事输出的标准化最优工作方法。
+9、隶属于数据平台团队，负责本地业务的数据支撑、数据治理、跨部门沟通及需求梳理工作，夯实团队本地化服务能力；长期参与对接国际化业务需求，助力团队全球化布局。
+
+【任职要求】
+1、本科及以上学历，数据分析、计算机科学、统计学、工程学等相关专业优先。
+2、具备优秀的数据分析与问题解决能力，可独立负责复杂业务场景的数据分析工作，高效推进问题落地解决。
+3、具备扎实的业务需求转化能力，可精准将业务诉求转化为技术需求、数据产品方案，同时依托数据成果反哺业务优化。
+4、熟练掌握数据建模原理、主流数据分析方法，深刻理解各类业务核心KPI指标体系及业务逻辑。
+5、精通SQL数据查询与处理，熟练使用Power BI、Tableau、帆软等主流BI报表工具，具备成熟的可视化报表开发经验。
+6、精通Excel高阶数据处理功能，掌握Python、R数据分析工具者优先。
+7、具备优秀的数据分析成果输出与沟通能力，可面向技术、非技术等不同受众，清晰、精准地传递数据洞察与分析结论。
+8、熟练掌握英语，具备优秀的中英文书面及口语沟通能力，可适配职业化、跨文化的工作沟通场景",SQL Python 数据分析 数据治理 BI Tableau,https://jobs.51job.com/suzhou/172679776.html?s=sou_sou_soulb&t=0_0&req=76f978ef4b0b584bc22fa636c9594780
+oa系统运维工程师,适新科技（苏州）,8千-1.1万,苏州·吴中区,苏州,大专,3-5年,2026-08-04 20:53:40,job51,"招聘要求：
+1. 负责泛微 OA 平台（E9）的日常运行维护、巡检监控，保障系统稳定运行；处理员工账号开通/注销、组织架构调整、权限配置、流程代办异常等日常运维工单。
+2.根据业务部门需求，独立完成流程表单设计、节点路由配置、审批规则调整及流程上线测试；参与现有流程优化，提升审批效率与业务适配度。
+3.负责 OA 与 HR 系统、ERP、企业微信、电子签章等第三方系统的对接维护及异常排查
+4.受理员工 OA 使用咨询，跟踪问题直至闭环；编写系统操作手册，定期组织功能培训。
+5.具备基本的JS 和 接口开发能力。
+
+任职要求：
+1. 大专及以上学历，计算机相关专业优先；
+2.3 年以上企业 泛微 OA（E9） 系统运维经验。
+3.熟悉 SQL Server ，能编写常用查询语句；
+4. 熟悉javascript语言。
+5. 沟通表达清晰，能准确理解业务部门需求并转化为系统配置方案；
+ 责任心强，具备主动跟进问题闭环的服务意识；
+ 具备系统交接与文档归档意识。",SQL Server JavaScript 流程优化 培训 系统运维 OA E9 HR,https://jobs.51job.com/suzhou-wzq/173152478.html?s=sou_sou_soulb&t=0_0&req=e6445c3f196620bd36185b6f9816a4ca
+OA运维工程师-顺景智能,前锦网络信息技术（上海）,12-13万/年,苏州,苏州,本科,1年及以上,2026-08-03 17:51:04,job51,"岗位职责
+1、负责集团总部蓝凌OA系统日常运维工作，及时处理系统故障、流程异常、用户使用问题，保障系统稳定运行；
+2、根据各部门业务需求，依托蓝凌低代码平台、公式器独立完成OA新流程、新表单的搭建、优化、迭代及上线测试工作；
+3、配合ERP工程师完成OA与ERP系统的数据对接、流程联动、联调测试及问题排查，保障跨系统数据同步正常；
+4、协助IT经理运维其它公司业务系统、资产管理及其他信息化系统的日常巡检、运维保障、台账记录及相关交办的其他信息化工作；
+5、负责OA系统权限配置、流程优化、用户答疑及基础操作培训，沉淀运维文档。
+任职要求
+1、熟悉主流OA系统架构与运维逻辑，拥有蓝凌、泛微、致远等主流OA平台运维经验，熟练运用OA低代码配置、公式规则配置功能，可独立完成表单设计、流程搭建、字段联动、数据校验、条件规则配置等日常系统配置工作，无需代码开发能力；
+2、具备扎实的SQL实操能力，可独立完成数据查询、数据校验、数据修正、异常数据排查、数据统计等操作，支撑系统运维及跨系统对接的数据处理需求；
+3、熟悉OA与ERP系统集成逻辑及数据交互规则，具备跨系统联调、问题排查协作能力；
+4、熟悉蓝凌OA权限体系、菜单管理、流程管控、日志查询等基础运维工作，能够快速定位并解决系统各类日常故障；
+5、具备良好的业务理解能力、沟通能力及问题闭环能力，工作细致负责，执行力强，能高效完成系统运维及临时交办工作；
+6、有集团型企业蓝凌OA独立运维、流程搭建、ERP集成配合经验者优先。""
+
+
+
+公司介绍：
+丹阳顺景智能科技股份有限公司苏州分公司位于苏州市高新区向阳路54号5幢2层，注册资本为，成立于2024-07-10，目前公司的主要经营范围是一般项目：承接总公司工程建设业务",SQL 流程优化 培训 系统运维,https://jobs.51job.com/suzhou/172709270.html?s=sou_sou_soulb&t=0_0&req=e6445c3f196620bd36185b6f9816a4ca
+数据分析师,急速国际物流科技（深圳）,9千-1.4万,苏州·姑苏区,苏州,本科,2年及以上,2026-08-06 09:09:42,job51,"岗位职责:
+1.负责跨境电商物流领域的数据分析工作，包括
+数据采集、清洗、处理、分析及报告编写2.根据业务需求，进行算法的优化。
+3.与各部门紧密合作，提供数据支持与决策建
+议，帮助提升业务运营效率。
+4.完成其他上级交办的任务，
+任职要求:
+工作经验者优先
+1.本科及以上学历，理工科专业优先，具有两年
+及以上工作经验，电商、物流、供应链等领域的
+2.中英文阅读，能够快速阅读、理解英文文献，
+CET-4及以上:
+数据分析工作，具备编程能力者优先;
+3.精通Excel，熟悉SQL、Python，能够独立完成
+式，能够清晰表达分析结果;
+4.沟通能力较好，逻辑思维清晰，结构化思维方
+5.学习能力强，乐于接受新鲜事物
+大小周，入职缴纳社保",SQL Python 数据分析 数据采集 供应链 CET-,https://jobs.51job.com/suzhou-gsq/173169016.html?s=sou_sou_soulb&t=0_0&req=e6445c3f196620bd36185b6f9816a4ca
+IT 数字化专员,苏州徕卡节能电气技术,8千-1.3万,苏州,苏州,大专,1年及以上,2026-06-24 15:54:01,job51,"岗位职责：
+1、全权负责公司飞书后台搭建、流程配置、多维表格自动化，实现周报协助事项自动分派、任务跟踪；
+2、落地简道云代码平台，搭建业务表单、数据看板，打通飞书消息联动；
+3、梳理各部门数字化需求，输出分阶段落地计划，组织培训、沉淀操作文档；
+4、每周落地追踪，主动优化协同流程，解决全员系统使用问题；
+5、基础办公 IT 设备运维支持；
+6、上级主管交办的其他工作；
+
+任职要求：
+1、大专以上学历，1 年以上独立飞书管理员实操经验，精通多维表格、自动化、审批流搭建；
+2、做过「业务周报协同事项自动分配负责人」同类自动化场景优先；
+3、有简道云搭建经验，或快速学习能力强，具备系统化落地思维；
+4、优秀的跨部门沟通能力，能听懂业务需求并转化为数字化方案，可独立组织员工培训，解答解决各岗位系统使用问题；
+5、主动推进、逻辑清晰，能输出阶段性落地方案，沟通对接各部门。",培训 IT,https://jobs.51job.com/suzhou/172674364.html?s=sou_sou_soulb&t=0_0&req=e6445c3f196620bd36185b6f9816a4ca
+数据科学家,益进信息服务（苏州）,3-4.5万,苏州·苏州工业园区,苏州,本科,5年及以上,2026-07-23 13:45:56,job51,"主要工作内容
+1、通过特征工程、调参与效果评估，优化现有的有监督欺诈检测模型（以 XGBoost 为主）
+2、设计并实现无监督、半监督异常检测模型（例如 ECOD、孤立森林、基于聚类的算法）
+3、研究集成方案，融合异常信号、有监督模型评分以及业务规则
+4、分析出险报案（FNOL）及理赔全链路数据中的欺诈模式
+5、针对新兴欺诈类型搭建新型模型（时序异常、行为突变、结构性矛盾等场景）
+6、评估欺诈评分的偏差、稳定性与置信度，支持判定阈值校准
+7、和工程团队协作，在 AWS 与 Snowflake 环境中将模型投产上线
+8、提供面向客户的数据分析与结果解读，必要时参与日语沟通研讨
+9、清晰记录研究结论、前提假设与方案取舍，同时适配技术人员与非技术人员阅读
+
+任职必备条件
+1、5 年以上数据科学或应用机器学习实操经验，有欺诈风控、异常检测相关经验优先
+2、熟练使用 XGBoost 或同类树模型
+3、具备无监督异常检测项目实战经验
+4、精通 Python（pandas、numpy、scikit-learn、机器学习流程搭建）
+5、有在生产环境处理大规模表格数据的经验
+6、扎实的 SQL 能力，拥有在 Snowflake 开展数据查询与建模经验
+7、熟悉 AWS（S3、IAM、计算服务；了解 SageMaker 更佳）
+8、日语、英语读写口语流利
+9、能够处理标注缺失、存在噪声、持续动态变化的数据集
+
+优先条件
+1、拥有保险理赔、车险或金融反欺诈相关经验
+2、有融合有监督与无监督模型输出综合风险分的落地经验
+3、掌握模型可解释性方法（SHAP、特征重要性分析）
+4、熟悉数据管道（DBT、ELT 流程）
+5、有合规监管相关项目经验
+6、做过机器学习模型偏见与公平性分析",XGBoost AWS 机器学习 Python Scikit-learn SQL 数据分析 合规,https://jobs.51job.com/suzhou-gyyq/173016853.html?s=sou_sou_soulb&t=0_0&req=e6445c3f196620bd36185b6f9816a4ca
+基础架构工程师 (MJ000567),苏州艾博生物科技,6千-1万,苏州·苏州工业园区,苏州,本科,1-3年,2026-08-06 10:36:07,job51,"岗位职责：
+1. 负责企业本地Linux服务器、计算集群及云平台（虚拟机、存储、网络）的部署、配置与日常运维工作；
+2. 常态化监控研发系统运行状态、性能与资源容量，快速排查和解决系统故障、性能卡顿、服务中断等各类运维问题；
+3. 负责ELN电子实验记录本、LIMS实验室信息管理系统日常运维，包含账号开通、权限配置、系统参数维护，联动供应商解决系统问题；
+4. 协助完成实验室仪器与ELN/LIMS系统的对接集成，保障业务系统与实验设备数据互通、稳定运行；
+5. 运维管理文件服务器、对象存储、数据库等数据存储资源，维护各业务间数据流转链路，落实数据备份、留存与基础数据质量校验工作；
+6. 配合完成系统补丁更新、容灾恢复、基础安全加固，落地IaC自动化运维思路，持续完善运维流程与技术文档。
+
+
+任职要求：
+1. 计算机、信息系统、工程相关专业，本科及以上学历；
+2. 1-3年IT运维、系统管理、DevOps相关工作经验；
+3. 熟练掌握Linux系统运维核心技能，具备扎实的网络基础知识（DNS、DHCP、VPN、防火墙等）；
+4. 掌握Python、Bash等任意一种脚本语言，可独立完成自动化运维、故障排查相关脚本编写；
+5. 接触过AWS、Azure、GCP等主流云平台，了解云基础架构；
+6. 具备优秀的故障排查能力，能够独立处理复杂、模糊的技术问题；
+7. 文字表达清晰、善于沟通，可高效对接非技术岗位科研人员，完成需求对接与问题答疑。",Linux DevOps 防火墙 Python AWS Azure 技术文档 系统运维 故障排查,https://jobs.51job.com/suzhou-gyyq/173171562.html?s=sou_sou_soulb&t=0_0&req=e6445c3f196620bd36185b6f9816a4ca
+系统实施工程师,苏州昊信精密科技,8千-1万·13薪,苏州·相城区,苏州,本科,3年及以上,2026-06-30 11:21:44,job51,"岗位说明书
+一、任职要求
+1. 学历及专业
+全日制本科及以上学历，计算机、软件工程、信息管理等相关专业。
+2. 工作经验
+3 年以上制造业 ERP、MES、PLM 等业务系统管理或运维相关工作经验。
+3. 专业知识
+熟练掌握 SQL 语句，熟悉 MySQL、SQL Server、PostgreSQL 等主流关系型数据库管理与维护。
+熟悉 ERP、MES、PLM 等业务系统的功能架构与业务流程。
+掌握 Java 或 Python 至少一种开发语言者优先。
+了解财务、供应链、生产制造等业务领域基础知识。
+熟练使用 Vibe Coding（AI 辅助编程）工具，能借助 AI 提升开发效率。
+具备制造业业务系统实施或运维经验者优先。
+4. 能力要求
+具备较强的沟通、理解、协调能力，工作积极主动。
+精通 Office、PPT 等办公软件。
+具备系统化问题分析能力，务实推动问题解决。
+逻辑思维强，具备良好的文档编写能力。
+责任心强，能承受工作压力，工作认真、沉稳。
+具备二次开发、接口调试或系统集成经验者优先。
+5. 其他要求
+愿意学习新知识，为人热情，具备良好的服务意识与团队合作精神。
+二、岗位职责
+（一）主要负责工作
+1.目标规划
+根据已立项的信息化实施计划，与业务部门沟通制定详细实施方案，按流程审批后落地执行。
+2.硬件设备维护
+负责机房服务器、办公电脑等信息化硬件的配置与日常维护。
+3.业务系统运维
+处理 ERP/MES/PLM 等系统运行故障与异常，及时响应业务部门问题并跟踪闭环。
+4.基础数据管理
+负责系统主数据、数据字典、基础档案的统一管理与维护。
+5.供应商协同
+配合系统供应商完成系统上线、升级、迁移及技术问题排查。
+6.数据备份管理
+制定并执行数据备份策略，定期检查备份完整性与可恢复性。
+7.数据支持
+负责业务系统数据查询、报表制作，满足业务部门数据需求。
+8.流程优化
+梳理业务系统流程，提出优化建议，配合业务部门完成流程标准化。
+9.系统性能优化
+定期优化查询表单速度，进行索引设置等性能调优。
+10.信息安全管理
+负责系统信息安全，防范数据泄露与越权访问。
+11.合规管理
+配合等级保护、安全审计、风险评估等合规工作；系统异常时制定应急方1案并上报。
+12.培训与技术支持
+编写与更新培训教材，为业务部门提供系统操作培训与日常技术支持。
+13.制度体系建设
+制定并优化本岗位管理制度、SOP、操作规范；配合内外部审核并完成改进闭环。
+14.知识沉淀
+负责本岗位业务知识与技能的内部沉淀与传承。",SQL MySQL SQL Server PostgreSQL Java Python 供应链 文档编写 系统运维 流程优化 合规 审计 培训 技术支持,https://jobs.51job.com/suzhou-xcq/172737047.html?s=sou_sou_soulb&t=0_0&req=e6445c3f196620bd36185b6f9816a4ca
+数据建模工程师,沪士电子,1.5-2.5万·13薪,昆山,苏州,本科,1年及以上,2026-08-05 11:18:44,job51,"一、岗位职责
+1.1制程异常识别与根因分析
+
+利用统计建模、机器学习、时序分析等方法，对MES、传感器、检测等制造数据进行深度挖掘，识别良率波动、设备偏移、工艺缺陷的根因。
+
+搭建制程监控与异常预警模型，实现从“事后分析”到“事前预测”的转变。
+
+1.2工艺参数建模与优化
+
+结合机理模型（物理/化学）与数据驱动模型（回归、树模型、神经网络、贝叶斯优化等），寻找最优工艺窗口，提高Cpk，降低变异。
+
+配合DOE（实验设计），构建虚拟量测或代理模型，减少试产次数和测试成本。
+
+1.3方法论沉淀与工具化落地
+
+将分析流程、建模方法标准化，形成可复用的数据驱动方法论（如特征工程模板、模型评估框架）。
+
+与IT、自动化团队协作，将模型部署到MES/SCADA/边缘端系统，推动实时优化与闭环控制。
+
+1.4支撑工艺研发
+
+在新产品/新工艺导入阶段，提供数据驱动的参数设计建议，建立预测模型缩短研发周期。
+
+针对新制程痛点，设计数据采集方案，确保后续建模所需数据的完整性与质量。
+
+1.5跨部门协作与知识转移
+
+与工艺、设备、研发、质量等部门紧密合作，将复杂分析结果转化为可执行的工艺语言。
+
+培训工艺工程师使用分析工具，培养数据驱动决策的文化。
+
+任职要求
+教育背景
+本科及以上学历，统计学、应用数学、运筹学、工业工程、计算机、自动化、机械工程等相关专业。
+
+工作经验
+制造业数据建模/分析经验，有成功通过建模改善制程指标（良率、产能、缺陷率）的实际案例。
+
+专业技能
+扎实的数理与建模基础：精通概率统计、假设检验、回归分析、时间序列、多元分析；能独立构建数学/力学/热学等简单机理模型，并将其与数据模型结合。
+
+机器学习与AI应用：熟练使用经典ML算法（SVM、随机森林、XGBoost、LSTM等），有深度学习（如异常检测、序列建模、CNN）项目经验者优先。
+
+优化方法：掌握梯度下降、遗传算法、粒子群等优化算法，有贝叶斯优化或强化学习工艺调参经验者佳。
+
+编程与数据处理：精通Python（Pandas、NumPy、Scikit-learn、PyTorch/TensorFlow）及SQL；熟悉至少一种可视化工具（Tableau、PowerBI、Matplotlib等）。了解Spark等大数据处理框架者优先。
+
+制造数据认知：理解工业数据的多源异构、缺失、漂移等特点，有信号处理、滤波、对齐、特征工程经验。
+
+junwei_deng(邓俊威） 7/23 上午09:39:51
+出色的沟通表达力，能将技术方案翻译为业务语言，推动各方达成共识。
+
+强烈的业务闭环意识，不止步于模型产出，追求现场落地与可量化的改善效果。
+
+自驱力强，能在模糊的工艺问题中定义清晰的数据解决路径。",机器学习 XGBoost 深度学习 Python Scikit-learn PyTorch TensorFlow SQL Spark 数据采集 跨部门协作 培训 技术方案,https://jobs.51job.com/kunshan/173157629.html?s=sou_sou_soulb&t=0_0&req=e6445c3f196620bd36185b6f9816a4ca
+计算机管理岗,浙江泰隆商业银行股份有限公司苏州分行,8千-1.5万·14薪,苏州·苏州工业园区,苏州,本科,2年及以上,2026-06-16 15:58:55,job51,"工作职责:
+1、负责落实总行制度，制定分行IT管理细则与操作流程。
+2、负责分行网络、桌面设备、业务系统及机房基础设施的建设与日常运维。
+3、负责IT设备的采购选型、方案把关及采购实施，并制定相关筹建技术方案。
+4、负责设备出入库、台账、盘点、报废等全生命周期管理。
+5、负责组织技术培训，指导下辖协管员，并定期开展信息系统运行检查与辅导。
+
+任职资格:
+1、一本及以上学历，计算机、信息管理、网络工程等相关专业毕业。
+2、具备2年以上相关工作经验，熟悉银行常用业务系统及软硬件架构，对办公、业务信息系统有实操认知。
+3、具备扎实的计算机及网络技术基础，拥有较强的信息系统运维管理与故障排查能力，善于分析并高效解决问题；同时具有良好的沟通协调能力，能够顺畅对接总行及下辖机构，推动技术指导与协作工作。
+
+福利部分：
+有竞争力的薪酬福利、轮岗及梯队培养
+传帮带文化、免费网课资源、企业大学
+年休假、探亲假、亲情假、育儿假等二十余种假期
+六险二金、免费早餐、父母领薪、免费体检
+节日礼盒、旅游补贴、社团club...",采购 技术方案 培训 系统运维 故障排查,https://jobs.51job.com/suzhou-gyyq/172580272.html?s=sou_sou_soulb&t=0_0&req=e6445c3f196620bd36185b6f9816a4ca
+软件运维工程师,上海鼎格信息科技,9千-1.3万·14薪,苏州,苏州,本科,1年及以上,2026-08-08 04:45:09,job51,"岗位描述：
+1.全面学习了解部门的各个运维项目，负责客户的日常支持服务，及时响应、妥善解决客户的软件使用与服务问题；
+2.负责保障软件产品系统的正常运行，对故障进行初步判断、分析并解决，提供现场服务及远程支持；
+3.遇到问题及时向项目经理、产品团队等相关人员通报，负责主动协调资源推动问题解决并反馈客户； 
+4.负责统计运维数量和运维服务情况，形成运维报告定期发给客户，提高客户满意度；
+5.负责收集运维问题解决方案，负责相关技术文档的整理、维护和审核，并对运维知识库进行更新；
+6.负责参与用户培训，编写培训材料；
+7.负责日常项目巡检、维护，发布巡检报告；
+8.负责上级领导交办的其他任务。
+任职要求：
+1.1年以上相关工作经验，本科及以上学历，计算机相关专业；
+2.具有良好的汇报沟通能力，能以客户为中心，有效的服务客户，提高客户满意度；
+3.具有较强的服务意识、时间观念、耐心和责任心，做事仔细认真，有条理；
+4.具有较强的自主学习能力，熟悉编程语言优先；
+5.能够适应较强的工作压力，项目需要时能较长期或较频繁的出差（出差按天补贴）。",技术文档 知识库 培训,https://jobs.51job.com/suzhou/172395444.html?s=sou_sou_soulb&t=0_0&req=e6445c3f196620bd36185b6f9816a4ca
+人工智能岗,张家港众智纺织品,8.5千-1.2万,张家港,苏州,本科,1年及以上,2026-06-17 15:07:22,job51,"岗位职责：
+1.负责AI大模型、智能体应用项目从立项到交付的全流程推进，制定实施计划、管控项目进度与风险，保障项目按质按期完成交付。
+2、负责技术发展趋势洞察与预研，分析业务应用场景，搭建人工智能的平台化应用、搭建系统知识库。
+3、智能体应用开发：负责智能问答（RAG）、智能问数、智能数据提取与校验、智能文档生成等场景的智能体开发与迭代，基于智能体平台快速搭建与落地。
+4、场景落地：对接公司内部需求，梳理业务痛点并转化为技术方案，完成智能体产品部署（docker/k8s）、环境适配、数据迁移与用户培训，保障项目按时验收。
+5、运维优化：监控智能体运行状态（响应速度、准确率、稳定性），快速排查并解决现场技术问题，结合反馈意见优化产品性能与交互体验。
+6.主导项目交付后的运营机制搭建，制定运营SOP、服务标准与效果评估体系；基于业务数据与客户反馈，持续优化智能体应用场景与大模型落地效果，实现业务价值闭环。
+
+任职要求：
+核心硬性要求：
+1、本科及以上学历，1年以上全栈研发经验，前后端能力突出（熟练Vue3，具备复杂交互界面开发经验），1年以上智能体（Agent）或RAG、问数、报告生成等相关项目开发与实施经验。
+2.熟练Java或Python，掌握Redis/MongoDB/Elasticsearch等中间件，了解向量数据库（Milvus/Qdrant）。
+3.熟练Vue3、Element Plus/Ant Design等组件库，熟悉Vite/Webpack打包优化，具备可视化图表（ECharts/DataV）、低代码平台开发经验者优先。
+智能体技术：使用过Dify/Coze等低代码平台、熟悉 RAG 全流程、大模型 API、工具调用与流程编排，有MCP工具开发、Skill开发经验、OpenClaw开发经验者优先。
+4.运维能力：能独立应对复杂环境（国产化服务器、内网部署），快速解决部署、运维中的突发问题。
+
+软实力要求
+1、强需求拆解与表达能力，能清晰对接内部团队，平衡业务需求与技术可行性。
+2、适应项目制工作节奏，能承受多任务并行与实施压力。
+3、关注AI前沿技术，能快速迭代技术栈适配智能体产品迭代需求。
+
+加分项：
+1、有智能问答、智能问数、数据提取校验、智能文档生成等场景落地经验。
+2、具备纺织行业从业经验或项目实施经验。
+3、协调内部算法、后端团队推进需求落地与技术攻关，输出部署手册、操作指南、故障排查手册等文档。
+4、发展和掌握人工智能关键技术和应用，对相关人员和项目进行专业指导，提升整体专业水平和工作绩效。",大模型 RAG Docker K8s Vue Agent Java Python Redis MongoDB Elasticsearch 向量数据库 Vite Webpack 知识库 技术方案 培训 产品迭代 故障排查,https://jobs.51job.com/zhangjiagang/172596532.html?s=sou_sou_soulb&t=0_0&req=e6445c3f196620bd36185b6f9816a4ca
+电商数据经理,苏州枣榈贸易,1.2-1.8万,苏州·姑苏区,苏州,本科,3年及以上,2026-06-18 20:58:29,job51,"【岗位职责]
+1.负责女装全链路数据监控与分析，包括流量、转化、客单价、复购及品类动销，输出分析报告，支撑运营决策。
+2.搭建女装品类数据指标体系，优化数据统计口径，保障数据准确性与可用性。
+3.联动运营、产品、供应链团队，通过数据挖掘爆款潜质、用户偏好，助力货品选品、上新及营销活动优化。
+4.推动数据工具落地与复用，提升团队数据应用效率，沉淀女装行业数据方法论。
+【任职要求】
+1.本科及以上学历，3年+电商数据管理经验有女装品类经验者优先。
+2.精通SQL，熟练使用Excel/Tableau/Power BI等工具，具备较强的数据建模与分析能力。
+3.熟悉电商平台(淘宝、抖音等)运营逻辑，能精准捕捉女装行业数据痛点。4.具备跨部门协同能力，逻辑清晰，能高效输出数据结论与业务建议。",SQL 供应链 Tableau Power,https://jobs.51job.com/suzhou-gsq/172618404.html?s=sou_sou_soulb&t=0_0&req=e6445c3f196620bd36185b6f9816a4ca
+AI自研软件工程师,苏州工业园区瑞塑整合包装,1.3-1.5万,苏州·苏州工业园区,苏州,大专,1年及以上,2026-08-05 17:15:15,job51,"【工作内容】
+1、负责印刷包装行业专用AI算法模型的自研开发，优化图像识别与缺陷检测精度；
+2、主导软件架构设计与核心代码编写，确保系统在高速产线环境下的稳定运行；
+3、对接生产现场需求，完成从数据清洗、模型训练到工程化部署的全流程交付；
+4、协同硬件团队进行边缘计算设备适配，解决工业场景下的实时性与兼容性难题；
+5、持续跟踪前沿技术，迭代现有算法方案以提升包装质检效率与良品率。
+
+【任职要求】
+1、计算机、人工智能或相关专业大专及以上学历，具备扎实的编程基础；
+2、精通Python/C++，熟悉PyTorch/TensorFlow框架，有工业视觉项目落地经验；
+3、深入理解深度学习原理，在目标检测、分割或异常检测领域有实际成果；
+4、具备良好的逻辑思维能力与跨部门沟通协作能力，能适应工厂现场工作节奏；
+5、对印刷包装工艺有一定了解者优先，具有强烈的责任心和解决复杂问题能力。",Python C++ PyTorch TensorFlow 深度学习,https://jobs.51job.com/suzhou-gyyq/173165635.html?s=sou_sou_soulb&t=0_0&req=e6445c3f196620bd36185b6f9816a4ca
+数字政府业务部软件需求工程师,江苏江南商贸集团,8.5千-1.2万,常熟,苏州,本科,1年,2026-07-23 13:16:16,job51,"此岗位为江南集团下属常信公司招聘。
+（一）岗位职责 
+1.负责数字政府信息化项目对接与业务调研，梳理业务流程与应用场景，形成清晰、可执行的功能性与非功能性需求，优化需求管理体系；
+2.编制需求规格说明书、流程图、用例图、原型等产出物，组织多方需求评审，统一各方认知，明确需求范围与需求细节；
+3.统筹项目需求迭代管理，完成需求分级、优先级规划与版本管控，规范需求变更并评估影响，平衡项目进度、成本与业务价值；
+4.挖掘数字政府智能应用场景，基于大模型、智能体等技术制定AI落地方案，联动研发团队推进智能功能落地；
+5.运用各类AI工具赋能业务调研、需求梳理、文档编制、问题复盘等工作，沉淀标准化工具使用规范，持续提升工作效能与交付质量；
+6.全程跟进研发、测试、验收全流程，及时解决实施堵点，收集用户反馈迭代优化需求，沉淀可复用的需求与项目管理经验。
+（二）任职要求
+1.统招本科及以上学历；
+2.年龄要求在45周岁及以下（1981年1月1日以后出生）； 
+3.具有政府投资信息化项目建设、管理经验，熟悉招投标流程及苏采云平台、数字底座架构、软件国产化要求、政务数据和政务云资源申请流程；
+4.熟练使用思维导图、Visio、墨刀等工具；
+5.具备良好的沟通表达能力、组织协调能力、文档编写能力；
+6.具备高度的责任心、进取心和主动性；
+7.计算机类相关专业优先。",大模型 项目管理 招投标 文档编写 Visio,https://jobs.51job.com/changshu/173016311.html?s=sou_sou_soulb&t=0_0&req=e6445c3f196620bd36185b6f9816a4ca
+主数据,苏州易开迪新能源技术,1-1.5万,常熟,苏州,大专,3年及以上,2026-07-16 13:25:05,job51,"岗位职责
+
+1. ERP实施项目支持
+
+* 协助ERP系统实施项目推进，包括业务需求收集、流程梳理、测试执行、问题跟踪及上线支持；
+* 协助业务部门进行信息化需求调研，整理需求文档，并维护需求追踪及问题管理体系；
+* 协助开展系统功能测试（SIT/UAT）、测试结果记录、问题反馈及跟进解决。
+
+2. ERP主数据管理
+
+* 协助ERP系统主数据建设、维护及管理，包括物料主数据、BOM、工艺路线、供应商及客户相关基础数据；
+* 协调业务部门完成主数据收集、审核、录入及持续优化；
+* 参与ERP数据标准化建设，确保数据准确性、一致性及完整性。
+
+3. 生产及供应链业务支持
+
+* 协助生产制造相关业务流程在ERP系统中的实现，包括BOM搭建、工艺管理、生产订单及成本相关数据维护；
+* 协助解决ERP系统运行过程中的业务问题，并推动持续改善。
+
+4. 项目文档及沟通管理
+
+* 编写、整理和维护项目相关文档，包括需求说明、测试记录、操作手册、培训资料等；
+* 协助组织项目会议，记录会议纪要，并跟踪行动项完成情况；
+* 支持跨部门沟通协作。",功能测试 供应链 培训 SIT UAT BOM,https://jobs.51job.com/changshu/172764895.html?s=sou_sou_soulb&t=0_0&req=e6445c3f196620bd36185b6f9816a4ca
+AI项目专员（AI应用）,苏州超集信息科技,1-2万,苏州·苏州工业园区,苏州,本科,1年,2026-07-27 15:44:15,job51,"岗位职责 
+1. 负责公司AI产品（包括AI Gateway、Token Router、企业知识库、AI Agent等）的项目规划、实施、交付及全生命周期管理，确保项目按计划、高质量完成。 
+2. 深入理解客户业务需求，结合大模型、AI Agent、RAG等AI技术，制定项目实施方案，推动AI产品在企业场景中的落地应用。 
+3. 负责项目需求分析、方案设计、项目计划制定、进度控制、风险管理及验收交付，保障项目目标达成。 
+4. 协调产品、研发、算法、测试、运维及客户等多方资源，推动跨部门协作，确保项目顺利实施。 
+5. 与AI研发团队紧密合作，参与技术方案评审，能够理解AI系统架构、模型应用及接口集成，推动技术方案高效落地。 
+6. 跟踪人工智能领域的新技术、新产品和行业发展趋势，结合客户需求不断优化项目实施方案和产品应用能力。 
+7. 建立和完善AI项目实施流程、交付规范及***实践，持续提升项目交付质量和客户满意度。 
+8. 支持售前方案交流、项目汇报及客户培训，协助推动AI项目持续拓展和价值提升。 
+
+任职要求 
+1. 本科及以上学历，计算机科学、软件工程、人工智能、信息管理等相关专业优先。 
+2. 3年以上项目管理经验，具备企业级软件项目或数字化项目实施经验，有AI项目管理经验者优先。 
+3. 熟悉大模型（LLM）、AI Agent、RAG（检索增强生成）、知识库等AI应用技术，具备完整AI项目实施经验者优先。 
+4. 具备一定AI开发经验者优先，能够理解AI应用开发流程，熟悉Python开发、Prompt Engineering、大模型API调用、LangChain、LlamaIndex、FastAPI等相关技术框架。 
+5. 熟悉AI产品架构及技术实现，能够与研发团队进行技术沟通，具备较强的问题分析和解决能力。 
+6. 具有优秀的项目统筹能力，能够独立制定项目计划，协调客户、产品、研发及实施团队，推动项目按期交付。 
+7. 具备良好的客户沟通能力、需求分析能力及文档编写能力，能够准确理解业务需求并输出解决方案。 
+8. 具备较强的学习能力和创新意识，关注AI技术发展动态，能够快速适应新技术、新场景和新业务。 
+9. 有企业AI平台、大模型平台、AI Gateway、Token Router、智能客服、企业知识库等相关项目经验者优先。 
+10. 持有PMP、ACP、Scrum Master等项目管理认证者优先。",AI Agent 大模型 RAG LLM Python Prompt Gin LangChain FastAPI 知识库 需求分析 方案设计 风险管理 跨部门协作 技术方案 培训 项目管理 客户沟通 文档编写,https://jobs.51job.com/suzhou-gyyq/173053949.html?s=sou_sou_soulb&t=0_0&req=e6445c3f196620bd36185b6f9816a4ca
+主数据管理员,上海金盏企业服务集团,1.2-1.5万·13薪,苏州·吴江区,苏州,本科,3-5年,2026-07-03 11:37:14,job51,"Responsibilities 
+	Create and maintain commercial data within the Oracle and SAP system. 
+	Action all email activity in team inbox. 
+	Provides root cause analysis on daily process issues and queries. 
+	Liaise with SBUs and internal customers (e.g. CX, OTC, Distribution Ops etc.) and support teams to ensure that Service Level Agreement is met. 
+	Maintain data and processes in response to changes in structural or operational business requirements. 
+	Ensure that data is processed efficiently, on time and correct the *** time. 
+	Regular correspondence with stakeholders to ensure best practices are implemented. 
+	Adherence to all DM audit requirements. 
+	Incident Ticket Support- work with Support teams to provide resolution on system and data issues. 
+	Assist in the preparation of regular and ad-hoc management reports for all master commercial data. 
+	Maintain detailed work instruction procedures. 
+	Ensure metrics are recorded daily. 
+	Supports and drives DM strategy and productivity.
+	Other responsibilities as requested.
+
+Skills Requirement 
+• One to three years of experience in data master maintenance 
+• Experience using SAP, Oracle, BI and SQL is preferred.
+• Proficient in Microsoft Office applications including MS Word, Excel, PowerPoint, SharePoint, Teams. Experience in data analytics is a plus. 
+• Must be fluent in English. Additional language skills are a plus.
+Education Qualification 
+• B Tech or Bachelor’s degree in data science or related discipline and relevant work experience.",Oracle DiT SQL ROS Responsibilities Create SAP Action,https://jobs.51job.com/suzhou-wjq/172783224.html?s=sou_sou_soulb&t=0_0&req=e6445c3f196620bd36185b6f9816a4ca
+数据专员（汾湖）,上海宝尊电子商务,6-7千,苏州·吴江区,苏州,本科,2-3年,2026-08-05 16:27:44,job51,"岗位职责 ：
+1. 熟练使用各类AI工具辅助办公，如飞书等，梳理并优化工作流程； 
+2. 大数据分析与运营复盘：负责配送日常数据统计与分析，通过数据复盘挖掘流程问题，支撑配送运营决策。 
+3. 流程优化与协同：基于数据及客户反馈，优化客服SOP流程；沉淀服务知识库，持续提升整体配送服务质量。
+
+任职要求 ：
+1. 学历：本科及以上学历。 
+2. 办公能力：熟练使用Word、Excel、PPT等办公软件，精通数据统计等，可独立制作各类运营自动化报表。 
+3. AI能力：能够灵活使用各类AI工具辅助工作，擅长利用AI提效、优化话术、整理资料、辅助分析。 
+4. 核心能力：逻辑思维清晰，条理严谨，具备较强问题拆解能力；具备大数据分析能力，数据敏感度高，可通过数据发现问题、归因复盘、输出优化方案。
+5. 素质要求：沟通协调能力好，抗压能力强，服务意识佳，有物流、配送、客服数据分析经验者优先。",数据分析 流程优化 知识库 Excel,https://jobs.51job.com/suzhou-wjq/172770728.html?s=sou_sou_soulb&t=0_0&req=e6445c3f196620bd36185b6f9816a4ca
+认证工程师,昆山安费诺正日电子,1-1.8万·13薪,昆山,苏州,本科,3年及以上,2026-07-04 16:42:15,job51,"岗位职责：
+1. 负责连接器、线缆组件及严苛环境互连产品的全球安规认证策划，制定认证策略与取证规划（适用标准、证书类型、样机数量、试验机构、周期与费用），维护产品认证资料库。
+2. 主导推进 UL（Listing、Recognition）、CSA、CE-LVD、TUV、VDE、NMEA 2000、ETL等认证项目。
+3. 跟踪并解读 UL、IEC、EN、GB、客户规范及公司内控规格，将条款转化为可执行的设计边界、材料限制与试验接受准则。
+（1）提供标准差异说明、合规缺口清单与整改建议。
+（2）参与立项准入、设计评审、技术评审，就安规间距、材料等级、IP 结构、标识与说明书要求发表书面意见。
+（3）维护认证相关标准库、条款摘要与典型判据，支撑多市场、多客户并行项目复用。
+5. 协调认证样品制作、标识；对接内部实验室与第三方检测机构（目击、送检、报告异议处理），参与不符合项（NCR）分析与复测方案制定。
+6. 管理证书续证、派生、标准版本升级；评估设计变更、材料变更、供应商变更、产地变更对既有证书的影响，推动变更认证或报备；支撑型录与应用文档的合规表述一致性。
+
+任职要求：
+1. 本科及以上学历，电气、电子、机械、测控、质量等相关专业优先。
+2. 三年及以上连接器、线束、工业互连或电子电气品类安规认证经历，有完整取证—维护—变更项目案例。
+3. 熟悉 UL、IEC、CE 体系中至少两项，能独立解读标准条款并转化为试验与判据。
+4. 具备试验计划评审经验，熟悉DFMEA、APQP 或类似质量工具；能识别验证矩阵与认证要求之间的缺口。
+5. 能撰写中文认证报告与评审意见，阅读英文标准、证书与检测机构报告；逻辑清晰，具备跨部门推动力。
+
+
+公司提供早晚往返市区的通勤班车！！",合规 UL Listing Recognition CSA CE-LVD TUV VDE,https://jobs.51job.com/kunshan/172795160.html?s=sou_sou_soulb&t=0_0&req=7f1c35f360012d93396901194bb89e5e
+SAP运维工程师,上海必胜人力资源,2.5-3万·13薪,苏州·吴中区,苏州,本科,8年及以上,2026-06-24 14:50:54,job51,"该职位在 SAP BI 领域衔接业务战略与技术落地。其核心目标是构建稳健的 BW/4HANA 数据模
+型，并通过 SAC 交付可落地的战略洞察。通过确保数据完整性与赋能全球用户，该岗位有效驱动
+了跨国业务的高效决策与组织整体效能的提升。 
+➢ 负责业务流程分析与优化。作为内部顾问，与全球团队及业务流程负责人协作，完成SAP BI/报表
+解决方案的配置与实施。 
+➢ 分析业务需求，并与全球职能部门及业务流程负责人紧密合作，提出解决方案。 
+➢ 在SAP BW/4HANA中进行虚拟及物理数据模型的分析、设计、开发和扩展（包括ETL流程及性能
+优化）。 
+➢ 在SAP Analytics Cloud (SAC) 中进行分析解决方案的设计与开发，包括仪表盘、故事、驾驶舱报
+表等。 
+➢ 负责集团SAP BI/报表系统的二线技术支持与运维，处理复杂技术问题 
+➢ 负责最终用户培训，确保其能高效使用公司的报表工具。 
+➢ 参与或负责SAP BW/BI环境下的国际项目。",技术支持 培训 SAP BI BW SAC Analytics Cloud,https://jobs.51job.com/suzhou-wzq/172672440.html?s=sou_sou_soulb&t=0_0&req=7f1c35f360012d93396901194bb89e5e
+认证工程师,苏州市春菊电器,8千-1.5万·14薪,苏州·相城区,苏州,大专,3年及以上,2026-07-09 13:16:33,job51,"岗位职责：
+1.所有新品的认证联络事项；
+2.认证的元器件的报备；
+3.EMC的场地预约；
+4.认证费用的评估；
+5.横向部门认证信息的各类咨询；
+6.所有认证证书的存档；
+7.老产品的认证更新（包括CB.GS.CE.ETL等证书）；
+8.认证的元器件的报备；
+9.配合质量支持认证公司或客户的审厂；
+10.开发部流程文件梳理；
+11.领导安排的其他事宜。
+任职资格：
+1、必须能用英语和客户沟通，较强的沟通协调能力；
+2、必须熟悉相关国际国内标准IEC、UL、GB、EN等；
+3、必须要熟悉小家电行业的常规安规要求。",客户沟通 GS.CE. UL GB,https://jobs.51job.com/suzhou-xcq/172852456.html?s=sou_sou_soulb&t=0_0&req=7f1c35f360012d93396901194bb89e5e
+资深信息化软件开发工程师(J10229),苏州杰锐思智能科技,1.5-2.5万,苏州·吴中区,苏州,本科,5年及以上,2026-07-06 15:05:28,job51,"工作职责:
+1、对接业务部门，梳理需求、优化流程，输出需求文档、技术方案及实施计划；
+2、主导系统开发、迭代与定制化，规范代码与文档；负责测试、BUG修复、上线部署及用户培训运维；
+3、统筹金蝶ERP与PDM/PLM深度集成，落地BOM对接、工程变更同步、图纸联动等关键功能；
+4、开展ETL数据治理，搭建标准化数据体系；维护钉钉、纷享销客等第三方系统接口稳定运行；
+5、负责帆软报表定制开发与优化，实现自动化生成与分发，为企业经营决策提供数据支撑；
+6、负责团队任务分工、进度管控、技术指导与ai自动写代码给团队赋能。全程参与项目全流程管理，推动新技术落地与团队效能提升。
+任职资格:
+1、本科及以上，计算机相关专业；5年以上企业信息化开发经验，有团队管理或项目统筹经验者优先；
+2、精通C#、ASP.NET及前端三剑客（HTML/CSS/JS），熟悉Python/PHP；具备独立系统架构设计与规范化文档输出能力；
+3、精通SQL Server、Oracle调优与开发；熟悉非标行业ERP、PDM、SRM、CRM业务流程，具备二次/定制开发经验；
+4、精通API/中间件集成（钉钉、EHR、纷享销客等）；熟练掌握ETL数据治理全流程，保障数据全链路可追溯；
+5、具备出色的跨部门沟通、抗压与自学能力；能独立排障，同时具备团队任务分配与项目推进能力。",C# Python PHP SQL Server Oracle 技术方案 培训 数据治理 团队管理,https://jobs.51job.com/suzhou-wzq/172807480.html?s=sou_sou_soulb&t=0_0&req=7f1c35f360012d93396901194bb89e5e
+认证工程师（新产品）,邦纳电子（苏州）,1.5-2.5万·13薪,苏州,苏州,本科,10年及以上,2026-07-01 10:04:37,job51,"主要职能:
+负责新产品的法规合规工作。
+将与法规合规团队合作，推动满足国内和国际产品性能标准及全球市场准入所需的相关活动，并作为主题专家，确保 Banner 产品符合适用要求，包括产品评估、零部件/材料选择、测试、文档编制和产品标签。
+汇报对象:
+苏州工程总监
+主要职责:
+1.依据相关法规和标准，执行认证项目 
+2.根据标准制定认证计划；完成测试报告和技术认证文件，监督和促进项目进度；并按照相关标准分析实验数据。
+3.熟悉产品认证流程，具备丰富的电子产品安全认证知识。精通TUV、UL、CE和IEC等相关产品认证标准和测试规范。较强的动手能力和数据分析能力，能够根据中国、美国和欧洲标准执行产品的各种认证任务。更改现有产品满足客户定制需求
+4.为设计团队提供新产品和现有产品性能验证测试的指导。
+5.根据法规合规、信息请求及审核活动的需要，编制支持性文件。
+6.与各类认证机构和测试实验室（UL、TUV、FM、CSA、ETL 等）合作，推动新产品认证，包括联合品牌的认证。
+7.开发方法以简化审批流程。
+8.考虑成本和时间限制等问题的影响。
+9.根据需要与其他组织进行沟通，确保项目成功
+10.根据公司的***利益做出决策
+11.对责任区结果负责
+12.可以短暂出差国内或者国外
+13.其余领导安排的相关工作
+任职要求
+1.具备较强的口头和书面沟通能力，能够与组织各个层级进行有效交流。
+2.具备较强的分析和解决问题能力。
+3.具备较强的组织能力，能够有效处理多个项目/优先事项，并注重细节。
+优先（加分项）
+1.电气工程或相关专业本科及以上学历。
+2.熟悉 EN、ISO、UL、CISPR 和 FCC 标准。
+3.熟悉 ISO 9001 或 17025 环境下的工作流程。
+4.具备实验室环境下的符合性测试经验，包括机电测试（EMC）和故障排查。
+5.曾在 UL、FM、TUV 或类似机构工作过。
+6.具备材料和/或电子元器件设计及选型经验。
+7.具备通过 UL 取得认证的经验，优先考虑在 UL、FM、TUV 等机构有工作经历者。
+11.至少 10 年电气产品认证经验。
+12.自我驱动，积极主动，有团队合作精神，渴望学习，愿意接受挑战。",合规 数据分析 故障排查 Banner UL TUV FM CSA,https://jobs.51job.com/suzhou/167973839.html?s=sou_sou_soulb&t=0_0&req=7f1c35f360012d93396901194bb89e5e
+服务器机柜设计专家(J10677),苏州东山精密制造,3-6万,苏州,苏州,大专,5年及以上,2026-06-16 17:34:11,job51,"岗位职责
+1. 液冷系统结构设计与优化
+61 核心布局设计：主导Blackwell NVL72架构下GB200/GB300液冷服务器机柜的机械结构设计，优化Mainfold（流体分配器）、CDU（冷却分配单元）、PDU（电源分配单元）的布局、尺寸及安装方式，确保液冷回路与电力系统的兼容性及散热效率。
+61 承重与力学分析： 
+61 根据服务器重量（如GB200/GB300的单机重量及满载总重）设计机柜支撑结构，确保承重强度与稳定性；
+61 使用FEA（有限元分析）工具（如ANSYS、ABAQUS）对机柜主体、导轨、支架等关键部件进行静力学、动态载荷及热-结构耦合分析，验证结构可靠性。
+2. EIA-310-E标准与北美安规适配
+61 标准化设计： 
+61 遵循EIA-310-E标准，定义机柜的物理尺寸（如19英寸标准深度/高度）、安装孔位间距、导轨负载能力及散热孔布局；
+61 确保机柜兼容GB200/GB300服务器的物理接口（如液冷接口位置、电源接口方向）。
+61 北美安规合规： 
+61 设计符合北美UL 60950-1（信息技术设备安全标准）、UL 1950（电力系统安全标准）、ETL认证等要求；
+61 完成防火、防电击、防触电设计，优化机柜接地、散热风道与防火封堵结构。
+3. 液冷组件协同开发与验证
+61 系统集成： 
+61 与液冷系统供应商合作，定义Mainfold、CDU、PDU的接口规范、安装位置及液体管路路径，确保密封性、压力分布及热交换效率；
+61 针对GB200/GB300服务器冷板（Cold Plate）的液冷需求，设计定制化集成方案。
+61 测试与认证： 
+61 主导机柜的热平衡测试、液体泄漏测试、抗震测试及北美安规认证测试（如UL/ETL测试）；
+61 输出测试报告并优化设计缺陷，提升能效比与系统可靠性。
+4. 跨部门协作与生产支持
+61 与电气、硬件团队协同，确保液冷管路、电源线缆与服务器模块的布线空间不冲突；
+61 支持量产阶段的结构优化、BOM成本控制及供应商技术对接。
+------------------------
+任职要求
+1. 教育背景
+61 机械工程、热能工程、材料科学或相关专业本科及以上学历，硕士/博士优先。
+2. 经验要求
+61 5年以上液冷服务器机柜或数据中心散热系统设计经验，有Blackwell NVL72架构或类似高性能液冷项目经验者优先；
+61 熟悉北美机柜安规（如UL/ETL标准）及EIA-310-E设计规范；
+61 具备FEA分析经验（如ANSYS Mechanical、ABAQUS），能独立完成结构强度、热变形、振动模态仿真。
+3. 核心技能
+61 设计与仿真工具：精通AutoCAD、SolidWorks、CATIA等3D建模工具；熟练使用ANSYS、ABAQUS进行FEA分析；熟悉CFD（如FloTherm、Star-CCM+）优先。
+61 液冷系统知识：精通Mainfold、CDU、PDU的选型、布局及液冷回路设计；熟悉直接式/间接式液冷技术原理及密封工艺。
+61 安规与合规：熟悉北美UL 60950-1、UL 1950、ETL认证流程；具备防火、防漏电设计经验。
+61 材料与工艺：了解机柜材料（钢、铝合金）选型及加工工艺（激光切割、焊接、表面处理）。
+4. 加分项
+61 有GB200/GB300服务器或高密度液冷机柜量产经验；
+61 熟悉两相液冷（Phase Change Cooling）或AHP（主动式热管）技术；
+61 持有PMP认证或北美安规相关资格证书（如UL认证工程师）。
+------------------------
+我们提供
+61 竞争性薪酬；
+61 参与全球前沿液冷技术开发，推动绿色数据中心建设；
+61 免费工作餐、年度健康体检及专业技术培训资源。",合规 跨部门协作 成本控制 培训 CDU PDU ABAQUS EIA-310-,https://jobs.51job.com/suzhou/169972127.html?s=sou_sou_soulb&t=0_0&req=7f1c35f360012d93396901194bb89e5e
+数据采集工程师,苏州博特勒机器人,5-8千,昆山,苏州,大专,无需经验,2026-08-04 15:27:57,job51,"岗位职责：
+1、图像数据标注
+2、外出采集客户实地现场数据
+3、仿真流程可达性验证
+4、YOLO模型训练
+岗位要求：
+1、大专及以上学历，必须是计算语言学专业。
+2、编程基本功扎实；用过爬虫和chatgpt等数据处理工作的加分。 
+3、对数据敏感，能踏实做好数据标注，收集，标注，清理工作； 
+4、具有良好的团队沟通交流能力、文档撰写能力；",GPT,https://jobs.51job.com/kunshan/173147284.html?s=sou_sou_soulb&t=0_0&req=7f1c35f360012d93396901194bb89e5e
+生产数据运营,牧原食品集团,1-1.5万,苏州,苏州,本科,2年及以上,2026-07-14 18:25:35,job51,"【工作内容】
+1、负责各子公司业务数据的日常采集、清洗与标准化处理，确保数据准确性与时效性；
+2、搭建并维护区域指标分析报表体系，监控产品出成等核心指标波动；
+3、深入车间工厂一线生产业务场景，挖掘数据价值，为生产策略调整及资源投放提供决策支持；
+4、协同数字化团队优化数据工具与流程，提升生产各项指标运营效率及数字化管理水平；
+5、定期输出多维度运营分析报告，追踪项目落地效果并推动问题闭环解决。
+
+【任职要求】
+1、本科及以上学历，统计学、财务、计算机或相关专业，具备扎实的数据分析基础；
+2、精通Excel、SQL及BI可视化工具，有快消行业生产数据分析经验者优先；
+3、具备较强的逻辑思维能力和跨部门沟通协作能力；对数据敏感，能独立承担复杂数据处理任务；
+4、具备良好的职业素养与抗压能力，认同公司文化.",SQL 数据分析,https://jobs.51job.com/suzhou/172910722.html?s=sou_sou_soulb&t=0_0&req=7f1c35f360012d93396901194bb89e5e
+软件实施工程师,万汇链智能科技（苏州）,4-8千·13薪,苏州·苏州工业园区,苏州,本科,1年及以上,2026-06-15 10:14:07,job51,"岗位职责：
+1.负责公司软件产品的实施及运维工作；
+2.制定系统实施培训计划及进度目标，协调客户，配合系统推进工作；
+3.解决客户问题及优化需求收集反馈，跟踪处理；
+4.分析客户数据，提出优化流程、标准并推进执行。
+
+岗位要求：
+1.全日制本科或以上学历，计算机或国际贸易相关专业；
+2.有系统实施、运维或测试工作相关经验；
+3.拥有优秀的表达沟通能力和执行能力，具备较强的责任心和团队精神；
+4.能有效配合研发团队实现产品的升级迭代；
+5.有进出口关务系统相关经验者优先考虑。
+6.可接受爱学习，主动性较强，英语口语能力突出的应届毕业生；",培训,https://jobs.51job.com/suzhou-gyyq/172551572.html?s=sou_sou_soulb&t=0_0&req=7f1c35f360012d93396901194bb89e5e
+数据服务专员（数据收集）,上海寰通商务科技,5-7千·13薪,苏州·苏州工业园区,苏州,本科,1-3年,2026-06-17 09:52:06,job51,"工作职责
+1、监控每天的数据到达情况；
+2、对未到达数据的经销商进行电话催收并记录；
+3、每天根据药厂规定时间发送当天的催收报告‘；
+4、服从领导安排，协助完成项目相关工作；
+任职要求
+1、本科及以上学历；
+2、数据相关工作经历1年以上优先考虑；
+2、能熟练运用 excel,ppt, word,visio 等 office 软件；
+3、良好的逻辑思维能力，沟通能力及学习能力，能够承受压力工作；",excel ppt word,https://jobs.51job.com/suzhou-gyyq/167956196.html?s=sou_sou_soulb&t=0_0&req=7f1c35f360012d93396901194bb89e5e
+初级全栈开发工程师,江苏硕晟软件科技,5-7千,苏州·吴中区,苏州,大专,1-3年,2026-07-25 15:54:04,job51,"岗位职责
+
+1. 参与公司Web、APP、小程序、企业管理系统的前后端开发与功能迭代。
+
+2. 负责前端页面搭建、交互开发及PC、移动端多端兼容适配，保证页面流畅运行。
+
+3. 协助并独立完成后端业务开发、接口编写、数据处理及数据库基础维护工作。
+
+4. 配合产品、测试完成需求评审、代码自测、BUG修复及版本上线迭代。
+
+5. 遵循团队开发规范，编写注释及文档，维护代码仓库，参与代码评审优化。
+
+6. 主动学习新技术，协助团队完成功能升级、性能优化及小型项目落地。
+
+任职要求
+
+1. 计算机相关专业，大专及以上学历，1-3年全栈开发经验，可独立完成常规前后端开发任务。
+
+2. 熟练掌握HTML5、CSS3、JavaScript、ES6+，可独立完成页面及交互开发。
+
+3. 熟练Vue2/Vue3及 Element UI、Vant 等组件库，了解Uni-app跨端开发优先。
+
+4. 熟练Java后端开发，熟悉前后端分离、微服务、分布式基础开发模式。
+
+5. 熟悉MySQL，掌握数据表设计、常用SQL编写、索引及基础优化能力。
+
+6. 熟练Git、Postman等开发工具，具备基本联调和问题排查能力。
+
+7. 有商城、本地生活、出行、旅游类APP或小程序项目经验者优先。",HTML5 CSS3 JavaScript Vue Java 微服务 分布式 MySQL SQL Git,https://jobs.51job.com/suzhou-wzq/173041027.html?s=sou_sou_soulb&t=0_0&req=7f1c35f360012d93396901194bb89e5e
+数据专员,通力电梯,5-8千,昆山,苏州,本科,1年及以上,2026-07-15 11:19:23,job51,"地点在昆山通力
+
+岗位职责与关键任务：
+● 数据记录管理：按照数据源（客户、供应商、产品、物料、设备）的全球流程要求，促进数据记录的正确创建和完善
+● 数据录入：确保数据按照系统规范正确、及时地录入
+● 数据维护：在主数据库中执行小幅变更（如更新本地级别数据）
+● 信息收集：收集数据创建和变更表单所需的所有相关信息，包括联系本地财务部门和/或客户、供应商等
+● 工具使用：使用特定的数据管理工具，需要在主数据管理方面具有高级理解和特定能力
+● 主动改进：主动引导针对主数据的必要预防/纠正行动
+● 数据提交：在完成数据质量检查后，将数据创建/修改请求发送给数据管理员
+● 质量控制：在单位层面定期执行数据质量控制检查
+● 培训支持：可对数据系统或工具进行最终用户培训，确保全球数据管理流程的采纳和理解
+● 一线支持：作为单位内适用数据领域（客户、供应商、产品、物料、设备）的一级支持
+
+岗位要求：
+学历要求：
+● 本科或硕士学历，或相关领域同等经验，IT相关专业优先
+
+工作经验：
+● 2年以上数据管理或相关领域工作经验优先
+● 在适用数据管理领域（客户、供应商、设备、产品或物料）具有经过验证的业务和技术技能
+● 质量、数据管理、数据支持和项目经验者优先
+
+技能要求：
+● 熟练使用Microsoft Office工具，包括MS Excel和Access
+● 具有数据管理工具使用经验
+● 良好的书面和口头英语能力
+● 具备引导技能者优先
+● 客户数据管理领域需要具有业务经验的超级用户（NEB、SEB或SDB），了解客户在系统中的运作方式",ROS 培训 NEB,https://jobs.51job.com/kunshan/172916885.html?s=sou_sou_soulb&t=0_0&req=7f1c35f360012d93396901194bb89e5e
+计划专员（亚马逊数据分析）,苏州麦格达斯进出口,7-9千,苏州·苏州工业园区,苏州,本科,无需经验,2026-08-07 13:17:09,job51,"工作职责：
+1、负责统计与监管亚马逊平台运营数据（日/月/季/年报表）的制作，并输出数据分析报告。
+2、快速学习与理解平台业务逻辑，通过数据挖掘和数据分析为业务提供解决方案，并高效推动落地执行，促进运营指标提升。
+岗位要求：
+1、本科及以上学历，工业计划/计算机专业 /信息统计/数学专业优先；有1年以上跨境电商数据分析经验优先；
+2、熟练掌握的Excel（函数、透视表、图表）等数据分析工具；
+3、具备良好的逻辑思维能力和数据分析能力，注重细节，对数据准确性要求高；
+4、学习力和责任心强，自驱力好，沟通表达清晰；
+5、基本英文读写能力；
+6、接受优秀应届毕业生。",数据分析,https://jobs.51job.com/suzhou-gyyq/172873376.html?s=sou_sou_soulb&t=0_0&req=7f1c35f360012d93396901194bb89e5e
+AI实习生（算法/数据分析/应用开发）,好孩子儿童用品,5-6千,昆山,苏州,本科,无需经验,2026-06-11 13:47:30,job51,"我们期待:
+1.在读本科或研究生，人工智能/计算机科学/数据科学/机器学习及相关专业:
+2.熟悉 Python，有大模型项目经验或 RAG 项目经验者优先;
+3.英文读写流利，能阅读海外技术文献:
+4.海内外知名高校(杜克大学等)优先考虑:
+5.有采购、供应链或制造业 AI项目经验者加分
+实习收获：
+1.深入全球领先母婴企业真实业务，AI项目可演示原型从0到落地:
+2.接触工厂运营、供应链、研发、实验室多维度数据，算法场景丰富
+3.技术方案文档，留下可持续选代的成果:
+4.与部门负责人直接协作，获得真实业务推荐信支持
+实习期2个月左右，暑期即可开展实习",机器学习 Python 大模型 RAG 采购 供应链 技术方案,https://jobs.51job.com/kunshan/172514438.html?s=sou_sou_soulb&t=0_0&req=7f1c35f360012d93396901194bb89e5e
+数据分析专员,江苏益展研创智能科技,4.3-4.8千,苏州·姑苏区,苏州,大专,1年及以上,2026-07-27 17:26:02,job51,"岗位职责：
+1.对交通场景动态数据进行监测并深度解析，生成实时监管指标及可视化报告；
+2.为交通管理部门及企业提供风险行为预测、资源调度优化等多维度数据决策闭环服务；
+3.基于智能化交通场景系统平台，对交通枢纽、城市干线等应用场景，提供“人-车-路-环境”协同的智慧交通监测服务方案；
+4.完成部门主管交办的其它工作，积极主动地配合团队完成各项任务。
+任职要求：
+（一）基本要求
+学历要求：大专及以上学历，行政管理、数据分析、文秘等相关专业优先。
+工作经验：具有1年以上相关工作经验者优先，有数据分析或类似岗位工作经验者更佳。
+（二）技能要求
+系统操作能力：能够熟练操作相关系统平台，具备一定的计算机基础知识，能够快速学习和掌握新系统。
+数据分析能力：具备较强的数据分析能力，能够运用数据分析工具（如Excel等）对监测数据进行整理和分析，形成清晰的数据分析报告。
+办公软件应用：熟练使用办公软件（如Word、Excel、PPT等），能够高效完成文档编辑、数据处理和报告制作等工作。
+音视频处理能力：熟悉音视频资料的调取、整理和保存方法，能够确保资料的完整性和可追溯性。
+（三）工作态度
+责任心：工作认真负责，具备高度的责任心，能够确保工作的准确性和及时性，因项目或工作的紧急性，能够接受灵活的加班安排。
+细致认真：具备细致的工作态度，注重细节，能够发现并解决工作中出现的问题。
+团队合作精神：具备良好的团队合作精神，能够与团队成员密切配合，共同完成工作任务。
+抗压能力：能够适应快节奏的工作环境，具备一定的抗压能力，能够在规定时间内完成工作任务。
+（四）其他要求
+学习能力：具备较强的学习能力，能够快速适应新环境和新任务，不断提升自己的业务水平。
+沟通能力：具备良好的沟通能力，能够与相关部门和人员进行有效沟通，确保工作的顺利进行
+上五休二：8:30--17:30",数据分析 Excel,https://jobs.51job.com/suzhou-gsq/160649861.html?s=sou_sou_soulb&t=0_0&req=7f1c35f360012d93396901194bb89e5e
+AI数据标注员（周末双休）,苏州博视精工智能装备科技,5-7千,昆山,苏州,大专,1年及以上,2026-07-29 09:43:51,job51,"一、岗位职责
+1、负责数据准备与标注：
+（1）收集和整理PCB图像数据，确保数据量足够且具有代表性。
+（2）使用专业的标注工具对PCB图像进行精确标注，以准确标识出缺陷的位置和类型（如划伤、氧化、线路不良等）。
+2、负责标注规则制定与优化：
+（1）与算法工程师、产品经理沟通协作，理解模型训练需求，共同制定合理的标注规则。
+（2）根据模型反馈不断调整和完善标注标准，确保标注数据能够满足AI模型训练的需求，并提高模型性能。
+3、负责质量控制：
+（1）对已完成的数据标注进行审核，保证标注的准确性和一致性。
+（2）分析标注过程中出现的问题，提出改进建议，优化标注流程，提升整体工作效率。
+4、负责沟通协调：
+（1）与其他团队成员保持良好沟通，及时反馈工作中遇到的问题，寻求解决方案。
+（2）协助解决跨部门间的协作问题，促进项目顺利推进。
+5、负责文档记录：
+（1）记录工作中的关键步骤、遇到的问题及解决办法，形成文档资料，为后续工作提供参考依据。
+（2）总结标注过程中的经验教训，分享给团队其他成员，促进团队整体能力提升。
+6、负责对客服同事进行数据类型培训。
+
+二、任职资格
+1、性别不限、20岁以上、大专及以上文化程度、计算机科学、电子工程、自动化等相关专业 。 
+2、专业要求：
+（1）熟悉PCB制造工艺流程及常见缺陷特征，能够准确识别并标注出各种类型的缺陷者优先；
+（2）熟悉PS软件者优先；
+（3）了解图像处理基本原理，熟悉至少一种编程语言（如Python），用于简单的数据分析和脚本编写者优先。
+3、工作经验要求：
+（1）有数据标注经验，尤其是AI训练数据标注经验者优先考虑。
+（2）具有电子制造业或类似行业背景，特别是有过PCB生产经验优先考虑。
+4、学习能力强，理解能力强，有责任心，细心，执行能力强，善于沟通。
+
+三、我们的福利
+1、五险一金，带薪年假；
+2、各种工作补贴：交通补贴、通讯补贴、出差补贴等；
+2、员工福利关怀：结婚及生育礼金、伤病慰问、生日礼物、协会及部门活动经费、节日礼品、法定节假日等；
+3、人性化的考勤管理制度，提供行业极具竞争力的薪酬，根据公司运营情况并结合个人工作绩效发放丰厚的年终奖金；",Python 培训 数据分析,https://jobs.51job.com/kunshan/169369686.html?s=sou_sou_soulb&t=0_0&req=7f1c35f360012d93396901194bb89e5e
+数据管理专员 ID211371,硕腾生物制药,15-25万/年,苏州,苏州,本科,3年及以上,2026-07-16 07:50:22,job51,"Position Summary:
+This role is dedicated to performing data management responsibilities to meet the current global and local regulatory requirements and SOPs, and will help make the process more streamlined and efficient in data management activities covering whole data management process. 
+Essential Duties and Responsibilities:
+Responsible for Data Management Process and Activities (e.g., data request, including DMP, data entry, data import, data verification/validation and data correction and EDC management).
+1. Collaborate with global data management team and China project team for training and problem solving (including Medrio system).
+2. Create data management plans to define data capture methods for studies, and their representation in the clinical data management system.
+3. Submit data request and update (data entry/import, DMP sheet, data validation/verification, data correction, data flagging, green penning, S &amp; A) via WebURF system.
+4. Work with EDC team to create e-DCF in Medrio system if applicable.
+5. Provide training to project team and/or CRO for data management training, as well as Medrio system training.
+6. Work with statistician to provide data analysis and data pack for each study. Work as SME to coordinate the technical communications between global team and China team.
+7. Support in data entry, data check or any other problems about data management.
+Requirements:
+1. At least Bachelor degree. Backgrounds in biologicals, veterinary or statistics is preferred.
+2. Experience in data entry, data import and strong acceptability of data management system is preferred.
+3. Good execution in performing process and well organized in working priorities and excellent carefulness in data accuracy.
+4. Data agility and logical thinking is needed.
+5. Self-motivated and strong team player.
+6. Fluently in English listening, speaking, reading and writing.
+Proactive in problem solving, strong sense of responsibility.",Gin Go GAN Summary SOPs Essential Duties Responsibilities,https://jobs.51job.com/suzhou/172607544.html?s=sou_sou_soulb&t=0_0&req=7f1c35f360012d93396901194bb89e5e
+数据采集-线上面试,广州未来可期信息技术,5-7千,苏州·吴中区,苏州,大专,无需经验,2026-07-06 17:21:19,job51,"签订劳务合同，
+工作内容:
+1.佩戴动捕VR 设备，远程操控机器人/机械臂，按照场景操作要求，完成动作数据采集
+2.辅助整理筛选原始数据，保障数据规范完整
+3.辅助维护调试 VR/传感器设备，反馈故障并优化
+岗位要求：
+1.全日制专科及以上，计算机/AI电子信息等相关专业优先
+2.肢体协调性好，能按指令复现动作，热爱本职工作，为人踏实守信
+3.工作有责任心，能耐心接受操作培训，按照老师指导执行
+4.有计算机调试、机器人/数据采集经验",数据采集 培训 VR,https://jobs.51job.com/suzhou-wzq/172811493.html?s=sou_sou_soulb&t=0_0&req=7f1c35f360012d93396901194bb89e5e
+大数据和BI工程师,乐美包装（昆山）,1.5-2万·13薪,昆山,昆山,本科,5年及以上,2026-08-07 13:21:46,job51,"工作概要：
+85	主导对接应用系统分析员，了解业务流程、设计分析模型、完成分析建模和设计文档；
+85	负责分析任务的计划，分析，设计，开发和交付；
+85	负责数据仓库和BI；
+85	直接上级安排的其他事务。
+主要工作职责：
+85	负责各主流数据库开发工作；
+85	负责各信息化系统之间的接口开发工作；
+85	实施ETL（抽取、转换和加载）过程，将源系统数据导入到数据仓库中，并进行清洗、转换和整合；
+85	开发和优化数据仓库中的数据抽取、转换和加载作业，确保数据的准确性和及时性；
+85	维护和管理数据仓库系统，包括监控系统性能、解决故障和优化查询性能；
+85	与业务用户合作，理解业务需求，并提供相应的数据支持和解决方案;
+85	提供面向业务的数仓建模，报表、数据服务等，同时负责日常的报表运维。
+任职资格要求 (学历、知识和经验等要求)：
+85	本科及以上学历，计算机科学、信息管理等相关专业；
+85	具备信息化应用系统软件及数据库5年以上开发经验，熟悉常见的开发架构;
+85	具备优秀的问题解决能力和团队合作精神，能够与不同的团队成员有效沟通和协作。
+85	主导实施过3个以上数据仓库或数据分析项目；
+85	具备较强的分析和逻辑思维能力，能够理解和解决复杂的数据结构和业务问题；
+85	精通数据库设计，能够熟练合理的将业务抽象为技术表达；
+85	研究和评估最新的数据仓库技术和工具，提出改进和创新的建议；
+85	有大数据平台项目实施经验。
+加分项：
+85	英文流利;
+85	有制造业跨国公司经历。
+技能需求：
+85	熟悉SAP ABAP、Java、.Net等架构集成开发框架；
+85	熟悉JavaScript、Vue等前端开发语言；
+85	熟悉主流接口开发，包括WebApi、WebService等；
+85	精通主流数据库Hana、Oracle、SqlServer及MySql等开发，包括SQL语句、视图、函数及存储过程等开发；
+85	具备SQL知识，熟悉关系数据库和数据仓库的设计原则和优化技巧；
+85	熟悉ETL/ESB工具和技术，如SSIS、PowerCenter等；
+85	熟练使用OFFICE、VISIO等办公或设计工具；
+85	至少熟练使用过一种BI工具，如Tableau、Power BI、Cognos等。",Java JavaScript Vue Oracle SQL MySQL 数据分析,https://jobs.51job.com/kunshan/165459251.html?s=sou_sou_soulb&t=0_0&req=c01f0e34bfafc35303f6d0f3f8fceda1
+Data Entry Clerk 数据录入员,希瑞造纸织物（中国）,5-6千·13薪,昆山,昆山,高中,2年及以上,2026-07-30 16:57:29,job51,"Main Responsibilities主要职责:
+1.	Keying in all production related data in time
+及时录入与产品相关的所有数据
+2.	To maintain the data in SyteLine.
+维护系统中的数据
+3.	To make sure the data is accurate in system.
+确保系统数据的准确性
+4.	Other tasks assigned by supervisor.
+部门经理分配的其它任务
+
+
+Qualification Requirements任职要求:
+1.	Above senior middle school.
+高中以上学历
+2.	Be patient , careful and proactive. 
+做事耐心、仔细并且积极主动
+3.	Strong team work spirit.
+具有团队精神
+4.	Basic English preferred.
+具有基本英语能力(读写能力)者优先考虑",SPI Main Keying To SyteLine Other Qualification Above,https://jobs.51job.com/kunshan/153900329.html?s=sou_sou_soulb&t=0_0&req=c01f0e34bfafc35303f6d0f3f8fceda1
+AI研发助理,苏州智熠达科技,4-6千,昆山,昆山,本科,无需经验,2026-07-16 15:38:54,job51,"岗位职责：
+1.协助进行数据处理；
+2.协助进行模型训练与结果评估；
+3.其他项目辅助工作。
+
+任职要求：
+1. 本科应届生，计算机等相关专业（必须项）；
+2. 校内有深度学习项目经验（必须项）；
+3. 学习能力强，积极主动，善于沟通；
+4. 有机器视觉、工业缺陷检测方向项目经验优先。",深度学习,https://jobs.51job.com/kunshan/172937517.html?s=sou_sou_soulb&t=0_0&req=12f7ded689c10ff334ac9ed919e3bf86
+主数据管理经理,江苏烽禾升智能科技,1.5-2.5万,昆山,昆山,本科,5年及以上,2026-08-07 11:17:17,job51,"任职要求
+1、本科及以上学历，计算机、数据科学、统计学等相关专业优先；
+2、5年以上数据管理 / 数据治理 / 主数据管理相关工作经验，有中大型企业数据治理经历优先；
+3、了解数据中台 / 数据仓库 / 数据架构，熟悉主流 MDM 平台产品及核心业务系统（ERP、CRM、MES等）数据架构与集成方式；
+4、结构化思考能力及沟通能力强，能高效推动多部门达成共识；
+5、拥有 DAMA CDMP（数据管理认证）或同等数据治理认证者优先。
+
+岗位职责
+1、负责企业级主数据治理体系的搭建与运营，制定数据标准、质量管理与数据安全与权限管控机制，并主导制定主数据管理制度与流程规范，推动在各业务域的落地执行；
+2、负责各领域数据治理工作，统筹业务系统数据架构及核心主数据域（客户、供应商、物料、组织等）的模型与编码规则，定期开展数据质量评估，推动整改；
+3、主导主数据管理（MDM）平台的规划、选型、实施与持续迭代，打通各业务系统数据壁垒，提升数据流转效率；
+4、协同供应链、销售、财务、HR等部门推动数据治理问题闭环解决。",数据治理 供应链 MDM ERP CRM DAMA CDMP,https://jobs.51job.com/kunshan/173187997.html?s=sou_sou_soulb&t=0_0&req=12f7ded689c10ff334ac9ed919e3bf86
+图像处理工程师（实习生）,苏州博特勒机器人,200元/天,昆山,昆山,本科,在校生/应届生,2026-07-28 13:14:08,job51,"岗位职责
+1、负责公开图像数据集的收集、筛选、清洗、整理与预处理工作；
+2、按照项目规范完成图像数据标注、自查质检，保证训练数据质量；
+3、协助算法工程师开展大模型训练、微调、实验测试及结果整理；
+4、记录训练日志、汇总实验数据，协助完成模型迭代优化；
+5、完成数据归档、资料整理及团队交办的研发辅助工作。
+6、领导临时安排的其他工作事项。
+
+任职要求
+1、本科及以上在读，计算机、人工智能、自动化、图像处理等相关专业；
+2、了解图像算法、大模型基础，熟悉数据处理流程优先；
+3、掌握基础Python、熟悉常用图像处理工具者优先；
+4、做事细心踏实、有责任心，对模型训练感兴趣；",大模型 Python,https://jobs.51job.com/kunshan/173065478.html?s=sou_sou_soulb&t=0_0&req=12f7ded689c10ff334ac9ed919e3bf86
+数据库工程师,大金氟化工（中国）,2-3.5万·15薪,常熟,常熟,硕士,3年及以上,2026-07-23 09:37:15,job51,"岗位职责： 
+1.负责企业级数据库系统的架构设计与实施部署； 
+2.维护优化关系型数据库(MySQL/Oracle)及非关系型数据库(MongoDB/Redis)集群； 
+3.开发高效ETL流程处理日均TB级数据量； 
+4.设计数据库灾备方案确保99.9%系统可用性。 
+
+任职要求： 
+1.硕士及以上学历，计算机相关专业，3年以上数据库开发经验； 
+2.精通SQL语言及至少一种编程语言(Python/Java)； 
+3.熟悉主流数据库系统及大数据框架(Hadoop/Spark)； 
+4.持有OCP/MCDBA等数据库认证者优先。",MySQL Oracle MongoDB Redis SQL Python Java Hadoop Spark,https://jobs.51job.com/changshu/167533826.html?s=sou_sou_soulb&t=0_0&req=63382040356f33a1d3838fd656a673d7
+数据分析员,江苏泗阳永益食品,4-4.5千,宿迁,宿迁,高中,1年及以上,2026-08-03 16:39:37,job51,"岗位要求：
+1、22-35岁，高中以上学历，专业不限；
+2、一年以上统计员工作经验；
+3、熟练使用办公的软件，对数字敏感、做事认真负责；
+岗位职责：
+1.生产车间各项数据的统计整理，协助生产各类培训及培训；
+2.车间人员考勤、考核，协助车间主任跟进专项工作；",培训,https://jobs.51job.com/suqian/158712106.html?s=sou_sou_soulb&t=0_0&req=1e1e6875523a1b0526209546c2c045ee

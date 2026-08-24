@@ -1,0 +1,1773 @@
+﻿job_name,company_name,salary,work_area,city,education,work_year,issue_date,source,skill_requirements,tech_tags,job_url
+FDE工程师,苏州富纳智能科技,1-2万,苏州,苏州,本科,3年及以上,2026-08-07 13:23:41,job51,"岗位职责 深⼊客户⼀线，将模糊业务需求拆解为清晰的技术架构⽅
+案与执⾏计划；
+负责数据集成与系统对接；AI ⽅向负责⼤模型微调、RAG
+系统构建、Agent ⼯作流搭建；
+将⽅案⾼质量部署⾄客户私有云 / 本地基础设施，处理边
+界案例与性能优化；
+沉淀前线通⽤需求与产品缺陷，⾼保真反馈总部研发，推
+动标准化产品迭代；
+制作操作⼿册、开展客户培训，保障⽅案⻓期稳定运⾏。
+⼯作内容 场景拆解 · 定制开发（RAG / Agent）· 现场部署（Docker
+/ K8s / 私有云）· 客户培训 · 项⽬全周期交付与持续优化 ·
+产品反馈闭环。
+具体要求 本科及以上，计算机相关；扎实算法与代码功底，精通
+Python / Java / Go ⾄少⼀种；
+熟悉 LLM 原理，有 RAG、向量数据库、Agent 开发或⼤
+数据组件（Spark / Flink）实战经验；
+熟练 Docker / Kubernetes，熟悉主流公有云（阿⾥云
+等）部署；
+极强沟通⼒，兼具""⼯程脑""与""商业脑""，能快速理解制造
+业业务逻辑；
+抗压⾃驱，适应短期出差 / 驻场（富纳含常熟、苏州及合
+作基地驻场）。",RAG Agent Docker K8s Python Java Go LLM 向量数据库 Spark Flink Kubernetes 产品迭代 培训,https://jobs.51job.com/suzhou/173189629.html?s=sou_sou_soulb&t=0_0&req=6a696ca852c0e00ceabb328125e330cb
+golang开发工程师,恩士迅信息科技（中国）,1.5-2.2万·13薪,苏州,苏州,本科,5年及以上,2026-06-23 16:44:44,job51,"职位描述
+熟悉并发编程与微服务开发的工程师。负责高性能后端服务的开发与维护，推动系统架构演进，支撑业务快速增长。
+岗位职责
+1、使用Golang开发高性能、可扩展的微服务；
+2、参与系统架构设计，推动技术方案落地；
+3、编写技术文档，参与代码评审与性能调优。
+任职要求
+1、本科及以上学历，计算机相关专业，5年以上Golang开发经验；
+2、精通Golang并发模型，熟悉Goroutine调度、Channel通信及Sync包使用；
+3、熟练使用Gin、Echo等常用框架，有Golang项目实战经验；
+4、熟悉MySQL、PostgreSQL等关系型数据库及Redis、MongoDB等NoSQL数据库；
+5、了解微服务架构，有RESTful/gRPC API设计经验；
+6、具备良好的系统设计能力和代码规范意识；
+7、熟悉AI Programming开发基础，熟练使用AI编程工具。
+ 
+加分项
+1、熟悉Docker、Kubernetes、Helm等容器化与部署工具；
+2、有高并发、分布式系统开发经验；
+3、熟悉云原生技术栈，有Service Mesh（如Istio）实践经验；
+4、了解DevOps流程，有CI/CD工具链使用经验。",微服务 Golang Go Gin MySQL PostgreSQL Redis MongoDB SQL gRPC Docker Kubernetes Helm 容器化 高并发 分布式 云原生 Istio DevOps CI/CD 技术方案 技术文档,https://jobs.51job.com/suzhou/172657957.html?s=sou_sou_soulb&t=0_0&req=6a696ca852c0e00ceabb328125e330cb
+golang开发工程师,苏州清陶新能源科技,2-3万,昆山,苏州,本科,3年及以上,2026-06-29 08:47:23,job51,"岗位职责：
+1.基于公司现有EMS底层架构，使用Go语言进行核心功能模块开发
+2.优化系统性能，确保高并发场景下的数据实时性与稳定性
+3.协助算法团队实现能量管理策略（如峰谷套利、需求响应等），并集成至EMS平台
+4.对接储能设备（如BMS、PCS）、电网调度系统、云平台等外部接口，确保数据交互与协议兼容
+5.负责系统联调、测试用例编写及问题定位修复
+6.编写技术文档（设计文档、接口规范、维护手册等）
+7.为运营、测试团队提供技术支持，协助解决现场部署问题
+ 任职要求：
+1.本科及以上学历
+2.精通Go语言开发，3年以上实际项目经验，熟悉Goroutine、Channel等并发机制
+3.熟悉数据库（如MySQL、Redis、时序数据库）设计与优化，掌握高性能数据存储方案
+4.熟悉Linux环境开发，掌握Docker、Kubernetes等容器化技术者优先
+5.熟悉微服务架构、消息队列（如Kafka、RabbitMQ）者优先
+6.具备良好的沟通与团队协作能力，学习能力强，责任心强，注重代码质量与系统稳定性，具备性能优化意识，能快速理解业务需求并转化为技术方案
+7.有能源管理、储能EMS系统开发经验 、或了解储能系统架构（含BMS、PCS、EMS交互逻辑）的优先
+8.具备良好的英语听说读写能力
+9.持有电气工程、自动化、计算机等相关专业本科及以上学历",Go 高并发 MySQL Redis Linux Docker Kubernetes 容器化 微服务 Kafka RabbitMQ 测试用例 技术文档 技术支持 技术方案,https://jobs.51job.com/kunshan/172716916.html?s=sou_sou_soulb&t=0_0&req=6a696ca852c0e00ceabb328125e330cb
+IOT工程师,麦豆智能电气（苏州）,8千-1.2万·13薪,苏州·高新区,苏州,本科,3年及以上,2026-07-24 14:36:10,job51,"岗位职责
+1. 负责公司物联网设备管理平台的设计与开发，包括：
+ * 用户账号体系
+ * 项目管理
+ * 设备管理
+ * 数据采集与存储
+ * 设备远程控制
+ * 数据可视化展示
+2. 负责 MQTT 物联网通信平台开发
+ * 设备接入管理
+ * MQTT Topic 设计
+ * 消息订阅与发布
+ * 设备状态管理
+ * 数据解析与处理
+3. 负责后端服务开发：
+ * 设计 RESTful API 接口
+ * 用户权限管理
+ * 多项目、多设备数据隔离
+ * 设备控制指令下发
+ * 操作日志、报警记录等功能开发
+4. 负责数据库设计与优化：
+ * 设备信息管理
+ * 电能数据存储
+ * 历史数据查询
+ * 数据统计分析
+5. Web 管理平台开发：
+ * 项目列表
+ * 设备列表
+ * 实时数据展示
+ * 电能曲线
+ * 分合闸控制界面
+6. 负责系统部署、调试和维护：
+ * Linux服务器部署
+ * Docker环境搭建
+ * MQTT服务器维护
+ * 系统性能优化
+
+# 任职要求
+1. 熟悉后端开发，有物联网平台开发经验。
+2. 熟练掌握以下一种或多种后端语言：
+ * Go（优先）
+ * Java
+ * Python
+ * Node.js
+3. 熟悉 MQTT 协议：
+ * Topic设计
+ * QoS机制
+ * 消息发布/订阅
+ * 设备在线状态管理
+4. 熟悉数据库：
+ * MySQL / PostgreSQL
+ * 数据表设计
+ * SQL优化
+5. 熟悉 Web 开发：
+ * REST API设计
+ * WebSocket实时通信
+ * 前后端分离开发
+6. 熟悉 Linux 环境：
+ * 服务部署
+ * 日志分析
+ * 网络调试",MQTT Linux Docker Go Java Python Node.js MySQL PostgreSQL SQL WebSocket 项目管理 数据采集 日志分析,https://jobs.51job.com/suzhou-gxq/173032348.html?s=sou_sou_soulb&t=0_0&req=6a696ca852c0e00ceabb328125e330cb
+AI全栈工程师,杭州凡略科技,1.5-2万,苏州·吴中区,苏州,本科,5年及以上,2026-07-24 10:27:47,job51,"工作职责
+1.负责核心业务前/后端设计、开发、优化与运维，完成数据库建模、接口设计、SQL调优、分布式问题处理，保障系统稳定高可用。
+2.熟练使用Cursor、Claude Code、Trae等工具，通过精准Prompt驱动AI完成代码开发、重构、BUG修复、测试与文档生成，甄别并优化AI代码，规避漏洞与性能问题，保证代码质量。 
+3.承接前端简单功能开发与前后端联调，实现业务功能闭环落地。 
+4.落地AI编程实践，沉淀Prompt模板、开发与审核规范，推动团队研发智能化升级。
+
+任职资格
+1.本科及以上，5年及以上开发经验，计算机基础扎实。 
+2.熟练掌握 Java，精通MySQL数据库优化，熟悉Redis、MQ、分布式、微服务基础。 
+3.深度理解 Vibe Coding 研发模式，不局限简单补码，可精准通过自然语言驱动AI完成复杂业务开发、重构与排错，具备AI代码校验、优化、重构能力。 
+4.熟悉TS、Vue/React，可独立完成前后端联调，了解Docker、CI/CD基础部署流程。
+5.适应AI极速迭代节奏，抗压及学习能力强，愿意拥抱新型研发范式，追求高效高质量交付。",SQL 分布式 高可用 Prompt Java MySQL Redis 微服务 Vue React Docker CI/CD,https://jobs.51job.com/suzhou-wzq/173027831.html?s=sou_sou_soulb&t=0_0&req=6a696ca852c0e00ceabb328125e330cb
+AI工程师（偏软件工程）,江苏皇冠新材料科技,1.5-2.5万,太仓,苏州,本科,5年及以上,2026-06-29 15:22:28,job51,"岗位目的：
+支撑 AI 算法落地，打造胶粘行业智能研发平台与专属 AI 系统驱动全业务链 AI 升级。
+
+ 岗位职责
+1、负责AI应用从原型到产品的全流程开发，涵盖Python后端、前端交互界面及SQL/NoSQL/向量数据库设计，保障系统高性能。
+2、主导或参与代码审查，制定并推广团队代码规范与单元测试、集成测试等测试标准，通过工程化手段维护AI产品代码质量与系统稳定性。
+3、设计并优化CI/CD流水线，完善DevOps开发体系、监控体系及日志系统，提升AI应用部署效率、可观测性及故障恢复能力。
+4、遵循敏捷开发流程，兼顾快速迭代与前瞻性架构设计，持续对系统进行重构和技术改造，平衡短期交付速度与长期可维护性。
+
+任职要求
+1、本科及以上学历，5年及以上软件开发经验。
+2、精通Python及相关框架、前端框架与各类数据库。
+3、有AI应用（RAG/Agent）落地、容器化部署及CI/CD搭建经验。
+4、有制造业或新材料开发相关背景，具备从0到1搭建AI应用系统的架构设计经验的优先考虑。",Python SQL 向量数据库 CI/CD DevOps RAG Agent 容器化,https://jobs.51job.com/taicang/171509714.html?s=sou_sou_soulb&t=0_0&req=6a696ca852c0e00ceabb328125e330cb
+Python工程师(J10970),苏州迈为科技,1.5-2.5万·14薪,苏州·吴江区,苏州,本科,5年及以上,2026-06-24 13:24:29,job51,"工作职责:
+1. 负责公司业务系统及AI相关应用的开发、集成与优化；
+2. 使用 Python（FastAPI / Flask / Django 等框架）开发高性能的 API 与微服务；
+3. 设计并实现与大语言模型（LLM，如 DeepSeek、通义千问等）的接口调用；
+4. 构建和优化 RAG（Retrieval-Augmented Generation） 知识检索与问答系统，集成向量数据库（如 FAISS、Milvus、Chroma、Pinecone 等）；
+5. 参与AI应用架构设计，包括数据流、模型调用、缓存、任务调度与系统性能优化；
+6. 负责AI相关项目的功能实现、测试、上线与维护；
+7. 编写高质量、可复用的代码与文档，参与代码评审与持续集成；
+8. 与前端、算法、产品团队协作，推动AI应用从原型到落地。
+任职资格:
+1. 本科及以上学历，计算机、软件工程、人工智能等相关专业优先；
+2. 具备5年以上Python开发经验，精通Python语言特性及常用库（requests、pandas、numpy、asyncio等）；
+3. 熟练使用主流Web框架（FastAPI、Flask、Django等），具备RESTful API设计经验；
+4. 熟悉数据库系统（MySQL、PostgreSQL、Redis、MongoDB等）；
+5. 熟悉Git版本控制与常见协作流程（GitFlow / Pull Request / Code Review）；
+6. 熟悉LangChain、Transformers、OpenAI API等AI框架或SDK的使用；
+7. 了解RAG、Embedding、向量数据库、Prompt Engineering等AI核心概念；
+8. 具备良好的编码规范、系统设计能力与沟通协作意识。",Python FastAPI Flask Django 微服务 LLM RAG 向量数据库 MySQL PostgreSQL Redis MongoDB Git LangChain Transformer Embedding Prompt Gin,https://jobs.51job.com/suzhou-wjq/169042931.html?s=sou_sou_soulb&t=0_0&req=6a696ca852c0e00ceabb328125e330cb
+大模型应用工程师,材料科学姑苏实验室,1.5-2万,苏州·苏州工业园区,苏州,本科,3-5年,2026-07-07 15:43:59,job51,"岗位职责
+1.负责 AI Agent 系统的设计、开发与迭代，实现工具调用、功能路由、提示词工程及上下文管理等核心模块
+2.独立完成智能体逻辑开发，与后端服务完成集成对接
+3.优化模型调用效率、系统稳定性及输出准确性，配合团队完成 ToB AI 产品研发与交付
+4.关注 AI Agent 技术前沿，结合业务需求优化技术方案，提升产品智能性与易用性
+任职要求
+1.3-5 年开发经验，有 AI Agent、大模型应用开发经验者优先
+2.精通 Python，熟悉 LangChain、AutoGPT 等 Agent 框架，了解主流大模型（GPT、Claude 等）API 调用
+3.具备良好的逻辑思维和问题解决能力，能独立承担模块开发任务
+4.了解后端开发流程，能与业务开发、测试团队高效协作，沟通能力良好
+5.接受孵化公司性质（非实验室正式岗位）",AI Agent 大模型 Python LangChain AutoGPT Agent GPT 技术方案,https://jobs.51job.com/suzhou-gyyq/172825259.html?s=sou_sou_soulb&t=0_0&req=6a696ca852c0e00ceabb328125e330cb
+全栈开发工程师（AI Agent ）,立讯电子科技（昆山）,1-1.8万,昆山,苏州,本科,3年及以上,2026-07-08 14:17:17,job51,"岗位职责
+AI Agent 智能体开发：
+负责AI Agent智能体产品的架构设计、核心功能开发与迭代优化
+基于大语言模型（LLM）构建对话系统、RAG知识检索、工具调用链路等模块
+设计Agent编排流程，实现多智能体协作、记忆管理与自主决策能力
+进行Prompt Engineering与评测调优，提升智能体的准确性与稳定性
+
+Web 前后端开发：
+5. 负责Web产品前后端架构设计与核心功能开发，独立完成从接口到页面的全流程
+6. 前端基于React/Vue构建高性能交互界面，后端基于Python/Go/Java提供稳定API服务
+7. 开发RESTful API/GraphQL接口，实现前后端联调与第三方系统对接
+数据库与服务器运维：
+8. 负责数据库选型、表结构设计、性能调优与日常运维（MySQL/PostgreSQL/Redis等）
+9. 负责服务器部署与管理，搭建CI/CD流水线，保障系统高可用与安全稳定运行
+10. 构建监控告警体系，快速定位并处理线上问题
+基本要求：
+计算机相关专业本科及以上学历，3年以上开发经验
+扎实的编程基础，精通Python，熟悉JavaScript/TypeScript
+具备全栈开发能力，能独立完成前后端开发与部署上线",AI Agent LLM RAG Agent Prompt Gin React Vue Python Go Java MySQL PostgreSQL Redis CI/CD 高可用 JavaScript TypeScript 监控告警 部署上线,https://jobs.51job.com/kunshan/172838500.html?s=sou_sou_soulb&t=0_0&req=6a696ca852c0e00ceabb328125e330cb
+AI应用全栈工程师,苏州联讯仪器,1.5-2.5万·14薪,苏州·高新区,苏州,本科,3年及以上,2026-06-12 19:08:04,job51,"岗位职责：
+1. 深入理解 AE、FAE、驻场工程师、售后和内部员工的真实工作流程，将需求转化为产品功能和业务流程。
+2. 负责具体 Agent 产品的前端、业务后端、BFF、配置和集成开发。
+3. 开发用户登录、项目管理、资料上传、任务创建、执行进度、人工审核、结果展示、导出和历史追溯等功能。
+4. 调用 Agent Harness、Skill、A2A、模型网关、知识库和数据 API，完成具体业务流程配置与产品化。
+5. 开发具体业务场景所需的轻量 Skill、规则、提示词、模板和业务接口。
+6. 建设 Agent 使用量、任务成功率、人工修正率、节省时间和业务效果看板。
+7. 负责产品服务容器化、测试环境部署、自动化测试和上线验证，与 AI 架构工程师及 IT 协作完成生产发布。
+8. 参与客户内网和离线环境的应用适配，处理部署后的产品功能问题。
+9. 持续收集用户反馈，快速迭代产品流程、交互和业务能力。
+10. 对所负责 Agent 产品的交付周期、使用体验、质量和业务效果负责。
+
+任职要求：
+1. 计算机、软件工程或相关专业本科及以上学历，3 年以上全栈或应用研发经验。
+2. 熟悉 React、Vue 等前端框架，并熟悉 Python、Java、Go、Node.js 或 C# 中至少一种后端技术栈。
+3. 能够独立完成从数据模型、API、业务逻辑到前端交互的完整功能开发。
+4. 有大模型应用、Agent、RAG、Function Calling 或 AI 产品开发经验。
+5. 熟悉任务型产品、工作流产品或企业管理系统的交互设计与开发。
+6. 熟悉 Docker、接口测试、自动化测试和基本部署流程。
+7. 能够与业务人员沟通并快速理解复杂业务流程。
+8. 具备较强的产品意识，关注用户是否能够完成任务，而不仅是功能是否开发完成。
+优先条件
+- 有企业级 AI 产品、Agent 产品、低代码工作流或复杂内部系统开发经验。
+- 有工业软件、设备软件、半导体测试、研发工具或售后服务系统经验。
+- 有 IDE 插件、桌面应用、本地服务或客户现场交付经验。
+- 有离线部署、私有化部署或受限网络环境适配经验。",Agent 容器化 React Vue Python Java Go Node.js C# 大模型 RAG Docker 项目管理 知识库 自动化测试,https://jobs.51job.com/suzhou-gxq/172539770.html?s=sou_sou_soulb&t=0_0&req=6a696ca852c0e00ceabb328125e330cb
+Python应用开发工程师（AI方向）,上海悠欧网络工程,1.5-2.3万,苏州·苏州工业园区,苏州,本科,5年及以上,2026-06-30 09:22:17,job51,"岗位职责：
+1、学习、研究国内外主流AI人工智能新技术、新产品，汲取先进的AI理念；
+2、学习、研究国内外前沿AI应用技术、开发框架发展趋势；
+3、参与研究行业课题、发表大模型训推、应用开发相关论文；
+4、参与技术调研、可行性分析，系统、流程结构设计、优化、重构；调试、解决核心技术问题；
+5、参与公司内部项目需求搜集评审、开发测试，通过人工智能等技术向业务部门赋能，落地ToB、ToC金融业务场景；
+6、完成公司交办的其他任务；
+任职要求：
+1、计算机、数学专业，统招本科及以上学历；
+2、五年以上Python编程使用经验，熟悉Linux操作环境，有同等Java、C\C++编程经验者，适当考虑；
+3、具备良好的开发基本功和编程习惯，结构清晰，命名规范，逻辑性强，代码冗余率低，熟练使用基本的数据结构和算法；
+4、熟练掌握Flask/Django，Sqlalchemy，Celery等主流框架，深入理解框架实现原理及特性；熟练使用python的常用库；
+5、较强的逻辑分析和解决问题的能力，积极进取，能够承受一定工作压力，具有良好的团队协作精神；
+6、熟悉敏捷开发、devops，熟练使用ci/cd者优先；
+7、熟悉分布式、多线程、异步及高性能设计、开发及优化；
+8、要求熟悉K8S系统安装、部署，镜像管理，集群系统问题排查；
+9、过往业绩优秀、获得算法竞赛奖项或者参加过算法竞赛、对算法有一定研究者可以适当放宽；
+10、熟悉OpenClaw开发模式，具备使用ClaudeCode或者OpenCode等工具快速开发产品原型Demo能力者优先",大模型 Python Linux Java C++ Flask Django SQL DevOps CI/CD 分布式 K8s,https://jobs.51job.com/suzhou-gyyq/172733192.html?s=sou_sou_soulb&t=0_0&req=6a696ca852c0e00ceabb328125e330cb
+AI Agent 应用工程师 ID209000,罗技科技（苏州）,2.4-3.8万·13薪,苏州·高新区,苏州,本科,8-9年,2026-06-16 12:05:47,job51,"AI Agent 应用工程师（语音与新型人机交互方向）
+
+我们正在寻找一位具有架构师视野的创客（Super Builder），成为连接大模型智能与实体硬件交互的枢纽，主导构建具备自主决策能力的 AI Agent 系统，推动下一代人机交互（HCI）的落地。
+岗位职责
+-	业务需求转化为交互能力： 深入洞察用户在桌面端与硬件端的交互痛点，将模糊的使用场景与用户意图，抽象为可执行的 Agent 决策逻辑与工具调用链路，确保技术方案能有效解决实际交互难题。
+-	下一代交互原型开发： 构建“硬件端 -&gt; 实时语音 -&gt; 系统自动化”的全新人机交互原型，推动用户体验从物理操作向自然语言交互平滑过渡。
+-	工业级任务编排（Orchestration）： 针对复杂、多步骤的系统级及硬件控制任务，设计高鲁棒性的有状态多智能体协同系统（Stateful Multi-Agent System），解决长链路任务中的分支、重试与无限循环死锁问题。
+-	闭环长期记忆系统搭建： 负责设计与落地 Agent 长期记忆架构，攻克“记忆漂移”与上下文污染难点，实现情节记忆与程序记忆的动态融合与智能衰减。
+-	统一软硬件上下文协议： 利用 Model Context Protocol (MCP) 及 Agent Skills 等最新标准与框架，打通硬件状态、本地应用上下文与云端大模型之间的无缝连接。
+-	安全控制与确认门禁： 在任务编排中设计严格的确定性安全边界，确保涉及隐私及关键系统操作时的回滚机制与用户人工确认机制（Human-in-the-Loop）。
+任职要求
+核心能力要求（Core Qualifications）
+-	扎实的软件工程基础： 5 年以上软件开发经验，精通 Python，并对 C/C++、Go 或 Rust 有实际工程经验（用于处理底层硬件通信与高性能音频流）。
+-	高阶 Agent 系统构建： 具备 1 年以上生产环境 Agent 系统设计经验，深刻理解并解决过 Agent 在复杂任务编排中的状态丢失、非确定性行为控制问题。
+-	深入理解 Agent 核心推理范式： 掌握 ReAct、Plan-and-Solve、Reflection 等主流推理架构，具备针对复杂任务场景设计多轮推理与自我修正链路的实战经验。
+-	Agent Skills 与任务编排： 具备 Agent Skills 开发与优化经验，能设计高质量工具集以提升执行效率；具备使用 LangGraph、Temporal、CrewAI 等主流工具（或类似工具）的实际工程经验，能灵活设计有状态的、异步事件驱动的复杂图结构（DAG/Cyclic Graph）。
+-	多模态与语音工程： 熟悉实时音频流处理（WebSockets/WebRTC）、端到端语音模型、STT/TTS 技术的工程化缝合，有处理高并发、低延迟音频交互经验。
+-	记忆与上下文工程： 熟悉现代 Agent 长期记忆架构（情节与程序记忆的动态融合）及记忆工程，能熟练运用向量/图数据库进行数据持久化；熟练掌握 MCP 协议及上下文工程（如 Token 压缩）。
+-	系统级交互与认知： 具备深厚的系统级交互认知，熟悉操作系统底层接口（Windows/macOS API、RPA逻辑）及硬件通信协议，能够打通硬件、本地应用与云端大模型。
+3. 软实力与极客精神
+-	敏捷迭代与安全边界： 具备极强的原型开发与敏捷迭代能力，同时对系统安全边界保持敬畏；在追求创新效率的同时，确保关键系统交互的鲁棒性与稳定性。
+-	卓越的跨界协作： 能够将前沿的 AI 算法需求高效转化为硬件工程师可理解的工程指标，在 AI 与硬件系统之间建立通畅的沟通桥梁。
+-	工程闭环与责任意识： 具备极强的交付责任心，能够通过系统化的测试、监控与验证手段，确保 Agent 在真实物理交互场景下的表现可度量、可复盘，对交付效果负责。
+-	主动探索与自驱力： 面对前沿领域模糊的课题，能够通过主动钻研技术前沿并快速构建验证方案（PoC），表现出极高的技术好奇心与解决复杂问题的韧性。
+加分项
+-	拥有软硬件结合项目（如物联网、机器人、智能穿戴或 DIY 智能硬件）的成功交付经验。
+-	在 GitHub 上有高 Star 且涉及多智能体协同、自动化控制或 MCP Server 相关开源项目。
+-	参加过知名黑客马拉松（Hackathon）并获奖或有完整作品交付。",AI Agent 大模型 Agent Python C++ Go Rust React 多模态 WebSocket TTS 高并发 Git 技术方案,https://jobs.51job.com/suzhou-gxq/172573797.html?s=sou_sou_soulb&t=0_0&req=6a696ca852c0e00ceabb328125e330cb
+全栈开发工程师（AI）,江苏皇冠新材料科技,1.5-2.5万,太仓,苏州,本科,5年及以上,2026-07-03 08:35:27,job51,"岗位目的
+负责胶粘行业AI研发平台、行业专属AI系统的前端架构搭建与落地，联动算法团队完成AI模型产品化，支撑业务全链路智能化升级。
+
+岗位职责
+1、全栈开发：基于Vue/React技术栈负责AI平台、RAG/Agent应用的开发与迭代，实现AI对话、智能检索、数据可视化等应用场景。
+2、AI落地：配合团队完成AI模型上线，负责前后端联调、数据库及向量数据库的数据对接，支撑AI应用从原型到正式落地的全流程交付。
+3、工程化建设：制定并落地前端代码规范，主导代码评审与质量管控；优化CI/CD、监控与日志体系，提升AI产品迭代效率、系统稳定性与可维护性。
+4、架构迭代优化：基于敏捷开发模式，持续优化前端架构，完成系统重构与技术迭代，平衡交付速度与长期可扩展性，支撑业务规模化发展。
+
+任职要求
+1、本科及以上学历，5年及以上全栈开发经验，有AI应用落地经验优先。
+2、精通JavaScript、TypeScript，熟练掌握Vue/React主流框架及生态，具备扎实的工程化、组件封装与性能优化能力。
+3、有RAG、Agent等AI应用前端开发与落地经验，熟悉AI模型前后端对接、向量数据库业务适配流程。
+4、熟悉Python后端基础与常用数据库，具备容器化部署、CI/CD流水线搭建维护能力。
+5、具备良好的架构思维与问题排查能力，可独立完成AI前端模块从0到1的设计与开发，适配敏捷迭代。",Vue React RAG Agent 向量数据库 CI/CD JavaScript TypeScript Python 容器化 产品迭代,https://jobs.51job.com/taicang/172778784.html?s=sou_sou_soulb&t=0_0&req=6a696ca852c0e00ceabb328125e330cb
+AI 业务集成工程师(J10024),苏州铜盟电气,1.5-2.5万,苏州·相城区,苏州,本科,3年及以上,2026-06-30 09:05:42,job51,"工作职责:
+岗位职责
+1.AI Agent 应用开发 设计与开发基于 LLM 的智能体应用，覆盖多工具调用、任务编排、状态机管理、失败兜底等完整工程链路。
+2.企业级系统集成 基于 ERP / MES / WMS / SRM / OA / 协同办公平台等主流企业系统的 OpenAPI / Webhook / 事件总线，实现跨系统数据流转、业务流程编排、状态同步与对账。
+3.业务流程自动化闭环 从邮件、文档、表单等异构数据源出发，构建”数据采集 → AI 解析 → 业务系统操作 → 状态回写”的端到端自动化流程。
+4.AI 模型工程化落地 负责 LLM API 调优、Prompt 工程、结构化输出设计、准确率评估、多模型主备与降级策略，保障 AI 能力在生产环境的稳定性。
+5.生产环境部署与运维 基于 Docker / 云平台搭建生产级服务，保障稳定性、可观测性、数据安全与合规。
+任职资格:
+任职要求
+必备
+1.本科及以上学历，计算机、软件工程、自动化、信息系统等相关专业；3 年以上后端开发经验。
+2.精通 Python，熟练掌握 FastAPI / 异步编程 / Pydantic / pytest 等现代 Python 工程工具链。
+3.至少有 2 种企业级业务系统（ERP / MES / WMS / SRM / CRM / OA 等）的真实 API 对接交付经验——能讲清字段映射、幂等设计、Webhook + 轮询双模式、异常补偿、跨系统对账等工程实践。
+4.有 AI Agent 编排实战经验，熟悉 LangGraph / LangChain / Claude Agent SDK / Dify 中至少一种主流框架，做过完整的 Agent 工程化落地（非 Demo 项目）。
+5.熟悉 PostgreSQL 数据库设计 + Redis 缓存 / 消息中间件，能独立完成 schema 设计、索引优化、消息事件设计。
+6.熟悉 Docker 容器化部署，能独立完成主流云平台（阿里云 / 腾讯云 / AWS 等）的生产环境部署与运维。
+7.有 飞书 / 钉钉 / 企业微信 等协同平台的开发经验（机器人、Webhook、卡片消息、审批流等）。
+软实力（同等重要）
+1.强动手能力：自己写代码、自己调试、自己部署；不止步于技术选型与文档。
+2.强结果导向：习惯把项目从原型推到生产环境真实使用；不沉迷于”完美架构”。
+3.强沟通表达：能用简洁清晰的语言讲清自己做了什么、为什么这么做、踩过什么坑。
+4.心态开放：能在快速变化的业务与技术环境中保持适应力。
+5.长期主义：期望在岗位上沉淀 2-3 年以上，与团队共同成长。",AI Agent LLM Prompt Docker Python FastAPI LangChain Agent PostgreSQL Redis 容器化 阿里云 腾讯云 AWS 数据采集 合规,https://jobs.51job.com/suzhou-xcq/172732798.html?s=sou_sou_soulb&t=0_0&req=6a696ca852c0e00ceabb328125e330cb
+Python开发工程师(J10167),苏州纽威阀门,9千-1.6万·13薪,苏州·虎丘区,苏州,本科,3年,2026-07-09 13:24:01,job51,"工作职责:
+1.	负责公司内部业务系统、自动化脚本及相关功能模块的开发与维护。 
+2.	根据业务需求，完成 Python 程序开发、接口编写、功能优化及问题排查。 
+3.	参与数据库表设计、数据处理及日常脚本编写，提高业务处理效率。 
+4.	配合前后端或业务部门完成系统对接、联调测试及上线支持。 
+5.	参与技术文档、开发文档的编写，持续提升代码质量与系统稳定性。 
+6.	参与 AI Agent 相关功能开发与应用落地，协助实现智能化业务场景。
+任职资格:
+1.	熟悉 Python 基础语法，掌握常用数据结构、函数、模块、面向对象编程等基础知识。 
+2.	熟悉 Flask、Django、FastAPI 等至少一种 Python 开发框架。 
+3.	熟悉 MySQL、PostgreSQL 等关系型数据库，能够编写常用 SQL。 
+4.	熟悉 RESTful API 设计与开发，具备基本接口开发能力。 
+5.	熟悉 Git 等版本管理工具，具备良好的编码习惯。 
+6.	具备较强的问题分析与解决能力，有良好的沟通能力和团队协作意识。 
+7.	熟悉 Python 自动化脚本开发，能够结合 Selenium、Playwright、openpyxl、pandas 等工具完成业务流程自动化。",Python AI Agent Flask Django FastAPI MySQL PostgreSQL SQL Git 技术文档 版本管理,https://jobs.51job.com/suzhou-hq/172852559.html?s=sou_sou_soulb&t=0_0&req=6a696ca852c0e00ceabb328125e330cb
+python工程师,苏州丰航精密金属,1.2-2万,昆山,苏州,本科,3年及以上,2026-07-28 11:28:12,job51,"岗位职责：
+1.生产/制程大数据数据采集及数据仓库建置；
+2.数据分析，依各大数据分析项目所需；
+3.数据治理与Data Model设计；
+4.研究与开发机器学习算法(含深度学习模型研究，模拟与分析)；
+5. 主管安排其他协助事项；
+6. 薪资可谈（视个人能力）
+任职要求
+1. 本科以上学历，计算机科学与技术，软件工程，人工智能，数据科学与大数据技术等专业；
+2 .相关工作经验3年，具备传统产业数据分析经验者优；
+3.具Data warehouse 导入，建置，管理经验；
+4.具Data model设计能力；
+5.具计算机视觉背景；
+6.熟悉Linux运算环境者佳；
+7.具Python、Java、c、c# 经验；",机器学习 深度学习 计算机视觉 Linux Python Java C# 数据采集 数据分析 数据治理,https://jobs.51job.com/kunshan/172984188.html?s=sou_sou_soulb&t=0_0&req=6a696ca852c0e00ceabb328125e330cb
+AI应用工程师,思码睿猎人才咨询（上海）,1.8-2万·14薪,苏州,苏州,本科,3年及以上,2026-07-06 11:26:29,job51,"岗位职责：
+研究市场主流AI工具（如飞书、OpenCLAW、Agent等），评估其在公司业务中的适用性。
+负责AI工具的POC（概念验证）测试，输出可行性报告及落地建议。
+推动AI工具的引入、部署及集成，确保与现有系统的兼容性。
+为业务部门提供技术支持，解决AI工具使用中的技术问题。
+跟踪AI技术发展，持续优化公司AI应用生态
+
+任职资格：
+本科及以上学历，计算机、数据科学、统计学等相关专业，3年以上数据治理或数据开发经验。
+精通SQL，熟悉Python/Java/Golang至少一种编程语言。
+熟悉Oracle、MySQL、PostgreSQL等数据库的权限管理、数据备份等，熟悉SQL语句的优化。
+熟悉数据仓库方法论、理解维度建模，熟悉多项大数据治理/分析相关的工具/框架，如Hadoop、Spark、Flink、Kafka等。
+有主流数据治理平台（如Apache Atlas、Datahub）使用或开发经验。
+熟悉数据仓库/数据湖架构，熟悉Hive、Iceberg、Hudi等技术。
+了解常见的机器学习/深度学习算法，如线性回归、决策树、随机森林、CNN、RNN等。
+对AI技术充满热情，有制造业数据治理经验者优先，熟悉光模块行业数据特点者更佳",Agent SQL Python Java Golang Oracle MySQL PostgreSQL Hadoop Spark Flink Kafka Hive 机器学习 深度学习 技术支持 数据治理,https://jobs.51job.com/suzhou/172803083.html?s=sou_sou_soulb&t=0_0&req=6a696ca852c0e00ceabb328125e330cb
+python工程师,急速国际物流科技（深圳）,1-1.3万,苏州·姑苏区,苏州,大专,3年及以上,2026-07-20 10:35:57,job51,"岗位职责：
+1.负责处理货物全流程监控，各环节产生的异常及时对接处理。
+2.产品各维度报表输出，服务商异常理赔处理，质检部门工作协调管理。
+3.熟悉物流渠道产品，配合产品运营工作，定期输出相关内容。
+4.日常数据的监控和统计总结，能对工作中出现的问题提出优化改进方案
+5.负责汇总，及时分析并反馈给上级领导
+6.完成上级安排的其他工作任务
+任职要求：
+1..大专或以上学历，计算机科学、软件工程或相关专业优先考虑。
+2.至少3年以上Python开发经验，有【电商ERP】【跨境物流WMS】【跨境物流TMS】等相关项目经验
+3.有前端vue，javascript 开发经验优先
+4.熟悉Django、Flask等Python框架，熟练掌握相关开发工具和技术。
+5.具备良好的沟通能力和团队合作精神，能适应快节奏的工作环境。
+6.对新技术有强烈的学习兴趣和能力，能够不断提升自己的技术水平.",Python Vue JavaScript Django Flask,https://jobs.51job.com/suzhou-gsq/172147273.html?s=sou_sou_soulb&t=0_0&req=6a696ca852c0e00ceabb328125e330cb
+高级后端开发工程师,上海寅家电子科技,1.5-2.5万·13薪,苏州·相城区,苏州,本科,5年及以上,2026-07-24 18:18:35,job51,"一、工作描述
+1. 负责割草机器人云平台、设备管理平台的后端系统设计、开发与维护；
+2. 负责机器人与平台之间的通信服务开发；
+3. 负责后端API、数据库、缓存、消息队列等系统的设计与实现；
+4. 负责部分云平台Web管理端的开发和维护；
+5. 与嵌入式团队、算法团队紧密合作，定义接口规范，联调设备控制指令与上报逻辑。
+
+二、任职资格
+1. 本科及以上学历，通信、电子、计算机等相关专业；
+2. 熟悉至少一种主流后端开发语言及技术栈；
+3. 熟悉WebSocket、HTTPS、TCP/IP等网络通信技术；
+4. 熟悉MySQL、PostgreSQL等关系型数据库，具备数据库表结构设计、SQL优化和数据迁移能力；
+5. 熟悉Redis等缓存技术，了解消息队列、异步任务等事件驱动架构；
+6. 熟悉Linux系统及常用运维操作，能够独立完成服务器部署和问题排查；
+7. 熟悉Docker、Nginx、Git等开发和部署工具；
+8. 熟悉HTML、CSS、JavaScript；
+9. 熟悉高德地图、百度地图等至少一种地图开发技术；
+10. 能够独立完成环境搭建、模块设计、开发、测试和上线。",WebSocket TCP/IP MySQL PostgreSQL SQL Redis Linux Docker Nginx Git JavaScript,https://jobs.51job.com/suzhou-xcq/173037502.html?s=sou_sou_soulb&t=0_0&req=6a696ca852c0e00ceabb328125e330cb
+软件工程师  Software Engineer,祐力（中国）投资,20-30万/年,苏州·苏州工业园区,苏州,本科,3年及以上,2026-07-08 10:57:25,job51,"Description
+The full-stack software engineering role will be contributing towards accelerating the automation and digitization efforts of the laboratory operation for UL Solutions. The candidate will be a part of a multidisciplinary team of software engineers, data scientists, architects, and other engineers working toward developing digital tools and automation solutions for the lab. The ideal candidate will have a proven track record of developing web applications and contributing towards enterprise digitization efforts. In this role, you will collaborate closely with users, product teams, technology teams, and management. This position requires a proactive and innovative approach to problem-solving and a commitment to continuous improvement. Our primary technology stack uses JavaScript/TypeScript and Python hosted in Azure.
+
+Responsibilities
+-As a full-stack software engineer, you will be a part of a multidisciplinary team of software engineers, data scientists, architects, and other engineers in working toward developing software solutions for the lab.
+-The ideal candidate will have a proven track record of developing delivering software solutions, features, and remediating issues. 
+-The ideal candidate is experienced in working closely with a focused user base, empathizing with users, understanding users workflows, and delivering on user feedback.
+-Develops and modifies information system programs.
+-Supports the implementation of moderately complex requirements for multiple platforms, operating systems, and applications.
+-Assists problem resolution by devising or modifying procedures.
+-Considers equipment capacity and limitations, operating time, and form of desired results when developing resolutions.
+-Supports the identification of system requirements by interviewing users, interviewing and selecting vendors (if applicable), analyzing applications, evaluating existing and proposed systems, and recommending solutions.
+-Analyzes and isolates application issues and performs problem resolution.
+-Monitors progress of software-based projects by tracking activity, resolving problems, publishing progress reports, and recommending actions.
+-Improves systems performance by investigating problems, developing specifications, identifying trends in technology, and recommending solutions.
+-Works as part of a team.
+-Read and follow the Underwriters Laboratories Code of Conduct and follow all physical and digital security practices.
+-Performs other duties as directed.
+
+
+Qualifications:
+
+-Bachelor’s degree in Computer Science, Engineering, Mathematics, or a related field.
+-3+ years of experience working with modern JavaScript frameworks such as Vue.js, React.js, Angular, or similar.
+-3+ years of backend web development experience using frameworks like Django, Flask, FastAPI, or equivalent.
+-Proven experience collaborating with cross-functional teams in a dynamic environment.
+-This position requires approximately 10% travel.
+-Preferable but not must: Candidates should be able to travel internationally (with a valid passport) for team meetings, training sessions, and project work as needed.
+
+Nice-to-Haves:
+
+-Hands-on experience in an electrical lab is highly beneficial. Backgrounds in electrical engineering, familiarity with bench-top test equipment, soldering, and breadboarding are all strong assets.
+-Proficiency with version control systems, particularly Git and GitHub.
+-Comfortable working with TypeScript.
+-Experience with cloud platforms such as Azure or AWS, as well as containerization technologies like Docker and related tooling.
+-Strong command of Linux environments, including writing and debugging shell/bash scripts.
+-Familiarity with software project management tools such as Azure DevOps or Jira and Agile / SCRUM ways of working.",Gin Git CAN JavaScript TypeScript Python Azure Vue React Angular Django Flask FastAPI ROS AWS Docker Linux Shell DevOps,https://jobs.51job.com/suzhou-gyyq/172426714.html?s=sou_sou_soulb&t=0_0&req=6a696ca852c0e00ceabb328125e330cb
+DevOps工程师,苏州天脉导热科技,1-1.5万,苏州,苏州,本科,3年及以上,2026-06-26 11:15:15,job51,"岗位职责
+1. 容器化基础设施架设与运维（K8s &amp; Docker）
+
+负责生产环境Kubernetes集群的架构设计、部署实施、版本升级及生命周期管理，涵盖Node、Pod、Namespace、ConfigMap等核心资源的配置与优化。
+负责Docker容器化环境的建设与维护，包括容器镜像的构建优化、镜像仓库（Harbor/ACR）的管理以及容器运行时（Runtime）的性能调优。
+解决K8s集群在生产环境中的常见疑难杂症（如Pod Pending、Node NotReady、网络异常、存储挂载失败等），建立完善的故障应急响应机制。
+2. 持续集成与持续交付（CI/CD Pipeline）
+
+基于Jenkins、GitLab CI或ArgoCD等工具，设计并搭建符合开发流程的自动化构建、测试与部署流水线，实现代码提交到生产环境的一键发布。
+结合容器化技术，优化发布策略（如滚动更新、蓝绿部署），完善自动化门禁（代码扫描、单元测试、安全合规检查），提升交付效率与质量。
+3. 系统稳定性与可观测性建设
+
+搭建并维护基于Prometheus + Grafana的监控告警体系，以及基于ELK/EFK的日志分析平台，实现集群、应用及中间件层面的指标采集与可视化。
+负责微服务治理组件（如Nacos、Consul）、消息中间件（Kafka/RabbitMQ）及数据库（MySQL/Redis）在生产环境中的部署、高可用配置与性能调优。
+4. 运维自动化与基础设施即代码（IaC）
+
+熟练运用Shell、Python或Go编写自动化运维脚本，替代重复性人工操作。
+探索并实践基础设施即代码理念，利用Ansible/Terraform进行自动化资源编排与环境一致性管理。
+
+任职要求
+硬性条件（必备）
+
+学历经验： 全日制本科及以上学历，计算机相关专业优先，具备3年及以上Linux运维或DevOps实战经验。
+容器与编排： 深入理解Docker容器技术原理，具备Kubernetes（K8s）生产级集群的架设、运维及排障经验
+CI/CD流水线： 熟练掌握Jenkins、GitLab CI等工具的配置与Pipeline脚本编写，有从零搭建CI/CD流程的落地经验。
+操作系统与网络： 精通Linux操作系统（CentOS/Ubuntu），熟悉TCP/IP、DNS、负载均衡及防火墙策略配置。",容器化 K8s Docker Kubernetes CI/CD Jenkins GitLab CI Go Prometheus Grafana 微服务 Kafka RabbitMQ MySQL Redis 高可用 Shell Python Ansible Terraform Linux DevOps TCP/IP 防火墙 应急响应 安全合规 监控告警 日志分析,https://jobs.51job.com/suzhou/172700042.html?s=sou_sou_soulb&t=0_0&req=fab65c1820ae4a373f2ea90a667c8594
+高级开发运维工程师（DevOps）,苏州联讯仪器,1.5-2.5万·14薪,苏州·高新区,苏州,本科,5年及以上,2026-06-12 19:01:14,job51,"岗位职责:
+1. 负责服务器、存储、容器平台和 Kubernetes 集群的规划、建设、升级及日常运维。
+2. 部署并维护 Kafka、PostgreSQL、Redis、对象存储等基础中间件和数据组件。
+3. 建设开发、测试和生产环境，以及 CI/CD、自动化部署、配置管理和版本发布流程。
+4. 建设日志、监控、告警、链路追踪和运行看板，持续跟踪系统容量、性能和稳定性。
+5. 制定并执行数据备份、恢复验证、高可用、容灾和故障响应方案。
+6. 负责网络访问、域名、证书、防火墙、环境隔离、密钥和基础安全配置。
+7. 负责 AI 网关、Agent 平台、数据服务及具体 Agent 产品的环境部署和运行保障。
+8. 建设客户内网和离线环境的标准化安装包、部署脚本、升级流程及问题排查能力。
+9. 与 AI 架构工程师协作制定基础设施架构、容量规划、部署规范和运行标准。
+10. 与应用、数据及现有 IT 团队协作处理发布、性能、故障和生产环境问题。
+
+任职要求:
+1. 计算机/网络工程/软件或相关本科及以上学历，5 年以上 DevOps、SRE、云平台或基础设施运维经验。
+2. 具备从零建设并实际运维生产级 Kubernetes 集群的经验，而不只是使用已有 Kubernetes 环境。
+3. 熟悉 Docker、Helm、Kubernetes 网络、存储、权限和常见故障排查。
+4. 熟悉 Kafka、PostgreSQL、Redis、对象存储等组件的部署、监控、备份和故障恢复。
+5. 熟悉 Jenkins、GitLab CI、GitHub Actions、Argo CD 等 CI/CD 和自动化发布工具。
+6. 熟悉 Prometheus、Grafana、ELK、Loki、OpenTelemetry 等日志监控和链路追踪体系。
+7. 熟悉 Linux、网络、域名、证书、防火墙、负载均衡和基础安全配置。
+8. 具备生产故障处理、性能分析、容量规划、备份恢复和高可用建设经验。
+9. 能够编写 Shell、Python 或其他自动化脚本，减少重复部署和人工运维工作。
+0. 能够独立推进基础设施建设，并与研发、现有 IT 和信息安全团队协作。
+
+优先条件
+- 有 AI 平台、模型服务、数据平台或企业级 SaaS 基础设施建设经验。
+- 有 GPU 服务器、推理服务、本地模型或异构计算资源运维经验。
+- 有客户内网、私有化部署、完全离线环境或边缘环境交付经验。
+- 熟悉 Terraform、Ansible 等基础设施即代码和自动化配置工具。
+- 有多集群管理、零停机升级、容灾演练和复杂生产故障处理经验。",Kubernetes Kafka PostgreSQL Redis CI/CD 高可用 防火墙 Agent DevOps Docker Helm Jenkins GitLab CI Git Go Prometheus Grafana Linux Shell Python Terraform Ansible 故障排查,https://jobs.51job.com/suzhou-gxq/172539730.html?s=sou_sou_soulb&t=0_0&req=fab65c1820ae4a373f2ea90a667c8594
+Linux软件（BAU/EMS）,固德威技术,1.5-3万·14薪,苏州·高新区,苏州,本科,2年及以上,2026-07-02 16:25:46,job51,"岗位职责
+1.负责储能 EMS（能源管理系统）软件设计开发，基于嵌入式 Linux 平台
+2.负责多协议通信模块开发（CAN、Modbus、IEC61850、MQTT 等）
+3.配合边缘计算功能开发的集成
+4.负责云平台对接开发（数据上报、远程控制、OTA 升级）
+5.负责软件架构设计、模块划分及核心代码编写
+6.负责技术文档编写及代码维护
+
+任职要求
+1.本科及以上，计算机/电子/自动化相关专业
+2.2 年以上 Linux 应用开发经验
+3.精通 C/C++，熟悉 Python/Shell 辅助脚本
+4.熟练掌握 Linux 系统编程（进程/线程/网络/文件 I/O）
+5.熟悉 TCP/UDP Socket 编程，有 CAN/485 开发经验优先
+6.熟练使用 GCC/GDB/Makefile/CMake，Git 版本管理",Linux CAN Modbus MQTT C++ Python Shell CMake Git 技术文档 版本管理,https://jobs.51job.com/suzhou-gxq/172774488.html?s=sou_sou_soulb&t=0_0&req=fab65c1820ae4a373f2ea90a667c8594
+高级后端工程师（技术组长）,苏州方桥机电,1.3-2万,苏州·相城区,苏州,本科,3年及以上,2026-07-04 15:47:38,job51,"岗位职责
+1.技术底座建设（核心）：从已交付的多个智能体项目中提炼公共技术底座——统一LLM调用层、文档解析管道、人机协作审批框架、部署监控体系，将单个智能体的开发周期从2个月压缩至3-4周；
+2.技术团队管理：带领3-4名工程师，负责技术方案评审、code review、开发规范建立；
+3.核心模块开发：亲自承担高复杂度模块，包括鼎捷E10 ERP深度集成、CNC加工设备数据采集管道（硬件已施工完成，需完成OPC UA/Modbus软件层对接）；
+4.对外交付支撑：参与行业智能体（法律、知识产权、财务审计方向）的架构设计，建立可复制的交付标准。
+任职要求
+1.Python后端开发3年以上，精通FastAPI/Flask、MySQL/PostgreSQL、Redis；
+2.有企业系统集成实战经验（ERP/MES/OA任一，有鼎捷/用友/金蝶对接经验者优先）；
+3.独立完成过至少1个完整系统的架构设计和交付；
+4.Linux环境部署运维能力（Docker优先）。
+加分项：
+1.LLM应用开发经验（API调用、提示词工程、RAG）——不要求算法研究能力，要求工程落地能力；
+2.工业协议对接经验（OPC UA/Modbus/MTConnect）；
+3.有带3人以上小团队经验；
+4.制造业信息化背景。",LLM Modbus Python FastAPI Flask MySQL PostgreSQL Redis Linux Docker RAG 团队管理 技术方案 数据采集 知识产权 审计,https://jobs.51job.com/suzhou-xcq/172794897.html?s=sou_sou_soulb&t=0_0&req=fab65c1820ae4a373f2ea90a667c8594
+全栈开发工程师,江苏亨通数字智能科技,1.3-1.9万,苏州·吴江区,苏州,本科,4年及以上,2026-07-28 10:32:43,job51,"一、岗位职责
+1、负责AI视觉安全、网络安全、通用平台等系统功能详细设计工作。
+2、负责产品架构设计、前后端软件开发及迭代完善。
+3、负责产品运维，参与系统实施。
+二、任职要求
+1、4年以上互联网或企业应用软件设计、开发经验，计算机相关专业统招本科或以上学历；
+2、具备一定的架构能力，有良好的代码习惯和文档编写习惯；
+3、前端技术：熟练掌握Vue2/Vue3框架，能够独立完成前端页面开发、组件封装与交互优化；熟练Ant Design、elementUI等主流UI库；
+4、后端技术：熟悉SpringBoot、SpringCloud微服务架构，能够进行后端接口开发、业务逻辑实现与数据库设计；精通其SQL语法，熟悉MySQL数据库，Kafka/RocketMQ消息队列、多线程编程、Redis缓存原理、微服务，了解MQTT协议；；
+5、全栈能力：具备前后端全栈开发能力，可根据个人实际有所侧重，能够独立完成小型项目的从0到1开发与部署；
+6、乐于接受挑战，能承受工作压力。
+7、可以接受出差;
+8、团队协作、沟通能力强，服从领导管理；
+9、做过设备管理系统的优先，有高并发、海量数据、分布式系统开发经验，有性能调优经验者优先；
+10、对AI大模型应用有浓厚兴趣，有相关学习计划或落地实践经验者优先，能够探索AI技术在设备管理场景的创新应用。
+11、了解设备管理业务流程（如设备点检、维护、异常处理等）者优先；
+12、具备良好的文档编写能力，能够编写技术设计文档、用户操作手册等；",Vue Spring 微服务 SQL MySQL Kafka RocketMQ Redis MQTT 高并发 分布式 大模型 文档编写,https://jobs.51job.com/suzhou-wjq/173062283.html?s=sou_sou_soulb&t=0_0&req=fab65c1820ae4a373f2ea90a667c8594
+AI高级工程师,宁波震裕科技,2.5-3.5万·14薪,苏州·虎丘区,苏州,本科,3年及以上,2026-07-13 11:19:22,job51,"工作职责：
+1. 场景发现与落地：深入公司各业务部门，调研并识别 AI 应用场景（如智能知识库、自动化报表分析、AI客服、公文辅助写作等），负责从需求分析到上线的小型 AI 项目全生命周期管理。
+2. 技术方案设计：负责 AI 小场景的技术方案选型（如选择合适的开源模型或商业 API），独立完成基于 RAG 或 Agent 架构的轻量级应用搭建。
+3. 乙方合作伙伴管理：参与公司大型 AI 中台/平台的选型与建设，作为技术接口人监督乙方的实施进度与交付质量，确保平台底层能力能支撑后续业务扩展。
+4. 内生能力沉淀：负责将乙方交付的平台能力进行“甲方化”吸收，编写内部应用开发规范，指导业务部门或 IT 同事利用平台工具快速复制更多业务场景。
+5. 前瞻性研究：跟踪生成式 AI (GenAI) 领域的最新进展，定期进行内部技术分享和 AI 文化布道。
+
+任职资格:
+1. 教育背景：计算机科学、人工智能、机器学习或相关领域的学士或硕士学位。
+2. 核心经验：
+ -- 3年以上 IT 开发或数据相关经验，至少 1 年以上的 LLM 应用落地经验。
+ -- 有成功的“甲方”工作经验或知名咨询/集成商背景者优先。
+ -- 熟悉主流大模型（如 GPT、豆包、文心一言、通义千问等）的特性及其 API 调用。
+3. 知识与技能：
+ -- 精通至少一种编程语言，如Python、Java或C++；
+ -- 熟悉 LangChain, LlamaIndex, Dify 或类似 AI 应用开发框架；
+ -- 理解向量数据库（如 Milvus, Pinecone, Chroma）及 RAG 检索优化原理。
+ -- 具备基础的 Prompt Engineering 技巧及 Agent 开发逻辑。
+4. 软性素质：
+ -- 极强的沟通能力：能听懂业务部门的痛苦，并能用非技术语言解释 AI 的边界。
+ -- 项目管控力：有带项目或管理供应商的经验，结果导向。
+ -- 快速自驱力：AI 技术迭代极快，需要具备极强的自我学习能力。",RAG Agent 机器学习 LLM 大模型 GPT Python Java C++ LangChain 向量数据库 Prompt Gin 知识库 需求分析 技术方案,https://jobs.51job.com/suzhou-hq/172884236.html?s=sou_sou_soulb&t=0_0&req=fab65c1820ae4a373f2ea90a667c8594
+(德资) Web全栈开发工程师,苏州美名软件,1.2-2万·13薪,苏州·苏州工业园区,苏州,本科,5年及以上,2026-08-06 13:15:06,job51,"Responsibilities 工作职责
+1. Design and implement high-quality software solutions that meet business requirements and align with architectural standards.
+设计并实现高质量的软件解决方案，满足业务需求并符合架构标准。
+2. Ensure software quality through the development and execution of comprehensive testing strategies, including unit and integration testing.
+通过制定并执行全面的测试策略（含单元测试、集成测试）来保障软件质量。
+3. Participate in requirement analysis and technical design discussions, providing feasible and scalable solutions.
+参与需求分析和技术方案讨论，提供可行且具备扩展性的解决方案。
+
+Requirement 任职要求
+1. Bachelor Degree in Computer Science, Software Engineering, or related fields, with more than 5 years of work experience in full-stack software development
+计算机科学、软件工程或相关专业本科五年以上工作经验
+2. At least 3 years of web application development experience, with excellent front-end development skills in JavaScript (ES6+), CSS3, HTML5, and modern frameworks such as React, Vue, or AngularJS. Experience with Angular is a strong plus.
+至少三年以上 Web 应用开发经验，精通 JavaScript (ES6+)、CSS3、HTML5 及现代前端框架（如 React、Vue 或 Angular）。有 Angular 经验者优先。
+3. Strong back-end development skills in C# and .NET, with solid experience in designing and building RESTful APIs.
+扎实的 C# 及 .NET后端开发能力，具备丰富的 RESTful API 设计及开发经验。
+4. Hands-on experience with Docker containerization and managing containerized application deployments.
+具备 Docker 容器化及容器化应用部署管理的实战经验。
+5. Familiarity with Azure DevOps, including CI/CD pipeline configuration (YAML pipelines) and repository management (Git).
+熟悉 Azure DevOps，包括 CI/CD 流水线配置（YAML Pipeline）及代码仓库管理（Git）。
+6. Experience with automated testing, including unit testing and integration testing, with familiarity of testing frameworks such as xUnit, NUnit, or MSTest.
+具备 单元测试、集成测试 等自动化测试经验，熟悉 xUnit、NUnit 或 MSTest 等测试框架。
+7. Good command of spoken and written English for technical communication and documentation.
+具备良好的英语读写能力，能够进行技术沟通和文档撰写。",Scala Gin JavaScript CSS3 HTML5 React Vue Angular C# Docker 容器化 Azure DevOps CI/CD Git Go 需求分析 技术方案 自动化测试,https://jobs.51job.com/suzhou-gyyq/173174471.html?s=sou_sou_soulb&t=0_0&req=fab65c1820ae4a373f2ea90a667c8594
+Full Stack Engineer（全栈工程师）,恩立经济咨询（深圳）,2.5-3.5万·13薪,苏州·苏州工业园区,苏州,本科,3年及以上,2026-08-04 11:52:20,job51,"任职要求：
+①统招本科及以上学历，计算机科学、软件工程、电子信息等相关专业；
+②3年及以上AWS/移动端/数据库全栈开发工作经验；
+③熟悉TypeScript、React 框架，具备独立前端开发及可视化模块的能力；
+④熟练掌握Python后端开发，精通 FastAPI/Flask 框架，具备规范的RESTful API设计开发经验；
+⑤ 具备扎实的AWS云服务实操能力，熟练使用S3、DynamoDB、Lambda、IAM、CloudFormation/CDK等核心服务；
+⑥拥有AWS SageMaker生产环境实操经验，熟练完成模型训练、推理部署、ML流水线搭建、模型仓库管理等全流程操作；
+⑦具备AWS物联网项目实操经验，对IoT Core、Greengrass、设备管理、MQTT通信协议有一定的了解和应用，了解边缘设备云端协同逻辑。
+⑧英语口语基本沟通，可熟练读写英文技术文档、参与英文工作会议，适配客户海外跨团队协作。 
+⑨工作 base 地点：深圳/上海/苏州（居家+20%的出差）",AWS TypeScript React Python FastAPI Flask MQTT 技术文档,https://jobs.51job.com/suzhou-gyyq/173142819.html?s=sou_sou_soulb&t=0_0&req=fab65c1820ae4a373f2ea90a667c8594
+云计算工程师(J10212),吴江市东吴机械,9千-1.8万·13薪,苏州·虎丘区,苏州,本科,3年,2026-07-30 14:15:16,job51,"工作职责:
+1、负责云平台建设与维护，设计业务上云规划与后期运维；
+2、实施多区域高可用与灾备架构，保障业务连续性；
+3、对云资源使用与效率进行监控与维护，保障云系统稳定与资源合理；
+4、构建敏捷开发流程体系，与开发运维进行联动合作。
+任职资格:
+1、熟悉主流公有云平台（AWS，阿里云，Azure等）具备云资源管理与优化经验；
+2、熟悉CI/CD工作流以及相关工具使用（如Jenkins，Gitlab，ArgoCD等）；
+3、熟悉容器化（Docker，Kubernetes）；
+4、对网络、安全、负载均衡与微服务概念有深度理解；
+5、有从事公有云工作经验优先。",高可用 AWS 阿里云 Azure CI/CD Jenkins Git Go 容器化 Docker Kubernetes 微服务,https://jobs.51job.com/suzhou-hq/173098535.html?s=sou_sou_soulb&t=0_0&req=fab65c1820ae4a373f2ea90a667c8594
+全栈开发工程师,苏州中析生物信息,1.5-2.5万,苏州·吴中区,苏州,本科,3年及以上,2026-07-28 16:17:30,job51,"你将负责贯穿 IVD 设备全生命周期的软件系统开发与维护，核心职责如下：
+
+岗位职责：
+参与 IVD 仪器（生化、免疫、血球、分子诊断等）的上位机/下位机软件开发。
+基于 Linux / Yocto / Ubuntu​ 环境，编写设备控制逻辑、仪器状态监控及故障诊断程序。
+负责设备与外部模块（电机、传感器、光学部件、扫码器等）的串口/网口通信协议（如 TCP/IP, UDP, RS232, Modbus, HL7, ASTM）开发与解析。
+优化 Linux 系统性能，编写 Shell/Python 脚本实现设备自动化运维与日志收集。
+使用 C# / Python / Go​ 等语言，开发高并发、高可用的业务微服务。
+负责 LIS/ LIMS的数据接口对接，确保符合医疗数据标准。
+设计并实现海量检验数据的存储、清洗与分析引擎（MySQL / PostgreSQL / MongoDB / Redis）。
+开发 IVD 设备的本地触控屏操作界面（HMI）
+开发面向管理人员的Web 数据看板与管理后台（Vue.js）。
+实现流程的可视化、仪器状态的实时 3D/2D 动画展示及报表导出功能。
+参与医疗云平台（AWS / 阿里云 / 私有云）的架构设计与落地。
+基于 Docker / Kubernetes​ 实现服务的容器化部署与弹性伸缩。
+搭建 CI/CD 流水线（Jenkins / GitLab CI），保障代码质量与快速迭代。
+探索并应用 IoT 物联网平台，实现移液工作站设备的远程监控、OTA 升级与预测性维护。
+
+任职要求：
+本科及以上、计算机/软件相关专业；3 年以上 .Net 开发经验
+1.精通 C#，熟练 .NET Framework / .NET Core / .NET 5+
+2.熟练掌握 ASP.NET Core、MVC / Web API，熟悉 IOC、DI、AOP、RESTful API 设计规范
+
+加分项
+1.有音视频流处理、边缘计算或 AI 算法工程化落地经验。
+2.有自己的开源项目
+3.竞赛经历",Linux TCP/IP Modbus Shell Python C# Go 高并发 高可用 微服务 MySQL PostgreSQL MongoDB Redis Vue AWS 阿里云 Docker Kubernetes 容器化 CI/CD Jenkins GitLab CI,https://jobs.51job.com/suzhou-wzq/173070612.html?s=sou_sou_soulb&t=0_0&req=fab65c1820ae4a373f2ea90a667c8594
+高级全栈开发工程师,江苏硕晟软件科技,1.2-2万,苏州·吴中区,苏州,本科,8年及以上,2026-07-25 15:56:23,job51,"岗位职责:
+1、负责项目前后端全栈研发，涵盖用户、商户、订单、支付、会员营销等核心业务模块。
+2、负责APP、H5、小程序、运营后台、商家后台开发，接口设计、业务逻辑开发、数据库设计及性能优化。
+3、对接微信/支付宝支付、地图定位、短信推送、OSS存储等第三方服务，保障系统高并发、高可用、数据稳定。
+4、参与技术方案评审、问题排查、版本迭代与线上维护，持续优化产品体验与系统性能。
+
+任职要求:
+1、本科及以上学历，8年以上全栈开发经验，有本地生活/同城服务/外卖APP/出行app/旅游app/商旅/家政/招聘等项目经验优先。
+2、前端熟练掌握
+语言:JavaScript, Dart, Swift, Kotlin
+框架：uni-app / React Native / Vue, Flutter, iOS
+原生，Android原生。
+3、后端精通
+开发语言:Java/PHP
+Java 框架:Spring/Spring Boot，具备SpringCloud微服务架构或经典分层架构
+PHP框架:ThinkPHP/Laravel主流框架
+4、熟悉SpringCloud, MyBatis-Plus, Node.js/Nest5、熟练使用MySQL、Redis，懂索引优化、事务、分布式缓存、高并发处理。
+6、熟悉Linux、Git，了解Docker部署，有支付对接、地图集成、订单系统开发经验优先。
+7、逻辑思维强，能独立攻坚业务模块，沟通协作好，抗压能力强，具备良好代码规范和自驱力。",高并发 高可用 JavaScript Swift Kotlin React Native Vue Flutter Java PHP Spring Spring Boot 微服务 MyBatis-Plus Node.js MySQL Redis 分布式 Linux Git Docker 技术方案,https://jobs.51job.com/suzhou-wzq/172673826.html?s=sou_sou_soulb&t=0_0&req=fab65c1820ae4a373f2ea90a667c8594
+前后端开发工程师（全栈方向）,腾创益昂资讯科技（太仓）,1-1.5万·13薪,太仓,苏州,本科,3年及以上,2026-07-06 18:00:54,job51,"一、岗位职责：
+ 全栈开发：负责公司产品/Web应用的前后端代码编写、功能开发与迭代维护，技术栈涵盖 Vue/React 前端框架及 Java 后端服务；
+ 模块独立交付：能够独立承担完整业务模块的设计、开发、联调与上线，从前端交互到后端接口形成端到端闭环；
+ 项目维护：胜任单个项目的独立维护与持续优化，包括缺陷修复、性能调优、技术债务治理；
+ AI 赋能研发：将 AI 编程工具（如 Agent 编辑器、Vibe Coding 工作流）深度融入日常开发，提升交付效率与代码质量；
+ 技术探索：关注并研究当前 AI 技术发展现状，探索 AI 能力在业务场景中的落地应用，推动技术方案创新。
+二、任职要求：
+1. 技术能力
+前端方向：
+ 熟练掌握 Vue.js（Vue2/Vue3）或 React 框架，理解其核心原理（响应式、虚拟 DOM、组件生命周期等）；
+熟悉 HTML5、CSS3、JavaScript（ES6+）/ TypeScript；
+熟悉常见前端工程化工具（Webpack/Vite、npm/yarn/pnpm）、状态管理（Vuex/Pinia/Redux）；
+了解前端性能优化、跨端适配、浏览器兼容性处理。
+后端方向：
+熟练掌握 Java 语言，熟悉 Spring Boot / Spring Cloud 等主流框架；
+熟悉关系型数据库（MySQL/PostgreSQL）及常见 NoSQL（Redis 等），具备 SQL 调优能力；
+了解 RESTful API 设计规范，熟悉微服务架构、消息队列等中间件；
+ 熟悉 Linux 常用命令、Docker 容器化部署、CI/CD 流程。
+2. 项目经验
+ 有过同时承担前后端职责的实际项目经历，能清晰描述在项目中独立负责的模块及技术方案；
+ 具备从需求分析、技术选型、编码实现到测试上线的全流程实践经验；
+ 有 GitHub/Gitee 开源项目或技术博客者优先。
+ 3. AI 编程能力
+ 熟悉 Vibe Coding 工作模式，熟练使用主流 AI Agent 编辑工具（如 Cursor、Windsurf、Qoder、Copilot 等）完成日常编码、重构、调试、文档生成等任务；
+ 能够利用 AI 工具进行代码审查、单元测试生成、技术方案探索，显著提升开发效率；
+ 理解 AI 辅助编程的优势与边界，能在效率与质量之间取得平衡。",Vue React Java Agent HTML5 CSS3 JavaScript TypeScript Webpack Vite YARN Spring Boot Spring Cloud MySQL PostgreSQL SQL Redis 微服务 Linux Docker 容器化 CI/CD Git AI Agent 技术方案 需求分析,https://jobs.51job.com/taicang/172812370.html?s=sou_sou_soulb&t=0_0&req=fab65c1820ae4a373f2ea90a667c8594
+智能体开发工程师,锦祥纺织科技（苏州）,2-4万,苏州·吴中区,苏州,本科,1-3年,2026-06-25 18:17:33,job51,"一、招聘要求：
+1、具备建立商业智能体制，制造业智能体&nbsp;数字员工智能体的核心技能。
+2、本科及以上学历，计算机、软件工程、人工智能等相关专业，1-3年及以上 AI Agent/大模型应用开发实战经验；
+3、具备扎实的 Python 后端开发功底，完整参与过至少一套企业级智能体、RAG 系统、AI 自动化平台落地项目；
+4、深刻理解 LLM 工作原理、Agent 核心机制（记忆、规划、工具调用、多智能体协作），具备独立设计复杂智能体的能力；
+5、熟练使用主流 Agent 框架与向量数据库，具备从0到1搭建 AI 智能体应用的完整经验；
+6、具备良好的代码规范、工程思维与问题排查能力，可独立解决线上模型报错、链路异常、精度不足等问题；
+7、逻辑清晰、学习能力强，能快速跟进大模型与 Agent 新技术，具备良好的沟通协作与需求理解能力；
+8、有业务自动化、办公智能体、行业知识库、多模态智能识别项目经验者优先。
+
+二、需具备专业技术
+1、熟练掌握 Python 工程化开发，熟悉 FastAPI/Flask 后端框架，具备异步开发、接口封装、服务部署能力； 
+2、精通大模型应用开发，熟悉 LLM 调用机制、流式输出、上下文管理、Function Calling、Agent 任务循环调度； 
+3、熟练使用主流 Agent 开发框架，包含 LangChain、LangGraph、AutoGen、Dify 等，具备智能体编排、多智能体协作开发经验； 
+4、掌握 RAG 检索增强技术，熟悉文本切片、向量化、向量数据库（FAISS、Chroma、Milvus）、召回优化、知识库搭建； 
+5、精通 Prompt 工程、思维链设计、任务拆解、工具集成，可独立完成复杂业务 Agent 逻辑设计与迭代优化； 
+6、熟悉大模型微调、模型推理、智能体评测体系，具备 Agent 稳定性、准确率、响应速度优化经验； 
+7、熟练掌握 Docker、Git、Linux 服务部署，具备 AI 应用工程化落地、线上运维与问题排查能力； 
+8、具备多模态识别、OCR、文件解析、自动化工作流集成经验者优先。
+
+三、工作职责：
+1、负责企业级 AI Agent 智能体系统的设计、开发、迭代与落地，独立完成业务智能体、自动化工作流、知识库问答系统开发；
+2、根据业务需求进行任务拆解、Prompt 优化、工具插件开发、链路编排，实现业务自动化、智能问答、数据处理、流程辅助等场景；
+3、负责 RAG 知识库搭建、文档解析、向量检索优化，解决幻觉、召回不准、上下文丢失等行业常见问题；
+4、对接第三方接口、业务系统、文件服务、OCR 识别等能力，完成 Agent 工具链集成与能力扩展；
+5、持续迭代 Agent 能力，优化智能体推理精度、响应速度、稳定性、可用性，输出迭代方案与技术沉淀文档；
+6、跟进 AI Agent 前沿技术，完成技术预研、原型验证、方案落地，支撑业务智能化升级；
+7、配合产品、测试、业务团队完成需求评审、功能联调、线上问题排查，保障系统稳定运行。
+
+三、工作时间/福利
+1、双休，9：00-17：30，国定假正常放假。
+2、入职交五险一金（社保：按税前起薪实缴）。
+3、有薪假与福利健全，公司管理体系完善。",AI Agent 大模型 Python RAG LLM Agent 向量数据库 多模态 FastAPI Flask LangChain Prompt Docker Git Linux 知识库,https://jobs.51job.com/suzhou-wzq/172694196.html?s=sou_sou_soulb&t=0_0&req=fab65c1820ae4a373f2ea90a667c8594
+全栈开发工程师(J10023),苏州真懿医疗,1-2万·14薪,苏州,苏州,本科,3年及以上,2026-07-16 15:58:29,job51,"工作职责:
+1、软件开发与功能实现
+ 对接业务及项目需求，独立完成系统功能、页面、报表开发，以及业务流程配置、插件定制等工作。主要负责MES、E-DHR、ERP对接模块、OA流程及各类配套工具的开发与迭代。按照业务规范完成字段定义、逻辑校验、权限配置、状态流转及数据展示等开发工作；排查修复系统问题，优化系统性能，持续提升系统稳定性与用户体验。
+2、系统集成与接口开发
+ 负责各业务系统、自动化设备之间的接口开发、联调对接与异常排查，实现ERP、OA、MES、E-DHR的数据互通。打通工单、批次、报工、物料消耗、生产参数、质量记录、入库数据等核心业务链路。配合设备团队及第三方供应商完成设备联网、数据采集、接口适配与场景接入，监控核心数据交互过程，闭环各类问题，确保生产数据准确、及时、可追溯。
+3、需求理解与技术转化
+ 参与需求评审、澄清及方案研讨，精准理解业务目标与应用场景。负责将业务需求转化为技术方案，拆解开发任务，制定字段、接口、测试及上线规范。识别开发过程中的技术风险、数据依赖及潜在问题并及时反馈。针对模糊、冲突的业务规则，输出结构化梳理建议，协助业务敲定方案，保障需求高效落地。
+4、测试验证与上线运维
+ 负责开发功能的单元、联调及全场景测试，完成上线前验证。配合业务部门开展用户验收测试，及时整改各类问题，完成上线确认。遵守软件变更与合规管理要求，配合完成权限管控、审计追踪等验证及受控发布。上线后持续跟踪系统运行状态，快速处理功能缺陷、数据异常及用户问题，保障系统稳定运行。
+5、文档编写与技术沉淀
+ 规范编写并维护开发、接口、部署、测试及版本变更等技术文档，确保资料完整可追溯。协助梳理系统使用说明及常见问题文档，提炼通用组件、复用逻辑及问题解决方案，沉淀团队标准化技术资产，提升整体开发效率。
+任职资格:
+1、本科及以上学历，3年以上工作经验。php的laravel开发框架+mysql开发的系统；用uniapp开发微信小程序和app。
+2、熟悉 Web 应用开发、数据库设计、接口开发、数据处理等基本技术能力。能够独立完成需求转技术实现、开发、测试和上线支持。
+3、能理解生产、质量、工艺、设备、仓储等基础业务场景，能够与业务部门进行有效沟通，但岗位重点仍以开发实现能力为主。
+4、具备一定的问题分析与排查能力，能够定位系统缺陷、接口异常和数据问题，并推动闭环解决。
+5、具备良好的文档编写习惯，能够输出开发说明、接口文档、测试记录和版本变更记录。
+6、有软件验证、权限控制、日志追踪、电子记录、追溯系统相关经验者优先。
+7、有医疗器械、精密制造、自动化设备联网或工厂数字化项目经验者优先。
+8、责任心强，沟通顺畅，能够在多部门协同环境下持续跟进任务落地。",PHP MySQL UniApp 数据采集 技术方案 合规 审计 文档编写 技术文档,https://jobs.51job.com/suzhou/172938053.html?s=sou_sou_soulb&t=0_0&req=fab65c1820ae4a373f2ea90a667c8594
+PHP工程师(J10024),苏州真懿医疗,1-2万·14薪,苏州,苏州,本科,3年及以上,2026-08-03 20:01:57,job51,"工作职责:
+1、软件开发与功能实现
+ 对接业务及项目需求，独立完成系统功能、页面、报表开发，以及业务流程配置、插件定制等工作。主要负责MES、E-DHR、ERP对接模块、OA流程及各类配套工具的开发与迭代。按照业务规范完成字段定义、逻辑校验、权限配置、状态流转及数据展示等开发工作；排查修复系统问题，优化系统性能，持续提升系统稳定性与用户体验。
+2、系统集成与接口开发
+ 负责各业务系统、自动化设备之间的接口开发、联调对接与异常排查，实现ERP、OA、MES、E-DHR的数据互通。打通工单、批次、报工、物料消耗、生产参数、质量记录、入库数据等核心业务链路。配合设备团队及第三方供应商完成设备联网、数据采集、接口适配与场景接入，监控核心数据交互过程，闭环各类问题，确保生产数据准确、及时、可追溯。
+3、需求理解与技术转化
+ 参与需求评审、澄清及方案研讨，精准理解业务目标与应用场景。负责将业务需求转化为技术方案，拆解开发任务，制定字段、接口、测试及上线规范。识别开发过程中的技术风险、数据依赖及潜在问题并及时反馈。针对模糊、冲突的业务规则，输出结构化梳理建议，协助业务敲定方案，保障需求高效落地。
+4、测试验证与上线运维
+ 负责开发功能的单元、联调及全场景测试，完成上线前验证。配合业务部门开展用户验收测试，及时整改各类问题，完成上线确认。遵守软件变更与合规管理要求，配合完成权限管控、审计追踪等验证及受控发布。上线后持续跟踪系统运行状态，快速处理功能缺陷、数据异常及用户问题，保障系统稳定运行。
+5、文档编写与技术沉淀
+ 规范编写并维护开发、接口、部署、测试及版本变更等技术文档，确保资料完整可追溯。协助梳理系统使用说明及常见问题文档，提炼通用组件、复用逻辑及问题解决方案，沉淀团队标准化技术资产，提升整体开发效率。
+任职资格:
+1、本科及以上学历，3年以上工作经验。php的laravel开发框架+mysql开发的系统；用uniapp开发微信小程序和app。
+2、熟悉 Web 应用开发、数据库设计、接口开发、数据处理等基本技术能力。能够独立完成需求转技术实现、开发、测试和上线支持。
+3、能理解生产、质量、工艺、设备、仓储等基础业务场景，能够与业务部门进行有效沟通，但岗位重点仍以开发实现能力为主。
+4、具备一定的问题分析与排查能力，能够定位系统缺陷、接口异常和数据问题，并推动闭环解决。
+5、具备良好的文档编写习惯，能够输出开发说明、接口文档、测试记录和版本变更记录。
+6、有软件验证、权限控制、日志追踪、电子记录、追溯系统相关经验者优先。
+7、有医疗器械、精密制造、自动化设备联网或工厂数字化项目经验者优先。
+8、责任心强，沟通顺畅，能够在多部门协同环境下持续跟进任务落地。",PHP MySQL UniApp 数据采集 技术方案 合规 审计 文档编写 技术文档,https://jobs.51job.com/suzhou/173136390.html?s=sou_sou_soulb&t=0_0&req=fab65c1820ae4a373f2ea90a667c8594
+AI全栈软件工程师（Java技术基础）,信一秀塔克机械（苏州）,6千-1万·13薪,苏州·吴中区,苏州,本科,2年及以上,2026-08-04 13:21:17,job51,"岗位职责
+1.	负责平台具体业务需求功能的端到端开发和交付；
+2.	理解产品目标、用户场景和验收标准，将需求拆解为可执行任务；
+3.	使用 Codex、Claude Code 等 AI 工具分析现有代码、模块关系和影响范围；
+4.	使用 AI独立完成功能设计、业务逻辑实现、页面交互和前后端联调等，最终完成交付；
+5.	对 AI 生成的代码进行审查、修改、调试和验证，有清晰认识；
+6.	参与版本构建、部署、上线验证和线上问题处理；
+7.	持续改进团队的 AI 编码方法、项目规范和可复用工作流；
+8.	对自己负责的业务功能、代码质量和上线结果承担责任。
+任职要求
+1.	本科及以上学历，计算机、软件工程或相关专业优先；
+2.	具备2年以上软件开发经验；
+3.	具备扎实的 Java 基础，能够理解、检查和修改 AI 生成的 Java 代码；
+4.	熟练掌握Spring Boot、Elasticsearch、Redis、RESTful API和常见 Web 应用开发模式及 AI 开发新范式；
+5.	熟悉 MySQL，能够完成表结构设计、SQL编写和常见数据问题排查；
+6.	掌握 HTML、CSS和JavaScript基础；
+7.	能够理解并修改 Vue、React、TypeScript项目中的页面、组件和接口代码；
+8.	能够使用 Git、Maven，以及 npm 等工程工具；
+9.	使用过 Codex、Claude Code、Cursor或同类 AI 编码工具；
+10.	能够向 AI 提供清晰的业务背景、任务边界、项目规范和验收标准；
+11.	能够判断 AI 的输出是否符合需求，而不是完全依赖 AI 自行决定；
+12.	具备较好的问题分析、任务拆解、沟通协作和自主学习能力；
+13.	能够对一个业务功能进行完整自测，并说明验证过程和验证结果。",Java Spring Boot Elasticsearch Redis MySQL SQL JavaScript Vue React TypeScript Git Maven,https://jobs.51job.com/suzhou-wzq/173143477.html?s=sou_sou_soulb&t=0_0&req=fab65c1820ae4a373f2ea90a667c8594
+AI全栈软件工程师（Java技术基础）,信一秀塔克机械（苏州）,6千-1万·13薪,苏州·吴中区,苏州,本科,2年及以上,2026-08-04 13:10:08,job51,"岗位职责
+1.	负责平台具体业务需求功能的端到端开发和交付；
+2.	理解产品目标、用户场景和验收标准，将需求拆解为可执行任务；
+3.	使用 Codex、Claude Code 等 AI 工具分析现有代码、模块关系和影响范围；
+4.	使用 AI独立完成功能设计、业务逻辑实现、页面交互和前后端联调等，最终完成交付；
+5.	对 AI 生成的代码进行审查、修改、调试和验证，有清晰认识；
+6.	参与版本构建、部署、上线验证和线上问题处理；
+7.	持续改进团队的 AI 编码方法、项目规范和可复用工作流；
+8.	对自己负责的业务功能、代码质量和上线结果承担责任。
+任职要求
+1.	本科及以上学历，计算机、软件工程或相关专业优先；
+2.	具备2年以上软件开发经验；
+3.	具备扎实的 Java 基础，能够理解、检查和修改 AI 生成的 Java 代码；
+4.	熟练掌握Spring Boot、Elasticsearch、Redis、RESTful API和常见 Web 应用开发模式及 AI 开发新范式；
+5.	熟悉 MySQL，能够完成表结构设计、SQL编写和常见数据问题排查；
+6.	掌握 HTML、CSS和JavaScript基础；
+7.	能够理解并修改 Vue、React、TypeScript项目中的页面、组件和接口代码；
+8.	能够使用 Git、Maven，以及 npm 等工程工具；
+9.	使用过 Codex、Claude Code、Cursor或同类 AI 编码工具；
+10.	能够向 AI 提供清晰的业务背景、任务边界、项目规范和验收标准；
+11.	能够判断 AI 的输出是否符合需求，而不是完全依赖 AI 自行决定；
+12.	具备较好的问题分析、任务拆解、沟通协作和自主学习能力；
+13.	能够对一个业务功能进行完整自测，并说明验证过程和验证结果。",Java Spring Boot Elasticsearch Redis MySQL SQL JavaScript Vue React TypeScript Git Maven,https://jobs.51job.com/suzhou-wzq/173143515.html?s=sou_sou_soulb&t=0_0&req=fab65c1820ae4a373f2ea90a667c8594
+AI部署工程师,杭州盈泽商业管理,8千-1.3万,苏州·苏州工业园区,苏州,本科,1-3年,2026-07-13 13:21:47,job51,"岗位职责：
+1. 负责利用 AI 编程工具（如 Cursor、GitHub Copilot 等）开展公司内部数字化产品、管理工具及自动化脚本的设计、开发、测试与部署工作，能够独立完成小型软件项目的全流程交付。 
+2. 负责 AI 工作流的设计、搭建与落地，结合 AI 工具完成多源数据的采集、清洗、分析与处理，持续提升数据应用效率与业务支撑能力。 
+3. 负责数字化产品的技术支持与持续优化，收集并分析用户反馈，快速定位和解决系统问题，协助开展系统培训，推动产品迭代升级。 
+4. 配合业务部门完成技术方案设计、评审与实施，负责相关软件系统的部署、初始化、交付及硬件安装过程中的技术对接工作。 
+5. 负责办公网络、域控、文件共享等基础 IT 系统的日常管理与维护，保障公司核心业务系统稳定、安全、高效运行。 
+任职资格：
+1. 全日制统招本科及以上学历，计算机科学与技术、软件工程、人工智能、信息工程等相关专业优先。 
+2. 熟悉 AI 编程范式，能够熟练使用至少一种主流 AI 编程工具（如 Cursor、GitHub Copilot、通义灵码等）进行高效的人机协作开发，具备独立完成软件应用设计与开发的能力。 
+3. 熟练掌握 Python、Java、Go 等至少一门编程语言，具备良好的工程化开发能力与代码规范意识。 
+4. 熟悉 MySQL、PostgreSQL 等关系型数据库。 
+5. 熟悉 Git 版本管理、Docker 容器化部署及 Linux 基本操作，具备基础的软件部署、运维和问题排查能力。 
+6. 具备较强的逻辑思维能力、问题分析与拆解能力、学习能力及沟通协作能力，能够将复杂业务需求转化为清晰可执行的技术方案。 
+7. 工作认真踏实，责任心强，具备良好的服务意识与团队合作精神。 
+加分项
+1. 熟悉大模型（LLM）应用开发，有 LangChain、LlamaIndex 等相关框架实战经验者优先。 
+2. 具备数据爬取、自动化流程搭建、推荐算法或智能应用落地经验者优先。 
+3. 有企业内部信息化、数字化系统建设或城市级 IT 项目实施经验者优先。",Git Python Java Go MySQL PostgreSQL Docker 容器化 Linux 大模型 LLM LangChain 技术支持 培训 产品迭代 技术方案 版本管理,https://jobs.51job.com/suzhou-gyyq/172884561.html?s=sou_sou_soulb&t=0_0&req=fab65c1820ae4a373f2ea90a667c8594
+Senior AI Full-stack Development Engineer,万通（苏州）定量阀系统,2.5-3.5万,苏州·苏州工业园区,苏州,硕士,5年及以上,2026-08-03 16:27:36,job51,"Working Location: Suzhou/Shanghai
+
+Primary Purpose Summary
+We are seeking an experienced Senior Full-Stack Development Engineer to design, build, and scale AI-powered applications and digital solutions. As a key member of our digital team, the successful candidate will be responsible for end-to-end application development, orchestrating intelligent agents, designing data architecture, and translating complex business needs into scalable AI solutions that deliver measurable value.
+
+Primary Duties and Responsibilities
+- Design, develop, and maintain full-stack applications that power AI-driven products and digital services, from user-facing interfaces to backend services and databases.
+- Lead the full lifecycle of AI projects, from requirement definition, solution design, and model development to production deployment and continuous improvement.
+- Build and integrate APIs, microservices, and event-driven architectures to connect AI models, agent orchestration frameworks, and enterprise systems.
+- Define and manage data architecture and database strategies, ensuring high data quality, robust data governance, and efficient data pipelines for AI workloads.
+- Collaborate with R&amp;D, IT, quality, compliance, and business stakeholders to identify high-value AI use cases and deliver production-ready solutions.
+- Establish LLMOps practices, including model versioning, monitoring, A/B testing, logging, and automated retraining pipelines.
+- Stay current with emerging trends in artificial intelligence, such as agentic AI, retrieval-augmented generation (RAG), cloud-native architectures, and assess their applicability to business challenges.
+- Manage project scope, timelines, resources, and risks to ensure on-time, on-budget delivery while maintaining high technical standards.
+
+Required Qualifications
+- Master's degree in Computer Science, Software Engineering, Artificial Intelligence, Data Science or a related field; PhD preferred.
+- Proven experience (minimum 5 years) in AI or full-stack development roles, with a track record of leading AI projects from concept to production; hands-on experience building production-operation agents in manufacturing environments is highly preferred.
+- Proficiency in programming languages such as Python, SQL, and object-oriented languages like C# or Java.
+- Hands-on experience with agent orchestration frameworks and tools (e.g., LangChain, LangGraph, AutoGen, Semantic Kernel).
+- Experience with large language models (LLMs), prompt engineering, retrieval-augmented generation (RAG) and model evaluation methodologies.
+- Strong database design and optimization skills, with experience in relational databases and vector databases 
+- Familiarity with data warehouses, data lakes, ETL/ELT processes.
+- Familiarity with Azure DevOps, CI/CD pipelines, and cloud platforms (Azure, AWS, or GCP) is a plus.
+- Familiarity with modern front-end frameworks and backend frameworks.
+- Excellent project management skills, with the ability to lead multiple initiatives simultaneously.
+- Strong analytical, problem-solving, and communication skills, capable of translating complex business requirements into clear technical specifications.
+- Fluency in English; experience working in international or cross-functional teams is a plus.
+- Open mind, team player, and able to drive results through collaboration.",Gin Git CAN Agent Scala ROS Go LLM RAG Python SQL C# Java LangChain Prompt Azure DevOps CI/CD AWS,https://jobs.51job.com/suzhou-gyyq/173133319.html?s=sou_sou_soulb&t=0_0&req=fab65c1820ae4a373f2ea90a667c8594
+全栈开发工程师（Web应用方向）,苏州材科源图科技,1.3-1.8万·14薪,苏州,苏州,本科,2年及以上,2026-07-15 16:27:26,job51,"岗位职责：
+1.负责公司Web应用及智能体交互界面的前后端全栈开发，涵盖架构设计、开发与维护；
+2.使用 React 或 Vue 进行前端界面开发，使用 Node.js (或其他主流后端技术)进行服务端开发；
+3.负责RESTful/GraphQL API接口设计、开发与对接，实现前后端高效协作；
+4.实现Markdown内容渲染与格式转换、数据可视化后台管理界面等功能模块；
+5.负责整体页面交互设计、性能优化及用户体验提升；
+6.熟练使用AI辅助编程工具（如Cursor、Copilot、Qrder等）提升开发效率与代码质量；
+7.参与技术选型、代码评审，推动团队工程化水平提升。
+
+任职要求：
+1.计算机、软件工程等相关专业，本科211及以上学历，2年以上Web开发经验（优秀者可放宽）；
+2.熟练掌握HTML5/CSS3/JavaScript/TypeScript，具备良好的编码规范；
+3.熟练使用React或Vue及其生态（状态管理、路由、构建工具）；
+4.熟练使用Node.js及主流框架（如Express/Nest.js/Koa），有数据库（MySQL/PostgreSQL/MongoDB）使用经验；
+5.熟悉JSON API设计规范、Markdown处理工具（如remark、markdown-it）；
+6.熟练使用AI辅助编程工具，能够通过AI提高编码效率、辅助代码审查和问题排查；
+7.具备独立完成模块开发的能力，能设计简洁美观的交互界面；
+8.具备良好的英文技术文档读写能力。
+
+ 福利待遇：
+【加入我们，定义材料科学的未来形态】
+我们是一支由985高校硕博组成的材料AI先行者团队，正用AI重构物质世界的可能性。如果你厌倦在既定轨道上奔跑，渴望参与从0到1的创造，这里有你需要的所有支撑：
+▌长期价值 · 共同成长
+• 早期核心成员将获得期权激励，成为公司的共建者而非雇员
+• 与985高校背景的研发团队深度协作，思维碰撞无壁垒
+▌当下保障 · 专注创造
+• 入职即享六险二金（含补充医疗+企业年金）
+• 采用月度+季度双倍激励体系，让优秀表现获得即时回报
+• 每月提供餐补+交补，并设立专属探亲假与带薪病假
+▌未来视野 · 无限可能
+• 每年深度健康体检，支持可持续创新
+• 深耕材料AI赛道——这是属于科学探索者的星辰大海
+• 在这里，你写下的每一行代码都在重新定义行业边界
+我们寻找这样的同行者：
+• 相信AI能解码材料的深层逻辑
+• 在不确定中看到可能性，在混沌中找到路径
+• 追求技术深度与商业价值的共振
+我们正在寻找的，不是员工，而是材料科学新范式的共建者。",React Vue Node.js HTML5 CSS3 JavaScript TypeScript Express Koa MySQL PostgreSQL MongoDB 技术文档,https://jobs.51job.com/suzhou/172923749.html?s=sou_sou_soulb&t=0_0&req=fab65c1820ae4a373f2ea90a667c8594
+软件开发负责人-Y1542Q,华润江苏医药,1.5-2.5万,苏州·吴中区,苏州,本科,10年及以上,2026-08-03 15:47:08,job51,"工作职责：
+1.负责公司软件产品的整体技术架构规划与设计，主导微服务、分布式架构落地及系统重构优化，保障系统高并发、高可用及可扩展性。
+
+2.统筹研发项目全流程管理，涵盖需求评审、开发交付、上线迭代，协调资源解决技术难题，确保项目按时高质交付。
+
+3.负责10人+研发团队搭建与管理，完善绩效考核与人才培养机制，打造高效稳定的技术团队。
+
+4.搭建敏捷开发与DevOps研发体系，规范代码质量、版本管理及自动化部署流程，持续提升研发效能。
+
+5.推动AI应用（智能体开发、大模型集成）在业务场景中的落地，跟踪前沿技术驱动产品创新。
+任职资格：
+1.本科及以上学历，计算机、软件工程、电子信息、人工智能等相关专业。
+
+2.8年以上研发经验，3年以上技术团队管理经验，有平台型产品从0到1搭建及迭代管理经验。
+
+3.精通微服务、分布式、中台架构设计，熟悉主流前后端技术栈及云原生、容器化技术体系。
+
+4.熟悉敏捷开发与DevOps体系，具备系统性能调优、故障排查及技术风险管控能力。
+
+5.具备10人以上研发团队管理经验，擅长梯队建设与跨部门资源协调。
+
+6.具备战略思维与技术创新能力，对AI技术应用有落地经验者优先。
+
+7.责任心强，结果导向，严守数据安全规范，抗压能力突出。",微服务 分布式 高并发 高可用 DevOps 大模型 云原生 容器化 版本管理 团队管理 故障排查 资源协调,https://jobs.51job.com/suzhou-wzq/173132176.html?s=sou_sou_soulb&t=0_0&req=69f2c25d0be0234c6beb689797b3bbfc
+软件开发工程师（全栈+HR系统）,苏州欧普照明,1.5-2.2万·15薪,苏州,苏州,本科,5年及以上,2026-07-30 17:43:33,job51,"岗位职责:
+1. 负责人力资源管理系统的前后端开发与维护，制定项目计划，把控进度与交付质量。
+2. 参与需求分析、系统架构设计及核心代码编写，攻克技术难点。
+3. 推动团队AI开发工具的应用与训练。
+
+任职资格:
+业务沟通能力强及良好的团队协作能力、责任心,思路清晰，沟通有效。
+具有一定的管理开发团队的能力。&amp;
+后端技术栈
+1. Spring Boot微服务，熟悉Dubbo RPC及服务治理；
+2. 扎实的设计模式与架构设计能力；
+3. MySQL（精通调优）+ MyBatis-Plus；
+4. Redis、RocketMQ，熟悉多线程与异步编程；
+5. Flowable工作流（审批流程定制与扩展）；
+6. Spring Security + JWT认证；
+7. 了解Nacos、Sentinel等微服务组件；
+8. 有分布式任务调度经验者优先。
+前端技术栈
+1. HTML5/CSS3/JavaScript ES6+；
+2. Vue.js（2.x/3.x）及其生态，熟悉响应式原理与组件化；
+3. Element UI（可定制开发）；
+4. XLSX（Excel导入导出）；
+5. 了解Vite/Webpack等工程化工具；
+6. 熟悉浏览器兼容性处理。&amp;
+1. 必须熟练使用Qoder（AI）等开发工具；
+2. 具备较强的解决问题能力、团队协作、责任心与自驱力；
+4.计算机相关专业，统招本科及以上。
+5.5年以上全栈开发经验（Java后端 + 前端）&amp;抗压能力强，工作积极主动、有责任心",Spring Boot 微服务 MySQL MyBatis-Plus Redis RocketMQ Spring 分布式 HTML5 CSS3 JavaScript Vue Vite Webpack Java 需求分析,https://jobs.51job.com/suzhou/173103905.html?s=sou_sou_soulb&t=0_0&req=69f2c25d0be0234c6beb689797b3bbfc
+java后端开发架构师,江苏磅礴医疗科技,8千-1.6万,苏州·苏州工业园区,苏州,本科,2-4年,2026-06-17 16:08:41,job51,"岗位内容：
+1. 负责Java应用程序的设计与开发，包括需求分析、系统设计、编码和测试等环节。
+2. 研究新技术，不断提升开发效率和程序性能。
+3. 改进现有系统、优化系统资源，提高系统稳定性和可靠性。
+4. 参与团队内部培训、交流与分享会议，促进整个团队技术水平的提升。
+任职要求：
+1. 具有2-4年以上的后端开发工作经验者优先；
+2. 掌握Java语言，理解Spring Boot、Spring Cloud常见开发框架原理，有一定的项目开发经验；
+3. 掌握PostgreSQL、MySQL、Mongodb数据库、Redis缓存、RabbitMQ消息中间件；
+4. 熟悉常用的数据结构和算法，了解TCP/IP、HTTP等网络协议；
+5. 能够独立完成项目模块的系统分析、设计、并主导完成详细设计，具备一定的产品和业务思维。
+6. 如果能使用前端技术：使用超文本标记语言、CSS、JavaScript 和 Vue 等框架来创建直观且响应迅速的用户界面更佳；
+7. 具备良好的问题解决能力和沟通能力；
+8. 具有强烈的责任感和团队合作精神，能够与我们的开发团队和其他部门进行有效的沟通和合作。",Java Spring Boot Spring Cloud PostgreSQL MySQL MongoDB Redis RabbitMQ TCP/IP JavaScript Vue 需求分析 培训,https://jobs.51job.com/suzhou-gyyq/161277871.html?s=sou_sou_soulb&t=0_0&req=69f2c25d0be0234c6beb689797b3bbfc
+软件开发工程师,江苏益展研创智能科技,8千-1.3万,苏州·姑苏区,苏州,本科,2-5年,2026-07-13 16:14:37,job51,"岗位职责
+1、参与公司后端业务基于国产操作系统（如银河麒麟、统信）的需求分析、功能开发、迭代优化与代码维护。
+2、根据国产开发架构规范完成接口开发、数据库设计，保证代码质量、性能及稳定性。
+3、配合前端完成联调，及时修复线上BUG，保障系统稳定运行。
+任职要求
+1、计算机相关专业，3-5年及以上后端开发经验。
+	2、熟练掌握Java基础、Spring、SpringBoot、MyBatis等主流开发框架。
+3、熟练掌握达梦、人大金仓等关系型国产数据库，具备数据库开发、性能		优化及数据核对经验。
+4、熟悉数据仓库、数据集市及维度建模方法，具备数据模型设计、数据分		层及OLAP分析模型建设经验。
+3、熟悉使用金蝶、东方通、宝兰德等常用国产中间件。
+4、具备良好的编码习惯、逻辑思维能力，责任心强，沟通协作能力良好。",Java Spring MyBatis 需求分析 SpringBoot,https://jobs.51job.com/suzhou-gsq/172891087.html?s=sou_sou_soulb&t=0_0&req=69f2c25d0be0234c6beb689797b3bbfc
+全栈工程师,昆山汉唐金缘文化发展,8千-1.2万,昆山,苏州,本科,3年及以上,2026-07-07 17:09:00,job51,"岗位职责: 
+1、参与公司跨境电商系统研发，包括 自建商城、ERP系统、广告系统及数据看板等业务系统开发；
+2、负责电商平台核心模块开发，包括商品、订单、库存、营销、用户等业务功能；
+3、参与 Shopify系统对接及数据同步开发，包括订单、商品、库存等接口集成；
+4、参与公司 Shopify 一自建站系统架构设计与开发；
+5、负责 广告投放系统、素材管理系统及BI数据看板等内部系统开发；
+6、参与系统性能优化、高并发处理及系统稳定性建设；
+7、与产品、运营团队协作，持续优化电商系统功能和用户体验；
+
+任职要求: 
+1、统招本科及以上学历
+2、3年以上开发经验，计算机相关专业优先
+3、熟练掌握 Node.js / JavaScript / TypeScript
+4、熟练使用 React/ Vue 等前端框架
+5、熟悉 RESTful API设计与开发
+6、熟悉 MySQL/ PostgreSQL 等数据库设计与优化
+7、熟悉 Redis缓存、消息队列等后端常见技术
+8、熟悉 Linux、Docker、Git 等开发及部署环境
+
+【工作时间】
+1.工作时间，周一至周五：8:30-17:30，周末双休
+2.法定节假日正常休息
+【薪资福利】
+1.完善的薪资体系；
+2.五险一金，带薪年休假，节日福利，员工旅游；
+3.公司提供宿舍。",高并发 Node.js JavaScript TypeScript React Vue MySQL PostgreSQL Redis Linux Docker Git,https://jobs.51job.com/kunshan/171957196.html?s=sou_sou_soulb&t=0_0&req=69f2c25d0be0234c6beb689797b3bbfc
+中级Java全栈工程师,固德威技术,1.3-1.6万·15薪,苏州·高新区,苏州,本科,3年及以上,2026-07-06 11:18:39,job51,"岗位职责：
+- 负责公司内部微服务平台及 OA 系统（基于泛微 Ecology 平台）的二次开发、功能定制与日常运维；
+- 开发对外集成接口（JSP / Service 接口/Restful接口)，完成与 CRM、 ERP、数据仓库 等系统的数据对接与同步；
+- 编写前端表单脚本（JSP + jQuery / VUE），实现字段联动、校验、弹窗、明细表操作等交互逻辑。
+任职要求：
+- 本科及以上学历，计算机相关专业，3 年以上 Java Web 开发经验；
+- 熟练掌握 Java，熟悉 Servlet、JSP、JDBC，SpringBoot、Mybatis；
+- 熟悉 SQL Server，Mysql等主流关系型数据库（复杂 SQL、存储过程、性能优化），了解连接池管理；
+- 熟练使用 JavaScript + jQuery ，能独立编写页面交互与 AJAX 调用；
+- 熟练使用 VUE+ ElementUI ，完成独立页面的编写与后端接口的交互；
+- 熟悉 HTTP/REST 接口开发与调试，掌握 JSON 数据处理（org.json 等）；
+- 具备接口鉴权、SQL 注入防护、参数校验等基础安全意识；
+- 熟练运用Cursor、Claude等AI辅助编程工具。
+优先条件：
+- 有泛微 Ecology平台二次开发经验，熟悉工作流引擎、表单引擎、WfForm 前端 API；
+- 有 springboot微服务与CRM、PLM、SRM 等企业系统集成对接经验；
+- 熟悉制造业 / 集团化企业业务流程（销售、采购、财务、生产、研发）；
+- 熟悉 Agent 开发框架（如 LangGraph、LangChain、Spring AI 等）者优先。
+软素质：
+- 能独立分析业务需求并落地为技术方案，责任心强；
+- 良好的沟通协作能力，能与业务部门、外部系统厂商对接；
+- 代码规范意识强，能维护多版本并存的复杂代码结构。",微服务 jQuery Vue Java Spring MyBatis SQL Server MySQL SQL JavaScript Agent LangChain 采购 技术方案,https://jobs.51job.com/suzhou-gxq/172802860.html?s=sou_sou_soulb&t=0_0&req=69f2c25d0be0234c6beb689797b3bbfc
+Software Engineer III数据工程师,昆山杜克大学,1.2-1.5万,苏州,苏州,本科,5年及以上,2026-07-14 09:59:23,job51,"Position Overview:
+Duke Kunshan University is a world-class liberal arts university offering high-quality, interdisciplinary undergraduate and graduate programs. The IT Applications team within the Office of Information Technology works closely with customers and peer teams to deliver a wide range of applications and services.
+
+This position is for a Data Engineer, a key technical role within the IT Applications team. You will be responsible for building and evolving the core data platform for Duke Kunshan University. Your work will be instrumental in enabling university-wide, data-driven decision-making by transforming our diverse data ecosystem into a scalable, reliable, and well-governed analytical foundation. We are looking for a technical expert who not only excels in engineering but also collaborating with business stakeholders to ensure our data assets deliver maximum impact.
+
+Reports to:
+Manager – IT Applications
+
+Essential Duties:
+1.	Collaborate with customers, business analysts and stakeholders to understand business needs and translate them into effective data architecture and pipeline solutions.
+2.	Design, build, and manage robust, scalable data ingestion and integration pipelines to consolidate data from diverse source systems into a central data platform for data processing and automation.
+3.	Design and implement scalable data models for the enterprise data platform to transform and structure raw data into reliable, well-documented datasets that serve for analytics and data products.
+4.	Develop and maintain core components of the data platform including data service APIs, a unified data asset catalog, and standardized data layers to empower self-service analytics and data product consumption.
+5.	Collaborate with business teams to define key metrics and success criteria for data products and take ownership of developing the corresponding dashboards and visualizations to translate data into actionable insights.
+6.	Contribute to the data governance framework by collaborating with Data Owners to implement data quality standards, monitoring, and remediation, and to ensure data assets are properly classified, documented, and accessible.
+7.	Ensure the operational excellence, stability, and performance of the data platform through proactive monitoring, troubleshooting complex issues, and systematic optimization of queries and pipelines.
+8.	Create and maintain comprehensive technical documentation for data architectures, pipeline specifications, data dictionaries, and operational procedures.
+9.	Stay current with emerging technologies and best practices in data engineering, cloud platforms, and big data ecosystems to drive continuous innovation.
+10.	Work toward achieving assigned annual objectives and KPIs, demonstrating accountability for performance and results.
+11.	Perform other duties as assigned.
+12.	University employees' job responsibilities will continue to expand in scope and depth as the University grows in size and complexity in its programs.
+
+Required Qualifications:
+1.	Full-time bachelor’s degree or above in information technology, computer science, or a related field preferred.
+2.	At least 5 years of professional experience in data engineering or a closely related field.
+3.	Strong ability to collaborate effectively with stakeholders and communicate with both technical and non-technical audiences.
+4.	Excellent oral, written, and interpersonal communication skills in both English and Chinese.
+5.	Strong motivation and capacity to learn new concepts and apply emerging technologies to transform business and technical processes and drive continuous improvement.
+6.	A strong interest in, coupled with a practical understanding of, the complete data product lifecycle—from data curation and development to enabling consumption and measuring business impact.
+7.	A strong sense of ownership for the stability, performance, and data quality of the systems you build.
+8.	Experience in building data ingestion pipelines, pulling data from diverse sources, and orchestrating the subsequent ETL/ELT processes to deliver clean, reliable data for downstream consumption.
+9.	Practical experience with Python for data processing, automation, and scripting. Familiarity with Java or Scala is a plus.
+10.	High proficiency in SQL and extensive hands-on experience with at least one major RDBMS (e.g., PostgreSQL, MySQL, SQL Server, Oracle).
+11.	Practical, hands-on experience with modern cloud data platforms and services (e.g., Snowflake, Databricks). 
+12.	Solid understanding and practical experience in data modeling for analytical systems (e.g., Star Schema, Snowflake Schema, Data Vault).
+13.	Solid understanding of data governance principles and hands-on experience with supporting tools for metadata management, data lineage, or data quality.
+14.	Partner with stakeholders to define data product and related metrics and develop the corresponding tracking dashboards (e.g., Tableau, Power BI).
+Preferred Qualifications
+1.	Hands-on experience in implementing a data platform end-to-end. Direct experience within a higher education setting is a strong plus.
+2.	Hands-on experience with distributed data processing frameworks (e.g., Apache Spark) and streaming data technologies (e.g., Apache Kafka, Flink).
+3.	Experience productizing administrative data and metrics via APIs (e.g., RESTful, GraphQL).
+4.	Expertise in enterprise data warehouse design, including dimensional modeling, layered architecture, and metric system planning.
+5.	Experience in designing and supporting data analysis solutions for AI/ML and LLM initiatives.
+6.	Practical experience with enterprise systems (e.g., ERP like Oracle, SAP) in a complex organizational environment.
+7.	Experience in building data solutions for core administrative domains (e.g., Finance, HR), with an understanding of the key data entities, lifecycle, and quality requirements specific to these functions.
+
+How to Apply:
+Please be advised the salary is commensurate with experience.
+Please submit your formal application by searching the position on DKU recruitment portal.",Gin Scala Go Perl Python Java SQL PostgreSQL MySQL SQL Server Oracle Spark Kafka Flink LLM GAN,https://jobs.51job.com/suzhou/171627406.html?s=sou_sou_soulb&t=0_0&req=69f2c25d0be0234c6beb689797b3bbfc
+中级全栈开发工程师,江苏硕晟软件科技,6-8千,苏州·吴中区,苏州,本科,3-5年,2026-07-25 15:50:51,job51,"岗位职责
+
+1. 独立负责公司Web、APP、小程序、管理系统的前后端核心功能开发、模块迭代与性能优化。
+
+2. 独立完成复杂前端交互、多端适配与页面优化，保证项目流畅稳定运行。
+
+3. 负责后端核心业务开发、接口设计、数据库设计与优化，独立完成功能模块全流程开发。
+
+4. 主导需求分析、技术方案评估、联调测试、问题修复及版本上线迭代。
+
+5. 规范项目代码、沉淀通用组件、参与代码评审，带动初级开发提升交付质量。
+
+6. 跟进主流技术，参与项目重构、技术升级，可独立负责中小型项目落地
+
+任职要求
+
+1. 计算机相关专业，大专及以上学历，3-5年全栈开发经验，可独立承接业务模块开发。
+
+2. 熟练 H5、CSS3、JS、ES6+，精通 Vue2/Vue3 及 Element、Vant 等组件库。
+
+3. 熟悉 Uni-app 跨端开发，能独立完成多端统一开发与适配。
+
+4. 熟练 Java 开发，熟悉前后端分离、微服务、分布式架构开发思路。
+
+5. 精通 MySQL，熟悉数据表设计、复杂SQL、索引优化及常用性能调优。
+
+6. 熟练 Git、Postman 等开发工具，具备独立联调、问题排查、线上Bug处理能力。
+
+7. 有商城、本地生活、出行、旅游类APP/小程序项目经验者优先。",CSS3 Vue Java 微服务 分布式 MySQL SQL Git 需求分析 技术方案,https://jobs.51job.com/suzhou-wzq/173041004.html?s=sou_sou_soulb&t=0_0&req=69f2c25d0be0234c6beb689797b3bbfc
+Java技术经理、架构师,悉平方科技（苏州）,1.5-2.2万,苏州·吴中区,苏州,本科,8年及以上,2026-07-15 18:37:51,job51,"一、岗位职责：
+1. 团队管理与技术引领：
+- 负责Java研发团队的管理与建设，制定技术发展规划，提升团队技术能力与效率；
+- 主导技术决策，制定代码规范、开发流程和架构标准，确保技术栈的先进性；
+- 推动技术难题攻关，对系统性能、稳定性、安全性负责，持续优化技术架构。
+2. 0-1产品架构设计与落地：
+- 从需求分析到技术选型、架构设计、开发实施全流程负责，主导0-1产品的技术落地；
+- 设计高可用、高并发、高性能的分布式系统架构，确保系统可扩展性与可维护性；
+- 定义技术路线，拆解技术目标，制定技术方案并推动落地，对最终交付结果负责。
+3. 技术栈与云原生能力：
+- 深入理解Kubernetes容器编排、容器化部署（Docker）及云原生技术栈，有实际生产环境部署经验；
+- 精通Java核心及主流框架（Spring、Spring Boot、MyBatis），熟悉底层原理及性能优化；
+- 熟悉Redis等缓存技术，有高并发场景下的缓存设计与优化经验；
+- 熟悉主流云厂商（IaaS/PaaS）服务（如阿里云、AWS、腾讯云等），具备云资源规划、部署与优化能力。
+4. 跨部门协作与问题解决：
+- 与产品、测试、运维等团队紧密协作，推动项目高效迭代；
+- 识别项目风险与技术瓶颈，提出创新性解决方案并推动执行；
+- 具备从技术视角推动业务目标实现的能力，平衡技术实现与业务需求。
+
+二、任职要求：
+1. 核心能力：
+- 8年以上Java开发经验，3年以上团队管理经验，有成功带领团队完成0-1项目经验者优先；
+- 具备扎实的技术功底和架构设计能力，有高并发、分布式系统实战经验；
+- 熟悉微服务架构，有Spring Cloud、Dubbo等框架实践经验者优先。
+2. 技术深度：
+- 精通Java核心技术（多线程、JVM调优、内存模型等），熟悉Spring全家桶及MyBatis原理；
+- 熟悉K8s集群部署、运维及故障排查，有Docker镜像构建、优化经验；
+- 熟悉Redis缓存设计、数据一致性方案，有分布式缓存集群搭建经验；
+- 熟悉云服务（如ECS、RDS、Kafka、ELK等），有云资源成本优化、容灾设计经验。
+3. 软素质与态度：
+- 主观能动性强：能主动发现问题并提出改进方案，不依赖指令式执行；
+- 开放包容：乐于接受新理念，能平衡大厂方法论与中小团队灵活性；
+- 业务思维：具备技术驱动业务的意识，能从业务目标倒推技术决策；
+- 沟通与协作：优秀的跨部门沟通协调能力，能推动多方协作达成目标；
+- 抗压能力：在快速迭代或资源有限的环境下，能高效解决问题。
+4. 熟悉DevOps流程，有Jenkins、GitLab CI/CD实践经验。
+
+三、我们希望你：
+- 不因过往经验限制视野，能跳出“大厂模板”思考问题；
+- 不“教我做事”，而是通过技术深度与全局视角“一起成事”；
+- 既有架构师的技术前瞻性，又有管理者的落地执行力。",Java 高可用 高并发 分布式 云原生 Kubernetes 容器化 Docker Spring Spring Boot MyBatis Redis 阿里云 AWS 腾讯云 微服务 Spring Cloud K8s Kafka DevOps Jenkins GitLab CI 团队管理 需求分析 技术方案 跨部门协作 故障排查,https://jobs.51job.com/suzhou-wzq/172926358.html?s=sou_sou_soulb&t=0_0&req=69f2c25d0be0234c6beb689797b3bbfc
+Java后端开发,上海悠欧网络工程,1.5-2.2万,苏州·苏州工业园区,苏州,本科,5年及以上,2026-08-04 09:20:35,job51,"岗位职责：
+1、能独立担任系统分析与设计，并完成一些关键组件核心代码的开发；
+2、按照进度要求完成分配的编程工作任务，参与研发产品在工程项目中的部署实施
+3、参与相关软件项目或系统模块的研发工作，包括需求分析、设计、编码、单元测试等环节
+4、按照公司开发规范，开发工具进行开发，保证交付代码质量；
+5、对投产系统的运营支持，bug修正，日程维护升级等，保证系统的稳定性；
+任职要求：
+1、本科计算机软件相关专业毕业，五年以上相关工作经验，有估值，金融相关经验优先；
+2、熟悉SQL，有oracle、mysql，达梦，tidb，tdsql等数据库开发经验，能熟练地运用PL/SQL开发工具；
+3、有扎实的JAVA编程能力,熟悉掌握JAVA主流WEB开发框架技术使用，如SSM，SpringMVC，dubbo,springcloud,SpringBoot等
+4、熟练掌握Linux上面一些常用命令；
+5、熟悉nginx、kafka、zookeeper、ES、Redis等相关服务器端中间件；
+6、熟悉使用代码版本管理工具如：git，项目管理工具使用如：jira等
+7、熟悉使用AI工具进行辅助代码编程，提升开发效率；
+8、熟悉软件设计文档的编写规范，具备良好的文档功底；
+9、能有吃苦耐劳和团队合作精神以及良好的沟通表达能力，学习能力强，有责任心；
+加分项：有估值系统的经验的优先",SQL Oracle MySQL TiDB Java Spring Linux Nginx Kafka Zookeeper Redis Git 需求分析 版本管理 项目管理,https://jobs.51job.com/suzhou-gyyq/173138066.html?s=sou_sou_soulb&t=0_0&req=69f2c25d0be0234c6beb689797b3bbfc
+中级APP开发工程师,苏州景前电子科技,8千-1.3万,苏州·苏州工业园区,苏州,本科,2-4年,2026-08-06 17:51:31,job51,"岗位职责：
+1、独立模块开发：能够独立承接APP完整业务模块开发（用户体系、数据展示、设备联动、商城、社区、控制终端等核心模块），独立完成需求拆解、方案设计、代码开发、自测闭环。
+2、接口与业务联调：独立对接后端、硬件设备协议，完成软硬件联动APP功能开发、数据通信、设备控制逻辑开发，解决联调过程中的常规数据、通信、适配问题。
+3、版本迭代与质量管控：独立负责APP常规版本迭代、功能升级、性能优化、机型兼容适配，主动排查线上隐患，独立修复中高难度BUG，保障版本稳定上线。
+4、技术方案落地：参与项目需求评审、技术方案讨论，根据业务需求输出合理的开发实现方案，沉淀通用组件、工具类，提升团队开发效率。
+5、项目协同：主动对接产品、硬件、测试、运营团队，预判开发风险、同步开发进度，保障项目按期交付；协助指导初级工程师开展开发工作。
+岗位要求：
+1、学历经验：本科及以上学历，计算机相关专业，2-4年APP开发经验，具备完整APP模块独立开发、版本迭代上线经验。
+2、技术能力：熟练掌握对应端全套开发技术栈，精通组件封装、状态管理、网络封装、缓存处理、异常捕获，熟悉APP性能优化、兼容适配方案。
+3、业务能力：熟悉软硬件联动开发流程，了解设备通信协议、数据交互逻辑，能够独立完成前后端、软硬端联调，具备独立排查问题、解决问题的能力。
+4、项目能力：能够精准拆解业务需求、评估开发工时、把控模块开发进度，具备完整的版本开发、测试、上线、维护闭环经验。
+5、综合素质：责任心强、抗压能力强，沟通协调能力良好，具备标准化代码编写习惯和文档沉淀能力，具备团队协作与初级带教能力。",方案设计 技术方案,https://jobs.51job.com/suzhou-gyyq/172877509.html?s=sou_sou_soulb&t=0_0&req=69f2c25d0be0234c6beb689797b3bbfc
+软件开发岗-E9863M,华润江苏医药,1.5-2.5万,苏州·吴中区,苏州,本科,5-10年,2026-07-30 13:39:30,job51,"工作职责：
+1. 参与公司核心数字化平台的需求分析、系统设计与开发工作。
+2. 负责微服务架构下的后端模块开发、编码实现与单元测试，确保代码质量与系统性能。
+3. 参与系统架构设计和技术方案评审，提出技术选型和架构优化建议。
+4. 负责现有系统的日常维护、性能优化、缺陷修复和迭代升级开发。
+5. 负责前端页面开发与交互实现，配合UI设计完成页面制作与前端逻辑开发。
+6. 编写并维护技术文档，包括系统设计文档、接口文档、数据库设计文档、部署手册及操作手册等。
+7. 参与代码审查（Code Review），保障团队代码规范和代码质量。
+8. 配合测试团队完成系统集成测试、性能测试和用户验收测试，及时修复测试缺陷。
+9. 参与AI应用开发与集成，包括智能体开发、大模型接口对接、AI场景落地等技术工作。
+10. 跟踪新技术发展趋势，开展技术预研与可行性分析，推动技术创新与团队能力提升。
+11. 参与系统上线部署、技术支持及运维问题排查，保障系统稳定运行。
+任职资格：
+1. 本科及以上学历，计算机科学、软件工程、信息技术、数据科学等相关专业。
+2. 3年以上软件开发工作经验，有完整项目开发周期经历。
+3. 精通Java语言，熟悉Spring Boot /Spring Cloud微服务技术栈，具备微服务架构设计与开发能力。
+4. 熟悉Python开发，有数据处理、AI应用开发经验者优先。
+5. 熟悉MySQL / Oracle等关系型数据库设计与优化，了解Redis、Elasticsearch等中间件技术。
+6. 熟悉Vue.js / React等前端框架，具备全栈开发能力者优先。
+7. 熟悉Docker、Kubernetes等容器化与云原生技术，有CI/CD流水线使用经验。
+8. 了解AI / 大模型应用开发，有智能体开发、RAG系统搭建经验者优先。
+9. 具备良好的代码规范意识和文档编写习惯，熟悉Git版本管理工具。
+10. 具备较强的逻辑思维能力、问题分析与解决能力，良好的团队协作精神。
+11. 有医药行业信息化建设经验、熟悉GSP/GMP相关业务流程者优先。",微服务 大模型 Java Spring Boot Spring Cloud Python MySQL Oracle Redis Elasticsearch Vue React Docker Kubernetes 容器化 云原生 CI/CD RAG Git 需求分析 技术方案 技术文档 性能测试 技术支持 文档编写 版本管理,https://jobs.51job.com/suzhou-wzq/173097596.html?s=sou_sou_soulb&t=0_0&req=69f2c25d0be0234c6beb689797b3bbfc
+软件工程师（晶圆搬运机械手）base：苏州,捷益尔（常州）机器人科技,1.5-2.5万·13薪,苏州·相城区,苏州,本科,3年及以上,2026-06-29 10:06:40,job51,"岗位职责：&nbsp;
+1、负责晶圆搬运机械手臂的运动控制软件开发，实现高精度点位控制、轨迹规划及速度优化；&nbsp;
+2、开发设备与上位机（如MES/PLC）的通信接口，支持SECS/GEM、E84等半导体行业标准协议；&nbsp;
+3、设计人机交互界面（HMI），优化操作流程，提升设备易用性；&nbsp;
+4、编写设备状态监控、故障诊断及报警管理系统，提高设备稳定性和可维护性；&nbsp;
+5、优化软件实时性，确保机械手在高速搬运过程中的运动平滑性和定位精度；&nbsp;
+6、参与设备调试，分析并解决现场软件相关问题；&nbsp;
+7、编写技术文档，包括软件设计说明、测试报告及用户手册。&nbsp;
+
+任职要求：&nbsp;
+1、本科及以上学历，计算机、自动化、机电一体化等相关专业；&nbsp;
+2、3年以上工业控制软件开发经验，有半导体设备（如EFEM、Sorter）从业经验者优先；&nbsp;
+3、精通CMake、C++(包括Qt)，熟悉多线程、单例编程。
+4、实时Ethercat通信、熟悉Linux系统，熟练使用VScode、Git。
+5、了解机器人运动学和动力学，有数据分析能力及AI辅助编程能力者优先。
+6、熟悉工业通信协议（如EtherCAT、Modbus&nbsp;TCP、SECS/GEM）；&nbsp;
+7、具备良好的问题分析和调试能力，能快速定位并解决软件异常；&nbsp;
+8、了解半导体设备工艺或了解机器视觉在晶圆对位中的应用者优先。
+9、接受应届生毕业生（在校期间有机器人、嵌入式、工业自动化等相关领域的完整项目经验者优先）。
+
+※注：本岗位为代合作企业发布的定向招聘，劳动关系及薪酬福利均直接与用工企业签订，介意者慎投。",CMake C++ Linux Git Modbus 技术文档 数据分析,https://jobs.51job.com/suzhou-xcq/172718728.html?s=sou_sou_soulb&t=0_0&req=69f2c25d0be0234c6beb689797b3bbfc
+系统开发岗/软件开发维护人员,日盛国际融资租赁,6千-1万·13薪,苏州·苏州工业园区,苏州,大专,2年,2026-06-25 09:02:26,job51,"1、负责公司营运系统的全栈开发，包括前端、后端和数据库的设计和实现。
+2、负责应用程序的性能优化和故障排查；
+3、在项目组内完成系统开发任务，确保项目按时高质量交付；
+4、完成公司日常需求单的维护，解决线上问题、排查Bug，持续迭代优化。
+5、完成部门技术支持与主管指派任务。
+6、其他上级主管交代事项。
+
+任职要求:
+1、大专及以上学历，计算机相关专业毕业。
+2、精通Angular前端 + .Net Core后端开发(或者Java后端开发)。
+3、精通Web API 设计与开发， HTTP /Network 等知识。
+4、精通ORM 架构及使用方式 (Dapper /Entity Framework)。
+5、熟悉MS SQL、Oracle等任一关系型数据库。
+6、熟悉FineReport、SQL Server Reporting Services。
+7、熟悉具备版本控制概念，GIT实际操作经验。
+8、具备团队合作精神及良好的沟通能力。
+9、具备备主动积极特质、解决问题有不放弃的毅力。
+10、两年以上相关ERP或者BPM维护与开发经验(熟悉python优先)。",Angular Java SQL Oracle SQL Server Git Python 故障排查 技术支持,https://jobs.51job.com/suzhou-gyyq/169778971.html?s=sou_sou_soulb&t=0_0&req=69f2c25d0be0234c6beb689797b3bbfc
+AI 开发工程師,神讯电脑（昆山）,1-2万,昆山,苏州,本科,1-3年,2026-08-03 13:55:09,job51,"岗位职责：
+1. 与生产、工程、品质团队紧密协作，挖掘真实业务痛点，将AI技术转化为可量化的生产价值。
+2. 独立完成面向工厂场景的AI Agent设计与开发，覆盖业务流程、生产流程、品质管理和产品管理等核心业务，打造可落地的工业智能体解决方案。
+3. 持续监控 AI 工具运行效果，收集用户反馈，重点优化 RAG 检索准确率及模型响应速度，完善AI功能优化用户体验。
+4. 在公司内部推广 AI应用，提供相应的技术培训与支持。
+5. 跟进AI Agent***，搭建适配全生产流程的智能体协同体系，持续迭代优化。
+任职要求:
+1. 本科及以上学历，计算机、人工智能等相关专业，1-3年AI应用开发经验。
+2. Python 编程与工程化：精通 Python 编程，熟练掌握Web API 服务开发，具备良好的代码规范与工程化落地能力。
+3. AI 开发框架掌握：熟练掌握 LangChain生态系统，深刻理解并能运用 Chain、Agent、Memory 等核心概念。
+4. 向量数据库技术：精通 Vector Database (如 Milvus/Pinecone/Chroma) 的搭建、索引优化以及数据清洗入库流程。
+5. 实战经验：具备实际的 AI Agent (智能体) 开发经验，能设计复杂的任务规划与工具调用逻辑。
+6. 独立解决问题能力和项目管理能力，能清晰汇报进度；对新技术敏感，能主动提出利用 AI 解决业务痛点的创新方案。",AI Agent RAG Python LangChain Agent 向量数据库 培训 项目管理,https://jobs.51job.com/kunshan/172899760.html?s=sou_sou_soulb&t=0_0&req=69f2c25d0be0234c6beb689797b3bbfc
+it开发工程师（J10020）,优护优家健康科技（苏州）,1-1.6万,昆山,苏州,大专,3年及以上,2026-06-22 11:47:03,job51,"岗位名称：信息系统开发工程师
+
+岗位职责：
+1、负责核心业务系统（T100、OA、PLM等）二次开发与优化，涵盖业务逻辑调整、流程配置、报表定制及系统间接口对接。
+2、负责数据库开发与性能优化，包括复杂查询、存储过程编写及数据结构设计，支撑经营分析报表与数据中台建设。
+3、探索AI在内部系统中的落地应用，如文档自动生成、数据自动核对等场景。
+
+任职要求：
+（一）技术能力
+1、精通Java及Spring Boot/Spring Cloud框架；熟悉.NET Core或C#者优先。
+2、熟悉Oracle、MySQL、SQL Server等数据库，具备复杂SQL编写、性能调优及存储过程开发能力。
+3、掌握HTML、CSS、JavaScript，熟悉Vue.js或React，能独立完成报表及后台页面开发。
+4、熟悉RESTful API、Web Service等接口规范，能独立完成系统间数据对接。
+（二）AI工具应用
+熟练使用AI编程工具辅助开发，了解主流AI工具并能结合业务场景探索落地应用。
+（三）行业与经验
+1、统招大专及以上学历，计算机、软件工程、信息管理等相关专业。
+2、3年以上制造业信息化系统开发或实施经验，熟悉制造业核心业务流程。
+3、有T100、泛微OA或PLM系统开发经验者优先。",Java Spring Boot Spring Cloud C# Oracle MySQL SQL Server SQL JavaScript Vue React,https://jobs.51job.com/kunshan/172632315.html?s=sou_sou_soulb&t=0_0&req=69f2c25d0be0234c6beb689797b3bbfc
+Java开发（银行支付经验）,南京日冲软件,1.3-1.4万,昆山,苏州,本科,3年及以上,2026-07-16 16:50:28,job51,"工作职责
+1、参与项目方案设计、开发和技术测试工作；
+2、根据项目要求，配合项目经理参与项目可行性与需求分析；
+3、负责相关系统日常运维、迭代需求设计及开发。
+4、参与相关系统或项目模块标准化文档的编写。
+5、完成交办的其他工作事项。
+任职资格
+1、统招大学本科或以上学历，计算机或相关专业毕业；
+2、3年以上JAVA开发经验，熟悉db2、oracle、mysql等一种数据库；
+3、有传统支付相关银行现场实施经验至少1年；
+4、具备良好的表达沟通能力，有良好的协调组织能力，高度的工作热情和客户服务意识；
+5、有较好的团队合作意识和积极的主动的心态，有责任心和使命感。
+6、有强烈的责任心、良好的表达及沟通能力、团队协作精神及独立解决问题能力。",Java Oracle MySQL 方案设计 需求分析 客户服务,https://jobs.51job.com/kunshan/172939652.html?s=sou_sou_soulb&t=0_0&req=69f2c25d0be0234c6beb689797b3bbfc
+软件开发工程师,苏州西山中科药物研究开发,1-1.6万,苏州·吴中区,苏州,本科,2年及以上,2026-08-04 14:58:11,job51,"1，本科学历，计算机相关专业两年以上开发经验者优先；
+2.熟练掌握 Java 知识，具备良好的面向对象编程思想;
+3.精通J2EE前端和后端开发相关技术，熟悉相关开发框架，Spring、SpringBoot 、SpringMVC、MyBatis等，熟练掌握HTML、javascript、ajax等web开发技术，至少熟悉一种前端开发框架,如Bootstrap、VUE等；
+4.掌握关系型和非关系型数据库理论，有使用至少一种关系型数据库的经验，如SQLServer、MySQL等；
+5.熟悉各类web容器，精通Tomcat、Jboss等；
+6.有实际软件开发经验，能独立完成项目的开发、测试、实施和部署工作；
+7.良好的沟通、团队协作能力，责任心强，思路清晰，能够承受工作压力。
+岗位职责：软件开发、升级和维护",Java Spring MyBatis JavaScript Vue SQL MySQL Tomcat,https://jobs.51job.com/suzhou-wzq/153191163.html?s=sou_sou_soulb&t=0_0&req=69f2c25d0be0234c6beb689797b3bbfc
+Python应用开发工程师,苏州梦利达电子,9千-1.3万·13薪,昆山,苏州,本科,1年及以上,2026-07-27 10:31:37,job51,"任职要求：
+1.本科及以上学历，计算机相关专业；本科对口专业优先。
+2.具备1年及以上软件开发相关经验；
+3.熟悉Python开发（必要）；
+4.熟悉关系数据库系统MySQL、SQL SERVER、PostgreSQL等，熟悉标准SQL语言；
+5.熟悉Python后端常见WEB开源框架/系统，熟悉前端VUE框架开发技术；
+6.具备编写需求、设计、使用说明等常见软件工程文档能力；
+7.具备良好的沟通表达能力、责任心和团队协作能力；
+8.有MDC、MES、WMS开发经验者优先。
+9.具有AIcoding工具使用经验；
+10.熟悉web前端技术框架或具备一定开发能力；
+岗位职责：
+1.参与公司MES开发、升级、运维及重点项目的设计与开发编码工作；
+2.能够独立主持开展软件开发项目；
+3.完成B/S架构软件产品或项目的前、后端程序业务设计、代码实现，完成前后端接口设计与开发实现；
+4.完成软件产品或项目的数据库规划与设计。",Python MySQL SQL Server PostgreSQL SQL Vue,https://jobs.51job.com/kunshan/173046390.html?s=sou_sou_soulb&t=0_0&req=69f2c25d0be0234c6beb689797b3bbfc
+全栈开发工程师（Java / React方向）,久维科技（苏州）,1-1.5万,苏州·吴中区,苏州,大专,3-5年,2026-07-23 09:03:06,job51,"Welcome to join our energetic team. All the resumes will be dealt within 2 working days. Please keep the phone on and thank you for your attention.
+欢迎加入富有朝气的团队！所有投递的简历我们最晚在2个工作日内处理完，请您在简历投递后保持电话畅通，感谢您的关注！
+
+【企业职位亮点】
+A) 贴心的福利配套：
+-办公环境：独立办公大楼，免费停车场，图书室，星巴克咖啡吧
+-味蕾关怀：免费工作三餐，零食站，星光补给站
+-健康管理：室内体育馆&amp;健身房，免费年度体检，医药柜
+-员工活动：生日会，音乐节，周年活动，部门团建，节假日活动
+B) 广阔的发展平台：
+自主品牌，专注研发，全球市场
+C) 畅通的晋升通道：
+扁平式组织架构，完善的培养计划，透明的晋升机制，选能任贤
+D) 丰富的企业培训：
+一带一师徒制，新人训练营，特别人才培养计划
+E) 有竞争力的薪酬福利：
+五险一金，年度调薪，年度绩效奖金，带薪年休假，带薪病假，其他法定国假
+
+【岗位职责】
+1、根据项目计划和需求文档，负责业务系统的前后端功能开发、联调、测试及上线支持；
+2、参与需求分析、技术方案设计、数据库设计、接口设计及核心功能开发，确保功能实现符合业务要求；
+3、负责后端接口、业务逻辑、数据库操作、权限控制、异常处理等开发工作；
+4、负责前端页面、交互逻辑、数据展示、表单校验、接口调用等开发工作，能够独立完成常规业务模块的前后端开发；
+5、对开发功能进行自测，主动发现并修复问题，保障交付质量；
+6、编写开发过程中的相关文档，包括接口文档、数据库变更说明、测试说明、部署说明等；
+7、负责系统运行过程中的问题排查、功能优化、性能优化、版本升级及日常维护工作；
+8、持续优化代码质量、系统性能和用户体验，提升系统稳定性、可维护性和开发效率。
+
+【任职要求】
+1、拥有3-5年java开发经验，同时具备 React.js 实际开发经验，能够独立完成业务页面开发；
+2、熟悉并掌握Spring及Sping Boot&amp;Cloud，SpringMVC，MyBatis或Hibernate等主流开源Web应用框架以及Web微服务框架；
+3、熟悉 MySQL 数据库，能够进行表结构设计、SQL编写、索引优化及常见性能问题排查；
+4、熟悉 Redis、缓存机制、消息队列、定时任务、文件上传下载、权限控制等常见业务系统开发场景；
+5、熟悉微服务、分布式架构、缓存(Redis)、消息中间件(ActiveMQ/RabbitMQ)等更佳；
+6、熟悉HTTP、TCP/IP协议，RESTful规范、熟练使用json、xml等数据格式； 
+7、熟练使用svn、maven、git等开发工具；
+8、具备较强的逻辑思维能力、问题分析能力和学习能力，能够独立定位并解决开发过程中的问题；
+9、具备良好的沟通能力和团队协作意识，工作认真负责，能够配合项目节奏推进开发任务。",Java React Spring SPI MyBatis Hibernate 微服务 MySQL SQL Redis 分布式 ActiveMQ RabbitMQ TCP/IP SVN Maven Git 培训 需求分析 技术方案,https://jobs.51job.com/suzhou-wzq/172698616.html?s=sou_sou_soulb&t=0_0&req=69f2c25d0be0234c6beb689797b3bbfc
+APP开发工程师,千屿科技（苏州）,1-1.5万,苏州·苏州工业园区,苏州,本科,2年及以上,2026-07-22 19:01:35,job51,"岗位职责
+•负责 Flutter 客户端的功能开发、迭代和日常维护。
+•负责 Android、Windows 等平台的跨平台适配。
+•根据产品需求完成页面、组件、交互和业务逻辑开发。
+•负责设备管理、实时数据展示、数据上传、报告回放及后台管理等功能。
+•完成客户端与服务端接口的对接、数据解析和业务状态联动。
+•参与实时数据、图表、波形及历史数据可视化功能的开发和优化。
+•处理页面布局、状态同步、弱网、超时、缓存及异常恢复等问题。
+•根据测试反馈和缺陷记录完成问题定位、代码修复及回归验证。
+•编写和维护单元测试、组件测试及核心业务逻辑测试。
+•负责 Android APK、Windows 客户端的构建、打包和发布前验证。
+•持续优化客户端的稳定性、性能、代码质量和用户体验。
+•与产品、服务端、测试及其他研发人员协作，推动需求和问题闭环。
+任职要求
+•熟悉 Dart，具有良好的 Flutter 开发基础。
+•具有 2 年以上 Flutter 项目开发经验，并参与过较完整的项目交付。
+•熟悉 Flutter 常用组件、布局、路由、状态管理和页面生命周期。
+•熟悉异步编程、Stream、数据模型及复杂业务状态管理。
+•熟悉 REST API、JSON、文件上传下载等常见客户端开发场景。
+•具备 Android 真机调试经验，能够使用 ADB、日志等工具排查问题。
+•了解 Windows 桌面端开发，或具备 Flutter Windows 项目经验。
+•具备较强的问题定位能力，能够根据日志、代码和问题现象分析原因。
+•熟悉 Git，能够独立完成代码提交、分支管理及冲突处理。
+•具备测试意识，能够为核心逻辑编写单元测试或组件测试。
+•能够独立完成“需求理解—功能开发—测试验证—问题修复”的工作闭环。
+•工作认真负责，具备良好的沟通和团队协作能力。
+加分项
+•有 Android、Windows 多平台项目开发经验。
+•有图表、实时数据、波形或大数据量绘制经验。
+•有医疗健康、物联网、工业软件或数据监测类项目经验。
+•有复杂表单、后台管理、数据回放或文件管理功能开发经验。
+•有客户端性能优化、弱网处理、异常恢复或稳定性治理经验。
+•了解 Kotlin、Java、C++ 或 Flutter Plugin 开发。
+•有应用打包、签名、发布和版本管理经验。
+•熟悉 MQTT、WebSocket、WebRTC 等实时通信技术。
+•有自动化测试、白盒测试或持续集成经验。
+•熟悉禅道、Jira 等项目及缺陷管理工具。",Flutter Git Kotlin Java C++ Gin MQTT WebSocket 版本管理 自动化测试 缺陷管理,https://jobs.51job.com/suzhou-gyyq/173009259.html?s=sou_sou_soulb&t=0_0&req=1c2da17158f7e5e0628b0261bd301b19
+AI自研软件工程师,苏州工业园区瑞塑整合包装,1.3-1.5万,苏州·苏州工业园区,苏州,大专,1年及以上,2026-08-05 17:15:15,job51,"【工作内容】
+1、负责印刷包装行业专用AI算法模型的自研开发，优化图像识别与缺陷检测精度；
+2、主导软件架构设计与核心代码编写，确保系统在高速产线环境下的稳定运行；
+3、对接生产现场需求，完成从数据清洗、模型训练到工程化部署的全流程交付；
+4、协同硬件团队进行边缘计算设备适配，解决工业场景下的实时性与兼容性难题；
+5、持续跟踪前沿技术，迭代现有算法方案以提升包装质检效率与良品率。
+
+【任职要求】
+1、计算机、人工智能或相关专业大专及以上学历，具备扎实的编程基础；
+2、精通Python/C++，熟悉PyTorch/TensorFlow框架，有工业视觉项目落地经验；
+3、深入理解深度学习原理，在目标检测、分割或异常检测领域有实际成果；
+4、具备良好的逻辑思维能力与跨部门沟通协作能力，能适应工厂现场工作节奏；
+5、对印刷包装工艺有一定了解者优先，具有强烈的责任心和解决复杂问题能力。",Python C++ PyTorch TensorFlow 深度学习,https://jobs.51job.com/suzhou-gyyq/173165635.html?s=sou_sou_soulb&t=0_0&req=1c2da17158f7e5e0628b0261bd301b19
+Shopify 独立站后端开发,苏州惠禾科技,1.2-2万·13薪,苏州·苏州工业园区,苏州,本科,1年及以上,2026-07-14 17:18:05,job51,"岗位职责
+本岗位为Shopify独立站复合型开发，兼顾UI前端落地与轻后端接口开发，负责公司跨境DTC独立站的功能定制、页面迭代、数据对接与全站运维优化：
+1、承接UI设计稿，独立完成Shopify全站页面1:1还原定制，包含首页、商品页、合集页、详情页、购物车、结算页，实现个性化交互、多设备适配、样式兼容优化。
+2、精通Online Store 2.0架构，独立完成主题二次开发、自定义Section组件搭建，根据运营转化需求迭代页面功能、修改模块样式、优化用户浏览体验。
+3、负责后端接口开发与数据对接，熟练调用Shopify Admin/Storefront GraphQL&amp;REST API、配置Webhook，实现商品、订单、库存、客户数据自动化同步，处理接口异常、数据纠错与业务逻辑校验。
+4、专注站点性能优化，针对性提升Core Web Vitals核心指标，解决页面加载慢、卡顿、兼容异常等问题，助力网站SEO优化与店铺转化率提升。
+5、独立对接集成跨境常用第三方工具，包含支付、物流、邮件营销、测评、折扣插件，完成功能调试、适配兼容，保障店铺全流程业务正常运转。
+6、负责多店铺日常运维、线上bug修复、版本迭代更新，沉淀通用组件、接口方案与开发规范，保障项目稳定、高效落地。
+任职要求
+1、1年及以上全职Shopify独立站开发经验，非自学demo经验，熟练掌握Liquid、HTML/CSS、原生JavaScript，可独立完成主题改造、页面定制与交互开发。
+2、具备扎实的轻后端开发能力，熟练使用Node.js/Java/PHP任意技术栈，可独立完成接口开发、Shopify API对接、Webhook数据同步与问题调试。
+3、具备优秀的UI还原能力，精准落地设计稿，熟练处理移动端/PC端适配、浏览器兼容、交互细节优化，无明显视觉偏差与功能bug。
+4、具备独立线上问题排查能力，可自主解决页面报错、接口异常、性能卡顿、数据同步失败等各类线上问题，持续跟进Shopify官方版本迭代更新。
+5、逻辑严谨、责任心强，具备良好的跨部门沟通能力，可高效配合设计、运营、产品推进项目迭代，严格把控开发质量与交付效率。",JavaScript Node.js Java PHP Store Admin Storefront GraphQL,https://jobs.51job.com/suzhou-gyyq/172909502.html?s=sou_sou_soulb&t=0_0&req=1c2da17158f7e5e0628b0261bd301b19
+IT运维工程师,昆山鑫泰利智能科技,1-1.5万,苏州,苏州,大专,5年及以上,2026-07-29 10:20:01,job51,"工作职责：
+1、 数据中心与系统运维：负责机房超融合服务器、存储、网络设备 7×24 巡检监控与故障应急，承担 Windows / Linux / VMware 等基础架构的安装、调优与故障处理。
+2、 网络与公有云运维：负责交换机、路由器、防火墙、负载均衡等设备配置与排障；管理阿里云 / AWS 资源，主导云上部署、迁移与高可用方案落地。
+3、数据库 DBA 运维：负责SQL Server/ MySQL / Oracle /Redis / MongoDB 等数据库的部署、备份、性能调优与主从 / 集群 / 双活等高可用方案维护。
+4、 自动化与监控：落地 Zabbix / Prometheus / Ansible 等监控与自动化运维工具，编写 Shell / Python 脚本提升运维效率。
+5、流程与文档：制定运维 SOP、应急预案与故障手册，按时输出巡检、容量、复盘报告。
+
+任职资格：
+1、学历与经验：专科及以上学历，计算机 / 信息管理 / 信息技术等相关专业；5 年及以上 IT 运维工作经验。
+2、数据中心 / 系统 / 网络 / 公有云：具备机房服务器、存储、网络设备实际运维经验；精通 Linux（CentOS / Ubuntu / RHEL）与 Windows Server；熟悉 TCP/IP、OSPF、BGP、VLAN、华为 / H3C / 思科等设备配置；具备阿里云 / 腾讯云 / 华为云 / AWS 等至少一个公有云平台运维经验。
+3、数据库 DBA：具备 MySQL / Oracle / PG / SQL Server / Redis / MongoDB 等数据库的部署、备份、性能调优与高可用方案维护经验。
+4、自动化与综合素质：有 Ansible / Zabbix / Prometheus / Shell / Python 等自动化 / 监控工具落地经验；良好的文档、沟通与团队协作能力，能承受 7×24 轮班及突发故障压力。",Linux 防火墙 阿里云 AWS 高可用 SQL Server MySQL Oracle Redis MongoDB Prometheus Ansible Shell Python TCP/IP 腾讯云 华为云 系统运维,https://jobs.51job.com/suzhou/173077552.html?s=sou_sou_soulb&t=0_0&req=1c2da17158f7e5e0628b0261bd301b19
+RPA工程师,贸联电子（昆山）,1.2-1.6万,昆山,苏州,本科,1年及以上,2026-06-29 16:43:47,job51,"岗位职责：
+1.流程分析与架构规划：主导业务流程评估与可行性分析，设计自动化工作流，确保技术解决方案高度契合企业战略目标；
+2.端到端开发与生命周期管理：负责 RPA 解决方案的系统架构设计、技术文档
+撰写、代码编写及持续迭代优化；
+3.系统稳定性与运维管理：主动监控系统运行表现，快速响应并解决异常故障，确保自动化平台的高可用性与稳定性；
+3.技术创新与数字化转型：调研并引入前沿技术（如 AI Agent），以技术创新赋能企业数字化转型；
+
+任职资格：
+1.本科及以上学历，具备 1 年及以上相关工作经验；
+2.具备扎实的编程语言基础（如 Python、VBA 等）；
+
+加分项：
+1.具备 RPA 或 AI Agent 实际项目开发经验者优先；
+2.精通 Python、VBA 等编程语言；
+3.拥有数字化转型、流程再造（Process Optimization）等项目的成功落地实践经验；",高可用 AI Agent Python 技术文档 RPA AI Agent VBA,https://jobs.51job.com/kunshan/172381428.html?s=sou_sou_soulb&t=0_0&req=1c2da17158f7e5e0628b0261bd301b19
+数据库开发工程师,江苏磅礴医疗科技,8千-1.6万,苏州·苏州工业园区,苏州,本科,2年及以上,2026-06-17 16:09:02,job51,"我们正在寻找专业的数据库开发工程师，负责数据库的设计、开发、优化和维护。
+
+工作内容：
+1. 参与数据库设计和架构规划；
+2. 负责数据库的开发、测试和优化；
+3. 监控数据库性能，定位并解决性能问题；
+4. 配合应用开发人员完成数据接口开发和调试；
+5. 负责数据库的日常维护和备份；
+6. 与团队内部以及需求部门进行有效沟通，跟进项目进度以及解决相关数据问题。
+
+岗位要求：
+1. 计算机相关专业本科及以上学历；
+2. 2年以上数据库开发经验；
+3. 熟悉多种关系型数据库（PostgreSQL、Oracle、SQLServer、MySql)
+4. 独立进行数据需求分析，编写需求分析文档
+5. 进行数据库设计、ETL设计
+6. 熟练掌握Shell、SQL语言
+7. 有良好的沟通表达能力、团队协作精神和服务意识。",PostgreSQL Oracle SQL MySQL Shell 需求分析,https://jobs.51job.com/suzhou-gyyq/161277713.html?s=sou_sou_soulb&t=0_0&req=1c2da17158f7e5e0628b0261bd301b19
+java开发工程师（银行经验，出差）,南京日冲软件,1.2-1.3万,苏州,苏州,本科,3年及以上,2026-06-29 14:18:08,job51,"工作职责
+1、参与项目方案设计、开发和技术测试工作；
+2、根据项目要求，配合项目经理参与项目可行性与需求分析；
+3、负责相关系统日常运维、迭代需求设计及开发。
+4、参与相关系统或项目模块标准化文档的编写。
+5、完成交办的其他工作事项。
+任职资格
+1、统招大学本科或以上学历，计算机或相关专业毕业；
+2、3年以上JAVA开发经验，熟悉db2、oracle、mysql等一种数据库；
+3、有传统支付相关银行现场实施经验至少1年；
+4、具备良好的表达沟通能力，有良好的协调组织能力，高度的工作热情和客户服务意识；
+5、有较好的团队合作意识和积极的主动的心态，有责任心和使命感。
+6、有强烈的责任心、良好的表达及沟通能力、团队协作精神及独立解决问题能力。",Java Oracle MySQL 方案设计 需求分析 客户服务,https://jobs.51job.com/suzhou/172724428.html?s=sou_sou_soulb&t=0_0&req=1c2da17158f7e5e0628b0261bd301b19
+IT Engineer,西交利物浦大学,8千-1.4万,苏州·苏州工业园区,苏州,本科,2年及以上,2026-07-27 13:39:00,job51,"Roles &amp; Responsibilities:
+
+
+
+
+1. Provide IT support and services for staff and students, including but not 
+limited to computer software and hardware, peripheral printers, networks, 
+application systems, etc
+2. Provide rapid response and maintenance services for various IT systems and 
+IT equipment on the XEC campus.
+3. Maintain Data Center, including security audits, system backup procedures, 
+and other recovery processes in accordance with disaster recovery and business 
+continuity strategies.
+4. Monitor network and intelligent facility performance and troubleshoot 
+problem areas.
+5. Support various offline and online teaching, meetings, and activities.
+6. Other tasks assigned by superiors.
+
+Qualifications:
+
+
+
+
+1. Bachelor's degree in computer science or related field;
+2. At least two years of relevant work experience.
+
+Required Competencies and Skills:
+
+
+
+
+1. Experience in maintaining, managing, installing, and configuring user 
+computers;
+2. Fluent English ability, CET-6 or IELTS 5.5 or above;
+3. Good interpersonal and communication skills;
+4. Team-working, transparency spirit, patience, and interest in learning new 
+technologies;
+5. Willingness to learn and work in an international campus environment.",DiT Gin Go SPI Roles Responsibilities Provide IT,https://jobs.51job.com/suzhou-gyyq/153103733.html?s=sou_sou_soulb&t=0_0&req=1c2da17158f7e5e0628b0261bd301b19
+系统工程师,苏州森迪恩特汽车技术,1.5-3万·13薪,苏州,苏州,本科,3年及以上,2026-08-06 04:12:22,job51,"【工作内容】
+
+【任职要求】
+- 本科及以上学历，计算机、软件工程或相关专业，3年以上系统工程或运维开发经验；
+
+- 具备良好的问题分析与解决能力，有大型分布式系统维护经验者优先；
+- 具备较强的沟通协作能力，能适应快节奏工作环境，具备一定的抗压能力。",分布式,https://jobs.51job.com/suzhou/173162037.html?s=sou_sou_soulb&t=0_0&req=1c2da17158f7e5e0628b0261bd301b19
+软件开发工程师,旺宏微电子（苏州）,8千-1.2万·15薪,苏州,苏州,硕士,无需经验,2026-07-28 15:33:50,job51,"岗位职责：
+探索数据分析技术在公司业务上的应用，如：计算图构建、模型训练与优化；
+相关文档的编写。
+招聘需求：
+1. 计算机软件、应用数学、统计学或计算物理相关专业硕士毕业生；
+2. 熟悉统计学知识为佳；
+3. 熟悉Python开发语言；",Python 数据分析,https://jobs.51job.com/suzhou/173069323.html?s=sou_sou_soulb&t=0_0&req=1c2da17158f7e5e0628b0261bd301b19
+上位机软件开发工程师,昆山佰奥智能装备,7.5千-1.5万,昆山,苏州,本科,3年及以上,2026-06-29 10:38:51,job51,"任职要求：
+1、3年以上精通C#语言，熟悉WPF开发，，熟悉MVVM架构模式；
+2、熟练各类接口，服务，例如WCF，Webservice,WebAPI等；
+3、精通主流数据库技术（如Sql server、Mysql等），至少熟悉一种数据库开发和管理；
+4、 熟悉串口通讯，以太网等常用通讯协议；
+5、有ORM工具及实际项目经验的优先；
+6、有产线追溯系统/MES项目经验者优先；
+7、能独立阅读相关外文（英语）技术文档资料。
+
+工作职责
+1、负责工业产线上位机软件的开发、调试与迭代优化，适配自动化生产线设备数据采集、状态监控、工艺参数配置、流程管控等核心功能；
+2、对接PLC、传感器、工控设备，完成设备通讯、数据解析、协议对接，保障产线数据实时、稳定传输；
+3、负责上位机界面设计、流程优化、数据可视化及生产日志、故障告警、数据统计等功能开发，提升产线运维效率；
+4、配合产线调试、现场落地及问题排查，优化软件稳定性与兼容性，输出相关开发及使用文档；
+5、跟进生产需求，迭代优化软件功能，配合团队完成产线智能化、数字化升级工作。
+
+岗位关键字：c#、mes、wms、sql、mysql、plc通信、scada",C# SQL Server MySQL SQL 技术文档 数据采集 流程优化,https://jobs.51job.com/kunshan/172719693.html?s=sou_sou_soulb&t=0_0&req=1c2da17158f7e5e0628b0261bd301b19
+软件工程师C#,苏州天准科技,1.5-2.5万·15薪,苏州·虎丘区,苏州,本科,3年及以上,2026-07-23 11:14:01,job51,"【岗位职责】
+1.负责影像测量仪（二次元/三次元/2.5次元）上位机软件的架构设计、核心代码编写与持续维护；
+2.基于C#（WPF/WinForms）开发人机交互界面，实现测量流程的图形化管理、参数配置及数据可视化；
+3.负责工业相机SDK、运动控制卡SDK的集成与二次开发，实现图像采集、运动控制与视觉算法的高效联动（支持硬触发时序控制）；
+4.封装及调用机器视觉算法库（如Halcon/VisionPro），实现亚像素找线找圆、尺寸测量、形位公差计算等核心功能；
+5.开发数据管理模块，实现测量数据的数据库存储（SQLite/MySQL）、统计报表生成（Excel）及CAD图纸（DXF）的导入导出功能；
+6.参与设备的现场联调与测试，解决软硬件结合过程中的技术瓶颈及系统稳定性问题；
+编写相关技术文档（设计文档、测试报告、操作手册等）。
+【任职要求】
+1.学历与经验：本科及以上学历，计算机科学、自动化、机电一体化等相关专业；3年以上C#上位机或机器视觉软件开发经验；
+2.编程语言：精通C#及.NET Framework/.NET Core，熟练使用WPF（MVVM模式）或WinForms进行复杂界面开发；
+3.工程能力：精通多线程编程、异步编程，熟悉内存管理，能够处理高频图像数据的流转，代码规范良好，具备模块化/插件化架构设计思维；
+4.视觉算法：熟练掌握至少一种主流视觉算法库（Halcon优先 / VisionPro / OpenCV），熟悉图像预处理、边缘检测、模板匹配、Blob分析；
+5.硬件交互：熟练使用主流工业相机（海康/Basler/大恒等）SDK，熟悉GigE/USB3.0协议及GenICam标准；
+6.熟悉主流运动控制卡（雷赛/正运动/固高等）的C#接口调用，了解点位运动、回零及插补逻辑；
+7.熟悉串口、TCP/IP、Modbus等常用工业通信协议；
+8.业务知识：了解相机标定原理（坐标系映射、畸变校正），熟悉几何量测量基础（距离、角度、圆度、平面度等形位公差）。
+9.具有二次元/三次元影像仪行业完整项目落地经验，熟悉ISO/GPS计量标准者优先；熟悉 C++/CLI 混合编程，能将底层C++高性能算法封装为C#可调用的DLL；熟悉光学成像基础（光源选型、镜头畸变、景深等）；了解深度学习（如YOLO系列）在表面缺陷检测中的应用；具备良好的抗压能力、现场调试问题排查能力及跨部门沟通协作能力。",C# SQLite MySQL OpenCV TCP/IP Modbus GPS C++ 深度学习 技术文档,https://jobs.51job.com/suzhou-hq/173014561.html?s=sou_sou_soulb&t=0_0&req=1c2da17158f7e5e0628b0261bd301b19
+后端开发工程师,腾飞科技,1-1.6万,昆山,苏州,本科,1年及以上,2026-06-15 16:51:48,job51,"1. 核心系统维护与迭代：全面负责公司PHP后端系统的日常维护、Bug修复及功能迭代，确保线上业务稳定运行。
+2. 新产品开发：参与新业务线的Web端及移动端产品开发，负责后端逻辑的全流程实现。
+3. 基础设施与运维：熟练操作主流云服务商的各类产品（如ECS、OSS、CDN等）。
+4. 技术选型与支持：参与产品需求分析与技术方案设计，协助团队攻克技术难点，保障项目高质量、按时交付。、
+
+学历背景：本科及以上学历，计算机、电子或相关专业。
+工作经验：1年以上后端开发经验。
+后端技术栈：掌握NodeJS或PHP后端，掌握Express、Flask等服务器框架，熟悉MySQL、Redis等数据库的设计与优化，熟悉Next.js、Nuxt.js等框架。掌握Docker用法。
+工程素养：熟练使用Git进行团队协作，代码规范，具备优秀的问题分析与解决能力。
+综合素养：沟通顺畅，自驱力强，能够快速适应创业型团队的节奏。
+有智能可穿戴设备、智能服装、医疗健康类项目的开发经验者优先。",PHP Express Flask MySQL Redis Next.js Nuxt Docker Git 需求分析 技术方案,https://jobs.51job.com/kunshan/172562914.html?s=sou_sou_soulb&t=0_0&req=1c2da17158f7e5e0628b0261bd301b19
+基础架构工程师 (MJ000567),苏州艾博生物科技,6千-1万,苏州·苏州工业园区,苏州,本科,1-3年,2026-08-06 10:36:07,job51,"岗位职责：
+1. 负责企业本地Linux服务器、计算集群及云平台（虚拟机、存储、网络）的部署、配置与日常运维工作；
+2. 常态化监控研发系统运行状态、性能与资源容量，快速排查和解决系统故障、性能卡顿、服务中断等各类运维问题；
+3. 负责ELN电子实验记录本、LIMS实验室信息管理系统日常运维，包含账号开通、权限配置、系统参数维护，联动供应商解决系统问题；
+4. 协助完成实验室仪器与ELN/LIMS系统的对接集成，保障业务系统与实验设备数据互通、稳定运行；
+5. 运维管理文件服务器、对象存储、数据库等数据存储资源，维护各业务间数据流转链路，落实数据备份、留存与基础数据质量校验工作；
+6. 配合完成系统补丁更新、容灾恢复、基础安全加固，落地IaC自动化运维思路，持续完善运维流程与技术文档。
+
+
+任职要求：
+1. 计算机、信息系统、工程相关专业，本科及以上学历；
+2. 1-3年IT运维、系统管理、DevOps相关工作经验；
+3. 熟练掌握Linux系统运维核心技能，具备扎实的网络基础知识（DNS、DHCP、VPN、防火墙等）；
+4. 掌握Python、Bash等任意一种脚本语言，可独立完成自动化运维、故障排查相关脚本编写；
+5. 接触过AWS、Azure、GCP等主流云平台，了解云基础架构；
+6. 具备优秀的故障排查能力，能够独立处理复杂、模糊的技术问题；
+7. 文字表达清晰、善于沟通，可高效对接非技术岗位科研人员，完成需求对接与问题答疑。",Linux DevOps 防火墙 Python AWS Azure 技术文档 系统运维 故障排查,https://jobs.51job.com/suzhou-gyyq/173171562.html?s=sou_sou_soulb&t=0_0&req=1c2da17158f7e5e0628b0261bd301b19
+人工智能岗,张家港众智纺织品,8.5千-1.2万,张家港,苏州,本科,1年及以上,2026-06-17 15:07:22,job51,"岗位职责：
+1.负责AI大模型、智能体应用项目从立项到交付的全流程推进，制定实施计划、管控项目进度与风险，保障项目按质按期完成交付。
+2、负责技术发展趋势洞察与预研，分析业务应用场景，搭建人工智能的平台化应用、搭建系统知识库。
+3、智能体应用开发：负责智能问答（RAG）、智能问数、智能数据提取与校验、智能文档生成等场景的智能体开发与迭代，基于智能体平台快速搭建与落地。
+4、场景落地：对接公司内部需求，梳理业务痛点并转化为技术方案，完成智能体产品部署（docker/k8s）、环境适配、数据迁移与用户培训，保障项目按时验收。
+5、运维优化：监控智能体运行状态（响应速度、准确率、稳定性），快速排查并解决现场技术问题，结合反馈意见优化产品性能与交互体验。
+6.主导项目交付后的运营机制搭建，制定运营SOP、服务标准与效果评估体系；基于业务数据与客户反馈，持续优化智能体应用场景与大模型落地效果，实现业务价值闭环。
+
+任职要求：
+核心硬性要求：
+1、本科及以上学历，1年以上全栈研发经验，前后端能力突出（熟练Vue3，具备复杂交互界面开发经验），1年以上智能体（Agent）或RAG、问数、报告生成等相关项目开发与实施经验。
+2.熟练Java或Python，掌握Redis/MongoDB/Elasticsearch等中间件，了解向量数据库（Milvus/Qdrant）。
+3.熟练Vue3、Element Plus/Ant Design等组件库，熟悉Vite/Webpack打包优化，具备可视化图表（ECharts/DataV）、低代码平台开发经验者优先。
+智能体技术：使用过Dify/Coze等低代码平台、熟悉 RAG 全流程、大模型 API、工具调用与流程编排，有MCP工具开发、Skill开发经验、OpenClaw开发经验者优先。
+4.运维能力：能独立应对复杂环境（国产化服务器、内网部署），快速解决部署、运维中的突发问题。
+
+软实力要求
+1、强需求拆解与表达能力，能清晰对接内部团队，平衡业务需求与技术可行性。
+2、适应项目制工作节奏，能承受多任务并行与实施压力。
+3、关注AI前沿技术，能快速迭代技术栈适配智能体产品迭代需求。
+
+加分项：
+1、有智能问答、智能问数、数据提取校验、智能文档生成等场景落地经验。
+2、具备纺织行业从业经验或项目实施经验。
+3、协调内部算法、后端团队推进需求落地与技术攻关，输出部署手册、操作指南、故障排查手册等文档。
+4、发展和掌握人工智能关键技术和应用，对相关人员和项目进行专业指导，提升整体专业水平和工作绩效。",大模型 RAG Docker K8s Vue Agent Java Python Redis MongoDB Elasticsearch 向量数据库 Vite Webpack 知识库 技术方案 培训 产品迭代 故障排查,https://jobs.51job.com/zhangjiagang/172596532.html?s=sou_sou_soulb&t=0_0&req=1c2da17158f7e5e0628b0261bd301b19
+上位机软件开发,江苏省优联检测技术服务,1.5-2.5万,苏州·吴中区,苏州,本科,无需经验,2026-07-09 16:22:01,job51,"岗位职责：
+1、负责产品开发过程中软件模块设计、操作界面设计、编程、调试、输出文档等开发工作；
+2、负责上位机软件整体方案设计、产品研发，日常改善维护和核心技术攻关，并按照规范编写技术文档；
+3、能够按照制定计划完成开发与测试任务，确保项目进度；
+4、负责软件产品的申请和上报。
+
+任职要求：
+1、计算机、软件相关专业本科及以上学历。
+2、熟练掌握Delphi、VB、C/C++，C#等至少一门编程语言，具有Windows界面程序开发经验。
+3、最少熟悉Access/MySQL/Sqlite/SQL Server/Oracle中的一种数据库。
+4、熟悉串口，USB等通信接口；从事过串口，USB通信模块软件开发的人员优先。
+5、有跨平台开发经验者优先（Widows、Linux、Android）；
+6、有一定的产品研发或项目（课题）、图像识别、算法、仪器上位机软件开发经验，具备一定的系统思维，有提出解决方案的能力、动手能力强、知识面宽；
+7、有职业目标、好学肯钻、做事雷厉风行、有良好的沟通表达能力、勤奋敬业；品行端正，对工作有高度责任心、有较强的承压能力。",C++ C# MySQL SQLite SQL Server Oracle Linux 方案设计 技术文档,https://jobs.51job.com/suzhou-wzq/153740776.html?s=sou_sou_soulb&t=0_0&req=1c2da17158f7e5e0628b0261bd301b19
+软体设计工程师,昆山峰实电子外观应用科技,1-1.5万,昆山,苏州,本科,1年及以上,2026-06-23 11:59:41,job51,"【工作内容】
+- 负责网页接口开发，软件功能设计，功能拓展，使用等文档；
+- 负责对编码进行调试和验证，设计测试使用等；
+- 日常维护现有系统软件的稳定运行；
+- 疑难问题进行跟踪和解决。
+【任职要求】
+- 计算机科学与技术、软件工程、自动化、通信等相关专业；
+- 熟悉TCP/IP通讯编程、多线程，有模块化编程思想；
+- 熟练掌握C#语言，熟悉WebAPI，WebSocket,Socket等相关技术；
+- 熟悉.NET框架及面向对象和设计模式，具有良好的编程规范。",TCP/IP C# WebSocket,https://jobs.51job.com/kunshan/170069201.html?s=sou_sou_soulb&t=0_0&req=1c2da17158f7e5e0628b0261bd301b19
+it运维工程师,上海启佳信息科技,1-1.4万,常熟,苏州,本科,1年及以上,2026-08-04 17:45:39,job51,"【工作内容】
+- 负责公司服务器、网络设备及各类系统的日常维护与监控；
+- 处理日常IT技术支持问题，保障系统稳定运行；
+- 配合完成系统部署、更新及优化工作；
+- 协助制定和执行IT运维相关流程与规范。
+【任职要求】
+- 本科及以上学历，计算机相关专业优先；
+- 对IT运维工作有浓厚兴趣，愿意学习并接受新知识；
+- 具备良好的沟通能力和团队协作精神；
+- 有责任心，能适应一定的加班需求。",技术支持,https://jobs.51job.com/changshu/173151043.html?s=sou_sou_soulb&t=0_0&req=1c2da17158f7e5e0628b0261bd301b19
+初级全栈开发工程师,江苏硕晟软件科技,5-7千,苏州·吴中区,苏州,大专,1-3年,2026-07-25 15:54:04,job51,"岗位职责
+
+1. 参与公司Web、APP、小程序、企业管理系统的前后端开发与功能迭代。
+
+2. 负责前端页面搭建、交互开发及PC、移动端多端兼容适配，保证页面流畅运行。
+
+3. 协助并独立完成后端业务开发、接口编写、数据处理及数据库基础维护工作。
+
+4. 配合产品、测试完成需求评审、代码自测、BUG修复及版本上线迭代。
+
+5. 遵循团队开发规范，编写注释及文档，维护代码仓库，参与代码评审优化。
+
+6. 主动学习新技术，协助团队完成功能升级、性能优化及小型项目落地。
+
+任职要求
+
+1. 计算机相关专业，大专及以上学历，1-3年全栈开发经验，可独立完成常规前后端开发任务。
+
+2. 熟练掌握HTML5、CSS3、JavaScript、ES6+，可独立完成页面及交互开发。
+
+3. 熟练Vue2/Vue3及 Element UI、Vant 等组件库，了解Uni-app跨端开发优先。
+
+4. 熟练Java后端开发，熟悉前后端分离、微服务、分布式基础开发模式。
+
+5. 熟悉MySQL，掌握数据表设计、常用SQL编写、索引及基础优化能力。
+
+6. 熟练Git、Postman等开发工具，具备基本联调和问题排查能力。
+
+7. 有商城、本地生活、出行、旅游类APP或小程序项目经验者优先。",HTML5 CSS3 JavaScript Vue Java 微服务 分布式 MySQL SQL Git,https://jobs.51job.com/suzhou-wzq/173041027.html?s=sou_sou_soulb&t=0_0&req=1c2da17158f7e5e0628b0261bd301b19
+产品助理（UI设计）,默戈（江苏）智慧科技,1-1.5万,苏州·吴江区,苏州,本科,1年及以上,2026-07-27 16:52:21,job51,"岗位职责：
+1、独立负责市场调研与分析，把握行业趋势、目标客户与需求，收集处理数据，支撑产品策略；
+2、竞品剖析，明确对手产品优劣，助力产品精准定位与差异化打造；
+3、协助产品经理完成需求调研、方案撰写及原型制作；
+4、能独立完成软件产品的 UI 设计工作，包括界面布局、交互原型、视觉设计等，确保设计符合用户体验原则和品牌调性；根据用户反馈和数据分析，持续优化 UI 设计方案，提升产品易用性和用户满意度。
+
+技能要求：
+1、熟练使用 Axure、墨刀等原型设计工具，Visio、ProcessOn 等流程图绘制工具；
+2、精通至少一种主流 UI 设计工具（如 Sketch、Figma、Adobe XD 等）；
+3、熟悉界面设计规范、色彩搭配、图标设计等，具备优秀的视觉设计能力和用户体验意识；能独立完成高保真原型设计和 UI 设计方案输出。
+
+任职资格：
+1、计算机、软件、交互设计、工业设计等相关专业本科及以上学历，985、211 院校优先；
+2、一年以上软件产品UI设计经验，有成功上线软件产品案例者优先；
+3、具备较强的审美能力和创新意识；
+4、具有较强的交流沟通能力，能快速学习新知识、新技能，适应快速变化的行业环境。",市场调研 数据分析 原型设计 UI Axure Visio ProcessOn Sketch,https://jobs.51job.com/suzhou-wjq/173055914.html?s=sou_sou_soulb&t=0_0&req=1c2da17158f7e5e0628b0261bd301b19
+全栈开发工程师,嘉驰英才（上海）信息科技,9.5千-1.5万,苏州·吴中区,苏州,本科,3年及以上,2026-06-30 17:08:25,job51,"岗位职责：
+ 1. 负责公司机器人运维管理平台的设计与开发工作
+ 2. 基于 React 开发前端管理界面，实现设备监控、日志管理、远程控制等功能模块
+ 3. 使用 SpringBoot 开发后端 RESTful API，处理设备数据、任务调度、权限管理等服务
+ 4. 基于 Electron 开发跨平台桌面客户端应用，提供本地设备管理、离线操作等功能
+ 5. 在 Linux 平台上进行系统部署、性能优化及运维支持
+ 6. 参与机器人设备通信协议对接、数据采集与分析
+任职要求：
+1. 计算机相关专业本科及以上学历，3 年以上全栈开发经验
+ 2. 精通 React 框架，熟悉 Redux/Zustand 等状态管理，有 Ant Design/AntD Pro 项目经验者优先
+ 3. 熟练掌握 SpringBoot 开发，熟悉 Spring Cloud、MyBatis-Plus、Redis 等技术栈
+ 4. 有 Electron 跨平台桌面应用开发经验，了解主进程/渲染进程通信、原生模块集成
+ 5. 熟悉 Linux 开发环境，掌握 Shell 脚本编写，有 Docker/K8s 部署经验者优先
+ 6. 了解机器人/ROS 系统、设备通信协议（MQTT/WebSocket/Modbus 等）者优先
+ 7. 熟悉 PostgreSQL/MySQL 数据库设计与优化，有时序数据库（InfluxDB）经验者优先
+ 8. 具备良好的沟通能力和团队协作精神，能承受一定工作压力
+优选条件
+有机器人运维平台、IoT 设备管理相关项目经验
+熟悉 WebSocket/gRPC 等实时通信技术
+有监控告警系统（Prometheus/Grafana）集成经验
+了解 CI/CD 流程，熟悉 GitLab CI/Jenkins",React Spring Electron Linux Spring Cloud MyBatis-Plus Redis Shell Docker K8s ROS MQTT WebSocket Modbus PostgreSQL MySQL gRPC Prometheus Grafana CI/CD GitLab CI Jenkins 数据采集 监控告警,https://jobs.51job.com/suzhou-wzq/172744557.html?s=sou_sou_soulb&t=0_0&req=18ef1b36e83a983dd736a9f3a98c37bc
+AI技术岗位（可实习）,上海伊械科技,1.5-3万·18薪,苏州,苏州,本科,无需经验,2026-07-29 14:31:14,job51,"本科及以上，计算机、软件工程、自动化等相关专业，
+精通 Linux 系统、Shell/Python 脚本，熟练使用 Docker、Kubernetes，能独立编写 Deployment、ConfigMap 等资源清单；
+熟悉 NVIDIA GPU 环境，CUDA、NCCL、MIG 切分、GPU 虚拟化实操经验；
+了解大模型训练 / 推理基本原理，用过 PyTorch/TensorFlow，接触过 LLaMA、Qwen 等开源大模型优先；
+有 vLLM、Triton、Ray 分布式调度、向量数据库部署经验加分；
+具备问题排查能力，能定位网络、驱动、框架、硬件层面报错，有规模化集群运维经验优先。",Linux Shell Python Docker Kubernetes 大模型 PyTorch TensorFlow LLM 分布式 向量数据库,https://jobs.51job.com/suzhou/173083266.html?s=sou_sou_soulb&t=0_0&req=18ef1b36e83a983dd736a9f3a98c37bc
+AI技术岗位（可实习）,上海伊械科技,1.5-3万·18薪,苏州,苏州,本科,无需经验,2026-07-29 14:30:49,job51,"本科及以上，计算机、软件工程、自动化等相关专业，
+精通 Linux 系统、Shell/Python 脚本，熟练使用 Docker、Kubernetes，能独立编写 Deployment、ConfigMap 等资源清单；
+熟悉 NVIDIA GPU 环境，CUDA、NCCL、MIG 切分、GPU 虚拟化实操经验；
+了解大模型训练 / 推理基本原理，用过 PyTorch/TensorFlow，接触过 LLaMA、Qwen 等开源大模型优先；
+有 vLLM、Triton、Ray 分布式调度、向量数据库部署经验加分；
+具备问题排查能力，能定位网络、驱动、框架、硬件层面报错，有规模化集群运维经验优先。",Linux Shell Python Docker Kubernetes 大模型 PyTorch TensorFlow LLM 分布式 向量数据库,https://jobs.51job.com/suzhou/173083250.html?s=sou_sou_soulb&t=0_0&req=18ef1b36e83a983dd736a9f3a98c37bc
+软件工程师-上位机方向,东莞砚珩智能科技,1.6-2.3万,苏州,苏州,本科,5年及以上,2026-08-05 13:39:01,job51,"岗位要求:
+1.负责前期客户需求的对接，根据客户需求总结出业务逻辑，确定整个上位机的实现方案，并对前期方案用到的技术进行实验;
+2.负责上位机代码的实现，根据需求实现底层代码以及相关UI界面，并负责相关系统间接口的实现;
+3.根据项目情况客户需求总结出上位机程序模块化标准化功能;4.完成现场程序的调试以及根据遇到的问题持续优化程序。
+1.高中起点统招全日制本科及以上学历，自动化、软件、计算机等相关专业;
+任职条件:
+2.5年以上上位机开发经验，具备3年以上的锂电行业上位机的开发维护经验，有MES相关经验者优先;
+3.熟练使用C#语言，精通WinForm及WPF框架，至少熟练掌握一种主流数据库的应用(SQLServer/MySQL/Oracle);
+4.至少熟练掌握一种主流PLC的协议交互(基恩士/欧姆龙/西门子);
+5.熟练掌握一种主流的的接口(WebApi/WebService/RESTful);
+6.熟练掌握与C++算法DLL的集成方式;
+7.可以接受约5个月左右的出差。",C# SQL MySQL Oracle C++ SQLServer WebApi WebService,https://jobs.51job.com/suzhou/173159639.html?s=sou_sou_soulb&t=0_0&req=18ef1b36e83a983dd736a9f3a98c37bc
+运维工程师,武汉启贤达业人力资源,8千-1万,苏州·苏州工业园区,苏州,本科,2年及以上,2026-08-09 13:26:50,job51,"【工作内容】
+1、负责服务器、网络设备及基础架构的日常监控与维护，确保系统稳定运行；
+2、处理操作系统、数据库及中间件的故障排查，快速响应并解决各类突发问题；
+3、执行系统备份策略与灾难恢复演练，定期优化系统性能并提升资源利用率；
+4、编写标准化运维文档与操作手册，配合开发团队完成应用部署与版本迭代；
+5、落实网络安全加固措施，定期扫描漏洞并跟进修复，保障业务数据安全。
+
+【任职要求】
+1、计算机、通信或相关专业本科及以上学历，具备扎实的计算机网络理论基础；
+2、精通Linux/Windows系统管理，熟练掌握Shell/Python脚本编写及自动化运维工具；
+3、熟悉主流数据库（MySQL/Oracle）及Nginx、Docker等容器化技术栈；
+4、拥有2年以上企业级运维经验，具备独立处理复杂故障及应急响应能力；
+5、具备良好的服务意识与抗压能力，工作严谨细致，能适应轮班值守安排。",Linux Shell Python MySQL Oracle Nginx Docker 容器化 故障排查 应急响应,https://jobs.51job.com/suzhou-gyyq/173201729.html?s=sou_sou_soulb&t=0_0&req=18ef1b36e83a983dd736a9f3a98c37bc
+运维工程师,燧浦（上海）智能科技,1-1.2万,苏州,苏州,大专,1-3年,2026-07-23 13:18:52,job51,"岗位职责：
+负责公司业务系统的日常运维保障，确保服务稳定性和可用性
+参与自动化运维体系建设，提升运维效率和质量
+处理线上突发事件，快速定位并解决系统故障
+参与系统容量规划、性能优化和成本控制工作
+
+任职要求：
+学历要求：本科/硕士，计算机、网络工程相关专业
+技术基础：熟悉Linux操作系统，掌握Shell/Python等脚本语言
+知识储备：了解网络基础、常见服务部署和监控原理
+综合素质：具备较强的问题分析和应急处理能力
+
+加分项：
+有运维相关项目经验或实习经历
+熟悉Ansible、Docker等自动化运维工具
+了解云平台服务（阿里云/腾讯云/AWS）
+具备网络故障排查和性能优化经验
+
+我们提供：
+成长体系：专业技术指导 + 资深工程师老带新 + 实战项目历练
+工作环境：专业运维工具 + 云平台资源 + 技术学习资源
+福利保障：五险一金 + 补充医疗保险 + 年度体检 + 带薪年假
+团队氛围：技术分享会 + 专业认证支持 + 弹性工作制",Linux Shell Python Ansible Docker 阿里云 腾讯云 AWS 成本控制 故障排查,https://jobs.51job.com/suzhou/170583976.html?s=sou_sou_soulb&t=0_0&req=18ef1b36e83a983dd736a9f3a98c37bc
+Java实习,苏州众壳科技,5-9千,苏州·苏州工业园区,苏州,大专,无需经验,2026-07-10 15:31:04,job51,"1. 参与公司内部工具平台（如E-Learning,WMS、TMS、OMS）的后端开发及维护工作
+2. 参与内部效率工具的选型、部署和维护
+4. 参与其他Core团队日常事务
+任职资格:
+1.具有Java方向主流技术的使用经验
+2.熟悉常用数据库，如Mongo, Mysql
+2.良好的沟通能力
+4.苏州及周边大专、本科的学生",Java Go MySQL Learning WMS TMS OMS Mysql,https://jobs.51job.com/suzhou-gyyq/171734956.html?s=sou_sou_soulb&t=0_0&req=18ef1b36e83a983dd736a9f3a98c37bc
+软件工程师,苏州州伊信息科技,1.5-2万,苏州·高新区,苏州,博士,在校生/应届生,2026-07-06 15:08:21,job51,"【工作内容】
+1、负责汽车电子控制单元（ECU）或车载软件模块的需求分析、架构设计与核心代码开发；
+2、主导嵌入式系统功能实现，完成底层驱动适配、中间件集成及上层业务逻辑编写；
+3、协同硬件团队进行接口定义与联调，配合测试部门定位并解决系统级技术缺陷；
+4、持续优化现有软件性能与稳定性，确保交付产品符合车规级安全标准及项目节点要求。
+
+【任职要求】
+1、博士以上学历，计算机、自动化或相关专业本科及以上学历，具备扎实的C/C++编程功底；
+2 具备良好的逻辑思维与文档撰写能力，能适应高强度研发节奏及跨部门协作；",C++ 需求分析 跨部门协作 ECU,https://jobs.51job.com/suzhou-gxq/172807527.html?s=sou_sou_soulb&t=0_0&req=18ef1b36e83a983dd736a9f3a98c37bc
+IT实习生,科德宝.宝翎无纺布（苏州）,200元/天,苏州·高新区,苏州,本科,在校生/应届生,2026-07-01 16:19:10,job51,"工作职责：
+1、协助团队使用微软Power Platform低代码工具，参与公司内部电子审批流程的搭建、开发、调试和优化工作，保障线上审批流程正常使用。
+2、运用Power Automate搭建自动化工作流，实现审批节点流转、消息提醒、数据同步等基础自动化功能，优化线下审批繁琐问题。
+3、通过Power Apps开发简易低代码应用，根据各部门审批需求，制作适配的审批表单和操作界面。
+4、协助做好审批系统日常维护、流程更新，整理基础开发文档和操作说明。
+5、上级领导交待的其他事务.
+任职要求：
+1. 本科及以上学历，计算机、软件工程、信息管理等相关专业（2027年毕业）
+2、掌握微软Power Platform低代码基础，熟悉Power Automate流程搭建、Power Apps基础开发，有相关课程实践、小型项目经验者优先
+3、具备基础的逻辑思维能力，能快速理解简单的办公审批业务，配合团队完成开发需求。
+4、工作认真负责、细心踏实，具备良好的沟通能力和团队协作意识。
+5、学习能力强，愿意钻研低代码开发技术。",Power,https://freudenberg.51job.com/job.html?jobid=172757997
+数字化实习生,卡赫清洁技术（苏州）,200元/天,苏州·苏州工业园区,苏州,本科,在校生/应届生,2026-07-17 08:38:44,job51,"岗位职责
+1.	软硬件测试：执行系统功能测试、硬件设备调试与兼容性验证，记录并跟踪缺陷，输出测试报告。
+2.	项目开发辅助：参与部分模块开发（按技术栈分配）、接口联调、数据处理及简单运维工作。
+3.	文档与协调：撰写技术文档/操作手册，整理会议纪要，协助跨部门沟通及需求收集。
+4.	测试环境搭建：协助部署测试所需的软硬件环境，包括系统配置、网络设置及设备连接。
+5.	用户验收支持：参与用户验收测试（UAT），协助收集业务部门反馈并跟进问题闭环。
+
+任职要求
+•	本科/硕士在校生，计算机/电子/通信等相关专业优先；
+•	熟悉至少一门编程语言（Java/C/Python/JS等），了解测试流程或硬件基础知识；
+•	会使用Linux命令、数据库或Git/Postman者加分；
+•	责任心强，善于学习和沟通。",Java Python Linux Git 功能测试 技术文档,https://jobs.51job.com/suzhou-gyyq/172942985.html?s=sou_sou_soulb&t=0_0&req=18ef1b36e83a983dd736a9f3a98c37bc

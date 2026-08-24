@@ -1,0 +1,3159 @@
+﻿job_name,company_name,salary,work_area,city,education,work_year,issue_date,source,skill_requirements,tech_tags,job_url
+测试开发工程师,苏州东山精密制造,1.2-2.2万,苏州·吴中区,苏州,大专,3年及以上,2026-07-22 17:12:17,job51,"任职要求：
+一、基础通用要求
+学历专业	：大专及以上学历，中高端/主机厂岗位要求本科及以上；优先选择车辆工程、汽车工程、机械工程、电子信息、电化学、计算机、自动化、材料学等新能源/汽车相关理工类专业
+工作经验	：要求3年以上新能源汽车行业的测试工作经验； 
+软素质	：责任心强、细心耐心，能适应一定的现场/户外试车工作；具备良好的沟通协调能力、数据敏感度和团队协作意识，对新能源汽车行业有稳定发展意愿
+二、岗位职责
+1.	测试体系搭建与方案输出：针对储能逆变器、BMS电池管理系统、电池PACK、电驱等新能源产品，根据项目需求编制各阶段（EVT/DVT/PVT/量产）测试方案，制定测试计划，完成ATE测试平台、功能测试台等测试系统的搭建、调试与维护。
+2.	过程跟进与文档输出：跟进新产品试产与项目测试进度，编写、发行测试SOP、测试报告等各类技术文件，完成认证测试相关协同工作，配合客审与审厂准备。
+3.	问题分析与优化改善：分析测试过程中的异常数据与不良问题，输出改善方案，推动生产良率提升与产品设计优化；同时优化测试流程、降低误测率、提升测试效率，评估测试方法与测试覆盖有效性。
+4.	设备与工装管理：负责测试治具、非标测试设备的申请、制作、调试验收，制定测试设备的日常保养、校准与维护计划，快速处理产线测试设备故障，保障测试系统稳定运行。
+5.	团队协同与管理支持：跨部门对接研发、生产确认测试需求，跟进测试异常闭环；部分带教管理岗位还需负责内部测试人员的技能培训，统筹测试任务分配与进度管控
+三、按测试方向细分的专业要求
+1. 三电（电池/电机/电控）测试方向
+熟悉动力电池电芯、模组、PACK的电性能、安全可靠性测试标准，掌握充放电测试设备操作
+了解电机电控工作原理，熟悉电机控制器测试流程，了解并设计过EOL\RUNIN\二次吸水等设备优先，具备基于MATLAB的数据分析能力优先
+熟悉新能源汽车高压系统原理，掌握高压安全操作规范，能开展高压安全、EMC测试工作
+了解锂电池、电机相关最新国测标准，能协助实验室设备管理校准
+2. 车载软件/智能网联测试方向
+熟悉汽车电子系统原理，了解新能源车载电子产品开发与测试流程
+掌握编程语言：C#/Python/Labview，具备嵌入式 / 硬件能力/脚本编写能力
+熟悉功能测试方法，能独立制定测试计划、编写测试用例、定位并追踪缺陷
+有自动化测试经验者优先
+3. 新能源零部件测试方向
+了解新能源汽车零部件（充电桩、储能设备、逆变器等）行业测试标准
+掌握各类测试仪器（万用表、高压电源、电阻卡、CAN卡、DC负载、采集卡、功率计、双向交流源、示波器、充放电测试仪等）的选型和使用，掌握多个品牌的使用方式和原理(EA\ITECH等)
+能独立完成试验记录、报告编制和设备日常维护工作",MATLAB C# Python CAN 测试计划 功能测试 产品设计 培训 数据分析 测试用例 自动化测试,https://jobs.51job.com/suzhou-wzq/172046209.html?s=sou_sou_soulb&t=0_0&req=1e8d1cac45179ea4e2468f7163ea070b
+Labview工程师 (功能测试开发),苏州赛莫测控科技,1.5-2万,苏州·苏州工业园区,苏州,本科,3年及以上,2026-06-22 11:58:18,job51,"工作职责：
+1. 电子产品功能测试系统的方案设计。
+2. 测试板卡，仪表的选型。
+3. 测试步骤及测试程序的开发。
+4. 功能测试系统的搭建，调试。
+5. 客户现场交付和售后技术支持。
+
+主要能力要求：
+1、电子，电力电子，电气及自动化，测试或测控相关专业 本科学历；
+2、修过电路，模拟电子，数字电子等课程；
+2、对电子产品的功能及原理有兴趣；
+4、熟悉C sharp, TestStand, Labview 等软件优先
+
+其他参考能力要求：
+1. 熟练使用常规仪表如DMM，示波器，信号发生器，可编程电源等，并能够编程控制。
+2. 熟悉数字/模拟电路，能读懂电路原理图。
+
+经验要求：
+有三年以上电子产品功能测试或电路设计的工作经验。",功能测试 方案设计 技术支持 TestStand Labview,https://jobs.51job.com/suzhou-gyyq/166265176.html?s=sou_sou_soulb&t=0_0&req=1e8d1cac45179ea4e2468f7163ea070b
+测试开发工程师,欧菲光集团,1.2-2.4万,苏州·相城区,苏州,本科,3年及以上,2026-07-10 11:40:59,job51,"岗位职责：
+1.解读并捕捉产品需求，从产品功能、诊断、网络、物理、故障模拟等方面展开编写测试用例
+2.搭建测试环境，实施测试，找出软件问题、协助软件人员排查问题，发现根本原因
+3.专研测试技术，建立网络、诊断测试能力及自动化开发能力
+4.客户端实车验证，装车技术支持，解决客户端问题
+5.编写产线测试规范，支持产线搭建及问题排查
+6.支持售后问题件的分析
+7.对于测试过程中出现的具有参考借鉴意义的方法、问题、技巧或者知识点进行知识分享
+
+任职要求
+1、全日制本科及以上学历，3年以上汽车电子电器产品特别是车身控制器的软件测试工作经验；
+2、熟悉汽车网络和诊断，掌握C语言或者Labview等自动化测试开发经验优先；
+3、有电子电路知识，熟悉CANoe/Vehspy3等总线测试工具使用。",C语言 CAN 测试用例 技术支持 自动化测试,https://jobs.51job.com/suzhou-xcq/172865836.html?s=sou_sou_soulb&t=0_0&req=1e8d1cac45179ea4e2468f7163ea070b
+测试开发工程师,图达通智能科技（苏州）,1.5-2.5万·15薪,苏州·相城区,苏州,本科,3年及以上,2026-07-08 10:19:59,job51,"1. 负责激光雷达自动化测试用例设计，提升测试效率；
+2. 负责激光雷达自动化测试工站的设计、开发和搭建；
+3. 负责激光雷达自动化测试环境的部署和优化，自动化工具的开发和维护；
+4. 参与激光雷达项目测试全流程，开发测试用例、制定测试计划、执行测试结果并推动问题管理闭环；
+5. 深入理解产品的原理和方案，给出相应的自动化测试方案，通过新技术或方案提升测试服务质量。
+任职要求：
+1. 本科及以上学历，计算机、自动化、机器人等相关专业；
+2. 熟练掌握Linux操作，熟练掌握Python编程语言，有自动化测试平台开发经验者优先；
+3. 有测试接口开发、调试经验者优先；
+4. 熟悉测试流程，能独立制定测试方案、编写测试用例并落地执行；
+5. 较强的代码能力、系统思维和系统Knowhow，有丰富的debug经验",Linux Python 自动化测试 测试用例 测试计划,https://jobs.51job.com/suzhou-xcq/172833486.html?s=sou_sou_soulb&t=0_0&req=1e8d1cac45179ea4e2468f7163ea070b
+嵌入式软件工程师（苏州）,铭剑电子（南昌）,1.2-2万·13薪,苏州·苏州工业园区,苏州,本科,3年及以上,2026-08-07 13:08:09,job51,"岗位职责
+1）根据系统或产品功能要求，负责嵌入式程序开发；
+2）负责上位机软件开发和自动测试程序；
+3）协助系统整体调试、测试。
+任职要求
+1）统招本科及以上学历，电子、通信、测控、控制、软件、自动化等相关专业；
+2）熟悉嵌入式系统，3年以上嵌入式软件开发经验；
+3）具备FPGA/硬件电路设计/软件开发能力者优先；
+4）熟悉测试系统软件开发者优先。
+本岗位需要配合客户项目出差提供技术支持。",FPGA 技术支持,https://jobs.51job.com/suzhou-gyyq/173189472.html?s=sou_sou_soulb&t=0_0&req=1e8d1cac45179ea4e2468f7163ea070b
+光学检测工程师,深圳市丹杨智能科技有限公司上海,1-2万,苏州,苏州,本科,2年及以上,2026-08-07 09:51:04,job51,"岗位职责：
+1)负责光学系统(傅里叶光谱仪)的预研、开发工作;
+2)负责光学系统模拟仿真和杂散光分析等原理验证工作;
+3)负责光学零部件的选型及采购对接;
+4)提出具体的技术要求,指导和审核光机工程师的系统设计方案,并提出建设性意见;
+5)负责分析和解决光学模组在产品开发和量产中的相关光路问题;
+6)负责光学系统的测试和验证,并出具相关报告;
+7)负责与光学供应商的技术沟通,同时开发优质的光学配件供应链;
+8)紧跟行业前沿技术,对固体红外光谱检测的开发方向,提出可行性建议;
+9)其他临时事项处理;
+岗位要求：
+1)本科以上学历,光学设计相关专业2年以上工作经验;
+2)熟练使用光学分析软件，例如lighttools、zemax、tracepro等;
+3)了解傅里叶光谱仪工作原理;
+4)有光学系统的设计能力,熟悉常见光学元件和模组的特性；
+5)有基于红外光谱检测固体物质的经验者优先;
+6)具有良好的文档撰写能力;
+7)沟通能力和学习能力强,有责任感;及时反应工作中的问题和异常状况;
+8)工作积极主动、有团队协作意识",采购 供应链 zemax,https://jobs.51job.com/suzhou/173185624.html?s=sou_sou_soulb&t=0_0&req=1e8d1cac45179ea4e2468f7163ea070b
+汽车电子测试开发工程师,环鸿电子（昆山）,1-2万·16薪,昆山,苏州,本科,2年及以上,2026-08-05 15:35:30,job51,"工作职责:
+1. 测试方案制定与用例设计
+· 负责公司汽车电子产品（智能驾驶、网联、新能源、底盘、座舱和车身控制等）各类ECU的需求评审，制定测试计划、测试策略和测试标准
+· 根据内外部的需求，编写并维护详细的测试规范、测试方案及测试用例，覆盖功能、网络、性能、可靠性、安全等多维度
+2. 测试环境搭建与维护
+· 搭建桌面级BSW测试环境，制作测试线束、负载箱等测试工装
+· 搭建、维护并优化测试环境，包括仿真平台、HIL测试台架、数据采集系统及相关软硬件
+· 负责汽车电子功能测试系统的开发、集成、调试及日常维护
+3. 测试执行与缺陷管理
+· 执行台架测试、硬件在环（HIL）测试、网络测试、实车测试及白盒测试，采集并分析测试数据，撰写测试报告
+· 针对MCU特定外设（ADC/CAN/SPI等）执行底层驱动测试并评估测试报告
+· 精准定位缺陷，推动问题的复现、分析与解决，建立有效的问题跟踪与验证闭环
+· 利用缺陷管理系统跟踪、登记、验证和关闭bug，协同开发团队定位并验证问题修复效果
+4. 自动化测试开发
+· 根据测试用例类型开发自动化测试脚本（Python/，C#, LabVIEW等），提升测试效率与覆盖率
+· 构建和维护自动化测试框架及测试用例库
+5. 协作与持续改进
+· 与系统负责人、开发工程师协作，理解需求和设计，负责测试场景构建和测试用例评审工作
+· 引入、评估并推进测试相关的改进措施和效率提升方案
+· 参与软件发布流程，与策划、开发和项目管理团队紧密协作，确保软件版本按时、高质量交付
+
+任职资格:
+1. 教育背景
+· 本科及以上学历，电子信息工程、车辆工程、自动化、计算机科学与技术、测控技术与仪器等相关专业
+2. 工作经验
+· 2年以上嵌入式系统或汽车电子产品的系统测试/软件开发或测试经验
+· 有汽车电子（MCU、VCU、BMS等）HIL集成测试经验者优先
+3. 专业技能
+· 编程语言：熟练掌握C/C++、Python, LabVIEW等编程语言，具备自动化测试脚本开发能力
+· 汽车通信协议：熟悉CAN、LIN、Ethernet等车载通信协议及UDS诊断协议
+· 测试工具：熟练使用CANoe、CANalyzer、INCA等测试工具；能够使用Lauterbach或UDE调试器调试代码
+· 测试方法论：熟悉软件测试流程和方法，了解黑盒测试、白盒测试基础知识；熟悉ASPICE测试相关要求者优先
+· 硬件基础：具备嵌入式硬件电路、芯片、操作系统、底层软件等相关知识，能看懂电路原理图等
+4. 综合素质
+· 具备优秀的问题分解与根因分析能力，善于在复杂的软硬件交织环境中定位问题
+· 学***动性强，具备系统化的问题分析和解决能力
+· 良好的沟通协作能力和团队合作精神
+· 良好的英文读写能力，能够流畅阅读英文技术资料",MCU CAN SPI Python C# C++ 测试计划 测试用例 数据采集 功能测试 缺陷管理 自动化测试 项目管理,https://jobs.51job.com/kunshan/173162831.html?s=sou_sou_soulb&t=0_0&req=1e8d1cac45179ea4e2468f7163ea070b
+Labview测试开发工程师（汽车电子）,苏州赛莫测控科技,1.8-2.5万,苏州·苏州工业园区,苏州,本科,5年及以上,2026-07-02 13:14:48,job51,"工作职责：
+1. 测试程序的开发与调试；
+2. 测试板卡，仪器仪表的驱动软件开发；
+3.自动化相关上位机软件开发 ；
+4. 客户现场交付和售后技术支持；
+
+任职资格：
+1. 大专及以上学历，电子、自动化、计算机、机械设计及自动化、测控技术等相关专业；
+2. 工作年限：电子产品测试开发, LabVIEW, Teststad 测试软件开发 3年及以上；
+3. 具有Python/C#/.Net开发经验优先考虑；熟练使用TestStand软件；
+4. 熟悉PXI/PXIe、CAN、RS232/485、TCP/IP、GPIB、OPC等通讯协议及接口；
+5.有使用上位机软件和三菱、西门子PLC交互开发自动化控制系统；
+6.熟悉Access、SQL Server数据库， 具有报表生成、数据导出能力；
+
+其他参考能力要求：
+1、具备一定英语沟通能力
+2、熟悉汽车电子CAN，LIN，UART等通信协议的使用和编程。
+3、能够熟练使用Labview / Labwindows CVI / C#, 及TestStand等相关软件及各种测试设备仪器仪表。",Python C# CAN TCP/IP SQL Server UART 技术支持,https://jobs.51job.com/suzhou-gyyq/166520899.html?s=sou_sou_soulb&t=0_0&req=1e8d1cac45179ea4e2468f7163ea070b
+高级测试开发工程师,固势（苏州）科技,2.2-2.8万,苏州·苏州工业园区,苏州,本科,5年及以上,2026-07-08 15:53:47,job51,"岗位职责：
+1. 负责测试需求分析、方案设计、技术可行性研究，做好项目成本评估、交期评估、风险评估等工作；
+2. 负责测试程序开发，使用 LabVIEW或Python、TestStand编写自动化测试脚本，实现仪器控制、数据采集与逻辑判断；
+4. 负责标准仪器驱动的编写、待测产品离线的调试、上位机程序的开发及整套测试系统的调试
+5. 负责编写调试报告、统计分析、客户使用说明书等技术材料，严格执行项目的进度要求和质量要求。
+6. 指导和培养初级工程师进行测试用例开发，定期开展培训。
+
+任职要求：
+1. 精通LabVIEW或Python或C#开发，能熟练编写仪器驱动、数据采集、自动化测试序列；
+2.熟悉Teststand软件，掌握测试原理，具备扎实的电子电路基础，电气原理图、PCBA原理图；
+3. 熟悉常用仪器仪表（万用表、示波器、频谱仪、功率分析仪等）的编程控制；
+4. 熟悉常用传感器、数据采集卡、总线通讯协议的使用与编程；
+5.5年以上系统集成测试或自动化测试相关经验；有航天军工或功率半导体设备行业背景者优先。",Python C# 需求分析 方案设计 自动化测试 数据采集 测试用例 培训,https://jobs.51job.com/suzhou-gyyq/172841226.html?s=sou_sou_soulb&t=0_0&req=1e8d1cac45179ea4e2468f7163ea070b
+测试开发工程师(MEMS),斯贝亚（苏州）自动化检测设备,1-2万·13薪,苏州·苏州工业园区,苏州,本科,3年及以上,2026-07-15 10:28:17,job51,"日常工作
+售前：
+-协助销售，提供技术支持，分析客户需求，帮助解答客户技术问题。针对客户产品，运用现有软件，按照标准流程生成测试程序，完成测试报告。
+-在办公室接待客户，和客户进行技术交流，和客户一起进行测试调试。
+-偶尔需要去客户端，做测试演示，和客户近距离交流，使客户在技术上认可我司设备能力。
+售后：
+-到客户端，对新客户进行培训，针对客户产品，运用现有软件，按照标准流程和客户一起生成测试程序使客户掌握我司程序开发的过程。
+-解决客户日常使用中碰到的问题，做好问题的follow up，提升客户使用体验。
+-与我司意大利总部工程师保持密切沟通，反馈遇到的问题，并追踪进展。
+任职要求：
+本科及以上学历，电子/电气工程，计算机及相关专业；
+具有MEMS测试3年以上经验，有压力传感器，磁传感器测试设备经验；
+有快速学习的能力和意愿；
+熟悉运用C++, C# and Visual Studio
+可以接受出差和加班；
+（优选）英语应用能力：口语和书面能力良好.
+（优选）若有编程语言的基础则更佳。
+具有高度的责任心，吃苦耐劳，具备现场工作抗压能力",C++ C# 技术支持 培训 Visual Studio,https://jobs.51job.com/suzhou-gyyq/169755807.html?s=sou_sou_soulb&t=0_0&req=1e8d1cac45179ea4e2468f7163ea070b
+测试开发工程师,苏州通富超威半导体,1-1.4万·13薪,苏州,苏州,本科,3-4年,2026-08-07 08:45:52,job51,"岗位描述
+1．Open/short测试站新产品导入，配置新程序，程序管控。
+2．Open/short测试站测试异常分析。
+3．OS测试数据和FT测试数据匹配。
+4．CP测试93K测试机的安装调试。
+岗位要求
+1. 本科及以上学历，有测试设备工作经验，工作经验1年以上。
+2. 会软件编程或有测试程序开发经验优先。
+3. 有数据分析能力和工程汇报能力。",数据分析 Open,https://jobs.51job.com/suzhou/143899005.html?s=sou_sou_soulb&t=0_0&req=1e8d1cac45179ea4e2468f7163ea070b
+测试开发工程师,法雷奥新能源汽车（常熟）,1.1-1.3万·13薪,常熟,苏州,本科,3-5年,2026-07-28 22:25:14,job51,"主要职责：
+1、承担绝缘耐压，校准，老化和功能测试人员的责任。
+2、针对新产品开发，分析研发项目团队定义的需求
+3、根据客户SOR标准需求定义测试器规格
+4、根据产品线spec标准管理测试设备的设计和验证
+5、发送验证报告，与产品端测规形成一致
+6、管理测试设备在生产线上的集成工作
+7、在生产开始后培训和支持量产测试工程师
+8、协助量产测试工程师找出测试设备故障和产品报警的原因
+
+任职要求：
+1、逆变器/OBC/DCDC EOL开发经验
+2、设备验收经验
+3、非标自动化测试经验，独立编写测试程序能力",功能测试 培训 自动化测试 OBC DCDC,https://valeo.51job.com/jobinfo.html?jobid=173074216
+测试开发电子工程师,捷鹏威电子（苏州）,1.2-1.8万·13薪,常熟,苏州,本科,3年及以上,2026-07-29 12:55:17,job51,"As a TD engineer, you'll need to: 
+Develop test system electronics and electrical in test development projects （在测试开发项目中开发测试系统电子和电气方面） 
+•	Design test fixtures and equipment, including electronics and electrical（设计测试夹具和设备，包括电子和电气方面）
+•	Design test fixture electronics circuits based on test specifications or requirements with software tools such as Altium. （使用软件工具（如Altium）根据测试规范或要求设计测试夹具电子电路）
+•	Design needed cables for the test fixture. （设计测试夹具所需的电缆）
+•	BOM creation, ECN and maintain. （BOM的创建，ECN的维护）
+•	Document the design work including the needed manufacturing documents.（编制设计工作文件，包括所需的制造文件）
+Work closely with a project team and customers.（与项目团队和客户紧密合作）
+•	Write test specifications and technical reports.（编写测试规范和技术报告）
+•	Participate and organize reviews and verifications. （参与和组织评审和验证）
+•	Discuss proposals with clients.（与客户讨论建议）
+Test prototypes （测试原型）
+•	Make sure the test fixture or test system meets the requirements and specifications. (确保测试夹具或测试系统符合要求和规范)
+Verify the design work 
+• Verify that the test fixture or test system meets the requirements and is suitable for the intended use. (验证测试夹具或测试系统符合要求并适合预定用途。)
+
+Required know how and skills:
+学历： 本科及以上
+工作经验：3年以上电子电气设计，以及电子产品的电性能测试工作经验。
+项目经验：独立的、从头到尾的、完成过5个以上FCT测试系统的电子电气部分的设计、调试工作。
+英文水平：英语4级及以上。
+设计工具：熟练使用Altium Designer。
+原理图设计：可以根据Test Spec,PCBA文件或者实物，选择测试点，熟练设计测试使用的通讯电路、ADC采样电路、DIO控制电路、继电器电路、测试转接电路板等各类电路板。
+PCB Layout: 可以独立的熟练完成2层和4层板的Layout。
+不良品分析：可以根据Test Spec、PCBA原理图、测试系统接线图、测试不良项等相关资料，分析出测试不良的根本原因。",Gin Electron GAN 性能测试 As TD Develop Altium,https://jobs.51job.com/changshu/172810136.html?s=sou_sou_soulb&t=0_0&req=1e8d1cac45179ea4e2468f7163ea070b
+车身测试开发工程师-苏州,欧菲光集团,1.2-1.8万,苏州·相城区,苏州,本科,3年及以上,2026-08-04 15:51:39,job51,"岗位职责：
+1.负责多个或复杂系统测试用例的编写、评审、产品验证和测试报告输出；
+2.负责实车测试验证，联调测试验证，分析并解决客户实车问题，协助客户端测试认可；
+3.负责测试问题的提报、追踪、分析及验证关闭；
+4.负责售后故障件的分析；
+5.负责产线测试规范编写，支持产线搭建及问题排查；
+6.负责DV测试软件的验证；
+7.测试台架、BOB盒子及相关测试工具的采购申请、验收及维护；
+8.依据体系流程，按质量阀节点输出并提交测试资料和文档；
+9.负责领导交办的其他事项。
+
+任职要求：
+1、大学本科及以上，机电或自动化或汽车或电子专业；
+2、3年及以上汽车电子行业测试开发经验；
+3、有参与过汽车电子产品项目测试开发经验；
+4、熟悉产品要求，熟练使用CANoe、Vehspy等测试工具，熟练使用Redmine、PLM等管理工具。",CAN 测试用例 采购,https://jobs.51job.com/suzhou-xcq/173147922.html?s=sou_sou_soulb&t=0_0&req=1e8d1cac45179ea4e2468f7163ea070b
+软件测试开发工程师,捷鹏威电子（苏州）,1.6-2.1万·13薪,常熟,苏州,本科,3年及以上,2026-07-27 08:54:28,job51,"As a TD engineer, you'll need to: 
+1、Develop test system software in test development projects .
+在测试开发项目中开发测试系统软件。
+2、Design test software based on test specifications or requirements with software tools such LabView and TestStand. 
+根据测试规范或需求，利用LabView、TestStand等软件工具设计测试软件。
+3、Design needed VI driver for the test system. 
+设计测试系统所需的VI驱动程序。
+4、Design needed VI driver to communicate with DUT. 
+设计所需的VI驱动程序，与测试设备进行通信。
+5、Document the design work including the needed manufacturing documents.
+编制设计工作文件，包括所需的制造文件。
+6、Write test specifications and technical reports .
+编写测试规范和技术报告。
+7、Participate and organize reviews and verifications .
+参与和组织评审和验证。
+8、Discuss proposals with clients.
+与客户讨论建议。 
+9、Make sure the test software meets the requirements and specifications .
+确保测试软件符合要求和规范。
+10Verify that the test fixture or test system meets the requirements and is suitable for the intended use. 
+验证测试夹具或测试系统符合要求并适合预定用途。
+
+Required know how and skills:
+1、电气工程、自动化等相关专业本科及以上；
+2、3年以上FCT系统测试软件设计经验。
+3、具备LabView，TestStand的使用经验。
+4、对电子制造工艺和方法有很好的理解，对电子测试自动化有很好的理解。
+5、具备DMM，示波器，函数发生器，直流电源等测试设备的知识。
+6、能够与其他工程师一起在多学科团队中工作，能够在快节奏的环境中工作，同时处理多个项目。较强的分析和实际解决问题的能力。
+7、英文读写流利。",Gin GAN As TD Develop LabView TestStand VI,https://jobs.51job.com/changshu/172732850.html?s=sou_sou_soulb&t=0_0&req=1e8d1cac45179ea4e2468f7163ea070b
+测试开发工程师（Labview）,亿模塑胶科技（苏州）,1-1.8万,苏州·吴中区,苏州,大专,3年及以上,2026-06-15 13:39:09,job51,"工作内容：
+1.分析客户需求，提出测试和自动化软件设计方案、基于NI LabVIEW编程；
+2.绘制电气图、BOM表、控制成本
+3.完成整个案子的软件编写和必要时到客户端进行最终调试和技术支持；
+4.完成上级安排的其它小家电汽车行业ICT/烧录/FCT测试优先；
+任职资格：
+1.测控技术与仪器、电气工程自动化、计算机软件等相关专业；
+2.精通LabVIEW开发，具有3年以上测试系统软件开发经验；
+3.熟悉PXI/PXIe、CAN、RS232/485、TCP/IP、GPIB、OPC等通讯协议及接口；
+4.具有良好的测试测量基础，能看懂理解英文测试规格看懂电气线路图纸，会设计电子线路板优先；
+5.具有良好的测试与测量设备知识与操作技能，熟练掌握PXI.PCL数字电表，示波器，逻辑分析仪、信号发生器、各类电源等；
+6.能独立开发系统软件，具有较强设备调试分析能力；
+7.能够吃苦耐劳，思维清楚，逻辑性强，具备良好的沟通能力，具有团队合作精神；",CAN TCP/IP 技术支持 PXIe RS232 TCP IP GPIB,https://jobs.51job.com/suzhou-wzq/160937908.html?s=sou_sou_soulb&t=0_0&req=1e8d1cac45179ea4e2468f7163ea070b
+Labview测试开发工程师,苏州博康智能科技,1.3-2.5万,苏州·相城区,苏州,大专,2-8年,2026-07-02 17:24:42,job51,"Labview测试开发工程师
+ 【岗位职责】
+1.工业自动化测试设备上位机软件的开发、调试和项目实施；
+2.参与新项目客户需求的软件功能需求分析、开发工作；
+3.负责测试程序的编写、解决项目开发过程中的技术问题；
+4.负责按照产品开发规范编写项目技术文档；
+5.负责对项目组内相关业务、技术的培训工作；
+6.配合其它部门的需求，参与项目评估、成本核算等工作。
+
+【招聘要求】
+1.大专或以上学历，计算机或软件工程等相关专业，具有Labview经验和PLC开发经验（擅长其中一项，另一项了解也可），2-8年左右工作经验；
+2.精通TTL,GPIB、TCP/IP和串口等基础通讯，熟悉常规底层通讯协议；
+3.精通或熟悉Labview编程语言，了解C#、VB.Net其中一种或多种开发语言，熟悉PLC程序开发优先；
+4.了解工厂MES系统应用；
+5.了解测试仪表功能或通讯；
+6.能独立完成复杂模块的设计和开发工作；
+7.具有良好的团队合作精神；
+8.善于沟通、责任心强、能承受较强的工作压力",TCP/IP C# 自动化测试 需求分析 技术文档 培训,https://jobs.51job.com/suzhou-xcq/172776171.html?s=sou_sou_soulb&t=0_0&req=1e8d1cac45179ea4e2468f7163ea070b
+ATE测试开发项目经理,弘润半导体（苏州）,2-4万·13薪,常熟,苏州,本科,8年及以上,2026-06-12 11:21:44,job51,"【工作内容】
+1. 统筹ATE测试开发项目全生命周期管理，制定详细计划并监控关键节点交付；
+2. 协调硬件、软件及验证团队资源，解决测试方案开发中的技术瓶颈与跨部门协作问题；
+3. 主导测试程序开发与调试，确保芯片功能测试满足量产标准及客户规格书要求；
+4. 负责项目风险评估与管控，定期汇报项目进度、质量数据及成本执行情况；
+5. 推动测试流程优化与技术沉淀，建立标准化作业规范以提升整体研发效率。
+【任职要求】
+1. 大学本科及以上学历，电子工程、微电子或相关专业，具备8年以上半导体测试项目管理经验及团队带教能力；
+2. 具备可测性评估与测试规划能力，能准确进行时间、平台及厂商评估；
+3. 精通ATE测试原理及主流平台（如Uflex，J750，93K，3380，S100）CP/FT测试硬件开发与程序编写、调试；
+4. 具备优秀的项目统筹能力、良好的沟通协调能力及抗压能力，能适应快节奏研发环境。
+
+岗位福利：上五休二、五险一金、带薪年假、免费工作餐、年度体检、团建活动、生日福利、假日福利等。",跨部门协作 功能测试 流程优化 项目管理 J750 S100 CP,https://jobs.51job.com/changshu/172529611.html?s=sou_sou_soulb&t=0_0&req=1e8d1cac45179ea4e2468f7163ea070b
+测试开发工程师,苏州欧菲特电子,7千-1.2万·13薪,苏州,苏州,本科,3年及以上,2026-07-02 10:10:32,job51,"岗位职责：
+1. 能正确理解测试系统的工作原理；
+2. 独立按时完成测试系统的硬件设计；
+3. 独立按时完成测试系统的软件设计；
+4. 能在项目过程中与其他职能组有效沟通，配合完成整体项目设计；
+5. 编写相关作业文档、客户资料和维护文档；
+6. 上级主管交办的其他事项；
+任职条件及要求：
+1. 电子通讯相关专业，本科以上学历，英语四级及以上，熟练使用各种办公软件；
+2. 两年以上C语言，能使用NI Labview和Teststand者及有测试系统行业设计经验者优先；
+3. 熟悉模拟电路和数字电路知识；有硬件相关经验者优先；
+4. 熟悉常用嵌入式调试设备，如示波器，万用表等，熟悉各种常用的测试仪器仪表者优先；
+5. 能适应短期项目出差；英语沟通能力强者优先；
+6. 有良好的团队合作能力，认同公司的管理理念，能吃苦耐劳，具备良好的客户服务意识和责任心；",C语言 客户服务,https://jobs.51job.com/suzhou/169067913.html?s=sou_sou_soulb&t=0_0&req=1e8d1cac45179ea4e2468f7163ea070b
+高级自动化测试开发工程师(J11030),苏州联讯仪器,20-40万/年,苏州·高新区,苏州,本科,5年及以上,2026-07-03 10:58:08,job51,"工作职责:
+a、负责采样示波器产品的测试，包括功能测试、软件测试、性能测试、耐久测试等
+b、对测试方案中的各项用例进行自动化开发，包括UI界面识别判定、后台SCPI命令的发送读取判定、自动生成报告等
+c、针对客户端或产线端反馈的问题进行复现、验证和分析，协助研发解决问题
+d、协助各项临时需要自动化实现的测试任务，快速响应、及时完成开发
+任职资格:
+a、本科及以上学历，有5年以上自动化测试开发经验
+b、电子、通信、计算机或仪器仪表相关专业
+c、精通一门以上编程语言Labview/teststand、Python 、C#/C++用于自动化测试开发
+d、熟悉AI模型在图像识别上的训练和应用
+e、熟悉示波器、网分、频谱分析仪、信号发生器等仪器设备的操作和SCPI命令远程控制，有一定测试基础
+f、抗压强，愿意配合加班",Python C# C++ 功能测试 性能测试 自动化测试,https://jobs.51job.com/suzhou-gxq/172782221.html?s=sou_sou_soulb&t=0_0&req=1e8d1cac45179ea4e2468f7163ea070b
+芯片测试开发工程师-苏州,胜达克半导体科技（上海）,9千-1.8万·13薪,苏州·姑苏区,苏州,本科,2年及以上,2026-08-06 10:15:33,job51,"【岗位职责】
+1.负责新项目测试验证，以及量产测试程序开发和调试;测试数据分析以及Adaptstar平台软硬件性能的优化与验证；
+2.对客户的产品相关ATE硬件开发参与全程沟通，对客户进行Adaptstar平台的使用与测试程序开发培训；
+3.收集市场信息并反馈给公司以供决策参考，包括用户对公司平台软硬件使用的反馈与改善建议，潜在的销售机会，以及竞品信息的收集；
+4.跨部门沟通与协作;
+5.客户关系的维护；
+6.其他上级交办事项。
+
+【任职资格】
+1.本科及以上学历，微电子、电科、自动化以及其他电子相关专业，需要有模数电相关知识以及C/C++编程基础；
+2.优秀应届毕业生，或者两年以内工作经验，有较强的学习能力，具备主动做事的态度以及较强的人际交往能力；；
+3.有较好的自我管理能力，主动学习善于总结，及时汇报项目进度与问题；
+4.能适应短期中短途出差；
+5.具备良好的沟通能力和团队合作精神，对客户基础问题的支持。",C++ 数据分析 培训,https://jobs.51job.com/suzhou-gsq/173170911.html?s=sou_sou_soulb&t=0_0&req=ba9008deaa706f5632e6e495ed119262
+测试开发工程师,众华电子科技（太仓）,9千-1万·13薪,太仓,苏州,本科,1年,2026-06-22 11:05:54,job51,"职位详情：
+1、实验室的产品失效分析、实验器材管理维护使用、实验作业指导书更新
+2、根据项目需求，输入测试spec、指令文件、产品电路图、产品资料，进行下述评估； 
+3、需求评审，根据产品需求，设计软硬件测控架构，评估技术风险和可行性验证内容测试方案；
+4、对产品进行单元和系统的功能覆盖率、可靠性等测试，对测试数据进行整理，输出实现的测试方案、测试开发系统BOM、硬件选型、测试软件系统开发、参与结构设计、技术资料归档升级；
+
+相关工作经验要求：
+1、电子电路知识：需掌握电路原理、模拟电子技术、数字电子技术等基础知识，能够看懂电路图，理解电子元器件的工作原理和特性。机电、通信、测控、自动化控制、软件工程、电子工程、计算机及相关专业；
+2、材料知识：了解电子材料的性能、特点和应用，如半导体材料、绝缘材料、磁性材料等，以便在实验中正确选择和使用材料。
+3、测试测量知识：熟悉各种测试仪器的工作原理和使用方法，如示波器、万用表、频谱分析仪、逻辑分析仪等，能够准确进行测量和数据分析。
+。",数据分析,https://jobs.51job.com/taicang/161441761.html?s=sou_sou_soulb&t=0_0&req=ba9008deaa706f5632e6e495ed119262
+软件测试工程师Labview,上海秉质电子科技,1.2-2.5万·13薪,苏州·苏州工业园区,苏州,本科,5年及以上,2026-07-31 16:58:49,job51,"【岗位要求】：
+1. 教育背景：本科及以上学历，电子信息工程、计算机科学与技术、自动化等相关专业，具备扎实的专业基础知识，如电路原理、数字信号处理、软件工程等；
+
+2. 工作经验：具有5年以上汽车电子行业研发测试工作经验；熟悉汽车电子系统开发流程，有丰富的汽车电子产品测试项目经验，涵盖车载信息娱乐系统、车身控制系统、动力控制系统等至少一类系统。有车载音频测试项目优先；
+
+3. 专业技能：
+a . 熟练掌握汽车电子的各种测试方法和技术，包括功能测试、性能测试、安全测试、兼容性测试等
+b. 熟练掌握至少一种测试工县和自动化测试框架，如Labview，C#，TestStand等
+c . 熟悉汽车电子测试项目开发流程和项目管理方法，能够独立完成类似项目的设计，编程和调试工作；
+
+4. 关键能力：
+具备敏锐的问题洞察力与强大的问题解决能力，能够在复杂环境中迅速定位并解决技术难题与项目问题；具备出色的沟通协调与跨团队协作能力，能够与不同部门人员建立良好合作关系，共同推动项目进展；保持强烈的学习热情与创新精神，能够快速掌握新技术、新方法，并积极应用于工作实践，推动团队与个人持续发展；
+ 
+ 【岗位职责】： 
+1. 和客户沟通，设计测试系统的最优方案及整体项目的设计管控；
+2. 负责编写设计开发文档（方案、项目报告、总结报告、设计原理图、软件、SOP及设计标准）；
+3. 负责测试项目软件开发调试，根据需求配合现场交付；
+4. 和客户沟通优化系统并根据客户要求满足客户应用上的疑问与功能；
+5. 部门相关前沿技术的研究与开发；",C# 功能测试 性能测试 自动化测试 项目管理 客户沟通,https://jobs.51job.com/suzhou-gyyq/173115325.html?s=sou_sou_soulb&t=0_0&req=ba9008deaa706f5632e6e495ed119262
+Labview测试工程师(J10213),苏州天孚光通信,1.5-3万·14薪,苏州·高新区,苏州,本科,3年及以上,2026-06-25 10:31:18,job51,"工作职责:
+1、负责产品性能测试和测试软件编写
+Conduct product performance testing and develop test software
+
+2、分析测试数据和定位问题
+Analyze test data and troubleshoot issues
+
+3、编写测试相关技术文档，产出测试报告
+Prepare technical documentation and generate test reports
+
+4、负责光模块测试平台搭建，测试系统性能验证，以及新设备评估
+Build optical module test platforms, validate system performance, and evaluate new equipment
+
+5、根据产品需求（如传输速率、波长、功耗）设计测试用例，制定测试计划（DVT/PVT阶段）
+Design test cases and plans (DVT/PVT phases) based on product specifications (e.g., data rate, wavelength, power consumption)
+
+6、搭建自动化测试平台（如LabVIEW/Python脚本开发），提升测试效率与数据一致性
+Develop automated test platforms (e.g., LabVIEW/Python scripting) to enhance efficiency and data consistency
+任职资格:
+1、本科及以上学历，计算机、自动化等相关专业本科以上学历
+Bachelor’s degree or higher in Computer Science, Automation, or related fields
+
+2、3年以上光模块产品测试经验，1年以上100Gbps速率以上产品测试经验
+3+ years of optical module testing experience, including 1+ years in 100Gbps+ high-speed product testing
+
+3、熟悉光模块工作原理，协议和工作指标
+In-depth knowledge of optical module principles, protocols (e.g., IEEE, MSA), and performance metrics
+
+4、熟悉光模块测试平台，测试方法，测试流程
+Proficiency in optical test platforms, methodologies, and workflows
+
+5、熟练使用一种或多种编程语言
+Hands-on experience with one or more programming languages (e.g., Python, C++)
+
+6、跟踪模块测试过程中出现的问题，积极推动问题及时合理的解决
+Proactively track and resolve issues during testing to ensure timely solutions
+
+7、逻辑清晰，肯钻研，个性开朗，有良好的英文阅读沟通能力
+Strong logical thinking, proactive problem-solving, collaborative attitude, and English communication skills
+
+8、良好的沟通能力、团队协作和责任心，富有激情，学习能力强
+Excellent communication, teamwork, ownership, passion for technology, and fast learning agility
+
+9、能接受一定程度的出差
+Willingness to travel for business as required",Python C++ 性能测试 技术文档 测试用例 测试计划 自动化测试,https://campus.51job.com/tfcsz/jobinfo.html?jobid=168749968
+硬件开发工程师,苏州弘远电气,1.5-2.5万·15薪,苏州·吴江区,苏州,本科,3年及以上,2026-08-07 11:53:59,job51,"岗位职责：
+1、负责控制类硬件开发 
+2、按照产品需求与规格书制定硬件设计方案，完成器件选型与计算，电路设计与调试 
+3、根据规格书及技术方案，完成原理图设计 
+4、配合结构、PCB工程师等完成产品结构及PCB设计 
+5、进行产品的测试与调试，保证其能够按照设计正常运行 
+岗位要求：
+1、本科以上 电力电子、自动化等相关专业 
+2、能够独立完成硬件原理图设计及计算，熟悉使用PADS等绘图软件；
+3、积极向上，团队合作能力、沟通能力、执行力强，能够独立解决产品的市场应用问题.",技术方案,https://jobs.51job.com/suzhou-wjq/173188899.html?s=sou_sou_soulb&t=0_0&req=ba9008deaa706f5632e6e495ed119262
+电气开发工程师,立臻科技（昆山）,1-2万,昆山,苏州,大专,3年及以上,2026-08-07 14:37:39,job51,"【工作内容】
+1、负责集成电路或电子产品的电气原理图设计、PCB布局及电路仿真验证；
+2、主导核心模块的硬件开发，完成元器件选型、电路调试及功能测试工作；
+3、协同软件与结构团队解决系统级电磁兼容问题，优化产品电气性能指标；
+4、编写并维护详细的技术文档，包括设计规范、测试报告及生产作业指导书；
+5、跟进样机试产过程，分析并闭环解决量产阶段出现的电气异常与可靠性问题。
+
+【任职要求】
+1、大专及以上学历，电子信息工程、微电子或相关专业，具备扎实电路理论基础；
+2、精通模拟/数字电路设计，熟练掌握Altium Designer等EDA工具及常用测试仪器；
+3、拥有3年以上电子行业硬件开发经验，熟悉半导体工艺特性及信号完整性处理；
+4、具备良好的逻辑思维能力与问题分析能力，能独立承担项目模块攻关任务；
+5、工作严谨细致，责任心强，具备良好的跨部门沟通协作能力及抗压素质。",功能测试 技术文档,https://jobs.51job.com/kunshan/173191380.html?s=sou_sou_soulb&t=0_0&req=ba9008deaa706f5632e6e495ed119262
+Test development engineer_BST,博世汽车部件（苏州）,1.5-2.5万·13薪,苏州·苏州工业园区,苏州,,无需经验,2026-06-28 13:52:23,job51,"Job Description:
+Development of measurement technologies (HW and SW) in the laboratory for consumer sensors, focus on MEMS pressure sensors
+Develop test platforms (hardware/software) and implement test programs (e.g., C#, Python, C/C++, etc.) for characterization, qualification and customer samples - Concept development and implementation of new measurement technologies in close cooperation with the final test team in Germany
+Establish test standards to ensure coverage of key device performance parameters based on Sensor expert requirement, and understanding sensor performance
+Analyze test data to identify failure modes in MEMS devices and collaborate with ASIC&amp; System design teams to improve MEMS design or manufacturing processes.
+As a member of the project team, one brings in know-how of sensor functionality, testability and product quality
+ Job Qualification:
+master degree in physics, electrical engineering, SW engineering or something similar
+profound experience in SW programming with C/C++/C#/python
+practical experience in electrical measurement technologies, HW test design experience are prefer - good knowledge in analog/digital HW development
+analytical thinking and structured working methods
+good communication skills and empathy to consolidate objectives from all involved parties",C# Python C++ SAM RAG Gin Go Git,https://jobs.51job.com/suzhou-gyyq/172715131.html?s=sou_sou_soulb&t=0_0&req=ba9008deaa706f5632e6e495ed119262
+Test Development Engineer,苏州力特奥维斯保险丝,9千-1.6万·13薪,苏州·苏州工业园区,苏州,本科,2年及以上,2026-07-07 17:46:32,job51,"职位概述（Job Description Summary）
+该职位向中国实验室经理汇报，负责确保全球各实验室具备按照规定质量标准和时间要求开展产品测试与验证的能力。
+岗位需要与全球各地实验室（北美、欧洲及中国）保持紧密协作，确保测试需求得到完整且准确的覆盖。同时，还需与研发（R&amp;D）、运营（Operations）及服务（Service）等多个团队合作，支持测试项目及测试需求的执行。
+您将负责收集来自不同团队的测试需求，并与项目经理、产品工程师、测试工程师以及实验室技术员共同制定测试系统、测试台架及自动化方案。随后负责相关测试系统、测试平台或软件程序的开发、实施与验证。
+该职位的工作范围涵盖全球多个实验室（北美、欧洲和中国），需要与跨区域团队进行密切合作。
+需要特别说明的是：该岗位属于测试开发工程师（Test Development Engineer）岗位，重点在于测试系统、测试平台及自动化工具的开发，而非产品验证或测试执行工程师（Validation/Test Engineer）岗位。
+
+主要职责（About Job）
+测试系统与自动化方案设计（20%）
+
+根据全球实验室、研发（R&amp;D）、新产品导入（NPI）及生产部门的需求，制定新的测试平台、自动化测试系统及测试台架方案；
+与项目经理、产品工程师、测试工程师及实验室技术员合作，定义技术需求并设计解决方案。
+
+测试系统开发与验证（45%）
+
+负责测试平台、自动化系统及测试台架的开发工作，包括软件部分的设计与编程；
+完成系统集成、调试、验证和最终交付，确保满足测试要求和质量标准。
+
+现有系统优化与维护（10%）
+
+根据业务需求对现有测试系统进行改进、升级及维护；
+提升系统稳定性、效率和自动化水平。
+
+特殊测试执行（10%）
+
+对样机、工程样品及新硬件产品进行定制化测试；
+支持新产品开发过程中所需的专项测试工作。
+
+支持验证项目（5%）
+
+支持产品设计验证（Design Validation）及生产工艺验证（Process Validation）项目的实施。
+
+数据分析（5%）
+
+分析来自其他实验室及生产部门的测试数据；
+为产品改进和生产优化提供数据支持。
+
+实验室管理（5%）
+
+推动并维护实验室6S管理体系；
+确保实验室环境、设备及工作区域符合管理要求。
+
+
+其他职责（Secondary Duties &amp; Responsibilities）
+
+负责测试软件、测试系统及测试设备的日常维护；
+在条件允许的情况下参与硬件采购、维修及升级工作；
+负责实验室环境和设备的日常管理；
+根据其他团队需求，支持特殊测试、产品问题调查及技术分析工作；
+团队成员来自多个国家和地区，需要进行频繁的英语沟通与协作。
+
+
+任职要求（About You）
+教育背景
+本科及以上学历，以下相关专业优先：
+
+测试工程
+电气工程
+软件工程
+自动化工程
+电子工程
+相关工程类专业
+
+工作经验
+
+2年以上测试相关领域工作经验；
+1年以上 LabVIEW 或 TestStand 编程开发经验。
+
+专业技能
+
+良好的问题分析与解决能力；
+具备通用软件开发及编程能力；
+熟悉测试系统、测试台架开发流程；
+熟悉测量仪器及电源设备的使用；
+具备自动化测试系统开发经验者优先。
+
+语言要求
+
+英语听说读写流利，能够与全球团队进行日常沟通；
+普通话能力为加分项。",Gin 方案设计 自动化测试 产品设计 数据分析 采购,https://jobs.51job.com/suzhou-gyyq/172828741.html?s=sou_sou_soulb&t=0_0&req=ba9008deaa706f5632e6e495ed119262
+System Test Engineer,海力达汽车系统（常熟）,1-2万·13薪,常熟,苏州,本科,3年及以上,2026-07-30 11:06:08,job51,"1. 负责新能源汽车热管理控制系统测试策略制定，主导 TMS 控制器、EXV、多通阀等 ECU/零部件的系统级测试。 
+2. 负责热管理系统功能测试、诊断测试、通信测试、刷写测试、故障注入测试、台架/HIL 测试及实车验证。 
+3. 负责 UDS 刷写上位机、诊断测试平台及自动化测试工具的架构设计、开发和维护。 
+4. 基于 CANoe/CAPL、Python、C#、QT 等开发自动化测试脚本，实现测试用例自动执行、日志解析和报告生成。 
+5. 负责 Bootloader 刷写流程测试，包括安全访问、文件下载、数据传输、完整性校验、版本管理、异常恢复等。 
+6. 协助客户问题调查分析，提交调查分析报告。
+7. 协调软件、硬件、系统、项目及客户团队进行问题定位和项目交付。
+8. 支持上级安排的其他工作。
+
+职位要求：
+1. 本科及以上学历，3 年以上汽车电子或嵌入式软件测试经验。
+2. 熟悉新能源汽车热管理系统，有 TMS、热泵空调、电池热管理、EXV、多通阀等测试经验优先。
+3. 熟悉 UDS、CAN/CAN FD、LIN、Bootloader、DTC、DID、网络管理等汽车电子基础技术。
+4. 熟练使用 CANoe、CANalyzer、CANape、vTESTstudio 等工具，具备 CAPL/Python 自动化测试开发能力。
+5. 具备 C#、QT、Python、LabVIEW 等上位机开发能力，有 UDS 刷写工具或诊断工具开发经验优先。
+6. 熟悉 HIL/台架测试系统搭建，能够独立完成测试环境设计和调试。
+7. 具备较强的问题分析能力、系统思维、跨部门沟通能力和项目推动能力。",CAN Python C# 功能测试 自动化测试 测试用例 版本管理,https://jobs.51job.com/changshu/173095243.html?s=sou_sou_soulb&t=0_0&req=ba9008deaa706f5632e6e495ed119262
+高级ARM软件工程师,固德威技术,2.5-4.5万,苏州,苏州,本科,3年及以上,2026-08-07 14:39:52,job51,"""岗位职责：
+1、光伏逆变器产品通信及接口软件设计开发，编写代码，调试，测试以及试产与量产相关工作。
+2、在现有产品基础上，进行功能升级，满足客户定制化要求。
+任职要求:
+1、5年以上新能源物联网行业嵌入式工作经验，精通C语言，熟练使用STM32系列MCU。
+2、熟悉UCOS-III、RTThread操作系统
+3、熟悉WiFi，GPRS，以太网的TCP/IP网络协议。熟悉各种编程工具以及行业工具的使用，诸如编译工具、调试工具、代码查看工具、代码比较工具、抓包工具、代码管理工具等。
+4、能设计外围接口，如:UART、USB、CAN、EARTHNET电路等""",C语言 STM32 MCU WiFi TCP/IP UART CAN,https://jobs.51job.com/suzhou/173191450.html?s=sou_sou_soulb&t=0_0&req=ba9008deaa706f5632e6e495ed119262
+Test Engineer (生产测试工程师）,阿纳克斯（苏州）轨道系统,7.5千-1.5万·13薪,苏州·高新区,苏州,本科,5年及以上,2026-07-02 13:26:40,job51,"工作职责：
+1.	根据产品需求和客户要求， 制定详细的FCT 测试方案，包括测试流程，测试项目和测试标准等。 
+2.	审核产品线路板设计的可测试性要求，确认测试设备和夹具是否满足客户的测试要求。确保产品的测试覆盖率符合客户的要求。
+3.	新产品测试方案的规划和开发。能够掌握Labview, C语言等编程语言。
+4.	熟悉电子电路原理以及测试测量基础，熟悉常用测量仪器仪表的选型和使用。 
+5.	编写测试程序，包括自动化测试脚本，提高测试效率。
+6.	撰写测试指导书，对生产人员和测试技术员进行培训，确保测试工作的规范性和一致性。 
+7.	收集和整理测试数据， 撰写测试报告。
+8.	分析测试过程中出现的问题，快速定位故障点，确保测试工作的顺利进行。 
+9.	支持生产过程中的故障分析，解决测试过程中出现的异常。
+10.	负责测试设备的维护和管理，确保设备的正常运行，定期对设备进行校准和保养。
+
+任职要求：
+1.	本科以上学历， 电子工程，机电一体化，计算机，自动化等相关专业。 
+2.	3年以上相关测试工作经验， 有FVT 测试经验。 
+3.	具有良好的沟通能力和团队合作精神。 
+4.	英语能够做为工作语言。",C语言 自动化测试 培训,https://jobs.51job.com/suzhou-gxq/171362794.html?s=sou_sou_soulb&t=0_0&req=ba9008deaa706f5632e6e495ed119262
+PC软件工程师,苏州欣华锐电子,8千-1万,苏州·苏州工业园区,苏州,本科,3年及以上,2026-08-07 17:34:59,job51,"1.架构设计：负责 PC 端应用软件的整体架构设计，包括分层架构规划、模块划分、接口定义、数据流设计，搭建可扩展、可维护的软件架构。
+2. 上位机通信开发：负责 PC 端与设备之间的通信协议设计与开发，精通网口（Ethernet/TCP/IP）、Type-C、USB 等主流通信接口的驱动开发与数据交互。
+3. 设备控制软件：开发设备控制与数据采集上位机软件，实现设备状态监控、参数配置、数据上传下载、固件升级等功能。
+4. 驱动开发：完成 USB 设备驱动、WinUSB/libusb 通用驱动封装、Type-C PD 协议交互、网口通信协议栈（Modbus TCP/UDP/自定义协议）的开发与调试。
+5. 界面开发：负责 PC 端图形界面（GUI）设计与开发，提供直观、易用的设备控制与数据可视化界面。
+6. 跨平台适配：完成软件在 Windows 与 Linux 双平台的编译与运行适配，维护跨平台构建脚本与 CI/CD 流程。
+7. 调试与测试：使用主流开发工具进行代码调试、性能分析与单元测试，使用 Wireshark、USBlyzer 等协议分析工具进行通信报文抓包与问题定位。
+8. 技术文档：编写软件架构设计文档、接口协议文档、调试手册及用户手册，其中含英文技术文档编写。
+9. 跨团队协作：与嵌入式软件工程师、硬件工程师协作，对接设备固件协议、驱动接口与硬件寄存器映射，推动产品联调闭环。
+10. 技术预研：跟踪 PC 端技术发展趋势，评估新技术方案（如微服务架构、跨平台框架、高性能通信等），完成技术调研与原型验证。",TCP/IP Modbus Linux CI/CD 微服务 数据采集 技术文档 技术方案,https://jobs.51job.com/suzhou-gyyq/173195865.html?s=sou_sou_soulb&t=0_0&req=ba9008deaa706f5632e6e495ed119262
+测试软件开发工程师,领科汇智科技,1-2万·14薪,常熟,苏州,本科,3-4年,2026-07-27 08:33:01,job51,"岗位职责：
+1、 对测试设备总体负责。
+2、 根据公司产品及测试设备要求，和研发确定设计测试规范和测试方案。
+3、 按照方案设计并完成设备的软硬件搭建，负责测试设备的项目时间进度。
+4、 验证并改善设备的稳定性。
+5、支持设备维护工作并持续改善设备。
+岗位要求：
+1、 熟练掌握Labview编程
+2、 熟练掌握万用表,示波器等常用仪器仪表知识。
+3、 掌握硬件电路基本知识，熟悉电路原理图并能独立完成简单电路设计。
+4、 了解各类传感器，PLC等电气设备和执行机构的应用和交互。
+5、汽车行业或者设备制造行业",方案设计,https://jobs.51job.com/changshu/173043731.html?s=sou_sou_soulb&t=0_0&req=ba9008deaa706f5632e6e495ed119262
+高级测试工程师（labview方向）,苏州澳佰特智能科技,2.5-3万·15薪,苏州·苏州工业园区,苏州,本科,6-10年,2026-06-23 11:42:23,job51,"岗位职责：
+1.根据对客户spec分析的基础上提出软硬件设计方案，并进行硬件选型、成本清单及BOM表单；
+2.基于NI LabView或NI labview test stand/CVI的编程及最终调试；
+3.针对相关嵌入式产品开发相应的上层应用软件；
+4. 消化当前市场先进技术并改进公司现有测试工具软件和流程；
+5. 针对新能源汽车零部件和智能驾驶领域的先进测试技术的研究、创新等
+ 
+ 任职要求：
+ 1.测控，自动化，电子等相关专业本科及以上学历
+ 2. 5年以上汽车行业LabVIEW测试程序设计工作经验，有良好的程序设计风格
+ 3.熟悉NI平台的硬件，数字量IO控制，DAQ 数据采集，PCI板卡等
+ 4. 具有良好的测试测量基础，能理解中英文测试规范，熟悉电气线路图纸
+ 5.熟悉CAN,LIN通信，熟悉RS-232/485，LAN，USB，GPIB等常用接口总线。
+ 6.熟悉汽车零部件测试设备开发的优先录用
+ 7.有良好的英语能力者优先。
+ 8.身体健康，思维清晰，自律，为人正直，具有良好的团队精神。",CAN 数据采集 labview DAQ LAN USB,https://jobs.51job.com/suzhou-gyyq/139472576.html?s=sou_sou_soulb&t=0_0&req=ba9008deaa706f5632e6e495ed119262
+泰国测试自动化开发工程师,苏州旭创科技,1.3-1.7万·14薪,苏州·苏州工业园区,苏州,本科,1-5年,2026-07-22 09:41:16,job51,"【工作内容】
+1、负责半导体测试自动化系统的脚本开发与维护，覆盖ATE设备及量测仪器控制；
+2、设计并实施自动化测试用例，优化测试流程以提升晶圆及芯片的测试效率与良率；
+3、协同硬件与软件团队进行设备接口调试，解决测试过程中的技术瓶颈与异常问题；
+4、编写详细的技术文档与测试报告，持续改进测试系统架构以适配新产品导入需求。
+
+【任职要求】
+1、本科及以上学历，计算机、电子工程或相关专业，具备扎实的编程基础；
+2、精通Python或C++语言，熟悉Linux环境，有半导体测试（ATE）开发经验者优先；
+3、了解半导体工艺流程，掌握SPI、I2C等常见通信协议及测试仪器操作规范；
+4、具备良好的英语读写能力，能适应短期出差或海外项目支持，抗压能力强；
+5、拥有团队协作精神与创新意识，对新技术保持高度敏感，认同公司长期发展。",Python C++ Linux SPI I2C 自动化测试 技术文档,https://jobs.51job.com/suzhou-gyyq/172996184.html?s=sou_sou_soulb&t=0_0&req=ba9008deaa706f5632e6e495ed119262
+ATE测试板开发工程师,苏州朗骥电子科技,1.5-3万,苏州·苏州工业园区,苏州,本科,5年及以上,2026-07-27 19:33:13,job51,"岗位职责：
+有93K或J750Load Board设计经验
+1. 原理图与PCB设计：根据芯片规格和测试方案，设计负载板（Load Board）、探针卡（Probe Card）等电路，并完成高速、射频或高压信号的PCB布局布线。
+2. 仿真与信号完整性分析：对关键信号进行时序、串扰等仿真，优化信号质量，确保测试稳定可靠。
+3. 器件选型与BOM管理：选择合适的继电器、连接器等元件，并整理物料清单以支持生产。
+4. 硬件调试与故障排查：在ATE机台上调试接口板，使用示波器等工具定位并解决信号、电源或结构问题。
+5. 开发技术文档：编写设计说明、使用手册等文档，并交付给产线测试工程师（TE/PE）用于量产。
+6. 协同优化：与IC设计、测试及工艺工程师合作，优化测试方案，提升故障覆盖率并降低成本。
+任职资格：
+1.电子技术或计算机通信等相关本科以上学历，5年及以上相关工作经历。
+2.有积极向上的工作态度，良好的沟通能力以及团队合作精神。",故障排查 技术文档 Load Board Probe Card TE PE,https://jobs.51job.com/suzhou-gyyq/173058238.html?s=sou_sou_soulb&t=0_0&req=ba9008deaa706f5632e6e495ed119262
+labview开发工程师,嘉兴博源电子科技,1.2-1.8万,苏州,苏州,本科,3年及以上,2026-07-07 10:15:13,job51,"能熟练运用上位机labview开发平台
+岗位要求
+1. 电子或自动化相关专业毕业；本科以上，研究生。
+2. 能熟练运用labview开发平台，熟悉GPIB,RS232，并口控制编程，有SQL数据库和网络经验，熟悉SQL Server关系数据库，能独立使用SQL语句编写存储过程.更好；
+3. 熟悉电子测试技术,具备单独完成项目开发设计的能力
+4. 能运用PCB画板工具，熟悉VB,VC,单片机编程开发更好；
+5. 对相关定制系统的实施调试，完善项目软件的功能，出具相关说明文档；
+6. 能承受工作压力，良好的沟通能力；善于学习思考，有进取心；敬业爱岗，有良好的团队协作精神；
+7. 对软硬件开发技术有浓厚兴趣；
+8. 追求上进、勤奋好学、有责任心、服从管理；
+9. 具备仪器仪表、测试板卡开发经验者优先",SQL SQL Server 单片机 RS232 VC,https://jobs.51job.com/suzhou/172816916.html?s=sou_sou_soulb&t=0_0&req=ba9008deaa706f5632e6e495ed119262
+Sr. Testing Engineer ID202232,罗技科技（苏州）,1.5-2万·13薪,苏州·高新区,苏州,本科,8-9年,2026-06-25 11:52:49,job51,"The Role:
+The Senior Testing Engineer is responsible for mice and computer peripherals products NPI, engaging with TDE from new product launch to mass production sustaining. You'll work with design, quality and manufacturing teams to launch new products, developing testing flow for manufacturing.
+
+Your Contribution:
+Move fast. Speak up. Decide and own. Drive change. Exceed customer needs. These are some of the winning behaviors you’ll need for success at Logitech. In this role you will:
+-	TE Job
+o	Work with NPI team to launch new products
+o	Work with TDE to set up and verify testing stations
+o	Design for manufacturing (DFM) contributor
+o	Work with factory to deploy test stations
+o	Lead failure analysis and risk assessment to manufacturing issues
+o	Conduct data analysis to dig out potential issues
+o	Continuously improving test efficiency, coverage and stability;
+o	Conduct testing station transfers to CM factories
+-	TDE Job 
+o	Work with design team to design testing process and develop test stations as joint design support
+
+Key Qualifications:
+For consideration, you must bring the following minimum skills and behaviors to our team:
+-	Technical background and major in Electronics, Computer Science, Mechatronics or related;
+-	Bachelor’s degree, Master is plus
+-	Ability to understand schematics and circuits
+-	Good at cross-functional cooperation with good communication skills
+-	Fluent read/write and speak English
+-	Aggressive and result oriented
+-	Familiar with common instruments and interfaces: oscilloscope, multimeter, power supply, serial/USB/I2C/SPI communication [TDE Job preferred];
+-	Proficient in at least one language: C# / C++, able to independently develop automated test scripts and host software [TDE Job preferred];
+Qualification with below skills will be plus
+-	Familiar with manufacturing process/product and management
+-	Familiar with AI
+-	Familiar with automation applications
+-	Overseas study or work experience
+-	Testing developing experience of consumer electronics products
+Background:
+-	Manufacturing engineering experience in consumer electronics or peripherals (mouse, keyboard, camera etc.), outstanding fresh graduates considered;",Gin Git RAG Electron Go ROS I2C SPI C# C++,https://jobs.51job.com/suzhou-gxq/172685524.html?s=sou_sou_soulb&t=0_0&req=ba9008deaa706f5632e6e495ed119262
+labview测试工程师（海外）,苏州凌创科技发展,1.3-1.6万,苏州·相城区,苏州,本科,2-4年,2026-07-09 16:13:57,job51,"岗位描述:
+1.汽车电子测试项目的上位机开发和调试，能够独立完成项目的设计，编程和调试工作；
+2.参与汽车电子项目的规划，从测试角度提供专业建议；
+3.全面负责项目测试执行，完成部门主管安排的各类测试项目；
+4.对新产品及新测试技术的研究和创新；
+5.熟练使用仪表，如万用表、示波器、程控电源等；
+任职资格：
+1、本科及以上学历，流体传动与控制、液压工程、测量及自动化、仪器仪表、电子信息工程等相关专业；
+2. 具备多个测试项目的测控系统软件设计开发调试经验，具备较强的创新能力;
+2、熟练掌握至少一种测试工县和自动化测试框架，如Labview，C#，TestStand等；
+3、熟练常规通讯协议，串口、CAN、LIN、以太网；
+4、具备很强的逻辑思维能力，良好的沟通协调能力与团队合作精神；
+5、有过汽车底盘相关零部件（CDC、减震器、悬架）测试类设备开发调试经验优先；
+6、承担过机电液系统集成相关项目，熟悉液压动力驱动、电液伺服控制等技术优先；",C# CAN 自动化测试 LIN CDC,https://jobs.51job.com/suzhou-xcq/172857252.html?s=sou_sou_soulb&t=0_0&req=a957af41b74ee0fb4fd6d28dc0f6816e
+模块产品开发,苏州旭创科技,1.5-2.5万·14薪,苏州·苏州工业园区,苏州,本科,3年及以上,2026-06-12 14:14:37,job51,"1.负责光模块产品新单元电路调试与验证，光模块整机新产品的开发验证性能测试，包含光电特性、兼容性、传输特性测试等；（涉及芯片如：DSP / TIA / Driver / Laser等）；
+ 2.可以独立承担新项目的原型机优化及调试、满足客户定制应用场景需求;有200G/400G/800G光模块优化、调试经验者优先；
+ 3.负责产品测试方案、测试架构设计、新测试仪表的评估验证及导入；
+ 4.负责编写测试报告、测试用例等技术资料和文档编制以及培训资料的归档；
+ 5.研发原型及小批量试产数据分析测试，模块端性能问题提供改进建议，并推动项目组、产品组持续优化，提升产品一次良率、提高模光模块测试效率，输出更好的适合未来量产的测试方案；
+ 6.主导与系统厂商、DSP厂商协同同步定位模块端应用及交互问题、及解决方案落地。后续测试方案的制定和优化，参与测试标准及流程制定； 
+ 7.及时跟进研发样品阶段客户端系统应用交互问题。",DSP 性能测试 测试用例 培训 数据分析 TIA Driver,https://jobs.51job.com/suzhou-gyyq/172532667.html?s=sou_sou_soulb&t=0_0&req=a957af41b74ee0fb4fd6d28dc0f6816e
+高级测试工程师,苏州世纪福智能装备,1.2-2.2万·13薪,苏州·高新区,苏州,本科,3年及以上,2026-07-22 15:14:10,job51,"【主要职责描述】
+1.根据客户的测试要求进行分解，协调机械、软件、电气、等相关设计团队制定测试方案及成本，并与项目经理合作组织技术团队与客户沟通，以优化测试方案，建立技术优势。
+2.负责项目中测试系统方案的设计，以及客户需求分析、测试框图绘制、元器件选型、测试仪器选择、电气图纸设计，调试和异常问题处理工作。
+3.管理项目设计团队，确保按时、按质、按预算完成设计，及时解决项目中的技术问题，确保项目设计资料的更新和归档。
+4.制定并实施FCT/ICT测试标准和流程，负责TE团队的培训及其他相关工作。
+5.负责公司内部标准软硬件测试平台的开发。
+6.与公司其他部门合作，积极展开工作，完成上级领导安排的其他工作任务。
+
+【任职条件】
+1.全日制本科及以上学历，电子、通信工程，测控技术与仪器，计算机硬件及相关专业。
+2.3年以上PCBA FCT测试或ICT测试相关工作经验，主导过多个FCT/ICT测试项目，具有Labview或ICT程序或硬件电路开发经验者优先。
+3.熟练掌握常见测试方法和流程，精通常用测试仪器及采集卡的使用，精通常用通讯协议，具备较强的模拟电路和数字电路分析能力。
+4.精通数据采集与分析方法，能够进行模拟/数字信号采集，PWM信号采集等。
+5.熟悉PXI/PXIe、CAN、LIN、RS232/RS485、TCP/IP、GPIB、UDS等通讯协议及接口。
+6.具备良好的英文阅读和书写能力，优秀的沟通能力、分析问题的能力及较强的抗压能力。
+7.具有一定的跨部门协调经验，思维清晰，具备较强的自律性和团队合作精神。",CAN TCP/IP 客户沟通 需求分析 培训 数据采集,https://jobs.51job.com/suzhou-gxq/171670490.html?s=sou_sou_soulb&t=0_0&req=a957af41b74ee0fb4fd6d28dc0f6816e
+ATE测试工程师,斯贝亚（苏州）自动化检测设备,1-2万·13薪,苏州·苏州工业园区,苏州,本科,3年及以上,2026-07-15 10:27:08,job51,"一、软件部分：Software
+1、For ATE Tester Add - on:
+对于 ATE 测试仪附加功能：
+-Datalog format, CSV format, stdf. format modification
+数据记录格式、CSV 格式、stdf。 格式修改
+-Driver communication (with handler or prober machine)
+驱动程序通信（与取放机或探测机）
+2: For Automation Control: 
+对于自动化控制：
+-Movement control &amp; debug;
+运动控制与调试；
+-Motor Control, correlation and debug;
+电机控制、关联和调试；
+-Log file debug
+日志文件调试
+-Secs Gem debug 
+日志文件调试
+-Communication with other machine
+与其他机器通讯
+二、客户服务相关：Customer Service
+1. 协助销售，提供技术支持，分析客户需求，帮助解答客户技术问题。针对客户产品，运用现有软件，按照标准流程生成测试程序，完成测试报告。
+Assist sales, provide technical support, analyze customer needs, and help answer customers' technical questions. For the customer's products, use the existing software to generate test programs in accordance with the standard process and complete the test report.
+2. 对新客户进行培训，针对客户产品，运用现有软件，按照标准流程和客户一起生成测试程序使客户掌握我司程序开发的过程。
+Provide training for new customers. Based on the customers' products, use the existing software and generate test programs together with the customers in accordance with the standard procedures to enable them to master the process of our company's program development.
+3. 与我司意大利总部工程师保持密切沟通，反馈遇到的问题，并追踪进展。
+Maintain close communication with the engineers at our Italian headquarters, report the problems encountered, and track the progress.
+任职要求
+本科及以上学历，电子/电气工程，计算机，微电子等相关专业；
+Bachelor's degree or above, majoring in Electronic/Electrical Engineering, computer science or related fields
+具有混合信号、数字信号、flash或Mems测试经验，或有压力传感器，磁传感器测试设备经验，Handler经验、自动化设备软件的相关经验；
+Have experience in mixed-signal, digital signal, flash or Mems testing, or have experience in pressure sensor, magnetic sensor testing equipment, Handler, and relevant experience in automation equipment software;
+熟悉运用C++, C# and Visual Studio；
+Be familiar with the application of C++, C# and Visual Studio;
+掌握电子元器件和模拟电路的基本知识；
+Master the basic knowledge of electronic components and analog circuits;
+具备和客户有效沟通的能力。
+Have the ability to communicate effectively with customers.
+有快速学习的能力和意愿。
+Have the ability and willingness to learn quickly.
+可以接受出差和加班；
+Willing to travel and work overtime.
+（优选）英语应用能力：口语和书面能力良好；
+(Preferred) English application ability: Good oral and written skills;
+具有高度的责任心，吃苦耐劳，具备现场工作抗压能力
+Have a strong sense of responsibility, be hardworking and able to endure hardships, and possess the ability to withstand on-site work pressure",Gin UART Electron Git C++ C# Go IPS 客户服务 技术支持 培训,https://jobs.51job.com/suzhou-gyyq/169885491.html?s=sou_sou_soulb&t=0_0&req=a957af41b74ee0fb4fd6d28dc0f6816e
+测试工程师,苏州赛莫测控科技,1.5-2万,苏州·苏州工业园区,苏州,本科,3年,2026-07-02 13:17:20,job51,"工作职责：
+1. 测试程序的开发与调试。
+2. 电子产品功能测试系统的方案设计。
+3. 测试板卡，仪表的选型。
+4. 功能测试系统的搭建，调试。
+5. 客户现场交付和售后技术支持。
+
+主要能力要求：
+1. 熟练掌握C# Winform编程，熟悉多线程、数据库、TCPIP、UART编程。具备其它语言（LabVIEW/LabWindows CVI/C++）编程能力尤佳。
+2. 熟练使用常规仪表如DMM，示波器，信号发生器，可编程电源等。
+3. 熟悉基本数字/模拟电路，能读懂电路原理图。
+
+其他参考能力要求：
+1、有汽车电子功能测试经验优先。
+2 熟悉汽车电子CAN，LIN，UART等通信协议的使用和编程。
+3. 能够适应出差，抗压能力强。",C# UART C++ CAN 功能测试 方案设计 技术支持,https://jobs.51job.com/suzhou-gyyq/166513726.html?s=sou_sou_soulb&t=0_0&req=a957af41b74ee0fb4fd6d28dc0f6816e
+labview测试工程师,博众精工科技,1.5-2.5万,苏州,苏州,本科,3-5年,2026-07-10 09:42:31,job51,"【工作内容】
+1、负责自动化测试系统的LabVIEW程序开发与维护，完成测试逻辑编写及功能调试；
+2、主导硬件设备接口对接，集成数据采集卡、传感器等模块，确保信号传输稳定；
+3、执行整机性能测试与故障排查，分析测试数据并输出专业报告，推动产品优化；
+4、负责设备软硬件联调，处理软硬件交互异常故障；协同机械与电气团队解决现场测试问题，优化测试流程以提升生产效率；
+5、负责测试文档的编制与归档，建立标准化测试用例库并持续迭代更新；
+6、完成公司交办的其他工作任务。
+
+【任职要求】
+1、本科及以上学历，自动化、测控技术或电子相关专业，具备扎实的电路基础；
+2、3-5年自动化设备测试开发经验；熟悉软件，硬件测试相关流程，了解使用数字源表、NI硬件优先；
+3、熟练使用labview，teststand开发工具，对C#有了解；
+4、工作严谨细致，责任心强，能适应项目节点压力及出差。",C# 自动化测试 数据采集 性能测试 故障排查 测试用例,https://jobs.51job.com/suzhou/172862546.html?s=sou_sou_soulb&t=0_0&req=a957af41b74ee0fb4fd6d28dc0f6816e
+ate测试工程师,工研拓芯（苏州）集成电路,1.2-2.4万·13薪,苏州·苏州工业园区,苏州,本科,2年及以上,2026-08-02 13:31:03,job51,"ATE测试开发工程师 / ATE Test Development Engineer（中级/高级）
+ 岗位职责
+1. 测试程序开发：基于UltraFlex、9300K或AccoTEST等ATE平台，完成芯片CP/FT测试程序开发、调试及优化
+2. 测试方案设计：根据芯片规格书（Datasheet）制定测试方案，包括Test Plan、Flow Table设计，覆盖DC/AC/Function/Memory等测试项
+3. 良率分析与提升：建立良率监控体系，分析低良率批次（Low Yield Lot）根因，通过数据分析（SBL、Shmoo、Trend Chart）识别测试问题并优化测试策略
+4. 代码开发维护：使用C/C++、Python或ATE专用语言（如IG-XL、SmarTest、ALPS）开发测试程序、自动化脚本及数据分析工具
+5. 量产支持：处理量产过程中的测试异常（NPI阶段到MP阶段），解决测试稳定性、一致性和重复性问题
+6. 测试硬件评估：参与Load Board、Probe Card、Socket等测试硬件的规格评审与验证
+
+ 任职要求
+硬性条件：
+- 机台经验：熟练掌握UltraFlex（Advantest V93000/PS1600系列）或9300K（Credence）、AccoTEST（STT系列）中至少一种ATE机台的架构与编程环境
+- 芯片测试经验：3年以上数字芯片/混合信号芯片/电源管理芯片（PMIC）/MCU的ATE测试开发经验，熟悉从晶圆测试（CP）到成品测试（FT）的全流程
+- 良率管理：具备良率数据分析经验，熟悉使用JMP、Minitab或Python（Pandas/Matplotlib）进行良率报表制作、异常批次分析与缺陷定位
+- 编程能力：熟练使用C/C++、Python或Perl进行测试程序开发与自动化工具开发；熟悉IG-XL、SmarTest、ALPS等ATE开发环境者优先
+
+专业知识：
+- 熟悉半导体测试原理，掌握DC参数测试（Continuity、Leackage、Idd等）、AC时序测试（Setup/Hold、Prop Delay）、功能测试（Pattern Test） methodology
+- 了解芯片失效分析（FA）基本流程，能与PE/PIE团队协作定位工艺或设计相关问题
+
+ 加分项（优先考虑）
+核心加分技能：
+- 射频（RF）芯片测试经验：具备RF IC（如LNA、PA、Mixer、VCO、Switch、RF SoC）测试经验，熟悉S参数测量、EVM、ACPR、Phase Noise、Harmonics等射频指标测试方法；了解矢量网络分析仪（VNA）、频谱仪与ATE的协同测试方案
+- 模拟芯片测试经验：具备高精度模拟芯片（如ADC/DAC、运算放大器、传感器接口芯片、电源管理IC）测试经验，熟悉静态参数（INL/DNL/Offset/Gain Error）和动态参数（SNR/THD/SFDR）测试方法，掌握四线制（Kelvin）连接、噪声抑制等模拟测试技术
+
+其他加分技能：
+- 具备Test Program Migration（机台间程序转换）或跨平台（如UltraFlex与V93000互转）经验
+- 熟悉STDF/ATDF数据格式解析及测试数据管理系统（如RMS、YieldWerx、Odyssey）搭建
+- 有DFT（Scan/BIST）测试模式开发与调试经验",Gin C++ Python MCU Perl ARM CAN 方案设计 数据分析 功能测试,https://jobs.51job.com/suzhou-gyyq/170661592.html?s=sou_sou_soulb&t=0_0&req=a957af41b74ee0fb4fd6d28dc0f6816e
+嵌入式测试工程师（etherCAT）,上海微创软件,1.4-2万,苏州·吴中区,苏州,本科,1年及以上,2026-08-06 21:04:05,job51,"1. 熟悉软件测试理论及测试流程，具有根据需求文档和设计文档编写测试方案、设计测试用例、执行测试及输出测试报告的经验。
+2. 熟悉常用的通信协议，EtherCAT, CAN等。具有 EtherCAT 网络搭建、通信测试、问题定位及故障诊断经验。
+3. 具有嵌入式软件测试经验，具有独立完成模块测试、集成测试及系统测试的经验，具备初步的软硬件问题定位能力。
+4. 具有使用示波器、逻辑分析仪、万用表等测试仪器进行信号测量和信号问题诊断的经验。
+5. 具有测试环境搭建经验，能够完成从板级硬件到系统级的测试环境配置及联调。
+6. 踏实，动手能力强，主动性高，具备良好的学习能力，能够主动分析问题、提出解决方案并动手实践。",CAN 文档编写 测试用例 EtherCAT,https://jobs.51job.com/suzhou-wzq/173183369.html?s=sou_sou_soulb&t=0_0&req=a957af41b74ee0fb4fd6d28dc0f6816e
+测试工程师（Labview)(J10153),儒拉玛特自动化技术（苏州）,1.2-2.4万·13薪,苏州·苏州工业园区,苏州,本科,5年及以上,2026-07-01 13:43:39,job51,"工作职责:
+1.1	测试设备方案阶段把控，对疑难点在设计之前展开验证工作。
+1.2	参与硬件设计过程，保证内部表格填写、物料采购正确性和图纸质量。
+1.3	完成上级分配的软件设计任务，保证软件功能模块和软件接口的质量，保证开发效率。
+1.4	参与项目内部调试及现场调试。
+1.5	对项目完成后的资料更新情况进行管理跟踪，保证项目完成质量，做好经验分享工作。
+1.6	积极参与潜在项目方案，投入精力对T-Spec进行分析，对每个项目做好前期的报价和风险评估。
+1.7	参与实验室研究项目的推进工作。
+1.8	技术文档编写
+1.9	推进测试技术的标准化，有效转化研发项成果。
+任职资格:
+1	本科及以上学历，电气工程及其自动化/ 自动化 / 测控以及相关专业背景。
+2	5年以上自动化测试设备行业的软硬件开发设计经验。
+3	熟悉LabVIEW,C# 等编程语言，有丰富的软件开发经验，熟悉数据库编程，有独立开发自动化测试系统的经验
+4	熟悉基本的软件框架设计方法，设计模式。
+5	熟悉针对产品相关常规物理量测试中的动态采集、数据处理、数据分析等技术。
+6	熟悉自动化设备流程控制、运动控制、流体控制、安全回路、实时系统等技术。
+7	熟悉TCP/IP、RS232、MODBUS、CAN、LIN等常见通讯功能的测试方案。
+8	熟悉常用电气元件 、测试元件、仪器仪表的选型以及特性。
+9	熟悉主流电气绘图软件，了解Eplan画图。
+10	EPS/EMB/悬架/泵/电驱或汽车电子产品测试背景的优先考虑。
+11	具有自我规划能力、自我提升意识、新事物接受能力，善于学习和掌握应用新技术。
+12	良好的沟通能力、管理意识、创新能力、人际协调能力及团队协作能力。
+13	较好的英语听说读写能力。",C# TCP/IP Modbus CAN 采购 技术文档 自动化测试 数据分析,https://jobs.51job.com/suzhou-gyyq/170386957.html?s=sou_sou_soulb&t=0_0&req=a957af41b74ee0fb4fd6d28dc0f6816e
+ATE测试工程师,昇显微电子（苏州）,1.8-3万·13薪,苏州·高新区,苏州,本科,3年及以上,2026-06-30 10:54:57,job51,"工作职责:
+1.AMOLED/LCD Driver/TDDI量产ATE测试程序开发;
+2.量产DDIC/TDDI测试程序维护与测试问题排除;
+3.测试数据分析和良率提升。
+ 
+任职要求:
+1. 微电子、电子工程、自动化、计算机相关专业本科以上学历;
+2.Driver/TDDI 3年以上ATE测试经验;
+3.Advantest测试机台ND3/ND4C/ND4S 程序开发经验;
+4. 具有DDIC设计公司经历者优先。",数据分析 AMOLED LCD Driver TDDI ND4C ND4S,https://jobs.51job.com/suzhou-gxq/172736168.html?s=sou_sou_soulb&t=0_0&req=a957af41b74ee0fb4fd6d28dc0f6816e
+Labview工程师/测试工程师,蔚华电子科技（上海）,8千-1.5万·14薪,苏州·苏州工业园区,苏州,本科,2年及以上,2026-07-24 16:51:55,job51,"Labview工程师/测试工程师
+有labview经验者优先考虑
+工作职责: 
+1.测试程序项目开发，有labview经验的优先考虑
+2.测试程序相关技术支持及客户服务
+3.对接原厂技术支持与原厂协作进行技术障碍排除
+ 
+任职资格: 有Labview经验者优先
+1.本科及以上学历，电子、自动化、机械电子、测控技术等相关专业
+2.了解电路应用，了解RF相关协议，如BT、Wifi、手机通讯等
+3.熟悉RF测试项目，如EVM、P1dB、ACLR、IP3等
+4.了解load board/probe card制作的相关知识
+5.具备Labview、C/C++/C#、Signal Generator/Signal analyzer/VNA等RF仪器操作
+6.具备RF测试程序开发与RF问题分析解决的能力
+7.英语四级以上，听说读写熟练，能熟练使用Excel/PowerPoint
+8.具备严谨、细致、敬业的工作态度和良好的职业道德，有不断学习进取和团队合作精神，善于与人沟通，能够承受较大的工作压力",WiFi C++ C# 技术支持 客户服务 Wifi P1dB ACLR,https://jobs.51job.com/suzhou-gyyq/173035852.html?s=sou_sou_soulb&t=0_0&req=a957af41b74ee0fb4fd6d28dc0f6816e
+Labview测试工程师,阿派斯自动化科技（苏州）,1.2-2.4万·13薪,苏州·吴中区,苏州,本科,5-7年,2026-07-23 10:11:15,job51,"岗位职责:
+1.	完成测试系统电路设计，编写BOM清单；
+2.	负责项目实施过程中文档的编写，包括测试流程图、软件界面原型设计和最终的软件操作手册等
+3.	标准仪器驱动的编写、待测产品离线的调试、上位机程序的开发及整套测试系统的调试；
+4.	开发自动化测试设备测试程序；
+5.	程序现场调试和后期的维护；
+6.	上级主管交办的其他事项;
+岗位要求:
+1.3年以上LabView程序开发经验，有良好的编程风格，并遵守设计标准化:
+2.熟悉NI、Adlink、凌臣等工业数据采集卡
+3.熟悉Labview、teststand软件，掌握CAN.LIN等主流品牌仪器仪表及通讯控制, 熟悉与主流PLC的上位机通讯
+4、熟练Sql语言，有过MySql,sqlserver等相关数据库开发经验者优先:
+5.对面向对象有一定了解",CAN SQL MySQL 原型设计 自动化测试 数据采集,https://jobs.51job.com/suzhou-wzq/149838857.html?s=sou_sou_soulb&t=0_0&req=a957af41b74ee0fb4fd6d28dc0f6816e
+Labview测试工程师,苏州市德智电子,1-1.5万,苏州·高新区,苏州,本科,1年及以上,2026-07-21 08:37:57,job51,"1. 本科及以上学历，电子、自动化、计算机、机械设计及自动化、测控技术等相关专业；
+2. 工作年限：LabVIEW、TestStand软件开发1年及其以上；
+3. 熟悉PXI/PXIe、CAN、RS232/485、TCP/IP、GPIB、OPC等通讯协议及接口；
+
+其他参考能力要求：
+
+1. 熟悉汽车电子CAN，LIN，UART等通信协议的使用和编程。
+2.能够熟练使用Labview , 及TestStand等相关软件及各种测试设备仪器仪表",CAN TCP/IP UART LabVIEW PXIe RS232 TCP IP,https://jobs.51job.com/suzhou-gxq/156943578.html?s=sou_sou_soulb&t=0_0&req=a957af41b74ee0fb4fd6d28dc0f6816e
+产品测试工程师 (MJ000474),思瑞浦微电子科技（苏州）,1.5-2万,苏州·苏州工业园区,苏州,本科,3-10年,2026-07-03 10:29:14,job51,"工作职责：
+1.与芯片研发工程师/应用工程师等技术人员评估芯片测试需求和测试规范，并评估测试平台以及具体的测试方案
+2.负责相关产品的ATE程序验证、调试，从工程直至导入量产
+3.与硬件设计人员合作设计并制作Load Board、Probe Card、Socket等测试硬件，并对测试硬件进行验证
+4.对测试程序进行分析与优化，确保测试覆盖率、测试稳定性、一致性以及测试时间达到预期目标
+5.整理测试报告，编写测试生产规范的相关文档；
+6.对客户反馈的问题进行分析验证、排查量产测试问题；
+职位要求：
+1. 微电子、电子工程等相关专业本科及以上学历
+2. 两年及以上芯片测试开发工作经验
+3. 较好的中英文沟通交流及报告能力
+4. 有数字或模拟芯片的ATE测试经验
+5. 熟悉示波器，信号源，频谱仪等实验室测试仪器
+6. 有AccoTest, NI, V93K, J750测试机经验者优先",Board Probe Card NI V93K,https://jobs.51job.com/suzhou-gyyq/153130965.html?s=sou_sou_soulb&t=0_0&req=a957af41b74ee0fb4fd6d28dc0f6816e
+Labview测试工程师,苏州工业园区耐斯达自动化技术,1.5-2.5万,苏州·姑苏区,苏州,本科,5年及以上,2026-07-29 09:51:17,job51,"职位描述：
+1.和客户沟通，设计测试系统的最优方案及整体项目的设计管控；
+2.负责编写设计开发文档（方案、项目报告、总结报告、设计原理图、软件、SOP及设计便标准）
+3.负责设计测试系统的信号切换及原理图；
+4.负责测试项目软件开发；
+5.和客户沟通优化系统并根据客户要求满足客户应用上的疑问与功能；
+6.部门相关前沿技术的研究与开发；
+
+任职要求：
+1.本科及以上学历，电子、测控、仪器仪表、计算机、自动化等相关专业；
+2.有汽车电机控制器MCU、逆变器、ECU、域控制器等项目经验者优先；
+3.具备5年以上LabVIEW及TestStand开发工作经验，熟悉LabVIEW常用架构并4.独立开发测试软件平台，有成熟框架优先考虑；
+5.熟悉数据采集及分析方法，模拟/数字信号采集、PWM信号采集等；
+6.熟悉PXI/PXIe、CAN、RS232/485、TCP/IP、GPIB、UDS等通讯协议及接口；
+7.熟练使用NI、是德科技、艾德克斯、泰克等品牌的相关仪器；
+8.熟悉Access、SQL Server数据库，具有报表生成、数据导出能力，具有Python/C++/C#/.Net开发经验优先考虑。",MCU CAN TCP/IP SQL Server Python C++ C# 客户沟通 数据采集,https://jobs.51job.com/suzhou-gsq/153378508.html?s=sou_sou_soulb&t=0_0&req=a957af41b74ee0fb4fd6d28dc0f6816e
+测试工程师,苏州固锝电子,1-1.5万,苏州·高新区,苏州,本科,2年及以上,2026-08-03 18:25:13,job51,"岗位职责：
+1. 客户技术支持：作为公司与客户的技术桥梁，为客户提供全流程技术服务；
+2. 产品测试与验证：协助客户完成产品测试环境搭建，参与样品测试、性能调试及问题复现，输出测试报告并优化测试方案；
+3.客户需求挖掘与传递：深度了解客户应用场景（如工业控制、新能源汽车、消费电子等），挖掘潜在技术需求及产品改进建议，同步至研发、市场团队，支撑产品迭代与定制化方案开发；
+4.市场与竞品分析：收集客户对竞品的反馈及市场技术趋势，协助市场团队输出竞品分析报告，支撑公司产品定位与市场策略调整。
+
+任职要求：
+1. 本科及以上学历，电子工程、微电子、自动化、通信工程等相关专业;
+2. 2年以上电子/半导体行业FAE、应用技术支持或研发测试经验;
+3.有芯片（如MCU、功率器件、传感器）、电子模组等产品应用经验者优先； 
+4.熟悉至少一个细分领域（如工业自动化、汽车电子、消费电子、新能源）的应用场景者优先。",MCU 技术支持 产品迭代 竞品分析,https://jobs.51job.com/suzhou-gxq/173135839.html?s=sou_sou_soulb&t=0_0&req=a957af41b74ee0fb4fd6d28dc0f6816e
+测试工程师,立臻精密智造（昆山）,1-2万·13薪,苏州,苏州,大专,3-5年,2026-07-07 13:58:16,job51,"岗位要求
+1.新机种CR阶段测试软件验证，硬件调试，DOE组织和执行，数据处理和评估等；
+2.MP阶段设备维护和设备优化，有效减少复测/停线/Down time rate，提升YR.
+3.参与测试流程和规范的制定与优化，引入新的测试方法和工具，有效提升产能，减少成本投入等；
+4.自动化中控程序开发与维护
+5.自动化机械手臂&amp;轨道PLC控制程序开发与维护
+6.自动化电控设计与优化
+7.自动化治具架设及调试
+8.测试段新站位PnP自动化评估，验证与导入
+
+
+任职要求
+1.自动化，机电一体化等专业全日制专科及以上学历；
+2.编程语言：熟练掌握至少一种编程语言，如Python、Java、C#等
+3.测试：具有一定年限的软件测试经验，包括功能测试、性能测试、接口测试等方面的经验
+4.视觉：主流视觉公司（基恩士/康耐视/海康威视/凌云光等）的从业经验，
+5.电控：可以主导设备开发过程中的电气设计相关工作，包含电路图/气路图设计，电气元件选型验证，输出电器图纸等，
+6.机构设计：熟练运用常规工业制图工具，AutoCAD/SolidWorks等",Python Java C# 功能测试 性能测试 Down AutoCAD,https://jobs.51job.com/suzhou/172822056.html?s=sou_sou_soulb&t=0_0&req=a957af41b74ee0fb4fd6d28dc0f6816e
+测试工程师,苏州锦联星科技,1-1.8万,苏州·苏州工业园区,苏州,本科,3年及以上,2026-08-06 11:10:37,job51,"工作职责	工作地址：苏州工业园区金田路15号（奥英厂区内）！！！
+根据客户需求，制定测试计划和测试用例；
+负责电子以及软件的版本控制，以及测试下发；
+样件的制作、测试；
+完成DVP与外部实验室的技术交流和沟通，并跟踪状态；
+完成样品阶段客户的上车测试和各种反馈搜集整理
+配合项目经理、商务对客户的技术支持工作；
+
+任职资格
+1、	教育背景：
+本科及以上学历，电子、机械类相关专业优先
+2、	工作经历：
+有汽车灯具或相关工作经验更好
+3、	业务与知识要求：
+熟悉IATF16949相关流程，熟悉本专业相关基础知识
+4、	能力素质要求：
+能胜任公司和客户交给的任务，并与内部项目小组成员共同协作，完成内外部客户的要求。并对本专业又较强的认知，丰富的知识储备，能查找并解决专业相关问题。需要时可配合出差解决问题和测试。
+5、	计算机技能：
+ 熟练使用CAN LIN 等通讯工具以及上位机。",CAN 测试计划 测试用例 技术支持 LIN,https://jobs.51job.com/suzhou-gyyq/173172623.html?s=sou_sou_soulb&t=0_0&req=a957af41b74ee0fb4fd6d28dc0f6816e
+labview测试工程师,苏州钧鼎自动化设备,1.5-3万·13薪,苏州·吴中区,苏州,本科,5年及以上,2026-06-12 16:57:41,job51,"岗位描述：
+1、对客户需求分析的基础上提出测试设计方案、基于NI Labview 编程 2、必要时到客户端进行最终调试; 3、对负责的项目进行客户服务; 4、完成上级安排的其它临时工作任务。 
+ 岗位要求: 1、本科以上学历，有LabVIEW开发经验5年以上; 2、测控技术，仪器仪表，自动化技术或相关专业; 3、了解影像配置，如相机，镜头，光源的选取与组合，精通NI影像工具开发; 4、了解常用数据采集板卡和工业通讯协议等; 5、了解数据库MySQL或SqlServer软件操作; 6、了解汽车相关方面CAN、LIN通信应用; 7、负责项目实施过程中文档的编写，包括测试流程图、软件界面原型设计和最终的软件操作手册等; 8、能适应短期出差，具有汽车行业非标设计经验者优先; 9、英语优秀者优先。",MySQL SQL CAN 需求分析 客户服务 数据采集 原型设计,https://jobs.51job.com/suzhou-wzq/165288534.html?s=sou_sou_soulb&t=0_0&req=a957af41b74ee0fb4fd6d28dc0f6816e
+高级测试工程师,苏州科美信息技术,1.5-2.5万,苏州·姑苏区,苏州,本科,5年及以上,2026-07-30 14:13:33,job51,"【工作内容】
+- 负责SSD及内存条产品全流程测试，包括功能、性能、可靠性、兼容性及稳定性等。
+- 制定测试计划、测试方案、测试用例与测试规范，输出专业测试报告。
+- 定位产品失效问题，完成问题复现、根因分析及推动闭环解决。
+- 搭建和维护测试平台，开发或优化测试脚本与自动化工具，提升测试效率与覆盖率。
+- 参与产品需求评审与设计评审，从测试角度提出风险识别与改进建议。
+- 对接量产环节，输出符合要求的量产测试方案。
+【任职要求】
+- 本科及以上学历，计算机、电子、自动化、微电子、通信等相关专业。
+- 5年以上相关测试经验，具备独立设计完整测试方案的能力。
+- 熟悉JEDEC、GJB、GB等标准，能根据标准制定测试用例与测试规范。
+- 熟练掌握Windows/Linux系统操作与调试技能。
+- 能看懂基本原理图与PCB，熟练使用万用表、示波器、电源、热风枪、电烙铁等工具。
+- 英语良好，能够熟练阅读和理解英文技术文档。",Linux 测试计划 测试用例 技术文档 GJB,https://jobs.51job.com/suzhou-gsq/170797808.html?s=sou_sou_soulb&t=0_0&req=a957af41b74ee0fb4fd6d28dc0f6816e
+labview测试工程师,昆山兴泰克电子科技,1.5-2.5万,昆山,苏州,本科,3年及以上,2026-07-10 09:13:13,job51,"1.基本背景要求										
+	1) 软件工程、电气自动化、计算机等相关专业，本科及以上学历优先;						
+	2) 3年以上制造业相关工作经验； 	
+2.基本技能及工作经验要求								
+ 1) 有非标自动化设备软件开发经验，具备扎实的labview编程基础；							
+ 2) 具有整车厂或大型汽车零部件厂相关工作经验优先；	 						
+ 3) 从事自动化设计3年以上，有独立设计完成的成功的案例；							
+ 4) 了解常用数据采集板卡和工业通讯协议等；
+ 5) 了解数据库MySQL 或SqlServer软件操作；
+ 6) 了解汽车相关方面CAN、LIN通信应用；	
+工作内容描述												
+1.负责labview应用软件的设计和研发，PLC电气工程及其自动化程序编写；
+2.负责现场的labview软件开发、调试和维护工作；
+3.负责项目实施过程中文档的编写，包括测试流程图、软件界面原型设计和最终的软件操作手册等；
+4.项目中用于测试验证的demo软件的开发
+5.现场的labview软件安装和调试，				
+6.注重学习提升技能，推进公司内设计标准化工作；								
+7.总结经验并养成记录以备后续学习和改进。",MySQL SQL CAN 数据采集 原型设计,https://jobs.51job.com/kunshan/172861777.html?s=sou_sou_soulb&t=0_0&req=5f2ef5a56a80068a6ea2fc7b2183c063
+测试工程师,苏州长城开发科技,9千-1.5万·13薪,苏州·苏州工业园区,苏州,本科,2年及以上,2026-06-29 08:08:45,job51,"1、分析产品测试中产生的不良问题。
+2、根据制定的RTL流程设置和认可测试设备。
+3、跟进生产测试计划并及时解决生产测试异常状态。
+4、利用电路知识分析测试原因并加以改进。
+5、跟踪SBR, 执行IEN, 新程序上线管理与归档，反馈客户结果和异常处理。
+6、新产品前期准备，根据清单追踪软件硬件，试产问题跟踪反馈与解决，确保顺利进入量产。
+
+任职要求 
+1.2年以上电子产品测试经验，具有PCBA板检测、FCT维护和调试经验尤佳
+2.有良好的电子电路分析能力和计算机水平，有良好的测试设备故障分析和处理能力。",测试计划,https://jobs.51job.com/suzhou-gyyq/129437493.html?s=sou_sou_soulb&t=0_0&req=5f2ef5a56a80068a6ea2fc7b2183c063
+测试系统工程师,固德威技术,1.5-2.5万,苏州·高新区,苏州,本科,3年及以上,2026-06-16 15:49:29,job51,"岗位职责:
+1.需求对接与分析 ：
+负责与产品需求方对接，理解产品需求，进行需求分析和转化 
+2.测试计划与用例设计 ：
+ a.编写测试计划，设计测试用例
+ b.组织测试计划、测试用例评审，确保测试覆盖全面性 
+ c.推进测试用例基线化、标准化、统一化工作 
+3.测试标准与质量把控 ：
+ a.推动并参与制定技术标准（厂标）
+ b.参与准入准出评审，把控测试质量 
+ c.推动测试用例迭代优化，完善用例基线化 
+4.质量问题分析与解决 ：
+ a.负责持续跟进重大客诉和市场问题 
+ b.对特定产品进行专题分析，提出改进建议 
+ c.参与历史问题复盘，提高测试能力 
+5.跨部门协作 ：对新功能、新加固测试推进闭环验证 ； 与质量部门合作，优化测试用例，提高用例覆盖
+
+任职要求:
+1.电力电子相关专业；
+2.了解光储逆变器系统的产品特性及应用场景；
+3.基础电力系统知识，有强电产品操作经验；
+4.熟悉产品开发及测试流程；
+5.熟悉测试用例编写方法；
+6.具备较高的质量意识、分析、定位问题能力；
+7.沟通表达能力强；熟练使用办公软件;
+8.英语资料阅读能力。",需求分析 测试计划 测试用例 跨部门协作,https://jobs.51job.com/suzhou-gxq/172580003.html?s=sou_sou_soulb&t=0_0&req=5f2ef5a56a80068a6ea2fc7b2183c063
+ATE测试工程师,苏州芯昱安电子科技,1-1.5万·13薪,苏州·虎丘区,苏州,本科,2年及以上,2026-07-13 14:26:29,job51,"1.负责客户芯片CP、FT工程及量产测试程序开发，制定量产测试方案，保 
+ 证项目进度和质量
+2.负责测试硬件开发(LoadBoard, PIB, Probecard)
+3.优化测试方案、提高覆盖率、优化测试时间、降低测试成本
+4.解决量产测试异常和良率问题
+5.配合客户做工程验证
+
+
+任职要求： 
+1.本科及以上学历，电子信息工程，微电子，计算机，自动化等相关专业
+2.2年以上IC量产测试开发经验
+3.精通ATE测试原理，熟练使用ATE机台（93K、J750、UltraFlex等）
+4.熟悉C++、VB、Perl等编程语言
+5.坚持质量导向；有良好的问题解决能力、学习和研究能力
+6.有良好的团队合作意识，较强的沟通协调能力
+7.有一定英文阅读能力（日常工作中机台或技术类英文文档）
+
+工作地点上海或苏州",C++ Perl LoadBoard PIB Probecard J750 VB,https://jobs.51job.com/suzhou-hq/172887749.html?s=sou_sou_soulb&t=0_0&req=5f2ef5a56a80068a6ea2fc7b2183c063
+高级测试工程师,深圳市智信精密仪器,2-3.5万·14薪,苏州·吴中区,苏州,本科,8年及以上,2026-06-24 22:04:12,job51,"岗位职责：
+1、负责项目中测试部分DFM的输出。正确解读客户需求、及时对接确认方案、评估所需资源。
+2、负责项目中测试部分投料BOM的输出。与光机电协作完成整站自动化方案细节设计
+3、负责测试软件代码开发。指导现场测试相关软硬件安装与调试
+4、对测试过程中出现的良率异常、功能失效等问题，协助进行根本原因分析，协同其他研发部门优化设计方案
+
+任职资格：
+ 1、本科及以上学历，电气、自动化等相关专业，8年以上测试工程师相关工作经验，有医疗设备、机器人行业测试经验者优先。
+2、精通LabVIEW，能够独立完成大型项目架构设计，熟练掌握OOP、AF、MVC/MVP设计方法，拥有NI-CLA认证者优先。
+3、熟练掌握Teststand，能够独立完成测试序列和执行代码编写，拥有NI-CTD认证者优先。
+4、熟练掌握cRIO\cDAQ\PXI\PCIe仪器或板卡的选型原则和调试方法。",PCIe AF MVC PXI,https://jobs.51job.com/suzhou-wzq/172679117.html?s=sou_sou_soulb&t=0_0&req=5f2ef5a56a80068a6ea2fc7b2183c063
+产品测试工程师（工艺）,立胜汽车科技（苏州）,1-1.6万,苏州·相城区,苏州,本科,3年及以上,2026-06-17 14:59:49,job51,"岗位职责：
+•	Responsible on tester design and development including test strategy, test coverage, test process, efficiency/yield, cost management, space utilization, and development schedule 
+-	负责测试仪的设计和开发，包括测试策略、测试覆盖率、测试流程、效率/产量、成本管理、空间利用和开发进度。
+•	Develops and standardlize design for Test, test mode specification, procedures, setup and troubleshooting guides for test solution 
+-	为测试解决方案开发和标准化测试设计、测试模式规范、程序、设置和故障排除指南
+•	Develop Test sequences including measurement and calibration algorithm
+-	开发测试序列，包括测量和校准算法
+•	Capable of troubleshooting and debugging test systems and automation solution from a software and hardware perspective
+-	能够从软件和硬件角度对测试系统和自动化解决方案进行故障排除和调试
+•	Coordinates 3rd party test suppliers in designing, developing and fabricating test systems
+-	协调第三方测试供应商设计、开发和制造测试系统
+•	Works with other functional team to bring the test systems development from R&amp;D stage to Mass Production stage.
+-	与其他职能团队合作，将测试系统开发从研发阶段推向量产阶段。
+•	Support failure analysis on system either occurred in trial production stage or return from the customer. Use big data to improve test strategies and processes
+-	支持对试生产阶段或客户退货的系统进行故障分析。利用大数据改进测试策略和流程
+
+任职要求：
+Minimum Qualification:
+•	Bachelor’s degree in a relevant field, ideally Electronic, Electrical Computer Engineering with 3+ years experience as a test engineer in test development, high mix low volume production related field 
+-	拥有相关专业的学士学位，***是电子、电气计算机工程专业，拥有 3 年以上测试开发、高混合小批量生产相关领域的测试工程师经验 
+•	Expertise in developing complex hardware test solutions utilizing both internal and 3rd party supplier
+-	擅长利用内部和第三方供应商开发复杂的硬件测试解决方案
+•	Ability to design and execute development projects with a design of experiment approach (DOE) to service, troubleshoot and solve engineering/production problem
+-	能够利用实验设计方法（DOE）设计和执行开发项目，以提供服务、排除故障和解决工程/生产问题
+•	Knowledge in statistical methods (e.g CPK, signma，GR&amp;R) for data analysis in production control processes. And response for PFMA manufacture and review
+-	通过数据分析开展测试系统稳定性的验证（例如Gage R&amp;R和CPK）。负责测试覆盖率的研究和测试PFMEA的编写；
+•	Excellent verbal and written communication in English, Chinese and team collaboration skills
+-	优秀的中英文口头和书面沟通能力以及团队协作能力
+Preferred Qualification:
+•	Experience with Total Test strategy, coverage, process are highly desired
+-	具有全测试策略、覆盖范围和流程方面的经验者优先考虑
+•	Additional experience in Python, Labview, Visio Studio language preferred
+-	有 Python、Labview、Visio Studio 语言经验者优先考虑
+•	Experience with ADAS, ECU, Car Electronic module are desired
+-	希望拥有 ADAS,ECU、汽车电子模块方面的经验",RAG Go Gin Electron DiT Python 数据分析,https://jobs.51job.com/suzhou-xcq/172062264.html?s=sou_sou_soulb&t=0_0&req=5f2ef5a56a80068a6ea2fc7b2183c063
+FCT测试工程师,阿纳克斯（苏州）轨道系统,1-1.8万·13薪,苏州·高新区,苏州,本科,3年及以上,2026-07-22 14:09:40,job51,"工作职责：
+1.	根据产品需求和客户要求， 制定详细的FCT 测试方案，包括测试流程，测试项目和测试标准等。 
+2.	审核产品线路板设计的可测试性要求，确认测试设备和夹具是否满足客户的测试要求。确保产品的测试覆盖率符合客户的要求。
+3.	新产品测试方案的规划和开发。能够掌握Labview, C语言等编程语言。
+4.	熟悉电子电路原理以及测试测量基础，熟悉常用测量仪器仪表的选型和使用。 
+5.	编写测试程序，包括自动化测试脚本，提高测试效率。
+6.	撰写测试指导书，对生产人员和测试技术员进行培训，确保测试工作的规范性和一致性。 
+7.	收集和整理测试数据， 撰写测试报告。
+8.	分析测试过程中出现的问题，快速定位故障点，确保测试工作的顺利进行。 
+9.	支持生产过程中的故障分析，解决测试过程中出现的异常。
+10.	负责测试设备的维护和管理，确保设备的正常运行，定期对设备进行校准和保养。
+
+任职要求：
+1.	本科以上学历， 电子工程，机电一体化，计算机，自动化等相关专业。 
+2.	3年以上相关测试工作经验， 有FVT 测试经验。 
+3.	具有良好的沟通能力和团队合作精神。 
+4.	英语能够做为工作语言。",C语言 自动化测试 培训,https://jobs.51job.com/suzhou-gxq/161523245.html?s=sou_sou_soulb&t=0_0&req=5f2ef5a56a80068a6ea2fc7b2183c063
+伺服软件测试工程师,苏州安驰控制系统,1-2万·14薪,苏州·高新区,苏州,本科,2-5年,2026-08-02 19:51:45,job51,"工作职责：
+1)	负责伺服、变频器整机软件功能、性能测试，包含测试环境搭建、测试执行、测试数据分析、问题反馈、报告编写；
+2)	解读行业相关标准，参与测试用例及测试规范优化升级； 
+3)	担任重点项目测试项目经理，负责产品开发阶段评审，组织测试方案制定和执行，对项目的质量负责；
+4)	负责测试平台、工装的规划、建设、优化和维护；
+5)	主导竞品分析、行业调研、标准解读、场景库建立、研发试机等；
+6)	协助现场调试及解决客户端调试问题，完成现场问题闭环；
+任职资格：
+1)	全日制本科及以上学历，电力电子、电气及其自动化、通信、测控、控制科学与控制工程等相关专业； 
+2)	有驱动类产品测试经验或应用经验。对驱动器产品有现场应用经验者优先；
+3)	熟悉汇川、欧姆龙、倍福等PLC的应用；
+4)	熟悉EtherCAT、CANopen、modbus等通讯；
+5)	熟练使用万用表、示波器等仪器；
+6)	具有良好的产品基础知识和学习动手能力，自我驱动能力强，对于技术工作有强烈的意愿。
+7）有较好的沟通表达能力，具有良好的团队意识；",CAN Modbus 性能测试 数据分析 测试用例 竞品分析,https://jobs.51job.com/suzhou-gxq/172953978.html?s=sou_sou_soulb&t=0_0&req=5f2ef5a56a80068a6ea2fc7b2183c063
+测试工程师,苏州路之遥智能装备,1-1.5万·13薪,苏州·高新区,苏州,本科,5年及以上,2026-08-04 14:34:16,job51,"岗位职责：
+一、制定测试方案
+1、参与新产品导入，与研发、工艺等部门沟通，根据PCBA功能、性能需求与产品规格书，制定全面的测试策略与详细的测试方案，涵盖测试类型、方法、流程及判定标准；
+2、针对不同测试需求，选择合适的测试设备与工具，如ICT、飞针、功能测试设备等，并规划设备配置与搭建方案；
+二、测试设备维护管理
+1、负责测试设备的日常维护、校准和保养，制定设备维护计划并严格执行；
+2、及时处理测试设备故障，进行故障诊断与修复，减少设备停机时间对生产的影响；
+三、测试文档管理
+1、编写和完善各类测试文档，包括产品测试作业指导书、设备操作手册等，确保文档内容规范、完整，并及时归档保存；
+2、根据项目和产品要求，对测试文档进行版本管理，跟踪文档变更历史，保证文档的一致性和可追溯性；
+四、测试执行和数据分析
+1、按照测试方案和程序，执行PCBA样品及批量测试，记录测试数据和结果，及时发现并反馈测试过程中的异常情况和缺陷问题；
+2、运用数据分析工具对测试数据进行统计，深入挖掘数据价值，找出潜在质量风险和问题根源，为产品质量改进提供数据支持；
+任职要求：
+1、本科或以上学历，电子信息工程、自动化等相关专业；
+2、5年以上PCBA测试工作经验，单板功能测试，电源测试和ICT测试工作经验，有测试程序开发经验者优先；
+3、熟悉PCBA测试技术，包括ICT、飞针、FCT、老化测试等，了解电子电路原理，数字电路、模拟电路等基础知识，能看懂原理图和PCB Layout图。具有一定的不良品诊断、分析和修复能力；
+4、具备严谨的逻辑思维和问题解决能力，善于分析和处理复杂问题，工作认真负责，有较强的责任心和质量意识，对新技术有强烈的学习兴趣和求知欲。",功能测试 版本管理 数据分析 FCT,https://jobs.51job.com/suzhou-gxq/173145668.html?s=sou_sou_soulb&t=0_0&req=5f2ef5a56a80068a6ea2fc7b2183c063
+测试工程师经理,大连美德乐工业自动化,1.5-3万,苏州·相城区,苏州,本科,3年及以上,2026-07-28 10:58:47,job51,"岗位职责：
+1、负责磁驱输送线全流程测试工作，包括测试方案设计、测试用例编写、测试执行、缺陷排查与跟踪，确保产品性能符合设计要求及行业标准；
+2、统筹指导组员完成驱动器、编码器的专项测试，包括性能测试、稳定性测试、精度测试等，分析测试结果并提出优化建议；
+3、搭建并优化磁驱输送线测试环境，制定系统的测试流程、测试规范及测试标准，规范测试过程，提升测试效率与测试质量；
+4、统筹组员整理测试数据、编写测试报告，反馈产品存在的问题，配合研发团队完成产品迭代优化；维护测试设备，确保测试工作正常开展。
+任职要求：
+1、学历：本科及以上学历，电气工程自动化、自动化、机电一体化等相关专业。
+2、工作经验：3年及以上相关测试工作经验，具备系统的测试流程、测试规范制定与执行经验。
+3、职业素养：具备严谨的逻辑思维、细致的工作态度，较强的问题分析与解决能力，良好的沟通协调能力和团队协作精神，能承受一定的工作压力。
+4、专业技能要求：具备较丰富的电机、驱动器及编码器测试经验，熟悉其工作原理、测试方法及常见故障排查。
+5、熟悉测试流程、测试规范的制定与落地，能独立完成测试方案设计、测试用例编写、测试执行及测试报告撰写。
+6、具备一定平台编程经验，能独立编写基本测试例程，完成运动控制相关测试程序的调试。
+7、优先考虑项：
+ 有磁驱输送线测试经验者优先。
+ 具备PLC软件开发、运动控制系统集成调试经验者优先。
+熟悉新能源、锂电、3C设备行业磁驱输送线相关测试需求者优先
+8、工作地点：江苏省苏州市相城区北桥街道徐家观路18号，服务于磁驱BU。",方案设计 测试用例 性能测试 产品迭代 故障排查,https://jobs.51job.com/suzhou-xcq/173063073.html?s=sou_sou_soulb&t=0_0&req=5f2ef5a56a80068a6ea2fc7b2183c063
+芯片测试工程师-ATE,中国汽车工程研究院,1.5-3万·15薪,苏州·虎丘区,苏州,本科,3年及以上,2026-07-24 16:29:43,job51,"岗位职责
+1.编写指定芯片testplan， 参与测试硬件例如loadboard，HTOL板等的设计，评审和调试。
+2.根据项目进度要求，完成芯片的FT测试软件开发和调试。
+3.负责与上下游相关方就技术方案和问题进行沟通，推动项目按进度完成。
+4.编写各类测试文档，及时输出和归档，测试程序版本管控。
+岗位要求
+1.大学统招本科及以上学历，微电子，电子工程，通信工程，自动化，电力电子等相关专业
+2.熟练使用各种调试仪表，定位和分析问题，有PCB设计经验。具有车规芯片ATE测试开发和调试成功经历。
+3. 有较强的模电，数电，射频基础知识，具有C/C++等编程能力，熟悉主流ATE测试平台，具有ATE测试开发至少3年工作经验。
+4.工作积极主动，能吃苦，有较强的沟通能力，分析和独立解决技术问题能力",C++ 技术方案,https://jobs.51job.com/suzhou-hq/173035350.html?s=sou_sou_soulb&t=0_0&req=5f2ef5a56a80068a6ea2fc7b2183c063
+芯片测试工程师,苏州明皜传感科技,2.5-3万·13薪,苏州·苏州工业园区,苏州,本科,8年及以上,2026-07-20 11:45:01,job51,"岗位职责：
+
+一、早期研发参与与 DFT 设计 (Early R&amp;D Involvement &amp; DFT)
+1.深度参与 MEMS 加速度计的早期研发阶段，与 IC 设计和 MEMS 工艺团队紧密配合，评估并制定产品的测试可行性方案（Test Feasibility Study）。
+2.负责定义产品的可测试性设计（DFT）与可制造性设计（DFM）需求，确保产品设计利于后续高效量产。
+二、测试方案与系统开发 (Test Strategy &amp; System Development - 从0到1)
+1.负责 MEMS 加速度计/力度喘感器等测试方案的架构设计，包括定制化测试算法开发、测试程序（Test Program）编写以及实验室/ ATE 测试系统的搭建。
+2.主导测试硬件的设计开发，负责测试负载板（Loadboard/ socket board）、探针卡（Probe card）及微机械激励/标定治具的方案开发与验证。
+三、产品验证与芯片特性分析 (Characterization &amp; Silicon Validation)
+1.负责新芯片的实验室特性验证（Characterization），全面评估温度、电压、频率及物理加速度等全维度的参数边界，主导撰写产品特性分析报告（Qual/Characterization Report）。
+2.支持研发团队进行系统级调试（Debug）与失效分析（FA），从测试数据角度提供关键物理/电学异常定位。
+四、量产准备与技术转移 (Production Transfer &amp; Yield Maturation)
+1.负责新产品测试方案（CP/FT）的标准化、工程验证及量产转移。
+2.制定早期的良率提升（Yield Ramp-up）技术路线，主导早期低良率
+五、技术资产管理与团队指导 (Mentorship &amp; Knowledge Management)
+1.负责测试规范、测试标准流程（SOP）等核心技术文档的建立与版本控制。
+2.指导和培训初级测试/产品工程师，提升团队整体技术攻坚能力。
+
+任职要求：
+1、本科及以上学历，理工科专业，8年以上半导体测试程序开发/测试设备工程师工作经验。
+2、熟练Labview编程环境。
+3、熟练使用C++语言。
+4、需熟练使用各种仪器仪表(PXI,電表,示波器..等)，熟悉各类数据库的操作，可独立完成自动化测试程序开发。
+5、具有良好的数电、模电和电子线路基础，掌握IC产品测试的相关知识，有传感器测试经历优先
+6、熟悉测试版的设计及制作，熟练使用PCB制作的相关软件。",C++ 产品设计 技术文档 培训 自动化测试 DFT Early Involvement,https://jobs.51job.com/suzhou-gyyq/172848536.html?s=sou_sou_soulb&t=0_0&req=5f2ef5a56a80068a6ea2fc7b2183c063
+测试工程师（伺服）(J12605),深圳市英威腾电气,1.2-2万·14薪,苏州·虎丘区,苏州,本科,3年及以上,2026-07-14 09:40:23,job51,"工作职责:
+1、 负责伺服全系列产品功能、控制性能测试；
+2、 测试技术、测试能力、测试方法的研究和策略制定；
+3、 根据测试业务需求及产品功能特点，负责测试平台、测试工装开发；
+4、 担任测试代表，组织测试活动，对最终测试质量负责；
+5、 参与市场问题分析与解决，提出预防措施。
+
+任职资格:
+1、 本科及以上学历，自动化、测控、电气、电子信息等相关专业；
+2、 3年以上伺服产品测试经验，有TSE经验者优先考虑；
+3、 至少掌握一种CANopen、EtherCAT，Profinet通讯测试；
+4、 对伺服控制性能测试有较深研究，对控制性能测试平台有经验者优先；
+5、 有工控行业解决方案工作经历优先考虑。",CAN 性能测试 EtherCAT,https://jobs.51job.com/suzhou-hq/172897202.html?s=sou_sou_soulb&t=0_0&req=5f2ef5a56a80068a6ea2fc7b2183c063
+量产ATE测试工程师(J10465),烟台睿创微纳技术,1-2万,苏州,苏州,本科,3年及以上,2026-07-06 15:12:19,job51,"工作职责:
+1、负责CP、FT量产测试的开发，包括测试规范/流程的制定，ATE测试程序的开发及调试，测试机台选型，供应商评估等；
+2、与 IC 设计团队配合完成芯片 CP/FT 测试程序开发、转换及调试； 
+3、负责完成芯片特性化分析的数据收集 ；
+4、负责芯片产品量产测试 NPI 导入、工厂调试和量产测试维护；负责整理和分析量产测试数据，并解决量产测试中的异常；
+5、在量产阶段，持续优化和改善 ATE 测试方案，提升测试质量、提高测试效率、降低测试成本； 
+6、负责与产品量产测试相关的低良率处理、失效分析、品质保证及良率改善等方面的工作。
+任职资格:
+1、电子、微电子相关专业本科及以上学历，3年以上相关工作经验； 
+2、熟悉ATE测试开发流程，具备混合信号ATE测试软硬件开发和量产导入经验者优先； 
+3、具备主流测试机程序开发和调试能力，熟练使用常用的测试仪器； 
+4、较强的学习能力、工作主动性，良好的独立工作能力、责任心强，良好的沟通能力及团队合作能力。",IC CP FT NPI ATE,https://jobs.51job.com/suzhou/172807671.html?s=sou_sou_soulb&t=0_0&req=5f2ef5a56a80068a6ea2fc7b2183c063
+FCT测试工程师-熟悉Linux系统,伟创力电脑（苏州）,1.4-2万·14薪,苏州·吴中区,苏州,本科,5年及以上,2026-07-21 10:28:57,job51,"Reporting to the [测试工程经理], the [ FCT测试工程师] role involves… 
+
+工作职责：
+•	参与产品测试需求分析，负责测试原理设计及软件测试流程的制定。
+•	负责软件及硬件开发的规划与实施，能够在开发过程中快速、高效地解决问题，并跟进问题分析及报告输出。
+•	负责整套测试方案的系统级验证。
+•	对测试数据进行统计分析，完成 CGK、G&amp;R、CMK 等相关分析报告。
+•	测试机台搭建和验证，制定测试维护文档。
+•	制定测试指导文件，培训测试人员。
+•	分析测试结果，提升测试良品率。
+•	制定测试备件策略，并维护。
+
+职位要求：
+•	5年及以上测试开发工作经验，搭建测试台、编写测试方案、执行功能/性能/可靠性/老化/EMC测试
+•	必须熟悉Linux 系统
+•	必须了解设备控制逻辑、PLC、运动控制、通讯协议（UART/I2C/SPI/Modbus/TCP-IP/GPIB) 
+•	能写自动化测试脚本、开发测试工具、做一些数据采集与分析
+•	熟悉常用设备的机械结构、运动控制、电气原理
+•	能搭建测试台、编写测试方案、执行功能/性能/可靠性/老化/EMC测试
+•	至少其中一门脚本/编程语言更佳：Python、C#、LabVIEW、TestStand
+•	英语读写熟练。",Linux UART I2C SPI Modbus Python C# 需求分析 培训 自动化测试 数据采集,https://jobs.51job.com/suzhou-wzq/172981104.html?s=sou_sou_soulb&t=0_0&req=5f2ef5a56a80068a6ea2fc7b2183c063
+EOLT测试工程师,立胜汽车科技（苏州）,1.3-2万,苏州·相城区,苏州,本科,5年及以上,2026-06-17 14:59:41,job51,"岗位职责：
+1. Create EOLT specification based on TRD, Plant general EOLT specification and other technicial documentations.
+2. Implement Technical feasibility study for CQR activities. Figure out robust and low cost EOLT solutions with support of suppliers.
+3. Support AME team to build and launch manufacturing process for awarded projects according to IATF16949/VDA6.3 system. 
+4. Estabilish BCS internal EOLT bench and generic test application system platform for future awarded project and globally coordinating.
+5. Maintain BCS internal EOLT bench and generic system for fiting BCS EOLT standardzation implementation and cost saving.
+6. Support and Guide external EOLT supplier to develop machine as BCS standardzation target. 
+7. Work with software expert to develop EOLT solfware platform and keep system updated as BCS expection.
+8. Other tasks assigned by supervisor or manager and support oversea projects.
+1. 根据TRD、工厂通用EOLT规范及其他技术文档，制定EOLT规范。
+2. 针对CQR活动开展技术可行性研究。在供应商支持下，制定稳健且低成本的EOLT解决方案。
+3. 协助AME团队根据IATF16949/VDA6.3体系，为获奖项目建立并启动制造流程。 
+4. 建立BCS内部EOLT基准及通用测试应用系统平台，以支持未来授予项目的全球协调需求。
+5. 保持BCS内部EOLT基准和通用系统，以适应BCS EOLT标准化实施和成本节约。
+6. 支持并指导外部EOLT供应商按照BCS标准化目标开发机器。 
+7. 与软件专家合作开发EOLT软件平台，并按照BCS要求持续更新系统。
+8. 部门主管或经理分配的其他任务及海外项目支持工作。
+
+任职要求：
+1) Bachelor degree in Electronics or Electrical or Computer Engineering and electrical integrity region.
+2) 5+ years relevant test engineering experience. With some automotive industry equipment maintenance experience is preferred.
+3) Good communication skills and team work spirit. Good English read and writing skills, oral English is also preferred.
+4) Capable to read or draw electrical drawing(EPLAN), Profecient in NI DAQmx, Visionpro, Vechicle bus(LIN, CAN, Flexray) and Keysight DMM.
+5) Advanced computer skills, including Visual C# and Basic, NI Labview/Teststand develop. Few embedded system knowlege is preferred.
+6) Experienced in Master-Slave stations' manufacturing line system(SCADA, SAMS or MES) is preferred. with Profi-bus, Profi-net and OPC
+7) Experienced in new test machine building, setup and verification. or with similar project experience. 
+1) 电子工程、电气工程或计算机工程学士学位，以及电气完整性领域。
+2) 具有5年以上相关测试工程经验。具备汽车工业设备维护经验者优先。
+3) 良好的沟通能力和团队协作精神。具备出色的英语读写能力，口语英语能力亦为佳。
+4) 能够阅读或绘制电气图纸（EPLAN），熟练掌握NI DAQmx、Visionpro、车载总线（LIN、CAN、Flexray）及Keysight数字多用表。
+5) 精通计算机技能，包括Visual C#和Basic语言、NI Labview/Teststand开发。熟悉嵌入式系统知识者优先。
+6) 有主从站生产线系统（SCADA、SAMS或MES）经验者优先，需熟悉Profi-bus、Profi-net及OPC
+7) 具备新型测试设备的构建、调试及验证经验，或拥有类似项目经验。",Electron Gin Go SPI CAN C# SAM C语言 技术文档,https://jobs.51job.com/suzhou-xcq/172257246.html?s=sou_sou_soulb&t=0_0&req=5f2ef5a56a80068a6ea2fc7b2183c063
+装备测试工程师,深圳市汇川技术,1.5-2.5万·15薪,苏州·吴中区,苏州,本科,3年及以上,2026-07-23 17:58:35,job51,"岗位职责：
+1、根据研发项目需求，主导耐压、烧录、测试等装备的系统方案设计，并完成方案设计、仪器设备选型、电气原理图设计、设备调试、验收等工作；
+2、有一定项目管理经验，可以根据产品项目进度需求，协调把握测试装备的开发进度；
+3、根据公司内外部项目的需求，整合同类设备，规划并设计高性能高稳定，智能化、自动化的装备平台，并持续优化改善；
+4、负责测试系统生产现场的升级优化、效率改善、自动化融合等技术支持；
+5、制定测试系统规范、经验案例、说明书等技术文档及培训；
+
+任职要求：
+1、本科及以上学历，机械电子、仪器仪表、测量与控制工程、电力电子、电气自动化等相关专业；
+2、拥有3年以上硬件开发测试或测试装备开发经验；
+3、掌握测试系统专业知识；熟悉变频器、伺服、电机对托、机器人等测试系统。熟悉变频器、PLC、伺服、机器人等工业控制相关产品的应用；有变频器、伺服、机器人等驱控类测试系统开发经验者优先；
+4、扎实的模拟、数字电路基础，熟悉各种测量仪器仪表的使用；熟练使用Eplan者优先；
+5、精通测试系统的设计架构、仪器选型等，使用NI搭建过测试系统者优先；
+6、熟悉CAN，RS485，RS232，MODBUS，TCP/IP 等通讯协议。有labview、C语言基础者优先；",CAN Modbus TCP/IP C语言 方案设计 项目管理 技术支持 技术文档 培训,https://jobs.51job.com/suzhou-wzq/173023851.html?s=sou_sou_soulb&t=0_0&req=5f2ef5a56a80068a6ea2fc7b2183c063
+测试工程师,邦纳电子（苏州）,1-1.5万·13薪,苏州,苏州,大专,3年及以上,2026-07-23 17:04:14,job51,"职责描述：
+负责产线产品测试，优化测试，缺陷分析处理及测试系统开发。
+
+
+主要职责：
+1.解决产线不良品测试分析及处理
+2.维护产线测试设备，程序及校准工作
+3.协助美国总部完成ECO，E-Building等相关工作
+4.测试夹具及系统的设计制作（含测试软件，文件等制作）
+5.培训产线测试人员
+6.服从公司其它安排
+
+基本要求：
+1.3年及以上工作经验，本科及以上学历，背景优秀者可放宽至专科；
+2.电子类相关专业优先考虑；
+3.具备独立开发测试软件工具的能力，熟练使用C或者LabView，及TestStand者优先考虑",培训 E-,https://jobs.51job.com/suzhou/169152011.html?s=sou_sou_soulb&t=0_0&req=5f2ef5a56a80068a6ea2fc7b2183c063
+芯片测试工程师,矽力杰半导体技术（杭州）,1.5-3万·14薪,苏州·苏州工业园区,苏州,本科,3年及以上,2026-06-24 18:11:06,job51,"主要职责
+1、与设计工程师合作，完成IC测试程序的开发及产品的失效分析工作； 
+2、配合产品应用工程师，完成测试程序的优化工作；
+3、配合测试代工厂，完成产品的测试加工工作； 
+4、熟悉IC产品的QA架构，完成产品的QA工作。
+主要要求
+1、本科及以上，电气工程，电力电子，微电子，自动化，计算机
+2. 半导体IC测试行业3年以上经验, 了解电源管理相关器件的工作原理，有充电/BMS相关产品调试经验优先。
+3. 熟练掌握ACCO 8200/8300, ETS88/364等主流测试机台，能独立开发测试板/测试程序。
+4. 至少熟练掌握一种主流PCB Layout软件的
+5. 熟练掌握C/C++编程.",C++ ETS88,https://jobs.51job.com/suzhou-gyyq/172677895.html?s=sou_sou_soulb&t=0_0&req=5f2ef5a56a80068a6ea2fc7b2183c063
+测试专家(J10038),苏州华启智能科技,2-2.5万·14薪,苏州·高新区,苏州,本科,10年及以上,2026-06-15 15:08:30,job51,"工作职责:
+1.	负责轨道交通车载PIS设备单设备深度测试，包含硬件接口、通信接口、模拟音频、GPIO、干接点、带灯按键等底层验证。
+2.	负责PIS系统级全流程测试，完成功能、性能、稳定性、兼容性、复杂场景与极限场景测试。
+3.	承担项目疑难问题攻坚、故障复现、根因分析，支撑现场联调、首列车验证与运营保障，推动问题闭环。
+4.	参与测试规范、用例模板、缺陷标准、测试流程建设，输出高质量测试文档与技术沉淀。
+5.	支撑自动化测试、自动化工具开发、AI测试提效等专项工作，配合完成技术落地。
+6.	为团队提供技术赋能与经验分享，提升整体测试能力与质量意识。
+7.	适应短期出差，支持现场调试、客户联调与问题处理。
+任职资格:
+1.	本科及以上学历，计算机、电子信息、自动化、通信、软件工程等相关专业。
+2.	10年及以上轨道交通、车载、嵌入式、工业控制领域测试经验。
+3.	掌握Python/Shell脚本、有自动化测试或工具开发经验者优先。
+4.	能接受短期出差，认同轨道交通行业质量要求。
+5. 精通硬件接口与底层验证：上电、复位、电源、时序、板级功能测试。
+6	精通通信接口测试：CAN总线、RS485/RS232/UART串口、100M/1000M以太网验证。
+7	精通模拟音频测试：差分音频输入输出、MIC、Speaker、功放电路、噪声/失真/啸叫测试。
+8	精通外设控制测试：GPIO逻辑、干接点输入输出、带灯按键灯光与响应测试。
+9	能独立设计复杂场景、异常场景、边界场景用例，具备高可靠系统测试经验。
+10	熟练使用示波器、音频分析仪、CANoe/CANalyzer、Wireshark 及串口调试工具等，完成设备测试与问题定位分析。
+11	熟悉车载网络、车地通信、PIS业务逻辑，可独立完成系统联调测试。",Python Shell CAN UART 自动化测试 功能测试,https://jobs.51job.com/suzhou-gxq/172559360.html?s=sou_sou_soulb&t=0_0&req=5f2ef5a56a80068a6ea2fc7b2183c063
+模块测试(A251999),苏州旭创科技,1.3-2.5万·14薪,苏州·苏州工业园区,苏州,本科,3年及以上,2026-07-13 16:26:56,job51,"职位描述：
+岗位职责
+1.负责光模块产品新单元电路调试与验证，光模块整机新产品的开发验证性能测试，包含光电特性、兼容性、传输特性测试等；（涉及芯片如：DSP / TIA / Driver / Laser等）；
+2.可以独立承担新项目的原型机优化及调试、满足客户定制应用场景需求;有200G/400G/800G光模块优化、调试经验者优先；
+3.负责产品测试方案、测试架构设计、新测试仪表的评估验证及导入；
+4.负责编写测试报告、测试用例等技术资料和文档编制以及培训资料的归档；
+5.研发原型及小批量试产数据分析测试，模块端性能问题提供改进建议，并推动项目组、产品组持续优化，提升产品一次良率、提高模光模块测试效率，输出更好的适合未来量产的测试方案；
+6.主导与系统厂商、DSP厂商协同同步定位模块端应用及交互问题、及解决方案落地。后续测试方案的制定和优化，参与测试标准及流程制定； 
+7.及时跟进研发样品阶段客户端系统应用交互问题。
+
+职位要求：
+任职要求
+1.本科或以上学历，电子、光学、测控技术、通信相关专业;
+2.CET4级及以上，具备较强的英文听、说、读、写能力；
+3.对高速光模块的原理有深刻的理解；
+4.能够独立分析测试数据，准确诊断性能问题，并提供有效的解决方案；
+5.熟悉光模块MSA规范及CMIS协议；
+6.具有较强的沟通能力和团队合作精神，具备较强的任务理解力和执行力，责任心强；
+7.有海外工厂技术支持或工作经验者优先
+8.有3年的光模块，交换机，服务器研发工作经验优先",DSP 性能测试 测试用例 培训 数据分析 技术支持,https://jobs.51job.com/suzhou-gyyq/172891500.html?s=sou_sou_soulb&t=0_0&req=d0fd25d3ef41afea8db73de434416955
+芯片测试工程师(J10521),苏州苏纳光电,1.8-2.8万·16薪,苏州·苏州工业园区,苏州,本科,3年及以上,2026-07-09 10:50:06,job51,"工作职责:
+1）	根据测试规范编写测试程序并进行工程验证、调试，完成相关测试报告的编写与归档；
+2）	配合芯片设计工程师实施芯片的可测性设计；
+3）	根据测试需求完成竞品测试，与研发人员共同制定全面可行的测试计划与方案；
+4）	支撑公司芯片测试单板硬件方案设计，物料选型原理图与PCB版图设计以及调试工作。
+
+任职资格:
+1)	学历：本科及以上，微电子、机电、光电、自动化等相关专业
+2)	年龄：无
+3)	经验：3年以上芯片测试相关工作经验
+4)	具备模拟电路/数字电路理论基础，具有FPGA和单板硬件设计经验者优先
+5)	熟练使用示波器、频率计、相噪仪等仪器，具有丰富的仪器测试自动化开发经验。熟练掌握仪器自动化编程语言，具备一定的Python/C/C#/Matlab脚本编程技能;
+6)	综合能力：优秀的团队合作、跨部门沟通和解决问题的能力；较强的项目管理和时间管理能力，确保各项任务按时完成",FPGA Python C# MATLAB 测试计划 方案设计 项目管理,https://jobs.51job.com/suzhou-gyyq/172849997.html?s=sou_sou_soulb&t=0_0&req=d0fd25d3ef41afea8db73de434416955
+测试工程师（MEMS）,苏州明皜传感科技,2.5-3万·13薪,苏州·苏州工业园区,苏州,本科,8年及以上,2026-07-02 15:01:58,job51,"岗位职责：
+
+一、早期研发参与与 DFT 设计 (Early R&amp;D Involvement &amp; DFT)
+1.深度参与 MEMS 加速度计的早期研发阶段，与 IC 设计和 MEMS 工艺团队紧密配合，评估并制定产品的测试可行性方案（Test Feasibility Study）。
+2.负责定义产品的可测试性设计（DFT）与可制造性设计（DFM）需求，确保产品设计利于后续高效量产。
+二、测试方案与系统开发 (Test Strategy &amp; System Development - 从0到1)
+1.负责 MEMS 加速度计/力度喘感器等测试方案的架构设计，包括定制化测试算法开发、测试程序（Test Program）编写以及实验室/ ATE 测试系统的搭建。
+2.主导测试硬件的设计开发，负责测试负载板（Loadboard/ socket board）、探针卡（Probe card）及微机械激励/标定治具的方案开发与验证。
+三、产品验证与芯片特性分析 (Characterization &amp; Silicon Validation)
+1.负责新芯片的实验室特性验证（Characterization），全面评估温度、电压、频率及物理加速度等全维度的参数边界，主导撰写产品特性分析报告（Qual/Characterization Report）。
+2.支持研发团队进行系统级调试（Debug）与失效分析（FA），从测试数据角度提供关键物理/电学异常定位。
+四、量产准备与技术转移 (Production Transfer &amp; Yield Maturation)
+1.负责新产品测试方案（CP/FT）的标准化、工程验证及量产转移。
+2.制定早期的良率提升（Yield Ramp-up）技术路线，主导早期低良率
+五、技术资产管理与团队指导 (Mentorship &amp; Knowledge Management)
+1.负责测试规范、测试标准流程（SOP）等核心技术文档的建立与版本控制。
+2.指导和培训初级测试/产品工程师，提升团队整体技术攻坚能力。
+
+任职要求：
+1、本科及以上学历，理工科专业，8年以上半导体测试程序开发/测试设备工程师工作经验。
+2、熟练Labview编程环境。
+3、熟练使用C++语言。
+4、需熟练使用各种仪器仪表(PXI,電表,示波器..等)，熟悉各类数据库的操作，可独立完成自动化测试程序开发。
+5、具有良好的数电、模电和电子线路基础，掌握IC产品测试的相关知识，有传感器测试经历优先
+6、熟悉测试版的设计及制作，熟练使用PCB制作的相关软件。",C++ 产品设计 技术文档 培训 自动化测试 DFT Early Involvement,https://jobs.51job.com/suzhou-gyyq/159356903.html?s=sou_sou_soulb&t=0_0&req=d0fd25d3ef41afea8db73de434416955
+老化测试工程师,苏州旭创科技,1.5-2.2万·15薪,苏州·苏州工业园区,苏州,本科,3年及以上,2026-07-06 11:19:21,job51,"岗位职责：
+1、新产品可量产性评估，包括产品规划、工程设计、工艺开发、生产制造、质量控制和产能提升等
+2、新产品试产跟进，针对问题分析推动改善落实，包括和设计、可制造性、材料、工艺参数等，保证产品按期保质转产；
+3、新产品试产阶段，评估产品的制造工艺、成本效益、质量和技术要求等；
+4、激光器老化有效性验证，相关可靠性及DOE数据完善，新工艺承接优化；
+5、出差国外与国内其他工厂，频率每年1~2次，每次2月；
+
+任职资格：
+1、微电子、材料、电子工程、通信工程、光电子学相关专业本科及以上学历
+2、具有全面的可靠性理论基础，熟悉半导体器件失效模式和分析方法，半导体激光器、光模块行业2年以上的可靠性测试工作经验
+3、具备芯片、COC老化测试方案制定能力，且具备相关经验3年以上
+4、具有较强的实验设计(DOE)能力和较强的人际沟通能力
+5、具备芯片封装测试经验，且具备光学独立设计、失效分析能力
+6、英语4级及以上，能客户进行口语交流；能泰语表达及读写者优先
+7、熟练掌握数据分析方法，对数据有一定分析整合能力
+8、熟练使用labview编程语言者优先
+9、人品端正，责任心强，沟通、学习能力强，思维敏捷，有一定抗压能力",产品规划 数据分析 DOE,https://jobs.51job.com/suzhou-gyyq/170678748.html?s=sou_sou_soulb&t=0_0&req=d0fd25d3ef41afea8db73de434416955
+ate测试工程师,苏州佐言企业管理咨询,2-4万·13薪,苏州,苏州,硕士,3年及以上,2026-07-21 10:45:46,job51,"具备电路，模数电，信号处理等硬件设计知识，具备SI/PI信号完整性分析经验;具有电子通信/通信/微电子/自动化等专业硕士及以上学历，具有3年以上的IC测试硬件开发建立系纷或者同领域的行业经验;.用AutoC具有原理图和PCB设计经验，原理图审查，PCB布局审查，元器件选型有一定了解;有ATE probe card/load board 设计经验，有高同测数/高速probe card设计经验优先:支持生具体要求监管外至少熟悉一种ATE测试平台硬件框架和通道特性，熟悉Advantest、Teradyne测试平台者优
+·工作职责
+有FPGA软硬件设计开发经验者优先:严谨细心，具有良好的逻辑思维和沟通能力。
+根据客户需求，设计probe card板级电路和方案;2.高同测数probe card设计评估，高速probe card电路设计评估;3.Probecard高同测方案原型设计，原理图设计，验证方案设计，回板测试并优化;4.根据电路设计将信号的逻辑控制程序化，与客户测试工程师协同调通信号共享测试程序，满足channel share 测试方案，实现量产测试需求。",FPGA 原型设计 方案设计,https://jobs.51job.com/suzhou/172981670.html?s=sou_sou_soulb&t=0_0&req=d0fd25d3ef41afea8db73de434416955
+测试工程师（TE）,深圳市汇川技术,1.5-2.5万·15薪,苏州·吴中区,苏州,本科,7年及以上,2026-07-22 11:17:35,job51,"岗位职责：
+1、技术支持：快速解决各种测试问题并提供现场技术支持，完善对接区域测试质量拦截能力建设，快速解决自动测试过程风险及瓶颈问题，提升直通率
+2、测试模式：基于多元化测试场景需求，优化测试方案，优化业务运作流程机制，规划产品测试业务模式，并推广先进测试模式应用（如设计与规划多机型小批量自动化测试兼容解决方案）
+3、降本增效：主导精益测试优化，承接自动化测试设备导入（含方案规划、设备选型、安装调试与验收），支撑少人化目标达成
+4、数字化：主导承接区域数字化任务（推动测试过程数据自主分析与数字化预警等），并全程实施与赋能团队小组；
+
+任职要求：
+ 1、了解产品测试流程和测试理论方法、熟练使用各类测试仪器仪表、具备一定的测试项目开发试验证导入能力 
+3、承担测试技术攻关、测试技术引进，推广精益测试，能解决生产测试复杂技术难题
+4、熟悉VB/PLC/Labview/HMI/视觉/机械手等应用场景案例，有自主改进创新使用者优选 
+4、具备较强的沟通协调能力、数据分析能力、具备一定的技术创新能力 
+5、有新能源电机或电梯/变频器/伺服驱动器等工控类产品测试相关经验优先",技术支持 自动化测试 数据分析 PLC Labview HMI,https://jobs.51job.com/suzhou-wzq/172999468.html?s=sou_sou_soulb&t=0_0&req=d0fd25d3ef41afea8db73de434416955
+系统测试工程师,苏州中析生物信息,8千-1.5万,苏州·吴中区,苏州,本科,3年及以上,2026-07-16 15:01:35,job51,"岗位职责:
+1、负责公司设备系统(集成软件、硬件及供电系统)的功能、性能、可靠性、安全性等全流程测试，确保产品质量符合标准。
+2、设计测试方案与用例，覆盖上位机系统交互、硬件接口、电源性能及异常工况模拟。
+3、跟踪测试缺陷，定位问题根本原因(硬件/软件/算法)，输出测试报告、缺陷分析及优化建议。
+4、编写用户手册、技术文档，支持客户问题复现与解决。
+
+任职要求:
+1、全日制本科及以上学历，机械、机电一体化、电气工程、自动化、计算机等相关工科专业背景;
+2、3年以上工业设备/自动化系统测试经验;
+3、熟悉测试理论与方法(功能/性能可靠性测试)，具备电路基础，能使用万用表、示波器等工具;
+4、逻辑清晰，能结构化分析复杂问题，严谨细致，具备高度责任心;
+5、沟通能力强，可协同硬件、软件、算法团队推动问题解决。
+6、接受短期出差。",技术文档,https://jobs.51job.com/suzhou-wzq/172274716.html?s=sou_sou_soulb&t=0_0&req=d0fd25d3ef41afea8db73de434416955
+测试工程师（产品测试）(J10051),江苏阿诗特能源科技,1-2万,苏州·相城区,苏州,大专,3年及以上,2026-06-30 12:50:16,job51,"工作职责:
+负责电网储能和工商业储能产品的相关测试工作及相关测试软件工具的开发工作。
+1.公司相关产品的测试及测试软件工具开发工作：
+2.测试设备的评估、维护与保养：
+3.测试流程优化也改进：
+4.测试设备异常及不良品处理：
+5.客诉不良原因分析，提供优化方案
+任职资格:
+1.大专及以上学历，电子电气、电化学、机电工程、自动化等理工科相关专业；
+2.3年以上产品测试工作或测试开发经验，了解相关产品测试及开发标准等；
+3.熟悉各类仪器、仪表及设备的性能参数并能熟练操作，熟悉串口、CAN/LIN等通讯，有NI、安捷伦、周立功、测试仪器仪表开发使用经验，能使用C++、Labview、Pythan等软件开发测试程序及数据处理等；
+4.有较强的动手能力，能熟练使用办公软件，并有很好的沟通协调能力和团队协作精神；
+5.具有一定的英语听说读写能力。",CAN C++ 流程优化 Labview,https://jobs.51job.com/suzhou-xcq/153727368.html?s=sou_sou_soulb&t=0_0&req=d0fd25d3ef41afea8db73de434416955
+测试工程师,苏州原位芯片科技,8千-1.3万·14薪,苏州·苏州工业园区,苏州,本科,2年及以上,2026-07-31 11:07:32,job51,"岗位职责：
+1.	能够应用测试软件对研发/生产传感器进行测试，熟悉测试流程和操作规范；
+2.	能够开展评估测试需要的工装治具等，并使用minitab/excel软件对测试数据源进行初步数据分析；
+3.	能够和测试员充分配合，合理分配测试需求单或上级安排的任务，保证测试的及时性；具备责任心，对测试过程和报告数据的准确性负责；
+4.	定期对测试标准，SOP做更新并培训测试员，提高测试规范性和准确性；
+5.	定期归档测试报告数据及测试技术资料；
+6.	不定期优化生产测试操作方案，提升测试效率；
+7.	有良好的沟通协调，团队合作能力，学习能力强，良好的管理能力。
+任职资格：
+1. 2年以上测试工作经验；有MEMS传感器类测试、设备开发经验者优先；
+3. 熟悉传感器、芯片相关测试流程、测试方法及测试仪器、设备者优先；
+4. 熟练掌握各种常用测试测量仪表使用，如信号源、示波器、万用表等；能够开展评估测试需要的工装治具等；
+5. 有独立分析测试数据及问题处理的能力；
+6. 有良好的沟通协调，团队合作能力，学习能力强，良好的管理能力。",数据分析 培训,https://jobs.51job.com/suzhou-gyyq/164606711.html?s=sou_sou_soulb&t=0_0&req=d0fd25d3ef41afea8db73de434416955
+测试工程师 （C#汽车零部件）(J10206),儒拉玛特自动化技术（苏州）,1.3-2万,苏州·苏州工业园区,苏州,本科,5年及以上,2026-07-01 13:43:39,job51,"工作职责:
+1. 测试平台架构设计：负责汽车电子（三电、智能驾驶、座舱）自动化测试软件的架构设计与核心框架开发。主导基于插件化架构的软件平台搭建，实现测试设备（NI/Keysight/Chroma）、通信协议（CAN/LIN/Ethernet）、测试用例（序列/脚本）的动态加载与管理。
+2. 复杂UI与数据可视化：利用 Syncfusion 等高端UI控件库，开发高性能的数据监控面板、多通道波形图表（实时FFT/频谱）、可自定义布局的仪表盘以及支持百万级数据量无卡顿的数据网格（DataGrid）。
+3. 总线与仪器通信：集成 CAN/CAN FD/LIN/Ethernet 总线通信（PCAN/Kvaser/Vector），实现 UDS 诊断及 XCP/CCP 标定功能。开发程控仪器（电源/负载/示波器）的SCPI控制模块。
+4. 测试序列与报告：设计支持插件动态加载的测试序列引擎，允许用户或二次开发者通过编写独立插件DLL的方式扩展新的测试项目。自动生成包含高精度波形截图、数据统计（CPK）的测试报告。
+任职资格:
+1. 学历和经验要求
+• 学历专业：统招本科及以上学历，计算机、测控、自动化、汽车电子等相关专业。
+• 经验要求：5年以上C#/.NET开发经验，3年以上测试测量或汽车电子行业经验。
+2. 技术背景要求
+• C# 与 .NET：精通 C#，深入理解 .NET Framework 或 .NET Core/6/8，熟悉 依赖注入（DI）、异步编程（Task/Async）、内存管理。
+• 总线与仪器：精通 CAN/LIN 总线开发（NI/PCANBasic/Kvaser/Vector），熟悉 SCPI 与 VISA 仪器控制。
+• 多线程与实时性：能处理高频数据流（&gt;10kHz）的采集、解析、存储与界面实时刷新。
+3. 核心加分项
+• Syncfusion 控件库：具备 Syncfusion WinForms/WPF 控件套包的深度使用经验。能够熟练使用其 SfChart（实现复杂曲线、极坐标图、频谱图）、SfDataGrid（处理大数据量绑定、分组、导出）、SfDocking（实现类似VS的浮动窗口布局）等组件。熟悉其主题定制与性能优化技巧。
+• 插件架构：具备实际落地的插件化框架开发经验。熟练掌握以下至少一种技术方案：
+• MEF（Managed Extensibility Framework，.NET原生）
+• Prism 框架的模块化（Module）开发
+• MAF（System.AddIn）
+• 自定义反射加载：通过接口契约（Interface Contract）、配置文件或依赖注入容器实现DLL的动态发现、隔离加载与卸载。
+• 能够设计出**主程序（宿主）与插件（业务功能、设备驱动、通信协议）**之间清晰、稳定的交互接口。
+4. 其他加分项
+• 熟悉 NI TestStand LabVIEW 并有与其进行二次集成经验。
+• 熟悉 Python，能编写用于数据处理或设备仿真的辅助脚本。
+• 熟悉 MVVM 模式及 Prism 框架（结合插件化使用）。
+5. 综合素质
+• 具备架构思维，不局限于完成功能，能思考代码的复用性、扩展性和长期维护成本。
+• 有良好的技术文档撰写习惯，能输出清晰的插件接口规范。",CAN C# Python 自动化测试 测试用例 技术方案 技术文档,https://jobs.51job.com/suzhou-gyyq/171559149.html?s=sou_sou_soulb&t=0_0&req=d0fd25d3ef41afea8db73de434416955
+产线测试系统工程师,辅易航智能科技（苏州）,1-2万,苏州·高新区,苏州,大专,5年及以上,2026-06-17 17:29:44,job51,"岗位职责：
+主要负责管理厂内所有生产测试设备设施相关工作，保障测试设备设施的正常运转，能够有效地控制成本、提高生产效率和产品质量，保证员工工作环境和防护安全。
+1、需求分析与方案制定：深入理解汽车电子产品（如域控制器、仪表等）的测试需求，参与制定测试方案，编写测试用例。
+2、测试程序开发：运用&nbsp;C++/LabVIEW&nbsp;等语言，开发、调试及优化EOL（下线检测）上位机程序及自动化测试脚本。
+3、工装夹具设计：根据产品物理接口与测试需求，设计并出具测试工装、夹具的3D/2D图纸，跟进其加工与验收。需掌握基本CAD技能。
+4、测试台架搭建：集成硬件（设备、板卡、传感器）、软件（测试程序）与机械部分（夹具），搭建完整的生产测试台架或工程测试平台。
+5、总线诊断测试：利用&nbsp;CANoe/CANalyzer&nbsp;等工具，进行车辆CAN/LIN等总线通讯、诊断及刷写功能的测试验证。
+6、生产现场支持：作为生产线测试的首要技术责任人，及时响应并解决生产过程中出现的各类测试误判、程序异常、设备故障等问题，保障生产顺利进行。
+7、根本原因分析：运用逻辑分析与测试工具，对重复性或重大测试问题进行根本原因分析（RCA），推动研发、制造等部门实施长期纠正措施。
+8、提交测试线的报价与采购一起,参与招标流程，支持投产经理或者项目经理以确保装配/测试线的预验收，调试及终验收按时完成，将合格的生产线移交给生产团队。
+9、具备问题解析、协同团队成员解决问题的能力。
+
+任职要求：
+1、专科及以上学历，5年以上汽车电子或相关行业自动化测试设备开发、管理、维护经验，自动化、测控、机电一体化、车辆工程、计算机等相关专业；
+2、精通 C++ 或 LabVIEW 编程（至少一种）。
+3、熟练使用 CANoe/CANalyzer 等汽车总线工具。
+4、掌握 Auto CAD 等制图软件，能看懂机械图纸，具备简单夹具设计能力。
+5、熟悉Office办公软件，具备良好的技术文档编写能力。可以操作简单的CAD画图软件。
+6、掌握分析、处理、解决生产过程中软件测试相关疑难问题的技能。
+7、持有高/低压电工证（优先），具备ESD管理经验。
+8、具有独立思考能力和判断能力,动手能力强，肯吃苦耐劳。良好的沟通协调能力和团队合作能力。",C++ CAN 需求分析 测试用例 自动化测试 采购 技术文档,https://jobs.51job.com/suzhou-gxq/170884648.html?s=sou_sou_soulb&t=0_0&req=d0fd25d3ef41afea8db73de434416955
+光模块软件测试工程师,前锦网络信息技术（上海）,24-48万/年,昆山,苏州,本科,3年及以上,2026-07-02 16:40:13,job51,"光模块软件测试工程师2名，＞3年经验和＞5年经验
+硬性要求：高速光模块相关经验
+ 
+岗位职责：
+1、根据产品需求，制定并执行光模块上位机软件、测试软件及嵌入式软件的测试方案
+2、编写测试用例、测试脚本，并完成功能、性能、兼容性及稳定性测试
+3、负责测试过程记录、缺陷提交与追踪，推动问题闭环
+4、熟悉 400G / 800G 光模块 技术方案、接口参数、安规及规格要求
+5、编写及维护软件测试相关文档（测试计划、测试报告、用例说明书等）
+6、在产品开发与试产阶段，配合软硬件团队进行联合调试与问题分析
+7、持续关注光模块行业新技术、新标准，优化测试方法与流程
+8、具备较强的学习与钻研能力，能够主动掌握新技术并应用于测试改进
+9、能在团队协作及导师指导下独立完成测试任务，并持续优化工作效率
+10、具有良好的逻辑思维与问题分析能力，能快速定位软件缺陷根因
+11、具备良好沟通能力与团队合作精神
+12、完成上级交办的其他测试或跨部门协作任务
+
+任职资格：
+1、本科及以上学历，通信、电子、计算机、自动化等相关专业优先
+2、三年及以上高速光模块或相关通信设备软件开发 / 测试经验
+3、熟悉光模块测试流程与相关行业标准
+4、具备良好的语言表达及跨部门沟通能力
+5、工作认真负责，积极主动，具备较强抗压能力与学习意愿",测试用例 技术方案 测试计划 跨部门协作,https://jobs.51job.com/kunshan/170640460.html?s=sou_sou_soulb&t=0_0&req=d0fd25d3ef41afea8db73de434416955
+电气测试工程师,儒拉玛特自动化技术（苏州）,8千-1.5万·15薪,苏州·苏州工业园区,苏州,本科,2年及以上,2026-08-05 14:37:00,job51,"主要职责描述及所占权重:
+1. 设计机器人整机/模块的测试流程；
+2. 开发设计机器人功能、性能、可靠性等测试程序；
+3. 负责机器人在垂直场景下的二次开发工作；
+4. 对部分潜在项目进行方案设计；
+5. 完成对于相关的运行的项目进度要求和质量要求，在预算范围内按时完成相关工作；
+6. 负责项目后期的跟踪能够发现项目运行中存在的问题并积极主动的寻找解决方案来解决问题，要主动与相关高级、资深工程师沟通得到技术支持。
+7. 配合部门内部完成相关标准化流程工作，内部培训等。
+8. 遵守部门的相关规定，遵守 VDA 设计流程,确保设计流程, 积极主动的完成上级安排的其他任务。
+任职资格:
+1. 本科及以上学历，自动化、测控、计算机等相关专业。
+2. 两年以上机器人/自动化设备测试经验，熟悉传感器(激光/视觉/MU 等)、伺服系统、
+通信总线(EtherCAT/CAN)、NI 测试板卡。
+3. 熟练使用示波器、万用表、激光跟踪仪等工具。
+4. 熟练高级语言的编程(LabVIEW /Python /C++等)，可独立开发自动化测试程序。
+5. 良好的沟通能力、人际协调能力及团队协作能力。
+加分项:
+1. 了解 ROS2 系统。
+2. 了解机器人手眼标定、视觉、导航、运控等系统。
+3. 了解 VLA 模型。",CAN Python C++ ROS 方案设计 技术支持 培训 自动化测试,https://jobs.51job.com/suzhou-gyyq/172890294.html?s=sou_sou_soulb&t=0_0&req=d0fd25d3ef41afea8db73de434416955
+软件测试工程师,苏州伟创电气科技,1-2万·14薪,苏州·吴中区,苏州,本科,2年及以上,2026-07-29 20:51:56,job51,"工作职责：
+1、负责变频器、伺服等产品软件功能逻辑、性能测试、通讯测试、芯片引脚测试等；
+2、对测试问题进行分析和总结，提炼典型的测试问题，编写成测试经验案例；
+3、根据不同产品的测试需求，编写产品测试方案，并不断优化升级；
+4、熟悉行业相关标准，并参与测试规范及判定标准优化升级；
+
+任职要求：
+1、电气，电子，自动化控制相关专业，本科以上学历； 
+2、掌握变频器、伺服相关知识，熟悉电机控制、故障保护基本原理，掌握Modbus等基本通讯协议。
+3、从事变频器、伺服驱动器、UPS电源或相关行业2年以上测试或开发经验；
+4、工作主动积极，责任心强，能有效的与他人沟通并有较强的学习能力；",Modbus 性能测试,https://jobs.51job.com/suzhou-wzq/172910313.html?s=sou_sou_soulb&t=0_0&req=d0fd25d3ef41afea8db73de434416955
+功能安全工程师（芯片测试）,中国汽车工程研究院,2-3.5万·14薪,苏州·虎丘区,苏州,本科,5年及以上,2026-07-28 18:45:12,job51,"岗位职责
+1. 基于功能安全标准（如ISO 26262或GB/T 34590），分析和定义芯片的安全需求。
+2. 识别芯片可能的故障模式，并分析它们对系统安全的影响。
+3. 验证芯片设计是否满足安全需求，包括硬件和软件的验证。
+4. 设计故障注入测试，通过模拟故障条件来测试芯片的反应，确保它能够正确地检测和响应故障。
+5. 根据项目需求，完成测试试验，并编写报告。
+岗位要求
+1. 本科及以上学历，微电子、电子信息、单片机、嵌入式开发或相关专业，具备扎实的专业知识。
+2. 具有较好的电子电路基础和数学基础，具有一定的数学建模和数据分析能力。
+3. 具有快速学习的能力，高效的文献搜集能力和方案设计能力。
+4. .熟悉ISO 26262和GB/T 34590.7-2022标准，以及SEooC开发的安全目标或者安全需求定义的ASIL等级要求。
+5.熟悉并了解汽车上所用的芯片种类及常用的MCU芯片型号。
+6. 了解车规级MCU种类及工作原理，掌握一些故障输入软件系统，如Verdi，VectorCAST；AUTOSAR OS；IAR Embedded Workbench；ChipGenius等芯片仿真及故障输入软件。
+7. 可以区分清故障种类（FMEDA），算出故障率，并对硬件指标计算的相关步骤进行解释。
+8.有ATE设备操作经验者优先。",单片机 MCU 数据分析 方案设计 VectorCAST AUTOSAR OS IAR,https://jobs.51job.com/suzhou-hq/173073546.html?s=sou_sou_soulb&t=0_0&req=d0fd25d3ef41afea8db73de434416955
+BSI应用测试工程师,江苏特创科技,1-1.8万·13薪,苏州·相城区,苏州,本科,3年及以上,2026-07-13 10:27:33,job51,"岗位职责：
+1、测试计划制定：依据产品的需求规格说明书和项目计划，制定详细的测试计划；主要测试对象为：服务器主板（CPU）、连接器（DIMM）等
+2、测试用例设计：根据产品的功能、性能、安全性等要求，设计全面、有效的测试用例；
+3、执行测试：按照测试计划和测试用例，对应用程序进行实际测试；
+4、缺陷管理：对发现的缺陷进行详细记录，包括缺陷的描述、重现步骤、严重程度和优先级等信息；
+5、测试报告撰写：在测试工作完成后，撰写详细的测试报告。
+
+任职资格：
+1、专业知识：了解边界扫描原理、能看懂电路图；
+2、测试工具使用：熟练掌握各种测试工具，如功能测试工具（Selenium、Appium等）、Boundary Scan测试工具（Keysight X1149、Asset Scanworks、XJTAG、Goepel等），提高测试工作的效率和准确性；
+3、能对新项目进行报价分析，提供完整测试方案；针对项目提供Coverage report；
+4、从事过Boundary Scan测试开发与调试者优先考虑。",CAN Go RAG 测试计划 测试用例 缺陷管理 功能测试,https://jobs.51job.com/suzhou-xcq/172882643.html?s=sou_sou_soulb&t=0_0&req=d0fd25d3ef41afea8db73de434416955
+测试开发,昆山利斯特自动化科技,1.5-2.5万·13薪,昆山,昆山,大专,3年,2026-06-26 11:23:28,job51,"负责产品测试开发，熟练使用各类测试软件开发工具，如LabView，TestStand，Python，C，C#等。
+熟悉各类常见仪器仪表，对电子电路有一定了解。
+
+有过测试开发经验优先。",Python C# TestStand,https://jobs.51job.com/kunshan/162465503.html?s=sou_sou_soulb&t=0_0&req=d060e852ba50ba271f672d1c20edd007
+高级测试开发工程师,昆山利斯特自动化科技,2.6-3.5万·14薪,昆山,昆山,大专,5年及以上,2026-06-26 11:22:57,job51,"负责汽车电子产品测试系统开发，带领团队完成项目！
+精通NI LabView，TestStand软件开发。
+熟悉了解C，C#，Python等各类软件。
+熟练使用各类测试仪器仪表，各类通信协议。",C# Python LabView,https://jobs.51job.com/kunshan/162490933.html?s=sou_sou_soulb&t=0_0&req=d060e852ba50ba271f672d1c20edd007
+汽车电子测试工程师,昆山利斯特自动化科技,1-2万·14薪,昆山,昆山,本科,3-4年,2026-06-26 11:23:42,job51,"岗位职责：
+1、能根据产品规范编独立测试计划、测试用例和测试报告；
+2、进行产品功能、性能和兼容性等测试，完成对产品的集成测试与系统测试，并对BUG进行跟踪分析与报告、推动发现的问题及时合理的解决；
+3、通过对产品的测试、保证产品质量达到指定质量目标、能提出对产品质量目标的进一步改进的要求并依照执行；
+4、完成领导安排的其他工作。
+岗位要求：
+1. 本科以上学历
+2. 电子，计算机，自动化相关专业
+3. 英语四级
+4. 电子，自动化相关专业需要熟练使用示波器，直流电源，万用表，电子负载等设备. 能看懂原理图，PCB图，熟悉NI Labview 和Testand
+5.计算机相关专业需要熟悉C#语言，熟悉.Net框架，熟练使用VS 2017/2019
+6. 能阅读英文版器件data sheet, 标准文档等",C# 测试计划 测试用例 Labview,https://jobs.51job.com/kunshan/145805085.html?s=sou_sou_soulb&t=0_0&req=d060e852ba50ba271f672d1c20edd007
+测试工程师,环鸿电子（昆山）,1-1.5万·15薪,昆山,昆山,本科,3年及以上,2026-06-16 15:43:08,job51,"1.负责NPI试产导入(PC/Server M/B，GPU)。包括测试母盘制作、Linux\Windows系统下程式debug以及BIOS验证、测试方法改善及完善、SOP审核发行、零部件验证导入、测试异常处理、提升良率、协助客户完成相关测试.
+2.S/W C#, Python 的应用与开发能力，能够基于开源框架开发自动化测试程序或脚本
+3.具有强烈的工作责任心和团队协作意识，工作中善于主动思考，善于学习
+
+任职要求：
+1，本科学历，电子相关专业
+2，5年电子行业测试工作经验，熟悉ICT,FCT测试维护和调试3，
+3，熟悉Labview C#写上位机测试程序，能对接自动化测试机台调试
+4，英语能力佳优先考虑；",Linux C# Python 自动化测试 PC Server GPU,https://jobs.51job.com/kunshan/169190822.html?s=sou_sou_soulb&t=0_0&req=d060e852ba50ba271f672d1c20edd007
+研发测试工程师,艺唯科技,5千-1万,昆山,昆山,本科,2年及以上,2026-06-24 20:27:24,job51,"一、 岗位职责：
+1.编写测试计划、规划详细的测试方案，编写测试用例。
+2.根据测试计划搭建和维护测试环境
+3.执行测试工作，提交测试报告。
+4.对测试中发现的BUG问题进行详细分析和准确定位，与开发人员讨论缺陷解决方案。
+5.提出对产品的进一步改进的建议，并评估改进方案是否合理，对测试结果进行总结与统计分析，对测试进行跟踪，并提出反馈意见。
+6.完成上级主管交代事宜等
+
+二、职位要求：
+
+1.要求应用电子专业，本科学历以上
+2.会使用示波器，能看懂电子原理图
+3.会使用电烙铁焊接基本元器件
+4.熟悉C语言，能看懂基础源代码
+5.熟悉禅道，BUG管理软件优先
+
+三、福利待遇：
+1. 工作时间：上午 8:00--17:00 ，22 天制，（周未视情况决定）
+2. 社保：公司将根据国家及地方政府的有关规定，为员工购五险一金
+3. 生日福利：公司视经营情况为生日员工送上生日礼物和生日会
+4. 节日福利：公司视经营情况在法定节日送上礼物或节日慰问金
+5. 激励活动：公司会适时组织各种娱乐活动，丰富生活，沟通友谊，如联欢会、聚餐、旅游、文体比赛等；
+6. 员工成长：公司提供入职培训、产品培训、职业技能培训，还有完善的晋升机制；
+7. 薪酬待遇：面谈
+8. 有2年以上测试经验者优先！（公司资源丰富，产品成熟，非常有竞争力！",C语言 测试计划 测试用例 培训,https://jobs.51job.com/kunshan/169169434.html?s=sou_sou_soulb&t=0_0&req=d060e852ba50ba271f672d1c20edd007
+ATE测试工程师,芯睿微电子（昆山）,1-2万,昆山,昆山,大专,2年及以上,2026-06-22 14:44:20,job51,"岗位职责:
+1、 分析芯片测试需求，制定ATE测试方案及规范；根据芯片的开发计划，制定ATE测试系统的开发计划；
+2、 设计CP、FT测试电路，与供应商合作制作Probe Card、Load Board、Socket、胶木块、Handler Kit等测试硬件，搭建ATE测试系统；
+3、 开发、调试测试程序，完成芯片开发各个阶段实验室及OSAT的ATE测试系统部署及验收；
+4、 全流程负责芯片FT开发及维护，对测试程序、测试数据、ATE测试系统进行不断分析与优化，确保ATE测试达到预期目标；
+5、 负责解决产线的测试异常，与其它相关部门进行沟通和互动，以达到保证产品质量，降低制造成本的目标；
+6、 负责委外测试项目的需求下发、数据审核、结果验收和程序版本管理等工作；
+7、 负责实验室ATE测试系统的维护及使用。
+
+任职资格:
+1、大专及以上学历，电子、自动化、机械电子、测控技术等相关专业，2年以上ATE测试或相关经验；
+2、熟练使用常用测试仪器（如万用表、信号源、示波器、频谱仪、网络分析仪等），熟悉ATE量产测试流程和半导体测试基本方法和理论；
+3、优先考虑具有Switch、LNA、PA等射频芯片ATE测试经验者；
+4、具有测试过程中排查问题的能力，包括测试系统中的软硬件问题；
+5、执行力强：能够有效推进测试工作的开展，能够识别测试风险，善于发现问题，有效进行问题管理；
+6、具备良好的沟通和协作能力，工作责任心强，有进取精神；
+7、有Cohu /NI等射频芯片测试平台使用经验者更佳 。",版本管理 Card Load Board Socket Handler LNA,https://jobs.51job.com/kunshan/169928205.html?s=sou_sou_soulb&t=0_0&req=d060e852ba50ba271f672d1c20edd007
+HWTE测试 （EE背景）,立讯电子科技（昆山）,1.2-2.3万,昆山,昆山,本科,5年及以上,2026-07-02 15:29:56,job51,"HWTE测试 （EE背景）
+职位描述：
+1.负责新产品开发项目全过程，新产品导入，批量生产，同时领导多个项目并行开发。
+2跟踪项目进度，预算，管理和监控项目的范围，成本，质量，保证项目目标的达成。
+3.负责与客户进行沟通，及时更新客户技术方面需求；
+4.负责产品硬件的功能测试；
+5.负责测试系统的搭建、调试及功能确认，测试报告输出。
+6.根据产品的测试需要，提出Test Plan的编写
+7.评估供应商DFM能力，审核交付治具的稳定性，评测Test coverage
+8.快速分析和解决项目执行中的各种问题，及时上报重大待解决问题，提出问题并给出分析和解决预案。
+9.领导测试小组内每个station DRI
+任职资格：
+1.全日制大学本科以上学历，5年以上电子类产品相关测试开发工作经验；
+2.具有良好的英文听读说写能力，能够流利的与外国客户进行沟通交流；
+3.有消费类电子产品测试者优先。
+4.能够独立负责研发设计项目. 
+5.有英语专业四级、专业八级证书及优先考虑；
+6.抗压力强，沟通能力良好。",RAG 功能测试 coverage DRI,https://jobs.51job.com/kunshan/164080031.html?s=sou_sou_soulb&t=0_0&req=d060e852ba50ba271f672d1c20edd007
+软件测试工程师,伟尔泰克智造科技（苏州）,7千-1.3万,昆山,昆山,本科,1年及以上,2026-08-07 08:22:09,job51,"职位描述：
+1. 负责公司产品APP端，WEB端、后台产品的质量保障工作；
+2. 负责功能、安全、接口、性能、系统兼容等专项测试实施；
+3. 开发和维护自动化测试工具及测试脚本，提高测试效率；
+4. 与开发团队密切合作，分析和定位问题，跟踪缺陷修复情况；
+5. 编写测试报告并提供测试分析和改进建议；
+6. 持续试流程和方法，提升测试覆盖率和测试质量。
+任职资格：
+1. 全日制本科及以上学历，计算机、软件工程相关专业；
+2. 至少一年以上测试岗位经验，有Saas平台、CRM、ERP系统测试经验者优先；
+3. 熟悉软件测试流程、测试方法与理论，掌握主流的测试及管理工具，具备扎实的测试基本功；
+4. 熟悉测试工具的应用；可熟练编写测试用例和测试报告，具备编写自动化测试脚本能力；
+5. 熟练掌握SQL语言的编写，具备一定的白盒测试能力。",SQL 自动化测试 测试用例 CRM,https://jobs.51job.com/kunshan/162239926.html?s=sou_sou_soulb&t=0_0&req=d060e852ba50ba271f672d1c20edd007
+化学测试项目负责人,江苏三亿检测技术,1-1.5万·13薪,昆山,昆山,本科,4年及以上,2026-07-29 09:15:43,job51,"【工作内容】
+1、负责汽车零部件及材料的有害物质检测，包括ELV（限制物质指令）相关项目的测试与分析；
+2、独立操作并维护GC-MS、HPLC、VOC等仪器设备，确保实验数据的准确性与可靠性；
+3、参与制定和优化检测方法，开展方法开发工作，提升检测效率与精度；
+4、根据测试结果撰写专业报告，确保符合相关测试标准与客户要求；
+5、针对汽车零部件相关材料进行无机分析与有机分析等；
+6、协助实验室质量管理体系的运行与持续改进，确保检测过程符合ISO/IEC 17025标准；
+【任职要求】
+1、化学相关专业本科及以上学历，具备4年及以上检测/认证行业工作经验，有汽车零部件测试经验者优先；
+2、熟练的操作与维护相关的仪器设备等；
+3、英语熟练，能够阅读并理解英文技术文档；
+【薪酬福利】
+- 提供五险一金，双休，法定年休假、国假、食堂餐补； 
+- 薪酬待遇具有市场竞争力，结合个人能力与绩效表现提供相应激励； 
+- 完善的职业发展通道与岗位晋升机制，助力员工长期成长。",技术文档 MS HPLC IEC,https://jobs.51job.com/kunshan/150981368.html?s=sou_sou_soulb&t=0_0&req=d060e852ba50ba271f672d1c20edd007
+实验室测试技术员 (MJ000138),昆山新莱洁净应用材料,7千-1.2万,昆山,昆山,大专,2年及以上,2026-08-07 07:51:11,job51,"岗位职责：
+1. 独立进行项目开发测试计划的制定，测试需求整理，测试工作的执行
+2. 按照国家标准或行业标准要求，进行系统全面的型式测试，并对产品问题进行分析和报告，推动测试过程中问题的及时解决，为产品是否开发成功，是否可以发布提供依据
+3. 对客户反映的项目问题进行测试验证，协助设计工程师完成产品的优化改进。给予客户合理的回复和解决方案
+4. 对试验设备进行日常维护和保养，设备点检。设备资源合理分配
+5. 完成临时分配的工作，服从领导安排
+岗位要求：
+1、 大专以上学历，机械相关专业
+2、 有1年以上实验室测试经历或项目管理经历，熟悉型式试验和可靠性测试的相关要求和基本内容
+3、 熟悉食品医药气体泵阀产品结构原理，测试要求优先考虑
+4、 熟悉食品医药气体泵阀产品测试相关标准优先考虑
+5、 工作严谨，善于思考总结，逻辑思维强，沟通应变能力强",测试计划 项目管理,https://jobs.51job.com/kunshan/152706626.html?s=sou_sou_soulb&t=0_0&req=d060e852ba50ba271f672d1c20edd007
+EMC电磁兼容工程师(J10508),研华科技（中国）,1-1.5万·15薪,苏州,昆山,本科,3年,2026-07-20 15:04:01,job51,"工作职责:
+1、参与产品开发过程，负责产品EMC总体设计，为产品提供EMC设计支持和解决方案；
+2、负责完成产品EMC仿真；
+3、参与产品研发各阶段的评审，依照EMC设计原理对产品进行EMC审核；负责产品的EMC设计；
+4、负责完成产品的EMC设计规范及指导文件，包含了各研发阶段流程； 
+5、协助客户解决注册过程中的EMC问题；
+
+任职资格:
+1、熟悉电磁兼容的理论知识和应用技能，能应用电磁仿真软件，如CST、FEKO、ANSYS； 
+2、熟悉电子产品和通信设备的EMC设计技术和方法；
+3、具有良好的沟通能力和协调能力，有一定的抗压能力；
+4、熟悉医疗器械注册流程，有实际项目经验者优先。",FEKO ANSYS,https://jobs.51job.com/suzhou/165191115.html?s=sou_sou_soulb&t=0_1&req=d060e852ba50ba271f672d1c20edd007
+嵌入式软件开发,北京帝森克罗德技术,1.3-2万,昆山,昆山,本科,3年及以上,2026-07-22 14:23:23,job51,"1.负责STS,DC/DC，逆变器/储能产品，等产品系统控制软件开发;
+2.负责产品的主要算法仿真，独立完成源码设计及协议、逻辑、控制、算法及自测;
+3.负责承担相关产品的维护工作;
+4.负责产品测试及产品优化设计，编写相关技术文档，技术支持等；
+5.同硬件工程师协作，负责设备样机软硬件联调、故障排查和问题解决。",技术文档 技术支持 故障排查 DC,https://jobs.51job.com/kunshan/157826016.html?s=sou_sou_soulb&t=0_0&req=d060e852ba50ba271f672d1c20edd007
+嵌入式硬件开发工程师,苏州脉塔智能科技,2-3.5万,昆山,昆山,本科,5年及以上,2026-06-30 19:05:17,job51,"岗位职责：
+1. 负责公司产品及相关硬件设计开发工作，包括原理图和PCB设计；
+2. 负责硬件产品的打样制板和样机的测试调试工作；
+3. 整理编写样机硬件测试报告；
+4. 编写BOM表，整理产品相关文档并做好存档。
+5. 编写产品技术文档；
+6. 配合结构工程师修改优化产品；
+7. 协助软件工程师测试和优化产品；
+8. 协助测试部门完善产品测试方案；
+
+任职要求：
+1. 本科以上学历，自动控制、电气及自动化、计算机、机器人等相关专业。
+2. 五年以上嵌入式硬件开发同岗位工作经验；
+3. 具有较强的分析解决问题能力和抗压能力，具备自我驱动和激励的能力，擅长沟通交流，适应创业氛围；
+4. 熟悉电机驱动、逆变整流、DC-DC、AD等电路的设计；
+5. 熟悉常用硬件设计EDA软件，能够完成设计到制板打样的全流程工作；
+6. 熟悉使用各种硬件测试设备如示波器、逻辑分析仪等，有较强动手能力能够修改样板。
+具体薪资可面议",技术文档 DC-DC,https://jobs.51job.com/kunshan/156012168.html?s=sou_sou_soulb&t=0_0&req=d060e852ba50ba271f672d1c20edd007
+测试工程师-APS,富士康电子工业发展（昆山）,8千-1.5万·13薪,昆山,昆山,本科,3年及以上,2026-06-22 08:52:09,job51,"未來工作內容描述
+1. 根据客户的产品规格及要求，进行电气特性及测试方案评估。
+2. 制定測試方案，整理出需要的硬件，軟件，治具。同時進行費用評估和可行性檢討。
+3. 新案件测试工站SET-UP建立，標準測試文件資料製作。
+4. 完成新产品导入测试系统调试、校准、验证。
+5. 测试工站稳定性及再现性测试报(GR&amp;R)。
+6. 测试覆盖率Test Coverage验证、报告。
+7. 测试设备/治具buyoff 。
+工作經歷專業技能要求
+1. 熟悉 3C 產品測試規劃 ex. Cable, Dongle, Docking, Wall Charger。 
+ 至少3年類似產品的測試規劃，建立，分析的工作經驗。
+2. 熟悉电路原理、电路设计，能独立分析产品的原理图
+3. 熟悉掌握C语言/LabVIEW/C#/Python等其中一种编程语言
+4. 熟悉使用常有的仪器仪表（万用表、程控电源、电子负载、示波器、網路分析儀、頻譜分析儀 .....）
+5. 熟悉Cable、Dongle，Docking, wall charger等产品功能以及测试方法；
+6. 较好的沟通能力，团队协作能力；
+7. 较强的学习能力、工作严谨，有责任心；
+8. 能夠配合國內外出差。
+9. 英文讀寫熟練，聽說能力可與客戶進行簡單溝通。",RAG C语言 C# Python GR Cable Dongle Docking,https://jobs.51job.com/kunshan/157208656.html?s=sou_sou_soulb&t=0_0&req=d060e852ba50ba271f672d1c20edd007
+硬件开发工程师（高级）,天通精电新科技,1.5-2.5万,嘉兴·南湖区,昆山,本科,3-5年,2026-08-03 10:27:38,job51,"岗位职责:
+1.负责工控、汽车电子相关产品整体设计，方案和关键电路选型；
+2.重点负责产品的关键技术、核心技术创新和攻关，实现产品的量产和生命周期维护。
+3. 负责产品规格制定、具体方案定型、电路设计、可靠性设计、可制造性设计。负责项目调试测试及验证。确保产品满足性能、质量及成本要求。
+4．负责产品研发过程中的技术文件管理、评审过程管理。确保产品设计周期开发及技术资料交付完备性。
+5. 参与资源整合，引进技术，服务客户，完善开发平台。
+任职要求:
+1.电子、通信、计算机类相关专业，硕士或本科5年以上。
+2.至少3-5年以上工业控制、汽车电子等电子产品硬件开发经验，有物联网和嵌入式开发设计经验。
+3.熟练掌握原理图设计工具(Allegro,ORCAD,ProteDXP)，能Layout，熟悉ARM等处理器总线及性能，熟练使用示波器等仪器仪表。
+4.具备丰富的高速PCB设计经验及EMC可靠性设计经验。
+5.扎实的电子电路和数据通信理论知识，能够熟练阅读和理解英文资料。
+6.良好的沟通表达能力，学习创新能力强，有一定的抗压能力。
+7.富于团队精神有宽广的视野，有上下游资源整合和客户服务能力。",ARM 产品设计 客户服务 Allegro ORCAD ProteDXP,https://jobs.51job.com/jiaxing-nhq/166407027.html?s=sou_sou_soulb&t=0_1&req=d060e852ba50ba271f672d1c20edd007
+测试工程师,天通精电新科技,1-1.5万,昆山,昆山,大专,3年及以上,2026-08-03 10:27:29,job51,"职责：
+1、负责电子产品的PCBA ICT/FCT测试,测试设备的维护；
+2、按照产品标准进行操作，严格保证质量；
+3、总结组装和测试过程中出现的异常问题；
+
+要求：
+1，大专以上学历，有3年以上工作经验。
+2.熟悉LABVIEW平台搭建的测试机柜原理及其平台语言。
+3.会有组装电子、变频器产品组装相关经验者优先；
+4.了解产品结构、工艺、品质相关知识，并具有相关经验者优先；
+5.有责任感，工作自觉，工作效率高。",ICT,https://jobs.51job.com/kunshan/166987729.html?s=sou_sou_soulb&t=0_0&req=d060e852ba50ba271f672d1c20edd007
+嵌入式软件工程师,苏州九驭智控科技,1.5-2.5万,昆山,昆山,本科,3年及以上,2026-07-28 17:47:18,job51,"工作职责：
+1、完成电机控制器产品的软硬件需求分析、架构和模块设计；
+2、软件编程、测试、维护和优化等工作；
+3、研发、测试相关的技术文档和需求文档的整理和编写；
+4、产品功能的调试以及客户现场支持。
+
+岗位要求：
+1、精通C/C++语言，ARM、STM32等系列单片机程序设计，熟悉IAR、Keil等开发平台，良好的编程风格和软件开发规范；
+2、熟练使用UART、SPI、I2C、CAN、AD等单片机常用外设；
+3、熟悉LIN、CAN等通讯协议；
+4、有无刷电机控制器软件开发经验优先；
+5、良好的文档写作能力、语言表达能力、沟通协调能力，以及团队合作精神。",C++ ARM STM32 单片机 UART SPI I2C CAN 需求分析 技术文档,https://jobs.51job.com/kunshan/161693809.html?s=sou_sou_soulb&t=0_0&req=d060e852ba50ba271f672d1c20edd007
+測試工程師,昆山宏致电子,6-8千,昆山,昆山,本科,2年及以上,2026-08-07 08:22:07,job51,"1.熟悉CNAS实验室管理药企，了解试验方法
+2.测试规范解读“对3C/车用产品的规范进行解读并输出资料
+3.功能测试：操作插拔力机、温湿度箱等设备，对连接器进行机械
+环境测试
+4.测试完成后，整合测试结果形成测试报告并上传。",功能测试,https://jobs.51job.com/kunshan/134352995.html?s=sou_sou_soulb&t=0_0&req=d060e852ba50ba271f672d1c20edd007
+嵌入式软硬件工程师,苏州一卓工业技术,1.5-2.5万·15薪,昆山,昆山,本科,3-4年,2026-07-14 22:08:32,job51,"岗位职责：
+1、负责实施产品的单片机软件设计和开发工作；
+2、编写实现需求的软件代码及相关器件的驱动代码；
+3、协同产品开发团队完成技术验证、产品测试、调试及相关工作；
+4、撰写相关技术文档。
+任职要求：
+1、本科以上学历，熟练掌握C/C++，对算法有一定的了解（优先）；
+2、熟悉8位、16位、32位 单片机开发流程，熟悉产品集成测试流程；
+3、有单片机独立产品经验 如果是团对开发 应作为主要开发者，或者组长；
+4、对硬件有一定的了解，熟悉各种接口如 SPI I2C DAC ADC等；
+5、有ST单片机开发经验优先、USB开发经验经验者优先考虑；
+6、能适应快节奏的开发工作，能吃苦耐劳；
+7、有较强的沟通能力，分析能力和问题解决能力，能较好的对问题进行总结；
+8、有良好的学习能力，有一定的创新性。",单片机 C++ SPI I2C 技术文档 DAC,https://jobs.51job.com/kunshan/151118732.html?s=sou_sou_soulb&t=0_0&req=39860deee738634d65c0975eda729010
+软体测试 TE,凯博电脑（昆山）,5-8千,昆山,昆山,大专,1年,2026-08-07 11:03:23,job51,"要求：
+1.无经验亦可培养
+2.计算机相关专业优先考虑
+岗位职责：
+1.笔记本相关软件测试(包含BIOS,EC,Driver等功能测试)。
+2.主导BIOS,EC,DRIVER导入产线事项",功能测试 EC,https://jobs.51job.com/kunshan/107055389.html?s=sou_sou_soulb&t=0_0&req=39860deee738634d65c0975eda729010
+硬件工程师,天通精电新科技,1.8-2.5万,嘉兴·南湖区,昆山,本科,3年及以上,2026-08-03 10:27:47,job51,"岗位职责：
+1、熟悉新能源行业关键元器件特性并能熟练应用，熟悉了解系统UL/CE等系统认证; 
+2、有过硬嵌入式设计理论知识、精通模拟、数字等电子基础知识，掌握信号完整性原理，掌握各种电源变换电路 ；
+3、熟练运用Altium Designer 、PROTEL、CANDANE、PADS中的一种或其他软件绘制原理图
+和电路板布线；熟悉常见通信协议、总线、外设驱动开发, 如SMBUS，I2C，CANBUS，SPI，UART，RS485，RS232，PD3.0等,有具体的调试经验。；
+4、能独立设计原理图和制作BOM; 掌握C编程语言及常用单片机开发，熟悉Keil uVision5、STM32CubeMX、Codeworriror、Source insight IDE，Matlab Simlink等代码编写与测试工具，具有一定的嵌入式开发能力；熟练掌握万用表、示波器和电子负载等常用仪器的使用，有软硬件联调Debug经验；
+任职资格：
+1、电子信息类，机械电子类或其他电子类相关专业本科及以上学历，优秀人士不限学历；
+2、3年以上电力电子设计经验，有5年以上新能源产品的电子开发经验，大功率（3kW以上）优先；
+3、熟悉汽车电子开发流程，熟悉电力电子软硬件开发，具有设计规划能力；
+4、责任心强，具有全局观，工作严谨负责，积极主动，具有良好的沟通能力和团队合作精神，能承受工作压力；
+5、具有较强的动手能力，能够根据设计独立进行系统电路调试；
+6、具备良好的职业道德和职业习惯。",CAN I2C SPI UART 单片机 STM32 MATLAB,https://jobs.51job.com/jiaxing-nhq/166406965.html?s=sou_sou_soulb&t=0_1&req=39860deee738634d65c0975eda729010
+软件工程师（labview）,昆山迈致治具科技,2.5-3万,昆山,昆山,本科,3-4年,2026-06-12 09:43:40,job51,"任职资格
+1、基于 LabVIEW 的自动化测试系统、工业上位机、数据采集与测控软件开发、调试与维护。
+2、掌握仪器控制、数据采集、信号处理、运动控制、数据库交互、报表生成。
+3、需求分析、架构设计、编码、单元测试、集成测试、性能优化。
+4、撰写技术文档、用户手册、测试报告，提供现场部署与技术支持。
+5、与硬件 / 机械 / 测试团队协作，完成系统集成与联调5、熟练掌握常用上下位机接口，包括串口、网络socket等通讯的开发；
+6、具有良好的的编程习惯和团队合作能力；学习能力强、并勇于接受挑战的能力；
+7、适应一定的项目出差需求
+8、了解机器视觉行业，能对相机.光源和镜头选型并能提供技术解决方案
+工作职责
+1、根据项目具体要求，承担开发任务，按计划完成任务目标； 
+2、分析客户需求，按时完成软件功能的开发任务，提高客户对产品的满意度； 
+3、负责工程中主要功能的代码实现，参与软件的维护工作，及时解决客户使用中遇到的问题； 
+4、负责编制与项目相关的技术文档； 
+5、协助用户完成软件系统及模块的测试； 
+6、负责参与制定与实施公司软件的企业统一标准，实现软件的规范化管理； 
+7、完成主管临时交办的其他工作事项",自动化测试 数据采集 需求分析 技术文档 技术支持 LabVIEW,https://jobs.51job.com/kunshan/133473489.html?s=sou_sou_soulb&t=0_0&req=39860deee738634d65c0975eda729010
+CP测试主管,华天科技（昆山）电子,1.5-3万·13薪,昆山,昆山,本科,6年及以上,2026-06-23 10:37:21,job51,"1.制订测试方案及计划，包括人员安排、测试进度、测试流程等
+2、带领测试团队完成公司产品的测试工作，执行测试计划，跟踪执行进度；
+3 负责新品导入方案制定及进度，负责量产产品的维护及异常处理安排
+4 负责测试设备及设备相关人员的管理，支持新品及量产的全面设备工作。
+5、完成组内人员招聘、培训以及及团队建设；
+6、负责测试团队人员的绩效考核，培养团队成员的成长；
+7、与上级及协作部门沟通测试进度及测试结果
+要求:本科及以上学历，测试相关工作8年以上经验。",测试计划 培训,https://jobs.51job.com/kunshan/153160759.html?s=sou_sou_soulb&t=0_0&req=39860deee738634d65c0975eda729010
+Test Technician/测试技术员,彼欧光电系统（昆山）,5-8千·13薪,昆山,昆山,大专,1年及以上,2026-07-31 16:49:06,job51,"Job Responsibilities:
+1, 负责测试的程序更新；
+2，进行测试设备的维护保养；
+3，协助工程师解决制造过程中的测试程序及设备问题，保障测试的覆盖率
+
+
+Job Requirement:
+1, 大专学历，电子信息相关专业
+2, 较强的学习能力；
+3, 良好的团队合作能力;
+4, 良好的书面英语能力；",Responsibilities,https://plasticomnium-lighting.51job.com/job_show.html#jobid=169919020&poscode=1
+硬件工程师（数字信号处理）,天通精电新科技,1.5-2万,嘉兴·南湖区,昆山,硕士,3年及以上,2026-08-03 10:27:38,job51,"岗位主责： 
+1. 参与系统方案设计和技术路线论证，协助系统工程师进行硬件需求分解和硬件方案设计； 
+2. 独立完成硬件总体方案，硬件原理图设计、器件选型，产品性能设计及测试如EMC、安规、稳定性等；独立进行硬件单元开发和测试工作； 
+3. 根据硬件方案拟定测试计划和方案，并参与整机功能测试和性能测试； 
+4. 故障定位和分析，推动相关人员进行测试验证和整改优化；
+5. 参与硬件转产工作；
+6. 设备维护和工程故障跟踪。 
+任职资格： 
+1. 全日制硕士研究生3年及以上经验，计算机、通信、电子、自动化等相关专业；
+2. 有通信、自动化、工业控制、仪器仪表等行业经验为佳；
+3. 扎实的电力电子技术、数字电路和模拟电路基础，有独立的开发能力和参与完整项目的经验；
+4. 熟练掌握Cadence或AD等常规设计工具软件，具有ARM、x86、FPGA平台6层板以上Layout经验； 
+5. 熟练掌握高精度万用表、示波器、频谱仪等常用测试仪表； 
+6. 熟悉嵌入式设计、低噪声设计、FPGA设计、高速设计、功率分配和驱动等其中一个或多个方向者尤佳； 
+7. 熟悉EMC和安规设计和测试整改； 
+8. 善于沟通和团队合作，良好的文档能力和动手能力。",ARM FPGA 方案设计 测试计划 功能测试 性能测试,https://jobs.51job.com/jiaxing-nhq/166406989.html?s=sou_sou_soulb&t=0_1&req=39860deee738634d65c0975eda729010
+电磁兼容射频（EMC/RF）项目工程师,倍科质量技术服务（昆山）,10-20万/年,昆山,昆山,本科,5-10年,2026-07-01 11:23:10,job51,"岗位职责：
+1、	负责项目开案前的评估（认证做法、测试项目、项目周期、样机准备、所需资料等）；
+2、	负责产品的功能调试，复杂项目的测试搭建，制定测试计划并跟进执行，确保案件在合理周期内高效完成；
+3、	审核测试数据，确保原始数据真实准确。协助处理审核官提出的comments，确保取证工作高效进行；
+4、	及时与客户沟通案件进度以及遇到的技术问题并能有效的给出解决方案；
+5、	熟练掌握常用的EMC/RF认证法规和测试要求，比如CCC/CE/FCC/IC/RCM/VCCI/KC/NCC等标准；
+6、	对测试场地和仪器有一定的了解，可熟练操作接收机、频谱仪、示波器、信号发生器、综测仪等测试仪器；
+7、	及时了解行业动态，研读标准，协助技术经理开发新的测试方法及编写SOP和方法验证，并对测试工程师进行培训；
+8、	对业务和客户提供有效的技术服务与支持；
+9、	负责上级交办的其他工作。
+任职要求：
+1、统招本科，理工科专业（电子，通信，机电，自动化，机械等相关专业） ；
+2、2-10年同行业工作经验，或电磁兼容射频相关工作经验3年以上；
+3、英语四级，能阅读基本英文测试标准及技术资料；
+4、较强的系统思考、分析判断、学习及应变能力；
+5、吃苦耐劳，工作积极踏实有责任心,，能适应加班；
+6、良好的沟通表达及团队协作能力；
+7、性格：耐心、细致、谦和，为人公正、认真、负责、吃苦耐劳、服从管理；",测试计划 客户沟通 培训 CE FCC IC RCM VCCI,https://jobs.51job.com/kunshan/154052456.html?s=sou_sou_soulb&t=0_0&req=39860deee738634d65c0975eda729010
+电子工程师（EE）,富士康电子工业发展（昆山）,9千-1.6万·13薪,昆山,昆山,本科,3-4年,2026-08-07 16:40:07,job51,"分析客戶需求規格書
+完成產品電路板的原理圖及PCB設計開發，嵌入式類的程序設計開發，調試測試性能
+完成產品測試類系統開發
+編寫產品設計開發相關文檔
+任職要求:
+5年以上電子設計經驗；
+有英語读写能力，有一定的口语能力优先
+满足如下条件至少两条：
+1.熟悉并掌握至少一种嵌入式平台固件程序開發（ST/TI/MICROCHIP）
+2.能夠獨立設計電子產品原理圖，掌握电源，基带，射频，音频，UI，外设设计之中三种以上
+3.熟悉并掌握至少一種Layout軟件（PADS/Cadence/AD）,熟知摆件及走线规则，高速数字信号完整性，阻抗匹配，安规，射频，音频信号等要求
+4.熟悉并掌握至少一种PC类软件开发环境（Windows or MAC OS）
+5.熟悉并掌握至少一种移动终端类APP软件开发环境（Android or IOS）
+6.熟悉并掌握电子类产品测试，能够搭建测试系统，开发测试硬件和软件，包括被動元件，耗电，功能，程序烧写，音频，射频等",ST TI MICROCHIP UI PADS Cadence AD Windows,https://jobs.51job.com/kunshan/53641305.html?s=sou_sou_soulb&t=0_0&req=39860deee738634d65c0975eda729010
+材料可靠性检测,亿科检测认证,1.2-1.8万,昆山,昆山,大专,3-5年,2026-07-24 18:03:34,job51,"岗位职责：
+1、负责汽车领域的可靠性测试项目，包括不限于环境类，机械类，电性能类的测试工作，熟悉主机厂测试要求""				
+2、负责常规检测仪器的日常管理和维护，检查并记录仪器的使用状态""				
+3、给销售提供及时，细致的技术支持以满足售前售后的需求""				
+4、参与实验室CMA和CNAS新项目开发，以及主机厂审核，并准备相关文件""				
+5、按测试任务标准准确、准时完成测试并出具测试报告""				
+6、根据主管的要求，可以分配职员与职位类型相关或因公司运作而变得必需的额外任务""
+任职要求：
+1、专科及以上学历
+2、具有3年以上第三方检测机构汽车零部件或消费品检测的工作经验，熟悉汽车零部件产品（可靠性，电性能，机械类）国内外测试				
+3、法规和标准，精通材料力学方面的测试与标准要求。具有建材领域工作经验者优先				
+4、良好的英语读写能力，能看懂英文资料和标准要求，可以编制英文报告				
+5、良好的团队合作精神和服务态度，具有良好的沟通和抗压能力",技术支持,https://jobs.51job.com/kunshan/156085023.html?s=sou_sou_soulb&t=0_0&req=39860deee738634d65c0975eda729010
+电子产品工程师,斯沃博达汽车电子（昆山）,1.2-1.5万·14薪,昆山,昆山,大专,3年及以上,2026-08-07 09:36:23,job51,"Main responsibilities主要职责:
+ 
+Responsible for design and system integration of automotive sensor part设计研发集成汽车传感器部件
+Development of product and EOL test specification制定产品技术和EOL测试规格书
+Schematic and PCB layout design, components selection according to customer specification根据客户规格需求进行元器件选型，设计原理图和PCB布局
+Support DFMEA engineer complete DFMEA analysis and document支持DFMEA工程师完成设计失效分析和DFMEA文件。
+Communication between internal departments and technical cooperation with German development department内部各部门之间的沟通交流以及与德国开发部门的技术沟通与交流。
+Report work progress to supervisor regularly 定期向主管汇报工作进展
+Archiving of design and development documents设计与开发文件的归档
+Front-end study for new technology and methodology of automotive electronic product test/design and manufacture前期调研汽车电子产品方面的新技术
+Open mind to share with other team members the research result愿意分享研究成果给团队其他成员
+Support sales to do technical communication with customer and new product promotion支持销售部门与客户做技术交流和新产品推广
+Responsible for EMC and electrical performance test and write EMC test plan。Analysis the test fail sample and provide solution。负责EMC和电性能测试, 编写EMC测试计划。对测试失败产品分析并给解决方案。
+Support quality engineer to analysis the fail series product支持质量工程师对量产产品问题分析
+
+
+
+ 
+Qualification Requirement任职资格要求： 
+Electronic Engineering college and above 电子信息工程或相关专科或以上学历 
+3 years or above electronic design experience is required for this position 3年以上电子设计工作经验
+Working experience in automotive electronics industry is preferred具有汽车电子行业工作经验优先。
+Good skill in using ALTIUM designer(or comparable tool) for designing circuit boards 熟练使用Altium designer(或类似工具)设计电路板。
+Working experience in ECU development is preferred 具有控制器产品开发经验优先。
+Good comprehension, self-learning ability, good communication skill 具有良好的理解力，自学习能力，良好的沟通能力。
+Good problem analysis and problem solving ability 具有良好的分析问题和解决问题能力。
+CET-4 certificate desirable英语四级证书
+Proven ability to work independently in a dynamic work environment and to strive for solid results by collaboration with colleagues from different background能够独立完成日常工作，并和不同背景的同事有效合作，取得工作成果。
+ Honesty, integrity and teamwork 诚实、正直和团队合作。",Gin Electron SAM Go 性能测试 测试计划,https://jobs.51job.com/kunshan/137671552.html?s=sou_sou_soulb&t=0_0&req=39860deee738634d65c0975eda729010
+电子工程师,昆山瑞弘测控自动化设备,2.5-3.5万,昆山,昆山,大专,5年及以上,2026-07-16 10:16:46,job51,"岗位职责：
+1、负责电子产品硬件方案设计、元器件选型、原理图及 PCB 设计；
+2、完成硬件样机调试、性能验证、故障分析与整改；
+3、制定硬件测试方案，开展可靠性、EMC、电气性能相关测试；
+4、输出 BOM、硬件设计文档、测试报告及版本变更资料；
+5、配合嵌入式、结构、生产团队开展软硬件联调、试产跟进，解决量产硬件问题；
+6、持续优化硬件方案，控制物料成本，跟进物料替代与供应链技术对接。
+
+任职要求：
+1、掌握模拟电路、数字电路基础；熟悉电源电路、运放、各类总线外围电路；
+2、熟练使用至少一款 PCB 设计软件；
+3、能熟练使用示波器、万用表等测试仪器；
+4、了解 EMC、安规基础、可靠性设计优先；
+5、看得懂英文芯片 datasheet；
+6、精通单片机软件设计，精通C语言，有一定嵌入式软件开发经验更优；
+
+如能力强，薪资可面议！",单片机 C语言 方案设计 供应链 PCB EMC BOM,https://jobs.51job.com/kunshan/168301493.html?s=sou_sou_soulb&t=0_0&req=39860deee738634d65c0975eda729010
+電子開發工程師--TSC,富士康电子工业发展（昆山）,9千-1.5万·13薪,昆山,昆山,大专,3年及以上,2026-08-07 16:40:07,job51,"未來工作內容描述:
+1.主導汽車Sensor, HV WH及Charging Cable自製電子開發專案.
+2.依APQP及DR系統管制新產品開發進度.
+3.確保PCBA及電子2/3D零件至成品Data(試模到量產移轉).
+4.確保線上組裝至測試模檢夾治具開發Data進度.
+5.確保線上NPI及SOP人員訓練狀況.
+6.確保產線稼動及異常問題點分析及排除.
+工作經歷專業技能要求:
+1.具汽車電子及ICCPD設計開發經驗.
+2.2/3D車用及電機PCBA製圖能力.
+3.具汽車電子及電機電路設計開發背景.
+4.工控儲能, 汽車電池高壓及充電系統電子電機開發背景.
+4.具強烈責任心及抗壓能力.
+5.熟悉TS16949及車用規範, APQP開發流程.",Gin HV,https://jobs.51job.com/kunshan/153564215.html?s=sou_sou_soulb&t=0_0&req=39860deee738634d65c0975eda729010
+单片机硬件开发师（电机控制）,苏州一卓工业技术,1.5-3万·15薪,昆山,昆山,大专,3年及以上,2026-07-14 22:07:41,job51,"岗位职责：
+
+负责电机控制系统的研发、测试和维护，熟练掌握嵌入式单片机及电机驱动的硬件或软件技术，熟悉电机控制算法； 
+1、嵌入式单片机硬件方案设计，控制主板及驱动版的开发；
+
+2、负责公司单片机软件相关开发工作，有做过Linux端开发优先； 
+
+2、嵌入式软件的开发，裸板驱动程序，上位机菜单界面编程，编制使用说明文件；
+
+3、有电机控制方面开发经验者优先
+
+
+任职要求：
+- 专科或以上学历，电机控制或相关专业；
+- 3年以上单片机开发经验，熟悉各种电机驱动技术，会原理图设计、PCB布板、BOM表制作
+- 熟悉电机控制算法，如PWM控制、矢量控制等；
+- 熟练掌握C语言、Python等编程语言；
+- 熟悉电路板设计，具有较强的电路设计与调试能力；
+-熟悉通讯协议，TCP/IP，modbus等
+- 具备一定的项目管理经验，熟悉敏捷开发流程； - 具备良好的沟通能力和团队合作精神，敢于挑战、敢于创新。",单片机 Linux C语言 Python TCP/IP Modbus 方案设计 项目管理,https://jobs.51job.com/kunshan/160916156.html?s=sou_sou_soulb&t=0_0&req=39860deee738634d65c0975eda729010
+电源高级开发工程师(电源工控类),天通精电新科技,1.5-2万,嘉兴·南湖区,昆山,本科,5年及以上,2026-08-03 10:27:38,job51,"岗位职责:
+1.	负责工控汽车电子品电源部分的设计，方案和关键器件选型；
+2.	完全负责300~2000W级各砖类电源产品的选型和开发。
+3.	负责产品规格制定、方案选型、电路设计、可靠性设计、可制造性设计。负责项目调试测试及验证。确保产品满足性能、质量及成本要求。
+4.	负责电源产品研发过程中的技术文件管理、评审过程管理。确保产品设计周期开发及技术资料交付完备性。
+5.	参与制定砖类产品线产品及技术规划，整合资源引进技术，服务客户，完善开发平台。
+任职要求:
+1.电力电子相关专业，硕士或本科5年以上中大功率ACDC产品设计调试经验。
+2.熟练掌握大功率产品功率变换电路的拓扑（PFC 、LLC、半桥、全桥等）。有数字电源开发经验者优先。
+3.有300W以上高效率，高功率密度ACDC电源产品设计经验，能独立进行电感/变压器设计以及优化，有EMC整改经验。
+4.有扎实的电力电子技术基础，良好的电路分析能力，较强的动手能力。能独立进行电源相关技术问题的分析及应对。
+5.熟练掌握产品开发工具（如：MathCad MATLAB计算、仿真、原理图绘制等软件）对产品理论设计有良好的设计过程经历。
+6.富于团队精神，有精益求精的设计习惯。有良好的计划性，能按时达成任务的交付。
+7. 有宽广的视野，有上下游资源整合和客户服务能力。",MATLAB 产品设计 客户服务 PFC LLC MathCad,https://jobs.51job.com/jiaxing-nhq/166406614.html?s=sou_sou_soulb&t=0_1&req=39860deee738634d65c0975eda729010
+资深产品开发工程师,内德史罗夫紧固件（昆山）,15-30万/年,昆山,昆山,大专,3年及以上,2026-07-13 10:51:02,job51,"工作职责：
+1.完成产品的开发和改进，以满足市场、客户项目、自研项目的需求。
+2.产品设计、测试和优化，确保产品的功能、性能和质量达到预期标准。
+3.与其他部门紧密合作，了解市场趋势和客户需求，为产品的创新和改进提供参考方向。
+4.产品成本控制和进度管理，以确保产品能够按时、按质、按量地完成。
+
+岗位要求：
+1.完成异型件、功能件及组合件开发阶段产品可行性分析。
+2.策划产品工艺路线并跟进产品的设计、开发和工艺改进。
+3.跟进开发出的产品的功能、性能和质量的测试和验证，确保其满足设计要求和客户需求。
+4.了解制造工艺可行性，指导工艺工程师完善工序参数制定。
+5.机械、车辆工程等理工科类专业。
+6.紧固件及相关行业工作经验3年以上。
+7.英语可做为工作语言的，优先考虑。",产品设计 成本控制 进度管理,https://jobs.51job.com/kunshan/159806337.html?s=sou_sou_soulb&t=0_0&req=39860deee738634d65c0975eda729010
+嵌入式软件工程师,上海辰仪测量技术,1-1.5万·13薪,昆山,昆山,本科,3年及以上,2026-07-30 17:20:33,job51,"岗位职责：
+1.负责现有产品嵌入式软件的日常维护、产线问题处理及客户端Bug修复工作；
+2.负责产品软件的版本迭代升级，包括功能模块的优化与改进；
+3.根据需求完成软件功能模块的代码编写、自测及联调，配合硬件工程师完成软硬件协同调试；
+4.参与量产阶段问题分析、缺陷修复及版本管理，保障产品稳定运行；
+5.编写和维护软件设计文档、调试记录和使用说明等技术文档
+任职要求：
+1.本科及以上学历，计算机科学与技术、电子信息工程、自动化、软件工程、测控技术与仪器等相关专业；本岗位可以接受优秀应届生
+2.熟悉C语言开发，具备良好的代码编写习惯和模块化编程能力；
+3.有MCU项目经验，熟悉至少一种主流单片机平台，了解常用外设接口和通信协议；
+4.能使用常用调试工具进行问题定位，具备基本的软硬件联调能力；
+5.具有良好的编码习惯、责任心和学习能力，能独立完成模块开发和维护工作；
+6.有FreeRTOS等嵌入式实时操作系统使用经验或量产维护经验者优先；
+7.具备良好的团队协作意识和沟通能力，能与硬件、测试等岗位有效配合。",C语言 MCU 单片机 RTOS 版本管理 技术文档,https://jobs.51job.com/kunshan/165247451.html?s=sou_sou_soulb&t=0_0&req=39860deee738634d65c0975eda729010
+电机控制嵌入式软件工程师,苏州一卓工业技术,1.6-2.5万·15薪,昆山,昆山,大专,2年及以上,2026-07-14 22:08:14,job51,"岗位职责
+
+1、参与产品需求分析、方案设计，制定产品软件开发计划;
+
+2、负责产品软件功能开发及软硬件联调工作，具备独立解决项目软件问题的能力;
+
+3、负责产品测试用例编写及维护、测试文档编写;
+
+4、参与项目需求分析，软件架构设计，规范化代码编写;
+
+5、负责持续优化产品软件性能，完善软件安全策略，提升用户使用体验:
+
+6、参与解决项目软件问题，分析问题原因，制定解决方案，并完成优化软件功能;
+
+7、编写软件设计和实现的相关文档。
+岗位要求:
+
+1、机械电子、自动等专业专科或以上学历，且从事嵌入式软件开发2年或以上;
+
+2、精通编程语言，熟悉常用的数据结构和算法，有良好的编程风格;
+
+3、熟悉MCU，单片机嵌入系统和GPIO、UART、ADC等常用外设驱动开发，有丰富的RTOS系统及内存管理经验，具备较强的WINDOWS或Linux或RTOS开发经验;
+
+4、熟悉TCP/IP、ProfiNet、EtherCat、Modbus协议 等主流PLC总线通讯协议
+
+5、有伺服电机控制方面系统软件产品成功案例者优先，工作内容是拧紧轴的扭矩控制单片机的开发，拧紧工具控制单片机的开发。
+
+6、有创业精神，出色解决问题的能力，严谨的归纳能力及应变能力，具有很高的工作热情及良好的抗压能力者优先。",MCU 单片机 UART RTOS Linux TCP/IP Modbus 需求分析 方案设计 测试用例 文档编写,https://jobs.51job.com/kunshan/160916665.html?s=sou_sou_soulb&t=0_0&req=39860deee738634d65c0975eda729010
+产品开发（汽车连接器）(J10107),昆山德朋电子科技,1.2-2.4万·14薪,昆山,昆山,大专,3年,2026-08-08 13:30:10,job51,"工作职责:
+与前方进行技术沟通，确认产品的应用和技术要求：
+1.将前方信息、要求等需求转化为工程规范，及时提供新产品设计方案
+2.负责零件清单/BOM构建，3D模型和2D图纸，产品规格，应用规格，DFMEA， DVPR，SC/CC清单:
+3.设计审查，以确保符合工程原理、高压标准、客户合同要求、验证和相关规范
+4.与跨部门团队对产品进行设计审查，以确认制造和质量控制的可行性
+5.DV/PV测试，负责解决产品设计和测试问题
+6.负责案件的PPAP移转放行
+任职资格:
+1.大专及以上学历，具备汽车连接器开发经验5年以上；
+2.具备独立完成连接器的设计开发 
+3.主导新产品从概念评估、方案设计、详细设计、样品制作、测试验证到量产移交的全流程技术工作。
+4.具备连接器相关的塑模，冲模，组装，电镀工艺 知识
+5.熟练使用CAD/SOLIDWORKS/PROE等绘图办公软件 
+6.良好的团队合作精神及沟通表达能力； 
+我司在张浦、市区城北、城南、城东、城西均有班车乘坐点！",产品设计 方案设计 DFMEA DVPR SC DV SOLIDWORKS,https://jobs.51job.com/kunshan/167870414.html?s=sou_sou_soulb&t=0_0&req=8feaaad3d563660a5aa40b16728ca26c
+C#软件开发工程师,苏州智程半导体科技,1.5-2.5万·13薪,昆山,昆山,本科,3年及以上,2026-07-07 15:50:33,job51,"岗位职责:
+1.半导体相关设备软件开发和优化;
+2.独立承担软件相关优化升级,软件开发工作;
+3.对自己已开发的模块的维护工作;
+4.配合测试人员进行软件优化和升级;
+岗位要求:
+1.计算机科学相关专业毕业,本科以上学历,有扎实的编程基础;
+2.熟悉项目开发流程,能够按照需求文档独立设计软件;
+3.熟练使用C#,熟悉.Net常用框架,面向对象开发;
+4.熟练使用ADO.NET,WINFORM,WPF多线程编程；
+5.至少熟悉一种数据库(SQL Server,MySQL等);
+6.具有TCP/IP,UDP,RS232/RS485等设备通讯开发经验;
+7.有一定的电气基础,认识常用的电气元件,熟悉常见的PLC通讯,TCP,Modbus等;
+8.有一定的MES或其他与客户系统对接工作经验;
+9.具有良好的沟通与团队合作能力,工作责任心强,能够承受工作压力。",C# SQL Server MySQL TCP/IP Modbus NET WINFORM SQL,https://jobs.51job.com/kunshan/156104073.html?s=sou_sou_soulb&t=0_0&req=8feaaad3d563660a5aa40b16728ca26c
+产品设计开发工程师-电动工具,实耐宝工具仪器（昆山）,1-2万,昆山,昆山,本科,5年及以上,2026-07-16 10:34:28,job51,"Job Responsibilities 
+ 1. Act as project engineer on new product development or transferring. (Need to be capable to do product requirement research, concept design, general proposal design, D-FMEA &amp; QFD, 2D/3D drawing design, tooling verification, product trial-run, product approval and so on……). 
+ 2. Maintain and improve on all existing products. (Need to be capable to use these methods such as matrix-build, Fishbone diagram, or DOE to study technical problems)
+ 3. Report on status of all current projects to the engineering manager 
+ 4. New products designing and realizing the solutions 
+ 5. Assist QC department and industrial engineers to complete assembly and test standards to ensure quality achievement. 
+ 6. Build up product structure including bill of materials.
+ 7. Work with QA on approval and sign off FAI report. 
+ 8. Coordinate with domestic and international parties on product transferring. 
+ 9. Assist sourcing department in identifying appropriate and qualified suppliers. 
+ 10. Support suppliers on the technical side including drawing, tooling and process. 
+ 11. Provide related cost reduction project support
+ 12. Other duties assigned by direct Supervisor. 
+Qualification Requirements：
+Bachelor’s degree/Master’s degree in Mechanical engineering or equivalent
+At least 1-3 years work experience in Air/Power tool design, production and project management.
+Be familiar with Knowledge about mechanical machining, die casting, plastic injection, punching, stamping
+ Be proficient in Pro/E 3D Modeling. Be good in project management",Gin Go Responsibilities Act Need D-FMEA QFD Maintain,https://jobs.51job.com/kunshan/138978915.html?s=sou_sou_soulb&t=0_0&req=8feaaad3d563660a5aa40b16728ca26c
+产品开发工程师,昆山豪润精密模具,1-1.8万,昆山,昆山,大专,3年及以上,2026-08-08 11:05:49,job51,"1.制定合理的产品测试计划，并参与产品的测试优化。
+2.就产品的研发方案、内容、进度和验收等问题给出解决建议。
+3.及时解决产品的生产故障.质量问题.技术问题。
+4.新产品设计阶段对新产品设计合理性的参与检讨。
+5.新零件图纸尺寸公差相关的合理化建议。
+6.新零件的首检.工程能力（即量产稳定性）。
+任职要求：
+1.掌握CAD UG等软件的操作。
+2.熟练运用OFFICE等办公软件。
+3.有冲压或压铸行业工作经验2年以上。
+4.有制程技术指导管理经验1年以上。
+5.具备一定的跨部门沟通能力。
+6.会英语者尤佳。",测试计划 产品设计,https://jobs.51job.com/kunshan/149522274.html?s=sou_sou_soulb&t=0_0&req=8feaaad3d563660a5aa40b16728ca26c
+紧固件产品开发工程师,内德史罗夫紧固件（昆山）,10-15万/年,昆山,昆山,大专,1-3年,2026-07-13 10:51:02,job51,"工作职责：
+1.完成产品的开发和改进，以满足市场、客户项目、自研项目的需求。
+2.产品设计、测试和优化，确保产品的功能、性能和质量达到预期标准。
+3.与其他部门紧密合作，了解市场趋势和客户需求，为产品的创新和改进提供参考方向。
+4.产品成本控制和进度管理，以确保产品能够按时、按质、按量地完成。
+
+岗位要求：
+1.完成异型件、功能件及组合件开发阶段产品可行性分析。
+2.策划产品工艺路线并跟进产品的设计、开发和工艺改进。
+3.跟进开发出的产品的功能、性能和质量的测试和验证，确保其满足设计要求和客户需求。
+4.了解制造工艺可行性，指导工艺工程师完善工序参数制定。
+5.机械、车辆工程等理工科类专业。
+6.紧固件及相关行业工作经验1-5年。",产品设计 成本控制 进度管理,https://jobs.51job.com/kunshan/157580777.html?s=sou_sou_soulb&t=0_0&req=8feaaad3d563660a5aa40b16728ca26c
+MES系统开发（工正）,昆山西交创新中心管理,6千-1.2万,昆山,昆山,大专,1-3年,2026-07-22 14:40:59,job51,"岗位职责：
+1、维护MES系统：VBA、VBScript、SQL Server 
+2、配合实施顾问完成ERP&amp;MES部分小功能的需求分析和模块设计；协助ERP/MES等软件实施上线，并对软件进行持续优化改进和维护管理。
+3、独立完成功能测试和模块编码； 
+4、负责编制与项目相关的技术文档； 
+任职要求： 
+1、计算机、软件、信息化管理相关专业，大专及以上学历 
+2、开发移动端APP：Vue(Uniapp框架、uView组件库)、C#(.NET Core框架、ORM-SQL Sugar框架)
+3、有C#(WinForm、ASP.Net)开发经验,熟悉.NET Framework, 熟悉C/S、B/S 及 WebAPI的开发与应用； 
+4、熟练掌握Html、Javascript、CSS、Jquery等；
+5、具有较强的软件开发能力和规范的开发行为，良好的编程风格及习惯；
+薪资福利：6000-12000
+上班时间：周一到周五： 8:00-18:00 周六：9：30-12：00 
+工作地址：花桥中茵",SQL Server Vue UniApp C# SQL JavaScript jQuery 需求分析 功能测试 技术文档,https://jobs.51job.com/kunshan/165727468.html?s=sou_sou_soulb&t=0_0&req=8feaaad3d563660a5aa40b16728ca26c
+前后端开发工程师（苏州工正）,昆山西交创新中心管理,6千-1.2万,昆山,昆山,大专,1-3年,2026-07-22 14:41:12,job51,"岗位职责：
+1、维护MES系统：VBA、VBScript、SQL Server 
+2、配合实施顾问完成ERP&amp;MES部分小功能的需求分析和模块设计；协助ERP/MES等软件实施上线，并对软件进行持续优化改进和维护管理。
+3、独立完成功能测试和模块编码； 
+4、负责编制与项目相关的技术文档； 
+任职要求： 
+1、计算机、软件、信息化管理相关专业，大专及以上学历 
+2、开发移动端APP：Vue(Uniapp框架、uView组件库)、C#(.NET Core框架、ORM-SQL Sugar框架)
+3、有C#(WinForm、ASP.Net)开发经验,熟悉.NET Framework, 熟悉C/S、B/S 及 WebAPI的开发与应用； 
+4、熟练掌握Html、Javascript、CSS、Jquery等；
+5、具有较强的软件开发能力和规范的开发行为，良好的编程风格及习惯；
+薪资福利：6000-12000
+上班时间：周一到周五： 8:00-18:00 周六：9：30-12：00 
+工作地址：花桥中茵",SQL Server Vue UniApp C# SQL JavaScript jQuery 需求分析 功能测试 技术文档,https://jobs.51job.com/kunshan/168194651.html?s=sou_sou_soulb&t=0_0&req=8feaaad3d563660a5aa40b16728ca26c
+机械开发工程师,江苏凯普斯工业科技,1-2万,昆山,昆山,大专,5年及以上,2026-08-07 10:20:43,job51,"本公司是唐泽（Karasawa）集团旗下的子公司，研发生产销售自行车零配件、电助力车、摩托车零配件，主要是刹车、变速系统。
+
+1、负责机械方面新产品的开发工作，完成产品的3D设计建模及工程图出图；
+2、负责新产品的打样、试制中的跟踪，故障分析及工艺改进与技术支持；
+3、负责产品工程技术、生产工艺问题及测试问题解决，有效推进产品开发项目的进展；
+4、总结产品研发经验，持续改进产品性能，参与产品问题分析及改进；
+5、具有产品成本意识，产品研发过程中成本管控；
+6、负责产品开发过程文件的制定和归档；
+7、完成上级主管安排的其他工作。
+任职要求：
+1、精通机械设计，熟悉冲压、机加、压铸、注塑等零部件制造工艺",技术支持 Karasawa,https://jobs.51job.com/kunshan/167814628.html?s=sou_sou_soulb&t=0_0&req=8feaaad3d563660a5aa40b16728ca26c
+机械设计/软件开发专家（博士）,苏州智程半导体科技,2-4万·13薪,昆山,昆山,硕士,无需经验,2026-07-07 15:44:11,job51,"工作内容：
+我们正在寻找博士级的机械设计 或 软件开发方便的专家，具有卓越的研究能力和实践经验，能够独立并有效地开展研究和项目，推动公司的技术能力和创新能力。
+
+主要职责：
+1、研究和开发新的技术和解决方案，以解决机械或软件问题。
+2、设计并实现新的产品，包括原型设计和制造。
+3、与研发团队密切合作，了解并解决项目中的问题。
+4、参与项目规划和管理，包括需求分析、设计评审和进度跟踪等。
+
+职位要求：
+1、 博士研究生，工科类，机械、软件相关专业；
+2、 具有相关领域研究经验，具有独立的研究能力和项目推进能力；
+3、 熟练掌握Solidworks \ CAD制图软件 或 C# \ PLC编程语言
+4、了解机械结构设计、材料科学、自动化制造等基本原理，熟悉各种机器学习算法；
+5、具备良好的沟通和团队合作能力，具备项目管理经验；",C# 机器学习 原型设计 需求分析 项目管理,https://jobs.51job.com/kunshan/157421214.html?s=sou_sou_soulb&t=0_0&req=8feaaad3d563660a5aa40b16728ca26c
+IT系统桌面应用开发工程师,昆山元崧电子科技,7千-1.2万,昆山,昆山,大专,3年及以上,2026-07-24 14:25:34,job51,"工作内容：
+1.负责公司内部 Windows 桌面应用程序 (WinForms) 的开发、维护、效能优化与故障排除。
+2.使用 C# (.NET Framework / .NET Core/ .NET 5+) 和 Delphi 进行新功能开发及现有系统的改造与升级。
+3.设计、开发与优化与 Oracle 数据库 的互动逻辑，编写高效、安全的数据库操作程序码。
+4.使用 SQL*Plus 或其他工具进行数据库查询、资料验证、脚本执行与基本管理操作。
+5.撰写SQL 语句、预存程序 (Stored Procedures)、函数 (Functions) 以及 PL/SQL 程序码。
+6.进行需求分析、系统设计、编写技术文件（规格书、API文件、数据库设计文件等）。
+7.与业务分析师、测试工程师及其他团队成员紧密合作，确保系统符合需求与质量标准。
+8.解决开发过程中和上线后遇到的技术问题，提供技术支援。
+
+职位要求：
+1.学历： 信息工程、计算机科学、软件工程或相关领域之学士学位。
+2.开发经验：
+&gt;&gt;具备 3 年以上 商业级 Windows 桌面应用程序 (WinForms) 开发经验。
+&gt;&gt;精通 C#： 熟悉 .NET Framework (4.x+) 或 .NET Core / .NET 5+，具备扎实的物件导向程序设计 (OOP) 能力，熟悉 WinForms 控制项、事件处理、多执行绪、异步程序设计 (async/await) 等。
+&gt;&gt;具备 Delphi (WinForms/VCL) 开发经验： 熟悉 Delphi IDE，理解 VCL 框架，具备使用 Delphi 开发或维护实际项目的经验。
+&gt;&gt;熟悉 Windows 桌面应用程序的部署与更新机制。
+3.数据库技能：
+&gt;&gt;精通 Oracle 数据库： 具备实际开发与维护连接 Oracle 数据库应用程序的经验。
+&gt;&gt;熟练掌握 SQL 和 PL/SQL： 能独立编写高效、复杂的查询语句 (SELECT, JOIN, Subquery, Aggregation)、资料操作语言 (DML - INSERT, UPDATE, DELETE)、资料定义语言 (DDL - CREATE, ALTER, DROP)。
+&gt;&gt;熟练使用 SQL*Plus： 具备使用 SQL*Plus 连接数据库、执行脚本、格式化查询结果、除错等实务操作能力。
+&gt;&gt;熟悉 Oracle 预存程序 (Stored Procedures)、函数 (Functions)、触发器 (Triggers)、套件 (Packages) 的开发与调用。
+&gt;&gt;理解基本的数据库设计原则（正规化、索引、约束等）。
+4.工具与技术：
+&gt;&gt;熟悉版本控制系统 (如 Git, SVN)。
+&gt;&gt;熟悉至少一种 Issue Tracking 或项目管理工具 (如 Jira, Azure DevOps, TFS)。
+&gt;&gt;具备基本的除错与效能分析能力。
+5.个人特质：
+&gt;&gt;优秀的逻辑思考与问题解决能力。
+&gt;&gt;注重程序码质量、可维护性与效能。
+&gt;&gt;良好的沟通与团队合作精神。
+&gt;&gt;主动学习意愿强，能适应技术演进。
+&gt;&gt;细心、负责，能有效管理时间与任务。
+加分技能 (具备以下条件者优先考虑)
+1.具备将 Delphi 应用迁移或整合到 .NET (C#) 平台的经验。
+2.熟悉 .NET 的 ORM 框架 (如 Entity Framework, Dapper) 与 Oracle 的整合应用。
+3.具备 WPF 开发经验 (虽以 WinForms 为主，但 WPF 知识是加分)。
+4.具备多层式架构 (n-tier) 或 MVC/MVVM 设计模式应用经验。
+5.具备基本的网络通讯知识 (如 HTTP, RESTful API) 及相关开发经验。
+6.熟悉 Oracle 数据库效能调校基础概念。
+7.具备其他数据库 (如 SQL Server, MySQL, PostgreSQL) 的使用经验。
+8.有开发特定行业（如制造、物流、金融）内部系统的经验。",C# Oracle SQL LTE Git SVN Azure DevOps SQL Server MySQL PostgreSQL 需求分析 项目管理,https://jobs.51job.com/kunshan/167318309.html?s=sou_sou_soulb&t=0_0&req=8feaaad3d563660a5aa40b16728ca26c
+.net开发工程师,富鼎电子科技（嘉善）,8千-1万·13薪,昆山,昆山,大专,3年及以上,2026-06-16 09:24:14,job51,"【工作内容】
+- 负责门禁设备与人事系统的对接，实现权限的自动化管控，提升系统运行效率；
+- 参与环保、安防等系统的实时监控平台开发与维护，确保数据采集与展示的准确性与及时性；
+- 负责安管系统的日常运维工作，包括系统部署、故障排查及性能优化，保障系统稳定运行；
+- 参与相关系统的功能开发与迭代升级，根据业务需求进行模块设计与代码编写；
+- 协同其他技术团队完成系统集成与测试，确保各模块之间的兼容性与稳定性；
+- 编写技术文档，记录系统架构、接口说明及操作指南，便于后续维护与交接。
+【任职要求】
+- 大专及以上学历，计算机相关专业优先，具备3年及以上.NET开发经验；
+- 熟悉C#语言、ASP.NET框架及SQL Server数据库，具备良好的编程习惯和逻辑思维能力；
+- 具备一定的系统运维经验，了解Linux/Windows服务器环境及常见问题处理方法；
+- 有环保、安防系统开发或运维经验者优先，能够理解并应用相关行业知识；
+- 年龄18岁及以上，具备良好的沟通能力和团队协作精神，能适应一定强度的工作节奏。
+【薪酬福利】
+- 提供具有竞争力的薪资待遇，具体面议； 
+- 五险一金齐全，享受国家法定节假日及带薪年假； 
+- 定期组织员工培训与技能提升活动，提供职业发展通道。",C# SQL Server Linux 数据采集 故障排查 技术文档 系统运维 培训,https://jobs.51job.com/kunshan/168380924.html?s=sou_sou_soulb&t=0_0&req=8feaaad3d563660a5aa40b16728ca26c
+电子硬件工程师,卡图电子（昆山）,1-1.5万·13薪,昆山,昆山,本科,3-5年,2026-06-29 09:13:53,job51,"1.负责公司嵌入式硬件技术开发，承担产品的硬件电路设计器件选型、PCB绘制;
+2.制定硬件相关的设计指导或规范;
+3.项目中产品的总体设计和新器件选型,关键电路设计认证,设计评审，负责样机验证，主导产品性能如安全、电磁兼容性等测试;
+4.提供产品生产和维护相关的技术支持,指导硬件工程师工作;
+5.开发文件编制;进行技术可行性分析和产品规划;
+6.负责公司产品整体硬件方案设计;
+7.配合进行硬件设计调试、验证、测试等工作;
+8.编写硬件相关文档:如设计报告、实验报告、验收报告等
+任职要求:
+1.本科及以上学历;
+2.2年以上嵌入式硬件开发经验，精通模拟电路和数字电路;可独立开发项目能力，具有一定的项目管理和执行能力，具有软件背景经验者优先;
+3.动手能力强，会焊接;
+4.会英语读写能力;
+5.有项目管理及团队建设经验者优先，
+6.熟练使用各类电子测试仪表，如:示波器、万用表等
+熟悉电子电路的调试工艺:
+7.熟悉电子电路的原理设计、PCB设计，需要熟悉EMCAD或EDA绘图软件，熟悉IIC、SPI串口等通讯协议。
+8.要求会C++，有3-5年相关软件工作经验",SPI C++ 技术支持 产品规划 方案设计 项目管理,https://jobs.51job.com/kunshan/169906240.html?s=sou_sou_soulb&t=0_0&req=8feaaad3d563660a5aa40b16728ca26c
+实验室负责人,昆山凯密科汽车零部件,1-1.5万,昆山,昆山,大专,5年及以上,2026-06-11 16:49:01,job51,"岗位职责：
+1. 实验室日常管理：制定并执行实验室管理制度，确保实验室安全规范、5S管理及人员操作规范符合要求； 协调实验室资源，统筹研发测试任务的排期与执行，确保项目进度与效率； 负责实验室人员的技能培训与绩效管理，提升团队专业能力及协作效率。
+2. 测试设备管理：负责实验室关键设备（如拉力机、粘性测试仪、阻燃性能测试设备等）的日常维护、校准及检定，确保设备运行状态符合标准； 制定设备采购计划，参与新设备选型、验收及安装调试工作； 建立设备使用记录与维护档案，解决设备故障并优化使用流程。
+3. 技术支持：主导或参与线束胶带、线束用管类及海绵材料的研发测试，制定测试方案并输出测试报告； 根据客户需求或行业标准开发新的测试方法，优化现有测试流程，提升测试准确性和效率；分析测试数据，为产品开发团队提供改进建议，推动产品性能优化。
+4. 质量体系与文件管理：建立并维护实验室文件体系、管理原始记录、报告及相关数据，确保信息保密与可追溯性； 配合内外部审核（如主机厂客户审核）或者参观，主导实验室相关迎审材料准备及现场管理工作。
+5. 跨部门协作：对接产品、生产、质量等部门，提供技术支持并推动问题解决，以及 协助处理客户技术咨询，参与技术方案讨论与需求分析。
+岗位要求：
+1、至少2年实验室相关管理经验；
+2、熟悉线束胶带（粘性、拉力、降噪、解卷力、耐候性等）、管类（阻燃、耐磨）及海绵材料的测试标准与方法；
+3、 熟悉ISO/IEC 17025、CNAS认可流程及质量管理体系要求；
+4、具备优秀的数据分析、问题解决及文档编写能力， 良好的沟通协调能力，能够应对客户审核及跨部门合作；",培训 性能测试 采购 技术支持 跨部门协作 技术咨询 技术方案 需求分析 数据分析 文档编写,https://jobs.51job.com/kunshan/166043872.html?s=sou_sou_soulb&t=0_0&req=8feaaad3d563660a5aa40b16728ca26c
+软件高级工程师,昆山华恒机器人,1.2-1.5万,昆山,昆山,本科,2年及以上,2026-07-20 16:17:36,job51,"一、岗位职责
+1、Linux 系统开发与维护：
+负责 Linux 环境下程序开发，编写脚本实现自动化部署、日志分析及系统运维功能，保障 Linux 系统稳定运行；
+Linux 内核修改：基于项目硬件需求，修改 Linux 内核代码（如驱动模块开发、内核参数调优、中断处理优化），完成内核编译、测试及移植，确保硬件设备与内核兼容，满足实时性与稳定性要求；
+
+2、单片机与嵌入式系统开发：
+负责单片机（如 STM32、ARM Cortex-M 系列）硬件驱动开发、应用程序编写，基于 FreeRTOS 实时操作系统进行任务调度、进程间通信等设计，实现单片机与上位机、外设的协同工作；
+
+3、运动控制与工业总线开发：
+主导运动控制相关功能开发，基于 CANopen、EtherCAT 工业总线协议编写通信程序，实现电机启停、速度调节、位置控制等核心功能；调试总线设备（如伺服驱动器、编码器），优化总线通信实时性与数据传输可靠性，确保运动控制精度满足项目要求（如定位误差、同步性）；
+
+4、项目协作与技术支持：
+配合硬件工程师完成设备硬件与软件的联调，参与产品需求分析、技术方案评审；记录开发过程中的技术文档（如设计文档、测试报告、用户手册）；为项目现场提供技术支持，解决设备部署与运行中的软件问题；配合团队完成新产品迭代与旧产品优化；
+
+5、技术研究与优化：
+跟踪 Linux 内核、FreeRTOS、工业总线（CANopen/EtherCAT）相关技术动态，引入行业先进开发工具与方法；优化现有运动控制算法与软件架构，提升设备运行效率与稳定性；
+
+
+二、任职要求
+1、学历与经验：
+本科及以上学历，计算机科学与技术、电子信息工程、自动化、机械电子工程等相关专业；有 Linux 开发经验，参与过 涉及 Linux 内核修改或工业总线（CANopen/EtherCAT）运动控制的项目，有单片机 + FreeRTOS 开发经验者优先；
+
+2、Linux 技术能力：
+熟练掌握 Linux 操作系统，具备独立开发 Linux 服务程序的能力；掌握 Linux 内核编译流程，能独立完成内核驱动模块开发、内核参数修改，理解内核中断、内存管理、进程调度等核心机制；
+
+3、实时系统能力：精通单片机、STM32 等主流单片机的硬件结构与编程，能看懂硬件原理图并进行驱动开发；熟练使用 FreeRTOS 实时操作系统，理解实时操作系统的任务调度原理与资源管理机制;
+
+4、运动控制与总线能力：理解运动控制原理（如总线控制），熟练掌握 CANopen、EtherCAT 工业总线协议的通信机制；具备基于总线协议开发电机控制程序的经验，能独立调试伺服驱动器、总线适配器等设备，确保运动控制功能稳定运行;
+
+5、编程与工具能力：熟练掌握 C/C++ 编程语言，具备良好的代码规范与调试能力；熟悉嵌入式开发工具；
+
+6、综合素养：具备较强的独立分析与解决问题的能力，能快速排查软件运行中的逻辑错误与通信故障；工作严谨细致，有责任心，具备良好的团队协作与沟通能力；能适应项目需求出差，有工业自动化、机器人、智能装备领域开发经验者优先。",Linux 单片机 STM32 ARM RTOS CAN C++ 日志分析 系统运维 技术支持 需求分析 技术方案 技术文档 产品迭代,https://jobs.51job.com/kunshan/168855209.html?s=sou_sou_soulb&t=0_0&req=8feaaad3d563660a5aa40b16728ca26c
+电子工程师（硬件）,昆山硕通电子,8千-1.5万,昆山,昆山,大专,3年及以上,2026-07-28 15:22:45,job51,"工作内容：
+1、 负责公司产品电子硬件部分的设计，原理图的绘制，PCB板layout；
+2、器件的选型及产品测试认证，与相关部门沟通配合，保证项目顺利完成；
+3、参与新项目的评估，确认项目在技术方面的可实现性；
+4、在产品设计开发阶段配合制造、品管等相关部门一起评估产品的可生产性；
+5、上级主管安排的其他工作
+
+
+技能及经验：
+1、大专以上学历，应用电子、电子信息、计算机相关专业；
+2、2年以上电源、充电器或相关行业电子产品设计与开发经验，同等电子工程师岗位3年以上工作经验；
+3、对电子类产品的安规、EMC有一定的整改经验；
+4、精通拟电路的设计、熟悉各类电子元器件性能及设计；
+5、熟练操作Altuim Designer、Autocad等设计开发软件；
+6、熟悉电源类产品的测试，熟练使用电源类产品的测试仪器。
+个性：
+1、性格开朗，思路活跃，追求创新，敢于承担；
+2、有缜密的逻辑分析能力，有较强的团队配合意识；
+3、具有较好的沟通能力；",产品设计 Designer,https://jobs.51job.com/kunshan/115314300.html?s=sou_sou_soulb&t=0_0&req=8feaaad3d563660a5aa40b16728ca26c
+射频研发工程师,昆山普尚电子科技,2-4万,昆山,昆山,本科,3年及以上,2026-07-28 13:12:40,job51,"【工作内容】
+- 设计、开发和测试基于PLL（锁相环）、DDS（直接数字频率合成）以及收发链路的微波射频系统；
+- 根据项目需求，进行PLL、DDS和收发链路的设计，包括但不限于频率规划、调制解调、功率分配等；
+- 使用仿真工具进行PLL和DDS模块的性能仿真，并优化设计方案；
+- 负责射频系统的整体集成和测试，确保其符合设计指标和行业标准；
+- 配合硬件和软件工程师，解决射频系统在集成过程中的技术难题；
+- 编写技术文档，记录设计过程和测试结果，以便于团队成员理解和使用；
+- 跟踪PLL、DDS和收发链路领域的新技术和新产品，为公司技术创新提供支持。
+【任职要求】
+- 拥有电子工程、通信工程或相关专业的本科及以上学历，硕士优先；
+- 至少3年PLL、DDS或射频收发链路设计经验，有相关项目经历者优先；
+- 熟练掌握PLL、DDS的原理及其设计方法，具备丰富的实际设计经验；
+- 精通射频电路设计，熟悉射频前端电路的结构和特性；
+- 熟练使用HFSS、CST、ADS等仿真工具，能够独立完成PLL、DDS及收发链路的仿真；
+- 熟悉射频测试设备，如矢量网络分析仪、频谱仪、信号发生器等，并能够进行有效的性能测试；
+- 具备良好的沟通能力、团队合作精神，能够在高压环境下高效工作；
+- 英语良好，能够阅读和编写英文技术文档。",技术文档 性能测试 DDS CST,https://jobs.51job.com/kunshan/114556989.html?s=sou_sou_soulb&t=0_0&req=8feaaad3d563660a5aa40b16728ca26c
+C++软件工程师,苏州博特勒机器人,1.5-2.5万,昆山,昆山,大专,2年及以上,2026-07-20 11:42:52,job51,"岗位职责：
+1.&nbsp;新产品机器人系统开发
+基于ROS机器人操作系统进行人形机器人整机系统架构设计与功能开发，负责上位机系统开发、模块集成、功能联调等工作，使用**C++**完成核心程序开发与实现。
+2.&nbsp;客户现场应用程序开发
+根据客户实际应用场景需求，开发机器人运动规迹相关程序、任务执行脚本、流程配置程序（如XML相关配置与解析），实现机器人在现场环境的功能适配与任务执行。
+3.&nbsp;现有产品问题维护与现场支持
+负责已交付机器人的系统维护、问题定位、BUG修复；支持客户现场与生产测试现场，快速解决机器人在实际使用过程中出现的系统软件问题，保障设备稳定运行。
+4.&nbsp;系统联调与算法、硬件协同
+与硬件团队、控制算法团队、视觉算法团队、测试团队紧密配合，完成系统集成、功能联调、性能优化，推动机器人整机系统稳定落地与持续迭代。
+5.&nbsp;技术文档与版本管理
+编写系统设计文档、开发说明、现场维护手册等技术资料，做好软件版本管理与迭代记录，保证项目可追溯、可维护。
+6、领导临时交办的其它事项。
+
+岗位要求：
+1、大专及以上学历，计算机、软件工程、自动化、机器人工程、电子信息等相关专业；
+2、精通 C++ 编程，具备扎实的编程功底与良好的代码规范；
+3、熟悉 ROS/ROS2 系统开发，有机器人上位机开发、功能包开发、消息通信等实际项目经验；
+4、熟悉常见的设备通讯协议（CANOpen、EtherCAT、RS232、485、TCP/IP、Modbus等）；
+5、有人形机器人、协作机器人、机械臂等相关机器人软件开发经验优先；
+6、能接受出差。",ROS C++ CAN TCP/IP Modbus 技术文档 版本管理,https://jobs.51job.com/kunshan/169147716.html?s=sou_sou_soulb&t=0_0&req=8feaaad3d563660a5aa40b16728ca26c
+上位机软件工程师,扬州京柏自动化科技,1.5-2万,昆山,昆山,本科,5年及以上,2026-08-04 14:12:33,job51,"一、岗位职责：
+1. 自动化项目软件需求分析、方案制定等；
+2. 视觉需求分析，方案验证及硬件选型； 
+3. 视觉处理及运动控制等项目的实施；
+4. 独立承担自动化软件开发工作；
+5. 对于已开发模块的维护工作；
+6. 配合测试人员进行软件优化和升级的工作； 
+
+二、岗位要求： 
+1. 本科及以上学历，5年及以上自动化行业工作经验，具有中型及以上非标自动化设备软件开发经验者优先； 
+2. 熟练使用C#编程实现设备的运动控制。",C# 需求分析,https://jobs.51job.com/kunshan/155574008.html?s=sou_sou_soulb&t=0_0&req=8feaaad3d563660a5aa40b16728ca26c
+RD研发工程师,昆山莹帆精密五金,1-1.5万·13薪,昆山,昆山,大专,2年,2026-06-11 10:38:03,job51,"莹帆集团，专业从事笔记本电脑散热模组，PC散热器.服务器散热器,热管,均热板(VC),电子风扇等该岗位负责将产品开发销售给下游整机制造商。
+
+工作描述： 
+ 1.熟练使用PRO-E和CAD 软件。根据客户需求提供设计方案，客户已有方案的专业评估及优化（散热），客户技术说明及沟通等； 
+ 2.散热方案设计:在产品设计的各阶段主导进行散热方案的设计及热测试验证，与跟踪热测试并出具优化意见；
+3.项目推进:协调并推进负责产品的进度，主导过程中散热方案的实施及验证；
+4.产品测试:根据客户要求按照客户标准或讨论指定的标准输出产品测试要求，并跟踪解决测试过程中的问题；
+5.出具报告:对模组进行可制造性分析-DFM，配合项目需求提供项目进度表，工艺流程图，SOP，SIP，PFMEA等；
+6.技术改善:收集客户反馈的产品迭代、产品改进后的技术，及质量问题；
+
+教育水平：大专以上学历。理工类优先。
+工作地点：江苏省昆山市张浦镇富利路258号",方案设计 产品设计 产品迭代 VC DFM SOP SIP,https://jobs.51job.com/kunshan/151329655.html?s=sou_sou_soulb&t=0_0&req=9ad3b174cec7ea88ed12092bb60b438f
+视觉工程师,江苏哈森工业智能装备,1.5-2.5万,昆山,昆山,本科,2年,2026-07-24 17:12:08,job51,"任职资格
+1、统招本科及以上学历，自动化、计算机、软件工程等专业毕业；
+2、了解计算机视觉原理，了解图像增强，轮廓提取与匹配等算法的应用；
+3、擅长HALCON或OPENCV等图像处理开发工具；
+4、擅长python或C#编程，网络通信等基本应用编程
+工作内容：
+1.熟悉CCD视觉软件编写，视觉硬件选型、调试，进行CCD定位或AOI检测方面的工作；
+2.负责计算机视觉（或深度学习）等相关的机器视觉（CCD)工程应用程序开发工作；
+3.重点开发CCD测量，缺陷检测等视觉应用程序开发；
+4.基于图像和点云的三维测量或缺陷检测项目应用程序开发；
+5.工作包括但不限于图像的特征点识别，匹配，多相机系统的标定
+6.负责自动化设备的视觉算法开发、视觉软件应用工作；
+7.负责CCD应用程序开发、调试、部署；
+8.根据项目开发要求，进行产品的视觉软件开发，测试和调试；
+9.协助售后人员，解决客户现场设备的机器视觉问题。
+10.责任制6天，能够配合加班和出差，熟练驾驶车辆，介意者慎投，感谢。",计算机视觉 OpenCV Python C# 深度学习 CCD,https://jobs.51job.com/kunshan/152930426.html?s=sou_sou_soulb&t=0_0&req=9ad3b174cec7ea88ed12092bb60b438f
+研发工程师,苏州优尼科绝热技术,1-2万,昆山,昆山,本科,3年及以上,2026-07-13 08:55:20,job51,"岗位职责：
+1. 负责实施产品开发，研制工作，制定开发计划；
+2. 按照客户需求，模拟、设计产品应用评估方法及实施；
+3. 实施竞品分析，制定检测分析方法、撰写分析报告；
+4. 协助质量，市场部门解决客户技术问题；
+5. 实验室管理，包括但不限于拟定产品表征方法，试验设备搭建，表征设备搭建等
+6. 完成其他日常研发，测试项目。
+
+岗位要求：
+1. 材料相关专业背景，具有耐火材料、保温材料或真空绝热材料研发、生产背景，熟悉材料性能测试分析及表征方法，如IR,XRD,TG,MS等；
+2. 能根据客户应用需求，自主设计试验方案、设计模拟测试方案；
+3. 了解材料特性，能够根据不同应用场景，设计研发相应产品配比和产品；
+4．熟练使用数据分析软件，如excel、origin、SPSS等，对测试数据进行分析，作横展得出变化趋势并提供专业的分析报告；
+5. 会熟练使用热工模拟软件、项目申报书撰写、专利撰写者优先；
+6. 英语书面和口语沟通熟练。",Gin 竞品分析 性能测试 数据分析 专利 XRD TG,https://jobs.51job.com/kunshan/159071428.html?s=sou_sou_soulb&t=0_0&req=9ad3b174cec7ea88ed12092bb60b438f
+运动控制软件工程,匠为创汽车智能装备科技（苏州）,1-1.2万,昆山,昆山,大专,2年及以上,2026-08-06 14:25:00,job51,"岗位职责：
+1.负责运动控制软件的全流程开发，包括利用C#/C++编写运动控制卡程序及设备调试，保障系统的精准运行。
+2.主导精密运动控制系统的整体方案设计，结合实际需求完成模块选型，制定经济高效的控制策略。
+3.对控制系统各模块进行测试、评估与分析，输出专业结论并推动优化迭代。
+4.快速定位并解决设计与实施过程中的技术问题，保障项目进度与质量。
+5.参与新项目、新技术的预研与开发，探索运动控制领域的前沿应用。
+
+任职要求：
+1.大专及以上学历，自动化，电机控制等相关专业背景；
+2.精通多轴联动控制、数控插补、加减速控制、小线段拟合、速度前瞻，补偿等核心算 法；
+3.至少熟练掌握一种主流运动控制卡（固高、雷赛、研华等）的应用与开发；
+4.熟悉C，C#等编程语言；掌握CANopen、EtherCAT、TCP/IP、　SECS/GEM、OPC等工业总线协议；
+5.熟悉控制原理，精通共振点分析.稳定带宽分析.位置精度.加减速等特性指标调试；
+6.理解PMSM伺服驱动软件硬件原理.PID原理.矢量控制原理；
+7.有螺丝机、点胶、插件、多轴高速机床、AOI、半导体加工等设备软件开发经验者优先。",C# C++ CAN TCP/IP 方案设计 EtherCAT TCP IP,https://jobs.51job.com/kunshan/154313664.html?s=sou_sou_soulb&t=0_0&req=9ad3b174cec7ea88ed12092bb60b438f
+座椅HDM设计工程师,浙江东禾机电制造,2-2.5万,昆山,昆山,本科,5年及以上,2026-06-23 09:42:56,job51,"【工作内容】
+- 负责汽车座椅HDM（Headrest, Lumbar Support, and Memory Foam）系统的设计与开发，确保产品符合人体工程学原理及客户的需求。
+- 参与座椅HDM产品的概念设计、详细设计、原型制作以及测试验证过程。
+- 协同跨部门团队（如：研发、生产、质量等），解决设计过程中遇到的技术问题，推动项目顺利进行。
+- 对现有座椅HDM产品进行性能评估，并提出改进方案以提高产品质量和用户体验。
+- 进行市场调研，跟踪行业动态，为新产品开发提供创新思路和技术支持。
+【任职要求】
+- 拥有机械工程、工业设计或相关领域的本科及以上学历。
+- 熟练掌握AutoCAD、SolidWorks或其他3D建模软件，能够独立完成座椅HDM系统的三维建模及二维图纸绘制。
+- 具备良好的沟通协调能力和团队合作精神，能够在多任务环境中高效工作。
+- 对汽车座椅设计有一定了解者优先考虑
+- 具备较强的学习能力和问题解决能力，对新技术充满热情。",市场调研 技术支持 Headrest Lumbar Memory Foam,https://jobs.51job.com/kunshan/165113784.html?s=sou_sou_soulb&t=0_0&req=9ad3b174cec7ea88ed12092bb60b438f
+C#高级工程师,昆山行恰软件科技,1.2-1.5万,昆山,昆山,本科,3年及以上,2026-07-06 09:02:08,job51,"岗位职责：
+1、根据业务需求，基于C#开发语言进行服务器端开发设计、实现、单元测试及功能迭代和维护； 
+2、遵照开发规范，负责服务器端项目的设计、编码和测试； 
+3、分析产品的基本功能和实现方式，编写软件工程文档和软件流程图，与策划、UI设计等配合，完成开发工作； 
+4、快速学习并掌握项目中使用的新技术，及时反馈开发中的问题，并根据开发过程中的用户体验提出改进建议； 
+5、根据需求完成产品的功能开发； 
+6、积极主动的配合公司各项任务安排。 
+职位要求:
+1、本科学历，计算机相关专业，3年或者以 上DotNet开发经验；
+2、有MES开发经验以及工厂实物经验优先。
+3、精通精通C#语言，MVC，EF架构；
+4.熟悉oralce,MySql等数据库开发，有较强的数据库设计、优化能力这个优先；
+5、有很强的OOP、OOD开发思想:
+6、具有良好的学习能力、沟通能力，乐于承担工作压力;
+
+ 公司提供有竞争力的薪资待遇和宽广的发展平台，诚聘天下英才；
+【福利待遇】
+我们清楚我们需要什么样的人才，并对加入到我们团队的所有员工提供最优化的福利保障：
+1、缴纳五险一金；
+2、全面化组织各种带薪培训，为你提供广阔的个人发展平台；
+3、周末双休，按国家法定节假日休假；
+4、餐费补贴、定期组织员工旅游、体检；
+5、生日福利及各种节日福利；
+6、完善的晋升机制，提供专业线和管理线两种不同的晋升路径；",C# MySQL 培训 MVC,https://jobs.51job.com/kunshan/151051266.html?s=sou_sou_soulb&t=0_0&req=9ad3b174cec7ea88ed12092bb60b438f
+认证工程师-工具和机器人,CSA GROUP,,昆山,昆山,本科,2-3年,2026-07-14 09:47:47,job51,"Job Summary:
+主要职责:
+
+根据相关产品标准、质量控制要求及工作流程，完成认证与测试项目
+积极与客户沟通、建立并执行项目管理计划，确保项目按时完成
+与客户沟通并回答、解释与讨论相关技术问题
+为销售和市场部门提供技术支持，包括参与研讨会和客户技术交流会等
+关注市场动态，收集市场信息，为开发新业务提供技术指导
+
+职位要求:
+
+学历：本科及以上
+专业：电气、自动化、控制、仪表、机械
+工作年限：2-3年以上，熟悉国际、国内工控产品标准，熟悉北美产品认证规则和流程者优先
+具备良好的团队合作精神、项目管理、客户管理能力，以及独立思考和解决问题的能力
+具备良好的英语口头交流、技术文件写作、听力和阅读能力，CET-6优先",客户沟通 项目管理 技术支持 Summary CET-,https://jobs.51job.com/kunshan/169899288.html?s=sou_sou_soulb&t=0_0&req=9ad3b174cec7ea88ed12092bb60b438f
+PLC工程师,江苏拓米洛高端装备,1.6-2.5万·13薪,昆山,昆山,本科,5年及以上,2026-06-15 09:34:54,job51,"工作职责：
+1.负责项目PLC控制系统的设计，包括系统硬件设计、软件编程（PLC、HMI）、系统测试；			
+2.负责产品控制系统的持续改进；				
+
+职位要求：
+1.3年以上控制系统设计开发经验,有温度、流量等过程控制开发经验的优先；
+2.精通西门子、信捷PLC编程，精通SCL编程；
+3.良好的分析问题和解决问题的能力。",PLC HMI,https://jobs.51job.com/kunshan/152213714.html?s=sou_sou_soulb&t=0_0&req=9ad3b174cec7ea88ed12092bb60b438f
+自动化线质量管理,源能智创（江苏）半导体,1-1.5万,昆山,昆山,本科,5年,2026-07-24 14:42:03,job51,"岗位职责：
+1、主导新自动化线设备供应商的技术与制程能力评审；
+2、制定自动化线研发设备在供应商处的集成测试与出厂验收标准；
+3、主导处理自动化设备在制程、客户现场或供应商端出现的重大或疑难质量问题，并推动制定纠正与预防措施，确保问题闭环；
+4、负责接收并处理项目现场反馈的自动化设备与DI设备异常问题，提供技术支持；
+5、主导运用8D方法解决复杂的质量问题；
+7、每季度发布自动化供应商集成质量绩效报告。
+任职要求：
+1、本科及以上学历，熟悉非标设备机械/电气/控制原理、机器人集成与调试，熟悉常见的工业通信协议及视觉系统集成
+2、 熟练使用8D问题解决方法论
+3、 从机电软整体系统视角预见和诊断集成风险
+4、 在技术层面与供应商工程师及管理层进行深度对话并施加影响。",技术支持,https://jobs.51job.com/kunshan/169832054.html?s=sou_sou_soulb&t=0_0&req=9ad3b174cec7ea88ed12092bb60b438f
+CQE客户质量工程师（昆山千灯）,唯丞精密电子（昆山）,1.5-2万,昆山,昆山,本科,3年及以上,2026-07-24 15:46:26,job51,"(一）岗位职责
+1.负责客户质量问题管理，包括提单记录、原因分析、纠正预防措施制定与跟踪验证；
+2.组织处理客户投诉抱怨，及时响应客户需求，制定解决方案，确保问题有效解决；
+3.开展客户质量审核与产品质量巡检，收集质量数据，分析质量趋势，识别质量风险；
+4.参与新产品开发阶段的质量策划，制定质量检验标准与测试方案；
+5.推动质量改进项目，运用QC工具（如鱼骨图、柏拉图等）分析质量问题，提升产品质量；
+6 编写质量报告，定期向管理层汇报客户质量状况及改进成果；
+7.与研发、生产、采购等部门协作，解决跨部门质量问题，建立良好的质量协作机制；
+8.培训员工质量意识，推广质量管理理念，提升团队整体质量水平。
+
+（二）任职要求
+1.本科及以上学历，质量管理、机械工程、电子工程等相关专业；
+2.三年以上制造业质量工作经验，有连接器行业CQE工作经验者优先，熟悉板对板（B2B）、浮动板对板连接器产品；
+3.熟悉质量管理体系（如ISO9001、IATF16949），掌握质量工具与方法，具备质量问题分析与解决能力；
+4.了解连接器产品检验标准、测试方法及行业质量要求，能独立制定质量管控方案；
+5.具备良好的沟通表达能力和客户服务意识，能有效协调内外部资源解决质量问题；
+6.工作严谨负责，具备较强的抗压能力和团队合作精神。",采购 培训 客户服务 B2B IATF16949,https://jobs.51job.com/kunshan/162879094.html?s=sou_sou_soulb&t=0_0&req=9ad3b174cec7ea88ed12092bb60b438f
+运动控制上位机软件工程师,江苏雷硕智能科技,6千-1.2万·13薪,昆山,昆山,本科,1-2年,2026-08-03 09:20:24,job51,"岗位职责：
+1: 根据客户运动控制需要，配合客户进行运动控制卡 控制器 PLC IO模块 通讯模块 电机驱动等硬产品的选型。
+2：解决客户运动控制卡 运动控器 PLC等产品使用过程中的硬件和软件方面问题。
+3：配合客户的一些软件方面的要求，进行相关的测试和验证。
+4：一些运动控制相关项目的程序编写和调试。
+5：伺服电机 步进电机等其他周边配套产品的应用支持。
+岗位要求：
+1、1-2年运动控制行业应用经验。（可接受优秀应届本科毕业生）；
+2、电气自动化 计算机 软件工程 机器人等相关本科毕业；
+3、熟练C#语言开发，委托、事件、反射、特性、多线程、Task、泛型等;
+4、熟练掌握SOCKET编程及 TCP/IP、UDP通信协议、串口通讯、Modbus协议(RS485、232);
+5、掌握WinForm界面开发、使用各种控件设计、熟悉使用GDl+进行自定义控件设计;
+6、熟练使用WPF依赖属性、路由事件，常用的MVVM模式，如Prism、CommunityToolkit等框架;
+7、具备独立编写技术设计文档，对设计工作讲行总结的能力。
+
+岗位优势:
+1、我们属于运动控制的自动化公司。我们的工程师会面对很多不同行业设备客户的不同需求，会接触到各种新的方案，新的技术。（相对于传统的设备公司，我们接触面广，成长速度快，发展空间会更广泛。）
+2、我们提供了 良好的学习平台和学习机会，不会的问题，会有专业的师傅在后面指导。对于想往这方面发展的工程师，是非常好的机会。",C# TCP/IP Modbus PLC Task TCP IP RS485,https://jobs.51job.com/kunshan/167299744.html?s=sou_sou_soulb&t=0_0&req=9ad3b174cec7ea88ed12092bb60b438f
+研发总监,昆山华阳新材料,1.2-2万,昆山,昆山,博士,10年及以上,2026-07-15 10:32:59,job51,"一、战略规划与方向制定： 
+ 1、制定并实施公司面料及服装研发的中长期战略规划，确保与公司整体业务目标协同。
+ 2、深入研究全球纺织服装行业技术趋势、新材料、新工艺、可持续发展和消费者需求变化，为产品创新提供前瞻性指引。
+ 3、定义核心研发领域和重点项目（如功能性面料、环保材料、智能制造工艺、数字化设计等）。
+ 4、建立并优化研发流程、标准和规范体系。
+二、 研发项目管理与执行： 
+1、全面负责从概念到量产的全流程研发项目管理（面料开发、服装版型、工艺技术等）。
+ 2、领导跨职能团队（面料研发、服装设计、版师、工艺工程师、测试实验室、采购、生产等）高效推进项目，确保按时、按质、按预算完成。
+ 3、主导关键技术和材料的选型、评估、测试与导入决策。
+ 4、解决研发过程中的重大技术难题和瓶颈。
+三、技术团队建设与管理： 
+1、组建、培养、激励和管理一支高绩效的研发团队（包括面料研发工程师、工艺工程师、版师、样衣师、测试工程师等）。
+ 2、设定清晰的团队和个人目标，进行绩效评估与反馈，促进团队能力持续提升。
+ 3、营造鼓励创新、协作和持续学习的技术文化氛围。
+ 4、负责相关技术人才的招聘、发展和保留。
+四、技术创新与知识产权管理：
+ 1、识别、评估和引进国内外先进技术、设备和材料，推动公司技术升级。
+ 2、主导或参与内部核心技术研发和创新项目。
+ 3、管理公司的技术知识产权（专利、技术秘密等），包括申请、维护和风险防范。
+ 4、建立和维护与高校、研究机构、供应商及行业组织的技术合作关系。
+五、 成本控制与供应链协同：
+ 1、在产品研发早期深度介入成本评估与控制，确保设计方案在目标成本范围内具有可生产性。
+ 2、与采购、生产部门紧密合作，评估供应商技术能力，优化原材料选择，确保研发成果能顺利转化为大规模生产。
+ 3、推动工艺优化以降低生产成本、提高效率。
+六、质量保证与标准化：
+ 1、建立并维护严格的面料和服装测试标准、质量标准和工艺标准。
+ 2、确保所有研发成果符合相关法律法规（如安全、环保）及客户要求。
+ 3、主导或参与重大质量问题的技术分析和改进。
+七、可持续发展推动：
+ 1、将可持续发展理念融入研发核心，积极研究和推广环保材料（如再生纤维、可降解材料）、低碳工艺和循环经济解决方案。
+ 2、确保研发活动符合公司及行业的环保和社会责任标准。
+八、跨部门沟通与协作：
+ 1、作为技术权威，与设计、商品企划、营销、销售、生产、采购等部门保持高效沟通，确保研发输入准确，输出满足市场需求。
+ 2、 向高层管理层清晰汇报研发进展、成果、挑战及资源需求。
+九、预算与资源管理：
+ 1、负责编制和管理研发中心的年度预算。
+ 2、合理配置研发资源（人力、设备、物料、外部合作等）。
+
+任职资格要求 ：
+一、教育背景： 
+1、纺织工程、材料科学与工程、服装设计与工程、化学工程等相关专业硕士或博士学历优先，优秀本科也可考虑。
+二、工作经验：
+ 1、10年以上纺织服装行业研发相关经验，其中5年以上研发团队管理经验（总监/高级经理级别）。
+ 2、 兼具面料研发和服装产品开发/工艺技术的深厚背景者优先。
+ 3、有成功领导复杂创新项目从概念到量产的全流程经验。
+ 4、熟悉国内外纺织服装产业链（纤维、纺纱、织造、染整、服装制造）。
+三、专业技能： 
+1、精通纺织材料科学、面料结构与性能、染整技术、服装制版、缝制工艺、产品测试标准。
+ 2、深入了解行业前沿技术（功能性材料、智能纺织品、数字印花、3D设计、智能制造等）。
+ 3、强大的项目管理能力（熟悉项目管理方法论）。
+ 4、优秀的成本意识和价值工程能力。
+ 5、扎实的质量管理知识和经验。
+ 6、对可持续发展在纺织服装领域的应用有深刻理解和实践经验。
+四、其他软技能：
+1、卓越的领导力、战略思维和决策能力。
+ 2、出色的沟通协调能力、影响力和跨部门协作能力。
+ 3、强大的分析、解决问题和创新能力。
+ 4、优秀的团队建设、人才培养和激励能力。
+ 5、良好的商业敏锐度和市场洞察力。",项目管理 采购 知识产权 专利 成本控制 供应链 质量保证 团队管理 跨部门协作,https://jobs.51job.com/kunshan/167878161.html?s=sou_sou_soulb&t=0_0&req=9ad3b174cec7ea88ed12092bb60b438f
+项目管理工程师/高级工程师（PM）,昆山丘钛微电子科技,1.5-2万,昆山,昆山,本科,5年及以上,2026-07-28 15:37:56,job51,"车载BU（项目岗位）
+1、 前期技术交流（客户RFI，图纸评审）； 
+2、 成本管控（前期报价，过程成本监控，组织降本）
+3、 确定项目进度计划（时间节点），并组织协调实施项目计划； 
+4、 客户例会(汇报项目进度，追踪OPL，全程日语)
+5、 负责组织、协调相关资源，保证按计划保质完成样品交付；
+6、 负责协调、组织解决样品生产中的所有问题；
+7、 项目开发过程中各阶段文件的收集、评审、控制实施、项目开发文件管理
+8、 主导和输出APQP文件,熟悉五大手册，8D工具，5W2H
+9、 完成上级安排的各项工作。 
+任职要求：
+1、 本科学历、日语专业，日语能力测试N1，日语可作为工作语言； 
+2、 5年以上汽车电子产品的项目管理经验，熟悉车载产品开发流程。有ADAS相关行业经验优先；；
+3、 熟悉摄像头模组研发生产测试
+4、 熟悉PCB 打板、贴片、封装工艺
+5、 熟悉ISO9001、IATF16949、VDA6.1/6.3/6.5、ISO26262等流程
+6、 熟悉主机厂DV/PV/APQP/PPAP等相关工具
+7、 具有良好的团队精神和抗压能力
+
+CCM BU（项目岗位）
+岗位职责：
+1. 负责欧美客户新项目承接， 处理RFQ/RFI ，问题收集反馈，以及报价信息输出。
+2.处理新项目规格确认，立项，计划，风险管控等。
+3. 项目立项后成立内部项目组，根据客户要求推动项目进度，协调项目制作过程中问题的处理，反馈。 
+4. 项目完成后及时总结复盘，并闭环项目过程中问题点。
+5. 组织降本增效方案提出以及追踪方案落地。
+任职要求：
+1. 熟悉摄像头模组生产流程。
+2. 摄像头项目管理工作两年以上
+3. 有PMP 证书优先。
+4. 沟通能力，执行力
+5. 英文听说读写流利。",项目管理 IATF16949 VDA6.1 PV APQP CCM BU RFI,https://jobs.51job.com/kunshan/108070192.html?s=sou_sou_soulb&t=0_0&req=9ad3b174cec7ea88ed12092bb60b438f
+连接器产品设计(J10106),昆山德朋电子科技,1.2-2.4万·14薪,昆山,昆山,大专,5年及以上,2026-08-08 13:30:10,job51,"工作职责:
+1.负责新产品开发可行性评估、方案设计、开发
+2.负责新产品各项技术资料的制定、发行，确保技术资料的正确性、完整性、安全性；
+3.负责新产品开发过程的评审、验证（包含零组件的确认、验证、评估等）
+4.主导新产品量试及异常的处理，量产品的结构优化等；
+5.参与产品工艺设计、改良、技术攻克等
+6.参与顾客投诉产品异常、制程异常等原因分析、改善对策
+任职资格:
+1.全日制大专及以上学历，具备5年以上连接器开发经验；
+2.具备独立完成连接器的设计开发 ，具有Type C或FPC案件独立开发者优先；
+3 .主导新产品从概念评估、方案设计、详细设计、样品制作、测试验证到量产移交的全流程技术工作。
+4.具备连接器相关的塑模，冲模，组装，电镀工艺 知识
+5.熟练使用CAD/SOLIDWORKS/PROE等绘图办公软件 
+6.良好的团队合作精神及沟通表达能力； 
+7.强烈的责任心和工作态度
+我司在张浦、市区城北、城南、城东、城西均有班车乘坐点！",方案设计 SOLIDWORKS,https://jobs.51job.com/kunshan/167867164.html?s=sou_sou_soulb&t=0_0&req=9ad3b174cec7ea88ed12092bb60b438f
+项目工程师,广东先进芯测智能装备,1.5-2.5万,昆山,昆山,本科,2年及以上,2026-06-23 09:12:34,job51,"1、为客户提供产品设计方案,把产品从最初概念设计转化到生产;
+2、掌控案件的开发进程,能独立面对客户并帮助客户系统地解决问题;
+3、协助QA处理客***投诉,并跟进内部改善的落实状况;
+4、统筹协调内部资源,确保项目按计划进行;
+5、制定产品规格书,测试报告,跟进项目进度。
+任职要求：
+1、本科以上学历项目管理等相关专业优先,英语能作为工作语言;
+2、2年以上项目管理经验优先考虑,制作项目总结报告,有一定谈判技巧;
+3、善于沟通和分析,性格开朗，会使用office软件。",产品设计 项目管理,https://jobs.51job.com/kunshan/159000505.html?s=sou_sou_soulb&t=0_0&req=9ad3b174cec7ea88ed12092bb60b438f
+产品工程师,苏州卡美特金属制品,1.2-1.5万,昆山,昆山,本科,10年及以上,2026-08-06 13:04:25,job51,"【工作内容】
+- 负责标牌/轮饰盖等产品从概念设计到量产的全流程开发与管理，确保产品符合客户需求和质量标准；
+- 制定项目时间计划并保持时时更新，启动项目关键节点、问题点的跟踪；
+- 制定产品技术方案，进行可行性分析与风险评估，确保项目顺利推进；
+- 管理并组织与客户的设计评审、项目评审及质量评审等方面的各类会议；
+- 跟进产品测试与验证，协调解决技术问题，保障产品按时交付；
+- 支持生产早期遏制和客户投诉，确保产品符合客户的各方面规范
+【任职要求】
+- 全日制本科及以上学历，机械工程、汽车工程等相关专业；
+- 10年及以上产品开发或相关工作经验，有成功产品落地案例者优先；
+- 熟练使用CATIA / UG / AUCAD 等软件者优先考虑；
+- 了解并熟悉注塑、冲压、印刷、喷涂、氧化等工艺的相关情况；
+- 熟悉产品开发流程，具备较强的技术分析与问题解决能力；
+- 具有与一级供应商和汽车行业主机厂合作的经验
+- 具备良好的沟通协调能力和团队合作精神，能适应多任务并行的工作环境；",技术方案 UG AUCAD,https://jobs.51job.com/kunshan/166039300.html?s=sou_sou_soulb&t=0_0&req=9ad3b174cec7ea88ed12092bb60b438f
+连接器&线缆产品设计-Cable,富士康电子工业发展（昆山）,1.2-2.4万·13薪,昆山,昆山,大专,8年及以上,2026-08-07 16:40:07,job51,"1.高頻線纜連接器、線纜產品及電子電路設計RD 主導各機能5GAIoT Cable 產品開發設計。
+2.對接 USRD and ADL,合作提出設計方案。
+3.串接方案之 DFM/FMEA/成本/時間/信頼性。
+4.合作串聯Connector RD 完成A-A 配提案/開發/測試/驗證,執行DR1-DR5。
+5.串接sBU完成製程設定/大量生產,執行DR6-DR7。
+工作經歷專業技能要求：
+1.產業經驗：有主導或帶領5GAIoT 高頻Cable產品開發到量產相關實績。
+2.專業背景：機械/電子/機電相關科系，具備8年以上高頻練纜連接器、線纜設計或電
+3.核心能力：具備高頻線纜連接器、線纜產品設計、SI設計或電子電路設計實務經驗，熟悉相關軟體工具，設備操作，製程設計，並有主導產品導入量產之能力。
+4.主管經驗: 具備5GAIoT高頻Cable獨立設計產品能力,並具備帶領團隊進行專案開發經驗者。",5G Cable USRD ADL DFM FMEA RD DR5,https://jobs.51job.com/kunshan/153494506.html?s=sou_sou_soulb&t=0_0&req=9ad3b174cec7ea88ed12092bb60b438f
+自动化工程师 机械设计工程师,富士康电子工业发展（昆山）,1-2万·13薪,昆山,昆山,本科,2年及以上,2026-08-08 09:26:05,job51,"未来工作描述：
+1.自动化非标组装设备的开发经验 
+2.新进设备安装测试
+3.配合新产品研发或制程改善，进行新设备治具开发
+4.设备改造及改善专案配合推进
+
+技能及经历要求：
+1.有治工具或自动化设备开发经验 
+2.二年以上机械相关中、小型自动化非标组装设备的开发与维护经验 
+3.熟练掌握Auto CAD及3D绘图工具 
+4.有连接器自动化组装设备开发经验优先 
+
+福利待遇：
+1.按照全薪基数缴纳五险一金
+2.优秀员工享受股票期权奖励
+3.完善的用人机制及公平的晋升平台
+4.较强的地区薪资竞争力，年终发放年终奖+绩效奖
+5.根据岗位素质要求，提供全面的技能培训，通畅的职业发展路径
+6.丰富的娱乐设施（健身房、台球厅、乒乓球室、羽毛球场地、图书馆、咖啡馆等）",培训,https://jobs.51job.com/kunshan/74999201.html?s=sou_sou_soulb&t=0_0&req=9ad3b174cec7ea88ed12092bb60b438f
+项目工程师（国外客户）,桑诺普精密光学（昆山）,1.2-1.8万,昆山,昆山,本科,2年,2026-08-05 08:39:33,job51,"1.负责项目进度计划的制定和实施，合理分配资源 ；
+2.负责产品开发（设计，图纸,物料，装配，测试，发货），并对项目进行风险分析及控制； 
+3.负责物料申请及物料监控，跟踪生产进程，促使订单准时完成 ；
+4.分配项目小组各成员任务，积极协调项目成员关系，确保每项任务有效完成 ；
+5.与客户进行日常沟通，清晰把握客户需求，并传递至公司内部 ；
+6.协助项目成员与客户进行沟通 ；
+7.项目运行过程中进行成本及质量监控 ；
+8.完成上级交代的其他工作事项。
+任职要求：
+1.本科及以上学历，机械，物理，电子等理工科专业；
+2.2-3 年相关工作经验，Tier 1/ 汽车行业工作经验或有光学镜头经验优先；
+3.英语4级及以上，能够读写英文邮件，熟练的口语交流能力（必备）；
+4.熟悉项目管理开发五大工具：SPC、 PPAP、FMEA、APQP和MSA；
+5.熟悉项目开发流程，新产品导入流程，熟悉产品设计开发和生产的各个环节 ;
+6.熟悉 TS16949、APQP、VDA6.3制程;",项目管理 产品设计 Tier SPC PPAP FMEA TS16949 APQP,https://jobs.51job.com/kunshan/115034112.html?s=sou_sou_soulb&t=0_0&req=9ad3b174cec7ea88ed12092bb60b438f
+QE工程师(品保工程师）,昆山福保精密电子,7.5千-1.2万·13薪,昆山,昆山,大专,2年,2026-08-03 10:52:20,job51,"1.制程质量管控:负责从样品到量产整个生产过程的产品质量控制，制定并更新线束生产
+过程检验标准(如首件检验、巡检、末件检验)。
+2.异常处理与改善:主导生产线质量异常处理(如端子压接不良、绝缘皮破损、错漏件、
+导通测试失败等)，运用8D、5Why、鱼骨图等工具推动根本原因分析与改善闭环。
+3.良率提升:统计并分析制程质量数据(如SPC控制图、直通率)，针对TOP不良项牵头
+跨部门改善专案，持续提升FPY(首次通过率)。
+4.变更与验证:参与工程变更(ECN)评审，评估制程质量风险，并主导变更后的验证及
+员工培训。
+5.客户投诉支持:协助CQE(客户质量工程师)完成客诉问题在内部制程端的排查与改善
+措施落实。
+6.审核与标准化:配合内部及外部体系审核(如IATF16949、VDA6.3)，确保制程作业
+符合质量体系要求。
+
+【任职要求】
+1.大专及以上学历，机械、电子、电气、工业工程等相关专业;2年以上制造行业PQE经
+验，1年以上线束行业(汽车线束、储能线束或消费电子线束)直接工作经验更优。
+2.熟悉线束全制程工艺，熟悉端子压接标准(IPC620)及常见缺陷模式。能熟练使用卡
+尺、千分尺、拉力计、压接剖面分析系统、万用表、耐压测试仪等量具。能快速定位产线
+问题的工艺或操作根源;具备较强现场沟通能力。
+3.熟练运用QC七大手法、8D报告、FMEA、CP(控制计划)、SPC。具备IATF16949
+内审员资格者优先。熟悉APQP流程，有参与新项目开发转量产经验;了解线束自动化设
+备者优先。",培训 ECN VDA6.3 IPC620 FMEA CP SPC,https://jobs.51job.com/kunshan/134169277.html?s=sou_sou_soulb&t=0_0&req=b3e22253dc8634c798f61cee8a1d1ad4
+c#软件工程师，视觉工程师,昆山鸿仕达智能科技,1.5-3万,昆山,昆山,本科,4-8年,2026-08-06 14:29:38,job51,"【工作内容】
+- 负责基于C#的软件开发与维护，包括但不限于Windows桌面应用、Web应用及移动应用；
+- 设计、实现及优化图像处理算法，以满足特定的视觉识别需求；
+- 与团队成员紧密合作，进行需求分析、系统设计、代码审查以及单元测试；
+- 根据项目计划，按时完成高质量的软件交付，并参与产品迭代改进；
+- 解决项目中遇到的技术难题，提升产品性能和用户体验；
+- 参与技术调研，引入新技术，推动团队技术进步。
+【任职要求】
+- 计算机科学或相关领域的本科及以上学历；
+- 熟练掌握C#编程语言，具备扎实的面向对象设计思想；
+- 精通.NET框架，熟悉WPF、WinForms或ASP.NET Core等至少一种技术栈；
+- 对计算机视觉有浓厚兴趣，熟悉Visionpro ，VM联合开发了解OpenCV、Emgu CV等常用视觉库者接受国外出差优先；
+
+- 具备良好的逻辑思维能力和问题解决能力；
+- 英语良好，能够无障碍阅读英文技术文档；
+- 具备良好的沟通能力和团队协作精神；
+- 有责任心，能承受一定工作压力，乐于接受挑战。",C# 计算机视觉 OpenCV 需求分析 产品迭代 技术文档,https://jobs.51job.com/kunshan/164343754.html?s=sou_sou_soulb&t=0_0&req=b3e22253dc8634c798f61cee8a1d1ad4
+高级电气工程师,江苏雷硕智能科技,1-2万·13薪,昆山,昆山,大专,5年及以上,2026-07-02 15:11:08,job51,"工作职责：
+1、精通三菱、西门子等系列的PLC，能熟练使用CODESYS平台开发的PLC编程软件，能根据技术协议需要架构整个工程所需要的各种模块的选型和使用；
+2、根据产品的设计要求提出系统的设计方案，原理图设计，PCB布线；
+3、负责系统样机的调试、测试及改进；
+4、对伺服马达和驱动器有一定的了解；
+5、能够撰写相关的技术文档。
+
+岗位要求：
+1、电子技术、自动化、机电一体化相关专业，大专及以上学历；
+2、5年以上相关工作经历，有较强的责任心和团队合作意识；
+3、熟悉相关开发工具、设计软件和电路仿真软件；
+4、有电机驱动、运动控制系统设计等研发经验者优先；
+5、有自动检测设备经验者优先。",技术文档,https://jobs.51job.com/kunshan/166510235.html?s=sou_sou_soulb&t=0_0&req=b3e22253dc8634c798f61cee8a1d1ad4
+SQE供应商质量管理,武汉埃创科技,9千-1万,昆山,昆山,大专,3年,2026-07-19 19:27:53,job51,"1、负责SMT（表面贴装技术）相关供应商（如PCB、FPC、电子元器件、结构件等）的准入审核、过程监控及绩效评估，确保其质量体系符合行业标准（如ISO 9001、IATF 16949等）。
+A、主导新供应商开发阶段的质量策划，审核PPAP（生产件批准程序）文件，确保量产工艺能力及检测标准满足产品要求；若涉及汽车电子相关业务，需对基础质量要求有一定了解。
+B、制定供应商质量协议，明确电子件、结构件的质量标准，推动供应商持续改
+
+2、 制程与检验管理
+ A、熟悉PCB/FPC全制程（如压合、钻孔、沉金、SMT贴片、回流焊等），能识别关键质量风险点（如阻抗偏差、曲度不良、焊锡缺陷等），并制定检验规范（SIP）及抽样计划（AQL标准）。
+B、主导电子件（电阻、电容、IC等）及结构件（连接器、金属/塑料外壳等）的检验流程优化，掌握材料性能测试（如盐雾、耐温测试）及尺寸精度验证方法（卡尺、投影仪等）。
+C、编制检验指导书并培训IQC团队，推动检验设备的合理使用与校准。
+
+3、 问题解决与持续改进
+A、 运用8D、5Why、鱼骨图等工具分析供应商来料异常（如PCB开短路、结构件变形），推动根本原因分析及闭环整改，降低质量故障率。
+B、跟踪客户及内部审核问题，确保供应商制程符合客户标准及行业规范。
+ 任职要求：
+1、本科及以上学历，电子工程、材料科学、机械制造等相关专业。3年以上电子制造行业SQE经验，熟悉SMT工艺及PCB/FPC生产流程；了解汽车电子基础知识，
+2、核心技能
+ 质量体系：精通ISO 9001，了解IATF 16949基本框架，熟悉五大工具（FMEA、APQP、PPAP、MSA、SPC）者优先；具备内审员证书更佳。
+
+ 技术能力：
+ 掌握PCB/FPC关键质量指标（如阻抗、曲度、焊盘附着力）的检测方法及标准（如IPC-A-610H）。
+ 
+ 熟悉电子件、结构件的材料性能及检验标准（如GB/T、ASTM系列），能解读规格书及失效分析报告。
+ 
+ 了解汽车电子相关基础质量要求（如可靠性、稳定性通用标准）者优先。
+ 工具应用：熟练使用Minitab/JMP进行数据分析，能解读CAD图纸",流程优化 性能测试 培训 数据分析 FPC IATF SIP FMEA,https://jobs.51job.com/kunshan/167276505.html?s=sou_sou_soulb&t=0_0&req=b3e22253dc8634c798f61cee8a1d1ad4
+电气工程师,江苏雷硕智能科技,8千-1.5万,昆山,昆山,大专,5年及以上,2026-08-06 17:53:20,job51,"江苏雷硕智能科技有限公司是一家以PLC 视觉系统 触摸屏 伺服电机 闭环电机 步进电机为主业的高新运动控制企业。公司为广大电子设备，纺织设备，包装设备等设备制造商提供系统开发方案。公司提供良好培训 薪酬 和晋升空间。公司可为员工提供上海或者苏州的社保。
+
+工作职责：
+1、精通三菱FX3G、FX3U、FX1N、FX1S等系列的PLC。.熟悉CODESYS平台编程。能根据技术协议需要架构整个工程所需要的各种模块的选型和使用；
+2、根据产品的设计要求提出系统的设计方案，原理图设计，PCB布线；
+3、负责系统样机的调试、测试及改进；
+4、对伺服马达和驱动器有一定的了解；
+5、能够撰写相关的技术文档。
+
+岗位要求：
+1、电子技术、自动化、机电一体化相关专业，大专及以上学历；
+2、5年以上相关工作经历，有较强的责任心和团队合作意识。
+3、熟悉相关开发工具、设计软件和电路仿真软件。
+4、有电机驱动、运动控制系统设计等研发经验者优先。
+5、有自动检测设备经验者优先；",培训 技术文档 FX3U FX1N,https://jobs.51job.com/kunshan/154687931.html?s=sou_sou_soulb&t=0_0&req=b3e22253dc8634c798f61cee8a1d1ad4
+高级研发工程师（J10019）,优护优家健康科技（苏州）,1.5-2.8万·13薪,昆山,昆山,大专,5年及以上,2026-06-10 15:32:53,job51,"岗位职责：
+1、化妆品新品开发（OEM/ODM），包含：身体乳、磨砂膏、水乳、洗发水、沐浴露等，详细职能包含：配方开发、打样对接跟进工作；
+2、配方稳定性、包材兼容性测试、微生物等相关测试工作-此工作有专门助理协助；
+3、产品交付过程中问题跟进、改善、沟通
+
+任职要求：
+1、对化妆品行业感兴趣，在护肤or洗护模块研发技术相对专业都行
+2、具有责任心、上进心，良好的工作心态。
+3、了解化妆品专业技术知识
+4、专业要求：化学专业相关优先
+5、5年以上的工作经验。
+
+
+优护优家正处于快速发展的阶段，欢迎各位有志之士的加入。",OEM ODM,https://jobs.51job.com/kunshan/139216361.html?s=sou_sou_soulb&t=0_0&req=b3e22253dc8634c798f61cee8a1d1ad4
+机械工程师,长园半导体设备（苏州）,1.8-2.3万,昆山,昆山,大专,5年及以上,2026-06-10 16:21:39,job51,"工作职责：
+1、负责机械零部件的开发设计，机械模块的设计；
+2、负责关键零件选型、测试；
+3、负责半导体封装设备整机开发；
+4、主导或者参与关键技术的研究、攻关、试验；
+5、分析并解决测试过程中、设计过程中、客户端设备等出现的问题；
+6、编写相关技术文件、出具设计图纸、BOM等。
+
+任职需求：
+1、机械设计、机电一体化等机械相关专业，大专及以上学历
+2、丰富的机械加工知识，熟悉材料性能，对所设计的零件的可加工性及成本有清晰的概念；
+3、有丰富的半导体贴装设备开发经验（5年以上），能够独立进行行业单机设备评估和开发；
+4、熟知半导体封测贴片工艺流程，熟悉半导体贴片的工艺特性和相关设备注意事项，对Sorter/键合/Bond等半导体设备有较深了解；
+5、熟悉机械加工、装配、调试工艺及自动化设计专业基础、原理、机加工艺分艺；
+6、扎实深厚的机械理论、气压、液压等专业知识，熟悉探针、气动元件及电机的选型；
+7、具有一定的机械装配、调试等能力,即有一定的动手能力，有一定的项目管理经验，曾经带领过设计小组工作；
+8、有较强的沟通与团队合作能力，认同公司的运营理念，能吃苦，善于团队协作，有良好的沟通和人际交往能力；
+9、善于和客户进行技术沟通和交流，良好的客户服务意识和团队协作精神,有耐心和责任心；",项目管理 客户服务,https://jobs.51job.com/kunshan/167815361.html?s=sou_sou_soulb&t=0_0&req=b3e22253dc8634c798f61cee8a1d1ad4
+plc电气工程师,江苏雷硕智能科技,1-2万·13薪,昆山,昆山,大专,5年及以上,2026-08-03 09:19:33,job51,"工作职责：
+1、精通三菱、西门子等系列的PLC，能熟练使用CODESYS平台开发的PLC编程软件，能根据技术协议需要架构整个工程所需要的各种模块的选型和使用；
+2、根据产品的设计要求提出系统的设计方案，原理图设计，PCB布线；
+3、负责系统样机的调试、测试及改进；
+4、对伺服马达和驱动器有一定的了解；
+5、能够撰写相关的技术文档。
+
+岗位要求：
+1、电子技术、自动化、机电一体化相关专业，大专及以上学历；
+2、5年以上相关工作经历，有较强的责任心和团队合作意识；
+3、熟悉相关开发工具、设计软件和电路仿真软件；
+4、有电机驱动、运动控制系统设计等研发经验者优先；
+5、有自动检测设备经验者优先。
+6、能独挡一面。",技术文档,https://jobs.51job.com/kunshan/160570600.html?s=sou_sou_soulb&t=0_0&req=b3e22253dc8634c798f61cee8a1d1ad4
+产品（机械设计）工程师,斯沃博达汽车电子（昆山）,1.2-1.5万·14薪,昆山,昆山,本科,5-7年,2026-08-07 09:36:23,job51,"Main responsibilities主要职责:
+1.	Design mechanical structure of automotive part (most electronic and switch parts) including enclosure and internal structure/interconnection设计汽车零件（主要是电子和转换零件）的构造，包括附件和内部的结构/结构间的相互连接
+2.	Participate in identifying, planning, and developing conceptual designs识别，计划和开发概念设计
+3.	Calculate and simulate to verify the mechanical design, including strength analysis, tolerance chain analysis, etc.通过计算和模拟验证产品的构造设计，包括力的分析，公差链分析等
+4.	Make 3D models and 2D drawings制作3D模型和2D图纸
+5.	Provide technical specifications for outsourcing parts为外购件提供技术规范
+6.	Analyze and solve product problems for products in field分析和解决领域内产品的问题
+7.	Prototype testing and validation – demonstrate that design works as intended样品试验和测试
+8.	Interact intensively with internal team and external team内部团队和外部团队的沟通
+9.	Communication with customer/supplier to understand/clarify technical issues和客户/供应商沟通技术问题
+10.	Work in compliance with the Occupational Health and Safety Act and Regulations and ensure that all employees are in compliance.遵守职业健康和安全条例和法规。
+11.	Support Management in Environmental, Safety and Health issues支持管理环境、安全与健康问题。
+12.	Comply with information security laws and regulations遵守信息安全条例和法规。
+
+Qualification Requirement任职资格要求：
+1.	Bachelor degree or above in Mechanical Engineering, Material Engineering or equivalent 机械设计本科学历以上或同等学历
+2.	5 - 7 years automotive mechanical design experience is required for this position5-7年机械设计工作经验
+3.	Advanced product design or application experience with focus in automotive part具有丰富的汽车行业元器件前期产品设计和应用经验
+4.	Excellent theoretical knowledge of mechanical design, including calculation and simulation skills丰富的机械设计理论知识，包括计算和模拟
+5.	Excellent skill to use CAD tools, such as CATIA or Pro/Engineer熟练使用CAD，如CATIA和Pro/Engineering
+6.	Good knowledge of material technology and manufacturing process熟知材料技术和制造工艺
+7.	Knowledge of engineering tools (QFD, FMEA, FEA, DOE.) will be plus掌握设计工具（QFD,FMEA,FEA,DOE）优先
+8.	Written and verbal English skills desirable良好的英语写作和口语沟通能力
+9.	Be proactive, take accountability and result-oriented积极主动，有责任心，注重结果
+10.	Good project management skills helpful有项目管理能力者优先
+11.	Good presentation and communication skills with strong focus at customers对客户具备良好的陈述能力和沟通技巧
+12.	Proven ability to work independently in a dynamic work environment and to strive for solid results by collaboration with colleagues from different background能够独立完成日常工作，并和不同背景的同事有效合作，取得工作成果",Electron AWS Gin Go 产品设计 项目管理,https://jobs.51job.com/kunshan/157293763.html?s=sou_sou_soulb&t=0_0&req=b3e22253dc8634c798f61cee8a1d1ad4
+助理工程师-研发中心,实耐宝工具仪器（昆山）,5-6千,昆山,昆山,大专,1年,2026-08-06 14:16:21,job51,"岗位要求： 
+1、大专及以上学历，理工科背景相关专业；
+2、熟练使用计算机和常用办公软件； 
+3、熟悉汽车电子和电控系统，了解汽车电控，动力，底盘，车身系统及汽车网络知识； 
+4、良好的书面和口头表达能力； 
+5、有汽车维修或诊断仪开发经验者优先；
+ 
+主要职责： 
+1、从事汽车诊断系统研究，数据分析和功能实现，用于开发汽车诊断设备； 
+2、分析汽车系统诊断需求，制定相关文档，将数据录入数据库，进行相关功能测试； 
+3、开发维护维修指导。",数据分析 功能测试,https://jobs.51job.com/kunshan/35979974.html?s=sou_sou_soulb&t=0_0&req=b3e22253dc8634c798f61cee8a1d1ad4
+机械设计工程师（减速机研发方向）,昆山华恒机器人,8千-1.5万,昆山,昆山,本科,2年及以上,2026-07-16 16:53:43,job51,"岗位职责：
+精密减速机的设计与开发；减速机性能测试评估；精密减速机生产加工工艺。
+岗位要求：
+1、本科，机械、机电一体化及相关专业；
+2、从事机械产品结构设计2年以上工作经验，从事减速机、齿轮箱设计方面的优先考虑。
+3、熟练使用SolidWorks、AUTOCAD相关制图软件，会使用仿真分析软件ANSYS，编程软件优先考虑；
+4、具有良好的沟通能力，组织能力及执行力，有一定机械产品研发项目的优先考虑；
+
+
+工作地点：昆山市吴淞江路99号",性能测试,https://jobs.51job.com/kunshan/79134805.html?s=sou_sou_soulb&t=0_0&req=b3e22253dc8634c798f61cee8a1d1ad4
+线束工程师,昆山嘉华电子,1.2-2.2万,昆山,昆山,大专,3年及以上,2026-06-10 14:20:49,job51,"岗位职责：
+1、负责新能源/汽车/通信设备等线束组件的设计、开发和验证；
+2、主导线束产品的3D/2D图纸绘制、BOM清单制定及技术文档编写；
+3、负责线束与连接器的选型、匹配及性能测试，解决相关的技术问题；
+4、与客户进行技术对接，理解和转化客户需求，提供技术方案支持；
+5、跟进产品试制和生产过程，分析和解决生产中的工艺问题。
+任职资格：
+1、机械/材料/电子理工科相关专业，大专以上学历；
+2、较好的理论知识和英文资料阅读理解能力；
+3、三年以上线束设计或连接器研发经验，有相关领域公司或研究机构工作经验优先；
+4、熟练运用相关设计工具和仪器设施；
+5、良好的沟通能力和团队协作精神
+6、熟悉相关体系、标准要求。",技术文档 性能测试 技术方案,https://jobs.51job.com/kunshan/167671029.html?s=sou_sou_soulb&t=0_0&req=b3e22253dc8634c798f61cee8a1d1ad4
+资深服装设计师,昆山华阳新材料,1.2-1.8万,昆山,昆山,本科,3-5年,2026-07-15 10:32:54,job51,"1、	注意市场调查，了解本企业服装产品销售动态，了解穿着对象的生活状态及消费心理，立马开发应市产品。
+2、	了解服装面料性能、风格、特色及价格，注重色泽、手感和光泽感，用现代最新潮流的服装辅料，设计创造出最新的款式，掌握成本基数，选定适时合理的款式定位。
+3、	绘制服装效果图，并仔细进行修改和设计答辩。负责美工、编制设计图纸，技术参数、测试标准等条件。
+4、	配合打版组对企业的各类公共关系人员仔细服务，提出优秀的个性化服装设计方案，使客户满意。
+5、	团结设计人员，与工艺人员密切配合，调整设计效果。使设计符合本企业生产条件及市场的需求。
+6、	建立设计及有关资料的档案，保管好相关图书资料，定期参加企业员工的培训工作。
+7、	积极参加各类大奖赛，并借机会宣传本企业，为企业树立品牌形象。
+任职要求：
+1、	本科以上学历，服装设计专业毕业。
+2、	3-5年以上相关工作经验。
+3、	有独立设计的工作能力。
+4、	有一定的沟通思维能力、创新能力、有较强的创意能力。
+5、	服从公司安排。",培训,https://jobs.51job.com/kunshan/167878516.html?s=sou_sou_soulb&t=0_0&req=b3e22253dc8634c798f61cee8a1d1ad4
+MIM工程师,昆山可美克精密电子科技,1.3-2万,昆山,昆山,大专,3年及以上,2026-07-28 10:56:26,job51,"负责新产品开发，开发新技术，使产品顺利量产。
+工作职责描述：
+1、新产品开发DFM、CBD报价及样品制作交付跟进。
+2、与客户内MDE/MQE，DOE验证，报告分析总结
+3、控制生产制造程序，不断改进生产工艺，提高生产效率。
+4、解决生产过程中出现的异常，不断提高产品制作工艺和客户的需求。
+5、制作并管理新产品开发中的相关技术文件和数据。
+6、对相关人员提供产品技术培训。
+7、其他：完成上级安排的其他事项。
+任职要求：
+3年以上MIM行业工作经验，熟练掌握MIM工艺流程、可以独立完成工艺流程的制定、独立完成试做及风险评估。具备专案leader。A项目经验优先",培训 MQE,https://jobs.51job.com/kunshan/163149820.html?s=sou_sou_soulb&t=0_0&req=b3e22253dc8634c798f61cee8a1d1ad4
+焊接高级工程师（SMT 锡焊),昆山联滔电子,1.5-2.2万,昆山,昆山,本科,5年及以上,2026-08-07 08:14:39,job51,"工作内容：
+1、 负责SMT生产线焊接工艺技术开发与优化，主导回流焊、波峰焊等关键设备参数调试及工艺验证；
+2、 分析焊接缺陷（如虚焊、桥连）成因，制定改进方案并推动实施，提升产品良率至98%以上；
+3、 编制焊接作业指导书、检验标准及质量控制流程文件，确保生产过程可追溯性；
+4、 协同工程和设备团队完成新材料/新器件焊接适配测试，解决高温合金、高密度PCB等复杂场景焊接难题；
+5、对接客户技术需求，提供焊接工艺支持，参与新产品导入（NPI）阶段的技术评审与问题攻关；
+5、定期维护保养焊接设备，监控能耗与效率指标，提出降本增效改进建议。
+岗位要求：
+1、 本科及以上学历，电子工程、材料科学或机械自动化相关专业；
+2、3年以上SMT焊接工艺经验； 对主流回流焊炉的硬件和工艺比较熟悉，比如JT, Sonic, BTU，Ersa, Heller等；
+3、对垂直炉，UV炉的硬件和工艺比较熟悉；
+4、对测温板的制作和炉温曲线的调试富有经验；
+5、对以上焊接工艺有成功的降本改善的案例；
+6、逻辑清晰，能积极寻找改善点，推进标准化；
+7、具备跨部门协作能力，能适应高强度现场技术支持及突发问题响应压力；
+8、愿意配合项目要求加班。",跨部门协作 技术支持 NPI Sonic BTU Ersa,https://jobs.51job.com/kunshan/169130683.html?s=sou_sou_soulb&t=0_0&req=b3e22253dc8634c798f61cee8a1d1ad4
+研发工程师（J10019）,优护优家健康科技（苏州）,8千-1.5万·13薪,昆山,昆山,大专,2年,2026-06-10 15:32:52,job51,"岗位职责：
+1、化妆品新品开发（OEM/ODM），包含：身体乳、磨砂膏、洗衣液、除菌类产品等，
+ 详细职能包含：配方开发、打样对接跟进工作；
+2、配方稳定性、包材兼容性测试、微生物等相关测试工作-此工作有专门助理协助；
+3、产品交付过程中问题跟进、改善、沟通
+任职要求：
+1、对化妆品行业感兴趣，偏向于护肤行业
+2、具有责任心、上进心，良好的工作心态。
+3、了解化妆品专业技术知识 
+4、专业要求：化学专业相关优先
+ 
+5、2年以上的工作经验
+
+优护优家正处于快速发展的结算，欢迎各位有志之士的加入。",OEM ODM,https://jobs.51job.com/kunshan/139027059.html?s=sou_sou_soulb&t=0_0&req=b3e22253dc8634c798f61cee8a1d1ad4
+财经系统架构工程师,昆山丘钛微电子科技,1-2万,昆山,昆山,本科,5年及以上,2026-07-24 11:53:46,job51,"岗位职责：
+1、负责公司财务管理系统的整体架构设计，确保系统能满足业务需求并具有高度的可扩展性、稳定性和安全性。
+2、负责公司集团财务管理系统架构的实施，包括统筹进行系统开发、集成和测试，确保系统架构的落地和实现。
+3、深入理解财务业务需求，与业务部门紧密合作，确保系统架构能够满足业务需求。根据业务需求变化，及时调整和优化系统架构，确保系统的灵活性和适应性。整理并提出相配套的技术解决方案，确保服务安全可靠、高质量和高性能。
+4、负责财经管理系统的升级和维护工作，确保系统能够及时适应业务发展和技术变革。
+ 1、大学本科以上学历，会计、计算机科学等相关专业优先；
+2、拥有5年以上的财务系统研发经验或者大数据和系统架构相关工作经验。
+3、逻辑思维能力较强，具有较好的沟通、协调及执行力，良好的团队意识，做事细致、谨慎。
+4、良好的职业操守，强烈的敬业精神与责任感，岗位原则性强，善于进行数据分析，对数据敏感度高。
+5、 熟悉鼎捷、Oracle或SAP等公司的ERP系统或其他财务管理系统，熟练掌握ERP系统的总账模块、结算模块、成本模块的应用等",Oracle 数据分析,https://jobs.51job.com/kunshan/162445864.html?s=sou_sou_soulb&t=0_0&req=b3e22253dc8634c798f61cee8a1d1ad4
+ATE测试工程师,弘润半导体（苏州）,1-1.8万·13薪,常熟,常熟,本科,1年及以上,2026-07-08 11:13:43,job51,"岗位职责：
+职责一：测试方案开发与实现
+1）独立完成基于ATE（如Teradyne J750，Chroma3380/3360P，ACCOSTS8200/8300等）的测试程序开发、调试与验证；
+2）负责测试接口板（Loadboard,
+Probe Card）的原理图设计和PCB布局检查，并能独立完成硬件调试和故障分析；
+3）制定和完善测试规范（TestPlan）和标准操作流程（SOP）；
+职责二：数据分析
+1）主导新产品的初测（***
+Silicon Bring-up）和良率评估工作；
+2）运用数据分析工具（如Excel, SA_StdfAnalyzer、Minitab等）进行深度数据挖掘，完成统计性分析（如相关性分析、CPK计算、Guard-band设置）；
+职责三：量产支持与效率提升
+1） 监控量产测试良率，快速响应并解决产线出现的测试异常和良率问题；
+2）持续优化测试程序，提升测试效率（UPH）、降低测试成本（Cost Down）；
+3）与生产团队和供应商密切合作，确保测试环境的稳定性和测试数据的一致性；
+职责四：跨部门协作与沟通
+1）与测试设备、测试工程、计划等团队高效协作；
+2）支持客户相关的技术问题，提供必要的测试数据和技术解释。
+岗位要求：
+1. 电子工程、微电子、通信、自动化、机电等相关专业；
+2. 熟悉Perl, VB, C，C++，.Net等语言，能够独立完成程序开发； 熟悉数字、混合信号或RF芯片的测试原理和方法；
+3. 1年以上集成电路测试方案开发经验，熟练掌握至少一种主流ATE平台（Advantest 93K 或
+Teradyne J750/ Chroma 3380/3360P，ACCO STS8200/8300 优先）的编程和调试；
+4. 具备英语阅读能力，可以看懂英文技术文档；
+5. 良好的职业操守及团队合作精神，有带领团队能力者优先。
+职位福利：五险一金、上五休二、年底双薪、带薪年假、免费工作餐、定期体检、员工旅游、生日福利、节日福利等",Perl C++ 数据分析 跨部门协作 技术文档 J750 Chroma3380 ACCOSTS8200,https://jobs.51job.com/changshu/167717717.html?s=sou_sou_soulb&t=0_0&req=060f165b230c91fc335e0edc3177f241
+资深研发工程师,瑞电士（常熟）传感器,1.8-2.5万·13薪,常熟,常熟,本科,5年及以上,2026-07-29 09:15:03,job51,"外资企业，有英语要求
+职责：
+1.开发新产品，改进现有产品，开发生产测试仪器；
+2.测试评估新产品；
+3.编辑开发测试报告等文档；
+4.解决生产或客户应用产生的问题；
+5其他临时交办的任务或项目。
+技能：
+1.英语听说必须流利
+2.熟悉STM32主流单片机应用
+3.熟练使用C语言编程语言
+4.熟练的软件调试和测试能力
+5. 熟练应用万用表，示波器等分析仪器
+6. 有PCB layout 绘图能力更佳",STM32 单片机 C语言,https://jobs.51job.com/changshu/166960993.html?s=sou_sou_soulb&t=0_0&req=060f165b230c91fc335e0edc3177f241
+伺服驱动器软件开发工程师,苏州特点电子科技,2-3万,常熟,常熟,本科,5年及以上,2026-07-24 08:51:06,job51,"关于您的职位描述：
+1、 负责伺服驱动器控制软件功能开发和完善；
+2、 负责伺服驱动器整机应用测试；
+3、 负责客户技术支持及客户培训。
+
+我们期待的您：
+1、5年以上相关工作经验；
+2、有伺服驱动软件开发经验者优先；具备交流伺服驱动、电机控制等相关理论知识；熟悉DSP\FPGA等芯片的基本架构和编程知识；
+3、能配合加班及出差，具良好的团队合作意识；
+4、本科及以上学历，电气工程及其自动化、电子信息工程、计算机等相关专业。
+
+您将拥有：
+1. 广阔的发展前景；
+2. 完善的薪酬体系；
+3. 畅通的晋升渠道；
+4. 良好的福利待遇；
+5. 优美的工作环境；
+6. 融洽的工作氛围。
+
+苏州特点电子科技有限公司期待您的加入！",DSP FPGA 技术支持 培训,https://jobs.51job.com/changshu/139711427.html?s=sou_sou_soulb&t=0_0&req=060f165b230c91fc335e0edc3177f241
+测试工程师,苏州英特模科技,8千-1.5万,常熟,常熟,本科,1年,2026-07-26 10:33:03,job51,"岗位职责；
+1.负责汽车行业动力领域研发样机的测试工作，理解试验大纲，掌握试验要求，编写试验程序，完成试验工况；
+ 2.负责试验项目管理工作，指导技师进行测试工作，整理发送试验日志、报告等；
+ 3.负责与客户的项目沟通交流、技术对接，协同客户完成trouble shooting、问题解决等工作，确保客户项目的顺利运行；
+4.能够独立处理新能源等的常见故障，乐于学习汽车研发领域的相关技术、知识。
+
+任职要求： 
+1.大学本科及以上，车辆/电子电气/自动化等相关专业；
+2.熟悉混合动力、电动、变速箱、传动系统等测试工作；
+3.学习能力强，具有良好的英语听说写能力；",项目管理 shooting,https://jobs.51job.com/changshu/137151448.html?s=sou_sou_soulb&t=0_0&req=060f165b230c91fc335e0edc3177f241
+试验工程师,应雪汽车科技（常熟）,8千-1.2万,常熟,常熟,大专,2-3年,2026-07-21 12:55:45,job51,"经验：
+1、有整车热管理系统性能标定与路试标定(整车降温、采暖性能标定，BMS策略控制，冷却风扇进风量标定，电池制冷、抗结霜实验、电池加热等)经历优先。
+2、有汽车空调零部件检测、系统台架搭建、整车系统性能测试等经历优先。
+3、应具有从事汽车空调检测专业技术工作5年以上工作经历优先。
+具备技能
+1、具有车辆工程，控制工程、暖通制冷、汽车制造及试验技术、机械、机电设备等相关专业。
+2、熟悉空调热管理热泵系统工作原理,熟悉空调热管理系统零部件架构;
+3、熟悉CANOE、LIN、CANAPE等通讯协议等软件标定测试工具;熟悉整车标定开发及验证流程。
+4、熟悉CNAS-CL01:2018《检测和校准实验室能力认可准则》及其应用要求、汽车零部件检测领域的应用说明，以及相关的指南、规则的条款要求。
+5、有较强的学习能力和动手能力，善于沟通表达，具备较强的抗压能力。
+6、工作认真负责、勤奋踏实、思维清晰、严谨、能吃苦耐劳、有较强的团队合作能力和创新意识。
+7、能够熟练操作应用 ofice办公软件
+工作内容
+1、负责客户试验对接及试验大纲工况评审。
+2、负责空调热管理软件标定、整车空调热管理系统环模仓测试标定，
+3、负责整车标定试验，新能源整车电器原理，CAN通讯信号解析、数据分析、项目报告。
+4、负责汽车空调零部件性能检测、系统台架搭建、整车系统性能测试及路试标定等
+5、负责试验数据的记录和管理，检测报告的编辑、设备管理文件编制责任等。
+6、负责设备及检具的日常保养及现场的5S工作。
+7、能接受长期出差及早、中班。",CAN 性能测试 数据分析 LIN CL01,https://jobs.51job.com/changshu/143863417.html?s=sou_sou_soulb&t=0_0&req=060f165b230c91fc335e0edc3177f241
+平台产品开发工程师,江苏正力新能电池技术,1.5-2.3万·14薪,常熟,常熟,硕士,3年及以上,2026-08-02 20:05:57,job51,"工作职责
+1. 汇总上下游部门资源，负责高比能、长寿命、超级快充等前沿电芯产品开发；
+2. 负责电芯新型化学体系平台开发，技术攻关与支持；
+3. 客户需求应对；
+4. 电芯设计、样品制备、测试评估；
+5. 电芯失效分析，性能改善；
+任职要求
+1. 硕士以上学历，3年以上锂电研发工作经验，研究方向为高镍（高电压）材料、硅负极、锂金属负极、固态/半固态电解质、电解液；
+2. 熟悉锂电池性能与分析测试方法，掌握EIS、XRD、SEM等表征手段及数据处理分析方法；
+3. 熟练使用Minitab、Office、CAD等常用办公软件；具备英文读写能力；
+4. 有较强逻辑思维能力、沟通表达能力、团队协作能力和抗压能力。",XRD,https://jobs.51job.com/changshu/163172488.html?s=sou_sou_soulb&t=0_0&req=060f165b230c91fc335e0edc3177f241

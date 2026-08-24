@@ -1,0 +1,15 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": {
+    "jobs": [
+      { "job_id": "job_002", "job_name": "NLP 算法工程师", "match_score": 0.92, "matched_count": 5, "required_count": 6 },
+      { "job_id": "job_001", "job_name": "机器学习工程师", "match_score": 0.85, "matched_count": 5, "required_count": 7 },
+      { "job_id": "job_005", "job_name": "数据分析师", "match_score": 0.74, "matched_count": 4, "required_count": 6 },
+      { "job_id": "job_003", "job_name": "AI 研究员", "match_score": 0.68, "matched_count": 4, "required_count": 8 },
+      { "job_id": "job_004", "job_name": "CV 工程师", "match_score": 0.58, "matched_count": 3, "required_count": 7 },
+      { "job_id": "job_006", "job_name": "大数据工程师", "match_score": 0.42, "matched_count": 2, "required_count": 7 },
+      { "job_id": "job_007", "job_name": "后端开发工程师", "match_score": 0.35, "matched_count": 2, "required_count": 8 }
+    ]
+  }
+}

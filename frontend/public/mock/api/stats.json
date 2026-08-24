@@ -1,0 +1,10 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": {
+    "job_count": 760,
+    "skill_count": 512,
+    "last_updated": "2026-08-07 09:32",
+    "match_count": 54789
+  }
+}

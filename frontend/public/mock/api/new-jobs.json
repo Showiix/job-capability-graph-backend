@@ -1,0 +1,72 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": [
+    {
+      "id": "nj_001",
+      "title": "AI 产品经理",
+      "confidence": 94,
+      "category": "大模型应用",
+      "required_skills": ["LLM应用设计", "需求分析", "数据驱动决策"],
+      "bonus_skills": ["Prompt工程", "A/B测试"],
+      "source_count": 156,
+      "generated_at": "2026-08-05 09:32",
+      "status": "pending",
+      "responsibilities": "主导 AI 产品从需求到落地的全链路，具备与算法团队高效协作的能力。",
+      "scene": "企业级大模型产品的需求定义、方案设计与迭代优化。",
+      "evidences": [
+        { "jd_title": "某头部互联网 · AI产品经理", "source": "招聘平台A", "snippet": "负责大模型应用产品规划，熟悉 LLM 技术边界" },
+        { "jd_title": "某AI独角兽 · 产品经理(AI方向)", "source": "招聘平台B", "snippet": "要求具备 Prompt 工程与数据驱动决策能力" }
+      ]
+    },
+    {
+      "id": "nj_002",
+      "title": "RAG 系统工程师",
+      "confidence": 88,
+      "category": "检索增强",
+      "required_skills": ["RAG架构", "LangChain", "向量数据库"],
+      "bonus_skills": ["Embedding", "知识库运营"],
+      "source_count": 89,
+      "generated_at": "2026-08-04 15:47",
+      "status": "pending",
+      "responsibilities": "构建企业级知识增强问答系统，解决大模型幻觉与知识时效性问题。",
+      "scene": "企业知识库问答、智能客服、文档检索增强。",
+      "evidences": [
+        { "jd_title": "某云厂商 · RAG工程师", "source": "招聘平台A", "snippet": "熟悉向量数据库与检索增强生成链路" },
+        { "jd_title": "某SaaS公司 · 大模型应用工程师", "source": "招聘平台C", "snippet": "负责 LangChain 构建 RAG pipeline" }
+      ]
+    },
+    {
+      "id": "nj_003",
+      "title": "LLM 推理优化工程师",
+      "confidence": 91,
+      "category": "大模型工程",
+      "required_skills": ["vLLM", "TensorRT-LLM", "CUDA优化"],
+      "bonus_skills": ["量化技术", "推理服务架构"],
+      "source_count": 73,
+      "generated_at": "2026-08-03 14:33",
+      "status": "pending",
+      "responsibilities": "专注大模型推理效率提升，降低服务成本，提高吞吐量。",
+      "scene": "大规模 LLM 服务部署与成本优化。",
+      "evidences": [
+        { "jd_title": "某GPU厂商 · 推理优化工程师", "source": "招聘平台A", "snippet": "精通 CUDA 与量化，熟悉 vLLM/TensorRT-LLM" }
+      ]
+    },
+    {
+      "id": "nj_004",
+      "title": "具身智能工程师",
+      "confidence": 76,
+      "category": "机器人AI",
+      "required_skills": ["机器人学习", "强化学习", "ROS2"],
+      "bonus_skills": ["运动规划", "传感器融合"],
+      "source_count": 32,
+      "generated_at": "2026-08-02 08:15",
+      "status": "pending",
+      "responsibilities": "为人形或工业机器人注入 AI 能力，实现自主感知与决策。",
+      "scene": "人形机器人、工业机器人自主控制。",
+      "evidences": [
+        { "jd_title": "某机器人公司 · 具身智能算法", "source": "招聘平台B", "snippet": "强化学习 + ROS2 运动规划经验优先" }
+      ]
+    }
+  ]
+}

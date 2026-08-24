@@ -1,0 +1,1592 @@
+﻿job_name,company_name,salary,work_area,city,education,work_year,issue_date,source,skill_requirements,tech_tags,job_url
+Android Framework 系统应用软件工程师,孔像汽车科技（上海）,1.7-2万,苏州,苏州,本科,3-5年,2026-07-13 09:07:20,job51,"Android Framework 系统应用方向软件开发工程师
+工作职责
+1、负责智能座舱的应用软件研发工作，包括launcher、systemui、docker和车控等应用
+2、充分理解需求并根据需求完成软件架构、模块设计和开发工作； 
+3、按照项目计划，按时提交高质量的代码，完成开发任务； 
+4、负责软件的性能和稳定性调优，提升用户使用体验； 
+5、负责应用软件问题分析和bugfix
+6、负责应用软件相关技术文档的编写，包括架构文档和设计文档等
+
+职位要求
+1、本科及以上学历，3年～5年工作经验，计算机或相关专业优先； 
+2、精通 Android 应用或 Framework 开发，具备大中型软件架构的设计能力；
+3、熟练掌握 MVC、MVP、MVVM 等设计模型，对常用的设计模式、数据结构和算法有深入了解，并能灵活应用；
+4、深入理解面向对象编程思想，具有较强的设计能力；
+5、有智能座舱软件开发经验者优先；
+6、有音视频编解码、直播、点播软件开发经验者优先。",Docker 技术文档 Android Framework MVC MVP MVVM,https://jobs.51job.com/suzhou/167383052.html?s=sou_sou_soulb&t=0_0&req=03b0f0b5ceb5f755dc512a56dc5df658
+Android 开发工程师,普罗斯通信技术（苏州）,8千-1.5万,昆山,苏州,本科,5年及以上,2026-07-24 11:03:35,job51,"岗位职责：
+1. Android原生开发经验，深入理解Android SDK及开发工具，对Android系统机制（如内存管理，事件分发，绘制流程）以及多线程任务处理等
+2. 精通Android UI开发，性能调优与复杂交互实现、能独立完成应用开发与调试
+3. 熟悉常用的设计模式与开发模式
+4. 熟练的掌握HTML JavaScript CSS Vue 等
+5. 熟悉智能设备常用的通信协议（如MQTT WIFI BLE蓝牙）
+6. 完成设计开发文档和使用说明等文件编写。
+7. 竞争产品功能及实现分析。
+8. 负责上位机与下位机软件配合进行相关协议和接口的设计开发。
+9. 代码托管git使用
+
+任职资格：
+1. 熟悉 Android 相关软件模块的维护与开发。
+2. 能够完成软件开发相关文档编写，具备扎实的编码与调试能力。
+3. 具备 Android 原生开发经验，深入理解 Android SDK、开发工具及系统机制（如内存管理、事件分发、绘制流程、多线程处理等）。
+4. 精通 Android UI 开发，熟悉性能优化与复杂交互实现，能够独立完成应用的开发与调试。
+
+工作地点: 昆山淀山湖镇，在上海、昆山、苏州有多条通勤班车路线
+工作时间：09:00-17:30",JavaScript Vue MQTT WiFi Git 文档编写,https://jobs.51job.com/kunshan/173028901.html?s=sou_sou_soulb&t=0_0&req=03b0f0b5ceb5f755dc512a56dc5df658
+android安卓开发工程师,苏州猎光者科技,1-1.5万,苏州·苏州工业园区,苏州,本科,3年及以上,2026-07-28 16:24:06,job51,"【岗位职责】 
+1. 负责公司 Android App 的功能开发、日常维护及问题修复；
+2. 根据产品需求完成页面、业务功能及设备交互功能开发；
+3. 与 iOS 开发工程师协作，保持 Android 与 iOS 端功能和体验一致；
+4. 参与需求评审、技术方案讨论及开发任务拆解；
+5. 配合测试完成问题定位、缺陷修复和版本发布；
+6. 编写必要的技术文档，做好代码及版本管理；
+7. 协助处理用户反馈和客户使用过程中遇到的 App 问题。
+
+【任职要求】
+1. 学信网本科及以上学历，计算机、软件工程等相关专业优先；
+2. 具有 3 年以上 Android App 开发经验，有完整项目开发或上线经验；
+3. 熟悉 Kotlin 或 Java，掌握 Android 常用组件及开发流程；
+4. 熟悉网络请求、数据存储、多线程及常用第三方框架；
+5. 能够根据产品原型和接口文档，独立完成常规功能开发；
+6. 具备基本的问题分析、调试和缺陷定位能力；
+7. 工作认真负责，具有良好的沟通能力和团队协作意识。
+加分项
+1. 有蓝牙、BLE、Wi-Fi配网或智能硬件 App 开发经验；
+2. 有 Kotlin、Jetpack、组件化或跨端开发经验；
+3. 有 App 上架、版本发布及不同 Android 机型适配经验；
+4. 有智能家居或 IoT 产品相关经验。",Kotlin Java 技术方案 技术文档 版本管理 Android App BLE,https://jobs.51job.com/suzhou-gyyq/172854662.html?s=sou_sou_soulb&t=0_0&req=03b0f0b5ceb5f755dc512a56dc5df658
+Android原生开发工程师,苏州世航智能科技,1.3-2.5万·13薪,昆山,苏州,本科,1-3年,2026-07-03 17:27:55,job51,"岗位职责
+负责公司Android移动端产品的原生开发、迭代优化与功能落地，独立完成App模块的需求拆解、编码开发、联调测试及上线交付工作。
+参与产品需求评审、技术方案讨论，结合业务场景输出合理的原生开发方案，保障产品功能的稳定性、兼容性和流畅性。
+负责Android端性能优化，包括启动速度、页面渲染、内存泄漏、卡顿、耗电、网络请求等问题排查与修复，提升用户使用体验。
+适配不同安卓机型、系统版本、屏幕尺寸，解决设备兼容问题，保障产品全机型稳定运行。
+对接后端接口、第三方SDK（支付、推送、统计、权限、地图等），完成接口联调、功能集成与问题适配。
+跟进Android***特性与行业动态，沉淀通用技术组件、工具类及开发规范，持续提升团队开发效率。
+负责公司微信/支付宝小程序的开发、迭代、维护与优化工作，兼任小程序相关需求落地、功能开发、问题修复及版本上线。
+配合测试、产品、设计团队完成问题修复、需求调整、版本迭代，保障版本按时高质量上线。
+任职要求
+本科及以上学历，计算机、软件工程等相关专业优先，1-3年Android原生开发经验，有完整App上线项目经验优先。
+精通Android原生开发技术，熟练使用Java/Kotlin语言，熟悉Android Studio开发环境及常用开发工具。
+熟练掌握Android四大组件、自定义View、动画机制、多线程、事件分发、数据存储、权限管理等核心基础知识。
+熟悉网络请求框架、图片加载框架、事件总线等主流开源框架，了解框架底层原理，可独立进行封装和优化。
+具备扎实的移动端性能优化能力，熟练排查内存泄漏、ANR、卡顿、崩溃等线上问题，有线上性能优化实战经验优先。
+熟悉Android各版本系统特性及适配规则，具备多机型、多分辨率兼容适配经验。
+熟练对接第三方SDK，具备支付、推送、埋点、权限适配、隐私合规适配经验者优先。
+具备良好的代码规范和编程思维，逻辑清晰，责任心强，能够独立承担开发任务，具备良好的团队协作和沟通能力。
+熟练掌握微信小程序、支付宝小程序原生开发，熟悉小程序语法、组件、API及适配规则，可独立完成小程序全流程开发与上线，有相关项目经验者优先。
+有电商、社交、工具类、企业级App及小程序开发经验者优先。",Java Kotlin 技术方案 合规 ANR,https://jobs.51job.com/kunshan/172790451.html?s=sou_sou_soulb&t=0_0&req=03b0f0b5ceb5f755dc512a56dc5df658
+Flutter移动端开发工程师,悉平方科技（苏州）,8千-1.2万,苏州·吴中区,苏州,本科,3年及以上,2026-08-05 08:51:22,job51,"一、岗位职责
+1.负责公司移动端产品基于Flutter的全流程开发，覆盖iOS与Android双端，完成功能迭代、需求落地与版本交付；
+2.参与产品需求评审、技术方案设计与架构选型，输出规范的技术文档，独立完成核心业务模块的编码、自测与联调；
+3.针对iOS、Android不同系统版本、设备机型做兼容性适配，处理系统权限、页面渲染、交互逻辑等双端差异化问题，保障全机型体验一致；
+4.负责APP性能优化，包括启动速度、页面流畅度、包体积、内存占用等专项调优，持续提升应用稳定性与用户体验；
+5.配合产品、UI设计、后端、测试团队，协同完成功能联调、线上问题定位与bug修复，保障版本迭代效率；
+6.跟进Flutter前沿技术与行业***实践，沉淀通用组件、开发规范与工具链，推动团队技术效率提升。
+二、任职要求
+硬性要求
+1.本科及以上学历，计算机、软件工程等相关专业，3年及以上移动端开发经验，具备1.5年以上Flutter商业项目实战经验；
+2.精通Dart编程语言，深入理解Flutter框架核心原理与渲染机制，熟练掌握GetX/Riverpod/Provider等至少一种主流状态管理方案，具备自定义组件、复杂交互动画的开发能力；
+3.熟悉iOS与Android双端平台特性与开发规范，了解iOSUIKit、Android原生开发基础，具备双端打包签名、权限适配、应用商店上架的实操经验；
+4.熟练使用Dio、本地存储、图片加载等常用开发组件，有Flutter与原生混合开发、自定义插件封装经验者优先；
+5.具备良好的代码规范与工程化意识，熟练使用Git进行版本管理，有移动端性能优化、线上稳定性治理相关经验；
+6.具备独立分析问题、解决问题的能力，能快速定位并修复线上故障，保障应用稳定运行。
+三、软性要求
+1.具备良好的沟通协作能力，能高效配合跨团队推进项目落地；
+2.责任心强，对产品体验与代码质量有较高要求，注重开发细节与交付质量；
+3.自主学习能力强，乐于跟进新技术，能快速适配业务需求变化。
+四、加分项
+1.有从0到1完整Flutter上线项目，可提供作品演示；
+2.具备iOS/Android原生开发能力，熟悉Flutter与原生混合开发、MethodChannel通信机制；
+3.有大型APP架构设计、崩溃率治理、包体积优化等专项经验；
+4.了解HarmonyOS跨端适配、小程序开发相关技术；
+5.有开源社区贡献、技术博客输出或个人技术作品。",Flutter Git HarmonyOS 技术方案 技术文档 版本管理,https://jobs.51job.com/suzhou-wzq/173153369.html?s=sou_sou_soulb&t=0_0&req=03b0f0b5ceb5f755dc512a56dc5df658
+android开发工程师,同亨科技（苏州）,1.5-2.5万·13薪,苏州,苏州,本科,5年及以上,2026-07-13 09:37:44,job51,"工作内容：
+根据产品和项目需求, 负责Payment solution application的设计和开发,实现银行卡消费,查询余额,燃气卡/公交卡充值等功能;
+负责Android 系统层面application的设计与开发；
+与跨区域团队紧密合作，参与客户端产品的技术实现讨论;
+负责与Cloud server和 device SDK 端的集成和调试工作，确保应用质量；
+负责欧美项目的研发和实施
+职位要求： 
+ 1、本科以及硕士以上学历，计算机科学，电子工程，通信相关专业毕业; 
+ 2、熟练掌握Android的API，理解Android的体系结构，掌握Android UI设计、后台运行、数据存储等的原理，熟悉JSON, xml、https、TCP/IP协议,Webview ,SQlite;
+ 3、熟练掌握Java、C++、JavaScript程序设计语言,熟悉面向对象程序设计和设计模式;
+ 4、有解决问题、钻研新技术的兴趣和能力,善于交流和表达,有良好的团队合作精神;
+ 5、能独立完成android application的设计和开发;
+ 6、熟悉金融交易架构与原理，有支付、互联网金融行业经验优先;
+7、了解cloud platform，有Google Cloud, AWS, Microsoft Azure使用经验的优先;",TCP/IP SQLite Java C++ JavaScript Go AWS ROS Azure,https://jobs.51job.com/suzhou/163112149.html?s=sou_sou_soulb&t=0_0&req=03b0f0b5ceb5f755dc512a56dc5df658
+Android开发工程师,苏州虹保世纪科技,1.5-3万·14薪,苏州·高新区,苏州,本科,2年及以上,2026-08-06 09:40:52,job51,"职位要求：
+1、本科以上学历，2年以上的软件开发经验；
+2、精通JAVA语言，对面向对象的开发有深刻认识，熟悉Android Studio集成
+3、具备终端金融支付产品，POS、接触及非接触式IC卡、磁条读卡器等开发经验者优先.
+4、熟悉网络通信技术和相关编程, 银行卡/IC卡/POS机开发的经历并熟悉整个流程者优先.
+5、熟悉基础RS232、蓝牙、USB、TCP/IP、GPRS通讯优先 .
+
+开发环境；
+6、具有以下专来经验优先：
+ a. Kotlin 应用软件开发经验优先；
+ b. Selinux修改
+ c. Binder開發
+ d. JNI開發
+
+岗位一：
+工作职责：
+1. Android App 开发
+2. 对公司客户应用产品软件提供技术远程或实地技术支持.
+
+岗位二:
+1. Android SDK 开发
+2. Android framework 修改",Java TCP/IP Kotlin Linux 技术支持 POS USB TCP,https://jobs.51job.com/suzhou-gxq/131466758.html?s=sou_sou_soulb&t=0_0&req=03b0f0b5ceb5f755dc512a56dc5df658
+德系外企 移动端开发工程师,苏州普瑞瓴商务咨询,1.5-2.5万·14薪,苏州·高新区,苏州,本科,3-5年,2026-06-17 17:05:34,job51,"Position:
+As part of its activities, WIKA offers a position as a .NET MAUI mobile application software development
+engineer for its R&amp;D center located in Suzhou. You will actively participate in the development and
+evolution of our mobile application to control WIKA IIoT sensors in close collaboration with the
+development teams based in Europe.
+Your activities:
+• Design, develop and maintain Android and iOS mobile applications in .NET MAUI
+• Participate in technological choices and the development of building blocks that can be
+integrated into WIKA mobile applications
+• Write clean, maintainable and tested code, in accordance with company standards
+• Participate in Agile meetings (Scrum): daily, sprint planning, review, retrospective
+• Ensure the interface with the local teams (definition of specifications, project meeting), use of
+the right vocabulary
+• Work closely with development teams in Europe. An initial onboarding of several weeks will be
+plan locally
+Your profile:
+• Master's degree in engineering in the field of software development or equivalent
+• Minimum 5 years of experience in a similar position in mobile development
+• Sense of quality, rigor, autonomy and strength of proposal
+• Team spirit and adaptability
+• Fluent in English
+Technical skills:
+• Proficiency in C#, .NET framework and MAUI (or Xamarin with a desire to transition)
+• Participation in mobile projects published on Android stores, IoS, and excellent knowledge of
+the ecosystem of stores in China: Huawei app gallery, OPPO software Store,…
+• Good knowledge of Git and development workflows
+• Experience with Azure DevOps (Backlogs, Boards, Repos, Pipelines)
+• Knowledge of Bluetooth LE or NFC communication
+• Familiar with monitoring and crash reporting tools
+• UI/UX sensitivity appreciated",Gin CAN ROS Go SPI C# Git Azure DevOps Bluetooth,https://jobs.51job.com/suzhou-gxq/172600852.html?s=sou_sou_soulb&t=0_0&req=03b0f0b5ceb5f755dc512a56dc5df658
+高级APP开发工程师（安卓IOS）,江苏诺尔曼生命科技,1.8-3万·14薪,苏州·苏州工业园区,苏州,本科,8年及以上,2026-06-10 19:21:26,job51,"【岗位职责】
+1、负责移动端产品的开发、维护和部署，并保证可扩展和可维护性；
+2、研究iOS或Android版本的机制和新特性，为产品做技术储备；
+3、和团队伙伴一起研讨技术实现方案，进行应用及系统整合；
+持续对产品开发流程进行改进与优化，通过技术提升内部效率，用户体验和可用性；
+
+【任职要求】
+ 1、大学本科以上学历，计算机、电子或通信相关专业，8年以上移动端App实际开发经验丰富；
+2、良好的英语水平，有扎实的计算机基础；
+3、熟悉iOS或Android开发平台，熟练掌握系统开发框架以及常用的第三方框架；
+4、熟悉设计模式，了解组件化、模块化、架构设计；
+5、熟悉iOS或Android内存管理机制，能够独立分析解决问题；
+6、有较好的学习能力和沟通能力，有创新能力和责任感，对移动端产品有浓厚的兴趣；
+7、具有较强的分析和解决问题的能力；热爱互联网新技术，了解并探索业界技术动向；
+8、有医疗器械行业经验，熟悉IEC62304医用软件设计开发流程优先
+
+备注：负责公司CGM事业部的产品设计工作，工作地点苏州",产品设计,https://jobs.51job.com/suzhou-gyyq/172504780.html?s=sou_sou_soulb&t=0_0&req=03b0f0b5ceb5f755dc512a56dc5df658
+移动端开发工程师,江苏深巡科技,6千-1万·13薪,苏州·苏州工业园区,苏州,本科,1年及以上,2026-07-28 10:36:26,job51,"〖岗位职责〗
+1.开发手机端应用程序，实现各项功能；
+2.与后台开发人员协作，制定通讯接口和协议；
+3.优化UI界面和交互设计，提升用户体验。
+
+〖任职要求〗
+1.本科及以上学历，计算机科学、软件工程等相关专业，1年以上APP开发经验；
+2.精通安卓（Java或Kotlin）、IOS（Swift或Objective-C）、鸿蒙（ArkTS等）至少一种主流开发语言，熟练掌握对应平台开发框架与工具；
+3.具备扎实的数据结构与算法基础，能运用其优化代码性能，解决复杂技术问题；
+4.熟悉多平台APP性能优化技巧，有处理内存优化、卡顿优化、网络优化等实际项目经验；
+5.了解APP开发流程中的安全问题，掌握常见安全防护措施，保障应用安全；
+6.拥有良好的团队协作、沟通能力，对工作认真负责，积极参与项目讨论与技术分享；
+7.对新技术充满热情，具备较强学习能力，能快速掌握并应用新的开发技术；
+8.有跨平台开发经验（如Flutter等）者优先；有大型APP项目开发经验者优先；
+9.优秀毕业生也可投(在校期间参与过相关的开发工作)。",Java Kotlin Swift 鸿蒙 ArkTS Flutter,https://jobs.51job.com/suzhou-gyyq/165973926.html?s=sou_sou_soulb&t=0_0&req=03b0f0b5ceb5f755dc512a56dc5df658
+APP开发工程师,千屿科技（苏州）,1-1.5万,苏州·苏州工业园区,苏州,本科,2年及以上,2026-07-22 19:01:35,job51,"岗位职责
+•负责 Flutter 客户端的功能开发、迭代和日常维护。
+•负责 Android、Windows 等平台的跨平台适配。
+•根据产品需求完成页面、组件、交互和业务逻辑开发。
+•负责设备管理、实时数据展示、数据上传、报告回放及后台管理等功能。
+•完成客户端与服务端接口的对接、数据解析和业务状态联动。
+•参与实时数据、图表、波形及历史数据可视化功能的开发和优化。
+•处理页面布局、状态同步、弱网、超时、缓存及异常恢复等问题。
+•根据测试反馈和缺陷记录完成问题定位、代码修复及回归验证。
+•编写和维护单元测试、组件测试及核心业务逻辑测试。
+•负责 Android APK、Windows 客户端的构建、打包和发布前验证。
+•持续优化客户端的稳定性、性能、代码质量和用户体验。
+•与产品、服务端、测试及其他研发人员协作，推动需求和问题闭环。
+任职要求
+•熟悉 Dart，具有良好的 Flutter 开发基础。
+•具有 2 年以上 Flutter 项目开发经验，并参与过较完整的项目交付。
+•熟悉 Flutter 常用组件、布局、路由、状态管理和页面生命周期。
+•熟悉异步编程、Stream、数据模型及复杂业务状态管理。
+•熟悉 REST API、JSON、文件上传下载等常见客户端开发场景。
+•具备 Android 真机调试经验，能够使用 ADB、日志等工具排查问题。
+•了解 Windows 桌面端开发，或具备 Flutter Windows 项目经验。
+•具备较强的问题定位能力，能够根据日志、代码和问题现象分析原因。
+•熟悉 Git，能够独立完成代码提交、分支管理及冲突处理。
+•具备测试意识，能够为核心逻辑编写单元测试或组件测试。
+•能够独立完成“需求理解—功能开发—测试验证—问题修复”的工作闭环。
+•工作认真负责，具备良好的沟通和团队协作能力。
+加分项
+•有 Android、Windows 多平台项目开发经验。
+•有图表、实时数据、波形或大数据量绘制经验。
+•有医疗健康、物联网、工业软件或数据监测类项目经验。
+•有复杂表单、后台管理、数据回放或文件管理功能开发经验。
+•有客户端性能优化、弱网处理、异常恢复或稳定性治理经验。
+•了解 Kotlin、Java、C++ 或 Flutter Plugin 开发。
+•有应用打包、签名、发布和版本管理经验。
+•熟悉 MQTT、WebSocket、WebRTC 等实时通信技术。
+•有自动化测试、白盒测试或持续集成经验。
+•熟悉禅道、Jira 等项目及缺陷管理工具。",Flutter Git Kotlin Java C++ Gin MQTT WebSocket 版本管理 自动化测试 缺陷管理,https://jobs.51job.com/suzhou-gyyq/173009259.html?s=sou_sou_soulb&t=0_0&req=03b0f0b5ceb5f755dc512a56dc5df658
+中级APP开发工程师,苏州景前电子科技,8千-1.3万,苏州·苏州工业园区,苏州,本科,2-4年,2026-08-06 17:51:31,job51,"岗位职责：
+1、独立模块开发：能够独立承接APP完整业务模块开发（用户体系、数据展示、设备联动、商城、社区、控制终端等核心模块），独立完成需求拆解、方案设计、代码开发、自测闭环。
+2、接口与业务联调：独立对接后端、硬件设备协议，完成软硬件联动APP功能开发、数据通信、设备控制逻辑开发，解决联调过程中的常规数据、通信、适配问题。
+3、版本迭代与质量管控：独立负责APP常规版本迭代、功能升级、性能优化、机型兼容适配，主动排查线上隐患，独立修复中高难度BUG，保障版本稳定上线。
+4、技术方案落地：参与项目需求评审、技术方案讨论，根据业务需求输出合理的开发实现方案，沉淀通用组件、工具类，提升团队开发效率。
+5、项目协同：主动对接产品、硬件、测试、运营团队，预判开发风险、同步开发进度，保障项目按期交付；协助指导初级工程师开展开发工作。
+岗位要求：
+1、学历经验：本科及以上学历，计算机相关专业，2-4年APP开发经验，具备完整APP模块独立开发、版本迭代上线经验。
+2、技术能力：熟练掌握对应端全套开发技术栈，精通组件封装、状态管理、网络封装、缓存处理、异常捕获，熟悉APP性能优化、兼容适配方案。
+3、业务能力：熟悉软硬件联动开发流程，了解设备通信协议、数据交互逻辑，能够独立完成前后端、软硬端联调，具备独立排查问题、解决问题的能力。
+4、项目能力：能够精准拆解业务需求、评估开发工时、把控模块开发进度，具备完整的版本开发、测试、上线、维护闭环经验。
+5、综合素质：责任心强、抗压能力强，沟通协调能力良好，具备标准化代码编写习惯和文档沉淀能力，具备团队协作与初级带教能力。",方案设计 技术方案,https://jobs.51job.com/suzhou-gyyq/172877509.html?s=sou_sou_soulb&t=0_0&req=03b0f0b5ceb5f755dc512a56dc5df658
+软件工程师,苏州共创科技,1-2万,苏州·相城区,苏州,大专,3年及以上,2026-07-06 17:01:49,job51,"岗位职责
+1.负责 POS、MiniPC、NAS、AIO、平板、笔记本系统移植、驱动调试、定制功能开发。
+2.NAS 核心开发：硬盘阵列识别、SATA/NVMe 扩展、网络服务、7×24 小时运行稳定性优化。
+3.适配屏幕、触控、摄像头、扫码设备、钱箱、外设、Type-C、网络、功耗调试。
+4.Android/Linux 系统裁剪、开机速度优化、温控、死机重启故障修复。
+5.版本管理、OTA 升级、量产烧录、长期稳定性测试维护。
+任职要求
+1.熟悉瑞芯微 / Intel 平台系统开发，有 NAS、MiniPC、POS、笔记本软件开发经验优先。
+2.熟悉设备树、内核驱动、存储设备适配、网络服务优化。
+3.能够独立解决外设异常、兼容性故障、长时间运行稳定性问题。",Linux 版本管理 POS MiniPC NAS AIO SATA NVMe,https://jobs.51job.com/suzhou-xcq/172810941.html?s=sou_sou_soulb&t=0_0&req=03b0f0b5ceb5f755dc512a56dc5df658
+高级linux驱动工程师,固德威技术,2-3.5万·14薪,苏州·虎丘区,苏州,本科,5年及以上,2026-07-06 13:34:01,job51,"负责基于 SoC 平台的 Linux 系统移植、适配与稳定性优化。
+负责设备树 DTS 编写、驱动配置、外设 bring-up 与系统启动链路调试。
+负责系统裁剪与定制，包括 kernel、rootfs、启动服务、文件系统、系统组件等。
+负责系统启动性能优化，定位并优化 bootloader、kernel、init、应用启动阶段耗时。
+负责内存、调度、I/O 等系统性能分析与优化，提升设备运行稳定性和资源利用效率。
+配合硬件、驱动、应用、测试团队定位系统级问题，包括死机、卡顿、内存泄漏、I/O 阻塞、异常重启等。
+参与产品量产、发版、问题回归与现场问题分析，沉淀系统调试和优化方法。
+任职要求
+本科及以上学历，计算机、电子、通信、自动化等相关专业。
+熟悉 Linux kernel、bootloader、rootfs、设备树、驱动加载与系统启动流程。
+熟悉 ARM/Linux 嵌入式平台开发，有实际系统移植、裁剪、优化经验。
+熟悉常见外设接口和调试方法，如 I2C、SPI、UART、GPIO、USB、网口、存储等。
+熟悉 Linux 性能分析工具和方法，如 top、perf、ftrace、systemd-analyze、vmstat、iostat、dmesg 等。
+具备较强的问题定位能力，能够独立分析启动慢、内存高、I/O 卡顿、系统异常等问题。
+熟练使用 C、Shell，具备良好的代码阅读和调试能力。
+加分项
+有 IMX6ULL、STM32MP257 等 SoC 平台经验。
+有 Android/Linux BSP、Yocto、Buildroot、Debian/Ubuntu rootfs 定制经验。
+有量产产品系统优化、稳定性治理、长期运行问题定位经验。",Linux ARM I2C SPI UART Shell STM32,https://jobs.51job.com/suzhou-hq/172804940.html?s=sou_sou_soulb&t=0_0&req=03b0f0b5ceb5f755dc512a56dc5df658
+u3d高级开发工程师,中达电子（江苏）,1.3-1.8万·18薪,苏州·吴江区,苏州,硕士,3年及以上,2026-07-08 08:58:36,job51,"岗位职责：
+根据项目要求在Unity引擎建立各类工件/设备/生产线的Digital Twin
+根据项目要求在Unity引擎完成3D场景中的材质、光线、力觉等效果的制作
+建立仿真情景以协助 RD 团队验证其算法
+仿真情景中生成随机事件用于训练AI
+使用Unity搭建设备运作环境, 并使用ML-Agent建立深度学习架构与算法实现
+ 
+岗位要求：
+硕士优先，信息科学, 计算器专业要求，工作经验3年以上；
+熟练使用Unity引擎, C#, Python",Git Agent 深度学习 C# Python Twin RD,https://jobs.51job.com/suzhou-wjq/172831056.html?s=sou_sou_soulb&t=0_0&req=03b0f0b5ceb5f755dc512a56dc5df658
+Charge 驱动工程师,圣邦微电子（北京）,1.8-2.8万·15薪,苏州·苏州工业园区,苏州,本科,3年及以上,2026-06-22 16:52:34,job51,"岗位：软件AE
+1、负责Android、Linux等系统下电源类芯片的驱动开发和验证；
+2、从软件层面独立解决客户在产品开发、量产过程中遇到的各种技术问题，保证产品的顺利推广；
+3、系统开发中整理相关技术文档；
+
+任职要求：
+1、全日制统招本科学历，计算机、自动化或电子相关专业；
+2、1~3年手机、平板等电子产品行业相关驱动开发工作经验；
+3.、精通C语言，熟练掌握Keil、Android等集成开发环境；
+4、精通charge、pump等充电原理；
+5、熟练使用SVN、Git等代码管理工具
+6、熟悉常见通讯接口，如UART、USB等通讯接口以及I2C、SPI等BUS总线者优先；
+7、熟悉ARM、RISC-V架构、USB TYPE-C,USB-PD以及QC/SCP/FCP/UFCS/AFC/VOOC快充协议其中的一种或几种，有PD认证、充电器，移动电源，手机，PC等电源产品开发经验者优先；
+8、具有一定的硬件基础，能够看懂硬件电路设计及分析；",Linux C语言 SVN Git UART I2C SPI ARM 技术文档,https://jobs.51job.com/suzhou-gyyq/172639901.html?s=sou_sou_soulb&t=0_0&req=03b0f0b5ceb5f755dc512a56dc5df658
+高级全栈开发工程师,江苏硕晟软件科技,1.2-2万,苏州·吴中区,苏州,本科,8年及以上,2026-07-25 15:56:23,job51,"岗位职责:
+1、负责项目前后端全栈研发，涵盖用户、商户、订单、支付、会员营销等核心业务模块。
+2、负责APP、H5、小程序、运营后台、商家后台开发，接口设计、业务逻辑开发、数据库设计及性能优化。
+3、对接微信/支付宝支付、地图定位、短信推送、OSS存储等第三方服务，保障系统高并发、高可用、数据稳定。
+4、参与技术方案评审、问题排查、版本迭代与线上维护，持续优化产品体验与系统性能。
+
+任职要求:
+1、本科及以上学历，8年以上全栈开发经验，有本地生活/同城服务/外卖APP/出行app/旅游app/商旅/家政/招聘等项目经验优先。
+2、前端熟练掌握
+语言:JavaScript, Dart, Swift, Kotlin
+框架：uni-app / React Native / Vue, Flutter, iOS
+原生，Android原生。
+3、后端精通
+开发语言:Java/PHP
+Java 框架:Spring/Spring Boot，具备SpringCloud微服务架构或经典分层架构
+PHP框架:ThinkPHP/Laravel主流框架
+4、熟悉SpringCloud, MyBatis-Plus, Node.js/Nest5、熟练使用MySQL、Redis，懂索引优化、事务、分布式缓存、高并发处理。
+6、熟悉Linux、Git，了解Docker部署，有支付对接、地图集成、订单系统开发经验优先。
+7、逻辑思维强，能独立攻坚业务模块，沟通协作好，抗压能力强，具备良好代码规范和自驱力。",高并发 高可用 JavaScript Swift Kotlin React Native Vue Flutter Java PHP Spring Spring Boot 微服务 MyBatis-Plus Node.js MySQL Redis 分布式 Linux Git Docker 技术方案,https://jobs.51job.com/suzhou-wzq/172673826.html?s=sou_sou_soulb&t=0_0&req=03b0f0b5ceb5f755dc512a56dc5df658
+Shopify 独立站后端开发,苏州惠禾科技,1.2-2万·13薪,苏州·苏州工业园区,苏州,本科,1年及以上,2026-07-14 17:18:05,job51,"岗位职责
+本岗位为Shopify独立站复合型开发，兼顾UI前端落地与轻后端接口开发，负责公司跨境DTC独立站的功能定制、页面迭代、数据对接与全站运维优化：
+1、承接UI设计稿，独立完成Shopify全站页面1:1还原定制，包含首页、商品页、合集页、详情页、购物车、结算页，实现个性化交互、多设备适配、样式兼容优化。
+2、精通Online Store 2.0架构，独立完成主题二次开发、自定义Section组件搭建，根据运营转化需求迭代页面功能、修改模块样式、优化用户浏览体验。
+3、负责后端接口开发与数据对接，熟练调用Shopify Admin/Storefront GraphQL&amp;REST API、配置Webhook，实现商品、订单、库存、客户数据自动化同步，处理接口异常、数据纠错与业务逻辑校验。
+4、专注站点性能优化，针对性提升Core Web Vitals核心指标，解决页面加载慢、卡顿、兼容异常等问题，助力网站SEO优化与店铺转化率提升。
+5、独立对接集成跨境常用第三方工具，包含支付、物流、邮件营销、测评、折扣插件，完成功能调试、适配兼容，保障店铺全流程业务正常运转。
+6、负责多店铺日常运维、线上bug修复、版本迭代更新，沉淀通用组件、接口方案与开发规范，保障项目稳定、高效落地。
+任职要求
+1、1年及以上全职Shopify独立站开发经验，非自学demo经验，熟练掌握Liquid、HTML/CSS、原生JavaScript，可独立完成主题改造、页面定制与交互开发。
+2、具备扎实的轻后端开发能力，熟练使用Node.js/Java/PHP任意技术栈，可独立完成接口开发、Shopify API对接、Webhook数据同步与问题调试。
+3、具备优秀的UI还原能力，精准落地设计稿，熟练处理移动端/PC端适配、浏览器兼容、交互细节优化，无明显视觉偏差与功能bug。
+4、具备独立线上问题排查能力，可自主解决页面报错、接口异常、性能卡顿、数据同步失败等各类线上问题，持续跟进Shopify官方版本迭代更新。
+5、逻辑严谨、责任心强，具备良好的跨部门沟通能力，可高效配合设计、运营、产品推进项目迭代，严格把控开发质量与交付效率。",JavaScript Node.js Java PHP Store Admin Storefront GraphQL,https://jobs.51job.com/suzhou-gyyq/172909502.html?s=sou_sou_soulb&t=0_0&req=03b0f0b5ceb5f755dc512a56dc5df658
+技术主管,江苏硕晟软件科技,1.2-2万,苏州·吴中区,苏州,本科,8年及以上,2026-06-26 17:40:39,job51,"岗位职责
+1、技术架构统筹：负责公司本地生活、同城服务类核心产品（APP、H5、小程序、前后台系统）整体技术架构规划、设计与迭代升级，主导用户、商户、订单、支付、会员营销等核心业务模块的技术方案落地，搭建稳定、高可用、可扩展的系统架构体系。
+2、研发团队管理：统筹全栈研发团队日常开发工作，负责任务拆解、进度管控、人员调配、代码规范管控，主导研发流程优化，提升团队研发效率、交付质量与迭代速度，保障项目按时、高质量落地。
+3、核心技术攻坚：主导高并发、高可用业务场景的技术难点攻关，负责数据库架构设计、索引优化、性能调优、分布式问题排查；统筹微信/支付宝支付、地图定位、短信推送、OSS存储等第三方服务集成与稳定性维护，保障系统线上稳定运行、数据安全可靠。
+4、技术评审与迭代管控：牵头开展技术方案评审、需求可行性评估、代码审核、线上问题复盘，规避技术风险；主导产品版本迭代规划，持续优化系统性能、产品体验与业务适配能力，适配业务快速发展需求。
+5、团队赋能与技术沉淀：搭建团队技术体系与规范标准，组织技术分享、代码复盘、技能培训，培养核心研发人才；跟进行业前沿技术，推动技术创新与落地，沉淀项目技术资产，提升团队整体技术水平。
+6、跨部门协同对接：对接产品、运营、业务等部门，精准拆解业务需求、评估技术可行性，输出合理技术方案，协调解决研发、落地、运维全流程问题，保障业务高效落地。
+
+任职要求
+1、本科及以上学历，8年以上全栈研发经验，3年以上技术团队管理经验，深耕本地生活、同城服务、外卖、出行、旅游商旅、家政、招聘等相关行业，有完整的商业项目从0到1架构搭建、迭代落地及团队管理经验。
+2、精通全栈技术体系：熟练掌握前端主流技术栈，包括JavaScript、Dart、Swift、Kotlin等开发语言，精通uni-app、React Native、Vue、Flutter及iOS、Android原生开发，具备多端（APP、H5、小程序、前后台系统）统一架构设计与落地能力。
+3、精通后端架构研发：熟练掌握Java/PHP主流后端开发语言，精通Spring、Spring Boot框架，熟练运用SpringCloud微服务架构、经典分层架构，熟练使用ThinkPHP、Laravel等PHP主流框架，具备大型业务系统架构搭建、重构与优化经验。
+4、具备高并发架构能力：熟练掌握SpringCloud、MyBatis-Plus、Node.js/Nest等技术，精通MySQL、Redis数据库应用，擅长索引优化、事务管理、分布式缓存设计，具备丰富的高并发、大流量、分布式系统问题处理经验。
+5、具备工程化运维能力：熟悉Linux服务器操作、Git版本管理，掌握Docker容器化部署流程，有支付系统对接、地图服务集成、订单交易系统搭建优化实战经验者优先。
+6、优秀的管理与业务能力：具备极强的逻辑思维、业务拆解和技术攻坚能力，可独立统筹复杂业务模块与重点项目；擅长团队管理、沟通协作、风险把控，抗压能力强，具备完善的代码规范体系和技术自驱力。
+7、具备敏锐的技术洞察力和业务思维，能够结合业务发展规划技术迭代方向，平衡技术成本与业务收益，具备优秀的问题复盘、技术沉淀和团队赋能能力。",高可用 高并发 分布式 JavaScript Swift Kotlin React Native Vue Flutter Java PHP Spring Spring Boot 微服务 MyBatis-Plus Node.js MySQL Redis Linux Git Docker 容器化 技术方案 团队管理 流程优化 培训 版本管理,https://jobs.51job.com/suzhou-wzq/172674090.html?s=sou_sou_soulb&t=0_0&req=03b0f0b5ceb5f755dc512a56dc5df658
+软件工程师,昆山宜诺威智能制造科技,9千-1.5万,昆山,苏州,大专,2年及以上,2026-07-11 22:39:06,job51,"【工作内容】
+- 负责软件产品全生命周期的测试工作，包括需求分析、测试计划制定、用例设计与执行；
+- 深入参与系统功能、接口、性能及安全测试，确保产品质量符合业务与用户标准；
+- 使用自动化测试工具（如LABVIEW、C语言等）搭建和维护自动化测试框架，提升测试效率与覆盖率；
+- 识别并跟踪缺陷，推动问题闭环，协同开发团队快速定位和修复问题；
+- 输出高质量测试报告，提供测试数据分析与改进建议，支持产品迭代优化。
+【任职要求】
+- 大专及以上学历，计算机科学、软件工程或相关专业；
+- 2年以上软件测试经验，熟悉软件测试流程与方法论，具备独立设计测试用例能力；
+- 熟练掌握至少一种自动化测试工具或框架，有实际项目落地经验；
+- 熟悉主流测试类型（功能、接口、性能、安全等），具备较强的逻辑思维与问题排查能力；
+- 具备良好的沟通协作能力，责任心强，能适应快节奏的项目交付环境。",C语言 需求分析 测试计划 自动化测试 数据分析 产品迭代 测试用例,https://jobs.51job.com/kunshan/172878095.html?s=sou_sou_soulb&t=0_0&req=03b0f0b5ceb5f755dc512a56dc5df658
+资深Java后端开发工程师,通祐电梯,1-1.5万,昆山,苏州,本科,8年及以上,2026-07-16 10:52:32,job51,"岗位职责：
+1、负责公司信息化系统的后端架构设计、核心代码开发及优化。
+2、负责信息系统从需求、研发、测试、上线、实施的全周期技术工作。
+3、负责推动 AI 技术与制造业应用场景的融合，推动AI 技术在各业务场景的应用，提高业务效率。
+4、负责后端团队的技术管理与梯队建设，制定开发规范，保证代码质量，组织进行技术攻关与难题解决。
+5、负责高并发、高可用分布式系统的设计与优化，主导数据库设计、缓存策略及中间件选型，确保系统的稳定性与扩展性。
+6、跨部门资源协调，组织接口定义与技术评审，推动敏捷开发与DevOps流程执行。
+7、完成领导安排的其他技术相关工作。
+任职要求：
+1、计算机科学、软件工程或相关专业本科及以上学历。
+2、具备8年以上Java后端开发经验，3年以上技术团队管理经验。
+3、精通Java语言及Spring、Spring Boot、MyBatis等主流框架，熟悉JVM原理、多线程及网络编程，具备扎实的分布式、微服务架构设计能力。
+熟悉 MySQL/Redis/Kafka 等中间件，熟悉 Docker、K8S 容器技术，熟悉 DevOps 流程。
+4、熟悉主流AI应用开发框架 Spring AI / LangChain4j,精通 RAG 与向量检索技术, Agent 架构和协作编排。
+5、优秀的跨职能沟通能力，团队领导力，擅长解决复杂业务瓶颈问题。
+6、有制造业信息化系统（CRM/MES/ERP）或物联网（IoT）开发经验者优先考虑。
+7、有主导智能客服、工业知识助手、业务流程自动化等AI场景的优先考虑。",高并发 高可用 分布式 DevOps Java Spring Spring Boot MyBatis 微服务 MySQL Redis Kafka Docker K8s LangChain RAG Agent 资源协调 团队管理,https://jobs.51job.com/kunshan/172417569.html?s=sou_sou_soulb&t=0_0&req=a0aae0c41e5f4852aad85151acd9e587
+asp.net高级开发工程师（工正）,昆山西交创新中心管理,7千-1.2万,昆山,苏州,大专,3-5年,2026-07-22 14:37:47,job51,"一、岗位职责：
+全栈开发工程师
+1. 基于 UniApp 框架，负责跨平台（iOS/Android/小程序/H5）移动端及PC端应用的设计、开发与性能优化，确保多端一致性及流畅体验。
+2. 参与业务需求分析，完成前端页面架构、组件封装及交互逻辑实现，与后端协同制定接口规范。
+3. 负责 ASP/ASP.NET 服务端业务模块开发，包括但不限于权限管理、业务逻辑层、数据访问层及定时任务等。
+4. 设计并维护 SQL Server 数据库结构，编写高性能 T-SQL 语句、存储过程、触发器及函数，进行查询优化和索引调优。
+5. 开发并封装 RESTful API 及第三方接口对接，确保接口安全性、幂等性及高可用性。
+6. 参与系统部署、线上问题排查与性能监控，持续改进代码质量和系统稳定性。
+7. 负责已有系统（PC端及移动端）的日常运维支持、Bug修复、功能迭代及性能调优，保障线上服务连续性、数据一致性与安全性，能够快速响应并解决生产环境突发事件。
+ 8. 负责生产/业务数据看板（电看板）在手机端的数据可视化设计与开发，包括但不限于实时数据图表（柱状图、折线图、仪表盘、表格等）、预警提示、多维度筛选交互及数据自动刷新机制，确保大并发下数据展示的实时性、准确性与交互流畅度。同时承担数据展示类问题的技术支持与故障排查，快速定位并解决数据延迟、图表渲染异常等问题。
+
+二、任职要求（必备）
+1. 后端技术栈：3～5年 ASP（VBScript）或 ASP.NET（C#/VB.NET）开发经验，熟悉 IIS 部署及配置，能独立完成PC端及移动端Web项目。
+2. 行业经验优先：具有 ERP / MES / WMS 等企业级管理系统的开发或实施经验，理解制造业/供应链业务流程；有生产电子看板、数据大屏或移动端BI展示项目经验者优先，熟悉看板数据源对接与展示逻辑。
+3. 前端开发技能：
+* 精通 HTML5 / CSS3，熟悉响应式布局、Flex/Grid布局及移动端适配方案（如 rem、vw/vh），具备跨端UI还原能力。
+*熟练掌握 JavaScript（ES6+） 原生语法、DOM操作、事件机制及异步编程（Promise/async），熟悉 jQuery 等常用库。
+*必须具备基于 Vue.js（2.x/3.x）的 UniApp 实际项目开发经验，熟悉UniApp生命周期、组件化开发、组件通信（props/emit/vuex/pinia）、条件编译及多端兼容处理（iOS/Android/小程序/H5）。
+*熟练使用 HBuilderX 或 Vue CLI 进行项目构建、调试、多端打包发布，了解 nvue 与 vue 混合开发、原生插件集成及前端性能调优（首屏加载、分包、图片压缩等）。
+ * 能熟练编写 VBScript 脚本（用于维护ASP老系统）。
+*具备移动端数据可视化开发经验，熟悉 ECharts、Chart.js 或 UniApp 生态下的图表组件库，能够根据业务需求设计直观、高效的数据展示界面，并处理数据更新、动画过渡及触摸交互。
+4. 数据库能力：精通 SQL Server（2012+），熟练编写复杂存储过程、视图、自定义函数，具备SQL性能分析及死锁处理能力，熟悉事务隔离级别及索引策略。
+5. 接口开发：熟练掌握 Web API / WCF / WebService 开发，理解HTTP协议、JSON/XML数据格式，能实现接口鉴权（JWT/OAuth2.0）、日志记录及异常处理。
+6. 工具与协作：熟练使用 Git/SVN 版本控制，熟悉 Postman/Swagger 接口调试，具备良好的文档编写和团队沟通能力。
+7. 运维能力：具备生产环境问题排查与应急处理经验，熟悉 IIS 日志分析、Windows性能计数器、事件查看器等常用运维手段，能独立完成系统补丁更新、配置调整及数据备份恢复。【新增】 对数据展示类问题（如数据刷新失败、图表加载缓慢、渲染卡顿等）有快速定位和解决能力。
+
+三、加分项：
+· 有 UniApp 插件开发 或 原生SDK集成 经验。
+· 熟悉 TypeScript、Vite 等现代前端工程化工具。
+· 了解 .NET Core / .NET 5+ 跨平台开发。
+· 熟悉消息队列（RabbitMQ）、缓存（Redis）等中间件应用，有数据实时推送（WebSocket）经验者优先。
+· 具备基础运维自动化能力（批处理/PowerShell脚本）。
+有工业制造领域电子看板、安灯系统或实时数据监控 项目实施经验，熟悉OPC、Modbus等工业数据采集协议者优先。
+经验3-5年，薪资范围7K-12K",UniApp SQL Server SQL 高可用 C# HTML5 CSS3 JavaScript jQuery Vue Git SVN TypeScript Vite RabbitMQ Redis WebSocket Shell Modbus 需求分析 技术支持 故障排查 供应链 文档编写 日志分析 数据采集,https://jobs.51job.com/kunshan/173003337.html?s=sou_sou_soulb&t=0_0&req=a0aae0c41e5f4852aad85151acd9e587
+机器人软件架构工程师,江苏行之途智能科技,1.5-2.5万·14薪,苏州·相城区,苏州,本科,5年及以上,2026-07-30 13:22:38,job51,"岗位职责：
+1、负责配送机器人软件系统架构设计与集成落地，包括机器人本体、导航模块、传感器、工控机/主控板、云端平台、Android 终端、梯控系统等模块的协同设计。
+2、负责机器人 ROS/ROS2 系统框架搭建、节点通信、状态管理、参数配置、日志采集、异常诊断和远程运维能力建设。
+3、负责机器人 OTA 升级体系设计与落地，包括系统镜像、机器人应用、ROS 节点、Docker 容器、算法包、地图包、配置参数、Android 屏应用等版本升级。
+4、负责 OTA 升级策略设计，包括全量升级、差分升级、灰度发布、断点续传、失败回滚、升级状态上报、版本兼容校验和远程故障恢复。
+5、负责机器人软件版本管理体系建设，包括版本编号规则、分支管理、发布清单、升级记录、设备型号适配、软硬件兼容矩阵和版本验收流程。
+6、负责瑞芯微平台相关软件适配与系统集成，包括 RK3568、RK3588 等平台的 Linux 系统、BSP/SDK、系统镜像、外设驱动、启动配置和部署调试。
+7、负责机器人与公司业务系统的接口对接，包括任务下发、状态回传、地图点位、订单绑定、舱门状态、配送进度、异常告警等业务链路。
+8、负责机器人通信协议和接口方案设计，熟悉 MQTT、HTTP、WebSocket、TCP/IP 等协议，能够制定设备端、云端、第三方系统之间的通信规范。
+9、负责配送机器人现场部署与联调，包括建图、点位标定、梯控对接、闸机/门禁对接、窄通道测试、异常场景复现和问题闭环。
+10、参与定位导航、路径规划、避障、传感器融合等模块的方案评审和工程集成，推动算法能力在真实配送场景中稳定运行。
+11、负责机器人诊断系统、日志系统、下线测试、产测标定、售后远程排查等工具链建设，提升机器人量产交付和运营维护效率。
+12、对接机械、电控、算法、后台、APP、供应商和现场交付团队，推动机器人项目从方案设计、样机调试、小批量试运行到量产交付。
+
+任职要求：
+1、本科及以上学历，计算机、自动化、机器人、电子信息、机械电子、车辆工程等相关专业优先。
+2、具备 5 年以上机器人、无人车、自动驾驶、清洁机器人、割草机器人、AGV、服务机器人等相关软件开发或系统集成经验。
+3、熟悉 Linux 开发环境，熟练掌握 C/C++ 或 Python，具备较强的工程开发、调试和问题定位能力。
+4、熟悉 ROS/ROS2 机器人软件框架，理解机器人节点通信、坐标系、传感器数据流、状态机、日志和参数配置机制。
+5、具备 OTA 升级系统设计或落地经验，理解机器人端升级、远程升级、版本回滚、升级失败恢复、升级状态监控等关键机制。
+6、具备软件版本管理经验，能够建立机器人软件版本、硬件版本、算法版本、地图版本、配置版本之间的兼容关系和发布流程。
+7、熟悉瑞芯微 RK3568、RK3588 等平台优先，了解瑞芯微 Linux SDK、BSP、系统镜像制作、设备树、驱动适配、外设调试和系统部署。
+8、熟悉激光雷达、IMU、深度相机、超声波、编码器等常见机器人传感器，具备传感器接入、标定、调试或数据处理经验。
+9、熟悉 MQTT、HTTP、WebSocket、TCP/IP 等通信协议，有机器人与云端平台、第三方设备或业务系统对接经验。
+10、熟悉机器人定位导航、建图、路径规划、避障、传感器融合等基础原理，能够参与方案评审和工程集成，不要求必须自研全部算法。
+11、有机器人现场部署、故障诊断、日志分析、远程运维、售后诊断或产测系统经验，能处理真实场景中的复杂问题。
+12、具备较强的系统思维和跨团队沟通能力，能够协调算法、硬件、电控、结构、后台、APP、供应商和现场团队推进项目落地。
+加分项：
+1、有酒店机器人、配送机器人、清洁机器人、割草机器人、AGV 或室内服务机器人量产项目经验。
+2、有梯控、电梯云端 API、门禁、闸机、IOT 设备对接经验。
+3、有瑞芯微平台量产项目经验，熟悉 RKNN/NPU、摄像头、显示屏、CAN、串口、USB、网口等外设调试优先。
+4、有机器人下线测试、工厂产测、传感器标定、售后诊断系统建设经验。
+5、有多机器人调度、任务分配、地图点位管理、远程监控平台经验。",ROS Docker Linux MQTT WebSocket TCP/IP C++ Python CAN 版本管理 方案设计 日志分析,https://jobs.51job.com/suzhou-xcq/173097331.html?s=sou_sou_soulb&t=0_0&req=a0aae0c41e5f4852aad85151acd9e587
+研发软件工程师(C#),贸联电子（昆山）,9千-1.5万,昆山,苏州,本科,1年及以上,2026-07-21 10:02:07,job51,"职位描述：
+1.软件项目维护
+2.产品Firmware功能与规划
+3.执行、协助或配合韧体新技术之研发、导入
+4.软件项目进度管理
+
+岗位要求：
+1.精通 Net framework and windows programming 
+2.熟悉 basic Oracle SQL operation
+3.精通 C# / JAVA / C++
+4.熟悉 OPEN CV
+5.熟悉 mobile device programming (Android/iOS) 加分
+6.有 SA/SD 相关经验尤佳
+7.有 Labview 开发经验尤佳
+8.熟悉 GitLab",Oracle SQL C# Java C++ Git 进度管理,https://jobs.51job.com/kunshan/172980241.html?s=sou_sou_soulb&t=0_0&req=a0aae0c41e5f4852aad85151acd9e587
+解决方案工程师,上海觉鑫智能科技,1.2-2.4万·13薪,苏州·苏州工业园区,苏州,本科,2-8年,2026-07-01 11:09:08,job51,"工作内容：
+1.负责对接芯片终端客户，提供 Linux 和 Android 系统相关的技术支持，理解客户需求给出解决方案
+2.解决客户在项目中遇到的 Linux 系统问题，包括但不限于内核 panic、OOM、调度问题等
+3.解决客户在项目Android 系统的 Framework/HAL 层兼容性、应用兼容性等问题
+4.跟进客户项目软件进度，解决项目中遇到的软件问题，确保项目顺利推进
+5.针对不同行业客户的需求，提供系统适配方案，比如边缘服务器解决方案，PC解决方案，车载解决方案，NAS解决方案等
+6.总结项目经验，编写技术文档、知识库，为团队提供参考，提升团队整体支持能力
+
+任职要求：
+1.本科及以上学历，电子、计算机、自动化等相关专业，Linux 和 Android 系统相关技术支持或开发经验
+2.熟悉Linux 内核，能独立分析内核 panic、OOM、调度问题；掌握驱动开发（GPIO/I2C/SPI/USB 等外设）、文件系统（ext4/f2fs）、内核裁剪与优化；了解芯片架构（如 ARM Cortex-A/R 系列）与 Linux 的适配逻辑
+3.熟悉Android 系统架构（HAL/Framework/Native 层），能解决 Framework 层兼容性、应用兼容性问题；掌握 Android Build 系统（Makefile/Blueprint）、OTA 升级方案；有 Android 设备调试经验（如 logcat 分析、systrace 性能调优）
+4.熟悉 gdb、strace、perf、adb 等调试工具
+5.终端设备厂商、模组厂等芯片下游客户技术对接经验",Linux I2C SPI ARM 技术支持 技术文档 知识库,https://jobs.51job.com/suzhou-gyyq/172751274.html?s=sou_sou_soulb&t=0_0&req=a0aae0c41e5f4852aad85151acd9e587
+IT工程师,苏州维信电子,7千-1万,苏州,苏州,本科,3年及以上,2026-07-07 13:11:22,job51,"岗位职责：
+1、负责现有BPM/契约锁/ERP等系统的开发和问题处理，包括业务模块拓展、报表定制、流程开发；
+2、独立在 BPM 后台建模流程、设计表单、维护组织架构、岗位权限、数据字典；处理用户权限开通、离职回收、流程代理等。
+3、主导或参与跨系统接口开发与集成工作，实现BPM与ERP、MES、SRM、PLM等系统的数据互通与联动，保障数据传输的准确性和及时性。
+4、负责软件更改说明、功能特性说明等文档编写工作；
+5、把控项目进度、风险、范围变更；编写实施手册、运维文档、验收文档，完成客户验收签字，满足财务、供应链、HR、生产等部门的业务需求；
+6、日常巡检系统运行状态，处理流程报错、接口同步失败、数据上传异常；定期清理冗余数据。
+能力要求：
+1、本科以上学历；
+2、软件工程/计算机应用/信息管理或其他相关专业 ；
+3、熟练掌握Java(优先考虑)、Android(优先考虑)；掌握MySQL、SQL Server、Oracle 基础 SQL，能编写查询、简单存储过程，排查数据异常；;
+4、掌握HTML、JavaScript、JS 表单校验、数据联动，能写业务脚本；Vue/JQuery 基础了解更佳；
+5、Windows 服务器基础操作，了解 Linux 基础命令，系统部署、日志查看、故障排查；
+6、基于泛微 E9/E10、AWS、Flowable 流程引擎做定制开发：复杂业务插件、自定义组件、复杂接口、报表开发、流程扩展逻辑。
+7、有制造业IT相关工作经验优先；
+8、具有良好的理解、沟通、项目管理、需求分析、系统分析设计的能力及文档编写能力；
+9、有责任感，诚信正直、积极主动、工作细致、有耐心，愿意上进，乐于学习，遵守公司相关工作制度，能适应弹性加班。",Java MySQL SQL Server Oracle SQL JavaScript Vue jQuery Linux AWS 文档编写 供应链 故障排查 项目管理 需求分析,https://jobs.51job.com/suzhou/172821034.html?s=sou_sou_soulb&t=0_0&req=a0aae0c41e5f4852aad85151acd9e587
+Java初级开发（外包岗）,永旺永乐服务管理集团,5-6千,苏州·吴中区,苏州,本科,10年及以上,2026-07-13 11:28:53,job51,"Java初级开发（外包岗）
+■ 岗位职责
+1.负责集团内部系统研发与迭代，参与机器人AI项目建设，设计对话逻辑与交互流程，完成AI训练及效果优化，保障良好人机交互体验
+2.按照需求与设计完成模块编码、自测及功能迭代，编写并维护相关技术文档
+3.负责线上系统的日常维护、故障排查与问题处理，确保系统稳定运行
+4.对负责系统进行整体规划与持续优化，提升系统性能、稳定性、可用性与扩展性
+
+■ 岗位要求
+1.拥有1–2年以上软件开发经验，具备微服务、分布式架构实践经验；了解 Dify、扣子等低代码 AI 开发平台，或掌握向量数据库基础概念者优先
+2.Java基础扎实，熟练掌握JVM原理、Java核心类库，精通多线程、并发编程、IO及网络通信
+3.熟悉主流Java开源技术栈，熟练使用MySQL、Redis等数据库与缓存，具备数据库设计与性能优化经验
+4.具备良好的问题分析与解决能力，可独立承担开发任务并把控项目进度；拥有优秀的沟通协调、抗压能力，具备工程化思维、规范开发习惯与严谨的逻辑思维
+5.工作时间：上五休二8:30-18:30，午休1.5H，周末双休",Java 微服务 分布式 向量数据库 MySQL Redis 技术文档 故障排查,https://jobs.51job.com/suzhou-wzq/172884549.html?s=sou_sou_soulb&t=0_0&req=a0aae0c41e5f4852aad85151acd9e587
+软件测试助理专家,舒尔电子（苏州）,1.5-2.5万·13薪,苏州·苏州工业园区,苏州,本科,6年及以上,2026-07-23 15:08:38,job51,"岗位职责：
+1.负责USB麦克风及蓝牙麦克风产品的软件测试全流程，覆盖功能测试、系统测试、回归测试及终端用户场景验证。
+2.负责移动端应用（iOS/Android）及桌面端应用（Windows/macOS）的测试规划与执行，确保版本质量、稳定性与可用性。
+3.主导测试策略制定、测试用例设计与评审、缺陷分级与跟踪，推动问题根因分析及闭环解决。
+4.搭建并维护自动化测试框架、测试数据管理与测试环境，提升回归效率和缺陷发现能力。
+5.参与版本发布评审与质量风险识别，制定并推动风险缓解方案落地。
+6.持续优化测试流程、质量度量体系及用户体验相关质量指标，提升整体交付质量与效率。
+任职要求：
+1.本科及以上学历，电子、电气、计算机工程、计算机科学等相关专业。
+2.具备6年以上系统验证或软件测试相关工作经验；有音频、消费电子或嵌入式系统背景者优先。
+3.具备音频相关技术基础；有麦克风/录音类产品测试或开发经验者优先。
+4.熟悉软件测试方法论与质量保障流程，具备完整测试生命周期实践经验。
+5.具备良好的问题分析能力与跨团队沟通协作能力，结果导向、责任心强。
+6.具备较强的用户导向与质量意识，能够在快节奏研发环境中推动高质量交付。
+7. 熟练的英语听说读写能力，口语能流利沟通。",功能测试 测试用例 自动化测试 Android Windows,https://jobs.51job.com/suzhou-gyyq/172638048.html?s=sou_sou_soulb&t=0_0&req=a0aae0c41e5f4852aad85151acd9e587
+UI/UX 设计师（C 端 O2O 方向）,悉平方科技（苏州）,8千-1.2万,苏州·吴中区,苏州,本科,3年及以上,2026-07-15 19:37:54,job51,"岗位亮点
+深度参与 O2O 社交化交易新产品从 0 到 1 全链路设计，个人设计方案直接影响产品核心用户体验与交易转化
+拥有完整的设计话语权，可主导核心场景的交互方案与视觉风格定义，沉淀个人设计资产
+对接成熟研发与产品团队，配合 A/B 测试验证设计价值，用数据佐证设计产出的业务价值
+覆盖 APP / 小程序 / Web 多端设计场景，全面打磨 O2O 线上交易 + 线下履约的全链路体验
+核心职责
+全链路多端设计交付
+负责 C 端 O2O 产品的全链路 UI/UX 设计，覆盖 APP、小程序、Web 端；从用户画像分析、业务场景拆解出发，完成交互原型、高保真视觉稿、交互说明的全流程输出，覆盖用户浏览、下单、履约、复购的完整交易路径。
+核心场景专项体验设计
+主导产品核心业务场景的体验打磨，包括：社交化交易全流程（内容发布、议价沟通、交易闭环）、LBS 服务匹配可视化（地图调度、点位展示、路径动效）、数据看板信息分层设计，通过体验优化提升用户转化与留存。
+设计规范搭建与落地跟进
+搭建并迭代产品统一的设计规范与组件库，对齐多端设计语言；对接前端研发团队跟进开发落地，保障像素级还原；结合 A/B 测试结果、用户反馈持续优化设计方案，形成 “设计 - 验证 - 迭代” 的闭环。
+跨团队协作与体验优化
+参与产品需求评审，从用户体验视角提出专业优化建议；配合产品、运营团队完成功能迭代、运营活动的设计支持，持续提升产品整体体验质感。
+任职要求
+基础资质
+全日制统招本科及以上学历，3 年及以上互联网 C 端 UI/UX 设计经验，有已上线的完整产品设计案例。
+专业能力
+精通 Figma、Sketch、墨刀等主流设计工具，可独立完成交互原型、高保真视觉、交互说明等全流程产出；投递作品集需体现对复杂业务逻辑的交互拆解与解决方案。
+熟悉 iOS、Android 及小程序官方设计规范，对主流视觉与交互趋势有敏锐判断，有 O2O 本地生活、电商、社交类产品设计经验优先。
+具备基础的用户行为分析能力，能结合数据反馈、A/B 测试结果迭代设计方案；对前端技术实现边界有清晰认知，设计方案具备强可落地性。
+软性素质
+细节敏感度高，对视觉质感、交互流畅度有高标准追求，兼具审美能力与逻辑思维。
+沟通协作顺畅，能与产品、研发团队高效对齐需求，高效推进设计落地。
+自驱力强，乐于探索新的设计方法与行业趋势，持续优化设计质量。
+加分项
+有 O2O / 本地生活 / 即时服务类产品从 0 到 1 的完整设计经验。
+具备动效设计能力，可独立输出交互动效、地图调度动效方案。
+有搭建设计系统、统一组件库的相关经验。
+了解用户研究方法，有用户访谈、可用性测试相关实践经验。",产品设计 O2O APP Web UI UX LBS Figma,https://jobs.51job.com/suzhou-wzq/172926735.html?s=sou_sou_soulb&t=0_0&req=a0aae0c41e5f4852aad85151acd9e587
+资讯部课长（展腾资讯部）,连展科技电子（昆山）,1-2万,昆山,苏州,大专,1年及以上,2026-07-14 09:50:42,job51,"招聘要求：
+1. 电子表单PLM系统开发和维护；
+2. MES系统开发和维护；
+3. Uibot流程機器人程式开发；						
+工作內容 ：
+1.有独立程序开发经验一年以上；
+2.javascript,jquery,vue,c#,asp.net等开发语言，能独立完成程序开发；
+4.熟悉MsSQL数据库；
+5.有賽易ＭES开发经验优先；
+6.配合度好，稳定性好；",JavaScript jQuery Vue C# SQL,https://jobs.51job.com/kunshan/172897541.html?s=sou_sou_soulb&t=0_0&req=a0aae0c41e5f4852aad85151acd9e587
+java开发经理,喜庆日供应链管理,1.9-2.3万,苏州·相城区,苏州,大专,5年及以上,2026-07-20 15:26:40,job51,"全栈侧重后端-必须有供应链系统开发落地经验
+1、Java基础扎实，熟悉io、多线程、集合等基础框架，了解jvm原理。
+2、熟悉restful接口
+3、熟练使用JAVA微服务开源生态技术栈，Spring、SpringBoot、SpringCloud等相关技术。
+4、熟悉 MySQL、PostgreSQL，理解索引设计和数据库原理。
+5、熟练使用 Redis缓存，了解其原理和机制。
+6、熟练使用mybatisplus、JPA技术，了解Sharding-JDBC。
+7、熟悉开源中间件，如Mongodb、MQ，ES等。
+8、熟悉Linux常用命令，熟练使用docker。
+9、熟悉VUE、移动端(Android)。
+10、熟悉响应式设计，能够使用 Flexbox、Grid 等布局方式。
+11、有移动端开发经验，了解跨浏览器兼容性问题。
+12、有硬件对接经验优先，蓝牙电子秤等
+13、熟悉现有AI并有实际使用，如codex、cursor、Antigravity等
+14、能够独立承担模块的开发和维护。
+有完整的项目生命周期经验，包括需求分析、设计、开发、测试和上线；供应链系统项目经验优先。",Java 微服务 Spring MySQL PostgreSQL Redis MyBatis MongoDB Linux Docker Vue 供应链 需求分析,https://jobs.51job.com/suzhou-xcq/172972676.html?s=sou_sou_soulb&t=0_0&req=a0aae0c41e5f4852aad85151acd9e587
+FAE应用工程师,苏州虹保世纪科技,1-1.5万·14薪,苏州·高新区,苏州,本科,2年及以上,2026-08-06 09:40:52,job51,"【岗位职责】
+1. 以英语为工作语言，为全球客户提供云端终端管理平台的技术咨询、故障排查、安装配置与部署支持，涵盖终端注册、远端更新、参数配置、设备生命周期管理等核心场景。
+2. 用英语精准演示产品架构、方案优势与典型应用，支持售前技术交流。
+3. 设计并交付英文技术培训，根据客户角色（平台管理者、企业用户、门店使用者）定制内容，协助客户快速上手。
+4. 编写英文技术手册、快速指南、FAQ、排障文档及 API 整合指南，确保文档清晰易懂。
+5. 联动研发、产品、销售团队，同步客户反馈与技术问题，推动产品迭代优化。
+6. 建立并维护全球客户典型问题案例库，输出技术支持报告并提炼产品优化建议。
+
+【任职要求】 (3年以上資訊相關工作經驗)
+1. 能快速掌握云端 SaaS 平台的产品原理、部署架构与操作流程，具备定位软硬体问题（网路、通讯、资料同步等）的能力。
+2. 具备优秀客户服务意识，能快速理解大规模终端部署与多层级管理痛点，提供精准解决方案；抗压能力强，可应对紧急故障与多客户并行支持。
+3. 具备流利的英语听说读写能力，可全英文进行客户沟通、技术培训与文档撰写。
+4. 熟练使用办公软体；熟悉问题追踪工具（如 Jira）或 API 测试工具（如 Postman）者更佳。
+5. 具备敏锐的问题分析能力，能透过客户描述快速定位问题根因。
+
+
+【加分项】
+1. 有 Android 智慧终端（POS 机、支付终端）、嵌入式系统、网路通讯相关经验或认证。
+2. 熟悉支付产业生态，了解终端管理系统（TMS）、密钥注入、PCI 安全标准等。
+3. 具备云端平台基础概念（负载均衡、资料库、网路安全等），能与研发团队顺畅沟通。
+4. 熟练使用主流 AI 工具者佳。
+5. 可接受国际出差，持有护照。",技术咨询 故障排查 培训 产品迭代 技术支持 客户服务 客户沟通,https://jobs.51job.com/suzhou-gxq/171674758.html?s=sou_sou_soulb&t=0_0&req=a0aae0c41e5f4852aad85151acd9e587
+泰国测试自动化开发工程师,苏州旭创科技,1.3-1.7万·14薪,苏州·苏州工业园区,苏州,本科,1-5年,2026-07-22 09:41:16,job51,"【工作内容】
+1、负责半导体测试自动化系统的脚本开发与维护，覆盖ATE设备及量测仪器控制；
+2、设计并实施自动化测试用例，优化测试流程以提升晶圆及芯片的测试效率与良率；
+3、协同硬件与软件团队进行设备接口调试，解决测试过程中的技术瓶颈与异常问题；
+4、编写详细的技术文档与测试报告，持续改进测试系统架构以适配新产品导入需求。
+
+【任职要求】
+1、本科及以上学历，计算机、电子工程或相关专业，具备扎实的编程基础；
+2、精通Python或C++语言，熟悉Linux环境，有半导体测试（ATE）开发经验者优先；
+3、了解半导体工艺流程，掌握SPI、I2C等常见通信协议及测试仪器操作规范；
+4、具备良好的英语读写能力，能适应短期出差或海外项目支持，抗压能力强；
+5、拥有团队协作精神与创新意识，对新技术保持高度敏感，认同公司长期发展。",Python C++ Linux SPI I2C 自动化测试 技术文档,https://jobs.51job.com/suzhou-gyyq/172996184.html?s=sou_sou_soulb&t=0_0&req=a0aae0c41e5f4852aad85151acd9e587
+软件开发工程师（JAVA/C#）(J10207),苏州纽威阀门,8千-1.3万·13薪,苏州·虎丘区,苏州,本科,1-3年,2026-07-08 17:05:05,job51,"工作职责:
+1、负责企业各业务域系统、平台产品的代码开发、功能迭代与性能优化
+2、参与需求评审、技术方案设计、接口定义与数据库设计
+3、配合测试、产品完成bug修复、版本发布与线上问题排查
+4、沉淀技术文档，优化代码规范，提升团队研发效率
+任职资格:
+1、本科及以上学历，计算机、软件工程等相关专业，1-3年开发经验
+2、后端技术栈扎实：熟练使用 Java/C# 开发，掌握 MySQL/PostgreSQL/Oracle 数据库，熟悉索引优化、事务处理；
+3、精通 RESTful 接口开发，熟练使用 RabbitMQ/RocketMQ 消息队列实现异步任务下发（WMS→WCS 设备任务异步流转）；
+4、具备多系统集成开发经验，有 SAP RFC 对接、MES 工单接口开发经验；
+5、了解工业自动化对接逻辑，有 AGV-RCS、堆垛机 PLC、输送线设备对接开发经验，熟悉 OPC UA、Modbus 等工业通讯协议者优先；
+6、熟悉定时任务、多线程、分布式事务，能够处理大批量仓储业务并发场景；
+7、有 Vue、React 等前端开发框架基础者优先，可辅助调试车间电子看板；熟悉安卓 PDA 接口对接。
+
+有如下经验项优选
+1、清晰掌握「WMS 业务层 - WCS 调度层 - 设备 RCS/PLC 控制层 - 底层自动化硬件」分层架构逻辑，理解多品牌 AGV 统一调度对接方案；
+2、有潜伏式 AGV、叉车 AGV、料箱 AGV 多厂商 RCS 系统对接开发经验；
+3、有立体库堆垛机、流水线 JIT 输送线成套自动化仓储项目完整落地经验；
+4、阀门 / 机械加工离散制造行业仓储系统开发经验；
+5、熟悉PLC，有一定问题现场调试能力，可配合设备人员排查自动化设备联动异常。",Java C# MySQL PostgreSQL Oracle RabbitMQ RocketMQ Modbus 分布式 Vue React 技术方案 技术文档,https://jobs.51job.com/suzhou-hq/172843305.html?s=sou_sou_soulb&t=0_0&req=a0aae0c41e5f4852aad85151acd9e587
+Software Test Engineer,益逻触控系统（苏州）,8千-1万·13薪,苏州·高新区,苏州,本科,5年及以上,2026-06-24 17:47:56,job51,"Job Purpose:
+The System Test Engineer will take ownership of the qualification test of system products (Android/Windows/Linux). You will be part of an innovative product team offering software solutions for various industries, and you will assist in the development of test automation suites, as well as the creation of test cases and manual testing. 
+
+Responsibilities:
+•	Early engagement in new product concept definition by working with the PQM and development team to understand product features, critical quality requirements, and other customer requests, to define and create test plans, strategies, specifications, etc.
+•	Execute functional test cases based on the defined test plan, and work with the PQM to communicate test progress, issues clarification/verification, and risks in a timely manner. 
+•	Participation in engineering change reviews, which may affect the materials, techniques, and tests and adjust corresponding qualification plans.
+•	Work with CMs (contract manufacturers), offer training and coach CMs on test methodologies whenever necessary, and review CMs' test plans and test reports.
+•	Analyzing current practice, user issues, and business requirements and recommending changes for process engineering. 
+•	Ensure the coverage of test cases and user-identified scenarios. Document and reveal potential problems, identify and log software defects, and verify defect resolution.
+•	Make decisions on applying automated/manual testing approaches to specific projects and improve and develop the test automation.
+
+Minimum Qualifications:
+•	Bachelor's degree in Software engineering, electrical and computer engineering, or similar.
+•	5+ Years related working experience.
+•	Good knowledge of Windows, Android, and Linux OS product system tests.
+•	Knowledge of Test Design, Test Case Management, Test Automation, Bug Tracking, Version Control, Continuous Integration
+•	Excellent communication, organizational, problem-solving, risk analysis, and decision-making skills. 
+•	Good in English (verbal and written).
+Preferred Qualifications, Skills, and Competencies:
+•	Experience coding in any languages (Python, Java etc.) 
+•	Experience in payment products is a plus.
+•	Experience in troubleshooting and diagnosing application faults. 
+•	Excellent communication, organizational, problem-solving, risk analysis, and decision-making skills 
+•	Proactively exhibits initiative within a scrum team environment, comfortable working in an Agile/Scrum environment.
+•	Experience with Google GMS certification, like test environment setup and testing (CTSV, GTS, VTS, STS, CTS) and issue debugging is preferred.
+•	Strong analytical and problem-solving abilities
+Physical Demands:
+•	Ability to lift to OSHA single person lift requirements 
+•	Ability to sit, stand, bend, or walk for prolonged periods of time
+•	Ability to travel domestically and internationally",Gin Linux RAG Go GAN Python Java,https://jobs.51job.com/suzhou-gxq/172677591.html?s=sou_sou_soulb&t=0_0&req=a0aae0c41e5f4852aad85151acd9e587
+软件工程师（嵌入式方向）,苏州优德通力科技,8千-1.2万,苏州,苏州,本科,2年及以上,2026-08-06 13:16:44,job51,"负责水泵电气控制板软件设计，测试、确认和指导生产等相关工作
+岗位职责：
+1、 负责承担项目的控制板程序设计（详细设计软件功能模块，进行代码编写）和管理工作，编制测试验证要求和指导测试工作、负责样机的制作和验证、负责组织小批试产；
+2、 负责现有产品在设计方面的质量改善；
+3、 对电气部分为生产，质量，采购以及供应商提供技术指导；
+4、 新产品的性能要求和测试方案的确认，以及检测工装的设计和制作；
+5、 负责组织客户样机的制作和确认；
+6、 负责编写软件专利交底书和审核专利说明书；
+7、 上级交待的其它任务。
+
+任职资格：
+1、本科以上学历；通信，自动化，电子电力，电子信息等相关专业；
+2、2年以上相关工作经验；
+3、工作技能：
+ 1）	精通C语言编程和具有良好的编程思维；
+ 2）	2年以上MCU/ARM/DSP 等平台的嵌入式软件开发；
+ 3）熟悉SPI\UART\I2C等通讯方式；
+ 4）	有TFT显示驱动经验优先；
+ 5) 有BLE\WIFI模块、以太网PHY设计驱动经验优先；
+ 6）有调试上位机设计开发经验，基于NI或者其他；
+ 7）熟悉安卓、苹果手机APP开发更好；
+ 8）	有一定的英语读写能力。 
+4、品行端正，责任心强",C语言 MCU ARM DSP SPI UART I2C WiFi 采购 专利,https://jobs.51job.com/suzhou/173174496.html?s=sou_sou_soulb&t=0_0&req=a0aae0c41e5f4852aad85151acd9e587
+java开发工程师,亦笙生命科技（苏州）,1-1.4万·13薪,苏州,苏州,本科,2年及以上,2026-08-07 08:58:47,job51,"【工作内容】
+1、负责核心业务系统的后端代码编写、模块设计及功能迭代开发；
+2、参与系统架构优化，解决高并发场景下的性能瓶颈与技术难题；
+3、配合前端及测试团队完成接口联调，确保项目按时高质量交付；
+4、撰写并维护技术文档，持续进行代码重构以提升系统可维护性；
+5、响应线上故障，快速定位问题根源并实施修复方案保障系统稳定。
+
+【任职要求】
+1、计算机相关专业本科及以上学历，2年及以上相关经验，具备扎实的Java基础与数据结构知识；
+2、精通Spring Boot、MyBatis等主流框架，熟悉MySQL数据库及SQL优化；
+3、熟练掌握Redis、RabbitMQ等中间件，有微服务架构实战经验者优先；
+4、具备良好的代码规范意识，拥有良好的沟通协作能力及问题解决能力；
+5、工作责任心强，抗压能力强，对新技术保持敏感并乐于接受挑战。",高并发 Java Spring Boot MyBatis MySQL SQL Redis RabbitMQ 微服务 技术文档,https://jobs.51job.com/suzhou/172995282.html?s=sou_sou_soulb&t=0_0&req=a0aae0c41e5f4852aad85151acd9e587
+UI&UX交互工程师（割草机）,苏州惠禾科技,1.5-3万,苏州·苏州工业园区,苏州,本科,3年及以上,2026-06-12 15:20:06,job51,"【工作内容】
+1、负责智能割草机APP及控制端界面的交互设计与视觉优化，确保操作逻辑符合人机工程；
+2、主导产品原型制作与高保真设计输出，协同前后端团队完成功能落地与体验验收；
+3、深入分析用户操作数据与反馈，持续迭代割草场景下的核心交互流程，提升使用便捷性；
+4、制定并维护UI设计规范组件库，确保多端界面风格统一，保障品牌视觉一致性；
+5、参与产品需求评审，从用户体验角度提出专业建议，推动产品功能创新与体验升级。
+
+【任职要求】
+1、本科及以上学历，工业设计、数字媒体或相关专业，具备3年以上智能硬件或IoT产品交互经验；
+2、精通Figma、Sketch、Axure等主流设计工具，熟悉iOS与Android系统交互规范；
+3、拥有智能家居或户外设备类项目案例，理解远程控制、地图导航等复杂交互逻辑；
+4、具备良好的沟通协作能力与逻辑思维，能独立推进项目进度并解决跨部门协作问题；
+5、对科技产品充满热情，关注行业前沿趋势，具备较强的抗压能力与结果导向意识。",跨部门协作 Sketch,https://jobs.51job.com/suzhou-gyyq/172534818.html?s=sou_sou_soulb&t=0_0&req=a0aae0c41e5f4852aad85151acd9e587
+"Principal Engineer, Signal Processing",哈曼汽车电子系统（苏州）,2-3.5万,苏州,苏州,本科,8-9年,2026-08-06 14:36:53,job51,"A Career at HARMAN Automotive
+
+	We’re a global, multi-disciplinary team that’s putting the innovative power of technology to work and transforming tomorrow. At HARMAN Automotive, we give you the keys to fast-track your career.
+
+	* 
+
+	Engineer audio systems and integrated technology platforms that augment the driving experience.
+	* 
+
+	Combine ingenuity, in-depth research, and a spirit of collaboration with design and engineering excellence.
+	* 
+
+	Advance in-vehicle infotainment, safety, efficiency, and enjoyment.
+
+	About the Role
+
+	Design reference audio platforms based on SoCs, porting Harman audio solution into reference platforms and support customer to integrate Harman audio solution into their system.
+
+	What You Will Do
+
+	* 
+
+	Design common audio infrastructure SW based on Qualcomm/Samsung/Intel/NXP/TI/ADI… SoCs as reference platforms.
+	* 
+
+	Porting audio algorithms and framework into reference platforms, develop and setup environment for automatic Unit test and Integration test.
+	* 
+
+	Support customer to Integrate Harman audio solution into their automotive audio systems.
+	* 
+
+	Feasibility study and proof of concept for new technologies or customer project quotations.
+	* 
+
+	Audio algorithm optimization including MIPS/MCPS/Memory for common code and dedicate processors.
+	* 
+
+	Develop DSP signal flow based on existed framework.
+	* 
+
+	Audio interface configuration and debugging, audio performance (latency, THD, frequency…) verification.
+	* 
+
+	Lead technical discussion with global team, coordination within local team.
+
+	What You Need to Be Successful
+
+	* 
+
+	BSEE/BSCE or MSEE/MSCE major in software, electronics, Physics, Mathematics or related.
+	* 
+
+	10 years of SW development experience.
+	* 
+
+	Proficient in C language.
+	* 
+
+	Experienced with at least one DSP processor including Qualcomm Hexagon, Tensilica HiFi 4, ADI Sigma/Sharc/Griffin, TI C66, Intel Apollo Lake etc.
+	* 
+
+	Experienced with at least one Audio/DSP framework including AudioHAL(Android), ALSA(kernel), Elite(Qualcomm), AudioWeaver etc.
+	* 
+
+	Experienced in audio related embedded SW development: audio driver(I2S/TDM), floating-point and fixed-point processing, audio framework, MIPS/MCPS optimization.
+	* 
+
+	Solid embedded system development and debug experience.
+	* 
+
+	Familiar with HW instrument like oscilloscope, Audio precision analyzer, signal generators etc., and embedded debug tool like emulators, debuggers etc.
+	* 
+
+	Good Communication skill, clear/simple explanation for complicated problem.
+	* 
+
+	Proficient English skill.
+	* 
+
+	Self-motived.
+
+	Bonus Points if You Have 
+
+	* 
+
+	10 years of work experience on embedded software development, without frequent job-hopping.
+	* 
+
+	Experienced with audio signal processing: Signal flow design, FFT, filter design, ASRC etc.
+	* 
+
+	Experience with audio interfaces: TDM/I2S/PDM/SPORT/SPDIF/A2B/AVB/MOST.
+	* 
+
+	Automotive development experience on CAN/UDS/AUTOSAR.
+	* 
+
+	Familiar with Automotive-SPICE.
+
+	What Makes You Eligible
+
+	* 
+
+	You have a working knowledge of English.
+	* 
+
+	You are willing to travel, if necessary.
+
+	What We Offer 
+
+	* 
+
+	Flexible work environment.
+	* 
+
+	Access to employee discounts on world-class Harman (JBL, HARMAN Kardon, AKG, etc.)
+	* 
+
+	Extensive training opportunities through our own HARMAN University.
+	* 
+
+	Competitive wellness benefits.
+	* 
+
+	Access to HARMAN Campus Fitness Center and Cafeteria.
+	* 
+
+	""Be Brilliant"" employee recognition and rewards program.
+	* 
+
+	An inclusive and diverse work environment that fosters and encourages professional and personal development.",ARM Gin SPI SAM Go IPS DSP Electron LTE ASR CAN RAG,https://minisite.51job.com/HARMAN/page2.html?jobid=173176809
+后端开发工程师,腾飞科技,1-1.6万,昆山,苏州,本科,1年及以上,2026-06-15 16:51:48,job51,"1. 核心系统维护与迭代：全面负责公司PHP后端系统的日常维护、Bug修复及功能迭代，确保线上业务稳定运行。
+2. 新产品开发：参与新业务线的Web端及移动端产品开发，负责后端逻辑的全流程实现。
+3. 基础设施与运维：熟练操作主流云服务商的各类产品（如ECS、OSS、CDN等）。
+4. 技术选型与支持：参与产品需求分析与技术方案设计，协助团队攻克技术难点，保障项目高质量、按时交付。、
+
+学历背景：本科及以上学历，计算机、电子或相关专业。
+工作经验：1年以上后端开发经验。
+后端技术栈：掌握NodeJS或PHP后端，掌握Express、Flask等服务器框架，熟悉MySQL、Redis等数据库的设计与优化，熟悉Next.js、Nuxt.js等框架。掌握Docker用法。
+工程素养：熟练使用Git进行团队协作，代码规范，具备优秀的问题分析与解决能力。
+综合素养：沟通顺畅，自驱力强，能够快速适应创业型团队的节奏。
+有智能可穿戴设备、智能服装、医疗健康类项目的开发经验者优先。",PHP Express Flask MySQL Redis Next.js Nuxt Docker Git 需求分析 技术方案,https://jobs.51job.com/kunshan/172562914.html?s=sou_sou_soulb&t=0_0&req=0eb58884cf4df91b25e322ed4822f179
+"Principal Engineer, DSP",哈曼汽车电子系统（苏州）,2.5-4万,苏州,苏州,本科,5-7年,2026-06-12 11:42:45,job51,"A Career at HARMAN Automotive
+
+	We’re a global, multi-disciplinary team that’s putting the innovative power of technology to work and transforming tomorrow. At HARMAN Automotive, we give you the keys to fast-track your career
+
+	* 
+
+	Engineer audio systems and integrated technology platforms that augment the driving experience
+	* 
+
+	Combine ingenuity, in-depth research, and a spirit of collaboration with design and engineering excellence
+	* 
+
+	Advance in-vehicle infotainment, safety, efficiency, and enjoyment
+
+	About the Role
+
+	This position is part of HARMAN’s Software as a Product organization, focused on delivering end-to-end automotive audio solutions
+
+	The role involves designing, developing, and integrating HARMAN branded audio (BA) and Noise Management (NM) solutions (RNC, EOC, ESS/EVSE) on Qualcomm (e.g., SA8797/SA8255) and other SoC platforms, leveraging modern audio frameworks such as AudioReach, AMS, and AWE
+
+	You will work across the full software lifecycle—from requirement analysis to system integration—contributing to production programs for global OEM customers
+
+	What You Will Do
+
+	* 
+
+	Design, develop, and integrate automotive audio software components using C/C
+	* 
+
+	Deliver complete audio solutions including Branded Audio (BA) and Noise Management (RNC, Engine Order Cancellation, ESS/EVSE)
+	* 
+
+	Integrate HARMAN audio solutions on Qualcomm platforms (SA8797, SA8255) using AudioReach, AMS, and AWE frameworks.
+	* 
+
+	Perform audio algorithm porting and optimization across DSP and heterogeneous compute platforms, including Qualcomm Hexagon (aDSP/mDSP), Tensilica HiFi series, ARM, SHARC, and x86
+	* 
+
+	Integrate third-party audio and DSP solutions such as Cerence, Arkamys, and AWE into the HARMAN platform
+	* 
+
+	Develop and validate customer audio solutions, including signal flow design and audio performance tuning covering latency, THD, and frequency response
+	* 
+
+	Build and maintain reference audio platforms on both emulators and target SoCs
+	* 
+
+	Adapt and integrate audio frameworks into Android and QNX IVI systems, including AudioManager, Audio HAL, and ALSA
+	* 
+
+	Conduct feasibility studies, proof-of-concept development, and support technical proposals for customer projects
+	* 
+
+	Collaborate closely with global cross-functional teams including Program Management, Hardware, QA, Manufacturing, and suppliers
+	* 
+
+	Lead or actively participate in technical discussions with global teams and customers
+
+	What You Need to Be Successful
+
+	* 
+
+	Bachelor’s or Master’s degree in Electrical Engineering, Computer Engineering, Software Engineering, or related fields
+	* 
+
+	At least 3 years of embedded software development experience.
+	* 
+
+	Strong proficiency in C/C programming
+	* 
+
+	Hands-on experience in audio embedded systems including audio drivers such as I2S and TDM, DSP processing with fixed-point and floating-point implementation, and audio frameworks
+	* 
+
+	Familiarity with Qualcomm audio architecture is preferred, especially AudioReach and Hexagon DSP
+	* 
+
+	Solid debugging capability and system-level troubleshooting experience
+	* 
+
+	Experience in performance optimization including MIPS, MCPS, and memory usage
+	* 
+
+	Familiarity with lab instruments such as oscilloscopes, Audio Precision analyzers, and signal generators
+	* 
+
+	Strong communication skills with the ability to explain complex technical topics clearly and concisely
+	* 
+
+	Good English communication skills
+
+	Bonus Points if You Have 
+
+	* 
+
+	Extensive experience (8-10 years or more) in automotive audio or embedded DSP development
+	* 
+
+	Experience working with real-time operating systems
+	* 
+
+	Strong background in DSP platforms including Qualcomm Hexagon, Tensilica HiFi, TI C66, or ADI SHARC/SigmaDSP
+	* 
+
+	Knowledge of audio signal processing such as FFT, filter design, ASRC, and ANC/RNC algorithms
+	* 
+
+	Experience with automotive audio interfaces including TDM, I2S, PDM, A2B, AVB, and SPDIF
+	* 
+
+	Familiarity with Audio Weaver (AWE) or similar signal flow tools.
+	* 
+
+	Knowledge of Automotive SPICE development processes
+	* 
+
+	Experience supporting global OEM or Tier 1 automotive programs
+
+	What Makes You Eligible
+
+	* 
+
+	You have a working knowledge of English
+	* 
+
+	You are willing to travel, if necessary
+	* 
+
+	Due to the nature of global infrastructure, you understand that flexibility in working hours is required
+	* 
+
+	You can obtain a government security clearance; You are eligible to work in China
+
+	What We Offer 
+
+	* 
+
+	Flexible work environment
+	* 
+
+	Access to employee discounts on world-class Harman (JBL, HARMAN Kardon, AKG, etc.)
+	* 
+
+	Extensive training opportunities through our own HARMAN University
+	* 
+
+	Competitive wellness benefits
+	* 
+
+	Access to HARMAN Campus Fitness Center and Cafeteria
+	* 
+
+	""Be Brilliant"" employee recognition and rewards program
+	* 
+
+	An inclusive and diverse work environment that fosters and encourages professional and personal development",ARM Gin SPI GAN RAG ROS CAN Go DSP IPS LTE ASR,https://minisite.51job.com/HARMAN/page2.html?jobid=172530180
+OA工程师,苏州维信电子,8-9千·14薪,苏州·吴中区,苏州,本科,2年及以上,2026-07-21 10:35:38,job51,"岗位职责：
+1、负责现有BPM/契约锁/ERP等系统的开发和问题处理，包括业务模块拓展、报表定制、流程开发；
+2、独立在 BPM 后台建模流程、设计表单、维护组织架构、岗位权限、数据字典；处理用户权限开通、离职回收、流程代理等。
+3、主导或参与跨系统接口开发与集成工作，实现BPM与ERP、MES、SRM、PLM等系统的数据互通与联动，保障数据传输的准确性和及时性。
+4、负责软件更改说明、功能特性说明等文档编写工作；
+5、把控项目进度、风险、范围变更；编写实施手册、运维文档、验收文档，完成客户验收签字，满足财务、供应链、HR、生产等部门的业务需求；
+6、日常巡检系统运行状态，处理流程报错、接口同步失败、数据上传异常；定期清理冗余数据。
+能力要求：
+1、本科以上学历；
+2、软件工程/计算机应用/信息管理或其他相关专业 ；
+3、熟练掌握Java(优先考虑)、Android(优先考虑)；掌握MySQL、SQL Server、Oracle 基础 SQL，能编写查询、简单存储过程，排查数据异常；;
+4、掌握HTML、JavaScript、JS 表单校验、数据联动，能写业务脚本；Vue/JQuery 基础了解更佳；
+5、Windows 服务器基础操作，了解 Linux 基础命令，系统部署、日志查看、故障排查；
+6、基于泛微 E9/E10、AWS、Flowable 流程引擎做定制开发：复杂业务插件、自定义组件、复杂接口、报表开发、流程扩展逻辑。
+7、有制造业IT相关工作经验优先；
+8、具有良好的理解、沟通、项目管理、需求分析、系统分析设计的能力及文档编写能力；
+9、有责任感，诚信正直、积极主动、工作细致、有耐心，愿意上进，乐于学习，遵守公司相关工作制度，能适应弹性加班。",Java MySQL SQL Server Oracle SQL JavaScript Vue jQuery Linux AWS 文档编写 供应链 故障排查 项目管理 需求分析,https://jobs.51job.com/suzhou-wzq/172981317.html?s=sou_sou_soulb&t=0_0&req=0eb58884cf4df91b25e322ed4822f179
+测试专家(J10038),苏州华启智能科技,2-2.5万·14薪,苏州·高新区,苏州,本科,10年及以上,2026-06-15 15:08:30,job51,"工作职责:
+1.	负责轨道交通车载PIS设备单设备深度测试，包含硬件接口、通信接口、模拟音频、GPIO、干接点、带灯按键等底层验证。
+2.	负责PIS系统级全流程测试，完成功能、性能、稳定性、兼容性、复杂场景与极限场景测试。
+3.	承担项目疑难问题攻坚、故障复现、根因分析，支撑现场联调、首列车验证与运营保障，推动问题闭环。
+4.	参与测试规范、用例模板、缺陷标准、测试流程建设，输出高质量测试文档与技术沉淀。
+5.	支撑自动化测试、自动化工具开发、AI测试提效等专项工作，配合完成技术落地。
+6.	为团队提供技术赋能与经验分享，提升整体测试能力与质量意识。
+7.	适应短期出差，支持现场调试、客户联调与问题处理。
+任职资格:
+1.	本科及以上学历，计算机、电子信息、自动化、通信、软件工程等相关专业。
+2.	10年及以上轨道交通、车载、嵌入式、工业控制领域测试经验。
+3.	掌握Python/Shell脚本、有自动化测试或工具开发经验者优先。
+4.	能接受短期出差，认同轨道交通行业质量要求。
+5. 精通硬件接口与底层验证：上电、复位、电源、时序、板级功能测试。
+6	精通通信接口测试：CAN总线、RS485/RS232/UART串口、100M/1000M以太网验证。
+7	精通模拟音频测试：差分音频输入输出、MIC、Speaker、功放电路、噪声/失真/啸叫测试。
+8	精通外设控制测试：GPIO逻辑、干接点输入输出、带灯按键灯光与响应测试。
+9	能独立设计复杂场景、异常场景、边界场景用例，具备高可靠系统测试经验。
+10	熟练使用示波器、音频分析仪、CANoe/CANalyzer、Wireshark 及串口调试工具等，完成设备测试与问题定位分析。
+11	熟悉车载网络、车地通信、PIS业务逻辑，可独立完成系统联调测试。",Python Shell CAN UART 自动化测试 功能测试,https://jobs.51job.com/suzhou-gxq/172559360.html?s=sou_sou_soulb&t=0_0&req=0eb58884cf4df91b25e322ed4822f179
+AI算法工程师,苏州铠策微机械科技,1.5-2万,昆山,苏州,硕士,3年及以上,2026-08-01 17:07:01,job51,"岗位职责：
+1. 核心算法开发与优化
+1.1. 实现并优化计算机视觉算法，包含球体跟踪、球员标记与跟踪、攻守转换识别（基于行为模式与位置逻辑的实时判断）。
+1.2. 设计动作识别模型，包含射门/传球等关键时序动作检测/分类、动作质量评估。
+1.3. 实现事件驱动的视频剪辑，包含事件发生的时空定位、自动生成精彩片段（基于事件重要性评分）。
+2. 群体行为分析
+2.1. 构建攻守阵型识别模型，包含球员位置聚类与阵型模式提取、阵型动态变换检测。
+2.2. 开发战术分析工具，包含热点图生成（基于球员移动密度）、战术路径可视化（如传球网络图）。
+3. 工程化落地
+3.1. 将算法部署至移动端/云端（TensorRT、ONNX优化），及提供安卓/后端开发人员调用接口。
+3.2. 设计低延迟处理流水线。
+
+任职要求：
+1. 硕士以上学历，软件、计算机、模式识别、深度学习相关专业。
+2. 必备基本技能：3年以上AI开发经验，主导过计算机视觉项目，精通Python/C++，熟悉PyTorch/TensorFlow框架；
+3. 必备专业技能：掌握目标检测、复杂场景下的多目标跟踪、有时序动作识别经验、熟悉视频处理技术及性能优化。
+4. 加分项：有体育视频AI分析经验。
+5. 能快速将运动领域需求转化为技术方案，跨团队协作能力（与产品、标注团队配合）。",计算机视觉 ONNX 深度学习 Python C++ PyTorch TensorFlow 技术方案,https://jobs.51job.com/kunshan/173120067.html?s=sou_sou_soulb&t=0_0&req=0eb58884cf4df91b25e322ed4822f179
+Java开发工程师,江苏深巡科技,6千-1万·13薪,苏州·苏州工业园区,苏州,本科,1年及以上,2026-07-28 10:35:55,job51,"〖岗位职责〗
+1.负责安消防智能化系统与前端采集设备的数据接入工作；
+2.配合项目团队完成相关项目的现场调试工作；
+3.熟悉安消防相关的智能化设备及其通讯和组网方式。
+
+〖任职要求〗
+1.	本科及以上学历，计算机、物联网等相关专业，1年以上开发经验；
+2.	熟悉物联网设备接入流程，包括设备调试、数据传输、协议适配等；
+3.	熟悉工业控制及物联网相关协议，如Modbus、MQTT、LoRaWAN、HTTP、TCP/IP(Websocket)等；
+4.	具备协议解析与开发能力，能够根据协议规范实现设备与平台之间的通信对接，解决协议适配过程中出现的问题；
+5.	熟练掌握Java，具备扎实的Java基础，熟悉多线程、IO等技术；
+6.	熟悉Spring、SpringBoot、SpringCloud等主流Java开发框架，能够运用相关框架进行物联网设备接入服务的开发与搭建；
+4.熟练使用progresql、mysql、sqlserver等常用数据库；
+5.具有良好的学习、沟通能力，对工作认真负责、有团队合作精神；",Modbus MQTT LoRA TCP/IP WebSocket Java Spring SQL MySQL,https://jobs.51job.com/suzhou-gyyq/161762461.html?s=sou_sou_soulb&t=0_0&req=0eb58884cf4df91b25e322ed4822f179
+上位机软件开发,江苏省优联检测技术服务,1.5-2.5万,苏州·吴中区,苏州,本科,无需经验,2026-07-09 16:22:01,job51,"岗位职责：
+1、负责产品开发过程中软件模块设计、操作界面设计、编程、调试、输出文档等开发工作；
+2、负责上位机软件整体方案设计、产品研发，日常改善维护和核心技术攻关，并按照规范编写技术文档；
+3、能够按照制定计划完成开发与测试任务，确保项目进度；
+4、负责软件产品的申请和上报。
+
+任职要求：
+1、计算机、软件相关专业本科及以上学历。
+2、熟练掌握Delphi、VB、C/C++，C#等至少一门编程语言，具有Windows界面程序开发经验。
+3、最少熟悉Access/MySQL/Sqlite/SQL Server/Oracle中的一种数据库。
+4、熟悉串口，USB等通信接口；从事过串口，USB通信模块软件开发的人员优先。
+5、有跨平台开发经验者优先（Widows、Linux、Android）；
+6、有一定的产品研发或项目（课题）、图像识别、算法、仪器上位机软件开发经验，具备一定的系统思维，有提出解决方案的能力、动手能力强、知识面宽；
+7、有职业目标、好学肯钻、做事雷厉风行、有良好的沟通表达能力、勤奋敬业；品行端正，对工作有高度责任心、有较强的承压能力。",C++ C# MySQL SQLite SQL Server Oracle Linux 方案设计 技术文档,https://jobs.51job.com/suzhou-wzq/153740776.html?s=sou_sou_soulb&t=0_0&req=0eb58884cf4df91b25e322ed4822f179
+Java工程师,儒拉玛特自动化技术（苏州）,8千-1.5万·14薪,苏州·苏州工业园区,苏州,本科,1-3年,2026-08-05 14:37:00,job51,"工作职责
+1. 负责MES系统（制造执行系统）及产线相关后端接口开发、需求落地、代码优化，确保系统稳定、高效运行，适配产线生产调度、数据采集、流程管控等核心场景。
+2. 基于Java、SpringBoot框架进行微服务架构设计与开发，参与系统需求分析、技术方案评审、接口文档编写，保障代码质量与开发效率。
+3. 负责PostgreSQL数据库的设计、优化，包括复杂SQL编写、索引优化、事务控制、存储过程开发，支撑MES系统海量产线数据的存储与查询。
+4. 集成各类中间件（Redis、RabbitMQ/Kafka、Elasticsearch等），实现系统异步解耦、数据缓存、消息投递、日志检索等功能，适配产线高并发、高可用需求。
+5. 配合前端、测试及业务部门，完成MES系统联调、问题排查、版本迭代，持续优化系统性能、提升用户体验。
+6. 关注行业技术动态，引入合适的技术方案，解决MES系统及产线数字化过程中的技术难点，推动系统迭代升级。
+7. 参与技术文档编写、代码评审，规范开发流程，提升团队研发能力。
+
+任职资格
+1. 本科及以上学历，计算机、软件工程、电子信息等相关专业，1-3年及以上Java后端开发经验。
+2. 优先考虑有MES系统开发经验、产线数字化系统开发经验者，熟悉MES核心业务（生产调度、工序管理、数据采集、质量追溯等）者优先，可放宽部分条件。
+3. 精通Java语言，熟练掌握JDK8+新特性（Lambda、Stream、函数式编程等），熟悉Java并发编程、IO、集合框架，具备扎实的Java基础。
+4. 熟练使用SpringBoot框架进行后端开发，熟悉SpringCloud微服务生态（Nacos、Feign、Gateway等），能独立完成微服务模块开发与部署。
+5. 熟练使用PostgreSQL数据库，具备丰富的数据库设计、复杂SQL编写、索引优化、事务处理经验，了解MySQL、时序数据库者加分。
+6. 熟悉各类中间件使用：熟练使用Redis进行缓存设计与优化，熟练使用RabbitMQ/Kafka实现消息队列、异步通信，了解Elasticsearch、MinIO、XXL-JOB等中间件者优先。
+7. 熟悉RESTful接口设计规范，能独立编写接口文档，具备接口调试、问题排查能力，了解Swagger、Postman等工具。
+8. 了解Docker容器化部署、Git版本控制，熟悉Linux系统基本操作，能独立处理开发、测试及生产环境的常见问题。
+9. 具备良好的代码规范，有较强的问题分析与解决能力，能快速定位并解决开发过程中的技术难题。",Java Spring 微服务 PostgreSQL SQL Redis RabbitMQ Kafka Elasticsearch 高并发 高可用 MySQL Docker 容器化 Git Linux 数据采集 需求分析 技术方案 文档编写 技术文档,https://jobs.51job.com/suzhou-gyyq/172408162.html?s=sou_sou_soulb&t=0_0&req=0eb58884cf4df91b25e322ed4822f179
+JAVA初级工程师（应届）,兰笺（苏州）科技,6千-1万,苏州·苏州工业园区,苏州,本科,无需经验,2026-06-28 19:07:49,job51,"岗位职责
+1.系统模块编码实现：在导师或高级工程师的指导下，独立或协作完成业务模块的代码编写与自测，确保代码质量符合团队规范。
+2.技术文档编写：负责对接接口文档、模块设计说明、数据库设计文档的编写与维护。
+3.线上问题排查：配合团队完成系统在日常使用及项目交付过程中的问题排查与修复。
+4.技术学习与沉淀：积极参与团队技术分享与 Code Review，持续学习-主流技术栈，提升工程化能力。
+任职要求
+1.统招本科一批，211/985 院校优先，计算机科学与技术、软件工程、信息管理与信息系统等相关专业。
+2.Java 基础扎实：熟悉 Java 面向对象编程、集合框架、异常处理等核心基础知识，了解 JVM 内存模型及常见垃圾回收算法原理。
+3.主流框架应用：了解 Spring Boot、MyBatis 或 MyBatis-Plus 等主流开发框架的基本使用，理解 IoC、AOP、依赖注入等核心概念，有实际项目经验或课程设计项目者优先。
+4.数据库基础：熟练编写 SQL 语句，掌握多表关联查询、分组聚合、简单子查询等常用操作；了解 MySQL 索引类型及基本 SQL 调优方法。
+5.接口开发规范：了解 RESTful API 设计原则与 HTTP 协议基础知识，熟悉 JSON 数据格式及前后端数据交互方式，具备接口调试能力。
+6。开发工具链：熟练使用 IntelliJ IDEA / Eclipse 等开发 IDE；掌握 Git 版本控制基础操作（clone/commit/push/pull/merge）；了解 Maven 或 Gradle 项目构建工具。
+7.学习与协作能力：具备较强的自驱学习能力和技术好奇心，能主动查阅官方文档与社区资料解决问题；善于团队沟通，具备良好的需求理解与反馈意识。
+加分项
+在校期间有 Java Web 项目或实习经历者优先。
+了解 HTTP 签名、Token 鉴权、接口加密等常见安全机制者优先。
+了解 Linux 基本命令及 Docker 容器化基础概念者优先。
+了解智慧工地或政府监管平台业务场景者优先。""",Java Spring Boot MyBatis MyBatis-Plus SQL MySQL CLIP Git Maven Gradle 加密 Linux Docker 容器化 技术文档,https://jobs.51job.com/suzhou-gyyq/172716155.html?s=sou_sou_soulb&t=0_0&req=0eb58884cf4df91b25e322ed4822f179
+UI/UX 设计助理（C 端 O2O 方向）,悉平方科技（苏州）,5-7千,苏州·吴中区,苏州,本科,无需经验,2026-07-15 19:41:35,job51,"岗位亮点
+•	全程参与 O2O 社交化交易新产品从 0 到 1 的设计全流程，近距离接触核心业务场景，快速积累实战经验
+•	资深设计师 1v1 带教，体系化学习 C 端产品设计方法论、交互逻辑与落地规范，成长路径清晰
+•	覆盖 APP / 小程序 / Web 多端设计场景，深度接触社交交易、LBS 地图匹配等 O2O 特色业务，拓展行业视野
+•	团队氛围开放，优秀创意与优化建议可快速落地，个人成长与产品发展同步
+核心职责
+1.	设计执行与多端适配支持
+协助主设计师完成 C 端 O2O 产品的日常设计执行工作，包括基础页面视觉设计、切图标注、多端尺寸适配、素材输出等；配合完成交互原型的细化与调整，保障设计产出的规范统一。
+2.	核心场景设计辅助
+参与社交化交易流程、LBS 服务匹配可视化、数据看板等核心业务场景的设计工作，负责竞品参考收集、素材整理、初版方案输出等支持工作，配合打磨用户体验。
+3.	设计规范维护与落地跟进
+协助维护产品设计规范与组件库，同步更新设计资产；配合跟进前端开发落地，参与设计走查，协助核对视觉还原效果，及时记录并同步问题。
+4.	体验优化支持
+协助收集整理用户反馈、竞品设计动态与行业设计趋势，配合完成 A/B 测试的设计素材准备与效果复盘，辅助产品体验迭代优化。
+任职要求
+基础资质
+全日制统招本科及以上学历，视觉设计、交互设计、数字媒体等相关专业优先；应届生或 1 年以内互联网设计相关经验，投递需附完整作品集。
+专业能力
+•	熟练使用 Figma/Sketch 至少一种主流设计工具，掌握 PS、AI 等基础设计软件，能独立完成基础页面设计、切图标注工作
+•	了解 iOS、Android 及小程序基础设计规范，对交互逻辑与用户体验有基础认知
+•	作品集可包含课程设计、个人练习、实习项目，能清晰展示设计思路与基础审美能力
+软性素质
+•	热爱设计，对 O2O / 本地生活 / 社交类产品有兴趣，具备快速学习能力与自驱力
+•	工作细致严谨，有责任心，能高效完成基础执行类工作
+•	沟通顺畅，具备良好的团队协作意识，能快速对齐需求并调整方案
+加分项
+•	有 O2O、电商、社交类产品的设计实习或项目经验
+•	具备基础动效设计能力，了解 Principle、AE 等动效工具
+•	有组件库维护、设计走查相关经验
+•	对用户体验有独立思考，有用户研究、可用性测试相关实践经历",产品设计 O2O APP Web LBS Figma Sketch PS,https://jobs.51job.com/suzhou-wzq/172926750.html?s=sou_sou_soulb&t=0_0&req=0eb58884cf4df91b25e322ed4822f179
+C++软件工程师,江苏康众数字医疗科技,1.2-1.7万·14薪,苏州·苏州工业园区,苏州,硕士,无需经验,2026-07-24 18:13:28,job51,"工作职责
+1、负责设备端桌面应用软件的开发与迭代（Windows/Linux 环境）
+2、设计并实现人机交互界面（GUI）及相关业务逻辑模块
+3、与算法、嵌入式、电气等团队协作，完成系统集成与联调
+4、优化软件性能与稳定性，提升用户操作体验
+5、参与软件工程规范建设，包括代码评审、版本管理与自动化构建
+6、编写必要的开发文档与交付说明
+
+任职要求
+1、熟悉并能够高频使用主流 AI 编程辅助工具（如 GitHub Copilot、ChatGPT、Cursor 等），能够在开发过程中充分利用 AI 提升编码效率、调试效率与交付速度
+2、知名院校硕士学历，计算机、软件工程等相关专业，接受应届毕业生
+3、 C++ 开发经验，具备良好的面向对象设计能力
+4、熟悉至少一种主流跨平台 GUI 框架（如 Qt 或同类框架）
+5、熟悉多线程、网络通信、常见设计模式；熟悉 Windows/Linux 开发环境与调试工具
+6、具备强烈的学习意愿与优秀的自学能力，能够快速掌握新技术、新框架并独立解决问题",Linux Git GPT C++ 版本管理 Windows GUI AI,https://jobs.51job.com/suzhou-gyyq/172581208.html?s=sou_sou_soulb&t=0_0&req=0eb58884cf4df91b25e322ed4822f179
+软件工程师,苏州天弘激光,1-2万,苏州,苏州,大专,无需经验,2026-08-04 13:22:16,job51,"任职资格 ：
+1、计算机、测控、数学等相关专业大专及以上学历；
+2、熟练掌握C#、C++编程、图像处理、运动控制等算法
+3、熟练多轴联动运动控制；有独立开发产品的经验；
+4、有良好的学习能力，主动学习工作相关业务知识，有良好的团队意识
+
+岗位职责 ：
+1、能独立处理和解决所负责的项目；
+2、根据开发进度和任务分配，完成相应模块软件的设计、开发、编程任务；
+3、进行程序单元、功能的测试，查出软件存在的缺陷并保证其质量；
+4、维护软件使之保持可用性和稳定性",C# C++,https://jobs.51job.com/suzhou/171520676.html?s=sou_sou_soulb&t=0_0&req=0eb58884cf4df91b25e322ed4822f179
+初级全栈开发工程师,江苏硕晟软件科技,5-7千,苏州·吴中区,苏州,大专,1-3年,2026-07-25 15:54:04,job51,"岗位职责
+
+1. 参与公司Web、APP、小程序、企业管理系统的前后端开发与功能迭代。
+
+2. 负责前端页面搭建、交互开发及PC、移动端多端兼容适配，保证页面流畅运行。
+
+3. 协助并独立完成后端业务开发、接口编写、数据处理及数据库基础维护工作。
+
+4. 配合产品、测试完成需求评审、代码自测、BUG修复及版本上线迭代。
+
+5. 遵循团队开发规范，编写注释及文档，维护代码仓库，参与代码评审优化。
+
+6. 主动学习新技术，协助团队完成功能升级、性能优化及小型项目落地。
+
+任职要求
+
+1. 计算机相关专业，大专及以上学历，1-3年全栈开发经验，可独立完成常规前后端开发任务。
+
+2. 熟练掌握HTML5、CSS3、JavaScript、ES6+，可独立完成页面及交互开发。
+
+3. 熟练Vue2/Vue3及 Element UI、Vant 等组件库，了解Uni-app跨端开发优先。
+
+4. 熟练Java后端开发，熟悉前后端分离、微服务、分布式基础开发模式。
+
+5. 熟悉MySQL，掌握数据表设计、常用SQL编写、索引及基础优化能力。
+
+6. 熟练Git、Postman等开发工具，具备基本联调和问题排查能力。
+
+7. 有商城、本地生活、出行、旅游类APP或小程序项目经验者优先。",HTML5 CSS3 JavaScript Vue Java 微服务 分布式 MySQL SQL Git,https://jobs.51job.com/suzhou-wzq/173041027.html?s=sou_sou_soulb&t=0_0&req=0eb58884cf4df91b25e322ed4822f179
+软件工程师（C++）,苏州迪凯尔医疗科技,1.2-2.3万,苏州·苏州工业园区,苏州,本科,无需经验,2026-08-05 17:39:49,job51,"岗位职责: 
+1. 参与软件系统的设计、开发和维护工作 
+2. 根据项目需求编写高质量的C++代码 
+3. 协助团队完成技术方案的制定与优化 
+
+任职要求： 
+本科含以上学历，985，211院校25/26届应届生亦考虑，计算机相关专业；
+1. 熟悉C++语言及相关开发工具 ，在校有竞赛/项目/实习经历优先；
+2. 具备良好的逻辑思维能力和问题解决能力 
+3. 善于沟通，具备团队协作意识",C++ 技术方案,https://jobs.51job.com/suzhou-gyyq/173166197.html?s=sou_sou_soulb&t=0_0&req=0eb58884cf4df91b25e322ed4822f179
+项目管理—对A,博众精工科技,1.5-2万·14薪,苏州,苏州,本科,5年及以上,2026-07-23 16:34:44,job51,"岗位职责
+1. 项目全流程统筹：独立负责3C行业A类重点项目从客户需求对接、立项、研发打样、试产到量产爬坡、结案复盘的全周期管理，把控项目进度、成本、质量三大核心指标，保障项目按客户节点准时落地，规避项目延期、成本超支风险。
+2. 客户对接与沟通：作为项目***对接人，直接对接海外及国内一线3C品牌客户，独立完成全英文会议沟通、英文需求文档评审、英文项目周报/月报输出、客诉问题闭环跟进，精准同步项目状态，维护良好客情关系。
+3. 跨部门团队协调：联动研发、工程、生产、品质、采购、供应链等内部部门，拆解项目节点，制定详细WBS工作计划，跟进物料齐套、产线调试、品质整改等关键环节，解决项目推进过程中的跨部门卡点问题。
+4. 风险管控与问题处理：识别3C A类项目研发、试产、量产阶段的技术风险、供应链风险、品质风险，提前制定应急预案；针对项目异常、客户不良反馈快速牵头成立专项小组，推动问题闭环，降低项目损失。
+5. 项目资料与复盘管理：标准化输出项目立项书、进度报告、试产报告、结案报告等全套中英文项目资料；项目结束后完成复盘总结，沉淀A类项目管理经验，优化公司现有项目管理流程。
+
+任职要求
+1. 工作经验硬性要求：拥有5年及以上3C消费电子行业专职项目管理经验，必须完整操盘过3C行业A类标杆整机/结构件项目全流程，熟悉3C产品新品导入、NPI流程、量产管控逻辑，有头部安卓/苹果供应链项目经验者优先。
+2. 语言能力要求：英语听说读写流利，商务英语能力出色，可无障碍独立开展全英文线上/线下客户会议、撰写全英文项目文件、直接和海外客户口语沟通，无需翻译协助。
+3. 专业能力要求：熟悉3C行业A类项目管控标准、IATF16949/ISO9001质量体系、NPI新产品导入流程；熟练使用Project、Jira、Excel等项目管理工具，能独立制定项目排期、管控项目成本与物料；熟悉3C塑胶、五金、电子组装工艺者优先。
+4. 综合素养要求：具备极强的跨部门协调能力、问题解决能力和抗压能力，能适配3C行业项目加急、客诉应急等突发工作；目标感强，做事严谨有条理，具备良好的项目风险预判能力。
+5. 学历要求：本科及以上学历，电子信息、机械制造、项目管理相关专业优先。",采购 供应链 项目管理 IATF16949 Jira,https://jobs.51job.com/suzhou/173021867.html?s=sou_sou_soulb&t=0_0&req=0eb58884cf4df91b25e322ed4822f179
+软件工程师,苏州迈时光电,8千-1.5万,苏州·高新区,苏州,本科,3年及以上,2026-08-07 17:01:43,job51,"1负责公司WEB系统前后端开发和维护
+2与团队其他成员协作完成项目的开发、测试和交付工作
+3编写高效、易于维护的代码，并遵循团队约定的代码风格和标准
+4参与系统架构设计和优化，推进技术创新和优化对
+任职资格
+1本科及以上学历，计算机、光电子等相关专业，cet4，能够熟练阅读英文技术资料，能独立完成前后端开发工作，有良好的团队合作能力，善于沟通，主动性强，执行能力强，具备良好的问题定位分析能力
+2精通Java语言,熟悉多线程编程和网络编程,掌握Web开发技术,如Spring框架、HTML5、CSS3、JavaScript、
+3jQuery、Vue.js等
+4熟悉使用关系数据库（Oracle、Mysql、SqlServer等），了解hibernate、mybatis数据库框架
+5熟悉JS的各种特性，能够处理各种浏览器之间的兼容性问题
+6具备一定的WEB前后端开发经验
+7会使用接口测试工具（Postman/Swagger等）
+8会使用源码版本管理工具（Git基本操作）",Java Spring HTML5 CSS3 JavaScript jQuery Vue Oracle MySQL SQL Hibernate MyBatis Git 版本管理,https://jobs.51job.com/suzhou-gxq/173195078.html?s=sou_sou_soulb&t=0_0&req=0eb58884cf4df91b25e322ed4822f179
+软件工程师（苏州）(J10510),苏州迈时光电,8千-1.5万,苏州·高新区,苏州,本科,3-5年,2026-08-07 16:58:09,job51,"工作职责:
+1.负责公司WEB系统前后端开发和维护;
+2.与团队其他成员协作完成项目的开发、测试和交付工作;
+3.编写高效、易于维护的代码，并遵循团队约定的代码风格和标准;
+4.参与系统架构设计和优化，推进技术创新和优化对
+任职资格:
+1.本科及以上学历，计算机、光电子等相关专业，cet4，能够熟练阅读英文技术资料;
+2.能独立完成前后端开发工作，有良好的团队合作能力，善于沟通，主动性强，执行能力强，具备良好的问题定位分析能力;
+3.精通Java语言,熟悉多线程编程和网络编程,掌握Web开发技术,如Spring框架、HTML5、CSS3、JavaScript、jQuery、Vue.js等;
+4.熟悉使用关系数据库（Oracle、Mysql、SqlServer等），了解hibernate、mybatis数据库框架;
+5.熟悉JS的各种特性，能够处理各种浏览器之间的兼容性问题;
+6.具备一定的WEB前后端开发经验;
+7.会使用接口测试工具（Postman/Swagger等）;
+8.会使用源码版本管理工具（Git基本操作）",Java Spring HTML5 CSS3 JavaScript jQuery Vue Oracle MySQL SQL Hibernate MyBatis Git 版本管理,https://jobs.51job.com/suzhou-gxq/173194953.html?s=sou_sou_soulb&t=0_0&req=0eb58884cf4df91b25e322ed4822f179
+智能制造工程师,新美光（苏州）半导体科技,1-1.5万·15薪,苏州·苏州工业园区,苏州,本科,2年及以上,2026-08-07 09:42:37,job51,"主要职责	
+1、MES系统功能模块开发与维护
+2、与PLM/WMS/QMS等外部系统的接口对接
+3、MES生产环境问题的分析与优化
+4、Android平板/工业终端PDA应用开发（扫码枪、打印机等外设对接）
+5、MES移动端PDA应用开发与维护
+6、工业硬件设备对接（扫码枪、打印机等）
+7、移动端性能优化与用户体验改进
+要求	
+1、本科及以上学历，计算机相关专业，2年以上开发经验
+2、扎实的Java/Kotlin编程基础，熟悉面向对象设计原则
+ 精通Kotlin/Java + Spring Boot + MyBatis-Plus，Layui + jQuery开发能力
+ 精通AndroidX + MVVM（ViewModel + ViewBinding + Lifecycle），OkHttp + Gson + Coroutines，Material Design + RecyclerView + SmartRefreshLayout 开发能力
+3、精通Android平板/工业终端PDA应用开发经验（扫码枪、打印机等外设对接）
+4、精通RESTful API开发，具备规范的接口设计与实现能力
+5、熟悉MPAndroidChart等数据可视化方案
+6、熟悉定时任务调度与异步并发处理
+7、熟悉WebSocket实时通信机制
+8、了解PDF.js等前端文档处理方案
+9、掌握SQL Server或MySQL数据库开发，能编写高效SQL查询
+10、具备快速学习新技术栈的能力，能主动探索并应用于实际工作",Java Kotlin Spring Boot MyBatis-Plus jQuery WebSocket SQL Server MySQL SQL,https://jobs.51job.com/suzhou-gyyq/173185097.html?s=sou_sou_soulb&t=0_0&req=0eb58884cf4df91b25e322ed4822f179
+UI设计师,武汉启贤达业人力资源,8千-1万,苏州·苏州工业园区,苏州,本科,3年及以上,2026-08-09 13:29:39,job51,"【工作内容】
+1、负责互联网产品界面视觉设计，独立完成高保真原型图及交互规范制定；
+2、主导 APP 及 Web 端 UI 风格把控，确保视觉表现符合品牌调性与用户体验标准；
+3、协同产品经理与开发团队，跟进设计落地效果，解决跨部门协作中的技术实现问题；
+4、持续优化现有界面交互细节，通过数据反馈迭代设计方案以提升用户留存率。
+
+【任职要求】
+1、本科及以上学历，设计、美术或相关专业背景，具备3年以上互联网UI设计经验；
+2、精通Figma、Sketch、PS等主流设计工具，熟悉iOS及Android设计规范与切图流程；
+3、拥有优秀的审美能力与交互思维，能独立输出完整的设计方案及动效演示；
+4、具备良好的沟通协作能力与抗压性，对用户体验有敏锐洞察力，工作严谨负责。",跨部门协作 APP Web UI Sketch,https://jobs.51job.com/suzhou-gyyq/173201741.html?s=sou_sou_soulb&t=0_0&req=0eb58884cf4df91b25e322ed4822f179
+Java初级工程师,苏州众壳科技,7-9千,苏州·苏州工业园区,苏州,本科,1年及以上,2026-07-10 15:31:12,job51,# 职位描述 1. 负责项目的代码开发、单元测试与接口联调工作，及时完成产品缺陷的定位与修复。 2. 负责编写系统设计文档、业务流程图等技术文档，保证文档规范完整。 3. 参与系统架构优化、性能调优与代码质量提升，持续改善系统稳定性与执行效率。 # 任职要求 1. 计算机、软件工程等相关专业，本科及以上学历，1 年及以上 Java 开发相关经验。 2. 具备良好的面向对象编程能力，熟悉常用设计模式。 3. 熟悉 Spring 生态体系，掌握 SpringMVC、Spring Boot 等开源框架，能够使用 JPA 进行数据层开发。 4. 熟悉 MySQL具备规范的 SQL 编写与数据库开发能力。 5. 熟练使用Vue等前端技术，能够做前后端调试与代码调整 TypeScript。 6. 较强的沟通能力，抗压性强，积极主动承担团队内的工作安排。【能够接受出差优先。】,Java Spring Spring Boot MySQL SQL Vue TypeScript 技术文档,https://jobs.51job.com/suzhou-gyyq/171735279.html?s=sou_sou_soulb&t=0_0&req=169e61da8e079252ce32ee79acc173eb
+Java实习,苏州众壳科技,5-9千,苏州·苏州工业园区,苏州,大专,无需经验,2026-07-10 15:31:04,job51,"1. 参与公司内部工具平台（如E-Learning,WMS、TMS、OMS）的后端开发及维护工作
+2. 参与内部效率工具的选型、部署和维护
+4. 参与其他Core团队日常事务
+任职资格:
+1.具有Java方向主流技术的使用经验
+2.熟悉常用数据库，如Mongo, Mysql
+2.良好的沟通能力
+4.苏州及周边大专、本科的学生",Java Go MySQL Learning WMS TMS OMS Mysql,https://jobs.51job.com/suzhou-gyyq/171734956.html?s=sou_sou_soulb&t=0_0&req=169e61da8e079252ce32ee79acc173eb
+Android、Linux软件开发工程师（苏州）,瑞晟微电子（苏州）,1.5-2.5万,苏州·苏州工业园区,苏州,硕士,在校生/应届生,2026-08-06 13:34:22,job51,"任职要求
+1、计算机、通信、自动化及相关专业，硕士学历；
+2、熟练掌握C\C++语言，熟悉操作系统、数据结构等基本知识；
+3、熟悉android、linux、WebOS或者其他操作系统，有实际编程经验；
+4、良好的沟通能力和团队合作精神，较强的工作责任心；
+5、良好的英文技术文档阅读撰写能力。
+岗位职责
+Android、Linux软件开发
+工作地：苏州",C++ Linux 技术文档 Android,https://jobs.51job.com/suzhou-gyyq/173174928.html?s=sou_sou_soulb&t=0_0&req=169e61da8e079252ce32ee79acc173eb
+软件开发工程师（工作地：苏州）（苏州）,瑞晟微电子（苏州）,5千-1万,苏州·苏州工业园区,苏州,本科,在校生/应届生,2026-08-06 13:27:24,job51,"任职要求
+1、电子、计算机、通信相关专业毕业，成绩优异，具备扎实的基本功；
+2、工作认真细致追求完美，善于总结归纳，能够简明扼要地阐述工作内容；
+3、善于与人沟通交流，性格积极乐观；
+4、 学习能力强，并且有开拓创新、精益求精的精神。
+岗位职责
+主要负责IC相关上位机软件/脚本的开发，包括但不限于：
+1、 实现串口/USB/网络通信协议；
+2、 实现音频数字信号处理算法；
+3、开发固件烧录工具、Trace工具等IC设计工具；
+4、 开发基于Jenkins和其它开源框架的分布式自动化测试系统；
+5、 开发面向IoT的轻量级Android/iOS APP；
+6、 开发网络数据采集爬虫脚本；
+7、 开发基于Windows/Linux平台的其它工具和自动化脚本；
+8、 编写设计文档，组织培训。",Jenkins 分布式 Linux 自动化测试 数据采集 培训,https://jobs.51job.com/suzhou-gyyq/173174771.html?s=sou_sou_soulb&t=0_0&req=169e61da8e079252ce32ee79acc173eb
+软件工程师-2027届（苏州）,普源精电科技,1.5-3万,苏州·虎丘区,苏州,硕士,在校生/应届生,2026-08-06 14:20:34,job51,"职位描述
+1.负责示波器/微波射频/电源类等仪器产品的嵌入式软件开发工作；
+2.完成所负责模块的模块设计、编码、单元测试及相关设计文档的撰写；
+3.负责软件与硬件平台（FPGA/接口/产品硬件）的调试工作;
+4.负责软件平台或子系统的开发维护工作;
+5.解决产品开发中的软件问题，优化测量精度与系统响应速度
+职位要求
+1.计算机/电子/通信相关专业本科及以上学历;
+2.精通C/C++，熟悉Linux/ Android系统开发及Git/GDB调试工具;
+3.具备以下至少三项技术能力：
+●Socket网络编程;
+●多线程多进程编程;
+●外设驱动开发（SPI/I2C/USB/CAN）；
+●信号处理算法开发；
+●高速数据采集系统软件开发；
+●仪器控制协议（SCPI/VXI/PXI）实现经验；",FPGA C++ Linux Git SPI I2C CAN 数据采集,https://jobs.51job.com/suzhou-hq/172903331.html?s=sou_sou_soulb&t=0_0&req=169e61da8e079252ce32ee79acc173eb
+c++开发工程师,苏州悦谱半导体,7千-1.2万·13薪,苏州·苏州工业园区,苏州,本科,在校生/应届生,2026-07-31 11:41:32,job51,"岗位职责：
+1.使用C++进行软件开发；
+2.计算机图形处理功能开发；
+3.桌面应用软件开发。
+
+任职要求：
+1.能够熟练运用C++语言进行程序开发，熟悉windowsVS开发环境，并具有规范的编程风格。同时，熟悉linux下开发环境者优先；
+2.熟悉VS，QT编程，高考数学成绩优异者优先；
+3.了解图形/图像学知识，并能编写或使用相关开发库；
+4.掌握TCP/UDP等网络协议，熟悉fpga/pc间通信者加分；
+5.有创新精神，善于学习和钻研新技术，能够阅读中英文技术资料，并解决问题；
+6.具备C++/Java/Python一种或多种语言开发经验者优先。
+
+全额基数缴纳五险一金，7天带薪年假，年终奖激励",C++ Linux FPGA Java Python,https://jobs.51job.com/suzhou-gyyq/173109710.html?s=sou_sou_soulb&t=0_0&req=169e61da8e079252ce32ee79acc173eb
+APP开发工程师,伟尔泰克智造科技（苏州）,1-1.6万,昆山,苏州,本科,1年及以上,2026-08-07 08:22:41,job51,"职位描述：
+1. 与产品经理及后端开发人员对接，负责公司产品手机APP功能的详设文档编写及开发工作；
+2. 负责开发 Flutter 应用的前端组件，包括主应用以及各个子应用；
+3. 根据项目需求，进行 Flutter 应用的性能优化；
+4. 遵守开发规范，完成开发计划，并确保代码质量。
+任职资格：
+1. 全日制本科及以上学历，计算机、软件工程相关专业；
+2. 至少一年以上手机APP相关实际工作经验；
+3. 熟练掌握Flutter框架，熟悉Android和ios原生API；
+4. 熟悉Dark语言，熟悉Android Studio和Xcode IDE工具；
+5. 熟悉 Widget 体系，包括多种树，事件机制，渲染刷新机制，重绘机制，动画机制等；
+6. 有原生APP、Vue开发经验者优先。",Flutter Vue 文档编写 Widget,https://jobs.51job.com/kunshan/162238078.html?s=sou_sou_soulb&t=0_0&req=169e61da8e079252ce32ee79acc173eb
+电子工程师（EE）,富士康电子工业发展（昆山）,9千-1.6万·13薪,昆山,苏州,本科,3-4年,2026-08-07 16:40:07,job51,"分析客戶需求規格書
+完成產品電路板的原理圖及PCB設計開發，嵌入式類的程序設計開發，調試測試性能
+完成產品測試類系統開發
+編寫產品設計開發相關文檔
+任職要求:
+5年以上電子設計經驗；
+有英語读写能力，有一定的口语能力优先
+满足如下条件至少两条：
+1.熟悉并掌握至少一种嵌入式平台固件程序開發（ST/TI/MICROCHIP）
+2.能夠獨立設計電子產品原理圖，掌握电源，基带，射频，音频，UI，外设设计之中三种以上
+3.熟悉并掌握至少一種Layout軟件（PADS/Cadence/AD）,熟知摆件及走线规则，高速数字信号完整性，阻抗匹配，安规，射频，音频信号等要求
+4.熟悉并掌握至少一种PC类软件开发环境（Windows or MAC OS）
+5.熟悉并掌握至少一种移动终端类APP软件开发环境（Android or IOS）
+6.熟悉并掌握电子类产品测试，能够搭建测试系统，开发测试硬件和软件，包括被動元件，耗电，功能，程序烧写，音频，射频等",ST TI MICROCHIP UI PADS Cadence AD Windows,https://jobs.51job.com/kunshan/53641305.html?s=sou_sou_soulb&t=0_0&req=169e61da8e079252ce32ee79acc173eb
+MIS程序开发,凯博电脑（昆山）,8千-1.5万·13薪,昆山,苏州,大专,1年及以上,2026-08-07 11:03:24,job51,"岗位要求：
+1. 电子表单BPM系统开发和维护
+2.企业微信系统(部分)开发和维护
+3.电子化系统(部分)开发和维护
+4.阿里云开发和维护
+5.项目类开发和维护
+工作内容：
+1.有独立程序开发经验一年以上
+2.熟练掌握python、asp.net等开发语言，能独立完成程序开发
+3.熟练掌握企业微信二次开发
+4.熟悉Oracle、MYSQL等数据库；
+5.有鼎新电子表单系统二次开发经验优先
+6.配合度好，稳定性好",阿里云 Python Oracle MySQL,https://jobs.51job.com/kunshan/132953614.html?s=sou_sou_soulb&t=0_0&req=169e61da8e079252ce32ee79acc173eb
+产品经理（智慧零售）(J10616),研华科技（中国）,1.5-2.5万,昆山,苏州,本科,3年及以上,2026-06-23 00:01:45,job51,"工作概要Job Purpose：
+负责中国区智慧零售项目的产品研发专案管理，负责追踪、协调、解决项目实施过程中出现的问题，确保项目执行质量，推动产品上市。
+
+工作任务Task：
+（1）智慧零售项目产品开发, 包括项目团队建立, 新产品研发及客制化标准建立；
+（2）新产品市场调研, 成本分析, 技术可行性分析及风险管理；
+（3）负责整体项目schedule制定和资源协调, 负责研发部门及各部门间的沟通协调. 解决开发过程中出现的问题, 保证产品导入计划按时达成；
+（4）拜访客户, 洽谈产品规格, 协助客户解决产品问题, 为客户提供解决方案, 提升客户满意度；
+（5）产品报价及成本管理。
+
+专业知识与技能Professional Knowledge and skill：
+（1）熟悉电子硬件的专业知识，例如电脑、服务器、安卓平板、POS等；
+（2）掌控产品开发流程；
+（3）具备x86/ARM主板与系统架构能力，或机构结构热处理等知识；
+（4）良好的Presentation技巧及沟通能力。
+（5）若有相关嵌入式系统产品（Android POS/手持/边缘网关）经验及产品外包经验更佳；",ARM 市场调研 风险管理 资源协调 Purpose Knowledge Android POS,https://jobs.51job.com/kunshan/168532370.html?s=sou_sou_soulb&t=0_0&req=169e61da8e079252ce32ee79acc173eb
+Android、Linux软件开发工程师（深圳）,瑞晟微电子（苏州）,1.5-2.5万,苏州·苏州工业园区,苏州,硕士,在校生/应届生,2026-08-06 13:34:22,job51,"任职要求
+1、计算机、通信、自动化及相关专业，硕士学历；
+2、熟练掌握C\C++语言，熟悉操作系统、数据结构等基本知识；
+3、熟悉android、linux、WebOS或者其他操作系统，有实际编程经验；
+4、良好的沟通能力和团队合作精神，较强的工作责任心；
+5、良好的英文技术文档阅读撰写能力。
+岗位职责
+Android、Linux软件开发
+工作地：苏州",C++ Linux 技术文档 Android,https://jobs.51job.com/suzhou-gyyq/173174927.html?s=sou_sou_soulb&t=0_0&req=169e61da8e079252ce32ee79acc173eb
+Android、Linux软件开发工程师（广州）,瑞晟微电子（苏州）,1.5-2.5万,苏州·苏州工业园区,苏州,硕士,在校生/应届生,2026-08-06 13:34:22,job51,"任职要求
+1、计算机、通信、自动化及相关专业，硕士学历；
+2、熟练掌握C\C++语言，熟悉操作系统、数据结构等基本知识；
+3、熟悉android、linux、WebOS或者其他操作系统，有实际编程经验；
+4、良好的沟通能力和团队合作精神，较强的工作责任心；
+5、良好的英文技术文档阅读撰写能力。
+岗位职责
+Android、Linux软件开发
+工作地：苏州",C++ Linux 技术文档 Android,https://jobs.51job.com/suzhou-gyyq/173174924.html?s=sou_sou_soulb&t=0_0&req=169e61da8e079252ce32ee79acc173eb
+Android、Linux软件开发工程师（北京）,瑞晟微电子（苏州）,1.5-2.5万,苏州·苏州工业园区,苏州,硕士,在校生/应届生,2026-08-06 13:34:21,job51,"任职要求
+1、计算机、通信、自动化及相关专业，硕士学历；
+2、熟练掌握C\C++语言，熟悉操作系统、数据结构等基本知识；
+3、熟悉android、linux、WebOS或者其他操作系统，有实际编程经验；
+4、良好的沟通能力和团队合作精神，较强的工作责任心；
+5、良好的英文技术文档阅读撰写能力。
+岗位职责
+Android、Linux软件开发
+工作地：苏州",C++ Linux 技术文档 Android,https://jobs.51job.com/suzhou-gyyq/173174922.html?s=sou_sou_soulb&t=0_0&req=169e61da8e079252ce32ee79acc173eb
+Android、Linux软件开发工程师（上海）,瑞晟微电子（苏州）,1.5-2.5万,苏州·苏州工业园区,苏州,硕士,在校生/应届生,2026-08-06 13:34:22,job51,"任职要求
+1、计算机、通信、自动化及相关专业，硕士学历；
+2、熟练掌握C\C++语言，熟悉操作系统、数据结构等基本知识；
+3、熟悉android、linux、WebOS或者其他操作系统，有实际编程经验；
+4、良好的沟通能力和团队合作精神，较强的工作责任心；
+5、良好的英文技术文档阅读撰写能力。
+岗位职责
+Android、Linux软件开发
+工作地：苏州",C++ Linux 技术文档 Android,https://jobs.51job.com/suzhou-gyyq/173174926.html?s=sou_sou_soulb&t=0_0&req=169e61da8e079252ce32ee79acc173eb
+Android、Linux软件开发工程师（南京）,瑞晟微电子（苏州）,1.5-2.5万,苏州·苏州工业园区,苏州,硕士,在校生/应届生,2026-08-06 13:34:22,job51,"任职要求
+1、计算机、通信、自动化及相关专业，硕士学历；
+2、熟练掌握C\C++语言，熟悉操作系统、数据结构等基本知识；
+3、熟悉android、linux、WebOS或者其他操作系统，有实际编程经验；
+4、良好的沟通能力和团队合作精神，较强的工作责任心；
+5、良好的英文技术文档阅读撰写能力。
+岗位职责
+Android、Linux软件开发
+工作地：苏州",C++ Linux 技术文档 Android,https://jobs.51job.com/suzhou-gyyq/173174925.html?s=sou_sou_soulb&t=0_0&req=169e61da8e079252ce32ee79acc173eb
+Android、Linux软件开发工程师（西安）,瑞晟微电子（苏州）,1.5-2.5万,苏州·苏州工业园区,苏州,硕士,在校生/应届生,2026-08-06 13:34:23,job51,"任职要求
+1、计算机、通信、自动化及相关专业，硕士学历；
+2、熟练掌握C\C++语言，熟悉操作系统、数据结构等基本知识；
+3、熟悉android、linux、WebOS或者其他操作系统，有实际编程经验；
+4、良好的沟通能力和团队合作精神，较强的工作责任心；
+5、良好的英文技术文档阅读撰写能力。
+岗位职责
+Android、Linux软件开发
+工作地：苏州",C++ Linux 技术文档 Android,https://jobs.51job.com/suzhou-gyyq/173174930.html?s=sou_sou_soulb&t=0_0&req=169e61da8e079252ce32ee79acc173eb
+Android、Linux软件开发工程师（武汉）,瑞晟微电子（苏州）,1.5-2.5万,苏州·苏州工业园区,苏州,硕士,在校生/应届生,2026-08-06 13:34:22,job51,"任职要求
+1、计算机、通信、自动化及相关专业，硕士学历；
+2、熟练掌握C\C++语言，熟悉操作系统、数据结构等基本知识；
+3、熟悉android、linux、WebOS或者其他操作系统，有实际编程经验；
+4、良好的沟通能力和团队合作精神，较强的工作责任心；
+5、良好的英文技术文档阅读撰写能力。
+岗位职责
+Android、Linux软件开发
+工作地：苏州",C++ Linux 技术文档 Android,https://jobs.51job.com/suzhou-gyyq/173174929.html?s=sou_sou_soulb&t=0_0&req=169e61da8e079252ce32ee79acc173eb
+Android、Linux软件开发工程师（成都）,瑞晟微电子（苏州）,1.5-2.5万,苏州·苏州工业园区,苏州,硕士,在校生/应届生,2026-08-06 13:34:22,job51,"任职要求
+1、计算机、通信、自动化及相关专业，硕士学历；
+2、熟练掌握C\C++语言，熟悉操作系统、数据结构等基本知识；
+3、熟悉android、linux、WebOS或者其他操作系统，有实际编程经验；
+4、良好的沟通能力和团队合作精神，较强的工作责任心；
+5、良好的英文技术文档阅读撰写能力。
+岗位职责
+Android、Linux软件开发
+工作地：苏州",C++ Linux 技术文档 Android,https://jobs.51job.com/suzhou-gyyq/173174923.html?s=sou_sou_soulb&t=0_0&req=169e61da8e079252ce32ee79acc173eb
+软件开发工程师（工作地：苏州）（北京）,瑞晟微电子（苏州）,5千-1万,苏州·苏州工业园区,苏州,本科,在校生/应届生,2026-08-06 13:27:23,job51,"任职要求
+1、电子、计算机、通信相关专业毕业，成绩优异，具备扎实的基本功；
+2、工作认真细致追求完美，善于总结归纳，能够简明扼要地阐述工作内容；
+3、善于与人沟通交流，性格积极乐观；
+4、 学习能力强，并且有开拓创新、精益求精的精神。
+岗位职责
+主要负责IC相关上位机软件/脚本的开发，包括但不限于：
+1、 实现串口/USB/网络通信协议；
+2、 实现音频数字信号处理算法；
+3、开发固件烧录工具、Trace工具等IC设计工具；
+4、 开发基于Jenkins和其它开源框架的分布式自动化测试系统；
+5、 开发面向IoT的轻量级Android/iOS APP；
+6、 开发网络数据采集爬虫脚本；
+7、 开发基于Windows/Linux平台的其它工具和自动化脚本；
+8、 编写设计文档，组织培训。",Jenkins 分布式 Linux 自动化测试 数据采集 培训,https://jobs.51job.com/suzhou-gyyq/173174765.html?s=sou_sou_soulb&t=0_0&req=169e61da8e079252ce32ee79acc173eb
+软件开发工程师（工作地：苏州）（上海）,瑞晟微电子（苏州）,5千-1万,苏州·苏州工业园区,苏州,本科,在校生/应届生,2026-08-06 13:27:24,job51,"任职要求
+1、电子、计算机、通信相关专业毕业，成绩优异，具备扎实的基本功；
+2、工作认真细致追求完美，善于总结归纳，能够简明扼要地阐述工作内容；
+3、善于与人沟通交流，性格积极乐观；
+4、 学习能力强，并且有开拓创新、精益求精的精神。
+岗位职责
+主要负责IC相关上位机软件/脚本的开发，包括但不限于：
+1、 实现串口/USB/网络通信协议；
+2、 实现音频数字信号处理算法；
+3、开发固件烧录工具、Trace工具等IC设计工具；
+4、 开发基于Jenkins和其它开源框架的分布式自动化测试系统；
+5、 开发面向IoT的轻量级Android/iOS APP；
+6、 开发网络数据采集爬虫脚本；
+7、 开发基于Windows/Linux平台的其它工具和自动化脚本；
+8、 编写设计文档，组织培训。",Jenkins 分布式 Linux 自动化测试 数据采集 培训,https://jobs.51job.com/suzhou-gyyq/173174769.html?s=sou_sou_soulb&t=0_0&req=169e61da8e079252ce32ee79acc173eb
+软件开发工程师（工作地：苏州）（武汉）,瑞晟微电子（苏州）,5千-1万,苏州·苏州工业园区,苏州,本科,在校生/应届生,2026-08-06 13:27:24,job51,"任职要求
+1、电子、计算机、通信相关专业毕业，成绩优异，具备扎实的基本功；
+2、工作认真细致追求完美，善于总结归纳，能够简明扼要地阐述工作内容；
+3、善于与人沟通交流，性格积极乐观；
+4、 学习能力强，并且有开拓创新、精益求精的精神。
+岗位职责
+主要负责IC相关上位机软件/脚本的开发，包括但不限于：
+1、 实现串口/USB/网络通信协议；
+2、 实现音频数字信号处理算法；
+3、开发固件烧录工具、Trace工具等IC设计工具；
+4、 开发基于Jenkins和其它开源框架的分布式自动化测试系统；
+5、 开发面向IoT的轻量级Android/iOS APP；
+6、 开发网络数据采集爬虫脚本；
+7、 开发基于Windows/Linux平台的其它工具和自动化脚本；
+8、 编写设计文档，组织培训。",Jenkins 分布式 Linux 自动化测试 数据采集 培训,https://jobs.51job.com/suzhou-gyyq/173174772.html?s=sou_sou_soulb&t=0_0&req=91eeaa57ff54b1b6625a10c69951663e
+软件开发工程师（工作地：苏州）（广州）,瑞晟微电子（苏州）,5千-1万,苏州·苏州工业园区,苏州,本科,在校生/应届生,2026-08-06 13:27:23,job51,"任职要求
+1、电子、计算机、通信相关专业毕业，成绩优异，具备扎实的基本功；
+2、工作认真细致追求完美，善于总结归纳，能够简明扼要地阐述工作内容；
+3、善于与人沟通交流，性格积极乐观；
+4、 学习能力强，并且有开拓创新、精益求精的精神。
+岗位职责
+主要负责IC相关上位机软件/脚本的开发，包括但不限于：
+1、 实现串口/USB/网络通信协议；
+2、 实现音频数字信号处理算法；
+3、开发固件烧录工具、Trace工具等IC设计工具；
+4、 开发基于Jenkins和其它开源框架的分布式自动化测试系统；
+5、 开发面向IoT的轻量级Android/iOS APP；
+6、 开发网络数据采集爬虫脚本；
+7、 开发基于Windows/Linux平台的其它工具和自动化脚本；
+8、 编写设计文档，组织培训。",Jenkins 分布式 Linux 自动化测试 数据采集 培训,https://jobs.51job.com/suzhou-gyyq/173174767.html?s=sou_sou_soulb&t=0_0&req=91eeaa57ff54b1b6625a10c69951663e
+软件开发工程师（工作地：苏州）（西安）,瑞晟微电子（苏州）,5千-1万,苏州·苏州工业园区,苏州,本科,在校生/应届生,2026-08-06 13:27:24,job51,"任职要求
+1、电子、计算机、通信相关专业毕业，成绩优异，具备扎实的基本功；
+2、工作认真细致追求完美，善于总结归纳，能够简明扼要地阐述工作内容；
+3、善于与人沟通交流，性格积极乐观；
+4、 学习能力强，并且有开拓创新、精益求精的精神。
+岗位职责
+主要负责IC相关上位机软件/脚本的开发，包括但不限于：
+1、 实现串口/USB/网络通信协议；
+2、 实现音频数字信号处理算法；
+3、开发固件烧录工具、Trace工具等IC设计工具；
+4、 开发基于Jenkins和其它开源框架的分布式自动化测试系统；
+5、 开发面向IoT的轻量级Android/iOS APP；
+6、 开发网络数据采集爬虫脚本；
+7、 开发基于Windows/Linux平台的其它工具和自动化脚本；
+8、 编写设计文档，组织培训。",Jenkins 分布式 Linux 自动化测试 数据采集 培训,https://jobs.51job.com/suzhou-gyyq/173174773.html?s=sou_sou_soulb&t=0_0&req=91eeaa57ff54b1b6625a10c69951663e
+软件开发工程师（工作地：苏州）（南京）,瑞晟微电子（苏州）,5千-1万,苏州·苏州工业园区,苏州,本科,在校生/应届生,2026-08-06 13:27:23,job51,"任职要求
+1、电子、计算机、通信相关专业毕业，成绩优异，具备扎实的基本功；
+2、工作认真细致追求完美，善于总结归纳，能够简明扼要地阐述工作内容；
+3、善于与人沟通交流，性格积极乐观；
+4、 学习能力强，并且有开拓创新、精益求精的精神。
+岗位职责
+主要负责IC相关上位机软件/脚本的开发，包括但不限于：
+1、 实现串口/USB/网络通信协议；
+2、 实现音频数字信号处理算法；
+3、开发固件烧录工具、Trace工具等IC设计工具；
+4、 开发基于Jenkins和其它开源框架的分布式自动化测试系统；
+5、 开发面向IoT的轻量级Android/iOS APP；
+6、 开发网络数据采集爬虫脚本；
+7、 开发基于Windows/Linux平台的其它工具和自动化脚本；
+8、 编写设计文档，组织培训。",Jenkins 分布式 Linux 自动化测试 数据采集 培训,https://jobs.51job.com/suzhou-gyyq/173174768.html?s=sou_sou_soulb&t=0_0&req=91eeaa57ff54b1b6625a10c69951663e
+软件开发工程师（工作地：苏州）（成都）,瑞晟微电子（苏州）,5千-1万,苏州·苏州工业园区,苏州,本科,在校生/应届生,2026-08-06 13:27:23,job51,"任职要求
+1、电子、计算机、通信相关专业毕业，成绩优异，具备扎实的基本功；
+2、工作认真细致追求完美，善于总结归纳，能够简明扼要地阐述工作内容；
+3、善于与人沟通交流，性格积极乐观；
+4、 学习能力强，并且有开拓创新、精益求精的精神。
+岗位职责
+主要负责IC相关上位机软件/脚本的开发，包括但不限于：
+1、 实现串口/USB/网络通信协议；
+2、 实现音频数字信号处理算法；
+3、开发固件烧录工具、Trace工具等IC设计工具；
+4、 开发基于Jenkins和其它开源框架的分布式自动化测试系统；
+5、 开发面向IoT的轻量级Android/iOS APP；
+6、 开发网络数据采集爬虫脚本；
+7、 开发基于Windows/Linux平台的其它工具和自动化脚本；
+8、 编写设计文档，组织培训。",Jenkins 分布式 Linux 自动化测试 数据采集 培训,https://jobs.51job.com/suzhou-gyyq/173174766.html?s=sou_sou_soulb&t=0_0&req=91eeaa57ff54b1b6625a10c69951663e
