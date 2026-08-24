@@ -86,12 +86,20 @@ class EducationDimensionRead(StrictSchema):
     minimum_level: str | None
 
 
+class LGFDimensionRead(StrictSchema):
+    status: Literal["ok", "degraded", "disabled"]
+    score: float | None
+    match_level: str | None
+    error_code: str | None = None
+
+
 class DimensionScoresRead(StrictSchema):
     required_skill_coverage: CoverageDimensionRead
     bonus_skill_coverage: CoverageDimensionRead
     skill_evidence_quality: EvidenceDimensionRead
     experience: ExperienceDimensionRead
     education: EducationDimensionRead
+    lgf: LGFDimensionRead | None = None
 
 
 class GapSummaryRead(StrictSchema):

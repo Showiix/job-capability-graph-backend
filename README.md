@@ -248,6 +248,7 @@ HR 招聘项目是内部演示版的完整闭环，使用单独的项目和候�
 3. 任务完成后，从项目详情的 `jd_draft_payload` 读取抽取草稿；HR 可以通过 `PUT .../requirements` 整体替换岗位标题、学历/经验门槛、标准 Capability 要求和未映射技能，再调用 `POST .../requirements/confirm` 固化不可变 revision。相同内容重复确认会复用原 revision。
 4. 批量上传 1 到 20 份 PDF/DOCX 候选简历，继续轮询候选解析 Processing Run。每个候选独立处理；部分失败不会回滚已成功候选，失败候选在后续 Match Run 中进入 `skipped_candidates` 快照。
 5. 调用 `POST .../match-runs` 同步生成全量确定性排名，再读取结果列表和单候选差距明细。相同已确认要求、候选状态/Profile 版本和 `match_weights_v1` 会直接返回 `reused=true` 的历史 Run。
+   开启 `LGF_ENABLED=true` 并配置 `LGF_MATCH_URL` 后，结果中的 `dimension_scores.lgf` 会附带 LGF 模型分数。LGF 不改写现有五维 `total_score` 和排序；超时、不可用或响应无效时只标记 `degraded`，原有匹配继续生效。当前交付包要求 `job_id` 命中其自身岗位数据，最新版接口确认前使用招聘项目标题作为回退。
 6. 通过候选详情中的 file URL 读取原始简历元数据、预览或下载内容。项目 owner 和 admin 可见，其他 HR 与 applicant 得到脱敏 404；跨项目的 candidate/run ID 也不会被解析。
 
 这条链路的职责边界是固定的：市场爬虫暂未接入，当前数据入口是管理员批量导入；LLM 只负责 JD/简历的结构化候选抽取和 Evidence 校验，标准 Capability Catalog 是唯一真相源，后端负责映射、五维评分、排序、快照和幂等；企业私有 JD 匹配不调用 Neo4j，也不依赖 LangChain/LangGraph。Neo4j 只服务于已经审核发布的公共岗位能力图谱读取。

@@ -27,6 +27,10 @@ class Settings(BaseSettings):
     max_import_rows: int = Field(default=100_000, ge=1)
     cors_origins: list[str]
     algorithm_service_url: AnyHttpUrl
+    lgf_match_url: AnyHttpUrl | None = None
+    lgf_api_key: SecretStr | None = None
+    lgf_enabled: bool = False
+    lgf_timeout_seconds: float = Field(default=15.0, gt=0, le=120)
     llm_responses_url: AnyHttpUrl | None = None
     llm_api_key: SecretStr | None = None
     llm_model: str | None = Field(default=None, min_length=1, max_length=200)

@@ -5,11 +5,13 @@ from datetime import UTC, datetime
 from pathlib import Path
 from uuid import UUID, uuid4
 
+import httpx
 from fastapi import UploadFile
 from sqlalchemy import func, or_, select
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from app.algorithm.lgf import LGFClient, LGFMatchRequest
 from app.audit.service import record_audit
 from app.auth.models import User
 from app.catalog.models import Capability, Domain
@@ -72,6 +74,81 @@ def require_recruitment_role(actor: User) -> None:
             "RECRUITMENT_ROLE_REQUIRED",
             "当前角色不能使用招聘项目",
         )
+
+
+async def _attach_lgf_signals(
+    ranked: list,
+    *,
+    project_title: str,
+    snapshot: dict,
+    profiles_by_candidate: dict[UUID, CandidateProfile],
+    skills_by_profile: dict[UUID, list[CandidateSkill]],
+) -> None:
+    settings = get_settings()
+    if not settings.lgf_enabled:
+        for value in ranked:
+            value.scored.dimension_scores["lgf"] = {
+                "status": "disabled",
+                "score": None,
+                "match_level": None,
+                "error_code": None,
+            }
+        return
+    if settings.lgf_match_url is None:
+        status = {
+            "status": "degraded",
+            "score": None,
+            "match_level": None,
+            "error_code": "LGF_NOT_CONFIGURED",
+        }
+        for value in ranked:
+            value.scored.dimension_scores["lgf"] = dict(status)
+        return
+
+    timeout = httpx.Timeout(settings.lgf_timeout_seconds)
+    async with httpx.AsyncClient(timeout=timeout) as http:
+        client = LGFClient(
+            url=str(settings.lgf_match_url),
+            api_key=(
+                settings.lgf_api_key.get_secret_value()
+                if settings.lgf_api_key
+                else None
+            ),
+            http=http,
+        )
+        for value in ranked:
+            profile = profiles_by_candidate[value.candidate.id]
+            resume_skills = [
+                {
+                    "skill": skill.raw_name,
+                    "mastery": skill.proficiency or "proficient",
+                }
+                for skill in skills_by_profile[profile.id]
+                if skill.capability_id is not None
+            ]
+            result = await client.match(
+                LGFMatchRequest(
+                    job_id=str(snapshot.get("job_id") or project_title),
+                    resume={
+                        "skills": resume_skills,
+                        "years_experience": (
+                            profile.total_experience_months / 12
+                            if profile.total_experience_months is not None
+                            else None
+                        ),
+                    },
+                )
+            )
+            value.scored.dimension_scores["lgf"] = {
+                "status": result.status,
+                "score": (
+                    result.payload.match_score if result.payload is not None else None
+                ),
+                "match_level": (
+                    result.payload.match_level if result.payload is not None else None
+                ),
+                "error_code": result.error_code,
+            }
 
 
 async def get_visible_project(
@@ -915,6 +992,13 @@ async def create_match_run(
             "MATCH_INPUT_CONFLICT",
             "确认要求或候选画像不满足匹配规则",
         ) from error
+    await _attach_lgf_signals(
+        ranked,
+        project_title=project.title,
+        snapshot=snapshot,
+        profiles_by_candidate=profiles_by_candidate,
+        skills_by_profile=skills_by_profile,
+    )
 
     skipped = [
         {
