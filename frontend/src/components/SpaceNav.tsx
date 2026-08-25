@@ -11,6 +11,8 @@ import {
   BulbOutlined,
   BulbFilled,
   RocketOutlined,
+  SafetyCertificateOutlined,
+  SettingOutlined,
 } from '@ant-design/icons'
 import { useTheme } from '../context/ThemeContext'
 
@@ -26,6 +28,8 @@ const NAV_ITEMS: NavItem[] = [
   { path: '/applicant', label: '简历评估', icon: <FileSearchOutlined /> },
   { path: '/hr', label: 'HR 工作台', icon: <TeamOutlined /> },
   { path: '/emerging', label: '新岗位', icon: <RiseOutlined /> },
+  { path: '/review', label: '审核中心', icon: <SafetyCertificateOutlined /> },
+  { path: '/admin', label: '管理员', icon: <SettingOutlined /> },
 ]
 
 export default function SpaceNav() {

@@ -241,6 +241,48 @@ async def test_posts_exact_responses_structured_output_contract() -> None:
     assert result.payload.schema_version == "resume_parse_v1"
 
 
+async def test_posts_deepseek_anthropic_contract_and_skips_thinking() -> None:
+    captured = {}
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        captured["request"] = request
+        return httpx.Response(
+            200,
+            json={
+                "id": "msg_test",
+                "model": "deepseek-v4-flash",
+                "stop_reason": "end_turn",
+                "content": [
+                    {"type": "thinking", "thinking": "internal"},
+                    {"type": "text", "text": json.dumps(VALID_PARSE)},
+                ],
+                "usage": {"input_tokens": 10, "output_tokens": 20},
+            },
+        )
+
+    async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as http:
+        from app.resumes.llm import ResponsesClient
+
+        result = await ResponsesClient(http=http).parse_resume(
+            url="https://api.deepseek.com/anthropic",
+            api_key="secret-test-key",
+            model="deepseek-v4-flash",
+            redacted_text="Python 项目",
+            processing_run_id=uuid4(),
+        )
+
+    request = captured["request"]
+    body = json.loads(request.content)
+    assert str(request.url) == "https://api.deepseek.com/anthropic/v1/messages"
+    assert request.headers["x-api-key"] == "secret-test-key"
+    assert request.headers["anthropic-version"] == "2023-06-01"
+    assert body["model"] == "deepseek-v4-flash"
+    assert body["max_tokens"] >= 8000
+    assert body["messages"][0]["content"] == "Python 项目"
+    assert '"schema_version"' in body["system"]
+    assert result.payload.schema_version == "resume_parse_v1"
+
+
 async def test_collects_multiple_output_text_parts_outside_first_output() -> None:
     serialized = json.dumps(VALID_PARSE)
     split = len(serialized) // 2

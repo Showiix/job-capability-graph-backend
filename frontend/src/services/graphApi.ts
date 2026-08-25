@@ -173,9 +173,20 @@ export async function fetchGraphData(params?: {
   }
 }
 
+export async function fetchGraphStats() {
+  const response = await axios.get<{ data: Record<string, any> }>(`${API_BASE_URL}/api/v1/jd-graph/stats`)
+  return response.data.data
+}
+
+export async function fetchGraphTrends(months = 7) {
+  const response = await axios.get<{ data: { timeline: any[]; hot_skills: any[]; coverage: Record<string, number> } }>(`${API_BASE_URL}/api/v1/jd-graph/trends`, { params: { months } })
+  return response.data.data
+}
+
 /**
  * 简历解析
  */
+// Legacy parse/match helpers are retained for compatibility; live pages use resumeWorkflowApi.
 export async function parseResume(file: File): Promise<ResumeParseResponse> {
   try {
     const formData = new FormData()
@@ -480,8 +491,5 @@ function mapLevel(level: string): 'core' | 'foundation' | 'frontier' {
 
 export default {
   fetchGraphData,
-  parseResume,
-  parseJD,
-  matchJob,
-  fetchSkillTrend,
+  fetchGraphStats,
 }

@@ -4,9 +4,14 @@ JD数据知识图谱API路由
 """
 
 import json
+from collections import Counter, defaultdict
 from pathlib import Path
 
 from fastapi import APIRouter, HTTPException
+from sqlalchemy import select
+
+from app.imports.models import NormalizedJobPosting, RawJobPosting
+from app.infrastructure.database import SessionFactory
 
 router = APIRouter(prefix="/jd-graph", tags=["jd-graph"])
 
@@ -82,4 +87,60 @@ async def get_graph_stats() -> dict:
             "generated_at": metadata.get("generated_at", ""),
         },
         "message": "success",
+    }
+
+
+@router.get("/trends")
+async def get_graph_trends(months: int = 7) -> dict:
+    months = max(1, min(months, 24))
+    async with SessionFactory() as db:
+        rows = (
+            await db.scalars(
+                select(NormalizedJobPosting.published_at, RawJobPosting.source_tags)
+                .join(
+                    RawJobPosting,
+                    RawJobPosting.id == NormalizedJobPosting.raw_job_id,
+                )
+                .where(
+                    NormalizedJobPosting.is_current.is_(True),
+                    NormalizedJobPosting.published_at.is_not(None),
+                )
+            )
+        ).all()
+    by_month: dict[str, Counter[str]] = defaultdict(Counter)
+    for published_at, tags in rows:
+        month = published_at.strftime("%Y-%m")
+        for tag in tags or []:
+            if isinstance(tag, str) and tag.strip():
+                by_month[month][tag.strip()] += 1
+    selected_months = sorted(by_month)[-months:]
+    top_skills = [
+        name
+        for name, _ in sum(
+            (by_month[m] for m in selected_months), Counter()
+        ).most_common(8)
+    ]
+    timeline = [
+        {"month": month, **{skill: by_month[month][skill] for skill in top_skills}}
+        for month in selected_months
+    ]
+    totals = Counter()
+    for month in selected_months:
+        totals.update(by_month[month])
+    hot_skills = [
+        {"name": name, "count": count}
+        for name, count in totals.most_common(10)
+    ]
+    return {
+        "data": {
+            "months": selected_months,
+            "timeline": timeline,
+            "hot_skills": hot_skills,
+            "coverage": {
+                "months": len(selected_months),
+                "dated_rows": sum(
+                    by_month[m].total() for m in selected_months
+                ),
+            },
+        }
     }

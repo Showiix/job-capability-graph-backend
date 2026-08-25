@@ -10,7 +10,6 @@ import {
 } from '@ant-design/icons'
 import { GraphScene3D } from '../components/GraphScene3D'
 import { FrameCorners } from '../components/FrameCorners'
-import MOCK_GRAPH_DATA from '../data/mockGraphData'
 import { fetchGraphData } from '../services/graphApi'
 import type { GraphData, Planet, Star } from '../types/graph'
 import { findGraphStarForRole } from '../utils/graphRoleMatch'
@@ -33,7 +32,7 @@ const AUTO_HIDE_SKILL_LABEL_LIMIT = 320
 
 export default function SpaceGraphPage() {
   const [searchParams] = useSearchParams()
-  const [graphData, setGraphData] = useState<GraphData>(MOCK_GRAPH_DATA)
+  const [graphData, setGraphData] = useState<GraphData>({ stars: [], planets: [], metadata: {} })
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [selectedStar, setSelectedStar] = useState<Star | null>(null)
@@ -57,8 +56,7 @@ export default function SpaceGraphPage() {
         setGraphData(data)
       } catch (err) {
         console.error('Failed to load graph data:', err)
-        setError('图谱数据读取失败，当前使用本地样例')
-        setGraphData(MOCK_GRAPH_DATA)
+        setError('图谱数据读取失败，请检查后端服务')
       } finally {
         setLoading(false)
       }

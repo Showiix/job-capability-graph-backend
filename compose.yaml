@@ -41,6 +41,20 @@ services:
     volumes:
       - neo4j_data:/data
 
+  algorithm:
+    build: ./algorithm
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - from urllib.request import urlopen; urlopen('http://127.0.0.1:8001/health').read()
+      interval: 3s
+      timeout: 3s
+      retries: 20
+    ports:
+      - "127.0.0.1:8001:8001"
+
   migrate:
     build: ./backend
     env_file: .env
@@ -58,6 +72,8 @@ services:
       redis:
         condition: service_healthy
       neo4j:
+        condition: service_healthy
+      algorithm:
         condition: service_healthy
     ports:
       - "127.0.0.1:8000:8000"

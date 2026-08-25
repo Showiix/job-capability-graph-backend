@@ -1,6 +1,10 @@
+from datetime import UTC, datetime
+from uuid import uuid4
+
 from fastapi import APIRouter, Request, Response
 
 from app.api.dependencies import CSRF, DB, Identity
+from app.auth.models import User
 from app.auth.schemas import AuthUserResponse, LoginRequest
 from app.auth.service import (
     ensure_csrf,
@@ -9,8 +13,36 @@ from app.auth.service import (
     revoke_session,
 )
 from app.core.config import get_settings
+from app.core.security import hash_password
 
 router = APIRouter(prefix="/auth", tags=["auth"])
+
+
+@router.post("/guest")
+async def guest_route(request: Request, response: Response, db: DB) -> dict:
+    username = f"guest_{uuid4().hex}"
+    password = uuid4().hex
+    db.add(
+        User(
+            username=username,
+            username_normalized=username,
+            password_hash=hash_password(password),
+            display_name="浏览器访客",
+            role="applicant",
+            password_changed_at=datetime.now(UTC),
+        )
+    )
+    await db.commit()
+    user, session_token, csrf_token = await login(
+        db,
+        username,
+        password,
+        request.state.request_id,
+        request.client.host if request.client else None,
+        request.headers.get("User-Agent"),
+    )
+    _set_auth_cookies(response, session_token, csrf_token)
+    return {"data": _auth_user(user, csrf_token)}
 
 
 @router.post("/login")

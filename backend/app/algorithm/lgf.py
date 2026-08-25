@@ -9,6 +9,7 @@ class LGFMatchRequest(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
     job_id: str = Field(min_length=1, max_length=200)
+    job: dict[str, Any]
     resume: list[str | dict[str, Any]] | dict[str, Any]
 
 

@@ -10,6 +10,7 @@ import httpx
 from pydantic import BaseModel, ValidationError
 
 logger = logging.getLogger(__name__)
+DEEPSEEK_MAX_TOKENS = 16_000
 
 
 @dataclass(frozen=True, slots=True)
@@ -79,15 +80,40 @@ class StructuredResponsesClient:
                     "schema": response_model.model_json_schema(),
                 }
             },
-            "max_output_tokens": max_output_tokens,
+            "max_output_tokens": max(max_output_tokens, DEEPSEEK_MAX_TOKENS)
+            if _is_anthropic_endpoint(url)
+            else max_output_tokens,
             "stream": False,
             "store": False,
             "metadata": metadata,
         }
-        headers = {
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json",
-        }
+        if _is_anthropic_endpoint(url):
+            schema = json.dumps(
+                response_model.model_json_schema(),
+                ensure_ascii=False,
+                separators=(",", ":"),
+            )
+            body = {
+                "model": model,
+                "max_tokens": max(max_output_tokens, DEEPSEEK_MAX_TOKENS),
+                "system": (
+                    f"{instructions}\n必须严格按以下 JSON Schema 输出一个 JSON 对象，"
+                    f"不要输出 Markdown 或额外字段：{schema}"
+                ),
+                "messages": [{"role": "user", "content": input_text}],
+                "stream": False,
+            }
+            headers = {
+                "x-api-key": api_key,
+                "anthropic-version": "2023-06-01",
+                "Content-Type": "application/json",
+            }
+            url = url.rstrip("/") + "/v1/messages"
+        else:
+            headers = {
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+            }
         if request_id is not None:
             headers["X-Request-ID"] = request_id
 
@@ -97,7 +123,12 @@ class StructuredResponsesClient:
                 response = await self.http.post(url, headers=headers, json=body)
                 if response.status_code >= 400:
                     raise _classify_http_error(response.status_code)
-                return _parse_response(
+                parser = (
+                    _parse_anthropic_response
+                    if _is_anthropic_endpoint(url)
+                    else _parse_response
+                )
+                return parser(
                     response,
                     response_model=response_model,
                     provider_attempts=attempt,
@@ -125,7 +156,7 @@ class StructuredResponsesClient:
 
 def create_responses_http_client() -> httpx.AsyncClient:
     return httpx.AsyncClient(
-        timeout=httpx.Timeout(connect=10.0, read=90.0, write=10.0, pool=10.0)
+        timeout=httpx.Timeout(connect=10.0, read=180.0, write=10.0, pool=10.0)
     )
 
 
@@ -150,6 +181,52 @@ def _classify_http_error(status: int) -> ResponsesAPIError:
     if status >= 500:
         return ResponsesAPIError("LLM_UPSTREAM_ERROR", "request", True, status)
     return ResponsesAPIError("LLM_REQUEST_REJECTED", "request", False, status)
+
+
+def _is_anthropic_endpoint(url: str) -> bool:
+    return "/anthropic" in url or url.rstrip("/").endswith("/messages")
+
+
+def _parse_anthropic_response[T: BaseModel](
+    response: httpx.Response,
+    *,
+    response_model: type[T],
+    provider_attempts: int,
+) -> StructuredResponseResult[T]:
+    try:
+        envelope = response.json()
+    except (json.JSONDecodeError, UnicodeDecodeError) as error:
+        raise ResponsesAPIError(
+            "LLM_RESPONSE_INVALID", "validate_response", True
+        ) from error
+    if not isinstance(envelope, dict) or envelope.get("stop_reason") not in {
+        "end_turn",
+        "stop_sequence",
+    }:
+        raise ResponsesAPIError("LLM_RESPONSE_INCOMPLETE", "validate_response", True)
+    parts = [
+        item.get("text", "")
+        for item in envelope.get("content", [])
+        if isinstance(item, dict) and item.get("type") == "text"
+    ]
+    output_text = "".join(part for part in parts if isinstance(part, str)).strip()
+    if not output_text:
+        raise ResponsesAPIError("LLM_RESPONSE_INVALID", "validate_response", True)
+    try:
+        payload = response_model.model_validate_json(output_text)
+    except (ValidationError, ValueError) as error:
+        raise ResponsesAPIError(
+            "LLM_RESPONSE_INVALID", "validate_response", True
+        ) from error
+    return StructuredResponseResult(
+        payload=payload,
+        response_id=_optional_string(envelope.get("id")),
+        returned_model=_optional_string(envelope.get("model")),
+        status="completed",
+        usage=_usage(envelope.get("usage")),
+        provider_attempts=provider_attempts,
+        response_sha256=hashlib.sha256(output_text.encode("utf-8")).hexdigest(),
+    )
 
 
 def _parse_response[T: BaseModel](

@@ -6,6 +6,8 @@ import SpaceGraphPage from '../pages/SpaceGraphPage';
 import ApplicantFlowPage from '../pages/ApplicantFlowPage';
 import HRWorkspacePage from '../pages/HRWorkspacePage';
 import EmergingJobsPage from '../pages/EmergingJobsPage';
+import ReviewCenterPage from '../pages/ReviewCenterPage';
+import AdminCenterPage from '../pages/AdminCenterPage';
 
 const RoutedApp = () => {
   const location = useLocation();
@@ -25,6 +27,8 @@ const RoutedApp = () => {
           <Route path="/hr-match" element={<HRWorkspacePage />} />
           <Route path="/emerging" element={<EmergingJobsPage />} />
           <Route path="/new-jobs" element={<EmergingJobsPage />} />
+          <Route path="/review" element={<ReviewCenterPage />} />
+          <Route path="/admin" element={<AdminCenterPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>

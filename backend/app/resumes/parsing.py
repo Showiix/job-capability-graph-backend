@@ -296,6 +296,14 @@ def _ground_items(
     for item in items:
         value = item.model_dump(mode="python")
         offsets = locate_evidence(redacted_text, value["evidence_quote"])
+        if (
+            offsets is None
+            and category == "SKILL"
+            and value[label_field] in value["evidence_quote"]
+        ):
+            offsets = locate_evidence(redacted_text, value[label_field])
+            if offsets is not None:
+                value["evidence_quote"] = value[label_field]
         if offsets is None:
             warnings.append(f"{category}_EVIDENCE_NOT_FOUND:{value[label_field]}")
             continue

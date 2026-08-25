@@ -257,6 +257,76 @@ export interface GrowthPathCreateResponse {
   growth_path: GrowthPathRead
 }
 
+export interface RecruitmentProject {
+  id: string
+  title: string
+  jd_parse_status: string
+  jd_draft_payload: Record<string, any>
+  requirements_revision: number
+  confirmed_requirement_snapshot?: Record<string, any>
+  candidate_counts: Record<string, number>
+}
+
+export interface RecruitmentCandidate {
+  id: string
+  display_name: string
+  parse_status: string
+  file_id: string
+}
+
+export async function createRecruitmentProject(title: string, description?: string) {
+  return request.post<RecruitmentProject>('/api/v1/recruitment-projects', { title, description })
+}
+
+export async function submitRecruitmentJd(projectId: string, text: string) {
+  return request.post<{ project_id: string; run_id: string }>(
+    `/api/v1/recruitment-projects/${projectId}/jd`,
+    new URLSearchParams({ text }),
+    { headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'Idempotency-Key': `jd-${Date.now()}` } },
+  )
+}
+
+export async function getRecruitmentProject(projectId: string) {
+  return request.get<RecruitmentProject>(`/api/v1/recruitment-projects/${projectId}`)
+}
+
+export async function confirmRecruitmentRequirements(projectId: string, draft: Record<string, any>) {
+  await request.put(`/api/v1/recruitment-projects/${projectId}/requirements`, {
+    job_title: draft.job_title,
+    summary: draft.summary ?? null,
+    responsibilities: (draft.responsibilities ?? []).map((item: any) => typeof item === 'string' ? item : item.text),
+    minimum_education_level: draft.minimum_education_level ?? null,
+    recommended_experience_months: draft.recommended_experience_months ?? null,
+    requirements: (draft.requirements ?? []).filter((item: any) => item.capability_id).map((item: any) => ({
+      capability_id: item.capability_id,
+      requirement_type: item.requirement_type,
+      importance: item.importance,
+    })),
+    unmapped_skills: (draft.unmapped_skills ?? []).map((item: any) => ({
+      raw_name: item.raw_name ?? item.name,
+      requirement_type: item.requirement_type,
+    })),
+  })
+  return request.post(`/api/v1/recruitment-projects/${projectId}/requirements/confirm`)
+}
+
+export async function uploadRecruitmentCandidates(projectId: string, files: File[]) {
+  const form = new FormData()
+  files.forEach((file) => form.append('files', file))
+  return request.upload<{ project_id: string; run_id: string; candidates: RecruitmentCandidate[] }>(
+    `/api/v1/recruitment-projects/${projectId}/candidates`, form,
+    { headers: { 'Idempotency-Key': `candidates-${Date.now()}` } },
+  )
+}
+
+export async function createRecruitmentMatchRun(projectId: string) {
+  return request.post<any>(`/api/v1/recruitment-projects/${projectId}/match-runs`)
+}
+
+export async function listRecruitmentMatchResults(projectId: string, runId: string) {
+  return request.get<{ data: any[] }>(`/api/v1/recruitment-projects/${projectId}/match-runs/${runId}/results`)
+}
+
 function uploadProgressHandler(
   onUploadProgress?: (progress: number) => void,
 ) {
@@ -286,6 +356,10 @@ export async function getProcessingRun(runId: string): Promise<ProcessingRunResp
   return request.get<ProcessingRunResponse>(`/api/v1/processing-runs/${runId}`)
 }
 
+export const retryProcessingRun = (runId: string) => request.post<ProcessingRunResponse>(`/api/v1/processing-runs/${runId}/retry`)
+export const cancelProcessingRun = (runId: string) => request.post<ProcessingRunResponse>(`/api/v1/processing-runs/${runId}/cancel`)
+export const getProcessingErrors = (runId: string) => request.get<any[]>(`/api/v1/processing-runs/${runId}/errors`)
+
 export async function getProcessingRunResult(
   runId: string,
 ): Promise<ResumeProcessingResult> {
@@ -304,6 +378,19 @@ export async function confirmResumeProfile(
   versionNo: number,
 ): Promise<ResumeProfileDetail> {
   return request.post<ResumeProfileDetail>(`/api/v1/resumes/${resumeId}/profiles/${versionNo}/confirm`)
+}
+
+export async function createResumeRevision(resumeId: string, versionNo: number, skills: string[]) {
+  const draft = await request.post<ResumeProfileDetail>(`/api/v1/resumes/${resumeId}/profiles/${versionNo}/revisions`)
+  await request.put(`/api/v1/resumes/${resumeId}/profiles/${draft.version_no}`, {
+    document_language: draft.profile?.document_language ?? 'zh-CN',
+    summary: draft.profile?.summary ?? null,
+    educations: draft.profile?.educations ?? [],
+    experiences: draft.profile?.experiences ?? [],
+    projects: draft.profile?.projects ?? [],
+    skills: skills.map((raw_name) => ({ raw_name, capability_id: null, proficiency: null, explicit_experience_months: null, evidence_strength: 'mention', evidence_quote: null })),
+  })
+  return draft
 }
 
 export async function createJobRecommendations(

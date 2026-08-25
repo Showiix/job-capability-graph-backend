@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import type { CSSProperties } from 'react'
 import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts'
 import {
@@ -10,6 +10,7 @@ import {
   TagsOutlined,
 } from '@ant-design/icons'
 import { FrameCorners } from '../components/FrameCorners'
+import { fetchGraphData, fetchGraphStats, fetchGraphTrends } from '../services/graphApi'
 
 // Mock 新兴岗位数据
 const EMERGING_JOBS = [
@@ -93,7 +94,7 @@ const EMERGING_JOBS = [
   },
 ]
 
-// 技能趋势时间线数据
+/* Legacy demo data retained only as migration reference; live charts use /jd-graph/trends. */
 const SKILL_TIMELINE = [
   { month: '2025-08', RAG: 45, LangChain: 32, Agent: 28, 'Prompt工程': 38 },
   { month: '2025-09', RAG: 68, LangChain: 52, Agent: 41, 'Prompt工程': 55 },
@@ -104,7 +105,6 @@ const SKILL_TIMELINE = [
   { month: '2026-02', RAG: 234, LangChain: 215, Agent: 189, 'Prompt工程': 183 },
 ]
 
-// 热门技能排行
 const HOT_SKILLS = [
   { name: 'LangChain', count: 342, growth: '+185%', level: '前沿', color: '#e4b592' },
   { name: 'RAG', count: 298, growth: '+168%', level: '前沿', color: '#e4b592' },
@@ -117,11 +117,37 @@ const HOT_SKILLS = [
 ]
 
 export default function EmergingJobsPage() {
+  void SKILL_TIMELINE
+  void HOT_SKILLS
+  const [jobs, setJobs] = useState(EMERGING_JOBS)
   const [selectedJob, setSelectedJob] = useState(EMERGING_JOBS[0])
   const [filterTrend, setFilterTrend] = useState<'all' | '上升' | '稳定'>('all')
   const [sortBy, setSortBy] = useState<'growth' | 'jobs' | 'salary'>('growth')
+  const [stats, setStats] = useState<Record<string, any> | null>(null)
+  const [trends, setTrends] = useState<{ timeline: any[]; hot_skills: any[] } | null>(null)
 
-  const filteredJobs = EMERGING_JOBS.filter((job) => filterTrend === 'all' || job.trend === filterTrend)
+  useEffect(() => {
+    void fetchGraphStats().then(setStats).catch(() => undefined)
+    void fetchGraphTrends().then(setTrends).catch(() => undefined)
+    void fetchGraphData().then((graph) => {
+      const live = graph.stars.filter((star) => star.isEmerging).map((star) => ({
+        id: star.id,
+        name: star.label,
+        category: star.domain ?? '岗位能力',
+        trend: '上升' as const,
+        growth: `+${Math.max(1, star.sources ?? 1)}%`,
+        monthlyJobs: star.jobCount ?? star.sources ?? 0,
+        avgSalary: '待补充',
+        isNew: true,
+        keySkills: star.requiredSkills ?? [],
+        description: `${star.label} 的实时岗位与技能画像`,
+        confidence: 0,
+      }))
+      if (live.length) { setJobs(live); setSelectedJob(live[0]) }
+    }).catch(() => undefined)
+  }, [])
+
+  const filteredJobs = jobs.filter((job) => filterTrend === 'all' || job.trend === filterTrend)
 
   const sortedJobs = [...filteredJobs].sort((a, b) => {
     if (sortBy === 'growth') return parseInt(b.growth) - parseInt(a.growth)
@@ -151,10 +177,10 @@ export default function EmergingJobsPage() {
         {/* Stats cards */}
         <div className="emerging-stats mb-8">
           {[
-            { label: '新兴岗位', value: '18', suffix: '个', color: '#e4b592' },
-            { label: '月增长率', value: '+156', suffix: '%', color: '#ee1212' },
-            { label: '热门技能', value: '47', suffix: '项', color: '#fff3ea' },
-            { label: '数据置信度', value: '92', suffix: '%', color: '#dad0c8' },
+            { label: '岗位类别', value: String(stats?.total_categories ?? '—'), suffix: '类', color: '#e4b592' },
+            { label: '岗位总量', value: String(stats?.total_jobs ?? '—'), suffix: '个', color: '#ee1212' },
+            { label: '技能总量', value: String(stats?.total_skills ?? '—'), suffix: '项', color: '#fff3ea' },
+            { label: '新兴技能', value: String(stats?.emerging_skills ?? '—'), suffix: '项', color: '#dad0c8' },
           ].map((stat, index) => (
             <div
               key={stat.label}
@@ -294,7 +320,7 @@ export default function EmergingJobsPage() {
               <FrameCorners />
               <h3 className="font-outfit font-bold text-base text-[var(--text)] mb-4"><LineChartOutlined /> 技能需求趋势（近7个月）</h3>
               <ResponsiveContainer width="100%" height={250}>
-                <LineChart data={SKILL_TIMELINE}>
+                <LineChart data={trends?.timeline ?? []}>
                   <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,243,234,0.1)" />
                   <XAxis dataKey="month" tick={{ fill: '#a49b92', fontSize: 11 }} />
                   <YAxis tick={{ fill: '#a49b92', fontSize: 11 }} />
@@ -307,10 +333,7 @@ export default function EmergingJobsPage() {
                     labelStyle={{ color: '#fff3ea' }}
                   />
                   <Legend wrapperStyle={{ fontSize: 12 }} />
-                  <Line type="monotone" dataKey="RAG" stroke="#e4b592" strokeWidth={2} dot={{ r: 3 }} />
-                  <Line type="monotone" dataKey="LangChain" stroke="#fff3ea" strokeWidth={2} dot={{ r: 3 }} />
-                  <Line type="monotone" dataKey="Agent" stroke="#dad0c8" strokeWidth={2} dot={{ r: 3 }} />
-                  <Line type="monotone" dataKey="Prompt工程" stroke="#ee1212" strokeWidth={2} dot={{ r: 3 }} />
+                  {(trends?.hot_skills ?? []).slice(0, 4).map((skill, index) => <Line key={skill.name} type="monotone" dataKey={skill.name} stroke={['#e4b592', '#fff3ea', '#dad0c8', '#ee1212'][index]} strokeWidth={2} dot={{ r: 3 }} />)}
                 </LineChart>
               </ResponsiveContainer>
             </div>
@@ -320,7 +343,7 @@ export default function EmergingJobsPage() {
               <FrameCorners />
               <h3 className="font-outfit font-bold text-base text-[var(--text)] mb-4"><FireOutlined /> 热门技能排行</h3>
               <ResponsiveContainer width="100%" height={280}>
-                <BarChart data={HOT_SKILLS} layout="vertical">
+                <BarChart data={trends?.hot_skills ?? []} layout="vertical">
                   <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,243,234,0.1)" />
                   <XAxis type="number" tick={{ fill: '#a49b92', fontSize: 11 }} />
                   <YAxis dataKey="name" type="category" tick={{ fill: '#a49b92', fontSize: 11 }} width={100} />

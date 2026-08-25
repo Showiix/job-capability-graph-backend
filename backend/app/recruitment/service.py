@@ -106,6 +106,24 @@ async def _attach_lgf_signals(
         return
 
     timeout = httpx.Timeout(settings.lgf_timeout_seconds)
+    requirements = snapshot.get("requirements", [])
+    capability_names = {
+        UUID(item["capability_id"]): item["canonical_name"]
+        for item in requirements
+    }
+    job = {
+        "job_name": snapshot.get("job_title") or project_title,
+        "required_skills": [
+            {"skill": item["canonical_name"], "weight": item["importance"]}
+            for item in requirements
+            if item["requirement_type"] == "required"
+        ],
+        "bonus_skills": [
+            item["canonical_name"]
+            for item in requirements
+            if item["requirement_type"] == "bonus"
+        ],
+    }
     async with httpx.AsyncClient(timeout=timeout) as http:
         client = LGFClient(
             url=str(settings.lgf_match_url),
@@ -120,15 +138,16 @@ async def _attach_lgf_signals(
             profile = profiles_by_candidate[value.candidate.id]
             resume_skills = [
                 {
-                    "skill": skill.raw_name,
+                    "skill": capability_names[skill.capability_id],
                     "mastery": skill.proficiency or "proficient",
                 }
                 for skill in skills_by_profile[profile.id]
-                if skill.capability_id is not None
+                if skill.capability_id in capability_names
             ]
             result = await client.match(
                 LGFMatchRequest(
                     job_id=str(snapshot.get("job_id") or project_title),
+                    job=job,
                     resume={
                         "skills": resume_skills,
                         "years_experience": (

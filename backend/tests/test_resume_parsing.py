@@ -310,6 +310,37 @@ def test_invalid_evidence_items_are_dropped_with_warnings() -> None:
     assert validated.warnings == ["SKILL_EVIDENCE_NOT_FOUND:Java"]
 
 
+def test_skill_name_is_safe_evidence_fallback() -> None:
+    payload = ResumeParseResponse.model_validate(
+        {
+            "schema_version": "resume_parse_v1",
+            "document_language": "zh-CN",
+            "summary": None,
+            "educations": [],
+            "experiences": [],
+            "projects": [],
+            "skills": [
+                {
+                    "name": "FastAPI",
+                    "proficiency": "intermediate",
+                    "explicit_experience_months": None,
+                    "evidence_strength": "project",
+                    "evidence_quote": "使用 FastAPI 开发接口",
+                    "confidence": 0.9,
+                }
+            ],
+        }
+    )
+
+    validated = validate_parse_evidence(
+        payload,
+        redacted_text="使用 Python 和 FastAPI 开发接口",
+    )
+
+    assert validated.skills[0]["evidence_quote"] == "FastAPI"
+    assert validated.warnings == []
+
+
 @pytest.mark.parametrize("with_candidates", [False, True])
 def test_evidence_gate_rejects_when_no_category_has_grounded_item(
     with_candidates,

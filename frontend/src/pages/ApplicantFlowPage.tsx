@@ -26,11 +26,14 @@ import { useAuth } from '../context/AuthContext'
 import { fetchGraphData } from '../services/graphApi'
 import {
   confirmResumeProfile,
+  createResumeRevision,
   createGrowthPath,
   createJobRecommendations,
   createResume,
   getProcessingRun,
   getProcessingRunResult,
+  retryProcessingRun,
+  cancelProcessingRun,
   getRecommendationDetail,
   getResumeProfile,
   type GrowthPathRead,
@@ -298,6 +301,8 @@ export default function ApplicantFlowPage() {
   const [growthError, setGrowthError] = useState<string | null>(null)
   const [growthPath, setGrowthPath] = useState<GrowthPathRead | null>(null)
   const [growthPathKey, setGrowthPathKey] = useState<string | null>(null)
+  const [editedSkills, setEditedSkills] = useState('')
+  const [revisionSaving, setRevisionSaving] = useState(false)
   const fileRef = useRef<HTMLInputElement>(null)
 
   const profilePayload = resumeProfile?.profile ?? {}
@@ -490,6 +495,35 @@ export default function ApplicantFlowPage() {
     event.target.value = ''
   }
 
+  const retryCurrentRun = async () => {
+    if (!currentRun) return
+    setWorkflowError(null)
+    try {
+      const next = await retryProcessingRun(currentRun.id)
+      setCurrentRun(next)
+      setUploadState('processing')
+      setUploading(true)
+      setProgress(2)
+      setWorkflowError('已创建重试任务，请重新等待解析完成')
+    } catch (error) {
+      setWorkflowError(apiErrorMessage(error))
+    } finally {
+      setUploading(false)
+    }
+  }
+
+  const cancelCurrentRun = async () => {
+    if (!currentRun) return
+    try {
+      const next = await cancelProcessingRun(currentRun.id)
+      setCurrentRun(next)
+      setUploadState('failed')
+      setWorkflowError('任务已取消')
+    } catch (error) {
+      setWorkflowError(apiErrorMessage(error))
+    }
+  }
+
   const handleDrop = (event: DragEvent<HTMLDivElement>) => {
     event.preventDefault()
     setDrag(false)
@@ -516,6 +550,22 @@ export default function ApplicantFlowPage() {
       setWorkflowError(apiErrorMessage(error))
     } finally {
       setRecommendationLoading(false)
+    }
+  }
+
+  const saveProfileRevision = async () => {
+    if (!resumeProfile) return
+    const skills = editedSkills.split(/[,，\n]/).map((item) => item.trim()).filter(Boolean)
+    if (!skills.length) return
+    setRevisionSaving(true)
+    try {
+      const revision = await createResumeRevision(resumeProfile.resume_id, resumeProfile.version_no, skills)
+      setResumeProfile(revision)
+      setWorkflowError('人工修订草稿已保存，请再次确认画像')
+    } catch (error) {
+      setWorkflowError(apiErrorMessage(error))
+    } finally {
+      setRevisionSaving(false)
     }
   }
 
@@ -683,6 +733,10 @@ export default function ApplicantFlowPage() {
                           ERROR / {currentRun.error_code}
                         </div>
                       )}
+                      <div className="mt-3 flex gap-2">
+                        {currentRun?.status === 'failed' && <button className="btn btn-sm btn-primary" onClick={(event) => { event.stopPropagation(); void retryCurrentRun() }}><ReloadOutlined /> 重试任务</button>}
+                        {currentRun && ['pending', 'running', 'cancel_requested'].includes(currentRun.status) && <button className="btn btn-sm btn-ghost" onClick={(event) => { event.stopPropagation(); void cancelCurrentRun() }}>取消任务</button>}
+                      </div>
                     </div>
                   )}
                   <div className="mt-7 flex gap-3 justify-center">
@@ -852,6 +906,11 @@ export default function ApplicantFlowPage() {
                   <WarningOutlined /> {workflowError}
                 </div>
               )}
+              <div className="border-t border-[var(--border)] pt-3">
+                <label className="font-jetbrains text-[9px] text-[#e4b592] uppercase tracking-[0.14em]">人工修订技能</label>
+                <textarea className="w-full mt-2 bg-black/40 border border-[var(--border)] px-3 py-2 text-xs" rows={2} placeholder="用逗号补充或替换技能" value={editedSkills} onChange={(event) => setEditedSkills(event.target.value)} />
+                <button className="btn btn-sm btn-ghost mt-2" onClick={() => void saveProfileRevision()} disabled={revisionSaving || !editedSkills.trim()}>{revisionSaving ? <LoadingOutlined /> : <ReloadOutlined />} 保存修订草稿</button>
+              </div>
               <button className="btn btn-md btn-primary mt-auto" onClick={handleConfirmAndRecommend} disabled={recommendationLoading}>
                 {recommendationLoading ? <LoadingOutlined /> : <CheckCircleOutlined />}
                 确认画像 <ArrowRightOutlined /> 生成岗位推荐

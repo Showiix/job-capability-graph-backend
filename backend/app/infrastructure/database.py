@@ -9,6 +9,7 @@ from sqlalchemy.ext.asyncio import (
     create_async_engine,
 )
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
+from sqlalchemy.pool import NullPool
 
 from app.core.config import get_settings
 
@@ -34,7 +35,10 @@ class CreatedAtMixin:
 
 
 settings = get_settings()
-engine = create_async_engine(settings.database_url, pool_pre_ping=True)
+engine = create_async_engine(
+    settings.database_url,
+    poolclass=NullPool,
+)
 SessionFactory = async_sessionmaker(engine, expire_on_commit=False)
 
 
