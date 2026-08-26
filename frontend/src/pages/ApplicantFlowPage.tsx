@@ -334,10 +334,10 @@ export default function ApplicantFlowPage() {
       jobRoleId: selectedResult.job_role_id,
       roleId: selectedResult.job_role.id,
       canonicalName: selectedResult.job_role.canonical_name,
-      domainName: selectedResult.job_role.domain.name,
+      domainName: selectedResult.job_role.domain?.name,
       definitionPayload: selectedMatchDetail?.job_role.definition_payload,
     })
-  }, [jobGraphData, selectedMatchDetail?.job_role.definition_payload, selectedResult])
+  }, [jobGraphData, selectedMatchDetail?.job_role?.definition_payload, selectedResult])
   const selectedJobGraphData = useMemo<GraphData | null>(() => {
     if (!jobGraphData || !selectedGraphMatch) return null
     return {
@@ -389,7 +389,10 @@ export default function ApplicantFlowPage() {
     setJobGraphLoading(true)
     setJobGraphError(null)
 
-    fetchGraphData()
+    Promise.race([
+      fetchGraphData(),
+      new Promise<never>((_, reject) => window.setTimeout(() => reject(new Error('岗位图谱读取超时，请稍后重试')), 5_000)),
+    ])
       .then((data) => {
         if (!alive) return
         setJobGraphData(data)
@@ -542,8 +545,10 @@ export default function ApplicantFlowPage() {
           : await confirmResumeProfile(resumeProfile.resume_id, resumeProfile.version_no)
       setResumeProfile(confirmedProfile)
       const created = await createJobRecommendations(confirmedProfile.resume_id)
+      const items = created?.results?.items
+      if (!Array.isArray(items)) throw new Error('岗位推荐返回格式无效')
       setRecommendations(created)
-      setSelectedJobRoleId(created.results.items[0]?.job_role_id ?? null)
+      setSelectedJobRoleId(items[0]?.job_role_id ?? null)
       setActiveTab('radar')
       setStep(2)
     } catch (error) {
@@ -989,6 +994,7 @@ export default function ApplicantFlowPage() {
                         <div className="font-outfit font-bold text-[15px] text-[#dad0c8]">
                           <CheckCircleOutlined /> 已匹配 ({matchedCapabilities.length})
                         </div>
+                        {matchedCapabilities.length === 0 && missingCapabilities.length === 0 && <div className="text-xs text-[var(--text-dim)]">暂无可对比的标准技能。</div>}
                         <div className="flex flex-wrap gap-1.5 mb-3">
                           {matchedCapabilities.map((item) => (
                             <span key={item.capability_id} className="tag tag-green">
@@ -1147,7 +1153,7 @@ export default function ApplicantFlowPage() {
                   <TrophyOutlined /> 匹配岗位排行
                 </div>
                 <div className="flex flex-col gap-3">
-                  {recommendations.results.items.map((job, i) => {
+                  {(recommendations.results?.items ?? []).map((job, i) => {
                     const active = job.job_role_id === selectedJobRoleId
                     const color = matchLevelColor(job.match_level)
                     return (

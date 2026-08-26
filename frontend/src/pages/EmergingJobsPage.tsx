@@ -336,6 +336,7 @@ export default function EmergingJobsPage() {
                   {(trends?.hot_skills ?? []).slice(0, 4).map((skill, index) => <Line key={skill.name} type="monotone" dataKey={skill.name} stroke={['#e4b592', '#fff3ea', '#dad0c8', '#ee1212'][index]} strokeWidth={2} dot={{ r: 3 }} />)}
                 </LineChart>
               </ResponsiveContainer>
+              {trends && trends.timeline.length === 0 && <div className="text-xs text-[var(--text-dim)] text-center mt-[-130px] relative">暂无带发布时间的历史 JD，无法生成近 7 个月趋势</div>}
             </div>
 
             {/* Hot skills */}
@@ -358,6 +359,7 @@ export default function EmergingJobsPage() {
                   <Bar dataKey="count" fill="#e4b592" radius={[0, 0, 0, 0]} />
                 </BarChart>
               </ResponsiveContainer>
+              {trends && trends.hot_skills.length === 0 && <div className="text-xs text-[var(--text-dim)] text-center mt-[-145px] relative">暂无可统计的技能需求数据</div>}
             </div>
           </div>
         </div>
