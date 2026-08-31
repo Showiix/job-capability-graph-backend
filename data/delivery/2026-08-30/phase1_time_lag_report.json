@@ -1,0 +1,1976 @@
+{
+  "median_lag_months": 107.5,
+  "terms": {
+    ".net": {
+      "query": ".net",
+      "github_first": "2016-06-22",
+      "github_repo": "Binaryify/NeteaseCloudMusicApi",
+      "jd_first": "2025-07-08",
+      "lag_days": 3303,
+      "source": "github"
+    },
+    "5g": {
+      "query": "5g",
+      "github_first": "2019-08-14",
+      "github_repo": "SystemsApproach/5G",
+      "jd_first": "2025-07-01",
+      "lag_days": 2148,
+      "source": "github"
+    },
+    "ai agent": {
+      "query": "ai agent",
+      "github_first": "2023-05-23",
+      "github_repo": "vercel/ai",
+      "jd_first": "2025-07-02",
+      "lag_days": 771,
+      "source": "github"
+    },
+    "aigc": {
+      "query": "aigc",
+      "github_first": "2024-10-18",
+      "github_repo": "modstart-lib/aigcpanel",
+      "jd_first": "2025-07-01",
+      "lag_days": 256,
+      "source": "github"
+    },
+    "api": {
+      "query": "rest api",
+      "github_first": "2016-07-12",
+      "github_repo": "microsoft/api-guidelines",
+      "jd_first": "2025-07-01",
+      "lag_days": 3276,
+      "source": "github"
+    },
+    "arm": {
+      "query": "arm",
+      "github_first": null,
+      "github_repo": "TheRobotStudio/SO-ARM100",
+      "jd_first": "2025-07-01",
+      "lag_days": null,
+      "source": null,
+      "note": "GitHub 搜索匹配到同名新仓库，判定为噪音，回退中位数兜底"
+    },
+    "asic": {
+      "query": "asic",
+      "github_first": "2022-11-17",
+      "github_repo": "bitaxeorg/ESP-Miner",
+      "jd_first": "2025-07-03",
+      "lag_days": 959,
+      "source": "github"
+    },
+    "aws": {
+      "query": "aws",
+      "github_first": "2014-12-02",
+      "github_repo": "swoodford/aws",
+      "jd_first": "2025-07-01",
+      "lag_days": 3864,
+      "source": "github"
+    },
+    "agent": {
+      "query": "ai agent",
+      "github_first": "2023-05-23",
+      "github_repo": "vercel/ai",
+      "jd_first": "2025-07-01",
+      "lag_days": 770,
+      "source": "github"
+    },
+    "agent loop": {
+      "query": "agent loop",
+      "github_first": null,
+      "github_repo": "earendil-works/pi",
+      "jd_first": "2025-07-22",
+      "lag_days": null,
+      "source": null,
+      "note": "GitHub 搜索匹配到同名新仓库，判定为噪音，回退中位数兜底"
+    },
+    "angular": {
+      "query": "angular",
+      "github_first": "2014-09-18",
+      "github_repo": "angular/angular",
+      "jd_first": "2025-07-04",
+      "lag_days": 3942,
+      "source": "github"
+    },
+    "ansible": {
+      "query": "ansible",
+      "github_first": "2012-03-06",
+      "github_repo": "ansible/ansible",
+      "jd_first": "2025-07-08",
+      "lag_days": 4872,
+      "source": "github"
+    },
+    "axure": {
+      "query": "axure",
+      "github_first": "2014-08-06",
+      "github_repo": "duzyn/material-axure-library",
+      "jd_first": "2025-07-01",
+      "lag_days": 3982,
+      "source": "github"
+    },
+    "azure": {
+      "query": "azure",
+      "github_first": "2016-11-02",
+      "github_repo": "MicrosoftDocs/azure-docs",
+      "jd_first": "2025-07-01",
+      "lag_days": 3163,
+      "source": "github"
+    },
+    "bsp": {
+      "query": "bsp",
+      "github_first": "2015-10-20",
+      "github_repo": "rockchip-linux/kernel",
+      "jd_first": "2025-07-02",
+      "lag_days": 3543,
+      "source": "github"
+    },
+    "bootstrap": {
+      "query": "bootstrap",
+      "github_first": "2011-07-29",
+      "github_repo": "twbs/bootstrap",
+      "jd_first": "2025-07-03",
+      "lag_days": 5088,
+      "source": "github"
+    },
+    "c#": {
+      "query": "c#",
+      "github_first": null,
+      "github_repo": "ggml-org/llama.cpp",
+      "jd_first": "2025-07-01",
+      "lag_days": null,
+      "source": null,
+      "note": "GitHub 搜索匹配到同名新仓库，判定为噪音，回退中位数兜底"
+    },
+    "c++": {
+      "query": "c++",
+      "github_first": null,
+      "github_repo": "ggml-org/llama.cpp",
+      "jd_first": "2025-07-01",
+      "lag_days": null,
+      "source": null,
+      "note": "GitHub 搜索匹配到同名新仓库，判定为噪音，回退中位数兜底"
+    },
+    "cnn": {
+      "query": "cnn",
+      "github_first": "2019-11-03",
+      "github_repo": "poloclub/cnn-explainer",
+      "jd_first": "2025-07-01",
+      "lag_days": 2067,
+      "source": "github"
+    },
+    "css": {
+      "query": "css",
+      "github_first": "2015-03-19",
+      "github_repo": "primer/css",
+      "jd_first": "2025-07-01",
+      "lag_days": 3757,
+      "source": "github"
+    },
+    "css3": {
+      "query": "css3",
+      "github_first": "2020-03-09",
+      "github_repo": "gustavoguanabara/html-css",
+      "jd_first": "2025-07-01",
+      "lag_days": 1940,
+      "source": "github"
+    },
+    "cv": {
+      "query": "computer vision",
+      "github_first": "2016-11-09",
+      "github_repo": "pytorch/vision",
+      "jd_first": "2025-07-01",
+      "lag_days": 3156,
+      "source": "github"
+    },
+    "chatgpt": {
+      "query": "chatgpt",
+      "github_first": "2022-12-07",
+      "github_repo": "lencx/ChatGPT",
+      "jd_first": "2025-07-02",
+      "lag_days": 938,
+      "source": "github"
+    },
+    "clickhouse": {
+      "query": "clickhouse",
+      "github_first": "2016-06-02",
+      "github_repo": "ClickHouse/ClickHouse",
+      "jd_first": "2025-07-02",
+      "lag_days": 3317,
+      "source": "github"
+    },
+    "confluence": {
+      "query": "confluence",
+      "github_first": "2016-01-20",
+      "github_repo": "teamatldocker/confluence",
+      "jd_first": "2025-07-01",
+      "lag_days": 3450,
+      "source": "github"
+    },
+    "copilot": {
+      "query": "copilot",
+      "github_first": "2023-04-28",
+      "github_repo": "skills/copilot-codespaces-vscode",
+      "jd_first": "2025-07-01",
+      "lag_days": 795,
+      "source": "github"
+    },
+    "coze": {
+      "query": "coze",
+      "github_first": "2025-06-26",
+      "github_repo": "coze-dev/coze-studio",
+      "jd_first": "2025-07-02",
+      "lag_days": 6,
+      "source": "github"
+    },
+    "c语言": {
+      "query": "c programming language",
+      "github_first": "2017-02-10",
+      "github_repo": "python/cpython",
+      "jd_first": "2025-07-01",
+      "lag_days": 3063,
+      "source": "github"
+    },
+    "dpo": {
+      "query": "dpo",
+      "github_first": "2023-06-22",
+      "github_repo": "eric-mitchell/direct-preference-optimization",
+      "jd_first": "2025-07-01",
+      "lag_days": 740,
+      "source": "github"
+    },
+    "dsp": {
+      "query": "digital signal processing",
+      "github_first": "2020-01-14",
+      "github_repo": "magenta/ddsp",
+      "jd_first": "2025-07-01",
+      "lag_days": 1995,
+      "source": "github"
+    },
+    "deepseek": {
+      "query": "deepseek",
+      "github_first": null,
+      "github_repo": "deepseek-ai/deepseek-harness",
+      "jd_first": "2025-07-01",
+      "lag_days": null,
+      "source": null,
+      "note": "GitHub 搜索匹配到同名新仓库，判定为噪音，回退中位数兜底"
+    },
+    "dify": {
+      "query": "dify",
+      "github_first": "2023-04-12",
+      "github_repo": "langgenius/dify",
+      "jd_first": "2025-07-02",
+      "lag_days": 812,
+      "source": "github"
+    },
+    "django": {
+      "query": "django",
+      "github_first": "2012-04-28",
+      "github_repo": "django/django",
+      "jd_first": "2025-07-01",
+      "lag_days": 4812,
+      "source": "github"
+    },
+    "docker": {
+      "query": "docker",
+      "github_first": "2014-07-18",
+      "github_repo": "jenkinsci/docker",
+      "jd_first": "2025-07-01",
+      "lag_days": 4001,
+      "source": "github"
+    },
+    "doris": {
+      "query": "doris",
+      "github_first": "2017-08-10",
+      "github_repo": "apache/doris",
+      "jd_first": "2025-07-02",
+      "lag_days": 2883,
+      "source": "github"
+    },
+    "etl": {
+      "query": "etl",
+      "github_first": "2014-10-16",
+      "github_repo": "ETLCPP/etl",
+      "jd_first": "2025-07-01",
+      "lag_days": 3911,
+      "source": "github"
+    },
+    "elasticsearch": {
+      "query": "elasticsearch",
+      "github_first": "2010-02-08",
+      "github_repo": "elastic/elasticsearch",
+      "jd_first": "2025-07-01",
+      "lag_days": 5622,
+      "source": "github"
+    },
+    "electron": {
+      "query": "electron",
+      "github_first": "2013-04-12",
+      "github_repo": "electron/electron",
+      "jd_first": "2025-07-05",
+      "lag_days": 4467,
+      "source": "github"
+    },
+    "express": {
+      "query": "express",
+      "github_first": "2009-06-26",
+      "github_repo": "expressjs/express",
+      "jd_first": "2025-07-03",
+      "lag_days": 5851,
+      "source": "github"
+    },
+    "fpga": {
+      "query": "fpga",
+      "github_first": "2020-06-26",
+      "github_repo": "LeiWang1999/FPGA",
+      "jd_first": "2025-07-01",
+      "lag_days": 1831,
+      "source": "github"
+    },
+    "fastapi": {
+      "query": "fastapi",
+      "github_first": "2018-12-08",
+      "github_repo": "fastapi/fastapi",
+      "jd_first": "2025-07-01",
+      "lag_days": 2397,
+      "source": "github"
+    },
+    "figma": {
+      "query": "figma",
+      "github_first": "2020-06-19",
+      "github_repo": "bernaferrari/FigmaToCode",
+      "jd_first": "2025-07-01",
+      "lag_days": 1838,
+      "source": "github"
+    },
+    "flask": {
+      "query": "flask",
+      "github_first": "2010-04-06",
+      "github_repo": "pallets/flask",
+      "jd_first": "2025-07-01",
+      "lag_days": 5565,
+      "source": "github"
+    },
+    "flink": {
+      "query": "flink",
+      "github_first": "2014-06-07",
+      "github_repo": "apache/flink",
+      "jd_first": "2025-07-01",
+      "lag_days": 4042,
+      "source": "github"
+    },
+    "flutter": {
+      "query": "flutter",
+      "github_first": "2015-03-06",
+      "github_repo": "flutter/flutter",
+      "jd_first": "2025-07-01",
+      "lag_days": 3770,
+      "source": "github"
+    },
+    "function calling": {
+      "query": "function calling",
+      "github_first": "2024-02-24",
+      "github_repo": "NousResearch/Hermes-Function-Calling",
+      "jd_first": "2025-07-02",
+      "lag_days": 494,
+      "source": "github"
+    },
+    "gan": {
+      "query": "gan",
+      "github_first": "2017-03-27",
+      "github_repo": "yfeng95/GAN",
+      "jd_first": "2025-07-01",
+      "lag_days": 3018,
+      "source": "github"
+    },
+    "gnss": {
+      "query": "gnss",
+      "github_first": "2014-04-13",
+      "github_repo": "gnss-sdr/gnss-sdr",
+      "jd_first": "2025-07-01",
+      "lag_days": 4097,
+      "source": "github"
+    },
+    "gpt": {
+      "query": "gpt",
+      "github_first": null,
+      "github_repo": "xtekky/gpt4free",
+      "jd_first": "2025-07-01",
+      "lag_days": null,
+      "source": null,
+      "note": "GitHub 搜索匹配到同名新仓库，判定为噪音，回退中位数兜底"
+    },
+    "gin": {
+      "query": "gin",
+      "github_first": "2014-06-16",
+      "github_repo": "gin-gonic/gin",
+      "jd_first": "2025-07-01",
+      "lag_days": 4033,
+      "source": "github"
+    },
+    "git": {
+      "query": "git",
+      "github_first": "2008-07-23",
+      "github_repo": "git/git",
+      "jd_first": "2025-07-01",
+      "lag_days": 6187,
+      "source": "github"
+    },
+    "gitlab ci": {
+      "query": "gitlab ci",
+      "github_first": "2012-10-10",
+      "github_repo": "gitlabhq/gitlab-ci",
+      "jd_first": "2025-07-01",
+      "lag_days": 4647,
+      "source": "github"
+    },
+    "go": {
+      "query": "golang",
+      "github_first": "2015-08-09",
+      "github_repo": "GoesToEleven/GolangTraining",
+      "jd_first": "2025-07-01",
+      "lag_days": 3614,
+      "source": "github"
+    },
+    "golang": {
+      "query": "golang",
+      "github_first": "2015-08-09",
+      "github_repo": "GoesToEleven/GolangTraining",
+      "jd_first": "2025-07-02",
+      "lag_days": 3615,
+      "source": "github"
+    },
+    "grafana": {
+      "query": "grafana",
+      "github_first": "2013-12-11",
+      "github_repo": "grafana/grafana",
+      "jd_first": "2025-07-01",
+      "lag_days": 4220,
+      "source": "github"
+    },
+    "hbase": {
+      "query": "hbase",
+      "github_first": "2014-05-23",
+      "github_repo": "apache/hbase",
+      "jd_first": "2025-07-01",
+      "lag_days": 4057,
+      "source": "github"
+    },
+    "html": {
+      "query": "html",
+      "github_first": "2013-08-08",
+      "github_repo": "whatwg/html",
+      "jd_first": "2025-07-01",
+      "lag_days": 4345,
+      "source": "github"
+    },
+    "html5": {
+      "query": "html5",
+      "github_first": "2010-01-24",
+      "github_repo": "h5bp/html5-boilerplate",
+      "jd_first": "2025-07-01",
+      "lag_days": 5637,
+      "source": "github"
+    },
+    "http": {
+      "query": "http",
+      "github_first": "2016-10-24",
+      "github_repo": "woai30231/http",
+      "jd_first": "2025-07-01",
+      "lag_days": 3172,
+      "source": "github"
+    },
+    "hadoop": {
+      "query": "hadoop",
+      "github_first": "2014-08-28",
+      "github_repo": "apache/hadoop",
+      "jd_first": "2025-07-01",
+      "lag_days": 3960,
+      "source": "github"
+    },
+    "harmonyos": {
+      "query": "harmonyos",
+      "github_first": "2019-08-09",
+      "github_repo": "Awesome-HarmonyOS/HarmonyOS",
+      "jd_first": "2025-07-02",
+      "lag_days": 2154,
+      "source": "github"
+    },
+    "hibernate": {
+      "query": "hibernate",
+      "github_first": "2010-10-04",
+      "github_repo": "hibernate/hibernate-orm",
+      "jd_first": "2025-07-03",
+      "lag_days": 5386,
+      "source": "github"
+    },
+    "hive": {
+      "query": "hive",
+      "github_first": null,
+      "github_repo": "aden-hive/hive",
+      "jd_first": "2025-07-01",
+      "lag_days": null,
+      "source": null,
+      "note": "GitHub 搜索匹配到同名新仓库，判定为噪音，回退中位数兜底"
+    },
+    "imu": {
+      "query": "imu",
+      "github_first": "2015-01-11",
+      "github_repo": "PyImageSearch/imutils",
+      "jd_first": "2025-07-01",
+      "lag_days": 3824,
+      "source": "github"
+    },
+    "jira": {
+      "query": "jira",
+      "github_first": "2014-06-28",
+      "github_repo": "pycontribs/jira",
+      "jd_first": "2025-07-01",
+      "lag_days": 4021,
+      "source": "github"
+    },
+    "jmeter": {
+      "query": "jmeter",
+      "github_first": "2010-05-26",
+      "github_repo": "apache/jmeter",
+      "jd_first": "2025-07-06",
+      "lag_days": 5520,
+      "source": "github"
+    },
+    "java": {
+      "query": "java",
+      "github_first": "2016-07-16",
+      "github_repo": "TheAlgorithms/Java",
+      "jd_first": "2025-07-01",
+      "lag_days": 3272,
+      "source": "github"
+    },
+    "javascript": {
+      "query": "javascript",
+      "github_first": "2012-11-01",
+      "github_repo": "airbnb/javascript",
+      "jd_first": "2025-07-01",
+      "lag_days": 4625,
+      "source": "github"
+    },
+    "jenkins": {
+      "query": "jenkins",
+      "github_first": "2010-11-22",
+      "github_repo": "jenkinsci/jenkins",
+      "jd_first": "2025-07-01",
+      "lag_days": 5335,
+      "source": "github"
+    },
+    "k8s": {
+      "query": "k8s",
+      "github_first": "2022-05-07",
+      "github_repo": "guangzhengli/k8s-tutorials",
+      "jd_first": "2025-07-01",
+      "lag_days": 1151,
+      "source": "github"
+    },
+    "kafka": {
+      "query": "kafka",
+      "github_first": "2011-08-15",
+      "github_repo": "apache/kafka",
+      "jd_first": "2025-07-01",
+      "lag_days": 5069,
+      "source": "github"
+    },
+    "kotlin": {
+      "query": "kotlin",
+      "github_first": "2012-02-13",
+      "github_repo": "JetBrains/kotlin",
+      "jd_first": "2025-07-01",
+      "lag_days": 4887,
+      "source": "github"
+    },
+    "kubernetes": {
+      "query": "kubernetes",
+      "github_first": "2014-06-06",
+      "github_repo": "kubernetes/kubernetes",
+      "jd_first": "2025-07-01",
+      "lag_days": 4043,
+      "source": "github"
+    },
+    "llm": {
+      "query": "large language model",
+      "github_first": "2024-06-28",
+      "github_repo": "HandsOnLLM/Hands-On-Large-Language-Models",
+      "jd_first": "2025-07-01",
+      "lag_days": 368,
+      "source": "github"
+    },
+    "lstm": {
+      "query": "lstm",
+      "github_first": "2018-10-22",
+      "github_repo": "yangwohenmai/LSTM",
+      "jd_first": "2025-07-01",
+      "lag_days": 2444,
+      "source": "github"
+    },
+    "lte": {
+      "query": "lte",
+      "github_first": "2013-12-25",
+      "github_repo": "ColorlibHQ/AdminLTE",
+      "jd_first": "2025-07-01",
+      "lag_days": 4206,
+      "source": "github"
+    },
+    "langchain": {
+      "query": "langchain",
+      "github_first": "2022-10-17",
+      "github_repo": "langchain-ai/langchain",
+      "jd_first": "2025-07-01",
+      "lag_days": 988,
+      "source": "github"
+    },
+    "langgraph": {
+      "query": "langgraph",
+      "github_first": "2023-08-09",
+      "github_repo": "langchain-ai/langgraph",
+      "jd_first": "2025-07-01",
+      "lag_days": 692,
+      "source": "github"
+    },
+    "linux": {
+      "query": "linux",
+      "github_first": "2011-09-04",
+      "github_repo": "torvalds/linux",
+      "jd_first": "2025-07-01",
+      "lag_days": 5049,
+      "source": "github"
+    },
+    "llamaindex": {
+      "query": "llamaindex",
+      "github_first": "2022-11-02",
+      "github_repo": "run-llama/llama_index",
+      "jd_first": "2025-07-01",
+      "lag_days": 972,
+      "source": "github"
+    },
+    "lora": {
+      "query": "lora",
+      "github_first": "2021-06-18",
+      "github_repo": "microsoft/LoRA",
+      "jd_first": "2025-07-01",
+      "lag_days": 1474,
+      "source": "github"
+    },
+    "mimo": {
+      "query": "mimo",
+      "github_first": null,
+      "github_repo": "TonyJiangWJ/mimotion",
+      "jd_first": "2025-07-01",
+      "lag_days": null,
+      "source": null,
+      "note": "GitHub 搜索匹配到同名新仓库，判定为噪音，回退中位数兜底"
+    },
+    "mqtt": {
+      "query": "mqtt",
+      "github_first": "2015-07-27",
+      "github_repo": "mcxiaoke/mqtt",
+      "jd_first": "2025-07-01",
+      "lag_days": 3627,
+      "source": "github"
+    },
+    "mrd": {
+      "query": "mrd",
+      "github_first": "2020-04-10",
+      "github_repo": "zmister2016/MrDoc",
+      "jd_first": "2025-07-06",
+      "lag_days": 1913,
+      "source": "github"
+    },
+    "milvus": {
+      "query": "milvus",
+      "github_first": "2019-09-16",
+      "github_repo": "milvus-io/milvus",
+      "jd_first": "2025-07-01",
+      "lag_days": 2115,
+      "source": "github"
+    },
+    "mongodb": {
+      "query": "mongodb",
+      "github_first": "2009-01-15",
+      "github_repo": "mongodb/mongo",
+      "jd_first": "2025-07-01",
+      "lag_days": 6011,
+      "source": "github"
+    },
+    "mybatis": {
+      "query": "mybatis",
+      "github_first": "2014-11-03",
+      "github_repo": "tuguangquan/mybatis",
+      "jd_first": "2025-07-01",
+      "lag_days": 3893,
+      "source": "github"
+    },
+    "mysql": {
+      "query": "mysql",
+      "github_first": "2010-07-29",
+      "github_repo": "mysqljs/mysql",
+      "jd_first": "2025-07-01",
+      "lag_days": 5451,
+      "source": "github"
+    },
+    "nlp": {
+      "query": "nlp",
+      "github_first": "2018-08-21",
+      "github_repo": "fighting41love/funNLP",
+      "jd_first": "2025-07-01",
+      "lag_days": 2506,
+      "source": "github"
+    },
+    "nginx": {
+      "query": "nginx",
+      "github_first": "2015-06-23",
+      "github_repo": "nginx/nginx",
+      "jd_first": "2025-07-02",
+      "lag_days": 3662,
+      "source": "github"
+    },
+    "node.js": {
+      "query": "node.js",
+      "github_first": "2014-11-26",
+      "github_repo": "nodejs/node",
+      "jd_first": "2025-07-01",
+      "lag_days": 3870,
+      "source": "github"
+    },
+    "numpy": {
+      "query": "numpy",
+      "github_first": "2010-09-13",
+      "github_repo": "numpy/numpy",
+      "jd_first": "2025-07-01",
+      "lag_days": 5405,
+      "source": "github"
+    },
+    "otn": {
+      "query": "otn",
+      "github_first": "2017-09-30",
+      "github_repo": "OpenTradingNetworkFoundation/otn-token",
+      "jd_first": "2025-07-01",
+      "lag_days": 2831,
+      "source": "github"
+    },
+    "objective-c": {
+      "query": "objective-c",
+      "github_first": "2014-12-08",
+      "github_repo": "grpc/grpc",
+      "jd_first": "2025-07-02",
+      "lag_days": 3859,
+      "source": "github"
+    },
+    "opencv": {
+      "query": "opencv",
+      "github_first": "2012-07-19",
+      "github_repo": "opencv/opencv",
+      "jd_first": "2025-07-01",
+      "lag_days": 4730,
+      "source": "github"
+    },
+    "oracle": {
+      "query": "oracle",
+      "github_first": null,
+      "github_repo": "steipete/oracle",
+      "jd_first": "2025-07-01",
+      "lag_days": null,
+      "source": null,
+      "note": "GitHub 搜索匹配到同名新仓库，判定为噪音，回退中位数兜底"
+    },
+    "pcb": {
+      "query": "pcb",
+      "github_first": "2015-02-14",
+      "github_repo": "kiibohd/pcb",
+      "jd_first": "2025-07-01",
+      "lag_days": 3790,
+      "source": "github"
+    },
+    "pcb设计": {
+      "query": "pcb design",
+      "github_first": "2013-09-01",
+      "github_repo": "KitSprout/AltiumDesigner_PcbLibrary",
+      "jd_first": "2025-07-01",
+      "lag_days": 4321,
+      "source": "github"
+    },
+    "pon": {
+      "query": "pon",
+      "github_first": null,
+      "github_repo": "DietrichGebert/ponytail",
+      "jd_first": "2025-07-02",
+      "lag_days": null,
+      "source": null,
+      "note": "GitHub 搜索匹配到同名新仓库，判定为噪音，回退中位数兜底"
+    },
+    "prd": {
+      "query": "prd",
+      "github_first": "2017-11-11",
+      "github_repo": "amitshekhariitbhu/PRDownloader",
+      "jd_first": "2025-07-01",
+      "lag_days": 2789,
+      "source": "github"
+    },
+    "pandas": {
+      "query": "pandas",
+      "github_first": "2010-08-24",
+      "github_repo": "pandas-dev/pandas",
+      "jd_first": "2025-07-01",
+      "lag_days": 5425,
+      "source": "github"
+    },
+    "photoshop": {
+      "query": "photoshop",
+      "github_first": "2020-02-13",
+      "github_repo": "Gictorbit/photoshopCClinux",
+      "jd_first": "2025-07-06",
+      "lag_days": 1970,
+      "source": "github"
+    },
+    "pinecone": {
+      "query": "pinecone",
+      "github_first": "2016-10-09",
+      "github_repo": "wmww/Pinecone",
+      "jd_first": "2025-07-07",
+      "lag_days": 3193,
+      "source": "github"
+    },
+    "postgresql": {
+      "query": "postgresql",
+      "github_first": "2014-03-11",
+      "github_repo": "ANXS/postgresql",
+      "jd_first": "2025-07-01",
+      "lag_days": 4130,
+      "source": "github"
+    },
+    "prometheus": {
+      "query": "prometheus",
+      "github_first": "2012-11-24",
+      "github_repo": "prometheus/prometheus",
+      "jd_first": "2025-07-01",
+      "lag_days": 4602,
+      "source": "github"
+    },
+    "prompt engineering": {
+      "query": "prompt engineering",
+      "github_first": "2022-12-16",
+      "github_repo": "dair-ai/Prompt-Engineering-Guide",
+      "jd_first": "2025-07-01",
+      "lag_days": 928,
+      "source": "github"
+    },
+    "pytorch": {
+      "query": "pytorch",
+      "github_first": "2016-08-13",
+      "github_repo": "pytorch/pytorch",
+      "jd_first": "2025-07-01",
+      "lag_days": 3244,
+      "source": "github"
+    },
+    "python": {
+      "query": "python",
+      "github_first": "2016-07-16",
+      "github_repo": "TheAlgorithms/Python",
+      "jd_first": "2025-07-01",
+      "lag_days": 3272,
+      "source": "github"
+    },
+    "qlora": {
+      "query": "qlora",
+      "github_first": "2023-05-11",
+      "github_repo": "artidoro/qlora",
+      "jd_first": "2025-07-02",
+      "lag_days": 783,
+      "source": "github"
+    },
+    "rag": {
+      "query": "retrieval augmented generation",
+      "github_first": "2024-10-02",
+      "github_repo": "HKUDS/LightRAG",
+      "jd_first": "2025-07-01",
+      "lag_days": 272,
+      "source": "github"
+    },
+    "restful": {
+      "query": "restful",
+      "github_first": "2014-03-19",
+      "github_repo": "RESTful-Drupal/restful",
+      "jd_first": "2025-07-01",
+      "lag_days": 4122,
+      "source": "github"
+    },
+    "rlhf": {
+      "query": "rlhf",
+      "github_first": "2023-07-30",
+      "github_repo": "OpenRLHF/OpenRLHF",
+      "jd_first": "2025-07-01",
+      "lag_days": 702,
+      "source": "github"
+    },
+    "rnn": {
+      "query": "rnn",
+      "github_first": "2015-05-21",
+      "github_repo": "karpathy/char-rnn",
+      "jd_first": "2025-07-01",
+      "lag_days": 3694,
+      "source": "github"
+    },
+    "ros": {
+      "query": "ros",
+      "github_first": "2013-01-24",
+      "github_repo": "ros/ros",
+      "jd_first": "2025-07-01",
+      "lag_days": 4541,
+      "source": "github"
+    },
+    "ros2": {
+      "query": "ros2",
+      "github_first": "2015-02-24",
+      "github_repo": "ros2/ros2",
+      "jd_first": "2025-07-01",
+      "lag_days": 3780,
+      "source": "github"
+    },
+    "rtos": {
+      "query": "rtos",
+      "github_first": "2019-09-03",
+      "github_repo": "FreeRTOS/FreeRTOS",
+      "jd_first": "2025-07-01",
+      "lag_days": 2128,
+      "source": "github"
+    },
+    "rabbitmq": {
+      "query": "rabbitmq",
+      "github_first": "2010-09-20",
+      "github_repo": "rabbitmq/rabbitmq-server",
+      "jd_first": "2025-07-01",
+      "lag_days": 5398,
+      "source": "github"
+    },
+    "react": {
+      "query": "react",
+      "github_first": "2013-05-24",
+      "github_repo": "react/react",
+      "jd_first": "2025-07-01",
+      "lag_days": 4421,
+      "source": "github"
+    },
+    "react native": {
+      "query": "react native",
+      "github_first": "2013-05-24",
+      "github_repo": "react/react",
+      "jd_first": "2025-07-02",
+      "lag_days": 4422,
+      "source": "github"
+    },
+    "redis": {
+      "query": "redis",
+      "github_first": "2009-03-21",
+      "github_repo": "redis/redis",
+      "jd_first": "2025-07-01",
+      "lag_days": 5946,
+      "source": "github"
+    },
+    "rerank": {
+      "query": "rerank",
+      "github_first": "2019-07-24",
+      "github_repo": "huggingface/sentence-transformers",
+      "jd_first": "2025-07-03",
+      "lag_days": 2171,
+      "source": "github"
+    },
+    "rocketmq": {
+      "query": "rocketmq",
+      "github_first": "2016-11-30",
+      "github_repo": "apache/rocketmq",
+      "jd_first": "2025-07-01",
+      "lag_days": 3135,
+      "source": "github"
+    },
+    "rust": {
+      "query": "rust",
+      "github_first": "2010-06-16",
+      "github_repo": "rust-lang/rust",
+      "jd_first": "2025-07-01",
+      "lag_days": 5494,
+      "source": "github"
+    },
+    "sdn": {
+      "query": "sdn",
+      "github_first": "2017-05-14",
+      "github_repo": "feiskyer/sdn-handbook",
+      "jd_first": "2025-07-03",
+      "lag_days": 2972,
+      "source": "github"
+    },
+    "sft": {
+      "query": "sft",
+      "github_first": "2018-07-11",
+      "github_repo": "springframeworkguru/sfg-pet-clinic",
+      "jd_first": "2025-07-01",
+      "lag_days": 2547,
+      "source": "github"
+    },
+    "slam": {
+      "query": "slam",
+      "github_first": "2016-01-23",
+      "github_repo": "raulmur/ORB_SLAM2",
+      "jd_first": "2025-07-01",
+      "lag_days": 3447,
+      "source": "github"
+    },
+    "sql": {
+      "query": "sql database",
+      "github_first": "2012-06-26",
+      "github_repo": "sqlmapproject/sqlmap",
+      "jd_first": "2025-07-01",
+      "lag_days": 4753,
+      "source": "github"
+    },
+    "sql server": {
+      "query": "sql server",
+      "github_first": "2016-03-11",
+      "github_repo": "microsoft/sql-server-samples",
+      "jd_first": "2025-07-01",
+      "lag_days": 3399,
+      "source": "github"
+    },
+    "sqlite": {
+      "query": "sqlite",
+      "github_first": "2019-03-18",
+      "github_repo": "sqlite/sqlite",
+      "jd_first": "2025-07-02",
+      "lag_days": 2298,
+      "source": "github"
+    },
+    "stm32": {
+      "query": "stm32",
+      "github_first": "2013-06-09",
+      "github_repo": "LonelyWolf/stm32",
+      "jd_first": "2025-07-01",
+      "lag_days": 4405,
+      "source": "github"
+    },
+    "scala": {
+      "query": "scala",
+      "github_first": "2011-12-01",
+      "github_repo": "scala/scala",
+      "jd_first": "2025-07-02",
+      "lag_days": 4962,
+      "source": "github"
+    },
+    "scrapy": {
+      "query": "scrapy",
+      "github_first": "2010-02-22",
+      "github_repo": "scrapy/scrapy",
+      "jd_first": "2025-07-01",
+      "lag_days": 5608,
+      "source": "github"
+    },
+    "scrum": {
+      "query": "scrum",
+      "github_first": "2011-03-10",
+      "github_repo": "aliasaria/scrumblr",
+      "jd_first": "2025-07-03",
+      "lag_days": 5229,
+      "source": "github"
+    },
+    "selenium": {
+      "query": "selenium",
+      "github_first": "2013-01-14",
+      "github_repo": "SeleniumHQ/selenium",
+      "jd_first": "2025-07-01",
+      "lag_days": 4551,
+      "source": "github"
+    },
+    "shell": {
+      "query": "shell",
+      "github_first": "2016-05-13",
+      "github_repo": "fengyuhetao/shell",
+      "jd_first": "2025-07-01",
+      "lag_days": 3336,
+      "source": "github"
+    },
+    "sketch": {
+      "query": "sketch",
+      "github_first": "2013-11-29",
+      "github_repo": "panpf/sketch",
+      "jd_first": "2025-07-01",
+      "lag_days": 4232,
+      "source": "github"
+    },
+    "soc": {
+      "query": "soc",
+      "github_first": "2016-10-06",
+      "github_repo": "espressif/arduino-esp32",
+      "jd_first": "2025-07-01",
+      "lag_days": 3190,
+      "source": "github"
+    },
+    "spark": {
+      "query": "spark",
+      "github_first": "2014-02-25",
+      "github_repo": "apache/spark",
+      "jd_first": "2025-07-01",
+      "lag_days": 4144,
+      "source": "github"
+    },
+    "spark sql": {
+      "query": "spark sql",
+      "github_first": "2014-02-25",
+      "github_repo": "apache/spark",
+      "jd_first": "2025-07-02",
+      "lag_days": 4145,
+      "source": "github"
+    },
+    "spring": {
+      "query": "spring",
+      "github_first": "2014-12-26",
+      "github_repo": "MengTo/Spring",
+      "jd_first": "2025-07-01",
+      "lag_days": 3840,
+      "source": "github"
+    },
+    "spring boot": {
+      "query": "spring boot",
+      "github_first": "2012-10-19",
+      "github_repo": "spring-projects/spring-boot",
+      "jd_first": "2025-07-01",
+      "lag_days": 4638,
+      "source": "github"
+    },
+    "spring cloud": {
+      "query": "spring cloud",
+      "github_first": "2017-04-08",
+      "github_repo": "forezp/SpringCloudLearning",
+      "jd_first": "2025-07-01",
+      "lag_days": 3006,
+      "source": "github"
+    },
+    "stable diffusion": {
+      "query": "stable diffusion",
+      "github_first": "2022-08-22",
+      "github_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "jd_first": "2025-07-02",
+      "lag_days": 1045,
+      "source": "github"
+    },
+    "swift": {
+      "query": "swift",
+      "github_first": "2015-10-23",
+      "github_repo": "swiftlang/swift",
+      "jd_first": "2025-07-01",
+      "lag_days": 3539,
+      "source": "github"
+    },
+    "tcp/ip": {
+      "query": "tcp/ip",
+      "github_first": "2016-12-02",
+      "github_repo": "smoltcp-rs/smoltcp",
+      "jd_first": "2025-07-01",
+      "lag_days": 3133,
+      "source": "github"
+    },
+    "tensorflow": {
+      "query": "tensorflow",
+      "github_first": "2015-11-07",
+      "github_repo": "tensorflow/tensorflow",
+      "jd_first": "2025-07-01",
+      "lag_days": 3524,
+      "source": "github"
+    },
+    "terraform": {
+      "query": "terraform",
+      "github_first": "2014-03-13",
+      "github_repo": "hashicorp/terraform",
+      "jd_first": "2025-07-09",
+      "lag_days": 4136,
+      "source": "github"
+    },
+    "tornado": {
+      "query": "tornado",
+      "github_first": "2009-09-09",
+      "github_repo": "tornadoweb/tornado",
+      "jd_first": "2025-07-10",
+      "lag_days": 5783,
+      "source": "github"
+    },
+    "transformer": {
+      "query": "transformer",
+      "github_first": "2018-10-29",
+      "github_repo": "huggingface/transformers",
+      "jd_first": "2025-07-01",
+      "lag_days": 2437,
+      "source": "github"
+    },
+    "typescript": {
+      "query": "typescript",
+      "github_first": "2014-06-17",
+      "github_repo": "microsoft/TypeScript",
+      "jd_first": "2025-07-02",
+      "lag_days": 4033,
+      "source": "github"
+    },
+    "uniapp": {
+      "query": "uniapp",
+      "github_first": "2018-11-18",
+      "github_repo": "dcloudio/hello-uniapp",
+      "jd_first": "2025-07-06",
+      "lag_days": 2422,
+      "source": "github"
+    },
+    "unix": {
+      "query": "unix",
+      "github_first": "2021-01-12",
+      "github_repo": "ibraheemdev/modern-unix",
+      "jd_first": "2025-07-01",
+      "lag_days": 1631,
+      "source": "github"
+    },
+    "vhdl": {
+      "query": "vhdl",
+      "github_first": "2015-11-18",
+      "github_repo": "ghdl/ghdl",
+      "jd_first": "2025-07-01",
+      "lag_days": 3513,
+      "source": "github"
+    },
+    "vio": {
+      "query": "vio",
+      "github_first": "2017-05-20",
+      "github_repo": "HKUST-Aerial-Robotics/VINS-Mono",
+      "jd_first": "2025-07-06",
+      "lag_days": 2969,
+      "source": "github"
+    },
+    "verilog": {
+      "query": "verilog",
+      "github_first": "2008-05-12",
+      "github_repo": "steveicarus/iverilog",
+      "jd_first": "2025-07-01",
+      "lag_days": 6259,
+      "source": "github"
+    },
+    "vite": {
+      "query": "vite",
+      "github_first": "2020-04-21",
+      "github_repo": "vitejs/vite",
+      "jd_first": "2025-07-01",
+      "lag_days": 1897,
+      "source": "github"
+    },
+    "vue": {
+      "query": "vue",
+      "github_first": "2013-07-29",
+      "github_repo": "vuejs/vue",
+      "jd_first": "2025-07-01",
+      "lag_days": 4355,
+      "source": "github"
+    },
+    "vue.js": {
+      "query": "vue.js",
+      "github_first": "2015-07-16",
+      "github_repo": "vuejs/vuex",
+      "jd_first": "2025-07-01",
+      "lag_days": 3638,
+      "source": "github"
+    },
+    "websocket": {
+      "query": "websocket",
+      "github_first": "2013-10-16",
+      "github_repo": "gorilla/websocket",
+      "jd_first": "2025-07-01",
+      "lag_days": 4276,
+      "source": "github"
+    },
+    "webpack": {
+      "query": "webpack",
+      "github_first": "2012-03-10",
+      "github_repo": "webpack/webpack",
+      "jd_first": "2025-07-01",
+      "lag_days": 4861,
+      "source": "github"
+    },
+    "yolo": {
+      "query": "yolo",
+      "github_first": "2020-05-18",
+      "github_repo": "ultralytics/yolov5",
+      "jd_first": "2025-07-01",
+      "lag_days": 1870,
+      "source": "github"
+    },
+    "jquery": {
+      "query": "jquery",
+      "github_first": "2009-04-03",
+      "github_repo": "jquery/jquery",
+      "jd_first": "2025-07-02",
+      "lag_days": 5934,
+      "source": "github"
+    },
+    "scikit-learn": {
+      "query": "scikit-learn",
+      "github_first": "2010-08-17",
+      "github_repo": "scikit-learn/scikit-learn",
+      "jd_first": "2025-07-01",
+      "lag_days": 5432,
+      "source": "github"
+    },
+    "vllm": {
+      "query": "vllm",
+      "github_first": "2023-02-09",
+      "github_repo": "vllm-project/vllm",
+      "jd_first": "2025-07-02",
+      "lag_days": 874,
+      "source": "github"
+    },
+    "云原生": {
+      "query": "cloud native",
+      "github_first": "2015-09-13",
+      "github_repo": "traefik/traefik",
+      "jd_first": "2025-07-01",
+      "lag_days": 3579,
+      "source": "github"
+    },
+    "光传输": {
+      "query": "optical transport network",
+      "github_first": null,
+      "github_repo": "alingse/otn-downloader",
+      "jd_first": "2025-07-06",
+      "lag_days": null,
+      "source": null,
+      "note": "GitHub 搜索匹配到同名新仓库，判定为噪音，回退中位数兜底"
+    },
+    "具身智能": {
+      "query": "embodied ai",
+      "github_first": "2023-10-31",
+      "github_repo": "Genesis-Embodied-AI/genesis-world",
+      "jd_first": "2025-07-01",
+      "lag_days": 609,
+      "source": "github"
+    },
+    "分布式": {
+      "query": "distributed systems",
+      "github_first": "2015-02-26",
+      "github_repo": "theanalyst/awesome-distributed-systems",
+      "jd_first": "2025-07-01",
+      "lag_days": 3778,
+      "source": "github"
+    },
+    "加密": {
+      "query": "encryption",
+      "github_first": "2014-02-06",
+      "github_repo": "defuse/php-encryption",
+      "jd_first": "2025-07-01",
+      "lag_days": 4163,
+      "source": "github"
+    },
+    "单片机": {
+      "query": "microcontroller",
+      "github_first": "2013-12-20",
+      "github_repo": "micropython/micropython",
+      "jd_first": "2025-07-01",
+      "lag_days": 4211,
+      "source": "github"
+    },
+    "向量数据库": {
+      "query": "vector database",
+      "github_first": "2023-05-10",
+      "github_repo": "zilliztech/VectorDBBench",
+      "jd_first": "2025-07-01",
+      "lag_days": 783,
+      "source": "github"
+    },
+    "向量检索": {
+      "query": "vector search",
+      "github_first": "2019-09-16",
+      "github_repo": "milvus-io/milvus",
+      "jd_first": "2025-07-01",
+      "lag_days": 2115,
+      "source": "github"
+    },
+    "图像生成": {
+      "query": "image generation",
+      "github_first": "2023-01-20",
+      "github_repo": "adrianhajdin/project_ai_mern_image_generation",
+      "jd_first": "2025-07-07",
+      "lag_days": 899,
+      "source": "github"
+    },
+    "图神经网络": {
+      "query": "graph neural network",
+      "github_first": "2017-10-06",
+      "github_repo": "pyg-team/pytorch_geometric",
+      "jd_first": "2025-07-01",
+      "lag_days": 2825,
+      "source": "github"
+    },
+    "多传感器融合": {
+      "query": "sensor fusion",
+      "github_first": "2019-01-10",
+      "github_repo": "HKUST-Aerial-Robotics/VINS-Fusion",
+      "jd_first": "2025-07-01",
+      "lag_days": 2364,
+      "source": "github"
+    },
+    "多智能体": {
+      "query": "multi-agent systems",
+      "github_first": "2025-05-15",
+      "github_repo": "MARKTECHPOST-AI-MEDIA-INC/AI-Agents-Projects-Tutorials",
+      "jd_first": "2025-07-01",
+      "lag_days": 47,
+      "source": "github"
+    },
+    "多模态": {
+      "query": "multimodal",
+      "github_first": "2022-01-27",
+      "github_repo": "facebookresearch/multimodal",
+      "jd_first": "2025-07-01",
+      "lag_days": 1251,
+      "source": "github"
+    },
+    "多模态大模型": {
+      "query": "multimodal large language model",
+      "github_first": "2023-05-19",
+      "github_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "jd_first": "2025-07-01",
+      "lag_days": 774,
+      "source": "github"
+    },
+    "多线程": {
+      "query": "multithreading",
+      "github_first": null,
+      "github_repo": "PaperMC/Folia",
+      "jd_first": "2025-07-01",
+      "lag_days": null,
+      "source": null,
+      "note": "GitHub 搜索匹配到同名新仓库，判定为噪音，回退中位数兜底"
+    },
+    "大模型": {
+      "query": "large language model",
+      "github_first": "2024-06-28",
+      "github_repo": "HandsOnLLM/Hands-On-Large-Language-Models",
+      "jd_first": "2025-07-01",
+      "lag_days": 368,
+      "source": "github"
+    },
+    "大模型微调": {
+      "query": "fine-tuning",
+      "github_first": "2023-05-28",
+      "github_repo": "hiyouga/LlamaFactory",
+      "jd_first": "2025-07-01",
+      "lag_days": 765,
+      "source": "github"
+    },
+    "大语言模型": {
+      "query": "large language model",
+      "github_first": "2024-06-28",
+      "github_repo": "HandsOnLLM/Hands-On-Large-Language-Models",
+      "jd_first": "2025-07-01",
+      "lag_days": 368,
+      "source": "github"
+    },
+    "天线": {
+      "query": "antenna",
+      "github_first": "2012-07-31",
+      "github_repo": "AntennaPod/AntennaPod",
+      "jd_first": "2025-07-01",
+      "lag_days": 4718,
+      "source": "github"
+    },
+    "射频": {
+      "query": "radio frequency",
+      "github_first": "2013-01-19",
+      "github_repo": "merbanan/rtl_433",
+      "jd_first": "2025-07-01",
+      "lag_days": 4546,
+      "source": "github"
+    },
+    "射频芯片": {
+      "query": "rf chip",
+      "github_first": "2018-01-25",
+      "github_repo": "adafruit/Adafruit_nRF52_Bootloader",
+      "jd_first": "2025-07-08",
+      "lag_days": 2721,
+      "source": "github"
+    },
+    "嵌入式": {
+      "query": "embedded systems",
+      "github_first": "2017-06-22",
+      "github_repo": "nasa/fprime",
+      "jd_first": "2025-07-01",
+      "lag_days": 2931,
+      "source": "github"
+    },
+    "强化学习": {
+      "query": "reinforcement learning",
+      "github_first": "2016-08-24",
+      "github_repo": "dennybritz/reinforcement-learning",
+      "jd_first": "2025-07-01",
+      "lag_days": 3233,
+      "source": "github"
+    },
+    "微信小程序": {
+      "query": "wechat mini program",
+      "github_first": "2022-04-05",
+      "github_repo": "UxxHans/Rainbow-Cats-Personal-WeChat-MiniProgram",
+      "jd_first": "2025-07-06",
+      "lag_days": 1188,
+      "source": "github"
+    },
+    "微服务": {
+      "query": "microservices",
+      "github_first": "2018-08-03",
+      "github_repo": "GoogleCloudPlatform/microservices-demo",
+      "jd_first": "2025-07-01",
+      "lag_days": 2524,
+      "source": "github"
+    },
+    "微调": {
+      "query": "fine-tuning",
+      "github_first": "2023-05-28",
+      "github_repo": "hiyouga/LlamaFactory",
+      "jd_first": "2025-07-01",
+      "lag_days": 765,
+      "source": "github"
+    },
+    "性能优化": {
+      "query": "performance optimization",
+      "github_first": "2016-05-07",
+      "github_repo": "skyming/iOS-Performance-Optimization",
+      "jd_first": "2025-07-01",
+      "lag_days": 3342,
+      "source": "github"
+    },
+    "提示工程": {
+      "query": "prompt engineering",
+      "github_first": "2022-12-16",
+      "github_repo": "dair-ai/Prompt-Engineering-Guide",
+      "jd_first": "2025-07-03",
+      "lag_days": 930,
+      "source": "github"
+    },
+    "敏捷开发": {
+      "query": "agile development",
+      "github_first": null,
+      "github_repo": "bmad-code-org/BMAD-METHOD",
+      "jd_first": "2025-07-03",
+      "lag_days": null,
+      "source": null,
+      "note": "GitHub 搜索匹配到同名新仓库，判定为噪音，回退中位数兜底"
+    },
+    "数字人": {
+      "query": "digital human",
+      "github_first": "2024-12-24",
+      "github_repo": "duixcom/Duix-Avatar",
+      "jd_first": "2025-07-03",
+      "lag_days": 191,
+      "source": "github"
+    },
+    "数字孪生": {
+      "query": "digital twin",
+      "github_first": "2019-04-30",
+      "github_repo": "Azure/opendigitaltwins-dtdl",
+      "jd_first": "2025-07-01",
+      "lag_days": 2254,
+      "source": "github"
+    },
+    "数字电路": {
+      "query": "digital circuit",
+      "github_first": "2016-06-28",
+      "github_repo": "hneemann/Digital",
+      "jd_first": "2025-07-01",
+      "lag_days": 3290,
+      "source": "github"
+    },
+    "数据仓库": {
+      "query": "data warehouse",
+      "github_first": "2019-12-06",
+      "github_repo": "Azure-Samples/modern-data-warehouse-dataops",
+      "jd_first": "2025-07-01",
+      "lag_days": 2034,
+      "source": "github"
+    },
+    "数据挖掘": {
+      "query": "data mining",
+      "github_first": "2015-01-11",
+      "github_repo": "linyiqun/DataMiningAlgorithm",
+      "jd_first": "2025-07-01",
+      "lag_days": 3824,
+      "source": "github"
+    },
+    "数据治理": {
+      "query": "data governance",
+      "github_first": null,
+      "github_repo": "microsoft/purview-data-governance-masterclass",
+      "jd_first": "2025-07-01",
+      "lag_days": null,
+      "source": null,
+      "note": "GitHub 搜索匹配到同名新仓库，判定为噪音，回退中位数兜底"
+    },
+    "数据湖": {
+      "query": "data lake",
+      "github_first": "2019-09-12",
+      "github_repo": "treeverse/lakeFS",
+      "jd_first": "2025-07-02",
+      "lag_days": 2120,
+      "source": "github"
+    },
+    "数据结构": {
+      "query": "data structures",
+      "github_first": "2017-10-01",
+      "github_repo": "rachitiitr/DataStructures-Algorithms",
+      "jd_first": "2025-07-01",
+      "lag_days": 2830,
+      "source": "github"
+    },
+    "文生图": {
+      "query": "text-to-image",
+      "github_first": "2022-08-10",
+      "github_repo": "CompVis/stable-diffusion",
+      "jd_first": "2025-07-02",
+      "lag_days": 1057,
+      "source": "github"
+    },
+    "文生视频": {
+      "query": "text-to-video",
+      "github_first": "2024-06-06",
+      "github_repo": "SamurAIGPT/Text-To-Video-AI",
+      "jd_first": "2025-07-03",
+      "lag_days": 392,
+      "source": "github"
+    },
+    "智能体": {
+      "query": "ai agent",
+      "github_first": "2023-05-23",
+      "github_repo": "vercel/ai",
+      "jd_first": "2025-07-01",
+      "lag_days": 770,
+      "source": "github"
+    },
+    "机器学习": {
+      "query": "machine learning",
+      "github_first": "2014-07-15",
+      "github_repo": "josephmisiti/awesome-machine-learning",
+      "jd_first": "2025-07-01",
+      "lag_days": 4004,
+      "source": "github"
+    },
+    "核心网": {
+      "query": "5g core network",
+      "github_first": "2020-01-31",
+      "github_repo": "free5gc/free5gc",
+      "jd_first": "2025-07-01",
+      "lag_days": 1978,
+      "source": "github"
+    },
+    "检索增强生成": {
+      "query": "retrieval augmented generation",
+      "github_first": "2024-10-02",
+      "github_repo": "HKUDS/LightRAG",
+      "jd_first": "2025-07-01",
+      "lag_days": 272,
+      "source": "github"
+    },
+    "模型压缩": {
+      "query": "model compression",
+      "github_first": "2016-12-08",
+      "github_repo": "chengshengchan/model_compression",
+      "jd_first": "2025-07-01",
+      "lag_days": 3127,
+      "source": "github"
+    },
+    "模型推理": {
+      "query": "model inference",
+      "github_first": "2023-02-14",
+      "github_repo": "meta-llama/llama",
+      "jd_first": "2025-07-01",
+      "lag_days": 868,
+      "source": "github"
+    },
+    "模型训练": {
+      "query": "model training",
+      "github_first": "2019-03-21",
+      "github_repo": "NVIDIA/Megatron-LM",
+      "jd_first": "2025-07-01",
+      "lag_days": 2294,
+      "source": "github"
+    },
+    "模型评估": {
+      "query": "model evaluation",
+      "github_first": "2020-08-28",
+      "github_repo": "EleutherAI/lm-evaluation-harness",
+      "jd_first": "2025-07-01",
+      "lag_days": 1768,
+      "source": "github"
+    },
+    "模型部署": {
+      "query": "model serving",
+      "github_first": "2016-01-26",
+      "github_repo": "tensorflow/serving",
+      "jd_first": "2025-07-01",
+      "lag_days": 3444,
+      "source": "github"
+    },
+    "模型量化": {
+      "query": "model quantization",
+      "github_first": "2018-10-18",
+      "github_repo": "AI-Efficiency/Awesome-Model-Quantization",
+      "jd_first": "2025-07-01",
+      "lag_days": 2448,
+      "source": "github"
+    },
+    "模拟电路": {
+      "query": "analog circuit",
+      "github_first": null,
+      "github_repo": "torvalds/GuitarPedal",
+      "jd_first": "2025-07-01",
+      "lag_days": null,
+      "source": null,
+      "note": "GitHub 搜索匹配到同名新仓库，判定为噪音，回退中位数兜底"
+    },
+    "毫米波雷达": {
+      "query": "millimeter wave radar",
+      "github_first": null,
+      "github_repo": "XuWei9506/PKU-Millimeter-Wave-Radar-Tutorial",
+      "jd_first": "2025-07-01",
+      "lag_days": null,
+      "source": null,
+      "note": "GitHub 搜索匹配到同名新仓库，判定为噪音，回退中位数兜底"
+    },
+    "波束赋形": {
+      "query": "beamforming",
+      "github_first": "2015-10-19",
+      "github_repo": "xanguera/BeamformIt",
+      "jd_first": "2025-07-01",
+      "lag_days": 3543,
+      "source": "github"
+    },
+    "深度学习": {
+      "query": "deep learning",
+      "github_first": "2018-06-27",
+      "github_repo": "scutan90/DeepLearning-500-questions",
+      "jd_first": "2025-07-01",
+      "lag_days": 2561,
+      "source": "github"
+    },
+    "激光雷达": {
+      "query": "lidar",
+      "github_first": "2017-05-06",
+      "github_repo": "Lidarr/Lidarr",
+      "jd_first": "2025-07-01",
+      "lag_days": 2978,
+      "source": "github"
+    },
+    "点云": {
+      "query": "point cloud",
+      "github_first": "2013-02-12",
+      "github_repo": "PointCloudLibrary/pcl",
+      "jd_first": "2025-07-01",
+      "lag_days": 4522,
+      "source": "github"
+    },
+    "爬虫": {
+      "query": "web crawler",
+      "github_first": "2011-12-31",
+      "github_repo": "yasserg/crawler4j",
+      "jd_first": "2025-07-01",
+      "lag_days": 4931,
+      "source": "github"
+    },
+    "版图设计": {
+      "query": "ic layout",
+      "github_first": "2019-03-06",
+      "github_repo": "magical-eda/MAGICAL",
+      "jd_first": "2025-07-02",
+      "lag_days": 2310,
+      "source": "github"
+    },
+    "特征工程": {
+      "query": "feature engineering",
+      "github_first": "2017-09-08",
+      "github_repo": "alteryx/featuretools",
+      "jd_first": "2025-07-01",
+      "lag_days": 2853,
+      "source": "github"
+    },
+    "生成式ai": {
+      "query": "generative ai",
+      "github_first": "2023-06-19",
+      "github_repo": "microsoft/generative-ai-for-beginners",
+      "jd_first": "2025-07-01",
+      "lag_days": 743,
+      "source": "github"
+    },
+    "电路设计": {
+      "query": "circuit design",
+      "github_first": "2015-12-12",
+      "github_repo": "CIDARLAB/cello",
+      "jd_first": "2025-07-01",
+      "lag_days": 3489,
+      "source": "github"
+    },
+    "知识图谱": {
+      "query": "knowledge graph",
+      "github_first": "2017-11-25",
+      "github_repo": "qq547276542/Agriculture_KnowledgeGraph",
+      "jd_first": "2025-07-01",
+      "lag_days": 2775,
+      "source": "github"
+    },
+    "网络安全": {
+      "query": "network security",
+      "github_first": "2016-07-21",
+      "github_repo": "projectcalico/calico",
+      "jd_first": "2025-07-01",
+      "lag_days": 3267,
+      "source": "github"
+    },
+    "自动化测试": {
+      "query": "test automation",
+      "github_first": "2017-02-07",
+      "github_repo": "karatelabs/karate",
+      "jd_first": "2025-07-01",
+      "lag_days": 3066,
+      "source": "github"
+    },
+    "自动驾驶": {
+      "query": "autonomous driving",
+      "github_first": "2017-07-04",
+      "github_repo": "ApolloAuto/apollo",
+      "jd_first": "2025-07-01",
+      "lag_days": 2919,
+      "source": "github"
+    },
+    "自动驾驶系统": {
+      "query": "autonomous driving",
+      "github_first": "2017-07-04",
+      "github_repo": "ApolloAuto/apollo",
+      "jd_first": "2025-07-03",
+      "lag_days": 2921,
+      "source": "github"
+    },
+    "自然语言处理": {
+      "query": "natural language processing",
+      "github_first": "2017-11-26",
+      "github_repo": "hse-aml/natural-language-processing",
+      "jd_first": "2025-07-01",
+      "lag_days": 2774,
+      "source": "github"
+    },
+    "视频生成": {
+      "query": "video generation",
+      "github_first": null,
+      "github_repo": "MeiGen-AI/InfiniteTalk",
+      "jd_first": "2025-07-02",
+      "lag_days": null,
+      "source": null,
+      "note": "GitHub 搜索匹配到同名新仓库，判定为噪音，回退中位数兜底"
+    },
+    "计算机视觉": {
+      "query": "computer vision",
+      "github_first": "2016-11-09",
+      "github_repo": "pytorch/vision",
+      "jd_first": "2025-07-01",
+      "lag_days": 3156,
+      "source": "github"
+    },
+    "设计模式": {
+      "query": "design patterns",
+      "github_first": "2014-08-09",
+      "github_repo": "iluwatar/java-design-patterns",
+      "jd_first": "2025-07-02",
+      "lag_days": 3980,
+      "source": "github"
+    },
+    "语义检索": {
+      "query": "semantic search",
+      "github_first": "2016-03-30",
+      "github_repo": "opensemanticsearch/open-semantic-search",
+      "jd_first": "2025-07-02",
+      "lag_days": 3381,
+      "source": "github"
+    },
+    "语音识别": {
+      "query": "speech recognition",
+      "github_first": "2017-03-06",
+      "github_repo": "nl8590687/ASRT_SpeechRecognition",
+      "jd_first": "2025-07-03",
+      "lag_days": 3041,
+      "source": "github"
+    },
+    "隐私计算": {
+      "query": "privacy computing",
+      "github_first": "2021-03-22",
+      "github_repo": "YeeZTech/YeeZ-Privacy-Computing",
+      "jd_first": "2025-07-03",
+      "lag_days": 1564,
+      "source": "github"
+    },
+    "预训练": {
+      "query": "pretrained model",
+      "github_first": "2018-04-03",
+      "github_repo": "tensorflow/tfjs-models",
+      "jd_first": "2025-07-01",
+      "lag_days": 2646,
+      "source": "github"
+    },
+    "驱动开发": {
+      "query": "device driver",
+      "github_first": "2016-03-26",
+      "github_repo": "gatieme/LDD-LinuxDeviceDrivers",
+      "jd_first": "2025-07-01",
+      "lag_days": 3384,
+      "source": "github"
+    },
+    "高可用": {
+      "query": "high availability",
+      "github_first": "2015-10-08",
+      "github_repo": "sorintlab/stolon",
+      "jd_first": "2025-07-01",
+      "lag_days": 3554,
+      "source": "github"
+    },
+    "高并发": {
+      "query": "high performance server",
+      "github_first": "2018-02-02",
+      "github_repo": "linyacool/WebServer",
+      "jd_first": "2025-07-01",
+      "lag_days": 2706,
+      "source": "github"
+    },
+    "鸿蒙": {
+      "query": "harmonyos",
+      "github_first": "2019-08-09",
+      "github_repo": "Awesome-HarmonyOS/HarmonyOS",
+      "jd_first": "2025-07-02",
+      "lag_days": 2154,
+      "source": "github"
+    }
+  },
+  "statistics": {
+    "total_skills": 260,
+    "queried": 241,
+    "with_real_lag": 224,
+    "median_lag_days": 3272,
+    "noise_filtered": [
+      "agent loop",
+      "agile development",
+      "analog circuit",
+      "arm",
+      "c#",
+      "c++",
+      "data governance",
+      "deepseek",
+      "gpt",
+      "hive",
+      "millimeter wave radar",
+      "mimo",
+      "multithreading",
+      "optical transport network",
+      "oracle",
+      "pon",
+      "video generation"
+    ]
+  },
+  "note": "arXiv 在本机被墙，改用 GitHub 最早仓库创建日作为技术首发信号。"
+}

@@ -1,0 +1,2517 @@
+{
+  "generated_at": "2026-08-30",
+  "说明": "题目「测试数据」要求的 1 新岗位 + 1 既有岗位样例，含能力图谱与岗位数据源",
+  "新岗位": {
+    "岗位名称": "AI开发工程师",
+    "归一化名": "AI开发工程师",
+    "别称": [
+      "AI工程师",
+      "AI应用开发工程师",
+      "AI应用工程师",
+      "AI软件开发工程师",
+      "AI研发工程师",
+      "ai应用工程师/核心技术研究员",
+      "ai工程师",
+      "“智链未来”计划——2027届AI应用工程师（实习生）"
+    ],
+    "核心职责": [
+      "负责公司大模型 AI 应用开发：RAG 知识库、AI Agent、自动化工作流落地",
+      "负责AI 相关产品和系统的开发",
+      "负责大模型、AI能力平台等智能中台系统建设",
+      "进行大模型业务需求沟通，理解业务场景，参与大模型业务场景落地",
+      "推动AI技术在公司业务中的应用和变现，提升AI业务价值",
+      "负责企业级AI应用系统的设计、开发与迭代，将大模型能力落地至具体业务场景",
+      "主导AI平台及大模型的技术选型与评估",
+      "基于大模型能力搭建AI应用或智能助手(Agent)，提升业务效率"
+    ],
+    "必备技能": [
+      {
+        "skill": "Python",
+        "category": "传统技术",
+        "proficiency": "精通",
+        "support_pct": 1.0,
+        "support_pct_corrected": 0.81
+      },
+      {
+        "skill": "PyTorch",
+        "category": "传统技术",
+        "proficiency": "精通",
+        "support_pct": 0.45,
+        "support_pct_corrected": 0.43
+      },
+      {
+        "skill": "深度学习",
+        "category": "传统技术",
+        "proficiency": "精通",
+        "support_pct": 1.0,
+        "support_pct_corrected": 0.41
+      },
+      {
+        "skill": "机器学习",
+        "category": "传统技术",
+        "proficiency": "精通",
+        "support_pct": 1.0,
+        "support_pct_corrected": 0.35
+      },
+      {
+        "skill": "TensorFlow",
+        "category": "传统技术",
+        "proficiency": "精通",
+        "support_pct": 0.36,
+        "support_pct_corrected": 0.33
+      },
+      {
+        "skill": "Java",
+        "category": "传统技术",
+        "proficiency": "精通",
+        "support_pct": 0.25,
+        "support_pct_corrected": 0.25
+      },
+      {
+        "skill": "API",
+        "category": "传统技术",
+        "proficiency": "精通",
+        "support_pct": 1.0,
+        "support_pct_corrected": 0.24
+      },
+      {
+        "skill": "大模型",
+        "category": "AI新兴技能",
+        "proficiency": "精通",
+        "support_pct": 1.0,
+        "support_pct_corrected": 0.21
+      }
+    ],
+    "加分技能": [
+      {
+        "skill": "Agent",
+        "category": "AI新兴技能",
+        "proficiency": "精通",
+        "support_pct": 0.19,
+        "support_pct_corrected": 0.21
+      },
+      {
+        "skill": "Transformer",
+        "category": "传统技术",
+        "proficiency": "精通",
+        "support_pct": 0.19,
+        "support_pct_corrected": 0.21
+      },
+      {
+        "skill": "RAG",
+        "category": "AI新兴技能",
+        "proficiency": "精通",
+        "support_pct": 0.14,
+        "support_pct_corrected": 0.17
+      },
+      {
+        "skill": "LangChain",
+        "category": "AI新兴技能",
+        "proficiency": "精通",
+        "support_pct": 0.16,
+        "support_pct_corrected": 0.17
+      },
+      {
+        "skill": "Docker",
+        "category": "传统技术",
+        "proficiency": "精通",
+        "support_pct": 0.13,
+        "support_pct_corrected": 0.15
+      },
+      {
+        "skill": "Linux",
+        "category": "传统技术",
+        "proficiency": "精通",
+        "support_pct": 0.15,
+        "support_pct_corrected": 0.15
+      },
+      {
+        "skill": "C++",
+        "category": "传统技术",
+        "proficiency": "精通",
+        "support_pct": 0.3,
+        "support_pct_corrected": 0.25
+      },
+      {
+        "skill": "Copilot",
+        "category": "AI新兴技能",
+        "proficiency": "精通",
+        "support_pct": 0.2,
+        "support_pct_corrected": 0.12
+      }
+    ],
+    "典型行业应用场景": [
+      {
+        "industry": "通用信息技术",
+        "support_pct": 0.94
+      }
+    ],
+    "数据源": {
+      "total_jds": 242,
+      "effective_jds": 136.0,
+      "unique_companies": 145,
+      "top_companies": [
+        "广信通信",
+        "固安信通信号技术股份有限公司",
+        "新疆河润科技股份有限公司",
+        "医智云信息科技(南京)有限公司",
+        "广东三雄极光照明股份有限公司"
+      ],
+      "top_cities": [
+        "广州·海珠·昌岗",
+        "廊坊·固安县·固安镇",
+        "乌鲁木齐·头屯河区",
+        "南京·鼓楼·幕府山",
+        "广州·南沙·榄核"
+      ],
+      "inflation_ratio": 0.48
+    },
+    "人工优化状态": {
+      "status": "pending_review",
+      "audit_id": "newjob_001"
+    }
+  },
+  "既有岗位": {
+    "job_name": "算法工程师",
+    "total_jds": 344,
+    "dated_jds": 1119,
+    "time_range": "1月6日 → 3月10日 → 11月17日 → 12月31日",
+    "window_count": 112,
+    "change_summary": {
+      "emerging_count": 34,
+      "declining_count": 15,
+      "weight_up_count": 14,
+      "weight_down_count": 9,
+      "upgrade_count": 0,
+      "downgrade_count": 0,
+      "ai_emerging": [
+        "智能体",
+        "大模型",
+        "模型推理",
+        "多模态大模型",
+        "大语言模型",
+        "DPO",
+        "LoRA",
+        "微调",
+        "LLM",
+        "LangChain",
+        "模型压缩",
+        "模型训练",
+        "预训练",
+        "多模态"
+      ],
+      "obsolete_declining": [],
+      "high_confidence": 3,
+      "medium_confidence": 69,
+      "low_confidence": 0
+    },
+    "update_summary": "岗位新增AI技能：智能体、大模型、模型推理、多模态大模型、大语言模型；新增技能需求：C++、OpenCV、Transformer、数据结构、特征工程；技能需求减少：大模型、Python、C++、深度学习、数据分析；技能权重上升：Python、PyTorch、机器学习、TensorFlow、数据分析；技能权重下降：大模型、性能优化、机器学习、TensorFlow、Python",
+    "llm_trend_description": "算法工程师的技能需求正显著向大模型与智能体方向集中，新增技能几乎全部围绕LLM、多模态、微调（如LoRA、DPO）及推理部署等AI前沿领域，且效应量普遍较高，表明这些已成为岗位核心能力。同时，C++作为底层工程技能被新增，反映出在模型训练与推理优化中对高性能实现的需求上升，整体趋势是从传统算法转向大模型全栈开发与工程化落地。",
+    "changes": [
+      {
+        "skill": "智能体",
+        "change_type": "AI技能新增",
+        "effect_size": 1.159,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 1.159,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "大模型",
+        "change_type": "AI技能新增",
+        "effect_size": 1.159,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 1.159,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "模型推理",
+        "change_type": "AI技能新增",
+        "effect_size": 0.982,
+        "confidence": "高",
+        "action": "add_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.982,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "多模态大模型",
+        "change_type": "AI技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "大语言模型",
+        "change_type": "AI技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "DPO",
+        "change_type": "AI技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "LoRA",
+        "change_type": "AI技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "微调",
+        "change_type": "AI技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "LLM",
+        "change_type": "AI技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "LangChain",
+        "change_type": "AI技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "模型压缩",
+        "change_type": "AI技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "模型训练",
+        "change_type": "AI技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "预训练",
+        "change_type": "AI技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "多模态",
+        "change_type": "AI技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "C++",
+        "change_type": "技能新增",
+        "effect_size": 1.369,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 1.369,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "OpenCV",
+        "change_type": "技能新增",
+        "effect_size": 1.159,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 1.159,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "Transformer",
+        "change_type": "技能新增",
+        "effect_size": 1.159,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 1.159,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "数据结构",
+        "change_type": "技能新增",
+        "effect_size": 1.159,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 1.159,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "特征工程",
+        "change_type": "技能新增",
+        "effect_size": 1.159,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 1.159,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "需求分析",
+        "change_type": "技能新增",
+        "effect_size": 1.159,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 1.159,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "数据分析",
+        "change_type": "技能新增",
+        "effect_size": 1.159,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 1.159,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "Linux",
+        "change_type": "技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 0.7,
+            "severity": "轻度",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "强化学习",
+        "change_type": "技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "单元测试",
+        "change_type": "技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "IMU",
+        "change_type": "技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "测试用例",
+        "change_type": "技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "数据建模",
+        "change_type": "技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "Shell",
+        "change_type": "技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "YOLO",
+        "change_type": "技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "C#",
+        "change_type": "技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "Hadoop",
+        "change_type": "技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "系统设计",
+        "change_type": "技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "技术文档",
+        "change_type": "技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "scikit-learn",
+        "change_type": "技能新增",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "suggest_edge",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "Python",
+        "change_type": "技能权重上升",
+        "effect_size": 1.339,
+        "confidence": "高",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 0.7,
+            "severity": "轻度",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 1.339,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "PyTorch",
+        "change_type": "技能权重上升",
+        "effect_size": 1.287,
+        "confidence": "高",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 1.287,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "机器学习",
+        "change_type": "技能权重上升",
+        "effect_size": 1.129,
+        "confidence": "中",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 1.129,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "TensorFlow",
+        "change_type": "技能权重上升",
+        "effect_size": 0.845,
+        "confidence": "中",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.845,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "数据分析",
+        "change_type": "技能权重上升",
+        "effect_size": 0.726,
+        "confidence": "中",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.726,
+            "passed": true,
+            "level": "中效应"
+          }
+        }
+      },
+      {
+        "skill": "性能优化",
+        "change_type": "技能权重上升",
+        "effect_size": 0.726,
+        "confidence": "中",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.726,
+            "passed": true,
+            "level": "中效应"
+          }
+        }
+      },
+      {
+        "skill": "深度学习",
+        "change_type": "技能权重上升",
+        "effect_size": 0.613,
+        "confidence": "中",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.613,
+            "passed": true,
+            "level": "中效应"
+          }
+        }
+      },
+      {
+        "skill": "技术文档",
+        "change_type": "技能权重上升",
+        "effect_size": 0.516,
+        "confidence": "中",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.516,
+            "passed": true,
+            "level": "中效应"
+          }
+        }
+      },
+      {
+        "skill": "模型训练",
+        "change_type": "技能权重上升",
+        "effect_size": 0.516,
+        "confidence": "中",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.516,
+            "passed": true,
+            "level": "中效应"
+          }
+        }
+      },
+      {
+        "skill": "多模态",
+        "change_type": "技能权重上升",
+        "effect_size": 0.516,
+        "confidence": "中",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.516,
+            "passed": true,
+            "level": "中效应"
+          }
+        }
+      },
+      {
+        "skill": "数据挖掘",
+        "change_type": "技能权重上升",
+        "effect_size": 0.516,
+        "confidence": "中",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.516,
+            "passed": true,
+            "level": "中效应"
+          }
+        }
+      },
+      {
+        "skill": "RAG",
+        "change_type": "技能权重上升",
+        "effect_size": 0.516,
+        "confidence": "中",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.516,
+            "passed": true,
+            "level": "中效应"
+          }
+        }
+      },
+      {
+        "skill": "模型部署",
+        "change_type": "技能权重上升",
+        "effect_size": 0.516,
+        "confidence": "中",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.516,
+            "passed": true,
+            "level": "中效应"
+          }
+        }
+      },
+      {
+        "skill": "计算机视觉",
+        "change_type": "技能权重上升",
+        "effect_size": 0.516,
+        "confidence": "中",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.516,
+            "passed": true,
+            "level": "中效应"
+          }
+        }
+      },
+      {
+        "skill": "大模型",
+        "change_type": "技能衰退",
+        "effect_size": 1.369,
+        "confidence": "中",
+        "action": "mark_deprecated",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 1.369,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "Python",
+        "change_type": "技能衰退",
+        "effect_size": 1.159,
+        "confidence": "中",
+        "action": "mark_deprecated",
+        "controls": {
+          "inflation": {
+            "coefficient": 0.7,
+            "severity": "轻度",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 1.159,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "C++",
+        "change_type": "技能衰退",
+        "effect_size": 1.159,
+        "confidence": "中",
+        "action": "mark_deprecated",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 1.159,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "深度学习",
+        "change_type": "技能衰退",
+        "effect_size": 1.159,
+        "confidence": "中",
+        "action": "mark_deprecated",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 1.159,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "数据分析",
+        "change_type": "技能衰退",
+        "effect_size": 1.159,
+        "confidence": "中",
+        "action": "mark_deprecated",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 1.159,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "TensorFlow",
+        "change_type": "技能衰退",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "mark_deprecated",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "PyTorch",
+        "change_type": "技能衰退",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "mark_deprecated",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "Hadoop",
+        "change_type": "技能衰退",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "mark_deprecated",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "自然语言处理",
+        "change_type": "技能衰退",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "mark_deprecated",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "系统设计",
+        "change_type": "技能衰退",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "mark_deprecated",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "知识图谱",
+        "change_type": "技能衰退",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "mark_deprecated",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "OpenCV",
+        "change_type": "技能衰退",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "mark_deprecated",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "技术文档",
+        "change_type": "技能衰退",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "mark_deprecated",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "模型训练",
+        "change_type": "技能衰退",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "mark_deprecated",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "scikit-learn",
+        "change_type": "技能衰退",
+        "effect_size": 0.927,
+        "confidence": "中",
+        "action": "mark_deprecated",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.927,
+            "passed": true,
+            "level": "大效应"
+          }
+        }
+      },
+      {
+        "skill": "大模型",
+        "change_type": "技能权重下降",
+        "effect_size": 0.726,
+        "confidence": "中",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.726,
+            "passed": true,
+            "level": "中效应"
+          }
+        }
+      },
+      {
+        "skill": "性能优化",
+        "change_type": "技能权重下降",
+        "effect_size": 0.726,
+        "confidence": "中",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.726,
+            "passed": true,
+            "level": "中效应"
+          }
+        }
+      },
+      {
+        "skill": "机器学习",
+        "change_type": "技能权重下降",
+        "effect_size": 0.644,
+        "confidence": "中",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.644,
+            "passed": true,
+            "level": "中效应"
+          }
+        }
+      },
+      {
+        "skill": "TensorFlow",
+        "change_type": "技能权重下降",
+        "effect_size": 0.644,
+        "confidence": "中",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.644,
+            "passed": true,
+            "level": "中效应"
+          }
+        }
+      },
+      {
+        "skill": "Python",
+        "change_type": "技能权重下降",
+        "effect_size": 0.613,
+        "confidence": "中",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 0.7,
+            "severity": "轻度",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.613,
+            "passed": true,
+            "level": "中效应"
+          }
+        }
+      },
+      {
+        "skill": "深度学习",
+        "change_type": "技能权重下降",
+        "effect_size": 0.516,
+        "confidence": "中",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.516,
+            "passed": true,
+            "level": "中效应"
+          }
+        }
+      },
+      {
+        "skill": "数据挖掘",
+        "change_type": "技能权重下降",
+        "effect_size": 0.516,
+        "confidence": "中",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.516,
+            "passed": true,
+            "level": "中效应"
+          }
+        }
+      },
+      {
+        "skill": "模型训练",
+        "change_type": "技能权重下降",
+        "effect_size": 0.516,
+        "confidence": "中",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.516,
+            "passed": true,
+            "level": "中效应"
+          }
+        }
+      },
+      {
+        "skill": "PyTorch",
+        "change_type": "技能权重下降",
+        "effect_size": 0.516,
+        "confidence": "中",
+        "action": "no_action",
+        "controls": {
+          "inflation": {
+            "coefficient": 1.0,
+            "severity": "无",
+            "has_salary_premium": false
+          },
+          "hallucination": {
+            "verified": false,
+            "source": "unknown",
+            "risk_level": "medium",
+            "check_detail": "未在白名单中，建议RAG验证或人工审核"
+          },
+          "time_lag": {
+            "lag_days": null,
+            "lag_source": null,
+            "median_reference": 330,
+            "note": "此技能无arXiv/GitHub首发数据，使用中位数11个月作为参考"
+          },
+          "noise": {
+            "fisher_p": 0.05,
+            "cohens_h": 0.516,
+            "passed": true,
+            "level": "中效应"
+          }
+        }
+      }
+    ]
+  }
+}

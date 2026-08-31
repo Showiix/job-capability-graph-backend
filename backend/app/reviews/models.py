@@ -31,7 +31,9 @@ class GraphChangeCandidate(CreatedAtMixin, Base):
             name="uq_graph_change_candidates_source_candidate",
         ),
         CheckConstraint(
-            "change_type = 'create_job_role'",
+            "change_type IN ('create_job_role','skill_added','ai_skill_added',"
+            "'skill_declining','weight_increased','weight_decreased',"
+            "'promoted_to_required','demoted_to_bonus','skill_obsoleted')",
             name="change_type",
         ),
         CheckConstraint(

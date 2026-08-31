@@ -234,7 +234,7 @@ async def test_posts_exact_responses_structured_output_contract() -> None:
     assert body["text"]["format"]["strict"] is True
     assert body["store"] is False
     assert body["stream"] is False
-    assert body["max_output_tokens"] == 5000
+    assert body["max_output_tokens"] == 32000
     assert "tools" not in body
     assert "previous_response_id" not in body
     assert "messages" not in body

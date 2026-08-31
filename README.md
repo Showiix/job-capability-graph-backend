@@ -303,6 +303,7 @@ Catalog 文件支持 JSON/CSV/TSV，导入类型为 `capability` 或 `job_role`�
 - `GET /api/v1/discovery-candidates`
 - `GET /api/v1/discovery-candidates/{candidate_id}`
 - `GET /api/v1/discovery-candidates/{candidate_id}/evidence`
+- `GET /api/v1/emerging-jobs`
 
 创建 Discovery Run 仅限 `admin`；`admin` 和 `hr` 可以查询运行记录、候选和证据；`applicant` 不可访问。运行会复用已导入的市场 JD，先将 `tech_tags` 精确映射到 Catalog 中的 active Capability，再生成可解释的两技能共现候选。
 
