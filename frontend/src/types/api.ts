@@ -143,6 +143,57 @@ export interface NewJob {
   evidences?: Array<{ jd_title: string; source: string; snippet: string }>;
 }
 
+export interface EmergingSkillDefinition {
+  name: string;
+  percentage: number | null;
+}
+
+export interface EmergingJobDefinition {
+  id: string;
+  title: string;
+  normalizedName: string;
+  aliases: string[];
+  jdCount: number;
+  removedCloneCount: number;
+  companyCount: number;
+  responsibilities: string[];
+  requiredSkills: EmergingSkillDefinition[];
+  bonusSkills: EmergingSkillDefinition[];
+  requiredTechnicalText: string;
+  bonusTechnicalText: string;
+  industryScenes: string[];
+  primaryIndustry: string;
+  representativeCompanies: string[];
+  cities: string[];
+  llmRefined: boolean;
+  reviewStatus: string;
+  reviewStatusCode: 'pending' | 'approved' | 'rejected';
+  reviewNote: string;
+}
+
+export interface EmergingJobsResponse {
+  version: string;
+  sourceFiles: string[];
+  summary: {
+    definitionCount: number;
+    sourceDefinitionCount?: number;
+    totalJdCount: number;
+    totalRemovedCloneCount: number;
+    averageJdPerDefinition: number;
+    skillCount: number;
+    statusCounts: Record<string, number>;
+    industryStats: Array<{ name: string; jdCount: number; definitionCount: number }>;
+    topSkills: Array<{
+      name: string;
+      definitionCount: number;
+      requiredCount: number;
+      bonusCount: number;
+    }>;
+  };
+  jobs: EmergingJobDefinition[];
+  total?: number;
+}
+
 // HR 批量简历解析结果
 export interface HrBatchApplicant {
   id: string;

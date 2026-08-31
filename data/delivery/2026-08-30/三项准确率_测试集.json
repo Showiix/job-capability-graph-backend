@@ -1,0 +1,5854 @@
+{
+  "generated_at": "2026-08-30",
+  "说明": "题目要求的测试数据（≥100 条岗位 JD 及测试用例）",
+  "jd_parsing": {
+    "test_jds": 200,
+    "cases": [
+      {
+        "job": "高级电子工程师",
+        "skills": [
+          "Electron",
+          "PCB",
+          "PON"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 3
+      },
+      {
+        "job": "图像算法",
+        "skills": [
+          "C++",
+          "Python",
+          "单元测试",
+          "机器学习",
+          "模型推理",
+          "测试用例",
+          "深度学习",
+          "自动化测试",
+          "集成测试"
+        ],
+        "strict_grounded": 9,
+        "loose_grounded": 9
+      },
+      {
+        "job": "射频工程师",
+        "skills": [
+          "射频"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 1
+      },
+      {
+        "job": "数据开发工程师",
+        "skills": [
+          "ETL",
+          "Python",
+          "SQL",
+          "数据仓库",
+          "机器学习",
+          "系统设计"
+        ],
+        "strict_grounded": 5,
+        "loose_grounded": 6
+      },
+      {
+        "job": "通讯工程师",
+        "skills": [
+          "光传输",
+          "技术文档"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "C/C++/Java/JS/Python软开（接受应届）",
+        "skills": [
+          "C++",
+          "Java",
+          "JavaScript",
+          "MySQL",
+          "Python",
+          "Spring",
+          "华为云",
+          "数据分析",
+          "机器学习",
+          "深度学习"
+        ],
+        "strict_grounded": 10,
+        "loose_grounded": 10
+      },
+      {
+        "job": "数据标注员",
+        "skills": [
+          "机器学习"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 1
+      },
+      {
+        "job": "汽车智能驾驶测试工程师",
+        "skills": [
+          "自动驾驶"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 1
+      },
+      {
+        "job": "ios开发工程师",
+        "skills": [
+          "Objective-C",
+          "Swift",
+          "多线程",
+          "性能优化",
+          "需求分析"
+        ],
+        "strict_grounded": 5,
+        "loose_grounded": 5
+      },
+      {
+        "job": "风控模型算法工程师",
+        "skills": [
+          "C++",
+          "Hadoop",
+          "Hive",
+          "Java",
+          "Python",
+          "Spark",
+          "数据分析",
+          "机器学习",
+          "深度学习",
+          "特征工程"
+        ],
+        "strict_grounded": 4,
+        "loose_grounded": 10
+      },
+      {
+        "job": "射频工程师",
+        "skills": [
+          "DSP",
+          "FPGA",
+          "射频",
+          "嵌入式",
+          "系统设计"
+        ],
+        "strict_grounded": 5,
+        "loose_grounded": 5
+      },
+      {
+        "job": "核心网交付工程师（5GC 方向）",
+        "skills": [
+          "5G",
+          "核心网"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "网络技术工程师",
+        "skills": [
+          "Docker",
+          "MySQL",
+          "Nginx",
+          "Redis",
+          "网络安全"
+        ],
+        "strict_grounded": 0,
+        "loose_grounded": 0
+      },
+      {
+        "job": "Python实习生",
+        "skills": [
+          "Gin",
+          "Go",
+          "PON",
+          "Python"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 4
+      },
+      {
+        "job": "语音算法工程师 (MJ000107)",
+        "skills": [
+          "PyTorch",
+          "TensorFlow",
+          "大模型",
+          "性能优化",
+          "深度学习",
+          "语音识别"
+        ],
+        "strict_grounded": 6,
+        "loose_grounded": 6
+      },
+      {
+        "job": "中级开发运维工程师",
+        "skills": [
+          "Java",
+          "Python",
+          "Shell",
+          "技术文档"
+        ],
+        "strict_grounded": 4,
+        "loose_grounded": 4
+      },
+      {
+        "job": "it工程师",
+        "skills": [
+          "C++",
+          "Hadoop",
+          "Hive",
+          "Java",
+          "Linux",
+          "Python",
+          "Shell",
+          "Spark",
+          "技术文档"
+        ],
+        "strict_grounded": 9,
+        "loose_grounded": 9
+      },
+      {
+        "job": "软件测试",
+        "skills": [
+          "数据分析",
+          "测试用例",
+          "需求分析"
+        ],
+        "strict_grounded": 3,
+        "loose_grounded": 3
+      },
+      {
+        "job": "自动驾驶规划控制算法工程师",
+        "skills": [
+          "C++",
+          "Linux",
+          "Python",
+          "ROS",
+          "强化学习",
+          "数据结构",
+          "系统设计",
+          "自动驾驶",
+          "自动驾驶系统"
+        ],
+        "strict_grounded": 9,
+        "loose_grounded": 9
+      },
+      {
+        "job": "AFSIM工程师",
+        "skills": [
+          "分布式",
+          "强化学习",
+          "高并发"
+        ],
+        "strict_grounded": 3,
+        "loose_grounded": 3
+      },
+      {
+        "job": "Automation Algorithm Design Engineer/自动化算法设计工程师",
+        "skills": [
+          "C++",
+          "Gin",
+          "Go",
+          "PON",
+          "PyTorch",
+          "Python",
+          "TensorFlow"
+        ],
+        "strict_grounded": 4,
+        "loose_grounded": 7
+      },
+      {
+        "job": "射频设计师",
+        "skills": [
+          "电路设计"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 1
+      },
+      {
+        "job": "嵌入式软件开发工程师（实习）",
+        "skills": [
+          "ARM",
+          "C++",
+          "Git",
+          "GitLab CI",
+          "RTOS",
+          "驱动开发"
+        ],
+        "strict_grounded": 6,
+        "loose_grounded": 6
+      },
+      {
+        "job": "web前端开发工程师",
+        "skills": [
+          "项目管理"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 1
+      },
+      {
+        "job": "搜索算法",
+        "skills": [
+          "CV",
+          "机器学习"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 2
+      },
+      {
+        "job": "自动驾驶数据工程师 Autonomous Driving Data Engineer（全国）(J10043)",
+        "skills": [
+          "Azure",
+          "Docker",
+          "Kubernetes",
+          "Linux",
+          "ROS",
+          "机器学习",
+          "毫米波雷达",
+          "深度学习",
+          "激光雷达",
+          "阿里云"
+        ],
+        "strict_grounded": 10,
+        "loose_grounded": 10
+      },
+      {
+        "job": "芯片销售工程师",
+        "skills": [
+          "项目管理"
+        ],
+        "strict_grounded": 0,
+        "loose_grounded": 0
+      },
+      {
+        "job": "系统集成网络工程师",
+        "skills": [
+          "Ansible",
+          "HTTP",
+          "Jenkins",
+          "Kubernetes",
+          "Linux",
+          "MySQL",
+          "Nginx",
+          "Oracle",
+          "性能测试",
+          "技术文档"
+        ],
+        "strict_grounded": 10,
+        "loose_grounded": 10
+      },
+      {
+        "job": "AI应用开发工程师",
+        "skills": [
+          "Dify",
+          "Linux",
+          "Python",
+          "Vue",
+          "多线程",
+          "数据分析",
+          "数据结构",
+          "爬虫",
+          "设计模式",
+          "高可用"
+        ],
+        "strict_grounded": 9,
+        "loose_grounded": 10
+      },
+      {
+        "job": "大数据信息技术专员",
+        "skills": [
+          "Hadoop",
+          "Python",
+          "SQL",
+          "Spark",
+          "数据分析",
+          "数据建模"
+        ],
+        "strict_grounded": 6,
+        "loose_grounded": 6
+      },
+      {
+        "job": "AI算法工程师（济南-实习生）",
+        "skills": [
+          "CNN",
+          "多模态",
+          "微调",
+          "文生图",
+          "文生视频",
+          "模型训练"
+        ],
+        "strict_grounded": 5,
+        "loose_grounded": 6
+      },
+      {
+        "job": "AI大模型研发实习生",
+        "skills": [
+          "Python",
+          "RAG",
+          "React",
+          "多模态",
+          "大模型",
+          "微调",
+          "智能体",
+          "模型训练",
+          "特征工程",
+          "预训练"
+        ],
+        "strict_grounded": 9,
+        "loose_grounded": 10
+      },
+      {
+        "job": "具身智能方向的研究员",
+        "skills": [
+          "CV",
+          "PyTorch",
+          "Python",
+          "ROS",
+          "具身智能",
+          "大模型",
+          "微调",
+          "深度学习"
+        ],
+        "strict_grounded": 8,
+        "loose_grounded": 8
+      },
+      {
+        "job": "数据开发-校招/实习转正-（J15305）",
+        "skills": [
+          "ETL",
+          "Java",
+          "MySQL",
+          "Oracle",
+          "Python",
+          "SQL",
+          "Scala",
+          "数据仓库",
+          "数据建模",
+          "数据治理"
+        ],
+        "strict_grounded": 10,
+        "loose_grounded": 10
+      },
+      {
+        "job": "数据开发-校招/实习转正(J15305)",
+        "skills": [
+          "ETL",
+          "Java",
+          "MySQL",
+          "Oracle",
+          "Python",
+          "SQL",
+          "Scala",
+          "数据仓库",
+          "数据建模",
+          "数据治理"
+        ],
+        "strict_grounded": 10,
+        "loose_grounded": 10
+      },
+      {
+        "job": "AIGC算法工程师（北上杭）",
+        "skills": [
+          "GAN",
+          "多模态",
+          "视频生成"
+        ],
+        "strict_grounded": 3,
+        "loose_grounded": 3
+      },
+      {
+        "job": "多端开发工程师（鸿蒙+安卓+iOS）",
+        "skills": [
+          "HarmonyOS",
+          "鸿蒙"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "风险数据挖掘岗",
+        "skills": [
+          "MySQL",
+          "Oracle",
+          "Python",
+          "数据分析",
+          "数据挖掘"
+        ],
+        "strict_grounded": 4,
+        "loose_grounded": 5
+      },
+      {
+        "job": "AI for Drug Discovery Scientist (AIDD)",
+        "skills": [
+          "Gin",
+          "IMU",
+          "Lua",
+          "PyTorch",
+          "Python",
+          "机器学习",
+          "模型训练",
+          "深度学习"
+        ],
+        "strict_grounded": 5,
+        "loose_grounded": 8
+      },
+      {
+        "job": "数据采集员",
+        "skills": [
+          "具身智能",
+          "多模态",
+          "模型训练"
+        ],
+        "strict_grounded": 3,
+        "loose_grounded": 3
+      },
+      {
+        "job": "电子工程师",
+        "skills": [
+          "数据分析"
+        ],
+        "strict_grounded": 0,
+        "loose_grounded": 0
+      },
+      {
+        "job": "软件项目经理",
+        "skills": [
+          "敏捷开发",
+          "需求分析",
+          "项目管理"
+        ],
+        "strict_grounded": 3,
+        "loose_grounded": 3
+      },
+      {
+        "job": "汽车电子工程师",
+        "skills": [
+          "PCB",
+          "性能测试",
+          "系统设计",
+          "项目管理"
+        ],
+        "strict_grounded": 0,
+        "loose_grounded": 0
+      },
+      {
+        "job": "AI软件开发工程师",
+        "skills": [
+          "C++",
+          "Go",
+          "HTML",
+          "Java",
+          "Python",
+          "Rust",
+          "数据结构",
+          "机器学习",
+          "生成式AI",
+          "计算机视觉"
+        ],
+        "strict_grounded": 8,
+        "loose_grounded": 10
+      },
+      {
+        "job": "系统工程师",
+        "skills": [
+          "产品设计"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 1
+      },
+      {
+        "job": "数据标注工程师",
+        "skills": [
+          "CV",
+          "自动驾驶"
+        ],
+        "strict_grounded": 0,
+        "loose_grounded": 0
+      },
+      {
+        "job": "售前售后技术支持",
+        "skills": [
+          "需求分析"
+        ],
+        "strict_grounded": 0,
+        "loose_grounded": 0
+      },
+      {
+        "job": "物理层DSP开发工程师",
+        "skills": [
+          "C++",
+          "C语言"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "硬件工程师",
+        "skills": [
+          "ARM",
+          "FPGA",
+          "数字电路",
+          "模拟电路",
+          "电路设计"
+        ],
+        "strict_grounded": 5,
+        "loose_grounded": 5
+      },
+      {
+        "job": "通信AI算法工程师",
+        "skills": [
+          "5G",
+          "C++",
+          "Linux",
+          "MIMO",
+          "Python",
+          "云原生",
+          "嵌入式",
+          "模型训练"
+        ],
+        "strict_grounded": 7,
+        "loose_grounded": 8
+      },
+      {
+        "job": "C++软件工程师",
+        "skills": [
+          "C++",
+          "Linux",
+          "Perl",
+          "Python",
+          "Shell",
+          "单元测试",
+          "数字电路",
+          "数据结构"
+        ],
+        "strict_grounded": 8,
+        "loose_grounded": 8
+      },
+      {
+        "job": "软件开发工程师",
+        "skills": [
+          "BSP",
+          "C++",
+          "RTOS",
+          "嵌入式",
+          "技术文档",
+          "测试用例",
+          "自动化测试",
+          "驱动开发"
+        ],
+        "strict_grounded": 6,
+        "loose_grounded": 8
+      },
+      {
+        "job": "售后技术支持工程师（海外）",
+        "skills": [
+          "项目管理"
+        ],
+        "strict_grounded": 0,
+        "loose_grounded": 0
+      },
+      {
+        "job": "电机控制硬件工程师",
+        "skills": [
+          "STM32"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 1
+      },
+      {
+        "job": "电子开发工程师",
+        "skills": [
+          "ARM",
+          "DSP",
+          "FPGA",
+          "PCB",
+          "STM32",
+          "单片机",
+          "电路设计"
+        ],
+        "strict_grounded": 7,
+        "loose_grounded": 7
+      },
+      {
+        "job": "高德-高级运维研发工程师/专家-运维团队",
+        "skills": [
+          "Golang",
+          "Java",
+          "Linux",
+          "Python",
+          "云原生",
+          "机器学习",
+          "高可用"
+        ],
+        "strict_grounded": 7,
+        "loose_grounded": 7
+      },
+      {
+        "job": "27 校招-软件开发工程师（c++/Python）",
+        "skills": [
+          "C++",
+          "Django",
+          "Docker",
+          "Flask",
+          "Kubernetes",
+          "MySQL",
+          "PostgreSQL",
+          "Python",
+          "数据结构",
+          "设计模式"
+        ],
+        "strict_grounded": 10,
+        "loose_grounded": 10
+      },
+      {
+        "job": "数据开发",
+        "skills": [
+          "ETL",
+          "Java",
+          "Python",
+          "SQL",
+          "数据治理"
+        ],
+        "strict_grounded": 5,
+        "loose_grounded": 5
+      },
+      {
+        "job": "通信研发工程师",
+        "skills": [
+          "5G",
+          "C++",
+          "LTE",
+          "Linux",
+          "TCP/IP",
+          "核心网"
+        ],
+        "strict_grounded": 4,
+        "loose_grounded": 6
+      },
+      {
+        "job": "人工智能测试工程师",
+        "skills": [
+          "JIRA",
+          "自动化测试"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "AI架构开发（python）",
+        "skills": [
+          "Python",
+          "数字孪生",
+          "知识图谱"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 3
+      },
+      {
+        "job": "储能bms软件工程师",
+        "skills": [
+          "ARM",
+          "C++",
+          "C语言",
+          "SoC",
+          "嵌入式",
+          "技术文档"
+        ],
+        "strict_grounded": 5,
+        "loose_grounded": 6
+      },
+      {
+        "job": "售前技术支持（可接受应届毕业生）",
+        "skills": [
+          "PRD",
+          "技术文档"
+        ],
+        "strict_grounded": 0,
+        "loose_grounded": 0
+      },
+      {
+        "job": "研发测试技术员（无经验可培养，学核心技术）",
+        "skills": [
+          "性能测试",
+          "技术文档"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "自动化测试工程师",
+        "skills": [
+          "技术文档",
+          "测试用例",
+          "自动化测试"
+        ],
+        "strict_grounded": 3,
+        "loose_grounded": 3
+      },
+      {
+        "job": "AI Agent应用开发工程师【百度】",
+        "skills": [
+          "Agent",
+          "大模型",
+          "数据分析",
+          "机器学习"
+        ],
+        "strict_grounded": 4,
+        "loose_grounded": 4
+      },
+      {
+        "job": "硬件工程师",
+        "skills": [
+          "C语言",
+          "PCB",
+          "嵌入式",
+          "技术文档",
+          "数字电路",
+          "数据结构",
+          "模拟电路"
+        ],
+        "strict_grounded": 7,
+        "loose_grounded": 7
+      },
+      {
+        "job": "机器学习算法工程师",
+        "skills": [
+          "PyTorch",
+          "Python",
+          "TensorFlow",
+          "机器学习",
+          "深度学习"
+        ],
+        "strict_grounded": 5,
+        "loose_grounded": 5
+      },
+      {
+        "job": "通信研发工程师",
+        "skills": [
+          "5G",
+          "ARM",
+          "C++",
+          "LoRA",
+          "PRD",
+          "Python",
+          "性能优化"
+        ],
+        "strict_grounded": 5,
+        "loose_grounded": 7
+      },
+      {
+        "job": "芯片销售工程师",
+        "skills": [
+          "数据分析"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 1
+      },
+      {
+        "job": "后端JAVA开发工程师（实习生）-广州",
+        "skills": [
+          "API",
+          "Git",
+          "Java",
+          "MyBatis",
+          "MySQL",
+          "PostgreSQL",
+          "RESTful",
+          "SQL",
+          "Spring Boot",
+          "数据结构"
+        ],
+        "strict_grounded": 10,
+        "loose_grounded": 10
+      },
+      {
+        "job": "电机控制工程师",
+        "skills": [
+          "ARM",
+          "DSP",
+          "FPGA",
+          "PCB设计",
+          "单片机",
+          "电路设计",
+          "驱动开发"
+        ],
+        "strict_grounded": 7,
+        "loose_grounded": 7
+      },
+      {
+        "job": "自动驾驶车辆运维工程师-无锡",
+        "skills": [
+          "自动驾驶",
+          "自动驾驶系统"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "测试开发工程师",
+        "skills": [
+          "性能测试",
+          "自动化测试"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "数字化-JAVA应用开发工程师",
+        "skills": [
+          "Git",
+          "Java",
+          "MySQL",
+          "SQL",
+          "Spring",
+          "项目管理"
+        ],
+        "strict_grounded": 5,
+        "loose_grounded": 6
+      },
+      {
+        "job": "数据标注实习生",
+        "skills": [
+          "多模态",
+          "模型训练",
+          "自动驾驶"
+        ],
+        "strict_grounded": 0,
+        "loose_grounded": 0
+      },
+      {
+        "job": "BMS系统工程师",
+        "skills": [
+          "需求分析"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 1
+      },
+      {
+        "job": "初级鸿蒙工程师 双休",
+        "skills": [
+          "C++",
+          "Java",
+          "单元测试",
+          "技术文档",
+          "鸿蒙"
+        ],
+        "strict_grounded": 5,
+        "loose_grounded": 5
+      },
+      {
+        "job": "算法工程师（AI工程化工程师方向）(校招）",
+        "skills": [
+          "C++",
+          "Python",
+          "性能优化"
+        ],
+        "strict_grounded": 3,
+        "loose_grounded": 3
+      },
+      {
+        "job": "嵌入式软件工程师",
+        "skills": [
+          "C语言",
+          "单片机",
+          "嵌入式",
+          "需求分析"
+        ],
+        "strict_grounded": 4,
+        "loose_grounded": 4
+      },
+      {
+        "job": "AI优化算法工程师（博士，应届）",
+        "skills": [
+          "C++",
+          "Python",
+          "多模态",
+          "强化学习",
+          "数据结构",
+          "机器学习",
+          "深度学习"
+        ],
+        "strict_grounded": 7,
+        "loose_grounded": 7
+      },
+      {
+        "job": "AI Agent应用开发工程师（银川）",
+        "skills": [
+          "AI Agent",
+          "API",
+          "Agent",
+          "Function Calling",
+          "Gin",
+          "LLM",
+          "Multi-Agent",
+          "SQL",
+          "多模态",
+          "需求分析"
+        ],
+        "strict_grounded": 9,
+        "loose_grounded": 10
+      },
+      {
+        "job": "嵌入式软件开发工程师",
+        "skills": [
+          "C++",
+          "Java",
+          "Python",
+          "单片机",
+          "敏捷开发"
+        ],
+        "strict_grounded": 4,
+        "loose_grounded": 5
+      },
+      {
+        "job": "软件项目经理",
+        "skills": [
+          "敏捷开发",
+          "需求分析",
+          "项目管理"
+        ],
+        "strict_grounded": 3,
+        "loose_grounded": 3
+      },
+      {
+        "job": "移动端流媒体开发工程师（iOS+Android）",
+        "skills": [
+          "C++",
+          "C语言",
+          "Java",
+          "Objective-C",
+          "Swift",
+          "TCP/IP",
+          "多线程",
+          "性能优化"
+        ],
+        "strict_grounded": 8,
+        "loose_grounded": 8
+      },
+      {
+        "job": "物联网售后技术专员",
+        "skills": [
+          "项目管理"
+        ],
+        "strict_grounded": 0,
+        "loose_grounded": 0
+      },
+      {
+        "job": "单片机软件工程师",
+        "skills": [
+          "C语言",
+          "TCP/IP",
+          "单片机",
+          "测试用例"
+        ],
+        "strict_grounded": 4,
+        "loose_grounded": 4
+      },
+      {
+        "job": "数据治理工程师",
+        "skills": [
+          "ETL",
+          "Hive",
+          "Linux",
+          "MySQL",
+          "SQL",
+          "Shell",
+          "数据分析",
+          "数据治理"
+        ],
+        "strict_grounded": 5,
+        "loose_grounded": 8
+      },
+      {
+        "job": "图像识别算法与部署工程师",
+        "skills": [
+          "C++",
+          "Python",
+          "YOLO",
+          "嵌入式",
+          "性能优化",
+          "技术文档",
+          "模型训练",
+          "模型部署"
+        ],
+        "strict_grounded": 8,
+        "loose_grounded": 8
+      },
+      {
+        "job": "通信无线勘察设计工程师",
+        "skills": [
+          "天线",
+          "项目管理"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "数据治理工程师",
+        "skills": [
+          "ETL",
+          "Hive",
+          "Linux",
+          "MySQL",
+          "SQL",
+          "Shell",
+          "数据分析",
+          "数据治理"
+        ],
+        "strict_grounded": 5,
+        "loose_grounded": 8
+      },
+      {
+        "job": "java/Python/C/C++/JS/AI算法/软件测试",
+        "skills": [
+          "C++",
+          "Go",
+          "HTML",
+          "Java",
+          "Python",
+          "数据结构",
+          "机器学习",
+          "深度学习"
+        ],
+        "strict_grounded": 7,
+        "loose_grounded": 8
+      },
+      {
+        "job": "Blender建模专员（居家办公）",
+        "skills": [
+          "项目管理"
+        ],
+        "strict_grounded": 0,
+        "loose_grounded": 0
+      },
+      {
+        "job": "AIGC算法工程师（图像生成算法）/云梯科技",
+        "skills": [
+          "AIGC",
+          "CV",
+          "LoRA",
+          "PyTorch",
+          "SDXL",
+          "Stable Diffusion",
+          "图像生成",
+          "微调",
+          "深度学习"
+        ],
+        "strict_grounded": 9,
+        "loose_grounded": 9
+      },
+      {
+        "job": "推荐算法工程师｜社交匹配方向",
+        "skills": [
+          "Python",
+          "特征工程"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "售前工程师（系统集成方向）",
+        "skills": [
+          "需求分析"
+        ],
+        "strict_grounded": 0,
+        "loose_grounded": 0
+      },
+      {
+        "job": "ai算法工程师",
+        "skills": [
+          "CNN",
+          "GAN",
+          "LSTM",
+          "NumPy",
+          "PyTorch",
+          "Python",
+          "RNN",
+          "Transformer",
+          "深度学习",
+          "特征工程"
+        ],
+        "strict_grounded": 9,
+        "loose_grounded": 10
+      },
+      {
+        "job": "审计风控岗",
+        "skills": [
+          "数据分析"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 1
+      },
+      {
+        "job": "网络安全工程师",
+        "skills": [
+          "Linux",
+          "网络安全"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 2
+      },
+      {
+        "job": "BSP驱动开发工程师",
+        "skills": [
+          "C++",
+          "Linux",
+          "RTOS",
+          "嵌入式",
+          "驱动开发",
+          "鸿蒙"
+        ],
+        "strict_grounded": 6,
+        "loose_grounded": 6
+      },
+      {
+        "job": "java开发工程师",
+        "skills": [
+          "Git",
+          "Java",
+          "MyBatis",
+          "RabbitMQ",
+          "Redis",
+          "RocketMQ",
+          "SQL",
+          "Spring"
+        ],
+        "strict_grounded": 8,
+        "loose_grounded": 8
+      },
+      {
+        "job": "数据标注",
+        "skills": [
+          "机器学习",
+          "模型训练",
+          "自动驾驶",
+          "计算机视觉",
+          "项目管理"
+        ],
+        "strict_grounded": 0,
+        "loose_grounded": 0
+      },
+      {
+        "job": "产品经理",
+        "skills": [
+          "Axure",
+          "PRD",
+          "产品设计",
+          "原型设计",
+          "需求分析",
+          "项目管理"
+        ],
+        "strict_grounded": 6,
+        "loose_grounded": 6
+      },
+      {
+        "job": "移动端开发工程师",
+        "skills": [
+          "Java",
+          "Kotlin",
+          "Objective-C",
+          "Swift",
+          "多线程",
+          "性能优化",
+          "鸿蒙"
+        ],
+        "strict_grounded": 7,
+        "loose_grounded": 7
+      },
+      {
+        "job": "AI大模型工程师",
+        "skills": [
+          "数据结构",
+          "机器学习",
+          "模型训练",
+          "深度学习"
+        ],
+        "strict_grounded": 4,
+        "loose_grounded": 4
+      },
+      {
+        "job": "软件项目经理",
+        "skills": [
+          "LLM",
+          "LangChain",
+          "MySQL",
+          "Oracle",
+          "Python",
+          "大语言模型",
+          "性能测试",
+          "技术文档",
+          "数据结构",
+          "需求分析"
+        ],
+        "strict_grounded": 10,
+        "loose_grounded": 10
+      },
+      {
+        "job": "视觉算法工程师8000—12000",
+        "skills": [
+          "C++",
+          "Python",
+          "计算机视觉"
+        ],
+        "strict_grounded": 3,
+        "loose_grounded": 3
+      },
+      {
+        "job": "全栈软件开发工程师",
+        "skills": [
+          "JavaScript",
+          "MySQL",
+          "Node.js",
+          "SQL",
+          "Vue",
+          "技术文档",
+          "敏捷开发"
+        ],
+        "strict_grounded": 7,
+        "loose_grounded": 7
+      },
+      {
+        "job": "高级算法工程师（自然语言处理 / 大模型）",
+        "skills": [
+          "NLP",
+          "PyTorch",
+          "ROS",
+          "ROS2",
+          "TensorFlow",
+          "技术文档",
+          "机器学习",
+          "深度学习",
+          "计算机视觉",
+          "隐私计算"
+        ],
+        "strict_grounded": 8,
+        "loose_grounded": 10
+      },
+      {
+        "job": "ai算法工程师",
+        "skills": [
+          "C++",
+          "PyTorch",
+          "Python",
+          "TensorFlow",
+          "单元测试",
+          "机器学习",
+          "深度学习",
+          "自然语言处理"
+        ],
+        "strict_grounded": 8,
+        "loose_grounded": 8
+      },
+      {
+        "job": "初级网络工程师",
+        "skills": [
+          "TCP/IP",
+          "技术文档",
+          "网络安全"
+        ],
+        "strict_grounded": 3,
+        "loose_grounded": 3
+      },
+      {
+        "job": "数据专员",
+        "skills": [
+          "SQL",
+          "数据仓库"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "大数据开发工程师",
+        "skills": [
+          "ETL",
+          "Flink",
+          "Hadoop",
+          "Java",
+          "Python",
+          "Scala",
+          "Spark",
+          "分布式",
+          "数据建模",
+          "数据挖掘"
+        ],
+        "strict_grounded": 10,
+        "loose_grounded": 10
+      },
+      {
+        "job": "嵌入式工程师",
+        "skills": [
+          "FPGA",
+          "VHDL",
+          "Verilog",
+          "测试用例",
+          "需求分析"
+        ],
+        "strict_grounded": 5,
+        "loose_grounded": 5
+      },
+      {
+        "job": "运动控制研究员",
+        "skills": [
+          "C++",
+          "Python",
+          "具身智能",
+          "嵌入式"
+        ],
+        "strict_grounded": 4,
+        "loose_grounded": 4
+      },
+      {
+        "job": "无线测试工程师",
+        "skills": [
+          "性能测试",
+          "测试用例",
+          "自动化测试"
+        ],
+        "strict_grounded": 3,
+        "loose_grounded": 3
+      },
+      {
+        "job": "自动驾驶车辆平台与整车系统工程师",
+        "skills": [
+          "C++",
+          "Linux",
+          "Python",
+          "自动驾驶"
+        ],
+        "strict_grounded": 4,
+        "loose_grounded": 4
+      },
+      {
+        "job": "AI/算法工程师-北京",
+        "skills": [
+          "C++",
+          "Java",
+          "MySQL",
+          "PostgreSQL",
+          "Python",
+          "SQL",
+          "数据分析",
+          "数据挖掘",
+          "深度学习",
+          "系统设计"
+        ],
+        "strict_grounded": 10,
+        "loose_grounded": 10
+      },
+      {
+        "job": "数据开发实习生",
+        "skills": [
+          "MySQL",
+          "Oracle",
+          "SQL",
+          "数据治理"
+        ],
+        "strict_grounded": 3,
+        "loose_grounded": 4
+      },
+      {
+        "job": "手机硬件测试工程师",
+        "skills": [
+          "射频"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 1
+      },
+      {
+        "job": "技术支持工程师(早九晚六，周末双休，13薪)",
+        "skills": [
+          "Hadoop",
+          "Hive",
+          "Spark"
+        ],
+        "strict_grounded": 3,
+        "loose_grounded": 3
+      },
+      {
+        "job": "Ai新能源测试工程师（五险一金，接受小白",
+        "skills": [
+          "Golang",
+          "Java",
+          "MySQL",
+          "Shell",
+          "性能测试",
+          "数据分析",
+          "自动化测试"
+        ],
+        "strict_grounded": 7,
+        "loose_grounded": 7
+      },
+      {
+        "job": "数据工程师",
+        "skills": [
+          "ETL",
+          "Linux",
+          "Oracle",
+          "Shell",
+          "Unix",
+          "性能优化",
+          "数据仓库",
+          "需求分析"
+        ],
+        "strict_grounded": 5,
+        "loose_grounded": 8
+      },
+      {
+        "job": "数据产品经理 - 财务数据产品 (MJ001550)",
+        "skills": [
+          "Oracle",
+          "产品设计",
+          "数据仓库",
+          "数据建模",
+          "数据治理",
+          "需求分析"
+        ],
+        "strict_grounded": 6,
+        "loose_grounded": 6
+      },
+      {
+        "job": "人工智能工程师",
+        "skills": [
+          "CNN",
+          "Java",
+          "Keras",
+          "PyTorch",
+          "Python",
+          "RNN",
+          "TensorFlow",
+          "机器学习",
+          "深度学习",
+          "特征工程"
+        ],
+        "strict_grounded": 10,
+        "loose_grounded": 10
+      },
+      {
+        "job": "系统助理工程师",
+        "skills": [
+          "产品设计",
+          "性能测试",
+          "技术文档",
+          "测试用例"
+        ],
+        "strict_grounded": 4,
+        "loose_grounded": 4
+      },
+      {
+        "job": "SoC芯片工程师（Top）",
+        "skills": [
+          "ARM",
+          "C++",
+          "IMU",
+          "Perl",
+          "Python",
+          "SoC",
+          "Verilog",
+          "技术文档",
+          "系统设计"
+        ],
+        "strict_grounded": 8,
+        "loose_grounded": 9
+      },
+      {
+        "job": "需求分析师",
+        "skills": [
+          "Axure",
+          "Figma",
+          "JIRA",
+          "Java",
+          "Python",
+          "SQL",
+          "Scrum",
+          "Spark",
+          "数据分析",
+          "需求分析"
+        ],
+        "strict_grounded": 9,
+        "loose_grounded": 10
+      },
+      {
+        "job": "安全数据分析师",
+        "skills": [
+          "Python",
+          "数据分析",
+          "数据挖掘",
+          "项目管理"
+        ],
+        "strict_grounded": 4,
+        "loose_grounded": 4
+      },
+      {
+        "job": "电子技术研发工程师 双休",
+        "skills": [
+          "C++",
+          "Linux",
+          "PCB",
+          "RTOS",
+          "嵌入式",
+          "电路设计",
+          "驱动开发"
+        ],
+        "strict_grounded": 7,
+        "loose_grounded": 7
+      },
+      {
+        "job": "系统集成工程师",
+        "skills": [
+          "技术文档",
+          "项目管理"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "前端开发工程师",
+        "skills": [
+          "CSS",
+          "Git",
+          "HTML",
+          "React",
+          "Vue",
+          "性能优化"
+        ],
+        "strict_grounded": 6,
+        "loose_grounded": 6
+      },
+      {
+        "job": "AI开发工程师",
+        "skills": [
+          "FastAPI",
+          "Function Calling",
+          "MySQL",
+          "Prompt Engineering",
+          "Python",
+          "React",
+          "Redis",
+          "系统设计",
+          "需求分析",
+          "高可用"
+        ],
+        "strict_grounded": 9,
+        "loose_grounded": 10
+      },
+      {
+        "job": "全栈工程师",
+        "skills": [
+          "Java",
+          "React",
+          "SQL",
+          "Vue",
+          "微信小程序",
+          "数据分析",
+          "系统设计",
+          "高并发"
+        ],
+        "strict_grounded": 8,
+        "loose_grounded": 8
+      },
+      {
+        "job": "数据分析专员",
+        "skills": [
+          "SQL",
+          "数据分析",
+          "数据挖掘",
+          "机器学习"
+        ],
+        "strict_grounded": 4,
+        "loose_grounded": 4
+      },
+      {
+        "job": "射频工程师（天线方向）",
+        "skills": [
+          "天线"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 1
+      },
+      {
+        "job": "激光/光电子技术工程师",
+        "skills": [
+          "技术文档",
+          "系统设计"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "NLP算法工程师",
+        "skills": [
+          "Hadoop",
+          "LSTM",
+          "NLP",
+          "PyTorch",
+          "Python",
+          "Spark",
+          "TensorFlow",
+          "Transformer",
+          "机器学习",
+          "深度学习"
+        ],
+        "strict_grounded": 10,
+        "loose_grounded": 10
+      },
+      {
+        "job": "数据库开发工程师",
+        "skills": [
+          "ETL",
+          "Oracle",
+          "SQL",
+          "数据仓库"
+        ],
+        "strict_grounded": 3,
+        "loose_grounded": 4
+      },
+      {
+        "job": "业务部数据分析员",
+        "skills": [
+          "数据分析"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 1
+      },
+      {
+        "job": "智驾场地测试工程师",
+        "skills": [
+          "A/B测试"
+        ],
+        "strict_grounded": 0,
+        "loose_grounded": 0
+      },
+      {
+        "job": "App开发工程师+Web前端开发工程师+Java高级工程师",
+        "skills": [
+          "Docker",
+          "JavaScript",
+          "Jenkins",
+          "MyBatis",
+          "PostgreSQL",
+          "RESTful",
+          "React Native",
+          "Spring",
+          "TypeScript",
+          "WebSocket"
+        ],
+        "strict_grounded": 7,
+        "loose_grounded": 10
+      },
+      {
+        "job": "web前端开发工程师",
+        "skills": [
+          "CSS",
+          "HTML",
+          "JavaScript"
+        ],
+        "strict_grounded": 3,
+        "loose_grounded": 3
+      },
+      {
+        "job": "存储开发工程师",
+        "skills": [
+          "C++"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 1
+      },
+      {
+        "job": "AI算法工程师",
+        "skills": [
+          "NLP",
+          "PyTorch",
+          "TensorFlow",
+          "具身智能",
+          "大模型",
+          "机器学习",
+          "模型训练",
+          "深度学习",
+          "计算机视觉",
+          "隐私计算"
+        ],
+        "strict_grounded": 8,
+        "loose_grounded": 10
+      },
+      {
+        "job": "全栈工程师",
+        "skills": [
+          "Angular",
+          "Django",
+          "HTML5",
+          "JavaScript",
+          "Node.js",
+          "Python",
+          "React",
+          "Spring Boot",
+          "TypeScript",
+          "Webpack"
+        ],
+        "strict_grounded": 10,
+        "loose_grounded": 10
+      },
+      {
+        "job": "【AI人工智能】双休+TO B销售+Saas独角兽",
+        "skills": [
+          "大模型",
+          "智能体"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "信息技术专员",
+        "skills": [
+          "JavaScript",
+          "Linux",
+          "Node.js",
+          "PostgreSQL",
+          "Python"
+        ],
+        "strict_grounded": 0,
+        "loose_grounded": 0
+      },
+      {
+        "job": "信息化项目经理",
+        "skills": [
+          "需求分析",
+          "项目管理"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "全栈开发工程师",
+        "skills": [
+          "Elasticsearch",
+          "HTML5",
+          "Java",
+          "JavaScript",
+          "MyBatis",
+          "React",
+          "Redis",
+          "Spring MVC",
+          "单元测试",
+          "集成测试"
+        ],
+        "strict_grounded": 10,
+        "loose_grounded": 10
+      },
+      {
+        "job": "智能驾驶数据与传感器软件工程师",
+        "skills": [
+          "C++",
+          "Linux",
+          "多线程",
+          "嵌入式",
+          "性能优化",
+          "数据结构"
+        ],
+        "strict_grounded": 6,
+        "loose_grounded": 6
+      },
+      {
+        "job": "大数据架构师",
+        "skills": [
+          "Flink",
+          "HBase",
+          "Hadoop",
+          "Hive",
+          "Kafka",
+          "Linux",
+          "Scala",
+          "Shell",
+          "Spark",
+          "机器学习"
+        ],
+        "strict_grounded": 8,
+        "loose_grounded": 10
+      },
+      {
+        "job": "电子工程师",
+        "skills": [
+          "PCB设计",
+          "单片机",
+          "电路设计"
+        ],
+        "strict_grounded": 3,
+        "loose_grounded": 3
+      },
+      {
+        "job": "卫星测试工程师",
+        "skills": [
+          "性能测试",
+          "技术文档",
+          "数据分析"
+        ],
+        "strict_grounded": 3,
+        "loose_grounded": 3
+      },
+      {
+        "job": "大数据开发工程师",
+        "skills": [
+          "Flink",
+          "Hive",
+          "Java",
+          "Kafka",
+          "Linux",
+          "MySQL",
+          "Oracle",
+          "Shell",
+          "数据分析",
+          "机器学习"
+        ],
+        "strict_grounded": 9,
+        "loose_grounded": 10
+      },
+      {
+        "job": "自动化测试（外企+双休+有发展空间）",
+        "skills": [
+          "API",
+          "JMeter",
+          "Java",
+          "Python",
+          "Scrum",
+          "Selenium",
+          "性能测试",
+          "敏捷开发",
+          "测试用例",
+          "自动化测试"
+        ],
+        "strict_grounded": 10,
+        "loose_grounded": 10
+      },
+      {
+        "job": "AI模型算法初级工程师",
+        "skills": [
+          "C++",
+          "CNN",
+          "GNN",
+          "PyTorch",
+          "Python",
+          "深度学习"
+        ],
+        "strict_grounded": 6,
+        "loose_grounded": 6
+      },
+      {
+        "job": "初中级android安卓开发工程师",
+        "skills": [
+          "API",
+          "HTTP",
+          "Java",
+          "Kotlin",
+          "RESTful",
+          "SoC",
+          "设计模式"
+        ],
+        "strict_grounded": 5,
+        "loose_grounded": 7
+      },
+      {
+        "job": "驱动开发工程师",
+        "skills": [
+          "5G",
+          "ARM",
+          "C++",
+          "Linux",
+          "RTOS",
+          "驱动开发",
+          "鸿蒙"
+        ],
+        "strict_grounded": 7,
+        "loose_grounded": 7
+      },
+      {
+        "job": "鸿蒙开发工程师（期货）",
+        "skills": [
+          "单元测试",
+          "需求分析",
+          "鸿蒙"
+        ],
+        "strict_grounded": 3,
+        "loose_grounded": 3
+      },
+      {
+        "job": "切片测试技术员",
+        "skills": [
+          "PCB"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 1
+      },
+      {
+        "job": "产品经理",
+        "skills": [
+          "产品设计"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 1
+      },
+      {
+        "job": "需求分析",
+        "skills": [
+          "需求分析"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 1
+      },
+      {
+        "job": "高级产品经理",
+        "skills": [
+          "原型设计",
+          "需求分析",
+          "项目管理"
+        ],
+        "strict_grounded": 3,
+        "loose_grounded": 3
+      },
+      {
+        "job": "人工智能工程师开发助理",
+        "skills": [
+          "C++",
+          "Java",
+          "Python",
+          "机器学习",
+          "深度学习",
+          "自然语言处理",
+          "计算机视觉",
+          "语音识别"
+        ],
+        "strict_grounded": 8,
+        "loose_grounded": 8
+      },
+      {
+        "job": "软件开发维护工程师",
+        "skills": [
+          "Ansible",
+          "Java"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "硬件工程师",
+        "skills": [
+          "PCB",
+          "PCB设计",
+          "嵌入式",
+          "数字电路",
+          "电路设计"
+        ],
+        "strict_grounded": 0,
+        "loose_grounded": 0
+      },
+      {
+        "job": "测试工程师有餐补双休",
+        "skills": [
+          "ChatGPT",
+          "Java",
+          "Python",
+          "测试用例",
+          "自动化测试"
+        ],
+        "strict_grounded": 5,
+        "loose_grounded": 5
+      },
+      {
+        "job": "AI算法工程师",
+        "skills": [
+          "API",
+          "DeepSeek",
+          "GPT",
+          "Linux",
+          "Python",
+          "RAG",
+          "大模型",
+          "模型推理",
+          "自然语言处理"
+        ],
+        "strict_grounded": 8,
+        "loose_grounded": 9
+      },
+      {
+        "job": "2026届-博士-电子/电气工程师-北京总部",
+        "skills": [
+          "PCB",
+          "TCP/IP",
+          "单片机",
+          "技术文档",
+          "高可用"
+        ],
+        "strict_grounded": 5,
+        "loose_grounded": 5
+      },
+      {
+        "job": "售后技术支持工程师",
+        "skills": [
+          "需求分析"
+        ],
+        "strict_grounded": 0,
+        "loose_grounded": 0
+      },
+      {
+        "job": "中核核信-系统集成高级工程师(J29412)",
+        "skills": [
+          "项目管理"
+        ],
+        "strict_grounded": 0,
+        "loose_grounded": 0
+      },
+      {
+        "job": "通信硬件研发工程师",
+        "skills": [
+          "PCB"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 1
+      },
+      {
+        "job": "射频芯片设计工程师",
+        "skills": [
+          "射频",
+          "电路设计"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "提示词工程（PE）实习",
+        "skills": [
+          "ChatGPT",
+          "SQL",
+          "数据仓库",
+          "数据分析",
+          "数据治理",
+          "爬虫"
+        ],
+        "strict_grounded": 6,
+        "loose_grounded": 6
+      },
+      {
+        "job": "数据开发/运维",
+        "skills": [
+          "ETL",
+          "Hadoop",
+          "Python",
+          "SQL",
+          "Spark",
+          "性能优化",
+          "数据仓库",
+          "数据建模",
+          "数据治理"
+        ],
+        "strict_grounded": 9,
+        "loose_grounded": 9
+      },
+      {
+        "job": "算法工程师",
+        "skills": [
+          "Agent",
+          "Java",
+          "LangChain",
+          "LangGraph",
+          "多智能体",
+          "大模型",
+          "数据治理",
+          "智能体",
+          "自然语言处理"
+        ],
+        "strict_grounded": 9,
+        "loose_grounded": 9
+      },
+      {
+        "job": "ai图像算法工程师",
+        "skills": [
+          "Angular",
+          "Go",
+          "PyTorch",
+          "Python",
+          "React",
+          "TensorFlow",
+          "Vue",
+          "性能优化",
+          "机器学习",
+          "深度学习"
+        ],
+        "strict_grounded": 10,
+        "loose_grounded": 10
+      },
+      {
+        "job": "fpga工程师",
+        "skills": [
+          "FPGA",
+          "VHDL",
+          "Verilog",
+          "性能优化",
+          "技术文档",
+          "数字电路"
+        ],
+        "strict_grounded": 6,
+        "loose_grounded": 6
+      },
+      {
+        "job": "数据架构师（双休 入职社保）",
+        "skills": [
+          "Flink",
+          "Hadoop",
+          "Kafka",
+          "Spark",
+          "技术文档",
+          "数据仓库",
+          "数据建模",
+          "数据治理",
+          "数据湖"
+        ],
+        "strict_grounded": 9,
+        "loose_grounded": 9
+      },
+      {
+        "job": "大模型算法工程师（智能体与复杂系统方向）",
+        "skills": [
+          "Java",
+          "Linux",
+          "NLP",
+          "Node.js",
+          "PyTorch",
+          "Python",
+          "React",
+          "深度学习",
+          "知识图谱",
+          "自然语言处理"
+        ],
+        "strict_grounded": 6,
+        "loose_grounded": 10
+      },
+      {
+        "job": "数据分析师",
+        "skills": [
+          "SQL"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 1
+      },
+      {
+        "job": "通信工程设计师",
+        "skills": [
+          "光通信",
+          "核心网"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "数据治理开发工程师（接受应届）",
+        "skills": [
+          "数据治理",
+          "数据结构"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "数据开发工程师",
+        "skills": [
+          "ETL"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 1
+      },
+      {
+        "job": "网络信息安全工程师",
+        "skills": [
+          "网络安全"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 1
+      },
+      {
+        "job": "网络防火墙运维工程师",
+        "skills": [
+          "TCP/IP",
+          "网络安全"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "控制算法工程师",
+        "skills": [
+          "C++",
+          "IMU",
+          "Python",
+          "嵌入式",
+          "性能优化",
+          "自动驾驶",
+          "自动驾驶系统"
+        ],
+        "strict_grounded": 6,
+        "loose_grounded": 7
+      },
+      {
+        "job": "软件测试工程师",
+        "skills": [
+          "SQL",
+          "Selenium",
+          "自动化测试",
+          "需求分析"
+        ],
+        "strict_grounded": 4,
+        "loose_grounded": 4
+      },
+      {
+        "job": "ai算法工程师",
+        "skills": [
+          "C++",
+          "Golang",
+          "NLP",
+          "PyTorch",
+          "Python",
+          "TensorFlow",
+          "模型评估",
+          "深度学习",
+          "自然语言处理",
+          "计算机视觉"
+        ],
+        "strict_grounded": 9,
+        "loose_grounded": 10
+      },
+      {
+        "job": "2026校招-网络优化工程师-南京",
+        "skills": [
+          "5G",
+          "CSS",
+          "Gin",
+          "Go",
+          "PON",
+          "RAG"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 6
+      },
+      {
+        "job": "系统工程师-前沿研发中心",
+        "skills": [
+          "技术文档",
+          "网络安全"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "数仓开发",
+        "skills": [
+          "ClickHouse",
+          "Doris",
+          "Flink",
+          "Hadoop",
+          "Hive",
+          "MySQL",
+          "Oracle",
+          "PostgreSQL",
+          "Spark",
+          "数据仓库"
+        ],
+        "strict_grounded": 4,
+        "loose_grounded": 10
+      },
+      {
+        "job": "数字技术工程师培育（培训）项目",
+        "skills": [
+          "区块链",
+          "项目管理"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "大数据开发工程师",
+        "skills": [
+          "ClickHouse",
+          "Flink",
+          "Java",
+          "Kafka",
+          "Python",
+          "Shell",
+          "Spark",
+          "性能优化",
+          "数据分析"
+        ],
+        "strict_grounded": 9,
+        "loose_grounded": 9
+      },
+      {
+        "job": "ios开发工程师",
+        "skills": [
+          "Objective-C",
+          "Swift",
+          "单元测试",
+          "设计模式",
+          "驱动开发"
+        ],
+        "strict_grounded": 5,
+        "loose_grounded": 5
+      },
+      {
+        "job": "数字技术工程师培育（培训）项目",
+        "skills": [
+          "区块链",
+          "项目管理"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 2
+      },
+      {
+        "job": "【2026春招】售前技术工程师（全国）",
+        "skills": [
+          "AI安全",
+          "HTTP",
+          "网络安全"
+        ],
+        "strict_grounded": 2,
+        "loose_grounded": 3
+      },
+      {
+        "job": "软件项目经理",
+        "skills": [
+          "项目管理"
+        ],
+        "strict_grounded": 1,
+        "loose_grounded": 1
+      },
+      {
+        "job": "go语言开发工程师",
+        "skills": [
+          "Beego",
+          "Golang",
+          "Hadoop",
+          "Kafka",
+          "Linux",
+          "MySQL",
+          "Oracle",
+          "PostgreSQL",
+          "Spark",
+          "Spring"
+        ],
+        "strict_grounded": 8,
+        "loose_grounded": 10
+      }
+    ]
+  },
+  "resume_extraction": {
+    "metric": "简历提取准确率",
+    "target": "≥ 90%",
+    "real_resume_skills": 24,
+    "real_grounded": 24,
+    "real_precision": 1.0,
+    "synth_gold_skills": 100,
+    "synth_recovered": 100,
+    "synth_recall": 1.0,
+    "synth_precision": 1.0,
+    "pass": true,
+    "note": "真实简历 evidence_quote 溯源 + 合成简历注入召回，双维度衡量提取能力。"
+  },
+  "matching": {
+    "metric": "人岗匹配准确率",
+    "target": "≥ 90%",
+    "calibration_cases": 200,
+    "test_cases": 200,
+    "calibrated_thresholds": {
+      "match": 0.8,
+      "partial": 0.4
+    },
+    "default_thresholds": {
+      "match": 0.8,
+      "partial": 0.5
+    },
+    "correct": 197,
+    "accuracy": 0.985,
+    "pass": true,
+    "confusion_matrix": {
+      "mismatch": {
+        "mismatch": 76,
+        "partial": 1
+      },
+      "partial": {
+        "partial": 60,
+        "mismatch": 1
+      },
+      "match": {
+        "match": 61,
+        "partial": 1
+      }
+    },
+    "cases": [
+      {
+        "job": "data_analyst",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "A/B测试",
+          "机器学习"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "nlp_algo",
+        "score": 0.6176470588235294,
+        "gold_label": "partial",
+        "held_required": [
+          "Python",
+          "数据预处理",
+          "深度学习",
+          "Transformer",
+          "机器学习"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.625,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 0.1875,
+        "gold_label": "mismatch",
+        "held_required": [
+          "统计学"
+        ],
+        "held_bonus": [
+          "BI工具",
+          "A/B测试"
+        ],
+        "required_ratio": 0.167,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "embedded",
+        "score": 0.2982456140350878,
+        "gold_label": "mismatch",
+        "held_required": [
+          "通信协议",
+          "C++"
+        ],
+        "held_bonus": [
+          "RTOS",
+          "蓝牙"
+        ],
+        "required_ratio": 0.286,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "qa_test",
+        "score": 0.823529411764706,
+        "gold_label": "match",
+        "held_required": [
+          "Git",
+          "接口测试",
+          "CI/CD",
+          "自动化测试框架",
+          "Linux",
+          "测试用例设计"
+        ],
+        "held_bonus": [
+          "Java"
+        ],
+        "required_ratio": 0.857,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "API开发",
+          "向量数据库",
+          "知识图谱",
+          "RAG",
+          "Python",
+          "Prompt工程",
+          "大语言模型"
+        ],
+        "held_bonus": [],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "product_manager",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "SQL"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "qa_test",
+        "score": 0.15686274509803924,
+        "gold_label": "mismatch",
+        "held_required": [
+          "接口测试"
+        ],
+        "held_bonus": [
+          "安全测试",
+          "测试平台开发"
+        ],
+        "required_ratio": 0.143,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "devops",
+        "score": 0.5573770491803279,
+        "gold_label": "partial",
+        "held_required": [
+          "Kubernetes",
+          "Shell",
+          "CI/CD",
+          "云平台"
+        ],
+        "held_bonus": [
+          "服务网格",
+          "基础设施即代码",
+          "监控"
+        ],
+        "required_ratio": 0.571,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "qa_test",
+        "score": 0.823529411764706,
+        "gold_label": "match",
+        "held_required": [
+          "Git",
+          "接口测试",
+          "Linux",
+          "测试用例设计",
+          "CI/CD",
+          "Python"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.857,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "python_backend",
+        "score": 0.7096774193548387,
+        "gold_label": "partial",
+        "held_required": [
+          "Linux",
+          "数据结构与算法",
+          "Web后端框架",
+          "MySQL",
+          "RESTful API",
+          "Git"
+        ],
+        "held_bonus": [
+          "消息队列",
+          "Kubernetes",
+          "异步编程"
+        ],
+        "required_ratio": 0.75,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "qa_test",
+        "score": 0.6470588235294119,
+        "gold_label": "partial",
+        "held_required": [
+          "Git",
+          "Python",
+          "CI/CD",
+          "Linux",
+          "接口测试"
+        ],
+        "held_bonus": [
+          "测试平台开发"
+        ],
+        "required_ratio": 0.714,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "java_dev",
+        "score": 0.16,
+        "gold_label": "mismatch",
+        "held_required": [
+          "多线程并发",
+          "Linux"
+        ],
+        "held_bonus": [
+          "微服务",
+          "消息队列",
+          "Docker"
+        ],
+        "required_ratio": 0.2,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 0.8750000000000001,
+        "gold_label": "match",
+        "held_required": [
+          "数据可视化",
+          "统计学",
+          "SQL",
+          "Python",
+          "业务分析"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.833,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 0.5208333333333334,
+        "gold_label": "partial",
+        "held_required": [
+          "统计学",
+          "数据可视化",
+          "Python"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.5,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "product_manager",
+        "score": 0.6041666666666666,
+        "gold_label": "partial",
+        "held_required": [
+          "数据分析",
+          "用户研究",
+          "文档撰写",
+          "项目管理"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.667,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "frontend_dev",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "HTTP/浏览器原理",
+          "前端框架",
+          "Git",
+          "TypeScript",
+          "前端工程化",
+          "HTML/CSS",
+          "JavaScript"
+        ],
+        "held_bonus": [
+          "数据可视化",
+          "性能优化",
+          "小程序"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "frontend_dev",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "小程序",
+          "性能优化",
+          "跨端开发"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "多智能体框架"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "embedded",
+        "score": 0.10526315789473685,
+        "gold_label": "mismatch",
+        "held_required": [
+          "硬件基础"
+        ],
+        "held_bonus": [
+          "驱动开发"
+        ],
+        "required_ratio": 0.143,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "product_manager",
+        "score": 0.6666666666666666,
+        "gold_label": "partial",
+        "held_required": [
+          "数据分析",
+          "用户研究",
+          "产品设计",
+          "需求分析"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.667,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 0.8750000000000001,
+        "gold_label": "match",
+        "held_required": [
+          "业务分析",
+          "SQL",
+          "统计学",
+          "Python",
+          "数据可视化"
+        ],
+        "held_bonus": [
+          "机器学习"
+        ],
+        "required_ratio": 0.833,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "数据可视化",
+          "业务分析",
+          "SQL",
+          "Excel",
+          "统计学",
+          "Python"
+        ],
+        "held_bonus": [],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 0.2982456140350877,
+        "gold_label": "mismatch",
+        "held_required": [
+          "API开发",
+          "Python"
+        ],
+        "held_bonus": [
+          "记忆系统",
+          "多智能体框架"
+        ],
+        "required_ratio": 0.286,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "product_manager",
+        "score": 0.20833333333333334,
+        "gold_label": "mismatch",
+        "held_required": [
+          "需求分析"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.167,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "Prompt工程",
+          "Python",
+          "知识图谱",
+          "向量数据库",
+          "API开发",
+          "大语言模型",
+          "RAG"
+        ],
+        "held_bonus": [
+          "强化学习",
+          "记忆系统"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "向量数据库",
+          "RAG",
+          "API开发",
+          "Prompt工程",
+          "大语言模型",
+          "知识图谱",
+          "Python"
+        ],
+        "held_bonus": [],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "python_backend",
+        "score": 0.467741935483871,
+        "gold_label": "partial",
+        "held_required": [
+          "Redis",
+          "Linux",
+          "RESTful API",
+          "MySQL"
+        ],
+        "held_bonus": [
+          "Kubernetes",
+          "Docker"
+        ],
+        "required_ratio": 0.5,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "devops",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "Shell",
+          "Docker",
+          "Kubernetes",
+          "CI/CD",
+          "网络基础",
+          "Linux",
+          "云平台"
+        ],
+        "held_bonus": [
+          "Python"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "embedded",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "低功耗设计",
+          "ARM",
+          "RTOS"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "python_backend",
+        "score": 0.43548387096774194,
+        "gold_label": "mismatch",
+        "held_required": [
+          "Python",
+          "RESTful API",
+          "Web后端框架"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.375,
+        "predicted": "partial",
+        "correct": false
+      },
+      {
+        "job": "product_manager",
+        "score": 0.3958333333333333,
+        "gold_label": "mismatch",
+        "held_required": [
+          "产品设计",
+          "需求分析"
+        ],
+        "held_bonus": [
+          "行业知识",
+          "原型工具"
+        ],
+        "required_ratio": 0.333,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "embedded",
+        "score": 0.42105263157894746,
+        "gold_label": "partial",
+        "held_required": [
+          "数据结构与算法",
+          "C++",
+          "通信协议"
+        ],
+        "held_bonus": [
+          "FPGA"
+        ],
+        "required_ratio": 0.429,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "qa_test",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "CI/CD",
+          "自动化测试框架",
+          "测试用例设计",
+          "Linux",
+          "接口测试",
+          "Git",
+          "Python"
+        ],
+        "held_bonus": [
+          "测试平台开发"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "devops",
+        "score": 0.5737704918032787,
+        "gold_label": "partial",
+        "held_required": [
+          "CI/CD",
+          "云平台",
+          "Shell",
+          "Linux"
+        ],
+        "held_bonus": [
+          "服务网格",
+          "基础设施即代码",
+          "Python"
+        ],
+        "required_ratio": 0.571,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "多智能体框架",
+          "工具调用",
+          "记忆系统"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "nlp_algo",
+        "score": 0.48529411764705893,
+        "gold_label": "partial",
+        "held_required": [
+          "自然语言处理",
+          "文本分类",
+          "机器学习",
+          "Transformer"
+        ],
+        "held_bonus": [
+          "预训练",
+          "大语言模型",
+          "知识图谱"
+        ],
+        "required_ratio": 0.5,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 0.8245614035087719,
+        "gold_label": "match",
+        "held_required": [
+          "向量数据库",
+          "API开发",
+          "Python",
+          "RAG",
+          "Prompt工程",
+          "知识图谱"
+        ],
+        "held_bonus": [
+          "多智能体框架",
+          "工具调用"
+        ],
+        "required_ratio": 0.857,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 0.7719298245614036,
+        "gold_label": "partial",
+        "held_required": [
+          "RAG",
+          "大语言模型",
+          "Python",
+          "Prompt工程",
+          "API开发"
+        ],
+        "held_bonus": [
+          "多智能体框架",
+          "工具调用"
+        ],
+        "required_ratio": 0.714,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "devops",
+        "score": 0.4426229508196721,
+        "gold_label": "partial",
+        "held_required": [
+          "Shell",
+          "Docker",
+          "Kubernetes"
+        ],
+        "held_bonus": [
+          "监控",
+          "基础设施即代码"
+        ],
+        "required_ratio": 0.429,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 0.3508771929824561,
+        "gold_label": "mismatch",
+        "held_required": [
+          "Python",
+          "大语言模型"
+        ],
+        "held_bonus": [
+          "记忆系统",
+          "工具调用",
+          "强化学习"
+        ],
+        "required_ratio": 0.286,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "product_manager",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "项目管理",
+          "需求分析",
+          "数据分析",
+          "产品设计",
+          "文档撰写",
+          "用户研究"
+        ],
+        "held_bonus": [],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "python_backend",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "Python",
+          "数据结构与算法",
+          "Linux",
+          "Redis",
+          "MySQL",
+          "Web后端框架",
+          "Git",
+          "RESTful API"
+        ],
+        "held_bonus": [],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "qa_test",
+        "score": 0.5294117647058825,
+        "gold_label": "partial",
+        "held_required": [
+          "接口测试",
+          "Linux",
+          "测试用例设计",
+          "Git"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.571,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "python_backend",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "Docker",
+          "高并发",
+          "异步编程"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "embedded",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "硬件基础",
+          "嵌入式操作系统",
+          "C",
+          "单片机",
+          "C++",
+          "通信协议",
+          "数据结构与算法"
+        ],
+        "held_bonus": [
+          "FPGA",
+          "ARM"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "frontend_dev",
+        "score": 0.5925925925925926,
+        "gold_label": "partial",
+        "held_required": [
+          "TypeScript",
+          "Git",
+          "JavaScript",
+          "前端框架"
+        ],
+        "held_bonus": [
+          "Node.js",
+          "性能优化",
+          "跨端开发"
+        ],
+        "required_ratio": 0.571,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "qa_test",
+        "score": 0.15686274509803924,
+        "gold_label": "mismatch",
+        "held_required": [
+          "接口测试"
+        ],
+        "held_bonus": [
+          "Docker",
+          "安全测试",
+          "Java"
+        ],
+        "required_ratio": 0.143,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "frontend_dev",
+        "score": 0.18518518518518517,
+        "gold_label": "mismatch",
+        "held_required": [
+          "JavaScript"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.143,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "java_dev",
+        "score": 0.41333333333333333,
+        "gold_label": "partial",
+        "held_required": [
+          "数据结构与算法",
+          "Spring Framework",
+          "Git",
+          "MySQL"
+        ],
+        "held_bonus": [
+          "消息队列",
+          "微服务"
+        ],
+        "required_ratio": 0.4,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "qa_test",
+        "score": 0.607843137254902,
+        "gold_label": "partial",
+        "held_required": [
+          "测试用例设计",
+          "接口测试",
+          "Linux",
+          "自动化测试框架"
+        ],
+        "held_bonus": [
+          "安全测试",
+          "Docker"
+        ],
+        "required_ratio": 0.571,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "devops",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "云平台",
+          "Docker",
+          "Linux",
+          "网络基础",
+          "Shell",
+          "CI/CD",
+          "Kubernetes"
+        ],
+        "held_bonus": [
+          "日志系统",
+          "Python",
+          "监控"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "A/B测试",
+          "大数据",
+          "机器学习"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 0.3541666666666667,
+        "gold_label": "mismatch",
+        "held_required": [
+          "数据可视化",
+          "SQL"
+        ],
+        "held_bonus": [
+          "A/B测试",
+          "数据仓库",
+          "BI工具"
+        ],
+        "required_ratio": 0.333,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "java_dev",
+        "score": 0.5866666666666667,
+        "gold_label": "partial",
+        "held_required": [
+          "Spring Boot",
+          "数据结构与算法",
+          "Java",
+          "多线程并发",
+          "MySQL"
+        ],
+        "held_bonus": [
+          "微服务",
+          "JVM调优",
+          "高并发"
+        ],
+        "required_ratio": 0.5,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "product_manager",
+        "score": 0.1875,
+        "gold_label": "mismatch",
+        "held_required": [
+          "产品设计"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.167,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "python_backend",
+        "score": 0.12903225806451613,
+        "gold_label": "mismatch",
+        "held_required": [
+          "Redis"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.125,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "frontend_dev",
+        "score": 0.4629629629629629,
+        "gold_label": "partial",
+        "held_required": [
+          "HTML/CSS",
+          "HTTP/浏览器原理",
+          "前端框架"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.429,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "nlp_algo",
+        "score": 0.23529411764705888,
+        "gold_label": "mismatch",
+        "held_required": [
+          "自然语言处理",
+          "数据预处理"
+        ],
+        "held_bonus": [
+          "强化学习",
+          "大语言模型",
+          "预训练"
+        ],
+        "required_ratio": 0.25,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "qa_test",
+        "score": 0.4901960784313726,
+        "gold_label": "partial",
+        "held_required": [
+          "CI/CD",
+          "Git",
+          "自动化测试框架",
+          "Linux"
+        ],
+        "held_bonus": [
+          "Java",
+          "安全测试",
+          "测试平台开发"
+        ],
+        "required_ratio": 0.571,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "devops",
+        "score": 0.5573770491803279,
+        "gold_label": "partial",
+        "held_required": [
+          "CI/CD",
+          "Shell",
+          "Kubernetes",
+          "网络基础"
+        ],
+        "held_bonus": [
+          "日志系统"
+        ],
+        "required_ratio": 0.571,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "python_backend",
+        "score": 0.24193548387096772,
+        "gold_label": "mismatch",
+        "held_required": [
+          "Python",
+          "Linux"
+        ],
+        "held_bonus": [
+          "消息队列",
+          "微服务",
+          "Docker"
+        ],
+        "required_ratio": 0.25,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "java_dev",
+        "score": 0.18666666666666665,
+        "gold_label": "mismatch",
+        "held_required": [
+          "Git",
+          "MySQL"
+        ],
+        "held_bonus": [
+          "Kubernetes",
+          "高并发"
+        ],
+        "required_ratio": 0.2,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "nlp_algo",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "知识图谱"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "nlp_algo",
+        "score": 0.3676470588235295,
+        "gold_label": "mismatch",
+        "held_required": [
+          "机器学习",
+          "PyTorch",
+          "文本分类"
+        ],
+        "held_bonus": [
+          "知识图谱"
+        ],
+        "required_ratio": 0.375,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "embedded",
+        "score": 0.8421052631578948,
+        "gold_label": "match",
+        "held_required": [
+          "硬件基础",
+          "C",
+          "单片机",
+          "C++",
+          "数据结构与算法",
+          "通信协议"
+        ],
+        "held_bonus": [
+          "ARM"
+        ],
+        "required_ratio": 0.857,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "frontend_dev",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "embedded",
+        "score": 0.8947368421052632,
+        "gold_label": "match",
+        "held_required": [
+          "嵌入式操作系统",
+          "C++",
+          "数据结构与算法",
+          "通信协议",
+          "C",
+          "单片机"
+        ],
+        "held_bonus": [
+          "RTOS",
+          "驱动开发",
+          "蓝牙"
+        ],
+        "required_ratio": 0.857,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "devops",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "Linux",
+          "CI/CD",
+          "网络基础",
+          "Shell",
+          "Docker",
+          "Kubernetes",
+          "云平台"
+        ],
+        "held_bonus": [
+          "监控",
+          "日志系统"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "nlp_algo",
+        "score": 0.7205882352941176,
+        "gold_label": "partial",
+        "held_required": [
+          "PyTorch",
+          "文本分类",
+          "Transformer",
+          "数据预处理",
+          "深度学习",
+          "Python"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.75,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "embedded",
+        "score": 0.5614035087719299,
+        "gold_label": "partial",
+        "held_required": [
+          "硬件基础",
+          "单片机",
+          "通信协议",
+          "C"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.571,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "devops",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "Kubernetes",
+          "Shell",
+          "云平台",
+          "Linux",
+          "网络基础",
+          "Docker",
+          "CI/CD"
+        ],
+        "held_bonus": [
+          "监控",
+          "Python",
+          "日志系统"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "数据可视化",
+          "SQL",
+          "业务分析",
+          "Excel",
+          "Python",
+          "统计学"
+        ],
+        "held_bonus": [
+          "A/B测试"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "nlp_algo",
+        "score": 0.1470588235294118,
+        "gold_label": "mismatch",
+        "held_required": [
+          "PyTorch"
+        ],
+        "held_bonus": [
+          "RAG",
+          "大语言模型"
+        ],
+        "required_ratio": 0.125,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "nlp_algo",
+        "score": 0.8529411764705882,
+        "gold_label": "match",
+        "held_required": [
+          "机器学习",
+          "Python",
+          "PyTorch",
+          "数据预处理",
+          "文本分类",
+          "Transformer",
+          "深度学习"
+        ],
+        "held_bonus": [
+          "知识图谱",
+          "预训练",
+          "强化学习"
+        ],
+        "required_ratio": 0.875,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "embedded",
+        "score": 0.4385964912280702,
+        "gold_label": "partial",
+        "held_required": [
+          "数据结构与算法",
+          "嵌入式操作系统",
+          "C++"
+        ],
+        "held_bonus": [
+          "FPGA",
+          "蓝牙",
+          "驱动开发"
+        ],
+        "required_ratio": 0.429,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "多智能体框架",
+          "强化学习"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "devops",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "监控",
+          "日志系统",
+          "Python"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "qa_test",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "Docker",
+          "Java",
+          "性能测试"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "devops",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "基础设施即代码",
+          "服务网格"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "frontend_dev",
+        "score": 0.18518518518518517,
+        "gold_label": "mismatch",
+        "held_required": [
+          "前端框架"
+        ],
+        "held_bonus": [
+          "小程序",
+          "Node.js"
+        ],
+        "required_ratio": 0.143,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "embedded",
+        "score": 0.8421052631578948,
+        "gold_label": "match",
+        "held_required": [
+          "C++",
+          "通信协议",
+          "单片机",
+          "数据结构与算法",
+          "硬件基础",
+          "C"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.857,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "java_dev",
+        "score": 0.2533333333333333,
+        "gold_label": "mismatch",
+        "held_required": [
+          "Spring Framework",
+          "Spring Boot"
+        ],
+        "held_bonus": [
+          "Docker",
+          "消息队列"
+        ],
+        "required_ratio": 0.2,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "devops",
+        "score": 0.8688524590163933,
+        "gold_label": "match",
+        "held_required": [
+          "Docker",
+          "Linux",
+          "Kubernetes",
+          "云平台",
+          "网络基础",
+          "CI/CD"
+        ],
+        "held_bonus": [
+          "监控",
+          "基础设施即代码",
+          "日志系统"
+        ],
+        "required_ratio": 0.857,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "nlp_algo",
+        "score": 0.5882352941176472,
+        "gold_label": "partial",
+        "held_required": [
+          "自然语言处理",
+          "文本分类",
+          "Transformer",
+          "数据预处理",
+          "PyTorch"
+        ],
+        "held_bonus": [
+          "预训练"
+        ],
+        "required_ratio": 0.625,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "devops",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "监控"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "java_dev",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "数据结构与算法",
+          "Spring Framework",
+          "Linux",
+          "MySQL",
+          "Java",
+          "Spring Boot",
+          "Git",
+          "Maven",
+          "Redis",
+          "多线程并发"
+        ],
+        "held_bonus": [],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "product_manager",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "需求分析",
+          "文档撰写",
+          "数据分析",
+          "项目管理",
+          "产品设计",
+          "用户研究"
+        ],
+        "held_bonus": [
+          "行业知识",
+          "技术理解"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 0.3157894736842105,
+        "gold_label": "mismatch",
+        "held_required": [
+          "Python",
+          "向量数据库"
+        ],
+        "held_bonus": [
+          "工具调用",
+          "多智能体框架",
+          "记忆系统"
+        ],
+        "required_ratio": 0.286,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "java_dev",
+        "score": 0.12000000000000001,
+        "gold_label": "mismatch",
+        "held_required": [
+          "MySQL"
+        ],
+        "held_bonus": [
+          "Docker",
+          "Kubernetes",
+          "Spring Cloud"
+        ],
+        "required_ratio": 0.1,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "product_manager",
+        "score": 0.1875,
+        "gold_label": "mismatch",
+        "held_required": [
+          "文档撰写"
+        ],
+        "held_bonus": [
+          "行业知识",
+          "敏捷开发"
+        ],
+        "required_ratio": 0.167,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "frontend_dev",
+        "score": 0.14814814814814814,
+        "gold_label": "mismatch",
+        "held_required": [
+          "TypeScript"
+        ],
+        "held_bonus": [
+          "Node.js"
+        ],
+        "required_ratio": 0.143,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "frontend_dev",
+        "score": 0.6851851851851851,
+        "gold_label": "partial",
+        "held_required": [
+          "HTML/CSS",
+          "前端框架",
+          "Git",
+          "HTTP/浏览器原理",
+          "TypeScript"
+        ],
+        "held_bonus": [
+          "性能优化"
+        ],
+        "required_ratio": 0.714,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "product_manager",
+        "score": 0.8541666666666666,
+        "gold_label": "match",
+        "held_required": [
+          "用户研究",
+          "数据分析",
+          "文档撰写",
+          "产品设计",
+          "需求分析"
+        ],
+        "held_bonus": [
+          "敏捷开发",
+          "SQL",
+          "行业知识"
+        ],
+        "required_ratio": 0.833,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "qa_test",
+        "score": 0.7450980392156864,
+        "gold_label": "partial",
+        "held_required": [
+          "自动化测试框架",
+          "Linux",
+          "Python",
+          "CI/CD",
+          "测试用例设计"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.714,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "frontend_dev",
+        "score": 0.18518518518518517,
+        "gold_label": "mismatch",
+        "held_required": [
+          "前端框架"
+        ],
+        "held_bonus": [
+          "数据可视化",
+          "小程序"
+        ],
+        "required_ratio": 0.143,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 0.6875,
+        "gold_label": "partial",
+        "held_required": [
+          "数据可视化",
+          "业务分析",
+          "统计学",
+          "SQL"
+        ],
+        "held_bonus": [
+          "数据仓库",
+          "A/B测试"
+        ],
+        "required_ratio": 0.667,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "devops",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "product_manager",
+        "score": 0.8125,
+        "gold_label": "match",
+        "held_required": [
+          "文档撰写",
+          "项目管理",
+          "需求分析",
+          "数据分析",
+          "用户研究"
+        ],
+        "held_bonus": [
+          "行业知识",
+          "SQL"
+        ],
+        "required_ratio": 0.833,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 0.5614035087719298,
+        "gold_label": "partial",
+        "held_required": [
+          "大语言模型",
+          "知识图谱",
+          "RAG",
+          "向量数据库"
+        ],
+        "held_bonus": [
+          "强化学习"
+        ],
+        "required_ratio": 0.571,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "product_manager",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "项目管理",
+          "用户研究",
+          "数据分析",
+          "产品设计",
+          "需求分析",
+          "文档撰写"
+        ],
+        "held_bonus": [
+          "敏捷开发"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "python_backend",
+        "score": 0.48387096774193544,
+        "gold_label": "partial",
+        "held_required": [
+          "数据结构与算法",
+          "Python",
+          "RESTful API",
+          "Linux"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.5,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "devops",
+        "score": 0.7540983606557375,
+        "gold_label": "partial",
+        "held_required": [
+          "Kubernetes",
+          "Docker",
+          "网络基础",
+          "CI/CD",
+          "Linux"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.714,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "python_backend",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "Redis",
+          "RESTful API",
+          "Git",
+          "Linux",
+          "MySQL",
+          "Web后端框架",
+          "数据结构与算法",
+          "Python"
+        ],
+        "held_bonus": [
+          "高并发",
+          "异步编程"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "python_backend",
+        "score": 0.6290322580645161,
+        "gold_label": "partial",
+        "held_required": [
+          "RESTful API",
+          "MySQL",
+          "Redis",
+          "Python",
+          "Linux"
+        ],
+        "held_bonus": [
+          "Docker",
+          "高并发"
+        ],
+        "required_ratio": 0.625,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 0.8125,
+        "gold_label": "match",
+        "held_required": [
+          "SQL",
+          "业务分析",
+          "统计学",
+          "Excel",
+          "数据可视化"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.833,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "nlp_algo",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "知识图谱",
+          "向量数据库"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "java_dev",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 0.6842105263157895,
+        "gold_label": "partial",
+        "held_required": [
+          "Prompt工程",
+          "Python",
+          "API开发",
+          "知识图谱",
+          "RAG"
+        ],
+        "held_bonus": [
+          "强化学习",
+          "记忆系统",
+          "多智能体框架"
+        ],
+        "required_ratio": 0.714,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "知识图谱",
+          "大语言模型",
+          "API开发",
+          "Python",
+          "向量数据库",
+          "RAG",
+          "Prompt工程"
+        ],
+        "held_bonus": [
+          "多智能体框架",
+          "工具调用"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "java_dev",
+        "score": 0.16,
+        "gold_label": "mismatch",
+        "held_required": [
+          "Git",
+          "Redis"
+        ],
+        "held_bonus": [
+          "消息队列",
+          "Kubernetes",
+          "Spring Cloud"
+        ],
+        "required_ratio": 0.2,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "python_backend",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "MySQL",
+          "RESTful API",
+          "Web后端框架",
+          "Redis",
+          "Linux",
+          "Git",
+          "数据结构与算法",
+          "Python"
+        ],
+        "held_bonus": [
+          "异步编程",
+          "Docker"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 0.43859649122807015,
+        "gold_label": "partial",
+        "held_required": [
+          "API开发",
+          "Prompt工程",
+          "大语言模型"
+        ],
+        "held_bonus": [
+          "多智能体框架"
+        ],
+        "required_ratio": 0.429,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "数据仓库"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "qa_test",
+        "score": 0.47058823529411764,
+        "gold_label": "partial",
+        "held_required": [
+          "Python",
+          "测试用例设计",
+          "CI/CD"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.429,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 0.6666666666666666,
+        "gold_label": "partial",
+        "held_required": [
+          "数据可视化",
+          "统计学",
+          "Excel",
+          "SQL"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.667,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "python_backend",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "Docker"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "A/B测试",
+          "BI工具",
+          "机器学习"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "embedded",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "低功耗设计",
+          "蓝牙",
+          "驱动开发"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "qa_test",
+        "score": 0.17647058823529413,
+        "gold_label": "mismatch",
+        "held_required": [
+          "Python"
+        ],
+        "held_bonus": [
+          "测试平台开发"
+        ],
+        "required_ratio": 0.143,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 0.8771929824561403,
+        "gold_label": "match",
+        "held_required": [
+          "大语言模型",
+          "Python",
+          "RAG",
+          "知识图谱",
+          "向量数据库",
+          "Prompt工程"
+        ],
+        "held_bonus": [
+          "强化学习",
+          "记忆系统",
+          "工具调用"
+        ],
+        "required_ratio": 0.857,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "qa_test",
+        "score": 0.5490196078431373,
+        "gold_label": "partial",
+        "held_required": [
+          "接口测试",
+          "CI/CD",
+          "测试用例设计",
+          "Linux"
+        ],
+        "held_bonus": [
+          "安全测试"
+        ],
+        "required_ratio": 0.571,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "devops",
+        "score": 0.31147540983606553,
+        "gold_label": "mismatch",
+        "held_required": [
+          "Linux",
+          "Kubernetes"
+        ],
+        "held_bonus": [
+          "基础设施即代码",
+          "服务网格",
+          "Python"
+        ],
+        "required_ratio": 0.286,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "python_backend",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "MySQL",
+          "RESTful API",
+          "Redis",
+          "Python",
+          "数据结构与算法",
+          "Linux",
+          "Web后端框架",
+          "Git"
+        ],
+        "held_bonus": [
+          "Kubernetes"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "qa_test",
+        "score": 0.7254901960784315,
+        "gold_label": "partial",
+        "held_required": [
+          "Linux",
+          "Python",
+          "接口测试",
+          "测试用例设计",
+          "CI/CD"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.714,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "统计学",
+          "业务分析",
+          "数据可视化",
+          "Python",
+          "SQL",
+          "Excel"
+        ],
+        "held_bonus": [],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "统计学",
+          "Python",
+          "数据可视化",
+          "SQL",
+          "Excel",
+          "业务分析"
+        ],
+        "held_bonus": [
+          "数据仓库",
+          "大数据"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "product_manager",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "数据分析",
+          "用户研究",
+          "文档撰写",
+          "项目管理",
+          "产品设计",
+          "需求分析"
+        ],
+        "held_bonus": [
+          "敏捷开发",
+          "技术理解",
+          "行业知识"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "qa_test",
+        "score": 0.09803921568627452,
+        "gold_label": "mismatch",
+        "held_required": [
+          "Linux"
+        ],
+        "held_bonus": [
+          "性能测试",
+          "Docker",
+          "Java"
+        ],
+        "required_ratio": 0.143,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "embedded",
+        "score": 0.38596491228070184,
+        "gold_label": "partial",
+        "held_required": [
+          "嵌入式操作系统",
+          "硬件基础",
+          "数据结构与算法"
+        ],
+        "held_bonus": [
+          "低功耗设计",
+          "RTOS",
+          "驱动开发"
+        ],
+        "required_ratio": 0.429,
+        "predicted": "mismatch",
+        "correct": false
+      },
+      {
+        "job": "qa_test",
+        "score": 0.4313725490196079,
+        "gold_label": "partial",
+        "held_required": [
+          "Linux",
+          "Python",
+          "接口测试"
+        ],
+        "held_bonus": [
+          "Java",
+          "安全测试"
+        ],
+        "required_ratio": 0.429,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "embedded",
+        "score": 0.28070175438596495,
+        "gold_label": "mismatch",
+        "held_required": [
+          "数据结构与算法",
+          "C++"
+        ],
+        "held_bonus": [
+          "FPGA",
+          "ARM"
+        ],
+        "required_ratio": 0.286,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "embedded",
+        "score": 0.6140350877192983,
+        "gold_label": "partial",
+        "held_required": [
+          "通信协议",
+          "C",
+          "嵌入式操作系统",
+          "单片机"
+        ],
+        "held_bonus": [
+          "ARM"
+        ],
+        "required_ratio": 0.571,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "frontend_dev",
+        "score": 0.14814814814814814,
+        "gold_label": "mismatch",
+        "held_required": [
+          "TypeScript"
+        ],
+        "held_bonus": [
+          "跨端开发"
+        ],
+        "required_ratio": 0.143,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "embedded",
+        "score": 0.4736842105263159,
+        "gold_label": "partial",
+        "held_required": [
+          "C",
+          "通信协议",
+          "嵌入式操作系统"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.429,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 0.375,
+        "gold_label": "mismatch",
+        "held_required": [
+          "Python",
+          "统计学"
+        ],
+        "held_bonus": [
+          "机器学习",
+          "大数据"
+        ],
+        "required_ratio": 0.333,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "java_dev",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "devops",
+        "score": 0.6721311475409837,
+        "gold_label": "partial",
+        "held_required": [
+          "Shell",
+          "Docker",
+          "网络基础",
+          "Kubernetes",
+          "云平台"
+        ],
+        "held_bonus": [
+          "日志系统",
+          "监控"
+        ],
+        "required_ratio": 0.714,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "frontend_dev",
+        "score": 0.16666666666666666,
+        "gold_label": "mismatch",
+        "held_required": [
+          "HTML/CSS"
+        ],
+        "held_bonus": [
+          "数据可视化",
+          "Node.js",
+          "小程序"
+        ],
+        "required_ratio": 0.143,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "python_backend",
+        "score": 0.3709677419354838,
+        "gold_label": "mismatch",
+        "held_required": [
+          "Redis",
+          "Linux",
+          "Web后端框架"
+        ],
+        "held_bonus": [
+          "高并发",
+          "消息队列",
+          "微服务"
+        ],
+        "required_ratio": 0.375,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "product_manager",
+        "score": 0.8541666666666666,
+        "gold_label": "match",
+        "held_required": [
+          "用户研究",
+          "需求分析",
+          "数据分析",
+          "产品设计",
+          "文档撰写"
+        ],
+        "held_bonus": [
+          "原型工具",
+          "行业知识",
+          "敏捷开发"
+        ],
+        "required_ratio": 0.833,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "devops",
+        "score": 0.8360655737704918,
+        "gold_label": "match",
+        "held_required": [
+          "云平台",
+          "Docker",
+          "Kubernetes",
+          "Shell",
+          "网络基础",
+          "CI/CD"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.857,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "nlp_algo",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "机器学习",
+          "PyTorch",
+          "数据预处理",
+          "深度学习",
+          "Transformer",
+          "自然语言处理",
+          "Python",
+          "文本分类"
+        ],
+        "held_bonus": [
+          "大语言模型",
+          "预训练"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "product_manager",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "文档撰写",
+          "项目管理",
+          "需求分析",
+          "产品设计",
+          "用户研究",
+          "数据分析"
+        ],
+        "held_bonus": [
+          "行业知识"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "devops",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "Shell",
+          "网络基础",
+          "云平台",
+          "CI/CD",
+          "Linux",
+          "Docker",
+          "Kubernetes"
+        ],
+        "held_bonus": [
+          "服务网格",
+          "基础设施即代码"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 0.7017543859649122,
+        "gold_label": "partial",
+        "held_required": [
+          "知识图谱",
+          "Prompt工程",
+          "RAG",
+          "Python",
+          "向量数据库"
+        ],
+        "held_bonus": [
+          "多智能体框架"
+        ],
+        "required_ratio": 0.714,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 0.7916666666666667,
+        "gold_label": "match",
+        "held_required": [
+          "业务分析",
+          "数据可视化",
+          "Excel",
+          "Python",
+          "统计学"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.833,
+        "predicted": "partial",
+        "correct": false
+      },
+      {
+        "job": "frontend_dev",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "性能优化",
+          "跨端开发",
+          "数据可视化"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "java_dev",
+        "score": 0.8,
+        "gold_label": "match",
+        "held_required": [
+          "多线程并发",
+          "MySQL",
+          "Spring Framework",
+          "Git",
+          "数据结构与算法",
+          "Linux",
+          "Redis",
+          "Spring Boot"
+        ],
+        "held_bonus": [
+          "消息队列",
+          "高并发",
+          "Spring Cloud"
+        ],
+        "required_ratio": 0.8,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "python_backend",
+        "score": 0.4032258064516129,
+        "gold_label": "partial",
+        "held_required": [
+          "数据结构与算法",
+          "Git",
+          "RESTful API",
+          "Linux"
+        ],
+        "held_bonus": [
+          "消息队列",
+          "微服务",
+          "异步编程"
+        ],
+        "required_ratio": 0.5,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "python_backend",
+        "score": 0.3225806451612903,
+        "gold_label": "mismatch",
+        "held_required": [
+          "RESTful API",
+          "Redis",
+          "Git"
+        ],
+        "held_bonus": [
+          "异步编程"
+        ],
+        "required_ratio": 0.375,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "qa_test",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "CI/CD",
+          "Git",
+          "Python",
+          "接口测试",
+          "测试用例设计",
+          "Linux",
+          "自动化测试框架"
+        ],
+        "held_bonus": [
+          "性能测试"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "java_dev",
+        "score": 0.64,
+        "gold_label": "partial",
+        "held_required": [
+          "Redis",
+          "Maven",
+          "Spring Boot",
+          "Spring Framework",
+          "Linux",
+          "Git",
+          "多线程并发"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.7,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "frontend_dev",
+        "score": 0.8703703703703703,
+        "gold_label": "match",
+        "held_required": [
+          "TypeScript",
+          "HTML/CSS",
+          "Git",
+          "JavaScript",
+          "HTTP/浏览器原理",
+          "前端框架"
+        ],
+        "held_bonus": [
+          "数据可视化",
+          "小程序"
+        ],
+        "required_ratio": 0.857,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "java_dev",
+        "score": 0.28,
+        "gold_label": "mismatch",
+        "held_required": [
+          "Maven",
+          "MySQL",
+          "多线程并发"
+        ],
+        "held_bonus": [
+          "高并发",
+          "消息队列",
+          "Spring Cloud"
+        ],
+        "required_ratio": 0.3,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 0.6140350877192983,
+        "gold_label": "partial",
+        "held_required": [
+          "Python",
+          "API开发",
+          "Prompt工程",
+          "大语言模型"
+        ],
+        "held_bonus": [
+          "工具调用",
+          "多智能体框架"
+        ],
+        "required_ratio": 0.571,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 0.6666666666666667,
+        "gold_label": "partial",
+        "held_required": [
+          "统计学",
+          "Python",
+          "数据可视化",
+          "业务分析"
+        ],
+        "held_bonus": [
+          "数据仓库",
+          "BI工具",
+          "大数据"
+        ],
+        "required_ratio": 0.667,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "python_backend",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "MySQL",
+          "Web后端框架",
+          "Linux",
+          "数据结构与算法",
+          "RESTful API",
+          "Git",
+          "Python",
+          "Redis"
+        ],
+        "held_bonus": [],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "frontend_dev",
+        "score": 0.8703703703703703,
+        "gold_label": "match",
+        "held_required": [
+          "前端框架",
+          "JavaScript",
+          "Git",
+          "HTML/CSS",
+          "TypeScript",
+          "HTTP/浏览器原理"
+        ],
+        "held_bonus": [
+          "跨端开发",
+          "Node.js"
+        ],
+        "required_ratio": 0.857,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "product_manager",
+        "score": 0.47916666666666663,
+        "gold_label": "partial",
+        "held_required": [
+          "数据分析",
+          "文档撰写",
+          "项目管理"
+        ],
+        "held_bonus": [
+          "原型工具"
+        ],
+        "required_ratio": 0.5,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "devops",
+        "score": 0.26229508196721313,
+        "gold_label": "mismatch",
+        "held_required": [
+          "云平台",
+          "Kubernetes"
+        ],
+        "held_bonus": [
+          "服务网格",
+          "Python",
+          "基础设施即代码"
+        ],
+        "required_ratio": 0.286,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 0.7894736842105263,
+        "gold_label": "partial",
+        "held_required": [
+          "RAG",
+          "向量数据库",
+          "Prompt工程",
+          "Python",
+          "大语言模型"
+        ],
+        "held_bonus": [
+          "记忆系统"
+        ],
+        "required_ratio": 0.714,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "product_manager",
+        "score": 0.6458333333333334,
+        "gold_label": "partial",
+        "held_required": [
+          "数据分析",
+          "用户研究",
+          "产品设计",
+          "文档撰写"
+        ],
+        "held_bonus": [
+          "技术理解",
+          "敏捷开发",
+          "行业知识"
+        ],
+        "required_ratio": 0.667,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 0.719298245614035,
+        "gold_label": "partial",
+        "held_required": [
+          "知识图谱",
+          "向量数据库",
+          "大语言模型",
+          "Python",
+          "Prompt工程"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.714,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "embedded",
+        "score": 0.824561403508772,
+        "gold_label": "match",
+        "held_required": [
+          "数据结构与算法",
+          "硬件基础",
+          "通信协议",
+          "单片机",
+          "C++",
+          "嵌入式操作系统"
+        ],
+        "held_bonus": [
+          "蓝牙"
+        ],
+        "required_ratio": 0.857,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "frontend_dev",
+        "score": 0.6851851851851851,
+        "gold_label": "partial",
+        "held_required": [
+          "TypeScript",
+          "Git",
+          "HTML/CSS",
+          "HTTP/浏览器原理",
+          "JavaScript"
+        ],
+        "held_bonus": [
+          "性能优化",
+          "Node.js",
+          "小程序"
+        ],
+        "required_ratio": 0.714,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "embedded",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "FPGA"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "python_backend",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "Kubernetes",
+          "Docker"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "qa_test",
+        "score": 0.09803921568627452,
+        "gold_label": "mismatch",
+        "held_required": [
+          "Git"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.143,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "数据仓库"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "frontend_dev",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "小程序",
+          "数据可视化"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "nlp_algo",
+        "score": 0.6470588235294118,
+        "gold_label": "partial",
+        "held_required": [
+          "Python",
+          "文本分类",
+          "PyTorch",
+          "机器学习",
+          "深度学习"
+        ],
+        "held_bonus": [
+          "知识图谱",
+          "预训练"
+        ],
+        "required_ratio": 0.625,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "qa_test",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "CI/CD",
+          "接口测试",
+          "Git",
+          "Linux",
+          "测试用例设计",
+          "Python",
+          "自动化测试框架"
+        ],
+        "held_bonus": [
+          "性能测试",
+          "安全测试"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 0.5263157894736842,
+        "gold_label": "partial",
+        "held_required": [
+          "API开发",
+          "向量数据库",
+          "Python",
+          "知识图谱"
+        ],
+        "held_bonus": [
+          "工具调用"
+        ],
+        "required_ratio": 0.571,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "数据可视化",
+          "统计学",
+          "业务分析",
+          "SQL",
+          "Excel",
+          "Python"
+        ],
+        "held_bonus": [
+          "A/B测试"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "frontend_dev",
+        "score": 0.888888888888889,
+        "gold_label": "match",
+        "held_required": [
+          "HTML/CSS",
+          "Git",
+          "TypeScript",
+          "JavaScript",
+          "前端框架",
+          "前端工程化"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.857,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "frontend_dev",
+        "score": 0.6296296296296297,
+        "gold_label": "partial",
+        "held_required": [
+          "HTML/CSS",
+          "Git",
+          "HTTP/浏览器原理",
+          "TypeScript",
+          "前端工程化"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.714,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "nlp_algo",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "Python",
+          "自然语言处理",
+          "PyTorch",
+          "文本分类",
+          "机器学习",
+          "数据预处理",
+          "Transformer",
+          "深度学习"
+        ],
+        "held_bonus": [
+          "RAG",
+          "强化学习"
+        ],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "ai_agent",
+        "score": 0.8596491228070176,
+        "gold_label": "match",
+        "held_required": [
+          "向量数据库",
+          "知识图谱",
+          "RAG",
+          "大语言模型",
+          "API开发",
+          "Python"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.857,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "embedded",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "硬件基础",
+          "通信协议",
+          "C",
+          "C++",
+          "单片机",
+          "嵌入式操作系统",
+          "数据结构与算法"
+        ],
+        "held_bonus": [],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "java_dev",
+        "score": 0.64,
+        "gold_label": "partial",
+        "held_required": [
+          "Spring Boot",
+          "Maven",
+          "MySQL",
+          "Spring Framework",
+          "Java",
+          "Git"
+        ],
+        "held_bonus": [
+          "消息队列",
+          "高并发",
+          "Spring Cloud"
+        ],
+        "required_ratio": 0.6,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 0.3541666666666667,
+        "gold_label": "mismatch",
+        "held_required": [
+          "SQL",
+          "数据可视化"
+        ],
+        "held_bonus": [
+          "BI工具",
+          "A/B测试",
+          "数据仓库"
+        ],
+        "required_ratio": 0.333,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 0.8125,
+        "gold_label": "match",
+        "held_required": [
+          "SQL",
+          "数据可视化",
+          "业务分析",
+          "统计学",
+          "Excel"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.833,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "data_analyst",
+        "score": 0.33333333333333337,
+        "gold_label": "mismatch",
+        "held_required": [
+          "统计学",
+          "业务分析"
+        ],
+        "held_bonus": [
+          "机器学习"
+        ],
+        "required_ratio": 0.333,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "java_dev",
+        "score": 0.9066666666666666,
+        "gold_label": "match",
+        "held_required": [
+          "数据结构与算法",
+          "Maven",
+          "Git",
+          "MySQL",
+          "Spring Boot",
+          "Java",
+          "多线程并发",
+          "Spring Framework",
+          "Linux"
+        ],
+        "held_bonus": [
+          "JVM调优",
+          "高并发"
+        ],
+        "required_ratio": 0.9,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "java_dev",
+        "score": 0.3333333333333333,
+        "gold_label": "mismatch",
+        "held_required": [
+          "Java",
+          "多线程并发",
+          "数据结构与算法"
+        ],
+        "held_bonus": [
+          "Spring Cloud",
+          "Docker"
+        ],
+        "required_ratio": 0.3,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "devops",
+        "score": 0.5573770491803279,
+        "gold_label": "partial",
+        "held_required": [
+          "Shell",
+          "网络基础",
+          "Linux",
+          "Kubernetes"
+        ],
+        "held_bonus": [
+          "监控",
+          "Python"
+        ],
+        "required_ratio": 0.571,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "java_dev",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "frontend_dev",
+        "score": 0.8148148148148149,
+        "gold_label": "match",
+        "held_required": [
+          "HTML/CSS",
+          "HTTP/浏览器原理",
+          "前端工程化",
+          "TypeScript",
+          "JavaScript",
+          "Git"
+        ],
+        "held_bonus": [
+          "Node.js",
+          "数据可视化"
+        ],
+        "required_ratio": 0.857,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "devops",
+        "score": 0.7213114754098361,
+        "gold_label": "partial",
+        "held_required": [
+          "网络基础",
+          "Linux",
+          "CI/CD",
+          "Shell",
+          "Kubernetes"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.714,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "embedded",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "数据结构与算法",
+          "C++",
+          "单片机",
+          "C",
+          "嵌入式操作系统",
+          "通信协议",
+          "硬件基础"
+        ],
+        "held_bonus": [],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "devops",
+        "score": 0.7049180327868851,
+        "gold_label": "partial",
+        "held_required": [
+          "Kubernetes",
+          "云平台",
+          "Linux",
+          "网络基础",
+          "CI/CD"
+        ],
+        "held_bonus": [
+          "监控",
+          "基础设施即代码",
+          "日志系统"
+        ],
+        "required_ratio": 0.714,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "java_dev",
+        "score": 0.2,
+        "gold_label": "mismatch",
+        "held_required": [
+          "Linux",
+          "Spring Boot"
+        ],
+        "held_bonus": [
+          "Kubernetes",
+          "消息队列"
+        ],
+        "required_ratio": 0.2,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "frontend_dev",
+        "score": 1.0,
+        "gold_label": "match",
+        "held_required": [
+          "前端框架",
+          "Git",
+          "HTML/CSS",
+          "前端工程化",
+          "HTTP/浏览器原理",
+          "JavaScript",
+          "TypeScript"
+        ],
+        "held_bonus": [],
+        "required_ratio": 1.0,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "python_backend",
+        "score": 0.7096774193548387,
+        "gold_label": "partial",
+        "held_required": [
+          "Redis",
+          "Python",
+          "MySQL",
+          "RESTful API",
+          "Git",
+          "Linux"
+        ],
+        "held_bonus": [
+          "Kubernetes",
+          "Docker"
+        ],
+        "required_ratio": 0.75,
+        "predicted": "partial",
+        "correct": true
+      },
+      {
+        "job": "nlp_algo",
+        "score": 0.8676470588235294,
+        "gold_label": "match",
+        "held_required": [
+          "自然语言处理",
+          "文本分类",
+          "机器学习",
+          "数据预处理",
+          "Python",
+          "Transformer",
+          "PyTorch"
+        ],
+        "held_bonus": [
+          "大语言模型",
+          "知识图谱"
+        ],
+        "required_ratio": 0.875,
+        "predicted": "match",
+        "correct": true
+      },
+      {
+        "job": "frontend_dev",
+        "score": 0.0,
+        "gold_label": "mismatch",
+        "held_required": [],
+        "held_bonus": [
+          "性能优化",
+          "数据可视化"
+        ],
+        "required_ratio": 0.0,
+        "predicted": "mismatch",
+        "correct": true
+      },
+      {
+        "job": "product_manager",
+        "score": 0.2916666666666667,
+        "gold_label": "mismatch",
+        "held_required": [
+          "项目管理",
+          "数据分析"
+        ],
+        "held_bonus": [],
+        "required_ratio": 0.333,
+        "predicted": "mismatch",
+        "correct": true
+      }
+    ],
+    "note": "标签按「未加权必备技能覆盖数」独立标注；打分用「加权覆盖分」，阈值在校准集标定后在冻结测试集上报准确率。"
+  }
+}

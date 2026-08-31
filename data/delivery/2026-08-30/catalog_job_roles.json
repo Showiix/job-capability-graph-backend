@@ -1,0 +1,788 @@
+{
+  "rows": [
+    {
+      "domain_code": "ai",
+      "canonical_name": "AIGC算法",
+      "description": "人工智能领域岗位（449 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "ai",
+      "canonical_name": "AIGC算法（新兴）",
+      "description": "人工智能领域岗位（302 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "AI产品经理",
+      "description": "软件与产品领域岗位（676 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "Android",
+      "description": "软件与产品领域岗位（676 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "C++",
+      "description": "软件与产品领域岗位（440 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "C_C++",
+      "description": "软件与产品领域岗位（388 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "C语言",
+      "description": "软件与产品领域岗位（445 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "DSP开发",
+      "description": "软件与产品领域岗位（729 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "data_engineering",
+      "canonical_name": "ETL工程师",
+      "description": "数据工程领域岗位（731 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "smart_hardware",
+      "canonical_name": "FPGA开发",
+      "description": "智能硬件领域岗位（689 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "Golang",
+      "description": "软件与产品领域岗位（683 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "Java",
+      "description": "软件与产品领域岗位（798 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "Node.js",
+      "description": "软件与产品领域岗位（739 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "Python",
+      "description": "软件与产品领域岗位（830 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "ai",
+      "canonical_name": "SLAM算法",
+      "description": "人工智能领域岗位（744 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "iOS",
+      "description": "软件与产品领域岗位（206 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "iOS开发",
+      "description": "软件与产品领域岗位（438 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "cloud_infrastructure",
+      "canonical_name": "云存储开发",
+      "description": "云与基础设施领域岗位（278 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "cloud_infrastructure",
+      "canonical_name": "云存储开发（新兴）",
+      "description": "云与基础设施领域岗位（258 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "cloud_infrastructure",
+      "canonical_name": "云网智能运维员",
+      "description": "云与基础设施领域岗位（286 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "cloud_infrastructure",
+      "canonical_name": "云网智能运维员（新兴）",
+      "description": "云与基础设施领域岗位（286 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "cloud_infrastructure",
+      "canonical_name": "云计算工程师",
+      "description": "云与基础设施领域岗位（431 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "cloud_infrastructure",
+      "canonical_name": "云计算工程师（新兴）",
+      "description": "云与基础设施领域岗位（311 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "cloud_infrastructure",
+      "canonical_name": "云计算工程技术人员",
+      "description": "云与基础设施领域岗位（279 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "cloud_infrastructure",
+      "canonical_name": "云计算工程技术人员（新兴）",
+      "description": "云与基础设施领域岗位（272 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "产品经理",
+      "description": "软件与产品领域岗位（600 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "ai",
+      "canonical_name": "人工智能工程师",
+      "description": "人工智能领域岗位（409 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "ai",
+      "canonical_name": "人工智能工程师（新兴）",
+      "description": "人工智能领域岗位（328 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "ai",
+      "canonical_name": "人工智能工程技术人员",
+      "description": "人工智能领域岗位（276 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "ai",
+      "canonical_name": "人工智能工程技术人员（新兴）",
+      "description": "人工智能领域岗位（249 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "smart_hardware",
+      "canonical_name": "光电子工程师",
+      "description": "智能硬件领域岗位（308 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "smart_hardware",
+      "canonical_name": "光电子工程师（新兴）",
+      "description": "智能硬件领域岗位（334 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "光网络工程师",
+      "description": "软件与产品领域岗位（525 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "全栈工程师",
+      "description": "软件与产品领域岗位（667 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "具身智能机器人应用技术员",
+      "description": "软件与产品领域岗位（302 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "具身智能机器人应用技术员（新兴）",
+      "description": "软件与产品领域岗位（288 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "前端开发工程师",
+      "description": "软件与产品领域岗位（717 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "smart_hardware",
+      "canonical_name": "单片机",
+      "description": "智能硬件领域岗位（803 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "售前技术支持",
+      "description": "软件与产品领域岗位（571 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "售后技术支持",
+      "description": "软件与产品领域岗位（571 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "ai",
+      "canonical_name": "图像算法",
+      "description": "人工智能领域岗位（780 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "多传感器融合工程师",
+      "description": "软件与产品领域岗位（307 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "多传感器融合工程师（新兴）",
+      "description": "软件与产品领域岗位（285 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "data_engineering",
+      "canonical_name": "大数据工程技术人员",
+      "description": "数据工程领域岗位（301 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "data_engineering",
+      "canonical_name": "大数据工程技术人员（新兴）",
+      "description": "数据工程领域岗位（240 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "ai",
+      "canonical_name": "大模型算法",
+      "description": "人工智能领域岗位（764 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "天线工程师",
+      "description": "软件与产品领域岗位（403 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "射频工程师",
+      "description": "软件与产品领域岗位（737 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "smart_hardware",
+      "canonical_name": "嵌入式软件工程师",
+      "description": "智能硬件领域岗位（765 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "工业产品数字建模师",
+      "description": "软件与产品领域岗位（425 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "工业产品数字建模师（新兴）",
+      "description": "软件与产品领域岗位（224 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "技术文档工程师",
+      "description": "软件与产品领域岗位（603 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "ai",
+      "canonical_name": "推荐算法",
+      "description": "人工智能领域岗位（710 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "ai",
+      "canonical_name": "搜索算法",
+      "description": "人工智能领域岗位（668 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "数字化管理师",
+      "description": "软件与产品领域岗位（305 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "数字化管理师（新兴）",
+      "description": "软件与产品领域岗位（331 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "数字孪生工程技术人员",
+      "description": "软件与产品领域岗位（372 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "数字孪生工程技术人员（新兴）",
+      "description": "软件与产品领域岗位（175 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "data_engineering",
+      "canonical_name": "数据产品经理",
+      "description": "数据工程领域岗位（613 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "data_engineering",
+      "canonical_name": "数据仓库",
+      "description": "数据工程领域岗位（763 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "data_engineering",
+      "canonical_name": "数据分析师",
+      "description": "数据工程领域岗位（741 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "data_engineering",
+      "canonical_name": "数据工程师",
+      "description": "数据工程领域岗位（435 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "data_engineering",
+      "canonical_name": "数据工程师（新兴）",
+      "description": "数据工程领域岗位（344 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "data_engineering",
+      "canonical_name": "数据开发",
+      "description": "数据工程领域岗位（835 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "data_engineering",
+      "canonical_name": "数据挖掘",
+      "description": "数据工程领域岗位（774 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "data_engineering",
+      "canonical_name": "数据架构师",
+      "description": "数据工程领域岗位（811 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "data_engineering",
+      "canonical_name": "数据标注",
+      "description": "数据工程领域岗位（399 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "data_engineering",
+      "canonical_name": "数据标注_AI训练师",
+      "description": "数据工程领域岗位（192 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "data_engineering",
+      "canonical_name": "数据治理",
+      "description": "数据工程领域岗位（711 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "data_engineering",
+      "canonical_name": "数据通信工程师",
+      "description": "数据工程领域岗位（696 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "data_engineering",
+      "canonical_name": "数据采集",
+      "description": "数据工程领域岗位（656 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "无线_天线工程师",
+      "description": "软件与产品领域岗位（293 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "无线工程师",
+      "description": "软件与产品领域岗位（418 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "智能传感系统",
+      "description": "软件与产品领域岗位（426 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "智能传感系统（新兴）",
+      "description": "软件与产品领域岗位（272 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "智能硬件装调员",
+      "description": "软件与产品领域岗位（227 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "智能硬件装调员（新兴）",
+      "description": "软件与产品领域岗位（241 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "ai",
+      "canonical_name": "机器学习",
+      "description": "人工智能领域岗位（780 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "核心网工程师",
+      "description": "软件与产品领域岗位（699 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "测试开发",
+      "description": "软件与产品领域岗位（728 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "ai",
+      "canonical_name": "深度学习",
+      "description": "人工智能领域岗位（814 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "爬虫工程师",
+      "description": "软件与产品领域岗位（657 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "smart_hardware",
+      "canonical_name": "物联网安装调试员",
+      "description": "智能硬件领域岗位（287 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "smart_hardware",
+      "canonical_name": "物联网安装调试员（新兴）",
+      "description": "智能硬件领域岗位（293 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "smart_hardware",
+      "canonical_name": "物联网工程技术人员",
+      "description": "智能硬件领域岗位（311 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "smart_hardware",
+      "canonical_name": "物联网工程技术人员（新兴）",
+      "description": "智能硬件领域岗位（269 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "smart_hardware",
+      "canonical_name": "电子工程师",
+      "description": "智能硬件领域岗位（782 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "硬件产品经理",
+      "description": "软件与产品领域岗位（637 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "硬件工程师",
+      "description": "软件与产品领域岗位（751 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "ai",
+      "canonical_name": "算法工程师",
+      "description": "人工智能领域岗位（763 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "ai",
+      "canonical_name": "算法研究员",
+      "description": "人工智能领域岗位（678 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "系统工程师",
+      "description": "软件与产品领域岗位（706 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "cloud_infrastructure",
+      "canonical_name": "系统集成",
+      "description": "云与基础设施领域岗位（765 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "网络安全",
+      "description": "软件与产品领域岗位（726 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "自动化测试",
+      "description": "软件与产品领域岗位（766 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "自动驾驶系统工程师",
+      "description": "软件与产品领域岗位（668 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "ai",
+      "canonical_name": "自然语言处理算法",
+      "description": "人工智能领域岗位（823 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "smart_hardware",
+      "canonical_name": "芯片工程师",
+      "description": "智能硬件领域岗位（433 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "smart_hardware",
+      "canonical_name": "芯片工程师（新兴）",
+      "description": "智能硬件领域岗位（292 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "ai",
+      "canonical_name": "规控算法",
+      "description": "人工智能领域岗位（731 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "ai",
+      "canonical_name": "语音算法",
+      "description": "人工智能领域岗位（691 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "软件项目经理",
+      "description": "软件与产品领域岗位（799 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "cloud_infrastructure",
+      "canonical_name": "运维开发工程师",
+      "description": "云与基础设施领域岗位（777 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "通信研发工程师",
+      "description": "软件与产品领域岗位（769 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "销售技术支持",
+      "description": "软件与产品领域岗位（594 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "需求分析工程师",
+      "description": "软件与产品领域岗位（781 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "项目经理",
+      "description": "软件与产品领域岗位（305 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "项目经理_主管",
+      "description": "软件与产品领域岗位（297 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "ai",
+      "canonical_name": "风控算法",
+      "description": "人工智能领域岗位（594 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "驱动开发工程师",
+      "description": "软件与产品领域岗位（759 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "高性能计算工程师",
+      "description": "软件与产品领域岗位（588 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    },
+    {
+      "domain_code": "software_product",
+      "canonical_name": "鸿蒙开发工程师",
+      "description": "软件与产品领域岗位（563 条招聘 JD 聚合）",
+      "source_type": "import",
+      "status": "active"
+    }
+  ]
+}

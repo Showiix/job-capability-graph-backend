@@ -1,163 +1,191 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import type { CSSProperties } from 'react'
-import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts'
 import {
   BarChartOutlined,
-  FireOutlined,
-  LineChartOutlined,
+  CheckCircleOutlined,
+  DatabaseOutlined,
+  EnvironmentOutlined,
+  FileSearchOutlined,
+  FilterOutlined,
+  ReloadOutlined,
   RiseOutlined,
   SafetyCertificateOutlined,
+  SearchOutlined,
   TagsOutlined,
+  TeamOutlined,
 } from '@ant-design/icons'
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from 'recharts'
 import { FrameCorners } from '../components/FrameCorners'
-import { fetchGraphData, fetchGraphStats, fetchGraphTrends } from '../services/graphApi'
+import { getEmergingJobs } from '../services/emergingJobsApi'
+import type {
+  EmergingJobDefinition,
+  EmergingJobsResponse,
+  EmergingSkillDefinition,
+} from '../types/api'
 
-// Mock 新兴岗位数据
-const EMERGING_JOBS = [
-  {
-    id: 'ej1',
-    name: 'AIGC 算法工程师',
-    category: 'AI/算法',
-    trend: '上升',
-    growth: '+285%',
-    monthlyJobs: 142,
-    avgSalary: '30-50K',
-    isNew: true,
-    keySkills: ['Stable Diffusion', 'DALL-E', 'ControlNet', 'LoRA', 'Prompt Engineering'],
-    description: '负责生成式 AI 模型的研发和优化，包括文生图、图生图、视频生成等',
-    confidence: 92,
-  },
-  {
-    id: 'ej2',
-    name: 'LLM 应用工程师',
-    category: '大模型应用',
-    trend: '上升',
-    growth: '+198%',
-    monthlyJobs: 256,
-    avgSalary: '25-45K',
-    isNew: true,
-    keySkills: ['LangChain', 'RAG', 'Agent', 'Prompt 工程', 'Vector DB'],
-    description: '基于大语言模型开发智能应用，构建 Agent 系统和知识库问答',
-    confidence: 95,
-  },
-  {
-    id: 'ej3',
-    name: '云网智能运维员',
-    category: '运维/云计算',
-    trend: '上升',
-    growth: '+156%',
-    monthlyJobs: 89,
-    avgSalary: '20-35K',
-    isNew: true,
-    keySkills: ['Kubernetes', 'Prometheus', 'AIOps', '自动化运维', 'ServiceMesh'],
-    description: '利用 AI 技术进行智能运维，实现故障预测和自动修复',
-    confidence: 88,
-  },
-  {
-    id: 'ej4',
-    name: '数字孪生工程师',
-    category: '工业/物联网',
-    trend: '上升',
-    growth: '+124%',
-    monthlyJobs: 67,
-    avgSalary: '25-40K',
-    isNew: true,
-    keySkills: ['Unity3D', 'UE5', '物联网', '3D建模', '仿真技术'],
-    description: '构建物理实体的数字副本，实现虚实映射和预测性维护',
-    confidence: 85,
-  },
-  {
-    id: 'ej5',
-    name: '区块链开发工程师',
-    category: '区块链/Web3',
-    trend: '稳定',
-    growth: '+45%',
-    monthlyJobs: 134,
-    avgSalary: '30-55K',
-    isNew: false,
-    keySkills: ['Solidity', 'Web3.js', '智能合约', 'DeFi', 'NFT'],
-    description: '开发区块链应用和智能合约，构建去中心化系统',
-    confidence: 78,
-  },
-  {
-    id: 'ej6',
-    name: '量子计算工程师',
-    category: '前沿科技',
-    trend: '上升',
-    growth: '+89%',
-    monthlyJobs: 23,
-    avgSalary: '40-70K',
-    isNew: true,
-    keySkills: ['Qiskit', '量子算法', '量子电路', 'Python', '线性代数'],
-    description: '研究和开发量子算法，探索量子计算在实际场景的应用',
-    confidence: 72,
-  },
-]
+type SortBy = 'jdCount' | 'companyCount' | 'title'
+type StatusFilter = 'all' | 'pending' | 'approved' | 'rejected'
 
-/* Legacy demo data retained only as migration reference; live charts use /jd-graph/trends. */
-const SKILL_TIMELINE = [
-  { month: '2025-08', RAG: 45, LangChain: 32, Agent: 28, 'Prompt工程': 38 },
-  { month: '2025-09', RAG: 68, LangChain: 52, Agent: 41, 'Prompt工程': 55 },
-  { month: '2025-10', RAG: 95, LangChain: 78, Agent: 63, 'Prompt工程': 72 },
-  { month: '2025-11', RAG: 128, LangChain: 105, Agent: 89, 'Prompt工程': 98 },
-  { month: '2025-12', RAG: 165, LangChain: 142, Agent: 118, 'Prompt工程': 125 },
-  { month: '2026-01', RAG: 198, LangChain: 178, Agent: 156, 'Prompt工程': 152 },
-  { month: '2026-02', RAG: 234, LangChain: 215, Agent: 189, 'Prompt工程': 183 },
-]
+const STATUS_LABELS: Record<StatusFilter, string> = {
+  all: '全部状态',
+  pending: '待审核',
+  approved: '已通过',
+  rejected: '已拒绝',
+}
 
-const HOT_SKILLS = [
-  { name: 'LangChain', count: 342, growth: '+185%', level: '前沿', color: '#e4b592' },
-  { name: 'RAG', count: 298, growth: '+168%', level: '前沿', color: '#e4b592' },
-  { name: 'Prompt 工程', count: 256, growth: '+145%', level: '核心', color: '#ee1212' },
-  { name: 'Agent 系统', count: 234, growth: '+132%', level: '前沿', color: '#e4b592' },
-  { name: 'Vector DB', count: 189, growth: '+98%', level: '核心', color: '#ee1212' },
-  { name: 'Stable Diffusion', count: 167, growth: '+215%', level: '前沿', color: '#e4b592' },
-  { name: 'Fine-tuning', count: 145, growth: '+76%', level: '核心', color: '#ee1212' },
-  { name: 'RLHF', count: 123, growth: '+112%', level: '前沿', color: '#e4b592' },
-]
+function cleanIndustry(value: string) {
+  return value
+    .replace(/[（(].*?[）)]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+function jobIndustryLabels(job: EmergingJobDefinition) {
+  return Array.from(
+    new Set(job.industryScenes.map(cleanIndustry).filter(Boolean)),
+  )
+}
+
+function formatNumber(value: number) {
+  return value.toLocaleString('zh-CN')
+}
+
+function percentageLabel(value: number | null) {
+  return value === null ? '技术词' : `${value}%`
+}
+
+function getSkillChartData(job: EmergingJobDefinition) {
+  return [...job.requiredSkills, ...job.bonusSkills]
+    .filter((skill) => skill.percentage !== null)
+    .sort((a, b) => (b.percentage ?? 0) - (a.percentage ?? 0))
+    .slice(0, 10)
+    .map((skill) => ({
+      name: skill.name,
+      percentage: skill.percentage ?? 0,
+    }))
+}
+
+function getStatusColor(status: string) {
+  if (status === 'approved') return '#dad0c8'
+  if (status === 'rejected') return '#ee1212'
+  return '#e4b592'
+}
+
+function skillChip(skill: EmergingSkillDefinition, role: 'required' | 'bonus') {
+  return (
+    <span
+      key={`${role}-${skill.name}`}
+      className={`tag ${role === 'required' ? 'tag-orange' : 'tag-purple'}`}
+      title={role === 'required' ? '必备技术词' : '加分技术词'}
+    >
+      {skill.name}
+      <small>{percentageLabel(skill.percentage)}</small>
+    </span>
+  )
+}
 
 export default function EmergingJobsPage() {
-  void SKILL_TIMELINE
-  void HOT_SKILLS
-  const [jobs, setJobs] = useState(EMERGING_JOBS)
-  const [selectedJob, setSelectedJob] = useState(EMERGING_JOBS[0])
-  const [filterTrend, setFilterTrend] = useState<'all' | '上升' | '稳定'>('all')
-  const [sortBy, setSortBy] = useState<'growth' | 'jobs' | 'salary'>('growth')
-  const [stats, setStats] = useState<Record<string, any> | null>(null)
-  const [trends, setTrends] = useState<{ timeline: any[]; hot_skills: any[] } | null>(null)
+  const [snapshot, setSnapshot] = useState<EmergingJobsResponse | null>(null)
+  const [selectedJobId, setSelectedJobId] = useState<string | null>(null)
+  const [searchQuery, setSearchQuery] = useState('')
+  const [industryFilter, setIndustryFilter] = useState('all')
+  const [statusFilter, setStatusFilter] = useState<StatusFilter>('all')
+  const [sortBy, setSortBy] = useState<SortBy>('jdCount')
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
+
+  const loadJobs = async () => {
+    setLoading(true)
+    setError(null)
+    try {
+      const data = await getEmergingJobs({ sort_by: sortBy })
+      setSnapshot(data)
+    } catch (apiError) {
+      try {
+        const response = await fetch('/emerging_jobs.json')
+        if (!response.ok) throw new Error('静态数据读取失败')
+        setSnapshot((await response.json()) as EmergingJobsResponse)
+        setError('后端接口暂不可用，当前使用 Excel 生成的本地快照')
+      } catch {
+        const value = apiError as { apiMessage?: string; message?: string }
+        setError(value.apiMessage || value.message || '新兴岗位数据读取失败')
+      }
+    } finally {
+      setLoading(false)
+    }
+  }
 
   useEffect(() => {
-    void fetchGraphStats().then(setStats).catch(() => undefined)
-    void fetchGraphTrends().then(setTrends).catch(() => undefined)
-    void fetchGraphData().then((graph) => {
-      const live = graph.stars.filter((star) => star.isEmerging).map((star) => ({
-        id: star.id,
-        name: star.label,
-        category: star.domain ?? '岗位能力',
-        trend: '上升' as const,
-        growth: `+${Math.max(1, star.sources ?? 1)}%`,
-        monthlyJobs: star.jobCount ?? star.sources ?? 0,
-        avgSalary: '待补充',
-        isNew: true,
-        keySkills: star.requiredSkills ?? [],
-        description: `${star.label} 的实时岗位与技能画像`,
-        confidence: 0,
-      }))
-      if (live.length) { setJobs(live); setSelectedJob(live[0]) }
-    }).catch(() => undefined)
-  }, [])
+    void loadJobs()
+  }, [sortBy])
 
-  const filteredJobs = jobs.filter((job) => filterTrend === 'all' || job.trend === filterTrend)
+  const jobs = snapshot?.jobs ?? []
+  const summary = snapshot?.summary
+  const industryOptions = useMemo(() => {
+    const values = jobs.flatMap(jobIndustryLabels)
+    return Array.from(new Set(values)).sort((a, b) => a.localeCompare(b, 'zh-CN'))
+  }, [jobs])
 
-  const sortedJobs = [...filteredJobs].sort((a, b) => {
-    if (sortBy === 'growth') return parseInt(b.growth) - parseInt(a.growth)
-    if (sortBy === 'jobs') return b.monthlyJobs - a.monthlyJobs
-    return 0
-  })
+  const filteredJobs = useMemo(() => {
+    const query = searchQuery.trim().toLowerCase()
+    return jobs
+      .filter((job) => {
+        if (statusFilter !== 'all' && job.reviewStatusCode !== statusFilter) return false
+        if (industryFilter !== 'all' && !jobIndustryLabels(job).includes(industryFilter)) return false
+        if (!query) return true
+        const searchable = [
+          job.title,
+          job.normalizedName,
+          ...job.aliases,
+          ...jobIndustryLabels(job),
+          ...job.requiredSkills.map((skill) => skill.name),
+          ...job.bonusSkills.map((skill) => skill.name),
+        ]
+          .join(' ')
+          .toLowerCase()
+        return searchable.includes(query)
+      })
+      .sort((a, b) => {
+        if (sortBy === 'companyCount') return b.companyCount - a.companyCount
+        if (sortBy === 'title') return a.title.localeCompare(b.title, 'zh-CN')
+        return b.jdCount - a.jdCount || b.companyCount - a.companyCount
+      })
+  }, [industryFilter, jobs, searchQuery, sortBy, statusFilter])
 
-  const getTrendColor = (trend: string) => {
-    return trend === '上升' ? '#ee1212' : '#e4b592'
-  }
+  useEffect(() => {
+    if (filteredJobs.length === 0) {
+      setSelectedJobId(null)
+      return
+    }
+    if (!selectedJobId || !filteredJobs.some((job) => job.id === selectedJobId)) {
+      setSelectedJobId(filteredJobs[0].id)
+    }
+  }, [filteredJobs, selectedJobId])
+
+  const selectedJob = filteredJobs.find((job) => job.id === selectedJobId) ?? filteredJobs[0] ?? null
+  const selectedSkillChart = selectedJob ? getSkillChartData(selectedJob) : []
+  const industryChart = (summary?.industryStats ?? [])
+    .filter((item) => item.jdCount > 0)
+    .slice(0, 10)
+    .map((item) => ({
+      name: cleanIndustry(item.name),
+      jdCount: item.jdCount,
+    }))
+
+  const stats = [
+    { label: '岗位定义', value: summary?.definitionCount ?? 0, suffix: '条', color: '#e4b592' },
+    { label: '覆盖 JD', value: summary?.totalJdCount ?? 0, suffix: '条', color: '#fff3ea' },
+    { label: '技术词', value: summary?.skillCount ?? 0, suffix: '项', color: '#dad0c8' },
+    { label: '待审核', value: summary?.statusCounts.pending ?? 0, suffix: '条', color: '#ee1212' },
+  ]
 
   return (
     <div className="page-shell page-shell--emerging min-h-screen pt-14">
@@ -168,20 +196,25 @@ export default function EmergingJobsPage() {
             <RiseOutlined />
           </div>
           <div className="page-head__copy">
-            <div className="page-head__eyebrow">Market radar / emerging roles</div>
+            <div className="page-head__eyebrow">Workbook snapshot / emerging roles</div>
             <h1 className="page-head__title">新兴岗位发现</h1>
-            <p className="page-head__desc">追踪岗位增速、技能热度和需求置信度，提前识别新职业方向。</p>
+            <p className="page-head__desc">
+              基于岗位定义、JD 覆盖、行业场景和技术词，查看待审核的新岗位候选。
+            </p>
           </div>
         </div>
 
-        {/* Stats cards */}
+        {error && (
+          <div className="emerging-data-notice archive-panel glass mb-6">
+            <span><DatabaseOutlined /> {error}</span>
+            <button type="button" onClick={() => void loadJobs()} aria-label="重新加载新兴岗位数据">
+              <ReloadOutlined />
+            </button>
+          </div>
+        )}
+
         <div className="emerging-stats mb-8">
-          {[
-            { label: '岗位类别', value: String(stats?.total_categories ?? '—'), suffix: '类', color: '#e4b592' },
-            { label: '岗位总量', value: String(stats?.total_jobs ?? '—'), suffix: '个', color: '#ee1212' },
-            { label: '技能总量', value: String(stats?.total_skills ?? '—'), suffix: '项', color: '#fff3ea' },
-            { label: '新兴技能', value: String(stats?.emerging_skills ?? '—'), suffix: '项', color: '#dad0c8' },
-          ].map((stat, index) => (
+          {stats.map((stat, index) => (
             <div
               key={stat.label}
               className={`metric-card archive-metric emerging-stat ${index === 0 ? 'emerging-stat--primary' : ''} animate-fade-up`}
@@ -189,7 +222,7 @@ export default function EmergingJobsPage() {
             >
               <div className="metric-card__label">{stat.label}</div>
               <div className="metric-card__value" style={{ color: stat.color }}>
-                {stat.value}
+                {loading ? '—' : formatNumber(stat.value)}
                 <span className="text-base ml-1">{stat.suffix}</span>
               </div>
             </div>
@@ -197,171 +230,246 @@ export default function EmergingJobsPage() {
         </div>
 
         <div className="emerging-workspace-grid">
-          {/* Left: Job list */}
           <div className="emerging-job-rail">
             <div className="archive-panel glass rounded-2xl p-4">
               <FrameCorners />
-              <div className="flex justify-between items-center mb-4">
-                <h2 className="font-outfit font-bold text-base text-[var(--text)]">岗位列表</h2>
+              <div className="flex justify-between items-center mb-4 gap-3">
+                <div>
+                  <h2 className="font-outfit font-bold text-base text-[var(--text)]">岗位定义库</h2>
+                  <div className="font-jetbrains text-[9px] text-[var(--text-dim)] mt-1">
+                    {filteredJobs.length} / {jobs.length} RECORDS
+                  </div>
+                </div>
                 <select
                   value={sortBy}
-                  onChange={(e) => setSortBy(e.target.value as any)}
+                  onChange={(event) => setSortBy(event.target.value as SortBy)}
                   className="bg-[rgba(0,0,0,0.44)] border border-[var(--border)] px-2 py-1 text-xs text-[var(--text)] outline-none"
+                  aria-label="排序岗位定义"
                 >
-                  <option value="growth">按增长率</option>
-                  <option value="jobs">按岗位数</option>
-                  <option value="salary">按薪资</option>
+                  <option value="jdCount">按 JD 覆盖</option>
+                  <option value="companyCount">按公司数</option>
+                  <option value="title">按岗位名</option>
                 </select>
               </div>
 
-              {/* Filter buttons */}
-              <div className="flex gap-2 mb-4">
-                {(['all', '上升', '稳定'] as const).map((f) => (
-                  <button
-                    key={f}
-                    className={`btn btn-sm ${filterTrend === f ? 'btn-primary' : 'btn-ghost'}`}
-                    onClick={() => setFilterTrend(f)}
-                  >
-                    {f === 'all' ? '全部' : f}
-                  </button>
-                ))}
+              <div className="emerging-search-control archive-control mb-3">
+                <SearchOutlined />
+                <input
+                  value={searchQuery}
+                  onChange={(event) => setSearchQuery(event.target.value)}
+                  placeholder="搜索岗位、别称、技术词"
+                  aria-label="搜索新兴岗位"
+                />
+              </div>
+
+              <div className="emerging-filter-grid mb-4">
+                <label className="emerging-filter-field">
+                  <span><FilterOutlined /> 行业</span>
+                  <select value={industryFilter} onChange={(event) => setIndustryFilter(event.target.value)}>
+                    <option value="all">全部行业</option>
+                    {industryOptions.map((industry) => (
+                      <option key={industry} value={industry}>{industry}</option>
+                    ))}
+                  </select>
+                </label>
+                <label className="emerging-filter-field">
+                  <span><CheckCircleOutlined /> 状态</span>
+                  <select value={statusFilter} onChange={(event) => setStatusFilter(event.target.value as StatusFilter)}>
+                    {Object.entries(STATUS_LABELS).map(([value, label]) => (
+                      <option key={value} value={value}>{label}</option>
+                    ))}
+                  </select>
+                </label>
               </div>
 
               <div className="emerging-job-list space-y-2 max-h-[600px] overflow-y-auto pr-2">
-                {sortedJobs.map((job) => (
-                  <div
+                {loading && <div className="emerging-empty-state">正在读取 Excel 生成的数据快照…</div>}
+                {!loading && filteredJobs.map((job) => (
+                  <button
                     key={job.id}
-                    className={`archive-row market-archive-row glass rounded-xl p-3 cursor-pointer transition-all ${
-                      selectedJob.id === job.id ? 'ring-2 ring-space-cyan' : ''
+                    type="button"
+                    className={`archive-row market-archive-row glass rounded-xl p-3 text-left cursor-pointer transition-all ${
+                      selectedJob?.id === job.id ? 'is-selected' : ''
                     }`}
-                    onClick={() => setSelectedJob(job)}
+                    onClick={() => setSelectedJobId(job.id)}
                   >
-                    <div className="flex items-start justify-between mb-2">
-                      <div className="flex-1">
-                        <div className="font-outfit font-bold text-sm text-[var(--text)] mb-1">
-                          {job.isNew && <RiseOutlined className="text-[#ee1212] mr-1" />}
-                          {job.name}
+                    <div className="flex items-start justify-between gap-3 mb-2">
+                      <div className="min-w-0">
+                        <div className="font-outfit font-bold text-sm text-[var(--text)] mb-1 truncate">
+                          {job.title}
                         </div>
-                        <div className="text-xs text-[var(--text-dim)]">{job.category}</div>
-                      </div>
-                      <div className="text-right">
-                        <div
-                          className="font-jetbrains font-bold text-sm"
-                          style={{ color: getTrendColor(job.trend) }}
-                        >
-                          {job.growth}
+                        <div className="text-xs text-[var(--text-dim)] truncate">
+                          {cleanIndustry(job.primaryIndustry)}
                         </div>
-                        <div className="text-[10px] text-[var(--text-dim)]">{job.monthlyJobs} 个职位</div>
                       </div>
+                      <span
+                        className="emerging-status-badge"
+                        style={{ color: getStatusColor(job.reviewStatusCode) }}
+                      >
+                        {job.reviewStatus}
+                      </span>
                     </div>
-                    <div className="flex flex-wrap gap-1">
-                      {job.keySkills.slice(0, 3).map((skill) => (
-                      <span key={skill} className="text-[10px] px-1.5 py-0.5 bg-[rgba(228,181,146,0.08)] text-[#e4b592] border border-[rgba(228,181,146,0.28)]">
-                          {skill}
-                        </span>
-                      ))}
-                      {job.keySkills.length > 3 && (
-                        <span className="text-[10px] text-[var(--text-dim)]">+{job.keySkills.length - 3}</span>
-                      )}
+                    <div className="flex items-center justify-between gap-3 font-jetbrains text-[10px] text-[var(--text-dim)]">
+                      <span><DatabaseOutlined /> {formatNumber(job.jdCount)} JD</span>
+                      <span><TeamOutlined /> {formatNumber(job.companyCount)} 公司</span>
                     </div>
-                  </div>
+                  </button>
                 ))}
+                {!loading && filteredJobs.length === 0 && (
+                  <div className="emerging-empty-state">
+                    没有符合当前搜索和筛选条件的岗位定义。
+                  </div>
+                )}
               </div>
             </div>
           </div>
 
-          {/* Right: Details and charts */}
           <div className="emerging-insight-stack space-y-6">
-            {/* Job detail */}
-            <div className="archive-panel glass rounded-2xl p-6">
-              <FrameCorners />
-              <div className="flex justify-between items-start mb-4">
-                <div className="flex-1">
-                  <div className="flex items-center gap-2 mb-2">
-                    {selectedJob.isNew && <RiseOutlined className="text-xl text-[#ee1212]" />}
-                    <h2 className="font-outfit font-extrabold text-2xl text-[var(--text)]">{selectedJob.name}</h2>
+            {selectedJob ? (
+              <>
+                <div className="archive-panel glass rounded-2xl p-6">
+                  <FrameCorners />
+                  <div className="emerging-detail-heading">
+                    <div className="min-w-0">
+                      <div className="flex items-center gap-2 mb-2 flex-wrap">
+                        <RiseOutlined className="text-xl text-[#ee1212]" />
+                        <h2 className="font-outfit font-extrabold text-2xl text-[var(--text)]">
+                          {selectedJob.title}
+                        </h2>
+                        <span
+                          className="emerging-status-badge emerging-status-badge--large"
+                          style={{ color: getStatusColor(selectedJob.reviewStatusCode) }}
+                        >
+                          {selectedJob.reviewStatus}
+                        </span>
+                      </div>
+                      <div className="flex items-center gap-4 text-sm text-[var(--text-dim)] flex-wrap">
+                        <span><TagsOutlined /> {cleanIndustry(selectedJob.primaryIndustry)}</span>
+                        <span><DatabaseOutlined /> {formatNumber(selectedJob.jdCount)} 条 JD</span>
+                        <span><TeamOutlined /> {formatNumber(selectedJob.companyCount)} 家公司</span>
+                      </div>
+                    </div>
+                    <div className="emerging-definition-id">
+                      <span>DEFINITION ID</span>
+                      <strong>{selectedJob.id}</strong>
+                    </div>
                   </div>
-                  <div className="flex items-center gap-4 text-sm text-[var(--text-dim)]">
-                    <span><TagsOutlined /> {selectedJob.category}</span>
-                    <span><BarChartOutlined /> {selectedJob.avgSalary}</span>
-                    <span><LineChartOutlined /> {selectedJob.monthlyJobs} 个职位/月</span>
+
+                  <div className="emerging-detail-grid mt-6">
+                    <div>
+                      <div className="emerging-section-label">核心职责</div>
+                      <div className="emerging-responsibility-list">
+                        {selectedJob.responsibilities.map((item) => (
+                          <div key={item}><span>+</span>{item}</div>
+                        ))}
+                      </div>
+                    </div>
+                    <div className="emerging-facts">
+                      <div><span>LLM 精炼</span><strong>{selectedJob.llmRefined ? '是' : '否'}</strong></div>
+                      <div><span>必备技术词</span><strong>{selectedJob.requiredSkills.length}</strong></div>
+                      <div><span>加分技术词</span><strong>{selectedJob.bonusSkills.length}</strong></div>
+                      <div><span>去重 JD</span><strong>{formatNumber(selectedJob.jdCount)}</strong></div>
+                    </div>
+                  </div>
+
+                  <div className="emerging-detail-section">
+                    <div className="emerging-section-label"><SafetyCertificateOutlined /> 必备技术词</div>
+                    <div className="flex flex-wrap gap-2">
+                      {selectedJob.requiredSkills.map((skill) => skillChip(skill, 'required'))}
+                    </div>
+                  </div>
+
+                  <div className="emerging-detail-section">
+                    <div className="emerging-section-label"><RiseOutlined /> 加分技术词</div>
+                    <div className="flex flex-wrap gap-2">
+                      {selectedJob.bonusSkills.map((skill) => skillChip(skill, 'bonus'))}
+                    </div>
+                  </div>
+
+                  <div className="emerging-detail-section emerging-detail-columns">
+                    <div>
+                      <div className="emerging-section-label"><EnvironmentOutlined /> 行业场景</div>
+                      <div className="emerging-inline-list">
+                        {jobIndustryLabels(selectedJob).map((scene) => <span key={scene}>{scene}</span>)}
+                      </div>
+                    </div>
+                    <div>
+                      <div className="emerging-section-label"><TeamOutlined /> 代表公司</div>
+                      <div className="emerging-inline-list">
+                        {selectedJob.representativeCompanies.slice(0, 6).map((company) => <span key={company}>{company}</span>)}
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="emerging-source-note">
+                    <FileSearchOutlined />
+                    别称：{selectedJob.aliases.slice(0, 5).join(' · ') || '暂无别称'}
                   </div>
                 </div>
-                <div className="text-right">
-                  <div
-                    className="font-jetbrains font-black text-3xl mb-1"
-                    style={{ color: getTrendColor(selectedJob.trend) }}
-                  >
-                    {selectedJob.growth}
+
+                <div className="emerging-chart-grid">
+                  <div className="archive-panel chart-archive-panel glass rounded-2xl p-6">
+                    <FrameCorners />
+                    <h3 className="font-outfit font-bold text-base text-[var(--text)] mb-1">
+                      <BarChartOutlined /> 当前岗位技能频率
+                    </h3>
+                    <p className="text-xs text-[var(--text-dim)] mb-4">来自岗位定义表中的技能百分比</p>
+                    {selectedSkillChart.length > 0 ? (
+                      <ResponsiveContainer width="100%" height={300}>
+                        <BarChart data={selectedSkillChart} layout="vertical" margin={{ left: 12, right: 18 }}>
+                          <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,243,234,0.1)" />
+                          <XAxis type="number" domain={[0, 'dataMax']} tick={{ fill: '#a49b92', fontSize: 10 }} />
+                          <YAxis dataKey="name" type="category" width={96} tick={{ fill: '#a49b92', fontSize: 10 }} />
+                          <Tooltip
+                            formatter={(value) => [`${value}%`, '出现比例']}
+                            contentStyle={{ background: '#000000', border: '1px solid rgba(228,181,146,0.35)', borderRadius: 0 }}
+                            labelStyle={{ color: '#fff3ea' }}
+                          />
+                          <Bar dataKey="percentage" fill="#e4b592" radius={[0, 0, 0, 0]} />
+                        </BarChart>
+                      </ResponsiveContainer>
+                    ) : (
+                      <div className="emerging-empty-state">该岗位没有可绘制的百分比字段，技术词仍可在上方查看。</div>
+                    )}
                   </div>
-                  <div className="flex items-center gap-1 text-xs">
-                    <span className="text-[var(--text-dim)]">置信度</span>
-                    <span className="badge-conf">{selectedJob.confidence}%</span>
+
+                  <div className="archive-panel chart-archive-panel glass rounded-2xl p-6">
+                    <FrameCorners />
+                    <h3 className="font-outfit font-bold text-base text-[var(--text)] mb-1">
+                      <RiseOutlined /> 行业 JD 覆盖
+                    </h3>
+                    <p className="text-xs text-[var(--text-dim)] mb-4">来自新岗位定义表的行业分布汇总</p>
+                    <ResponsiveContainer width="100%" height={300}>
+                      <BarChart data={industryChart} layout="vertical" margin={{ left: 12, right: 18 }}>
+                        <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,243,234,0.1)" />
+                        <XAxis type="number" tick={{ fill: '#a49b92', fontSize: 10 }} />
+                        <YAxis dataKey="name" type="category" width={96} tick={{ fill: '#a49b92', fontSize: 10 }} />
+                        <Tooltip
+                          formatter={(value) => [formatNumber(Number(value)), 'JD 数']}
+                          contentStyle={{ background: '#000000', border: '1px solid rgba(228,181,146,0.35)', borderRadius: 0 }}
+                          labelStyle={{ color: '#fff3ea' }}
+                        />
+                        <Bar dataKey="jdCount" fill="#dad0c8" radius={[0, 0, 0, 0]} />
+                      </BarChart>
+                    </ResponsiveContainer>
                   </div>
                 </div>
+              </>
+            ) : (
+              <div className="archive-panel glass emerging-empty-detail">
+                <FrameCorners />
+                <DatabaseOutlined />
+                <strong>没有可展示的岗位定义</strong>
+                <span>请清空筛选条件，或检查后端和本地数据快照是否已生成。</span>
               </div>
-
-              <p className="text-sm text-[var(--text-dim)] mb-4 leading-relaxed">{selectedJob.description}</p>
-
-              <div>
-                <div className="text-sm font-medium text-[var(--text)] mb-2"><SafetyCertificateOutlined /> 核心技能要求</div>
-                <div className="flex flex-wrap gap-2">
-                  {selectedJob.keySkills.map((skill) => (
-                    <span key={skill} className="tag tag-purple">
-                      {skill}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            {/* Skill timeline chart */}
-            <div className="archive-panel chart-archive-panel glass rounded-2xl p-6">
-              <FrameCorners />
-              <h3 className="font-outfit font-bold text-base text-[var(--text)] mb-4"><LineChartOutlined /> 技能需求趋势（近7个月）</h3>
-              <ResponsiveContainer width="100%" height={250}>
-                <LineChart data={trends?.timeline ?? []}>
-                  <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,243,234,0.1)" />
-                  <XAxis dataKey="month" tick={{ fill: '#a49b92', fontSize: 11 }} />
-                  <YAxis tick={{ fill: '#a49b92', fontSize: 11 }} />
-                  <Tooltip
-                    contentStyle={{
-                      background: '#000000',
-                      border: '1px solid rgba(228,181,146,0.35)',
-                      borderRadius: 0,
-                    }}
-                    labelStyle={{ color: '#fff3ea' }}
-                  />
-                  <Legend wrapperStyle={{ fontSize: 12 }} />
-                  {(trends?.hot_skills ?? []).slice(0, 4).map((skill, index) => <Line key={skill.name} type="monotone" dataKey={skill.name} stroke={['#e4b592', '#fff3ea', '#dad0c8', '#ee1212'][index]} strokeWidth={2} dot={{ r: 3 }} />)}
-                </LineChart>
-              </ResponsiveContainer>
-              {trends && trends.timeline.length === 0 && <div className="text-xs text-[var(--text-dim)] text-center mt-[-130px] relative">暂无带发布时间的历史 JD，无法生成近 7 个月趋势</div>}
-            </div>
-
-            {/* Hot skills */}
-            <div className="archive-panel chart-archive-panel glass rounded-2xl p-6">
-              <FrameCorners />
-              <h3 className="font-outfit font-bold text-base text-[var(--text)] mb-4"><FireOutlined /> 热门技能排行</h3>
-              <ResponsiveContainer width="100%" height={280}>
-                <BarChart data={trends?.hot_skills ?? []} layout="vertical">
-                  <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,243,234,0.1)" />
-                  <XAxis type="number" tick={{ fill: '#a49b92', fontSize: 11 }} />
-                  <YAxis dataKey="name" type="category" tick={{ fill: '#a49b92', fontSize: 11 }} width={100} />
-                  <Tooltip
-                    contentStyle={{
-                      background: '#000000',
-                      border: '1px solid rgba(228,181,146,0.35)',
-                      borderRadius: 0,
-                    }}
-                    labelStyle={{ color: '#fff3ea' }}
-                  />
-                  <Bar dataKey="count" fill="#e4b592" radius={[0, 0, 0, 0]} />
-                </BarChart>
-              </ResponsiveContainer>
-              {trends && trends.hot_skills.length === 0 && <div className="text-xs text-[var(--text-dim)] text-center mt-[-145px] relative">暂无可统计的技能需求数据</div>}
-            </div>
+            )}
           </div>
+        </div>
+
+        <div className="emerging-source-footer">
+          <span><DatabaseOutlined /> SOURCE SNAPSHOT / {snapshot?.version ?? 'LOADING'}</span>
+          <span>{summary?.averageJdPerDefinition ?? 0} JD / DEFINITION</span>
+          <span>原始文件：新岗位定义.xlsx + 新岗位定义_技术词.xlsx</span>
         </div>
       </div>
     </div>
