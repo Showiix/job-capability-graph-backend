@@ -1141,7 +1141,7 @@ select option,
 
 .archive-photo {
   position: absolute;
-  width: clamp(210px, 18vw, 280px);
+  width: clamp(168px, 15vw, 228px);
   padding: 0;
   text-align: left;
   color: var(--apollo-ink);

@@ -43,14 +43,23 @@ const ARCHIVE_ACTIONS: ArchiveAction[] = [
     coord: 'HIRING OPS',
   },
   {
-    id: 'evolution',
-    path: '/evolution',
+    id: 'emerging',
+    path: '/emerging',
     image: trendsImage,
     meta: 'GALLERY 04',
-    title: '动态演化',
-    coord: 'TREND ARCHIVE',
+    title: '新兴岗位',
+    coord: 'MARKET RADAR',
   },
 ]
+
+const CENTER_ACTION: ArchiveAction = {
+  id: 'evolution',
+  path: '/evolution',
+  image: trendsImage,
+  meta: 'CENTER / 05',
+  title: '动态演化',
+  coord: 'TREND ARCHIVE',
+}
 
 function Starfield() {
   const stars = useRef(
@@ -145,16 +154,16 @@ export default function SpaceHomePage() {
           <div className="moon-stage__rings" />
           <button
             className="moon-stage__moon"
-            onClick={() => openArchive(activeAction)}
-            aria-label={`打开${activeAction.title}`}
+            onClick={() => openArchive(CENTER_ACTION)}
+            aria-label={`打开${CENTER_ACTION.title}`}
           >
             <img src={moonImage} alt="月球表面档案主视觉" />
             <span className="moon-stage__moon-target">
               <span>ACTIVE TARGET</span>
-              <strong>{activeAction.title}</strong>
+              <strong>{CENTER_ACTION.title}</strong>
             </span>
-            <span className="moon-stage__moon-label">
-              <NodeIndexOutlined /> OPEN {activeAction.coord}
+              <span className="moon-stage__moon-label">
+              <NodeIndexOutlined /> OPEN {CENTER_ACTION.coord}
             </span>
           </button>
         </div>
