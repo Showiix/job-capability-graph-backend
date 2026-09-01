@@ -5,6 +5,7 @@ from app.auth.router import router as auth_router
 from app.catalog.router import router as catalog_router
 from app.discovery.router import router as discovery_router
 from app.discovery.emerging_router import router as emerging_jobs_router
+from app.discovery.evolution_router import router as evolution_router
 from app.files.router import router as files_router
 from app.graph.jd_router import router as jd_graph_router
 from app.graph.router import read_router as graph_read_router
@@ -24,6 +25,7 @@ api_router.include_router(admin_users_router)
 api_router.include_router(catalog_router)
 api_router.include_router(discovery_router)
 api_router.include_router(emerging_jobs_router)
+api_router.include_router(evolution_router)
 api_router.include_router(files_router)
 api_router.include_router(graph_router)
 api_router.include_router(graph_read_router)

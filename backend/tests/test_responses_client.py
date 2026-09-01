@@ -63,3 +63,31 @@ async def test_structured_client_posts_strict_responses_schema() -> None:
     assert body["stream"] is False
     assert "tools" not in body
     assert result.payload.value == "ok"
+
+
+async def test_structured_client_sends_image_to_responses_api() -> None:
+    captured = {}
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        captured["body"] = json.loads(request.content)
+        return httpx.Response(
+            200, json=completed_response(json.dumps({"value": "text"}))
+        )
+
+    async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as http:
+        await StructuredResponsesClient(http=http).generate(
+            url="https://provider.test/v1/responses",
+            api_key="secret",
+            model="vision-model",
+            instructions="transcribe",
+            input_text="read image",
+            input_image=b"jpeg-bytes",
+            input_image_media_type="image/jpeg",
+            schema_name="image_v1",
+            response_model=DemoPayload,
+            metadata={"operation": "image"},
+        )
+
+    content = captured["body"]["input"][0]["content"]
+    assert content[1]["type"] == "input_image"
+    assert content[1]["image_url"].startswith("data:image/jpeg;base64,")

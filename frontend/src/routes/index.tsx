@@ -6,6 +6,7 @@ import SpaceGraphPage from '../pages/SpaceGraphPage';
 import ApplicantFlowPage from '../pages/ApplicantFlowPage';
 import HRWorkspacePage from '../pages/HRWorkspacePage';
 import EmergingJobsPage from '../pages/EmergingJobsPage';
+import CapabilityEvolutionPage from '../pages/CapabilityEvolutionPage';
 import ReviewCenterPage from '../pages/ReviewCenterPage';
 import AdminCenterPage from '../pages/AdminCenterPage';
 
@@ -26,6 +27,7 @@ const RoutedApp = () => {
           <Route path="/hr" element={<HRWorkspacePage />} />
           <Route path="/hr-match" element={<HRWorkspacePage />} />
           <Route path="/emerging" element={<EmergingJobsPage />} />
+          <Route path="/evolution" element={<CapabilityEvolutionPage />} />
           <Route path="/new-jobs" element={<EmergingJobsPage />} />
           <Route path="/review" element={<ReviewCenterPage />} />
           <Route path="/admin" element={<AdminCenterPage />} />

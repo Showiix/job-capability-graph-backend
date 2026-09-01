@@ -51,6 +51,9 @@ storage = FileStorage(get_settings().file_storage_root)
 ALLOWED_RESUME_MEDIA_TYPES = {
     "pdf": {"application/pdf", "application/octet-stream"},
     "docx": {DOCX_MEDIA_TYPE, "application/octet-stream"},
+    "jpg": {"image/jpeg", "application/octet-stream"},
+    "jpeg": {"image/jpeg", "application/octet-stream"},
+    "png": {"image/png", "application/octet-stream"},
 }
 
 
@@ -92,8 +95,7 @@ async def map_resume_skills(
         by_name[normalized_name].append(candidate)
 
     candidates = [
-        max(values, key=skill_rank)
-        for _name, values in sorted(by_name.items())
+        max(values, key=skill_rank) for _name, values in sorted(by_name.items())
     ]
 
     resolution_result = await resolve_capability_labels(
@@ -128,9 +130,7 @@ async def map_resume_skills(
         )
         mapped_with_sources.append((mapped, candidate))
 
-    selected = [
-        pair for pair in mapped_with_sources if pair[0].capability_id is None
-    ]
+    selected = [pair for pair in mapped_with_sources if pair[0].capability_id is None]
     by_capability: dict[UUID, list[tuple[MappedResumeSkill, dict]]] = defaultdict(list)
     for pair in mapped_with_sources:
         if pair[0].capability_id is not None:
@@ -181,9 +181,7 @@ async def complete_run_for_profile(
     )
     warnings = profile.structured_payload.get("validation_warnings", [])
     result = {
-        "result_url": (
-            f"/api/v1/resumes/{resume.id}/profiles/{profile.version_no}"
-        ),
+        "result_url": (f"/api/v1/resumes/{resume.id}/profiles/{profile.version_no}"),
         "resume_id": str(resume.id),
         "profile_id": str(profile.id),
         "profile_version": profile.version_no,
@@ -392,9 +390,9 @@ async def create_resume(
     if len(original_name) > 255:
         raise APIError(422, "VALIDATION_FAILED", "简历文件名过长")
     extension = Path(original_name).suffix.lower().lstrip(".")
-    media_type = (upload.content_type or "application/octet-stream").split(";", 1)[
-        0
-    ].lower()
+    media_type = (
+        (upload.content_type or "application/octet-stream").split(";", 1)[0].lower()
+    )
     if (
         extension not in ALLOWED_RESUME_MEDIA_TYPES
         or media_type not in ALLOWED_RESUME_MEDIA_TYPES[extension]
@@ -402,7 +400,7 @@ async def create_resume(
         raise APIError(
             415,
             "RESUME_FILE_TYPE_UNSUPPORTED",
-            "仅支持 PDF 或 DOCX 简历",
+            "仅支持 PDF、DOCX、JPG 或 PNG 简历",
         )
 
     normalized_display_name = (display_name or "").strip() or original_name
@@ -453,7 +451,11 @@ async def create_resume(
         uploaded_by_user_id=actor.id,
         original_name=original_name,
         storage_key=storage_key,
-        media_type="application/pdf" if document_type == "pdf" else DOCX_MEDIA_TYPE,
+        media_type={
+            "pdf": "application/pdf",
+            "docx": DOCX_MEDIA_TYPE,
+            "image": "image/png" if extension == "png" else "image/jpeg",
+        }[document_type],
         extension=extension,
         size_bytes=size_bytes,
         sha256=file_sha256,
@@ -625,15 +627,19 @@ async def list_profiles(db: AsyncSession, resume: Resume) -> list[dict]:
     base_ids = [
         profile.base_profile_id for profile in profiles if profile.base_profile_id
     ]
-    base_versions = dict(
-        (
-            await db.execute(
-                select(ResumeProfile.id, ResumeProfile.version_no).where(
-                    ResumeProfile.id.in_(base_ids)
+    base_versions = (
+        dict(
+            (
+                await db.execute(
+                    select(ResumeProfile.id, ResumeProfile.version_no).where(
+                        ResumeProfile.id.in_(base_ids)
+                    )
                 )
-            )
-        ).all()
-    ) if base_ids else {}
+            ).all()
+        )
+        if base_ids
+        else {}
+    )
     return [
         _profile_summary(profile, base_versions.get(profile.base_profile_id))
         for profile in profiles

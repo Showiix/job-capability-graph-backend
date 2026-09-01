@@ -86,9 +86,21 @@ export interface ResumeProfileDetail {
   confirmed_at: string | null
   created_at: string
   updated_at: string
-  text_extraction_method: 'pdf_text' | 'docx'
+  text_extraction_method: 'pdf_text' | 'docx' | 'image_llm'
   profile: Record<string, any>
   skills: ResumeSkillRecord[]
+}
+
+export interface ResumeDetail {
+  id: string
+  display_name: string
+  file: {
+    id: string
+    metadata_url: string
+    content_url: string
+    download_url: string
+  }
+  parse_status: string
 }
 
 export interface MatchRunReference {
@@ -371,6 +383,10 @@ export async function getResumeProfile(
   versionNo: number,
 ): Promise<ResumeProfileDetail> {
   return request.get<ResumeProfileDetail>(`/api/v1/resumes/${resumeId}/profiles/${versionNo}`)
+}
+
+export function getResume(resumeId: string): Promise<ResumeDetail> {
+  return request.get<ResumeDetail>(`/api/v1/resumes/${resumeId}`)
 }
 
 export async function confirmResumeProfile(

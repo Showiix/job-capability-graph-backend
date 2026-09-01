@@ -124,7 +124,7 @@ npm run dev
 
 当前能力：
 
-- applicant 单份上传 20 MB 以内的文字型 PDF/DOCX，获得异步 `ProcessingRun` 和轮询地址；
+- applicant 单份上传 20 MB 以内的 PDF/DOCX/JPG/PNG，获得异步 `ProcessingRun` 和轮询地址；图片先由多模态 LLM 逐字转写，再进入相同的脱敏、结构化抽取和证据校验流程；
 - 后端在本地提取正文，对手机号、Email、身份证号和微信号进行等长脱敏后才调用 Provider；
 - 使用 Responses API Structured Outputs，校验原文 exact evidence，并只与 active Capability/active Alias 精确匹配；
 - extracted Profile 不原地修改；applicant 从 candidate/confirmed 创建人工 Revision，整体替换 Draft，并为每份 Resume 保持最多一个 confirmed Profile；
@@ -304,6 +304,7 @@ Catalog 文件支持 JSON/CSV/TSV，导入类型为 `capability` 或 `job_role`�
 - `GET /api/v1/discovery-candidates/{candidate_id}`
 - `GET /api/v1/discovery-candidates/{candidate_id}/evidence`
 - `GET /api/v1/emerging-jobs`
+- `GET /api/v1/capability-evolution`
 
 创建 Discovery Run 仅限 `admin`；`admin` 和 `hr` 可以查询运行记录、候选和证据；`applicant` 不可访问。运行会复用已导入的市场 JD，先将 `tech_tags` 精确映射到 Catalog 中的 active Capability，再生成可解释的两技能共现候选。
 

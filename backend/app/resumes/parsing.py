@@ -17,6 +17,7 @@ DOCX_MEDIA_TYPE = (
     "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
 )
 DOCX_MEDIA_TYPES = {DOCX_MEDIA_TYPE, "application/octet-stream"}
+IMAGE_MEDIA_TYPES = {"image/jpeg", "image/png", "application/octet-stream"}
 MAX_RESUME_FILE_BYTES = 20 * 1024 * 1024
 MAX_DOCX_UNCOMPRESSED_BYTES = 100 * 1024 * 1024
 MAX_EXTRACTED_TEXT_CHARS = 100_000
@@ -79,6 +80,18 @@ def detect_resume_document(filename: str, media_type: str, content: bytes) -> st
             raise _unsupported_file_type()
         validate_docx_archive(content)
         return "docx"
+    if extension in {".jpg", ".jpeg"}:
+        if declared_type not in IMAGE_MEDIA_TYPES or not content.startswith(
+            b"\xff\xd8\xff"
+        ):
+            raise _unsupported_file_type()
+        return "image"
+    if extension == ".png":
+        if declared_type not in IMAGE_MEDIA_TYPES or not content.startswith(
+            b"\x89PNG\r\n\x1a\n"
+        ):
+            raise _unsupported_file_type()
+        return "image"
     raise _unsupported_file_type()
 
 

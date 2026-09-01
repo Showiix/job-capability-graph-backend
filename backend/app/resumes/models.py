@@ -76,7 +76,8 @@ class ResumeProfile(CreatedAtMixin, Base):
             "profile_source IN ('extracted','manual_revision')", name="profile_source"
         ),
         CheckConstraint(
-            "text_extraction_method IN ('pdf_text','docx')", name="extraction_method"
+            "text_extraction_method IN ('pdf_text','docx','image_llm')",
+            name="extraction_method",
         ),
         CheckConstraint(
             "status IN ('candidate','draft','confirmed','superseded')", name="status"

@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react'
-import type { CSSProperties, PointerEvent } from 'react'
+import type { CSSProperties } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { NodeIndexOutlined } from '@ant-design/icons'
 import moonImage from '../assets/apollo-moon.jpg'
@@ -87,38 +87,8 @@ function Starfield() {
 
 export default function SpaceHomePage() {
   const navigate = useNavigate()
-  const archiveRef = useRef<HTMLElement>(null)
   const [activeActionId, setActiveActionId] = useState(ARCHIVE_ACTIONS[0].id)
   const activeAction = ARCHIVE_ACTIONS.find((action) => action.id === activeActionId) ?? ARCHIVE_ACTIONS[0]
-
-  const handlePointerMove = (event: PointerEvent<HTMLDivElement>) => {
-    const rect = event.currentTarget.getBoundingClientRect()
-    const x = Math.max(0, Math.min(1, (event.clientX - rect.left) / rect.width))
-    const y = Math.max(0, Math.min(1, (event.clientY - rect.top) / rect.height))
-    event.currentTarget.style.setProperty('--focus-x', `${x * 100}%`)
-    event.currentTarget.style.setProperty('--focus-y', `${y * 100}%`)
-    event.currentTarget.style.setProperty('--moon-x', `${(0.5 - x) * 46}px`)
-    event.currentTarget.style.setProperty('--moon-y', `${(0.5 - y) * 30}px`)
-    event.currentTarget.style.setProperty('--photo-tilt-x', `${(0.5 - y) * 2.6}deg`)
-    event.currentTarget.style.setProperty('--photo-tilt-y', `${(x - 0.5) * 4.2}deg`)
-    event.currentTarget.style.setProperty('--photo-drift-x', `${(x - 0.5) * 18}px`)
-    event.currentTarget.style.setProperty('--photo-drift-y', `${(y - 0.5) * 12}px`)
-    event.currentTarget.style.setProperty('--scan-opacity', '1')
-  }
-
-  const resetFocus = () => {
-    const node = archiveRef.current
-    if (!node) return
-    node.style.setProperty('--focus-x', '52%')
-    node.style.setProperty('--focus-y', '46%')
-    node.style.setProperty('--moon-x', '-0.92px')
-    node.style.setProperty('--moon-y', '1.2px')
-    node.style.setProperty('--photo-tilt-x', '0.104deg')
-    node.style.setProperty('--photo-tilt-y', '0.084deg')
-    node.style.setProperty('--photo-drift-x', '0.36px')
-    node.style.setProperty('--photo-drift-y', '-0.48px')
-    node.style.setProperty('--scan-opacity', '0.68')
-  }
 
   const focusStyle = {
     '--focus-x': '52%',
@@ -142,17 +112,13 @@ export default function SpaceHomePage() {
       <div className="space-home__grid" />
 
       <section
-        ref={archiveRef}
         className="moon-archive"
         style={focusStyle}
-        onPointerMove={handlePointerMove}
-        onPointerLeave={resetFocus}
       >
         <div className="moon-archive__viewfinder" aria-hidden />
-        <div className="moon-archive__scanbeam" aria-hidden />
         <div className="moon-archive__compass" aria-hidden>
           <span>AZ 042</span>
-          <span>FOCUS SERVO</span>
+          <span>ARCHIVE INDEX</span>
           <span>EL 118</span>
         </div>
         <div className="moon-archive__meter" aria-hidden>
@@ -191,7 +157,6 @@ export default function SpaceHomePage() {
               <NodeIndexOutlined /> OPEN {activeAction.coord}
             </span>
           </button>
-          <div className="moon-archive__focus" aria-hidden />
         </div>
 
         <div className="archive-photo-field" aria-label="档案入口">

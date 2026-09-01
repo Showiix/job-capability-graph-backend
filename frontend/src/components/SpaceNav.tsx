@@ -28,6 +28,7 @@ const NAV_ITEMS: NavItem[] = [
   { path: '/applicant', label: '简历评估', icon: <FileSearchOutlined /> },
   { path: '/hr', label: 'HR 工作台', icon: <TeamOutlined /> },
   { path: '/emerging', label: '新岗位', icon: <RiseOutlined /> },
+  { path: '/evolution', label: '动态演化', icon: <RiseOutlined /> },
   { path: '/review', label: '审核中心', icon: <SafetyCertificateOutlined /> },
   { path: '/admin', label: '管理员', icon: <SettingOutlined /> },
 ]

@@ -35,6 +35,7 @@ import {
   retryProcessingRun,
   cancelProcessingRun,
   getRecommendationDetail,
+  getResume,
   getResumeProfile,
   type GrowthPathRead,
   type MatchResultListItem,
@@ -94,7 +95,10 @@ function sleep(ms: number) {
 }
 
 function apiErrorMessage(error: unknown) {
-  const value = error as { apiMessage?: string; message?: string }
+  const value = error as { apiCode?: string; apiMessage?: string; message?: string }
+  if (value.apiCode === 'GRAPH_VERSION_NOT_PUBLISHED') {
+    return '系统岗位图谱尚未初始化，请联系管理员执行 Catalog / Graph 初始化；这不是当前账号的权限问题。'
+  }
   return value.apiMessage || value.message || '请求失败，请稍后重试'
 }
 
@@ -177,7 +181,7 @@ function radarData(result: MatchResultListItem | null) {
 }
 
 function validateResumeFile(file: File) {
-  if (!/\.(pdf|docx)$/i.test(file.name)) return '仅支持 PDF / Word (.docx) 简历'
+  if (!/\.(pdf|docx|jpe?g|png)$/i.test(file.name)) return '仅支持 PDF、Word、JPG 或 PNG 简历'
   if (file.size > MAX_RESUME_BYTES) return '简历文件不能超过 20 MB'
   return null
 }
@@ -284,6 +288,7 @@ export default function ApplicantFlowPage() {
   const [currentRun, setCurrentRun] = useState<ProcessingRunResponse | null>(null)
   const [resumeRunResult, setResumeRunResult] = useState<ResumeProcessingResult | null>(null)
   const [resumeProfile, setResumeProfile] = useState<ResumeProfileDetail | null>(null)
+  const [resumeContentUrl, setResumeContentUrl] = useState<string | null>(null)
   const [workflowError, setWorkflowError] = useState<string | null>(null)
   const [activeTab, setActiveTab] = useState<ActiveTab>('radar')
   const [recommendationLoading, setRecommendationLoading] = useState(false)
@@ -419,6 +424,7 @@ export default function ApplicantFlowPage() {
     setCurrentRun(null)
     setResumeRunResult(null)
     setResumeProfile(null)
+    setResumeContentUrl(null)
     setRecommendations(null)
     setSelectedJobRoleId(null)
     setSelectedMatchDetail(null)
@@ -468,8 +474,10 @@ export default function ApplicantFlowPage() {
         if (latestRun.status === 'completed') {
           const result = await getProcessingRunResult(created.run_id)
           const profile = await getResumeProfile(created.resource_id, result.profile_version)
+          const resume = await getResume(created.resource_id)
           setResumeRunResult(result)
           setResumeProfile(profile)
+          setResumeContentUrl(resume.file.content_url)
           setUploadState('ready')
           setProgress(100)
           setStep(1)
@@ -530,6 +538,7 @@ export default function ApplicantFlowPage() {
   const handleDrop = (event: DragEvent<HTMLDivElement>) => {
     event.preventDefault()
     setDrag(false)
+    if (!user || authLoading || uploading) return
     const file = event.dataTransfer.files[0]
     if (file) void startUpload(file)
   }
@@ -698,8 +707,8 @@ export default function ApplicantFlowPage() {
               style={{
                 border: drag ? '2px dashed #e4b592' : '2px dashed rgba(255,243,234,0.22)',
                 boxShadow: drag ? '0 0 40px rgba(228,181,146,0.1)' : 'none',
-                cursor: !uploading ? 'pointer' : 'default',
-                opacity: 1,
+                cursor: !uploading && user ? 'pointer' : 'default',
+                opacity: authLoading ? 0.72 : 1,
               }}
               onDragOver={(event) => {
                 event.preventDefault()
@@ -709,7 +718,7 @@ export default function ApplicantFlowPage() {
               onDragLeave={() => setDrag(false)}
               onDrop={handleDrop}
               onClick={() => {
-                if (!uploading) fileRef.current?.click()
+                if (!uploading && user) fileRef.current?.click()
               }}
             >
               <FrameCorners />
@@ -726,7 +735,7 @@ export default function ApplicantFlowPage() {
                   <div className="text-[13px] text-[var(--text-dim)] mb-1.5">
                     拖拽文件或点击选择，进入后自动准备免登录任务通道
                   </div>
-                  <div className="text-[11px] text-[#a49b92]">支持 PDF / Word (.docx) · 最大 20 MB</div>
+                  <div className="text-[11px] text-[#a49b92]">支持 PDF / Word / JPG / PNG · 最大 20 MB</div>
                   {workflowError && (
                     <div className="mt-5 mx-auto max-w-md border border-[rgba(238,18,18,0.45)] bg-[rgba(238,18,18,0.06)] px-3 py-2 text-left text-[12px] text-[#ee1212]">
                       <div className="flex items-center gap-2 font-semibold">
@@ -747,9 +756,10 @@ export default function ApplicantFlowPage() {
                   <div className="mt-7 flex gap-3 justify-center">
                     <button
                       className="btn btn-md btn-primary"
+                      disabled={uploading || authLoading || !user}
                       onClick={(event) => {
                         event.stopPropagation()
-                        fileRef.current?.click()
+                        if (user) fileRef.current?.click()
                       }}
                     >
                       <FolderOpenOutlined />
@@ -773,7 +783,7 @@ export default function ApplicantFlowPage() {
                 </>
               )}
             </div>
-            <input ref={fileRef} type="file" className="hidden" accept=".pdf,.docx" onChange={handleFileSelect} />
+            <input ref={fileRef} type="file" className="hidden" accept=".pdf,.docx,.jpg,.jpeg,.png" disabled={authLoading || !user} onChange={handleFileSelect} />
             <aside className="applicant-scan-rail archive-panel glass">
               <FrameCorners />
               <div className="applicant-scan-rail__eyebrow">Real backend / async run</div>
@@ -842,7 +852,10 @@ export default function ApplicantFlowPage() {
 
             <div className="archive-panel glass rounded-2xl p-6 flex flex-col gap-4">
               <FrameCorners />
-              <div className="font-outfit font-bold text-[15px] text-[var(--text)]">简历画像摘要</div>
+              <div className="flex items-center justify-between gap-3">
+                <div className="font-outfit font-bold text-[15px] text-[var(--text)]">简历画像摘要</div>
+                {resumeContentUrl && <button type="button" className="btn btn-sm btn-ghost" onClick={() => window.open(resumeContentUrl, '_blank', 'noopener,noreferrer')}><FolderOpenOutlined /> 查看上传原件</button>}
+              </div>
               <p className="text-[13px] leading-6 text-[var(--text-dim)]">{summary}</p>
               <dl className="grid grid-cols-2 gap-2 text-[12px]">
                 <div className="border border-[var(--border)] px-3 py-2">
@@ -879,7 +892,10 @@ export default function ApplicantFlowPage() {
               </div>
 
               <div className="border-t border-[var(--border)] pt-3">
-                <div className="font-jetbrains text-[9px] text-[#e4b592] uppercase tracking-[0.14em] mb-2">Evidence preview</div>
+                <div className="flex items-center justify-between gap-3 mb-2">
+                  <div className="font-jetbrains text-[9px] text-[#e4b592] uppercase tracking-[0.14em]">Evidence preview</div>
+                  {resumeContentUrl && <button type="button" className="text-[10px] text-[#e4b592]" onClick={() => window.open(resumeContentUrl, '_blank', 'noopener,noreferrer')}>查看原件</button>}
+                </div>
                 <div className="flex flex-col gap-2">
                   {[
                     ...educations.slice(0, 1).map((item: Record<string, any>) => ({
@@ -898,10 +914,10 @@ export default function ApplicantFlowPage() {
                       meta: dateRange(item),
                     })),
                   ].map((item) => (
-                    <div key={`${item.label}-${item.title}`} className="border border-[var(--border)] px-3 py-2">
+                    <button key={`${item.label}-${item.title}`} type="button" onClick={() => resumeContentUrl && window.open(resumeContentUrl, '_blank', 'noopener,noreferrer')} className="w-full border border-[var(--border)] px-3 py-2 text-left disabled:cursor-default" disabled={!resumeContentUrl}>
                       <div className="text-[11px] text-[#dad0c8]">{item.label} / {item.title}</div>
                       <div className="font-jetbrains text-[9px] text-[var(--text-dim)] mt-1">{item.meta}</div>
-                    </div>
+                    </button>
                   ))}
                 </div>
               </div>

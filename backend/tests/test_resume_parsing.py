@@ -32,10 +32,7 @@ def make_docx_bytes() -> bytes:
 
 
 def test_pdf_requires_pdf_signature() -> None:
-    assert (
-        detect_resume_document("resume.pdf", "application/pdf", b"%PDF-1.7")
-        == "pdf"
-    )
+    assert detect_resume_document("resume.pdf", "application/pdf", b"%PDF-1.7") == "pdf"
     with pytest.raises(APIError) as error:
         detect_resume_document("resume.pdf", "application/pdf", b"not-pdf")
     assert error.value.code == "RESUME_FILE_TYPE_UNSUPPORTED"
@@ -55,6 +52,19 @@ def test_docx_requires_office_zip_entries() -> None:
     assert error.value.code == "RESUME_DOCUMENT_INVALID"
 
 
+def test_resume_images_require_matching_signature() -> None:
+    assert (
+        detect_resume_document("resume.jpg", "image/jpeg", b"\xff\xd8\xffdemo")
+        == "image"
+    )
+    assert (
+        detect_resume_document("resume.png", "image/png", b"\x89PNG\r\n\x1a\ndemo")
+        == "image"
+    )
+    with pytest.raises(APIError):
+        detect_resume_document("resume.png", "image/png", b"not-png")
+
+
 def test_declared_unrelated_media_type_is_rejected() -> None:
     with pytest.raises(APIError) as error:
         detect_resume_document("resume.pdf", "image/png", b"%PDF-1.7")
@@ -64,9 +74,7 @@ def test_declared_unrelated_media_type_is_rejected() -> None:
 
 def test_octet_stream_is_allowed_only_when_signature_matches() -> None:
     assert (
-        detect_resume_document(
-            "resume.pdf", "application/octet-stream", b"%PDF-1.7"
-        )
+        detect_resume_document("resume.pdf", "application/octet-stream", b"%PDF-1.7")
         == "pdf"
     )
 

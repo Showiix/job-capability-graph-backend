@@ -2,8 +2,9 @@ from datetime import UTC, datetime, timedelta
 from uuid import uuid4
 
 import pytest_asyncio
-from sqlalchemy import select
+from sqlalchemy import delete, select
 
+from app.audit.models import AuditLog
 from app.auth.models import AuthSession, LoginAttempt, User
 from app.core.config import get_settings
 from app.core.security import hash_password, new_token, token_digest
@@ -85,6 +86,29 @@ async def test_authenticated_user_can_read_me(client, seeded_hr) -> None:
     assert response.status_code == 200
     assert response.json()["data"]["id"] == str(seeded_hr.id)
     assert response.json()["data"]["csrf_token"] == client.cookies["csrf"]
+
+
+async def test_guest_session_is_an_applicant_and_can_read_me(
+    client, db_session
+) -> None:
+    guest = await client.post("/api/v1/auth/guest")
+    me = await client.get("/api/v1/auth/me")
+
+    assert guest.status_code == 200
+    assert guest.json()["data"]["role"] == "applicant"
+    assert guest.cookies["session"]
+    assert guest.cookies["csrf"]
+    assert me.status_code == 200
+    assert me.json()["data"]["id"] == guest.json()["data"]["id"]
+
+    guest_id = guest.json()["data"]["id"]
+    await db_session.execute(delete(AuthSession).where(AuthSession.user_id == guest_id))
+    await db_session.execute(delete(AuditLog).where(AuditLog.actor_user_id == guest_id))
+    await db_session.execute(
+        delete(LoginAttempt).where(LoginAttempt.user_id == guest_id)
+    )
+    await db_session.execute(delete(User).where(User.id == guest_id))
+    await db_session.commit()
 
 
 async def test_logout_requires_csrf(client, seeded_hr) -> None:

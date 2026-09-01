@@ -50,8 +50,6 @@ const createParticles = (strandCount: number): Particle[] =>
     alpha: 0.12 + seeded(index, 15) * 0.28,
   }))
 
-const clamp01 = (value: number) => Math.max(0, Math.min(1, value))
-
 export default function DynamicSkillBackground() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
 
@@ -65,15 +63,6 @@ export default function DynamicSkillBackground() {
     const strands = createStrands()
     const particles = createParticles(strands.length)
     const motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)')
-    const mouse = {
-      x: 0.62,
-      y: 0.38,
-      tx: 0.62,
-      ty: 0.38,
-      active: false,
-      lastMove: 0,
-    }
-
     let rafId = 0
     let reducedMotion = motionQuery.matches
     let pixelRatio = Math.min(window.devicePixelRatio || 1, 1.5)
@@ -89,18 +78,7 @@ export default function DynamicSkillBackground() {
       y += secondary * strand.amplitude * height * 0.46
       y += ribbon * height * 0.01
 
-      const mx = mouse.x * width
-      const my = mouse.y * height
-      const dx = x - mx
-      const dy = y - my
-      const radius = Math.max(width, height) * (mouse.active ? 0.2 : 0.11)
-      const wake = Math.exp(-(dx * dx + dy * dy) / (radius * radius))
-      const sway = Math.sin(time * 2.35 + strand.phase) * height * 0.03
-
-      return {
-        x: x + wake * (mouse.x - 0.5) * width * 0.025,
-        y: y + wake * ((mouse.y - 0.5) * height * 0.055 + sway),
-      }
+      return { x, y }
     }
 
     const drawStrand = (strand: Strand, time: number, blur: boolean) => {
@@ -124,10 +102,6 @@ export default function DynamicSkillBackground() {
 
     const draw = (now = 0, staticFrame = false) => {
       const time = staticFrame ? 18 : now * 0.00042
-
-      mouse.x += (mouse.tx - mouse.x) * 0.055
-      mouse.y += (mouse.ty - mouse.y) * 0.055
-      if (now - mouse.lastMove > 1800) mouse.active = false
 
       ctx.clearRect(0, 0, width, height)
       ctx.globalCompositeOperation = 'source-over'
@@ -191,18 +165,6 @@ export default function DynamicSkillBackground() {
       })
       ctx.restore()
 
-      if (mouse.active) {
-        const x = mouse.x * width
-        const y = mouse.y * height
-        const radius = Math.max(width, height) * 0.16
-        const wake = ctx.createRadialGradient(x, y, 0, x, y, radius)
-        wake.addColorStop(0, 'rgba(228, 181, 146, 0.05)')
-        wake.addColorStop(0.48, 'rgba(255, 243, 234, 0.02)')
-        wake.addColorStop(1, 'rgba(228, 181, 146, 0)')
-        ctx.fillStyle = wake
-        ctx.fillRect(0, 0, width, height)
-      }
-
       const scanY = (0.18 + ((time * 0.04) % 0.7)) * height
       ctx.beginPath()
       ctx.moveTo(0, scanY)
@@ -239,26 +201,12 @@ export default function DynamicSkillBackground() {
       }
     }
 
-    const handlePointerMove = (event: PointerEvent) => {
-      mouse.tx = clamp01(event.clientX / Math.max(1, window.innerWidth))
-      mouse.ty = clamp01(event.clientY / Math.max(1, window.innerHeight))
-      mouse.active = true
-      mouse.lastMove = performance.now()
-      if (reducedMotion) draw(performance.now(), true)
-    }
-
-    const handlePointerLeave = () => {
-      mouse.active = false
-    }
-
     const handleMotionChange = () => {
       reducedMotion = motionQuery.matches
       start()
     }
 
     window.addEventListener('resize', resize)
-    window.addEventListener('pointermove', handlePointerMove, { passive: true })
-    window.addEventListener('pointerleave', handlePointerLeave)
     motionQuery.addEventListener('change', handleMotionChange)
 
     start()
@@ -266,8 +214,6 @@ export default function DynamicSkillBackground() {
     return () => {
       cancelAnimationFrame(rafId)
       window.removeEventListener('resize', resize)
-      window.removeEventListener('pointermove', handlePointerMove)
-      window.removeEventListener('pointerleave', handlePointerLeave)
       motionQuery.removeEventListener('change', handleMotionChange)
     }
   }, [])

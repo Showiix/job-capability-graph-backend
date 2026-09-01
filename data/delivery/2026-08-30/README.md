@@ -7,6 +7,7 @@ Catalog、Review、GraphVersion 和 Neo4j 发布流程直接写入生产。
 
 - `catalog_job_roles.json`：112 个岗位目录输入。
 - `catalog_capabilities.json`：6031 个能力目录输入；短标识和实体类型污染仍需审核。
+- `catalog_seed.sql`：空演示库一次性初始化 Catalog 与 published Graph 水位。
 - `job_role_capabilities_map.json`：4368 条岗位能力聚合关系。
 - `capability_updates_enriched.json`：524 个岗位、4007 条能力演化候选及 JD 证据。
 - `phase1_time_lag_report.json`：GitHub 公开仓库信号到 JD 时间窗口的近似结果。
@@ -25,6 +26,18 @@ uv run python -m scripts.import_capability_updates --actor <admin-username>
 
 导入是幂等的；同一来源版本、岗位、能力和变化类型生成稳定 UUID，重复执行只跳过已存在
 候选。所有变化默认进入 `pending`，不直接修改正式 Catalog 或 Neo4j。
+
+全新演示环境如果岗位推荐提示 `GRAPH_VERSION_NOT_PUBLISHED`，先创建 admin，再在仓库根目录
+对空库执行一次：
+
+```bash
+psql "postgresql://job_graph:job_graph_dev@127.0.0.1:5432/job_graph" \
+  -v ON_ERROR_STOP=1 \
+  -f data/delivery/2026-08-30/catalog_seed.sql
+```
+
+该 SQL 仅用于空演示库初始化；已有正式 Catalog/Graph 的环境不要执行。普通 Applicant 不需要
+登录，也不负责执行初始化。
 
 ## 证据边界
 

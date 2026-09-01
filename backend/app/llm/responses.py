@@ -1,4 +1,5 @@
 import asyncio
+import base64
 import hashlib
 import json
 import logging
@@ -57,19 +58,31 @@ class StructuredResponsesClient:
         model: str,
         instructions: str,
         input_text: str,
+        input_image: bytes | None = None,
+        input_image_media_type: str | None = None,
         schema_name: str,
         response_model: type[T],
         metadata: dict[str, str],
         max_output_tokens: int = 5000,
         request_id: str | None = None,
     ) -> StructuredResponseResult[T]:
+        content: list[dict[str, Any]] = [{"type": "input_text", "text": input_text}]
+        if input_image is not None and input_image_media_type is not None:
+            encoded = base64.b64encode(input_image).decode("ascii")
+            content.append(
+                {
+                    "type": "input_image",
+                    "image_url": f"data:{input_image_media_type};base64,{encoded}",
+                    "detail": "high",
+                }
+            )
         body = {
             "model": model,
             "instructions": instructions,
             "input": [
                 {
                     "role": "user",
-                    "content": [{"type": "input_text", "text": input_text}],
+                    "content": content,
                 }
             ],
             "text": {
@@ -93,6 +106,20 @@ class StructuredResponsesClient:
                 ensure_ascii=False,
                 separators=(",", ":"),
             )
+            message_content: str | list[dict[str, Any]] = input_text
+            if input_image is not None and input_image_media_type is not None:
+                encoded = base64.b64encode(input_image).decode("ascii")
+                message_content = [
+                    {
+                        "type": "image",
+                        "source": {
+                            "type": "base64",
+                            "media_type": input_image_media_type,
+                            "data": encoded,
+                        },
+                    },
+                    {"type": "text", "text": input_text},
+                ]
             body = {
                 "model": model,
                 "max_tokens": max(max_output_tokens, DEEPSEEK_MAX_TOKENS),
@@ -100,7 +127,7 @@ class StructuredResponsesClient:
                     f"{instructions}\n必须严格按以下 JSON Schema 输出一个 JSON 对象，"
                     f"不要输出 Markdown 或额外字段：{schema}"
                 ),
-                "messages": [{"role": "user", "content": input_text}],
+                "messages": [{"role": "user", "content": message_content}],
                 "stream": False,
             }
             headers = {
