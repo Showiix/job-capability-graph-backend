@@ -1222,11 +1222,16 @@ select option,
   --archive-photo-angle: 2.2deg;
 }
 
-.archive-photo--emerging,
-.archive-photo--evolution {
+.archive-photo--emerging {
   right: clamp(42px, 11vw, 176px);
   bottom: 12%;
   --archive-photo-angle: -2.5deg;
+}
+
+.archive-photo--evolution {
+  left: calc(50% - clamp(105px, 9vw, 140px));
+  bottom: 1.5%;
+  --archive-photo-angle: 0deg;
 }
 
 .archive-photo__frame {
@@ -1431,9 +1436,12 @@ select option,
     animation-delay: 0.34s;
   }
 
-  .archive-photo--emerging,
-  .archive-photo--evolution {
+  .archive-photo--emerging {
     animation-delay: 0.42s;
+  }
+
+  .archive-photo--evolution {
+    animation-delay: 0.5s;
   }
 }
 
