@@ -1205,33 +1205,33 @@ select option,
 }
 
 .archive-photo--graph {
-  left: clamp(22px, 4vw, 64px);
-  top: 14%;
-  --archive-photo-angle: -1.5deg;
+  left: clamp(24px, 7vw, 110px);
+  top: 16%;
+  --archive-photo-angle: -3deg;
 }
 
 .archive-photo--applicant {
-  left: clamp(22px, 4vw, 64px);
-  top: 55%;
-  --archive-photo-angle: 1.5deg;
+  right: clamp(22px, 7vw, 108px);
+  top: 13%;
+  --archive-photo-angle: 2.5deg;
 }
 
 .archive-photo--hr {
-  right: clamp(22px, 4vw, 64px);
-  top: 7%;
-  --archive-photo-angle: 1.5deg;
+  left: clamp(42px, 12vw, 190px);
+  bottom: 14%;
+  --archive-photo-angle: 2.2deg;
 }
 
 .archive-photo--emerging {
-  right: clamp(22px, 4vw, 64px);
-  top: 39%;
-  --archive-photo-angle: -1.5deg;
+  right: clamp(42px, 11vw, 176px);
+  bottom: 12%;
+  --archive-photo-angle: -2.5deg;
 }
 
 .archive-photo--evolution {
-  right: clamp(22px, 4vw, 64px);
-  bottom: 4%;
-  --archive-photo-angle: 1deg;
+  left: calc(50% - clamp(105px, 9vw, 140px));
+  bottom: 1.5%;
+  --archive-photo-angle: 0deg;
 }
 
 .archive-photo__frame {
