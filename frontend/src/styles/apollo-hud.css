@@ -1222,7 +1222,8 @@ select option,
   --archive-photo-angle: 2.2deg;
 }
 
-.archive-photo--emerging {
+.archive-photo--emerging,
+.archive-photo--evolution {
   right: clamp(42px, 11vw, 176px);
   bottom: 12%;
   --archive-photo-angle: -2.5deg;
@@ -1430,7 +1431,8 @@ select option,
     animation-delay: 0.34s;
   }
 
-  .archive-photo--emerging {
+  .archive-photo--emerging,
+  .archive-photo--evolution {
     animation-delay: 0.42s;
   }
 }
@@ -1529,7 +1531,8 @@ select option,
   .archive-photo--graph,
   .archive-photo--applicant,
   .archive-photo--hr,
-  .archive-photo--emerging {
+  .archive-photo--emerging,
+  .archive-photo--evolution {
     position: relative;
     inset: auto;
     left: auto;

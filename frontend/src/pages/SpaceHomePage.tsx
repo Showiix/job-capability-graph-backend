@@ -43,12 +43,12 @@ const ARCHIVE_ACTIONS: ArchiveAction[] = [
     coord: 'HIRING OPS',
   },
   {
-    id: 'emerging',
-    path: '/emerging',
+    id: 'evolution',
+    path: '/evolution',
     image: trendsImage,
     meta: 'GALLERY 04',
-    title: '新兴岗位',
-    coord: 'MARKET RADAR',
+    title: '动态演化',
+    coord: 'TREND ARCHIVE',
   },
 ]
 
