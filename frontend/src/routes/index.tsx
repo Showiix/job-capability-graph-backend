@@ -4,7 +4,7 @@ import ArchiveReturnHome from '../components/ArchiveReturnHome';
 import SpaceHomePage from '../pages/SpaceHomePage';
 import SpaceGraphPage from '../pages/SpaceGraphPage';
 import ApplicantFlowPage from '../pages/ApplicantFlowPage';
-import HRWorkspacePage from '../pages/HRWorkspacePage';
+import HRWorkspacePage from '../pages/HRWorkspacePageV2';
 import EmergingJobsPage from '../pages/EmergingJobsPage';
 import CapabilityEvolutionPage from '../pages/CapabilityEvolutionPage';
 import ReviewCenterPage from '../pages/ReviewCenterPage';
