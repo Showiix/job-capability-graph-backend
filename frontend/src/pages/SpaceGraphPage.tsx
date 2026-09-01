@@ -11,6 +11,8 @@ import {
 import { GraphScene3D } from '../components/GraphScene3D'
 import { FrameCorners } from '../components/FrameCorners'
 import { fetchGraphData } from '../services/graphApi'
+import FadeContent from '../components/reactbits/FadeContent/FadeContent'
+import CountUp from '../components/reactbits/CountUp/CountUp'
 import type { GraphData, Planet, Star } from '../types/graph'
 import { findGraphStarForRole } from '../utils/graphRoleMatch'
 
@@ -312,6 +314,7 @@ export default function SpaceGraphPage() {
       )}
 
       <div className="graph-workspace">
+        <FadeContent duration={700} threshold={0.05}>
         <aside className="graph-control-panel archive-panel glass">
           <FrameCorners />
           <div className="graph-control-panel__kicker">Orbit map / JD field</div>
@@ -380,15 +383,15 @@ export default function SpaceGraphPage() {
           <div className="graph-data-strip">
             <div>
               <span>显示岗位</span>
-              <strong>{visibleStars.length}</strong>
+              <strong><CountUp to={visibleStars.length} duration={1.1} /></strong>
             </div>
             <div>
               <span>技能节点</span>
-              <strong>{visiblePlanets.length}</strong>
+              <strong><CountUp to={visiblePlanets.length} duration={1.1} /></strong>
             </div>
             <div>
               <span>JD 总量</span>
-              <strong>{totalJobs.toLocaleString('zh-CN')}</strong>
+              <strong><CountUp to={totalJobs} separator="," duration={1.5} /></strong>
             </div>
           </div>
 
@@ -419,6 +422,7 @@ export default function SpaceGraphPage() {
             </div>
           )}
         </aside>
+        </FadeContent>
 
         <section className="graph-canvas-frame graph-canvas-frame--archive relative overflow-hidden">
           <FrameCorners />
@@ -438,8 +442,8 @@ export default function SpaceGraphPage() {
           />
 
           <div className="graph-canvas-readout archive-panel glass">
-            <span>{visibleStars.length} JOB NODES</span>
-            <strong>{visiblePlanets.length} SKILL ORBITS</strong>
+            <span><CountUp to={visibleStars.length} duration={1.1} /> JOB NODES</span>
+            <strong><CountUp to={visiblePlanets.length} duration={1.1} /> SKILL ORBITS</strong>
           </div>
 
           {visibleStars.length === 0 && (
@@ -477,7 +481,7 @@ export default function SpaceGraphPage() {
             <div className="graph-detail-metrics">
               <div>
                 <span>JD 样本</span>
-                <strong>{(selectedStar.jobCount ?? selectedStar.sources).toLocaleString('zh-CN')}</strong>
+                <strong><CountUp to={selectedStar.jobCount ?? selectedStar.sources ?? 0} separator="," duration={1.4} /></strong>
               </div>
               <div>
                 <span>来源站点</span>

@@ -22,6 +22,8 @@ import {
 } from '@ant-design/icons'
 import { FrameCorners } from '../components/FrameCorners'
 import { GraphScene3D } from '../components/GraphScene3D'
+import FadeContent from '../components/reactbits/FadeContent/FadeContent'
+import CountUp from '../components/reactbits/CountUp/CountUp'
 import { useAuth } from '../context/AuthContext'
 import { fetchGraphData } from '../services/graphApi'
 import {
@@ -55,6 +57,7 @@ type UploadState = 'idle' | 'uploading' | 'processing' | 'ready' | 'failed'
 
 const APPLICANT_STEPS = ['上传简历', '技能确认', '岗位匹配', '学习路径']
 const MAX_RESUME_BYTES = 20 * 1024 * 1024
+const TOP_JOB_COUNT = 5
 
 const STAGE_LABELS: Record<string, string> = {
   upload: '上传文件',
@@ -95,9 +98,12 @@ function sleep(ms: number) {
 }
 
 function apiErrorMessage(error: unknown) {
-  const value = error as { apiCode?: string; apiMessage?: string; message?: string }
+  const value = error as { apiCode?: string; apiMessage?: string; message?: string; code?: string }
   if (value.apiCode === 'GRAPH_VERSION_NOT_PUBLISHED') {
     return '系统岗位图谱尚未初始化，请联系管理员执行 Catalog / Graph 初始化；这不是当前账号的权限问题。'
+  }
+  if (value.code === 'ECONNABORTED' || /timeout/i.test(value.message ?? '')) {
+    return '后端生成耗时超过请求时限（大模型响应较慢），请点击重试；多次失败请稍后再试'
   }
   return value.apiMessage || value.message || '请求失败，请稍后重试'
 }
@@ -130,11 +136,11 @@ function proficiencyLabel(value: string | null | undefined) {
 }
 
 function educationLabel(value: string | null | undefined) {
-  return value ? EDUCATION_LABELS[value] || value : '未知'
+  return value ? EDUCATION_LABELS[value] || value : '—'
 }
 
 function formatMonths(value: number | null | undefined) {
-  if (value === null || value === undefined) return '未知'
+  if (value === null || value === undefined) return '—'
   if (value < 12) return `${value} 个月`
   const years = Math.floor(value / 12)
   const months = value % 12
@@ -164,7 +170,7 @@ function matchLevelLabel(value: MatchResultListItem['match_level']) {
 function matchLevelColor(value: MatchResultListItem['match_level']) {
   if (value === 'high') return '#dad0c8'
   if (value === 'medium') return '#e4b592'
-  return '#ee1212'
+  return '#8f877f'
 }
 
 function radarData(result: MatchResultListItem | null) {
@@ -176,7 +182,6 @@ function radarData(result: MatchResultListItem | null) {
     { axis: '证据质量', score: toPercent(scores.skill_evidence_quality.score) },
     { axis: '经验', score: toPercent(scores.experience.score) },
     { axis: '学历', score: toPercent(scores.education.score) },
-    { axis: '综合', score: toPercent(result.total_score) },
   ]
 }
 
@@ -249,8 +254,12 @@ function RocketLoader({ progress, stage }: { progress: number; stage: string | n
             style={{ opacity: currentProgress >= item.min ? 1 : 0.25 }}
           >
             <div
-              className="w-3 h-3 rounded-full flex-shrink-0"
-              style={{ background: currentProgress >= item.min ? '#dad0c8' : '#ee1212' }}
+              className="w-2.5 h-2.5 flex-shrink-0"
+              style={
+                currentProgress >= item.min
+                  ? { background: '#dad0c8' }
+                  : { border: '1px solid rgba(255,243,234,0.3)' }
+              }
             />
             <span className="text-[13px] font-inter" style={{ color: currentProgress >= item.min ? '#fff3ea' : '#a49b92' }}>
               {item.label}
@@ -268,7 +277,7 @@ function RocketLoader({ progress, stage }: { progress: number; stage: string | n
           />
         </div>
         <div className="flex justify-between mt-1.5">
-          <span className="font-jetbrains text-[11px] text-space-cyan">{currentProgress}%</span>
+          <span className="font-jetbrains text-[11px] text-[#e4b592]">{currentProgress}%</span>
           <span className="text-[11px] text-[var(--text-dim)]">真实任务进度</span>
         </div>
       </div>
@@ -306,6 +315,9 @@ export default function ApplicantFlowPage() {
   const [growthError, setGrowthError] = useState<string | null>(null)
   const [growthPath, setGrowthPath] = useState<GrowthPathRead | null>(null)
   const [growthPathKey, setGrowthPathKey] = useState<string | null>(null)
+  const [showAllJobs, setShowAllJobs] = useState(false)
+  const [jobGraphRetry, setJobGraphRetry] = useState(0)
+  const jobGraphAttemptedRef = useRef(false)
   const [editedSkills, setEditedSkills] = useState('')
   const [revisionSaving, setRevisionSaving] = useState(false)
   const fileRef = useRef<HTMLInputElement>(null)
@@ -315,6 +327,8 @@ export default function ApplicantFlowPage() {
   const experiences = Array.isArray(profilePayload.experiences) ? profilePayload.experiences : []
   const projects = Array.isArray(profilePayload.projects) ? profilePayload.projects : []
   const summary = typeof profilePayload.summary === 'string' && profilePayload.summary.trim() ? profilePayload.summary : '后端暂未返回摘要'
+  const jobItems = recommendations?.results?.items ?? []
+  const visibleJobs = showAllJobs ? jobItems : jobItems.slice(0, TOP_JOB_COUNT)
   const selectedResult = useMemo(
     () => recommendations?.results.items.find((item) => item.job_role_id === selectedJobRoleId) ?? null,
     [recommendations, selectedJobRoleId],
@@ -340,7 +354,7 @@ export default function ApplicantFlowPage() {
       roleId: selectedResult.job_role.id,
       canonicalName: selectedResult.job_role.canonical_name,
       domainName: selectedResult.job_role.domain?.name,
-      definitionPayload: selectedMatchDetail?.job_role.definition_payload,
+      definitionPayload: selectedMatchDetail?.job_role?.definition_payload,
     })
   }, [jobGraphData, selectedMatchDetail?.job_role?.definition_payload, selectedResult])
   const selectedJobGraphData = useMemo<GraphData | null>(() => {
@@ -388,8 +402,11 @@ export default function ApplicantFlowPage() {
   }, [recommendations?.run.id, selectedJobRoleId])
 
   useEffect(() => {
-    if (step < 2 || jobGraphData || jobGraphLoading) return
+    // 用 ref 记录“只自动尝试一次”：deps 不含 loading/attempted 状态，
+    // 避免 effect 内同步 setState 触发 cleanup 使 finally 无法复位 loading
+    if (step < 2 || jobGraphData || jobGraphAttemptedRef.current) return
 
+    jobGraphAttemptedRef.current = true
     let alive = true
     setJobGraphLoading(true)
     setJobGraphError(null)
@@ -413,7 +430,7 @@ export default function ApplicantFlowPage() {
     return () => {
       alive = false
     }
-  }, [jobGraphData, jobGraphLoading, step])
+  }, [step, jobGraphData, jobGraphRetry])
 
   useEffect(() => {
     setSelectedGraphStar(null)
@@ -434,7 +451,17 @@ export default function ApplicantFlowPage() {
     setDetailError(null)
     setSelectedGraphStar(null)
     setSelectedGraphPlanet(null)
+    setShowAllJobs(false)
+    jobGraphAttemptedRef.current = false
+    setJobGraphData(null)
+    setJobGraphError(null)
     setActiveTab('radar')
+  }
+
+  const reloadJobGraph = () => {
+    jobGraphAttemptedRef.current = false
+    setJobGraphError(null)
+    setJobGraphRetry((n) => n + 1)
   }
 
   const startUpload = async (file: File) => {
@@ -558,6 +585,7 @@ export default function ApplicantFlowPage() {
       if (!Array.isArray(items)) throw new Error('岗位推荐返回格式无效')
       setRecommendations(created)
       setSelectedJobRoleId(items[0]?.job_role_id ?? null)
+      setShowAllJobs(false)
       setActiveTab('radar')
       setStep(2)
     } catch (error) {
@@ -815,128 +843,242 @@ export default function ApplicantFlowPage() {
         )}
 
         {step === 1 && resumeProfile && (
-          <div className="applicant-skill-grid grid grid-cols-2 gap-6 animate-fade-up">
-            <div className="archive-panel glass rounded-2xl p-6">
+          <div className="applicant-skill-grid animate-fade-up">
+            {/* ── 左：AI 提取的技能（时间线卡片）──────────────── */}
+            <section className="skill-board archive-panel glass rounded-2xl overflow-hidden">
               <FrameCorners />
-              <div className="flex items-center gap-2 mb-4">
-                <div className="w-0.5 h-4 bg-gradient-to-b from-[#ee1212] to-[#e4b592]" />
-                <span className="font-outfit font-bold text-[15px] text-[var(--text)]">AI 提取的技能</span>
-                <span className="ml-auto font-jetbrains text-[9px] text-[var(--text-dim)]">
-                  {resumeProfile.skills.length} ITEMS / {resumeProfile.status.toUpperCase()}
-                </span>
-              </div>
+              <div className="skill-board__bg" />
+              <header className="skill-board__head">
+                <div className="skill-board__kicker">
+                  <span className="skill-board__kicker-dot" />
+                  <span>Skill extraction report · AI 抽取报告</span>
+                </div>
+                <div className="skill-board__meta">
+                  <strong className="skill-board__meta-num">{resumeProfile.skills.length}</strong>
+                  <span>ITEMS</span>
+                  <em>{resumeProfile.status.toUpperCase()}</em>
+                </div>
+              </header>
+
               {resumeProfile.skills.length ? (
-                <div className="flex flex-wrap gap-2">
+                <ul className="skill-list">
                   {resumeProfile.skills.map((skill, i) => {
                     const mapped = skill.mapping_status === 'mapped'
+                    const confidence = toPercent(skill.confidence)
                     return (
-                      <div key={skill.id} className="tip-host animate-fade-up" style={{ animationDelay: `${i * 42}ms` }}>
-                        <span className={`tag ${mapped ? 'tag-blue' : 'tag-purple'}`} style={{ gap: 5 }}>
-                          {mapped ? '✦' : '○'} {skillName(skill)}
-                        </span>
-                        <span className="badge-conf ml-1">{toPercent(skill.confidence)}%</span>
-                        <div className="tip-box">
-                          <div className="font-bold text-[#e4b592] mb-1">置信度 {toPercent(skill.confidence)}%</div>
-                          <div className="text-xs">熟练度：{proficiencyLabel(skill.proficiency)}</div>
-                          <div className="text-xs">证据：{evidenceLabel(skill.evidence_strength)}</div>
-                          {skill.evidence_quote && <div className="text-xs mt-1 text-[var(--text-dim)]">{skill.evidence_quote}</div>}
+                      <li
+                        key={skill.id}
+                        className="skill-card"
+                        style={{ animationDelay: `${Math.min(i, 12) * 50}ms` }}
+                      >
+                        <div className="skill-card__rail" aria-hidden>
+                          <span className={`skill-card__dot ${mapped ? 'is-mapped' : 'is-unmapped'}`} />
+                          {i < resumeProfile.skills.length - 1 && <span className="skill-card__line" />}
                         </div>
-                      </div>
+
+                        <div className="skill-card__body">
+                          <header className="skill-card__head">
+                            <div className="skill-card__name">
+                              <span className={`skill-tag ${mapped ? 'skill-tag--mapped' : 'skill-tag--unmapped'}`}>
+                                {skillName(skill)}
+                              </span>
+                              <span className={`skill-status-tag ${mapped ? 'is-mapped' : 'is-unmapped'}`}>
+                                {mapped ? 'MAPPED · 已对齐图谱' : 'UNMAPPED · 待人工确认'}
+                              </span>
+                            </div>
+                            <div className="skill-card__conf">
+                              <span className="skill-card__conf-num">{confidence}</span>
+                              <span className="skill-card__conf-unit">%</span>
+                            </div>
+                          </header>
+
+                          <div className="skill-card__sub">
+                            <span className="skill-card__chip">
+                              <span className="skill-card__chip-label">熟练度</span>
+                              <span>{proficiencyLabel(skill.proficiency)}</span>
+                            </span>
+                            <span className="skill-card__chip">
+                              <span className="skill-card__chip-label">证据强度</span>
+                              <span>{evidenceLabel(skill.evidence_strength)}</span>
+                            </span>
+                          </div>
+
+                          <div className="skill-bar" aria-label={`置信度 ${confidence}%`}>
+                            <div className="skill-bar__track">
+                              <div
+                                className={`skill-bar__fill ${mapped ? 'is-mapped' : 'is-unmapped'}`}
+                                style={{ width: `${confidence}%` }}
+                              />
+                            </div>
+                            <span className="skill-bar__ruler" aria-hidden>
+                              <i />
+                              <i />
+                              <i />
+                              <i />
+                              <i />
+                            </span>
+                          </div>
+
+                          {skill.evidence_quote && (
+                            <blockquote className="skill-quote">
+                              <span className="skill-quote__mark">「</span>
+                              <p>{skill.evidence_quote}</p>
+                              <span className="skill-quote__mark">」</span>
+                            </blockquote>
+                          )}
+                        </div>
+                      </li>
                     )
                   })}
-                </div>
+                </ul>
               ) : (
-                <div className="text-[13px] text-[var(--text-dim)]">后端没有返回可确认技能。</div>
+                <div className="skill-board__empty">
+                  <span>后端没有返回可确认技能</span>
+                  <em>可在右侧手动补充后确认画像。</em>
+                </div>
               )}
-            </div>
+            </section>
 
-            <div className="archive-panel glass rounded-2xl p-6 flex flex-col gap-4">
+            {/* ── 右：画像摘要 + 人工修订 + 确认 ──────────────── */}
+            <aside className="profile-board archive-panel glass rounded-2xl overflow-hidden flex flex-col">
               <FrameCorners />
-              <div className="flex items-center justify-between gap-3">
-                <div className="font-outfit font-bold text-[15px] text-[var(--text)]">简历画像摘要</div>
-                {resumeContentUrl && <button type="button" className="btn btn-sm btn-ghost" onClick={() => window.open(resumeContentUrl, '_blank', 'noopener,noreferrer')}><FolderOpenOutlined /> 查看上传原件</button>}
-              </div>
-              <p className="text-[13px] leading-6 text-[var(--text-dim)]">{summary}</p>
-              <dl className="grid grid-cols-2 gap-2 text-[12px]">
-                <div className="border border-[var(--border)] px-3 py-2">
-                  <dt className="font-jetbrains text-[9px] text-[#e4b592]">EDUCATION</dt>
-                  <dd className="text-[var(--text)]">{educationLabel(resumeProfile.highest_education_level)}</dd>
+              <div className="profile-board__bg" />
+
+              <header className="profile-board__head">
+                <div>
+                  <div className="profile-board__kicker">
+                    <span>Profile digest · 画像摘要</span>
+                  </div>
+                  <h3 className="profile-board__title">候选人画像快照</h3>
+                  <p className="profile-board__summary">{summary}</p>
                 </div>
-                <div className="border border-[var(--border)] px-3 py-2">
-                  <dt className="font-jetbrains text-[9px] text-[#e4b592]">EXPERIENCE</dt>
-                  <dd className="text-[var(--text)]">{formatMonths(resumeProfile.total_experience_months)}</dd>
+                {resumeContentUrl && (
+                  <button
+                    type="button"
+                    className="btn btn-sm btn-ghost profile-board__view"
+                    onClick={() => window.open(resumeContentUrl, '_blank', 'noopener,noreferrer')}
+                  >
+                    <FolderOpenOutlined /> 查看上传原件
+                  </button>
+                )}
+              </header>
+
+              <dl className="profile-meta">
+                <div className="profile-meta__item">
+                  <dt>EDUCATION</dt>
+                  <dd>{educationLabel(resumeProfile.highest_education_level)}</dd>
                 </div>
-                <div className="border border-[var(--border)] px-3 py-2">
-                  <dt className="font-jetbrains text-[9px] text-[#e4b592]">METHOD</dt>
-                  <dd className="text-[var(--text)]">{resumeProfile.text_extraction_method.toUpperCase()}</dd>
+                <div className="profile-meta__item">
+                  <dt>EXPERIENCE</dt>
+                  <dd>{formatMonths(resumeProfile.total_experience_months)}</dd>
                 </div>
-                <div className="border border-[var(--border)] px-3 py-2">
-                  <dt className="font-jetbrains text-[9px] text-[#e4b592]">VERSION</dt>
-                  <dd className="text-[var(--text)]">V{resumeProfile.version_no}</dd>
+                <div className="profile-meta__item">
+                  <dt>METHOD</dt>
+                  <dd>{resumeProfile.text_extraction_method.toUpperCase()}</dd>
+                </div>
+                <div className="profile-meta__item">
+                  <dt>VERSION</dt>
+                  <dd>V{resumeProfile.version_no}</dd>
                 </div>
               </dl>
 
-              <div className="grid grid-cols-3 gap-2 text-[12px]">
-                <div className="border border-[var(--border)] px-3 py-2">
-                  <div className="font-jetbrains text-[9px] text-[#e4b592]">EDU</div>
-                  <div className="text-[var(--text)]">{educations.length}</div>
-                </div>
-                <div className="border border-[var(--border)] px-3 py-2">
-                  <div className="font-jetbrains text-[9px] text-[#e4b592]">EXP</div>
-                  <div className="text-[var(--text)]">{experiences.length}</div>
-                </div>
-                <div className="border border-[var(--border)] px-3 py-2">
-                  <div className="font-jetbrains text-[9px] text-[#e4b592]">PROJECT</div>
-                  <div className="text-[var(--text)]">{projects.length}</div>
-                </div>
-              </div>
-
-              <div className="border-t border-[var(--border)] pt-3">
-                <div className="flex items-center justify-between gap-3 mb-2">
-                  <div className="font-jetbrains text-[9px] text-[#e4b592] uppercase tracking-[0.14em]">Evidence preview</div>
-                  {resumeContentUrl && <button type="button" className="text-[10px] text-[#e4b592]" onClick={() => window.open(resumeContentUrl, '_blank', 'noopener,noreferrer')}>查看原件</button>}
-                </div>
-                <div className="flex flex-col gap-2">
-                  {[
-                    ...educations.slice(0, 1).map((item: Record<string, any>) => ({
-                      label: '教育',
-                      title: itemText(item, ['school_name', 'major']),
-                      meta: dateRange(item),
-                    })),
-                    ...experiences.slice(0, 1).map((item: Record<string, any>) => ({
-                      label: '经历',
-                      title: itemText(item, ['company_name', 'job_title']),
-                      meta: dateRange(item),
-                    })),
-                    ...projects.slice(0, 1).map((item: Record<string, any>) => ({
-                      label: '项目',
-                      title: itemText(item, ['project_name', 'role']),
-                      meta: dateRange(item),
-                    })),
-                  ].map((item) => (
-                    <button key={`${item.label}-${item.title}`} type="button" onClick={() => resumeContentUrl && window.open(resumeContentUrl, '_blank', 'noopener,noreferrer')} className="w-full border border-[var(--border)] px-3 py-2 text-left disabled:cursor-default" disabled={!resumeContentUrl}>
-                      <div className="text-[11px] text-[#dad0c8]">{item.label} / {item.title}</div>
-                      <div className="font-jetbrains text-[9px] text-[var(--text-dim)] mt-1">{item.meta}</div>
-                    </button>
-                  ))}
-                </div>
-              </div>
+              {(educations.length > 0 || experiences.length > 0 || projects.length > 0) && (
+                <section className="profile-evidence">
+                  <header className="profile-evidence__head">
+                    <span className="profile-evidence__tag">
+                      Evidence preview
+                    </span>
+                    <span className="profile-evidence__count">
+                      {educations.length + experiences.length + projects.length} ENTRIES
+                    </span>
+                  </header>
+                  <ul className="profile-evidence__list">
+                    {[
+                      ...educations.slice(0, 1).map((item: Record<string, any>) => ({
+                        label: '教育经历',
+                        short: 'EDU',
+                        title: itemText(item, ['school_name', 'major']),
+                        meta: dateRange(item),
+                      })),
+                      ...experiences.slice(0, 1).map((item: Record<string, any>) => ({
+                        label: '工作经历',
+                        short: 'EXP',
+                        title: itemText(item, ['company_name', 'job_title']),
+                        meta: dateRange(item),
+                      })),
+                      ...projects.slice(0, 1).map((item: Record<string, any>) => ({
+                        label: '项目证据',
+                        short: 'PRJ',
+                        title: itemText(item, ['project_name', 'role']),
+                        meta: dateRange(item),
+                      })),
+                    ].map((item) => (
+                      <li key={`${item.label}-${item.title}`}>
+                        <button
+                          type="button"
+                          className="profile-evidence__card"
+                          onClick={() => resumeContentUrl && window.open(resumeContentUrl, '_blank', 'noopener,noreferrer')}
+                          disabled={!resumeContentUrl}
+                        >
+                          <span className="profile-evidence__badge">{item.short}</span>
+                          <div className="profile-evidence__body">
+                            <h4>{item.label} · {item.title || '未命名条目'}</h4>
+                            <span>{item.meta}</span>
+                          </div>
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              )}
 
               {workflowError && (
-                <div className="border border-[rgba(238,18,18,0.45)] bg-[rgba(238,18,18,0.06)] px-3 py-2 text-[12px] text-[#ee1212]">
+                <div className="profile-error">
                   <WarningOutlined /> {workflowError}
                 </div>
               )}
-              <div className="border-t border-[var(--border)] pt-3">
-                <label className="font-jetbrains text-[9px] text-[#e4b592] uppercase tracking-[0.14em]">人工修订技能</label>
-                <textarea className="w-full mt-2 bg-black/40 border border-[var(--border)] px-3 py-2 text-xs" rows={2} placeholder="用逗号补充或替换技能" value={editedSkills} onChange={(event) => setEditedSkills(event.target.value)} />
-                <button className="btn btn-sm btn-ghost mt-2" onClick={() => void saveProfileRevision()} disabled={revisionSaving || !editedSkills.trim()}>{revisionSaving ? <LoadingOutlined /> : <ReloadOutlined />} 保存修订草稿</button>
-              </div>
-              <button className="btn btn-md btn-primary mt-auto" onClick={handleConfirmAndRecommend} disabled={recommendationLoading}>
-                {recommendationLoading ? <LoadingOutlined /> : <CheckCircleOutlined />}
-                确认画像 <ArrowRightOutlined /> 生成岗位推荐
+
+              <section className="profile-revision">
+                <label className="profile-revision__label">
+                  <span>Human revision</span>
+                  <em>人工修订技能</em>
+                </label>
+                <textarea
+                  className="profile-revision__input"
+                  rows={3}
+                  placeholder="用英文逗号分隔补充或替换技能名，例如：FastAPI, Pandas, PyTorch, Distributed Training"
+                  value={editedSkills}
+                  onChange={(event) => setEditedSkills(event.target.value)}
+                />
+                <div className="profile-revision__actions">
+                  <button
+                    type="button"
+                    className="btn btn-sm btn-ghost flex-1"
+                    onClick={() => void saveProfileRevision()}
+                    disabled={revisionSaving || !editedSkills.trim()}
+                  >
+                    {revisionSaving ? <LoadingOutlined /> : <ReloadOutlined />}
+                    保存修订草稿
+                  </button>
+                </div>
+              </section>
+
+              <button
+                type="button"
+                className="btn profile-confirm"
+                onClick={handleConfirmAndRecommend}
+                disabled={recommendationLoading}
+              >
+                <span className="profile-confirm__icon">
+                  {recommendationLoading ? <LoadingOutlined /> : <CheckCircleOutlined />}
+                </span>
+                <span className="profile-confirm__body">
+                  <strong>确认画像</strong>
+                  <em>生成岗位推荐</em>
+                </span>
+                <ArrowRightOutlined />
               </button>
-            </div>
+            </aside>
           </div>
         )}
 
@@ -974,16 +1116,30 @@ export default function ApplicantFlowPage() {
               ))}
             </div>
 
+            <FadeContent duration={700} delay={0.1} threshold={0.05}>
             <div className="applicant-match-grid grid grid-cols-2 gap-6">
               <div className="archive-panel glass rounded-2xl p-6">
                 <FrameCorners />
                 {activeTab === 'radar' && (
                   <>
-                    <div className="font-outfit font-bold text-[15px] text-[var(--text)] mb-1">能力雷达图</div>
-                    <div className="text-xs text-[var(--text-dim)] mb-4">
-                      {selectedResult ? `与 ${selectedResult.job_role.canonical_name} 对比` : '等待选择岗位'}
+                    <div className="flex items-start justify-between gap-3 mb-1">
+                      <div>
+                        <div className="font-outfit font-bold text-[15px] text-[var(--text)]">能力雷达图</div>
+                        <div className="text-xs text-[var(--text-dim)] mt-0.5">
+                          {selectedResult ? `与 ${selectedResult.job_role.canonical_name} 对比` : '等待选择岗位'}
+                        </div>
+                      </div>
+                      {selectedResult && (
+                        <div className="text-right flex-shrink-0">
+                          <div className="font-jetbrains text-[9px] text-[#e4b592] tracking-[0.14em]">综合得分</div>
+                          <div className="font-jetbrains text-[24px] font-bold text-[var(--text)] leading-none mt-1">
+                            {toPercent(selectedResult.total_score)}
+                            <span className="text-[11px] text-[var(--text-dim)] ml-0.5">%</span>
+                          </div>
+                        </div>
+                      )}
                     </div>
-                    <ResponsiveContainer width="100%" height={260}>
+                    <ResponsiveContainer width="100%" height={250}>
                       <RadarChart data={selectedRadarData}>
                         <PolarGrid stroke="rgba(255,243,234,0.18)" />
                         <PolarAngleAxis dataKey="axis" tick={{ fill: '#a49b92', fontSize: 11, fontFamily: 'IBM Plex Mono' }} />
@@ -1006,43 +1162,51 @@ export default function ApplicantFlowPage() {
                       </div>
                     )}
                     {!detailLoading && selectedMatchDetail && (
-                      <>
-                        <div className="font-outfit font-bold text-[15px] text-[#dad0c8]">
-                          <CheckCircleOutlined /> 已匹配 ({matchedCapabilities.length})
+                      matchedCapabilities.length === 0 && missingCapabilities.length === 0 ? (
+                        <div className="border border-[var(--border)] px-4 py-6 text-center">
+                          <div className="text-[13px] text-[var(--text)]">该岗位暂无标准化能力对比数据</div>
+                          <div className="text-[12px] text-[var(--text-dim)] mt-1.5 leading-5">
+                            可能是简历技能较少，或该岗位定义尚未映射能力项；可切换右侧其他岗位查看。
+                          </div>
                         </div>
-                        {matchedCapabilities.length === 0 && missingCapabilities.length === 0 && <div className="text-xs text-[var(--text-dim)]">暂无可对比的标准技能。</div>}
-                        <div className="flex flex-wrap gap-1.5 mb-3">
-                          {matchedCapabilities.map((item) => (
-                            <span key={item.capability_id} className="tag tag-green">
-                              {item.canonical_name}
-                            </span>
-                          ))}
-                        </div>
-                        <div className="font-outfit font-bold text-[15px] text-[#ee1212]">
-                          <CloseCircleOutlined /> 缺失必备 ({missingRequired.length})
-                        </div>
-                        <div className="flex flex-wrap gap-1.5">
-                          {missingRequired.map((item) => (
-                            <span key={item.capability_id} className="tag tag-red">
-                              {item.canonical_name} · {item.skill_type}
-                            </span>
-                          ))}
-                        </div>
-                        {missingBonus.length > 0 && (
-                          <>
-                            <div className="font-outfit font-bold text-[15px] text-[#e4b592] mt-2">
-                              <SwapOutlined /> 加分缺口 ({missingBonus.length})
-                            </div>
-                            <div className="flex flex-wrap gap-1.5">
-                              {missingBonus.map((item) => (
-                                <span key={item.capability_id} className="tag tag-purple">
-                                  {item.canonical_name}
-                                </span>
-                              ))}
-                            </div>
-                          </>
-                        )}
-                      </>
+                      ) : (
+                        <>
+                          <div className="font-outfit font-bold text-[15px] text-[#dad0c8]">
+                            <CheckCircleOutlined /> 已匹配 ({matchedCapabilities.length})
+                          </div>
+                          <div className="flex flex-wrap gap-1.5 mb-3">
+                            {matchedCapabilities.map((item) => (
+                              <span key={item.capability_id} className="tag tag-green">
+                                {item.canonical_name}
+                              </span>
+                            ))}
+                          </div>
+                          <div className="font-outfit font-bold text-[15px] text-[#ee1212]">
+                            <CloseCircleOutlined /> 缺失必备 ({missingRequired.length})
+                          </div>
+                          <div className="flex flex-wrap gap-1.5">
+                            {missingRequired.map((item) => (
+                              <span key={item.capability_id} className="tag tag-red">
+                                {item.canonical_name} · {item.skill_type}
+                              </span>
+                            ))}
+                          </div>
+                          {missingBonus.length > 0 && (
+                            <>
+                              <div className="font-outfit font-bold text-[15px] text-[#e4b592] mt-2">
+                                <SwapOutlined /> 加分缺口 ({missingBonus.length})
+                              </div>
+                              <div className="flex flex-wrap gap-1.5">
+                                {missingBonus.map((item) => (
+                                  <span key={item.capability_id} className="tag tag-purple">
+                                    {item.canonical_name}
+                                  </span>
+                                ))}
+                              </div>
+                            </>
+                          )}
+                        </>
+                      )
                     )}
                   </div>
                 )}
@@ -1082,6 +1246,10 @@ export default function ApplicantFlowPage() {
                           <WarningOutlined />
                           <strong>岗位图谱暂不可用</strong>
                           <span>{jobGraphError}</span>
+                          <button type="button" className="btn btn-sm btn-ghost mt-1" onClick={reloadJobGraph}>
+                            <ReloadOutlined />
+                            重新加载
+                          </button>
                         </div>
                       )}
 
@@ -1169,15 +1337,15 @@ export default function ApplicantFlowPage() {
                   <TrophyOutlined /> 匹配岗位排行
                 </div>
                 <div className="flex flex-col gap-3">
-                  {(recommendations.results?.items ?? []).map((job, i) => {
+                  {visibleJobs.map((job, i) => {
                     const active = job.job_role_id === selectedJobRoleId
                     const color = matchLevelColor(job.match_level)
                     return (
                       <button
                         key={job.job_role_id}
-                        className="archive-row glass rounded-xl p-3.5 px-4 flex items-center gap-3.5 animate-fade-up text-left"
+                        className="archive-row glass rounded-xl p-3.5 px-4 flex items-center gap-3 animate-fade-up text-left"
                         style={{
-                          animationDelay: `${i * 80}ms`,
+                          animationDelay: `${Math.min(i, 8) * 60}ms`,
                           borderLeft: active ? `3px solid ${color}` : '3px solid transparent',
                           cursor: 'pointer',
                         }}
@@ -1189,8 +1357,11 @@ export default function ApplicantFlowPage() {
                         <Ring v={job.total_score} size={56} color={color} />
                         <div className="flex-1 min-w-0">
                           <div className="flex items-center gap-2 mb-2">
+                            <span className="font-jetbrains text-[10px] text-[var(--text-dim)] flex-shrink-0">
+                              #{String(job.rank ?? i + 1).padStart(2, '0')}
+                            </span>
                             <span className="font-outfit font-bold text-sm text-[var(--text)] truncate">
-                              <FundProjectionScreenOutlined /> {job.job_role.canonical_name}
+                              {job.job_role.canonical_name}
                             </span>
                             <span
                               className="font-jetbrains text-[9px] px-1.5 py-0.5 flex-shrink-0"
@@ -1211,82 +1382,152 @@ export default function ApplicantFlowPage() {
                     )
                   })}
                 </div>
+                {jobItems.length > TOP_JOB_COUNT && (
+                  <button className="btn btn-sm btn-ghost w-full mt-3" onClick={() => setShowAllJobs((v) => !v)}>
+                    {showAllJobs ? '收起，仅显示前列岗位' : `展开全部 ${jobItems.length} 个岗位`}
+                  </button>
+                )}
                 <button className="btn btn-md btn-primary w-full mt-5" onClick={handleCreateGrowthPath} disabled={growthLoading || !selectedResult}>
                   {growthLoading ? <LoadingOutlined /> : <CompassOutlined />}
                   生成成长路径 <ArrowRightOutlined />
                 </button>
               </div>
             </div>
+            </FadeContent>
           </div>
         )}
 
         {step === 3 && (
-          <div className="applicant-gap-grid grid grid-cols-2 gap-6 animate-fade-up">
+          <div className="applicant-gap-grid animate-fade-up">
             {currentGrowthPath ? (
               <>
-                <div className="archive-panel glass rounded-2xl p-6">
+                {/* ── 头部目标概览卡片 ──────────────────────────────── */}
+                <div className="growth-hero archive-panel glass rounded-2xl overflow-hidden">
                   <FrameCorners />
-                  <h3 className="font-outfit font-bold text-base text-[#dad0c8] mb-3.5">
-                    <CheckCircleOutlined /> 目标岗位
-                  </h3>
-                  <div className="text-[22px] font-outfit font-bold text-[var(--text)] mb-2">
-                    {currentGrowthPath.plan.target_role.canonical_name}
-                  </div>
-                  <p className="text-[13px] leading-6 text-[var(--text-dim)] mb-4">{currentGrowthPath.plan.summary}</p>
-                  <div className="grid grid-cols-2 gap-2 text-[12px] mb-4">
-                    <div className="border border-[var(--border)] px-3 py-2">
-                      <div className="font-jetbrains text-[9px] text-[#e4b592]">TOTAL</div>
-                      <div className="text-[var(--text)]">{currentGrowthPath.plan.total_estimated_weeks} 周</div>
+                  <div className="growth-hero__bg" />
+                  <div className="growth-hero__inner">
+                    <div className="growth-hero__kicker">
+                      <CheckCircleOutlined />
+                      <span>Target profile · 目标岗位画像</span>
                     </div>
-                    <div className="border border-[var(--border)] px-3 py-2">
-                      <div className="font-jetbrains text-[9px] text-[#e4b592]">GAPS</div>
-                      <div className="text-[var(--text)]">{missingRequired.length} 必备</div>
-                    </div>
-                  </div>
-                  <div className="border-t border-[var(--border)] pt-4">
-                    <h3 className="font-outfit font-bold text-base text-[#ee1212] mb-3">
-                      <CloseCircleOutlined /> 缺失能力
-                    </h3>
-                    <div className="flex flex-wrap gap-1.5">
-                      {missingRequired.map((item) => (
-                        <span key={item.capability_id} className="tag tag-red">
-                          {item.canonical_name}
-                        </span>
-                      ))}
-                    </div>
+                    <h2 className="growth-hero__title">
+                      {currentGrowthPath.plan.target_role.canonical_name}
+                    </h2>
+                    <p className="growth-hero__summary">{currentGrowthPath.plan.summary}</p>
+
+                    <dl className="growth-hero__meta">
+                      <div>
+                        <dt>TOTAL</dt>
+                        <dd>
+                          <span className="growth-hero__num">
+                            <CountUp to={currentGrowthPath.plan.total_estimated_weeks} duration={1.3} />
+                          </span>
+                          <em>周</em>
+                        </dd>
+                      </div>
+                      <div>
+                        <dt>GAPS</dt>
+                        <dd>
+                          <span className="growth-hero__num">{missingRequired.length}</span>
+                          <em>必备</em>
+                        </dd>
+                      </div>
+                      <div>
+                        <dt>STAGES</dt>
+                        <dd>
+                          <span className="growth-hero__num">{currentGrowthPath.plan.stages.length}</span>
+                          <em>阶段</em>
+                        </dd>
+                      </div>
+                      <div>
+                        <dt>CAPS</dt>
+                        <dd>
+                          <span className="growth-hero__num">
+                            {currentGrowthPath.plan.stages.reduce((acc, s) => acc + s.capabilities.length, 0)}
+                          </span>
+                          <em>能力项</em>
+                        </dd>
+                      </div>
+                    </dl>
+
+                    {missingRequired.length > 0 && (
+                      <div className="growth-hero__gaps">
+                        <div className="growth-hero__gaps-title">
+                          <CloseCircleOutlined />
+                          <span>必备能力缺口（{missingRequired.length}）</span>
+                        </div>
+                        <div className="growth-hero__gaps-tags">
+                          {missingRequired.map((item) => (
+                            <span key={item.capability_id} className="tag tag-red">
+                              {item.canonical_name}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
                   </div>
                 </div>
 
-                <div className="archive-panel glass rounded-2xl p-6">
+                {/* ── 阶段时间线 ────────────────────────────────────── */}
+                <div className="growth-timeline archive-panel glass rounded-2xl">
                   <FrameCorners />
-                  <div className="font-outfit font-bold text-[15px] text-[var(--text)] mb-4">
-                    <CompassOutlined /> 个性化成长路径
-                  </div>
-                  {currentGrowthPath.plan.stages.map((stage) => (
-                    <div key={stage.stage_no} className="mb-3 border border-[var(--border)] px-3.5 py-3">
-                      <div className="flex justify-between items-start gap-3">
-                        <div>
-                          <div className="font-jetbrains text-[9px] text-[#e4b592]">STAGE {stage.stage_no} / {stage.estimated_weeks}W</div>
-                          <div className="text-[13px] text-[var(--text)] mt-1">{stage.title}</div>
-                        </div>
-                        <span className="font-jetbrains text-[9px] text-[var(--text-dim)]">{stage.capabilities.length} CAPS</span>
-                      </div>
-                      <p className="text-[12px] text-[var(--text-dim)] leading-5 mt-2">{stage.objective}</p>
-                      <div className="mt-2 flex flex-col gap-1.5">
-                        {stage.actions.slice(0, 3).map((action, index) => (
-                          <div key={action} className="flex gap-2 text-[12px] text-[var(--text)]">
-                            <span className="font-jetbrains text-[#ee1212]">{index + 1}</span>
-                            <span>{action}</span>
-                          </div>
-                        ))}
-                      </div>
+                  <div className="growth-timeline__head">
+                    <div className="growth-timeline__title">
+                      <CompassOutlined />
+                      <span>阶段性成长路径</span>
                     </div>
-                  ))}
-                  <div className="border border-[var(--border)] px-3.5 py-3 mt-4">
-                    <div className="font-jetbrains text-[9px] text-[#e4b592] uppercase tracking-[0.14em] mb-1">Final project</div>
-                    <div className="text-[12px] leading-5 text-[var(--text-dim)]">{currentGrowthPath.plan.final_project}</div>
+                    <div className="growth-timeline__progress">
+                      <span>Mission deck · 阶段共 {currentGrowthPath.plan.stages.length} 节</span>
+                    </div>
                   </div>
-                  <div className="applicant-final-actions flex gap-2.5 mt-4">
+
+                  <ol className="growth-timeline__list">
+                    {currentGrowthPath.plan.stages.map((stage, index) => (
+                      <li
+                        key={stage.stage_no}
+                        className="growth-stage"
+                        style={{ animationDelay: `${Math.min(index, 10) * 80}ms` }}
+                      >
+                        <div className="growth-stage__rail" aria-hidden>
+                          <span className="growth-stage__dot" />
+                          {index < currentGrowthPath.plan.stages.length - 1 && (
+                            <span className="growth-stage__line" />
+                          )}
+                        </div>
+                        <div className="growth-stage__card">
+                          <header className="growth-stage__head">
+                            <div className="growth-stage__badge">
+                              <span className="growth-stage__no">{String(stage.stage_no).padStart(2, '0')}</span>
+                              <span className="growth-stage__weeks">{stage.estimated_weeks} W</span>
+                            </div>
+                            <div className="growth-stage__meta">
+                              <h4>{stage.title}</h4>
+                              <span>{stage.capabilities.length} CAPS</span>
+                            </div>
+                          </header>
+
+                          <p className="growth-stage__objective">{stage.objective}</p>
+
+                          <ul className="growth-stage__actions">
+                            {stage.actions.slice(0, 3).map((action, actionIndex) => (
+                              <li key={action}>
+                                <span className="growth-stage__order">{actionIndex + 1}</span>
+                                <p>{action}</p>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </li>
+                    ))}
+                  </ol>
+
+                  {/* ── 最终实战项目 ─────────────────────────────────── */}
+                  <div className="growth-final">
+                    <div className="growth-final__tag">Final project · 实战收尾</div>
+                    <p>{currentGrowthPath.plan.final_project}</p>
+                  </div>
+
+                  <div className="applicant-final-actions">
                     <button className="btn btn-sm btn-primary flex-1" onClick={() => setStep(2)}>
                       返回岗位推荐
                     </button>

@@ -1,12 +1,14 @@
 import { useRef, useState } from 'react'
 import type { CSSProperties } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { NodeIndexOutlined } from '@ant-design/icons'
 import moonImage from '../assets/apollo-moon.jpg'
 import graphImage from '../assets/archive-graph.png'
 import resumeImage from '../assets/archive-resume.png'
 import hiringImage from '../assets/archive-hiring.png'
 import trendsImage from '../assets/archive-trends.png'
+import Particles from '../components/reactbits/Particles/Particles'
+import SplitText from '../components/reactbits/SplitText/SplitText'
+import GlareHover from '../components/reactbits/GlareHover/GlareHover'
 
 type ArchiveAction = {
   id: string
@@ -43,23 +45,14 @@ const ARCHIVE_ACTIONS: ArchiveAction[] = [
     coord: 'HIRING OPS',
   },
   {
-    id: 'emerging',
-    path: '/emerging',
+    id: 'evolution',
+    path: '/evolution',
     image: trendsImage,
     meta: 'GALLERY 04',
-    title: '新兴岗位',
-    coord: 'MARKET RADAR',
+    title: '动态演化',
+    coord: 'TREND ARCHIVE',
   },
 ]
-
-const CENTER_ACTION: ArchiveAction = {
-  id: 'evolution',
-  path: '/evolution',
-  image: trendsImage,
-  meta: 'CENTER / 05',
-  title: '动态演化',
-  coord: 'TREND ARCHIVE',
-}
 
 function Starfield() {
   const stars = useRef(
@@ -118,6 +111,20 @@ export default function SpaceHomePage() {
   return (
     <div className="space-home min-h-screen relative overflow-hidden">
       <Starfield />
+      <div className="space-home__particles" aria-hidden>
+        <Particles
+          particleCount={140}
+          particleSpread={10}
+          speed={0.07}
+          particleColors={['#fff3ea', '#e4b592', '#8a7f74']}
+          alphaParticles
+          moveParticlesOnHover
+          particleHoverFactor={0.5}
+          particleBaseSize={64}
+          sizeRandomness={0.9}
+          cameraDistance={22}
+        />
+      </div>
       <div className="space-home__grid" />
 
       <section
@@ -141,8 +148,22 @@ export default function SpaceHomePage() {
             Archive / 001
           </div>
           <h1>
-            岗位能力
-            <span>月面档案</span>
+            <SplitText
+              text="岗位能力"
+              tag="span"
+              className="moon-title-line moon-title-line--dim"
+              delay={46}
+              duration={0.85}
+              from={{ opacity: 0, y: 34 }}
+            />
+            <SplitText
+              text="月面档案"
+              tag="span"
+              className="moon-title-line"
+              delay={64}
+              duration={0.85}
+              from={{ opacity: 0, y: 34 }}
+            />
           </h1>
           <div className="moon-archive__copy-readout">
             <span>FIELD STUDY</span>
@@ -150,22 +171,12 @@ export default function SpaceHomePage() {
           </div>
         </div>
 
-        <div className="moon-stage" aria-hidden={false}>
-          <div className="moon-stage__rings" />
-          <button
-            className="moon-stage__moon"
-            onClick={() => openArchive(CENTER_ACTION)}
-            aria-label={`打开${CENTER_ACTION.title}`}
-          >
-            <img src={moonImage} alt="月球表面档案主视觉" />
-            <span className="moon-stage__moon-target">
-              <span>ACTIVE TARGET</span>
-              <strong>{CENTER_ACTION.title}</strong>
-            </span>
-              <span className="moon-stage__moon-label">
-              <NodeIndexOutlined /> OPEN {CENTER_ACTION.coord}
-            </span>
-          </button>
+        
+
+        <div className="moon-stage" aria-hidden>
+          <div className="moon-stage__moon">
+            <img src={moonImage} alt="" />
+          </div>
         </div>
 
         <div className="archive-photo-field" aria-label="档案入口">
@@ -181,6 +192,13 @@ export default function SpaceHomePage() {
               aria-label={`打开${action.title}`}
             >
               <span className="archive-photo__frame">
+                <GlareHover
+                  className="archive-photo__glare"
+                  glareColor="#fff3ea"
+                  glareOpacity={0.25}
+                  glareSize={230}
+                  transitionDuration={720}
+                />
                 <img src={action.image} alt="" />
               </span>
               <span className="archive-photo__meta">

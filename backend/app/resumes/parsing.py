@@ -1,6 +1,7 @@
 import asyncio
 import re
 import subprocess
+import tempfile
 from dataclasses import dataclass
 from datetime import date
 from io import BytesIO
@@ -296,9 +297,49 @@ def derive_total_experience_months(
     return sum(end - start for start, end in merged), warnings
 
 
+PDF_TEXT_LAYER_THRESHOLD = 20
+PDF_RENDER_DPI = "200"
+OCR_LANGUAGE = "chi_sim+eng"
+
+
 def _extract_pdf_text(path: Path) -> str:
     reader = PdfReader(path)
-    return "\n".join(page.extract_text() or "" for page in reader.pages)
+    text = "\n".join(page.extract_text() or "" for page in reader.pages)
+    if len("".join(text.split())) >= PDF_TEXT_LAYER_THRESHOLD:
+        return text
+    return _ocr_pdf_pages(path)
+
+
+def _ocr_pdf_pages(path: Path) -> str:
+    with tempfile.TemporaryDirectory() as workspace:
+        prefix = Path(workspace) / "page"
+        try:
+            rendered = subprocess.run(
+                ["pdftoppm", "-r", PDF_RENDER_DPI, "-png", str(path), str(prefix)],
+                capture_output=True,
+                check=False,
+                timeout=300,
+            )
+        except (FileNotFoundError, subprocess.TimeoutExpired):
+            return ""
+        if rendered.returncode != 0:
+            return ""
+
+        chunks: list[str] = []
+        for image in sorted(Path(workspace).glob("page-*.png")):
+            try:
+                result = subprocess.run(
+                    ["tesseract", str(image), "stdout", "-l", OCR_LANGUAGE],
+                    capture_output=True,
+                    check=False,
+                    text=True,
+                    timeout=120,
+                )
+            except (FileNotFoundError, subprocess.TimeoutExpired):
+                continue
+            if result.returncode == 0 and result.stdout:
+                chunks.append(result.stdout)
+        return "\n".join(chunks)
 
 
 def _extract_docx_text(path: Path) -> str:

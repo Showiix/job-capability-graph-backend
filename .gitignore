@@ -1,15 +1,37 @@
+# ── macOS / Editor ────────────────────────────────────────
 .DS_Store
+.idea/
+.vscode/
+
+# ── 环境变量 / 密钥 ──────────────────────────────────────
 .env
 .env.*
 !.env.example
+
+# ── Python ───────────────────────────────────────────────
 .venv/
+venv/
 __pycache__/
 *.py[cod]
+*.egg-info/
 .pytest_cache/
 .ruff_cache/
+.mypy_cache/
+
+# ── Backend 覆盖率 / 临时产物 ────────────────────────────
 backend/.coverage
 backend/htmlcov/
+
+# ── Frontend ─────────────────────────────────────────────
 frontend/node_modules/
 frontend/dist/
 frontend/.vite/
 frontend/.cache/
+frontend/.env
+frontend/.env.*
+# 测试专用简历（公网发布避免不必要体积，保留在本地即可）
+frontend/public/resume_test.pdf
+
+# ── 爬虫原始数据（boss/job51/liepin CSV，~74MB / 338 文件，不需要进入版本）
+# 如果需要分享种子 catalog，使用 data/delivery 里的规范化 JSON + seed.sql
+data/merged_data/

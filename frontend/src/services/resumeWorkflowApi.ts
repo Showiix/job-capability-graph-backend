@@ -430,7 +430,10 @@ export async function createGrowthPath(
   matchRunId: string,
   jobRoleId: string,
 ): Promise<GrowthPathCreateResponse> {
+  // 成长路径由 LLM 生成，耗时可能远超全局 30s 超时，单独放宽
   return request.post<GrowthPathCreateResponse>(
     `/api/v1/job-recommendations/${matchRunId}/job-roles/${jobRoleId}/growth-path`,
+    undefined,
+    { timeout: 180000 },
   )
 }
