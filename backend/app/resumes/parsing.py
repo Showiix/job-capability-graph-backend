@@ -1,5 +1,6 @@
 import asyncio
 import re
+import subprocess
 from dataclasses import dataclass
 from datetime import date
 from io import BytesIO
@@ -118,6 +119,9 @@ async def extract_resume_text(path: Path, document_type: str) -> ExtractedDocume
         elif document_type == "docx":
             raw_text = await asyncio.to_thread(_extract_docx_text, path)
             method = "docx"
+        elif document_type == "image":
+            raw_text = await asyncio.to_thread(_extract_image_text, path)
+            method = "image_ocr"
         else:
             raise ValueError("unknown resume document type")
     except APIError:
@@ -126,6 +130,26 @@ async def extract_resume_text(path: Path, document_type: str) -> ExtractedDocume
         raise APIError(422, "RESUME_DOCUMENT_INVALID", "简历文档结构无效") from error
 
     return ExtractedDocument(text=normalize_extracted_text(raw_text), method=method)
+
+
+def _extract_image_text(path: Path) -> str:
+    try:
+        result = subprocess.run(
+            ["tesseract", str(path), "stdout", "-l", "chi_sim+eng"],
+            capture_output=True,
+            check=False,
+            text=True,
+            timeout=90,
+        )
+    except FileNotFoundError as error:
+        raise APIError(
+            503, "RESUME_IMAGE_OCR_NOT_CONFIGURED", "图片文字识别服务尚未安装"
+        ) from error
+    except subprocess.TimeoutExpired as error:
+        raise APIError(422, "RESUME_IMAGE_OCR_TIMEOUT", "图片文字识别超时") from error
+    if result.returncode != 0:
+        raise APIError(422, "RESUME_IMAGE_OCR_FAILED", "图片文字识别失败")
+    return result.stdout
 
 
 def normalize_extracted_text(value: str) -> str:

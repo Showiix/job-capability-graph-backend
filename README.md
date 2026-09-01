@@ -124,7 +124,7 @@ npm run dev
 
 当前能力：
 
-- applicant 单份上传 20 MB 以内的 PDF/DOCX/JPG/PNG，获得异步 `ProcessingRun` 和轮询地址；图片先由多模态 LLM 逐字转写，再进入相同的脱敏、结构化抽取和证据校验流程；
+- applicant 单份上传 20 MB 以内的 PDF/DOCX/JPG/PNG，获得异步 `ProcessingRun` 和轮询地址；图片先在后端使用中英 Tesseract OCR 转写，再由 DeepSeek 完成结构化抽取和证据校验，图片原件不发送给模型；
 - 后端在本地提取正文，对手机号、Email、身份证号和微信号进行等长脱敏后才调用 Provider；
 - 使用 Responses API Structured Outputs，校验原文 exact evidence，并只与 active Capability/active Alias 精确匹配；
 - extracted Profile 不原地修改；applicant 从 candidate/confirmed 创建人工 Revision，整体替换 Draft，并为每份 Resume 保持最多一个 confirmed Profile；

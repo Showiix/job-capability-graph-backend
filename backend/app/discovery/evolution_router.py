@@ -6,13 +6,7 @@ from typing import Literal
 from fastapi import APIRouter, HTTPException, Query
 
 router = APIRouter(prefix="/capability-evolution", tags=["discovery"])
-DATA_FILE = (
-    Path(__file__).parents[3]
-    / "data"
-    / "delivery"
-    / "2026-08-30"
-    / "capability_updates_enriched.json"
-)
+DATA_FILE = Path(__file__).with_name("evolution_data.json")
 
 
 @lru_cache(maxsize=1)

@@ -86,7 +86,7 @@ export interface ResumeProfileDetail {
   confirmed_at: string | null
   created_at: string
   updated_at: string
-  text_extraction_method: 'pdf_text' | 'docx' | 'image_llm'
+  text_extraction_method: 'pdf_text' | 'docx' | 'image_llm' | 'image_ocr'
   profile: Record<string, any>
   skills: ResumeSkillRecord[]
 }

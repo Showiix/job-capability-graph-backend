@@ -188,7 +188,7 @@ class ResumeSkillResponse(StrictSchema):
 
 
 class ResumeProfileResponse(ResumeProfileSummaryResponse):
-    text_extraction_method: Literal["pdf_text", "docx", "image_llm"]
+    text_extraction_method: Literal["pdf_text", "docx", "image_llm", "image_ocr"]
     profile: dict[str, Any]
     skills: list[ResumeSkillResponse]
 
@@ -197,5 +197,5 @@ class ExtractedTextResponse(StrictSchema):
     resume_id: UUID
     profile_id: UUID
     profile_version: int
-    text_extraction_method: Literal["pdf_text", "docx", "image_llm"]
+    text_extraction_method: Literal["pdf_text", "docx", "image_llm", "image_ocr"]
     extracted_text: str

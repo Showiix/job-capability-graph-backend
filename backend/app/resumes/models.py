@@ -76,7 +76,7 @@ class ResumeProfile(CreatedAtMixin, Base):
             "profile_source IN ('extracted','manual_revision')", name="profile_source"
         ),
         CheckConstraint(
-            "text_extraction_method IN ('pdf_text','docx','image_llm')",
+            "text_extraction_method IN ('pdf_text','docx','image_llm','image_ocr')",
             name="extraction_method",
         ),
         CheckConstraint(
