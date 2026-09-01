@@ -3045,6 +3045,100 @@ select option,
   background-color: rgba(0, 0, 0, 0.46) !important;
 }
 
+/* Product layout pass: keep Apollo surfaces, but give each workflow a clear
+   reading order and enough room for Chinese text. */
+.page-shell--evolution .page-shell__inner,
+.page-shell--emerging .page-shell__inner,
+.page-shell--applicant .page-shell__inner {
+  max-width: 1320px;
+}
+
+.page-shell--evolution .page-head--archive,
+.page-shell--emerging .page-head--archive,
+.page-shell--applicant .page-head--archive {
+  margin-bottom: 24px;
+}
+
+.page-shell--evolution .emerging-stats,
+.page-shell--emerging .emerging-stats {
+  gap: 16px;
+  margin-bottom: 20px !important;
+}
+
+.page-shell--evolution .emerging-stat,
+.page-shell--emerging .emerging-stat {
+  min-height: 108px;
+  padding: 20px 22px;
+}
+
+.page-shell--evolution .emerging-stat--primary,
+.page-shell--emerging .emerging-stat--primary {
+  min-height: 108px;
+}
+
+.page-shell--evolution .emerging-stat--primary .metric-card__value,
+.page-shell--emerging .emerging-stat--primary .metric-card__value {
+  font-size: 34px !important;
+}
+
+.page-shell--evolution .archive-panel.glass.p-5,
+.page-shell--emerging .archive-panel.glass.p-4 {
+  padding: 20px !important;
+}
+
+.page-shell--emerging .emerging-workspace-grid {
+  grid-template-columns: minmax(320px, 0.38fr) minmax(0, 0.62fr);
+  gap: 20px;
+}
+
+.page-shell--emerging .emerging-job-list .market-archive-row {
+  min-height: 96px;
+  padding: 16px !important;
+}
+
+.page-shell--emerging .emerging-insight-stack > .archive-panel {
+  padding: 24px !important;
+}
+
+.page-shell--evolution .page-shell__inner > .grid {
+  grid-template-columns: minmax(360px, 0.42fr) minmax(0, 0.58fr);
+  gap: 20px;
+}
+
+.page-shell--applicant .applicant-upload-grid {
+  grid-template-columns: minmax(0, 1.6fr) minmax(300px, 0.7fr);
+  gap: 24px;
+}
+
+.page-shell--applicant .applicant-upload-panel {
+  min-height: 400px;
+  padding: 48px !important;
+}
+
+.page-shell--applicant .applicant-upload-panel .dropzone-icon {
+  width: 84px;
+  height: 84px;
+  font-size: 28px;
+}
+
+.page-shell--applicant .applicant-scan-rail {
+  min-height: 400px;
+}
+
+.page-shell--applicant .applicant-skill-grid {
+  grid-template-columns: minmax(0, 1.45fr) minmax(320px, 0.8fr) !important;
+  gap: 24px !important;
+}
+
+@media (max-width: 980px) {
+  .page-shell--evolution .page-shell__inner > .grid,
+  .page-shell--emerging .emerging-workspace-grid,
+  .page-shell--applicant .applicant-upload-grid,
+  .page-shell--applicant .applicant-skill-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
 @media (max-width: 980px) {
   .page-shell__inner,
   .page-shell--applicant .page-shell__inner,

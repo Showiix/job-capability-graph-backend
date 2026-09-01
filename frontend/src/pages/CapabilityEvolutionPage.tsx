@@ -29,7 +29,7 @@ export default function CapabilityEvolutionPage() {
   }, [changeType, confidence, page, query])
 
   return (
-    <div className="page-shell page-shell--emerging min-h-screen pt-14">
+    <div className="page-shell page-shell--evolution min-h-screen pt-14">
       <div className="page-shell__inner max-w-7xl mx-auto px-8 py-10">
         <div className="page-head page-head--archive"><FrameCorners /><div className="page-head__icon"><RiseOutlined /></div><div className="page-head__copy"><div className="page-head__eyebrow">Capability evolution / evidence review</div><h1 className="page-head__title">岗位能力动态演化</h1><p className="page-head__desc">查看 524 个岗位的 4007 条技能新增、衰退、权重和必备等级变化，并追溯 JD 证据。</p></div></div>
         <div className="emerging-stats mb-8"><div className="metric-card archive-metric emerging-stat emerging-stat--primary"><div className="metric-card__label">变化候选</div><div className="metric-card__value">{data?.statistics.total_changes ?? 4007}</div></div><div className="metric-card archive-metric emerging-stat"><div className="metric-card__label">覆盖岗位</div><div className="metric-card__value">{data?.statistics.total_jobs_with_changes ?? 524}</div></div><div className="metric-card archive-metric emerging-stat"><div className="metric-card__label">高置信度</div><div className="metric-card__value">{data?.statistics.high_confidence ?? 1415}</div></div></div>
