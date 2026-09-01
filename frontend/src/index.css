@@ -412,6 +412,20 @@ select:focus-visible {
   opacity: 0.54;
 }
 
+.app-shell::after {
+  top: 50%;
+  left: 50%;
+  width: 54px;
+  height: 54px;
+  border: 1px solid rgba(255, 243, 234, 0.24);
+  border-radius: 999px;
+  background:
+    linear-gradient(90deg, transparent calc(50% - 16px), rgba(255, 243, 234, 0.38) calc(50% - 16px), rgba(255, 243, 234, 0.38) calc(50% + 16px), transparent calc(50% + 16px)),
+    linear-gradient(0deg, transparent calc(50% - 16px), rgba(255, 243, 234, 0.38) calc(50% - 16px), rgba(255, 243, 234, 0.38) calc(50% + 16px), transparent calc(50% + 16px));
+  opacity: 0.34;
+  transform: translate(-50%, -50%);
+}
+
 .dynamic-skill-bg {
   position: fixed;
   inset: 0;
