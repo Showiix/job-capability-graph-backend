@@ -244,11 +244,6 @@ select:focus-visible {
   opacity: 0.62 !important;
 }
 
-.app-shell::after {
-  border-color: rgba(255, 243, 234, 0.28) !important;
-  opacity: 0.42 !important;
-}
-
 .dynamic-skill-bg {
   background: #000000 !important;
 }
