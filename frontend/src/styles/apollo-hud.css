@@ -42,8 +42,22 @@ a,
 input,
 textarea,
 select {
-  letter-spacing: 0.04em;
+  letter-spacing: 0;
 }
+
+/* Shared readability baseline: Chinese product copy stays readable; only
+   explicit HUD labels below keep the compact mono treatment. */
+body { font-size: 14px; line-height: 1.55; }
+button, input, textarea, select { font-size: 14px; line-height: 1.4; }
+.page-head__title { font-size: clamp(30px, 3.4vw, 42px) !important; line-height: 1.12 !important; }
+.page-head__desc { font-size: 14px !important; line-height: 1.65 !important; letter-spacing: 0 !important; }
+.metric-card__label { font-size: 12px !important; letter-spacing: 0.04em !important; }
+.metric-card__value { font-size: clamp(28px, 3vw, 42px) !important; line-height: 1 !important; font-variant-numeric: tabular-nums; }
+.archive-panel { padding: 24px; }
+.btn-sm { min-height: 36px; padding: 8px 14px; font-size: 13px; letter-spacing: 0 !important; }
+.btn-md { min-height: 44px; padding: 11px 20px; font-size: 14px; letter-spacing: 0 !important; }
+.archive-control { min-height: 40px; font-size: 14px !important; letter-spacing: 0 !important; }
+.tag { font-size: 12px !important; letter-spacing: 0 !important; line-height: 1.4; }
 
 button:focus-visible,
 a:focus-visible,

@@ -15,10 +15,28 @@ function ThemedApp() {
           colorTextBase: '#FFF3EA',
           colorBorder: 'rgba(255,243,234,0.22)',
           borderRadius: 0,
+          fontSize: 14,
+          controlHeight: 40,
+          controlHeightSM: 36,
+          lineHeight: 1.5,
         },
         components: {
           Layout: {
             headerBg: '#000000',
+          },
+          Input: {
+            activeBorderColor: '#E4B592',
+            hoverBorderColor: '#E4B592',
+            colorBgContainer: 'rgba(255,243,234,0.035)',
+          },
+          Select: {
+            optionSelectedBg: 'rgba(238,18,18,0.16)',
+            optionActiveBg: 'rgba(255,243,234,0.08)',
+            colorBgContainer: 'rgba(255,243,234,0.035)',
+          },
+          Button: {
+            controlHeight: 40,
+            contentFontSize: 14,
           },
         },
       }}

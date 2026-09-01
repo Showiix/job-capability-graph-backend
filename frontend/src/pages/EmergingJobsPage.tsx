@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import type { CSSProperties } from 'react'
+import { Select } from 'antd'
 import {
   BarChartOutlined,
   CheckCircleOutlined,
@@ -240,16 +241,17 @@ export default function EmergingJobsPage() {
                     {filteredJobs.length} / {jobs.length} RECORDS
                   </div>
                 </div>
-                <select
+                <Select
                   value={sortBy}
-                  onChange={(event) => setSortBy(event.target.value as SortBy)}
-                  className="bg-[rgba(0,0,0,0.44)] border border-[var(--border)] px-2 py-1 text-xs text-[var(--text)] outline-none"
+                  onChange={(value: SortBy) => setSortBy(value)}
                   aria-label="排序岗位定义"
-                >
-                  <option value="jdCount">按 JD 覆盖</option>
-                  <option value="companyCount">按公司数</option>
-                  <option value="title">按岗位名</option>
-                </select>
+                  className="min-w-36"
+                  options={[
+                    { value: 'jdCount', label: '按 JD 覆盖' },
+                    { value: 'companyCount', label: '按公司数' },
+                    { value: 'title', label: '按岗位名' },
+                  ]}
+                />
               </div>
 
               <div className="emerging-search-control archive-control mb-3">
@@ -265,20 +267,26 @@ export default function EmergingJobsPage() {
               <div className="emerging-filter-grid mb-4">
                 <label className="emerging-filter-field">
                   <span><FilterOutlined /> 行业</span>
-                  <select value={industryFilter} onChange={(event) => setIndustryFilter(event.target.value)}>
-                    <option value="all">全部行业</option>
-                    {industryOptions.map((industry) => (
-                      <option key={industry} value={industry}>{industry}</option>
-                    ))}
-                  </select>
+                  <Select
+                    value={industryFilter}
+                    onChange={setIndustryFilter}
+                    aria-label="行业筛选"
+                    className="w-full"
+                    options={[
+                      { value: 'all', label: '全部行业' },
+                      ...industryOptions.map((industry) => ({ value: industry, label: industry })),
+                    ]}
+                  />
                 </label>
                 <label className="emerging-filter-field">
                   <span><CheckCircleOutlined /> 状态</span>
-                  <select value={statusFilter} onChange={(event) => setStatusFilter(event.target.value as StatusFilter)}>
-                    {Object.entries(STATUS_LABELS).map(([value, label]) => (
-                      <option key={value} value={value}>{label}</option>
-                    ))}
-                  </select>
+                  <Select
+                    value={statusFilter}
+                    onChange={(value: StatusFilter) => setStatusFilter(value)}
+                    aria-label="状态筛选"
+                    className="w-full"
+                    options={Object.entries(STATUS_LABELS).map(([value, label]) => ({ value, label }))}
+                  />
                 </label>
               </div>
 

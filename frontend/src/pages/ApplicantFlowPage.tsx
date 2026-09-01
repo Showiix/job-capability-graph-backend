@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import type { ChangeEvent, DragEvent } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { Button, Input } from 'antd'
 import { RadarChart, PolarGrid, PolarAngleAxis, Radar, ResponsiveContainer } from 'recharts'
 import {
   ArrowLeftOutlined,
@@ -929,8 +930,8 @@ export default function ApplicantFlowPage() {
               )}
               <div className="border-t border-[var(--border)] pt-3">
                 <label className="font-jetbrains text-[9px] text-[#e4b592] uppercase tracking-[0.14em]">人工修订技能</label>
-                <textarea className="w-full mt-2 bg-black/40 border border-[var(--border)] px-3 py-2 text-xs" rows={2} placeholder="用逗号补充或替换技能" value={editedSkills} onChange={(event) => setEditedSkills(event.target.value)} />
-                <button className="btn btn-sm btn-ghost mt-2" onClick={() => void saveProfileRevision()} disabled={revisionSaving || !editedSkills.trim()}>{revisionSaving ? <LoadingOutlined /> : <ReloadOutlined />} 保存修订草稿</button>
+                <Input.TextArea className="mt-2" autoSize={{ minRows: 2, maxRows: 4 }} placeholder="用逗号补充或替换技能" value={editedSkills} onChange={(event) => setEditedSkills(event.target.value)} aria-label="人工修订技能" />
+                <Button className="mt-2" onClick={() => void saveProfileRevision()} disabled={revisionSaving || !editedSkills.trim()} loading={revisionSaving} icon={<ReloadOutlined />}>保存修订草稿</Button>
               </div>
               <button className="btn btn-md btn-primary mt-auto" onClick={handleConfirmAndRecommend} disabled={recommendationLoading}>
                 {recommendationLoading ? <LoadingOutlined /> : <CheckCircleOutlined />}
