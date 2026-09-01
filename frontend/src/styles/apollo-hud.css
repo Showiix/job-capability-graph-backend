@@ -1278,39 +1278,6 @@ select option,
   transform: translateY(0);
 }
 
-.moon-archive__focus {
-  position: absolute;
-  left: var(--focus-x);
-  top: var(--focus-y);
-  z-index: 6;
-  width: 112px;
-  height: 112px;
-  border: 1px solid rgba(255, 243, 234, 0.36);
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-}
-
-.moon-archive__focus::before,
-.moon-archive__focus::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  background: rgba(255, 243, 234, 0.42);
-  transform: translate(-50%, -50%);
-}
-
-.moon-archive__focus::before {
-  width: 150px;
-  height: 1px;
-}
-
-.moon-archive__focus::after {
-  width: 1px;
-  height: 150px;
-}
-
 .archive-photo-field {
   position: absolute;
   inset: 70px 0 0;
