@@ -49,6 +49,7 @@ import {
 } from '../services/resumeWorkflowApi'
 import type { GraphData, Planet, Star } from '../types/graph'
 import { findGraphStarForRole } from '../utils/graphRoleMatch'
+import { API_BASE_URL } from '../services/apiBase'
 
 type Step = 0 | 1 | 2 | 3
 type ActiveTab = 'radar' | 'skills' | 'graph' | 'path'
@@ -132,6 +133,12 @@ function proficiencyLabel(value: string | null | undefined) {
 
 function educationLabel(value: string | null | undefined) {
   return value ? EDUCATION_LABELS[value] || value : '未知'
+}
+
+function openResumeOriginal(contentUrl: string | null) {
+  if (!contentUrl) return
+  const url = /^https?:\/\//i.test(contentUrl) ? contentUrl : `${API_BASE_URL}${contentUrl}`
+  window.open(url, '_blank', 'noopener,noreferrer')
 }
 
 function formatMonths(value: number | null | undefined) {
@@ -855,7 +862,7 @@ export default function ApplicantFlowPage() {
               <FrameCorners />
               <div className="flex items-center justify-between gap-3">
                 <div className="font-outfit font-bold text-[15px] text-[var(--text)]">简历画像摘要</div>
-                {resumeContentUrl && <button type="button" className="btn btn-sm btn-ghost" onClick={() => window.open(resumeContentUrl, '_blank', 'noopener,noreferrer')}><FolderOpenOutlined /> 查看上传原件</button>}
+                {resumeContentUrl && <button type="button" className="btn btn-sm btn-ghost" onClick={() => openResumeOriginal(resumeContentUrl)}><FolderOpenOutlined /> 查看上传原件</button>}
               </div>
               <p className="text-[13px] leading-6 text-[var(--text-dim)]">{summary}</p>
               <dl className="grid grid-cols-2 gap-2 text-[12px]">
@@ -895,7 +902,7 @@ export default function ApplicantFlowPage() {
               <div className="border-t border-[var(--border)] pt-3">
                 <div className="flex items-center justify-between gap-3 mb-2">
                   <div className="font-jetbrains text-[9px] text-[#e4b592] uppercase tracking-[0.14em]">Evidence preview</div>
-                  {resumeContentUrl && <button type="button" className="text-[10px] text-[#e4b592]" onClick={() => window.open(resumeContentUrl, '_blank', 'noopener,noreferrer')}>查看原件</button>}
+                  {resumeContentUrl && <button type="button" className="text-[10px] text-[#e4b592]" onClick={() => openResumeOriginal(resumeContentUrl)}>查看原件</button>}
                 </div>
                 <div className="flex flex-col gap-2">
                   {[
@@ -915,7 +922,7 @@ export default function ApplicantFlowPage() {
                       meta: dateRange(item),
                     })),
                   ].map((item) => (
-                    <button key={`${item.label}-${item.title}`} type="button" onClick={() => resumeContentUrl && window.open(resumeContentUrl, '_blank', 'noopener,noreferrer')} className="w-full border border-[var(--border)] px-3 py-2 text-left disabled:cursor-default" disabled={!resumeContentUrl}>
+                    <button key={`${item.label}-${item.title}`} type="button" onClick={() => openResumeOriginal(resumeContentUrl)} className="w-full border border-[var(--border)] px-3 py-2 text-left disabled:cursor-default" disabled={!resumeContentUrl}>
                       <div className="text-[11px] text-[#dad0c8]">{item.label} / {item.title}</div>
                       <div className="font-jetbrains text-[9px] text-[var(--text-dim)] mt-1">{item.meta}</div>
                     </button>
