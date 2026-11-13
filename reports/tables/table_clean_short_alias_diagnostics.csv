@@ -1,0 +1,19 @@
+﻿capability,alias,raw_jd_hits,strict_jd_hits,domain_jd_hits,noise_dropped_count,noise_ratio_pct,compound_recovered_count,top_dropped_noise_tokens
+图文编辑,ps,2579,252,252,2327,90.2287708414114,0,devops(804); ips(424); deepseek(285); gps(226); https(221); ups(211)
+图文编辑,sd,1131,71,90,1041,92.04244031830238,19,sdk(780); sdn(109); esd(107); sdh(64); ssd(52); gaussdb(36)
+交互内容制作,less,129,19,19,110,85.27131782945736,0,serverless(59); wireless(35); seamless(18); lesson(9); lessons(5); serveless(4)
+数据清洗,sql,6059,3751,6019,40,0.6601749463607856,2268,sqlmap(18); nl2sql(15); text2sql(7); hivesql(5); pgsql(3); sparksql(2)
+文本挖掘,rag,1187,1150,1150,37,3.1171019376579614,0,storage(17); fusionstorage(5); fragment(4); coverage(4); hcie-storage(4); graphrag(3)
+交互内容制作,http,798,691,778,20,2.506265664160401,87,aiohttp(10); http2(4); httprunner(3); httpd(3); httpx(2); restfulhttps(2)
+数据可视化,ppt,669,657,657,12,1.7937219730941705,0,mppt(11); ppts(2); pptword(1)
+提示工程,llm,1060,997,1052,8,0.7547169811320755,55,llmapi(5); llm4rec(2); hallmark(1); llmfactory(1)
+文本挖掘,ocr,190,180,182,8,4.2105263157894735,2,audiocraft(4); procreate(2); democratic(1); democratization(1)
+交互内容制作,vue,1427,1377,1423,4,0.2803083391730904,46,mpvue(3); vuejs(1); systemvue(1)
+AI 内容生成,dify,218,216,216,2,0.9174311926605505,0,modifying(1); modify(1)
+交互内容制作,css3,295,294,294,1,0.3389830508474576,0,css3javascript(1)
+交互内容制作,sass,16,15,15,1,6.25,0,-disassemble(1)
+统计推断,spss,59,58,58,1,1.694915254237288,0,spssmodeler(1)
+图文编辑,luma,0,0,0,0,0.0,0,
+文本挖掘,nlp,807,783,807,0,0.0,24,
+图文编辑,pika,8,8,8,0,0.0,0,
+任务拆解,wbs,33,33,33,0,0.0,0,
